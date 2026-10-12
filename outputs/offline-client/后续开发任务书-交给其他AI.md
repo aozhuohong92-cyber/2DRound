@@ -119,11 +119,11 @@ P0 前截图曾显示“普通02-01海”，与 fixture 中首关名称“伟大
 | `tests/test_core.lua`、`tests/test_skills.lua` | 现有测试 |
 | `prepare_assets.py`、`build.py`、`verify.py` | 资源准备、构建、验证 |
 | `新窗口-闯关交接.md`、`闯关取证记录.md` | 当前交接与原调用链 |
-| `../界面资源/闯关/README.md`、`资源清单.json` | 资源路径、分类和哈希 |
+| `../../assets/ui/闯关/README.md`、`资源清单.json` | 资源路径、分类和哈希 |
 
 原业务代码（相对项目根）：`outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/`。
 原配置代码：`outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/`。
-优先看 `battle_drama/`、`battle/new_view/battle_scene_view.lua` 和 dungeon 配置；录屏线索在 `outputs/video-review/`。
+优先看 `battle_drama/`、`battle/new_view/battle_scene_view.lua` 和 dungeon 配置；录屏线索在 `docs/reference-video/`。
 反编译代码有 slot/uv 混淆，语法可运行不证明语义正确。
 
 ## 8. 不可破坏的约束

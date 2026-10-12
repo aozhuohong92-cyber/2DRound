@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib, json, plistlib, shutil
 from prepare_assets import ROOT, resolve, dependencies
 PROJ = Path(__file__).resolve().parent
-DEST = ROOT / 'outputs/界面资源/主城/底部导航'
+DEST = ROOT / 'assets/ui/主城/底部导航'
 
 def write_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)

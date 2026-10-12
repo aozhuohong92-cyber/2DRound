@@ -1,6 +1,6 @@
 {
   "action_file": "run",
-  "folder": "outputs/角色资源/路飞/动作/05_移动_run",
+  "folder": "assets/characters/路飞/动作/05_移动_run",
   "animation_names_from_config": [
     "run"
   ],

@@ -1,6 +1,6 @@
 {
   "action_file": "action2",
-  "folder": "outputs/角色资源/路飞/动作/03_Jet枪分段_action2",
+  "folder": "assets/characters/路飞/动作/03_Jet枪分段_action2",
   "animation_names_from_config": [
     "action1",
     "action2",

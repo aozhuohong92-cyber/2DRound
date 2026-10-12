@@ -1,6 +1,6 @@
 {
   "action_file": "hurt",
-  "folder": "outputs/角色资源/路飞/动作/04_受击_hurt",
+  "folder": "assets/characters/路飞/动作/04_受击_hurt",
   "animation_names_from_config": [
     "hurt"
   ],

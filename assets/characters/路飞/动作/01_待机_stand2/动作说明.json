@@ -1,6 +1,6 @@
 {
   "action_file": "stand2",
-  "folder": "outputs/角色资源/路飞/动作/01_待机_stand2",
+  "folder": "assets/characters/路飞/动作/01_待机_stand2",
   "animation_names_from_config": [
     "stand2"
   ],

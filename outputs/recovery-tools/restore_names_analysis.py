@@ -4,7 +4,7 @@ sys.path.insert(0,'outputs/recovery-tools');from resource_hash import resource_h
 root=Path('outputs');assets=root/'apk-extracted/assets';available={p.stem:p for p in assets.rglob('*') if p.is_file()}; matches={}; candidates=set()
 for name in ['main','config','config_init','config_demo','file_update','sdk_function','url_config','url_config_local']:
  candidates.add(name+'.luac')
-for p in (root/'lua-decompiled').glob('*.lua'):
+for p in (root/'src/client/lua').glob('*.lua'):
  s=p.read_text(errors='replace')
  for name in re.findall(r'(?:layout_name\s*=|getTargetCSB\(|initLayoutFile\()\s*"([^"]+)"',s):
   candidates.add('SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/'+name+'.csb')
@@ -27,7 +27,7 @@ for name in sorted(candidates):
 (root/'resource-name-map.json').write_text(json.dumps(matches,ensure_ascii=False,indent=2));code=root/'lua-restored-paths';code.mkdir(exist_ok=True);code_rows=[]
 for name,asset in matches.items():
  if not name.endswith('.luac'):continue
- src=root/'lua-decompiled'/(Path(asset).stem+'.lua')
+ src=root/'src/client/lua'/(Path(asset).stem+'.lua')
  if not src.exists():continue
  dst=(code/name).with_suffix('.lua');dst.parent.mkdir(parents=True,exist_ok=True)
  if not dst.exists():os.link(src,dst)

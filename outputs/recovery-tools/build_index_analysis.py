@@ -1,7 +1,7 @@
 from pathlib import Path
 import json,re,collections
 root=Path('outputs');rows=[]; protocols=[];modules=collections.defaultdict(list)
-for p in sorted((root/'lua-decompiled').glob('*.lua')):
+for p in sorted((root/'src/client/lua').glob('*.lua')):
  s=p.read_text(errors='replace'); name=None;kind='其他'
  for pat in [r'^([A-Za-z_][\w.]*)\s*=\s*\1\s+or\s+BaseClass',r'^Config\.([\w]+)\s*=',r'^([A-Za-z_][\w]*)\s*=\s*\1\s+or\s*\{',r'^function ([A-Za-z_][\w]+)[.:]']:
   m=re.search(pat,s,re.M)

@@ -1,6 +1,6 @@
 {
   "action_file": "action9",
-  "folder": "outputs/角色资源/路飞/动作/06_二档_action9",
+  "folder": "assets/characters/路飞/动作/06_二档_action9",
   "animation_names_from_config": [
     "action9"
   ],

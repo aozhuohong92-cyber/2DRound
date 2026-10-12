@@ -3,7 +3,7 @@ from pathlib import Path
 import ast, hashlib, json, os, re, shutil
 from prepare_assets import ROOT, resolve, SPINE, dependencies
 CONFIG = ROOT / 'outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW'
-DEST = ROOT / 'outputs/角色资源/路飞'
+DEST = ROOT / 'assets/characters/路飞'
 ACTION_NAMES = {'stand2':'01_待机_stand2', 'action1':'02_普攻_action1', 'action2':'03_Jet枪分段_action2',
                 'hurt':'04_受击_hurt', 'run':'05_移动_run', 'action9':'06_二档_action9'}
 

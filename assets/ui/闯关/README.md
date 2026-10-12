@@ -41,12 +41,12 @@
 
 | 文件 | 作用 |
 |---|---|
-| `offline-client/src/offline/drama_resources.lua` | 10008 背景、CSB、plist 路径 |
-| `offline-client/src/offline/drama_fixture.lua` | 明确标记的首关离线预览数据 |
-| `offline-client/src/offline/drama_scene.lua` | 背景层级、横向重复和原按钮 CSB |
-| `offline-client/src/offline/main_city.lua` | 中央导航回调；可复用原底栏、隐藏主城地图/顶部 |
-| `offline-client/src/offline/route.lua` | 阻止重复点击和重入建场景 |
-| `offline-client/src/main.lua` | 主城 ↔ 闯关场景调度 |
+| `outputs/offline-client/src/offline/drama_resources.lua` | 10008 背景、CSB、plist 路径 |
+| `outputs/offline-client/src/offline/drama_fixture.lua` | 明确标记的首关离线预览数据 |
+| `outputs/offline-client/src/offline/drama_scene.lua` | 背景层级、横向重复和原按钮 CSB |
+| `outputs/offline-client/src/offline/main_city.lua` | 中央导航回调；可复用原底栏、隐藏主城地图/顶部 |
+| `outputs/offline-client/src/offline/route.lua` | 阻止重复点击和重入建场景 |
+| `outputs/offline-client/src/main.lua` | 主城 ↔ 闯关场景调度 |
 
 ## 待确认
 

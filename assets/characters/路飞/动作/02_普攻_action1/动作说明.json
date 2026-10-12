@@ -1,6 +1,6 @@
 {
   "action_file": "action1",
-  "folder": "outputs/角色资源/路飞/动作/02_普攻_action1",
+  "folder": "assets/characters/路飞/动作/02_普攻_action1",
   "animation_names_from_config": [
     "action1"
   ],

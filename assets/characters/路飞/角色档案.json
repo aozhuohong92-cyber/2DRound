@@ -17,7 +17,7 @@
   "actions": [
     {
       "action_file": "stand2",
-      "folder": "outputs/角色资源/路飞/动作/01_待机_stand2",
+      "folder": "assets/characters/路飞/动作/01_待机_stand2",
       "animation_names_from_config": [
         "stand2"
       ],
@@ -48,7 +48,7 @@
     },
     {
       "action_file": "action1",
-      "folder": "outputs/角色资源/路飞/动作/02_普攻_action1",
+      "folder": "assets/characters/路飞/动作/02_普攻_action1",
       "animation_names_from_config": [
         "action1"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "action_file": "action2",
-      "folder": "outputs/角色资源/路飞/动作/03_Jet枪分段_action2",
+      "folder": "assets/characters/路飞/动作/03_Jet枪分段_action2",
       "animation_names_from_config": [
         "action1",
         "action2",
@@ -114,7 +114,7 @@
     },
     {
       "action_file": "hurt",
-      "folder": "outputs/角色资源/路飞/动作/04_受击_hurt",
+      "folder": "assets/characters/路飞/动作/04_受击_hurt",
       "animation_names_from_config": [
         "hurt"
       ],
@@ -145,7 +145,7 @@
     },
     {
       "action_file": "run",
-      "folder": "outputs/角色资源/路飞/动作/05_移动_run",
+      "folder": "assets/characters/路飞/动作/05_移动_run",
       "animation_names_from_config": [
         "run"
       ],
@@ -176,7 +176,7 @@
     },
     {
       "action_file": "action9",
-      "folder": "outputs/角色资源/路飞/动作/06_二档_action9",
+      "folder": "assets/characters/路飞/动作/06_二档_action9",
       "animation_names_from_config": [
         "action9"
       ],
