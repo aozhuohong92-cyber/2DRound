@@ -1,0 +1,84 @@
+{
+  "note": "这些文件在本机资源集中不存在；占位显示。需从原机器 apk-extracted 拷回，不要重新解包 APK。",
+  "items": [
+    {
+      "logical_path": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_resources_collect.csb",
+      "used_by": "05_收益挂机",
+      "where": "battle_drama_top_view.lua:1444",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battledrama/battle_drama_qingbao_node.csb",
+      "used_by": "03_右上图标",
+      "where": "battle_drama_top_view.lua:1042",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/bigbg/battle_bg/10008/blayer/small_map.jpg",
+      "used_by": "03_右上图标",
+      "where": "battle_drama_top_view.lua:921",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/headicon/b20101.jpg",
+      "used_by": "06_底部面板",
+      "where": "battle_drama_top_view.lua:1812（101031 head_icon=20101）",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30022/stand2.skel",
+      "used_by": "04_战场",
+      "where": "unit_data1.lua（敌方 body_id）",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30012/stand2.skel",
+      "used_by": "04_战场",
+      "where": "unit_data1.lua:22257",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/item/1.png",
+      "used_by": "06_底部面板/05_收益挂机",
+      "where": "item 1 贝里",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/item/3.png",
+      "used_by": "06_底部面板/05_收益挂机",
+      "where": "item 3 钻石",
+      "status": "本机已有"
+    },
+    {
+      "logical_path": "resource/item/5.png",
+      "used_by": "06_底部面板/05_收益挂机",
+      "where": "item 5 船长经验",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/item/7.png",
+      "used_by": "06_底部面板/05_收益挂机",
+      "where": "item 7 远航情报",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/item/22.png",
+      "used_by": "06_底部面板/05_收益挂机",
+      "where": "item 22 英雄经验",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/item/10001.png",
+      "used_by": "06_底部面板/05_收益挂机",
+      "where": "item 10001 突破卡",
+      "status": "缺资源"
+    },
+    {
+      "logical_path": "resource/item/29997.png",
+      "used_by": "06_底部面板/05_收益挂机",
+      "where": "item 29903 3星随机碎片",
+      "status": "缺资源"
+    }
+  ],
+  "absent_count": 12
+}

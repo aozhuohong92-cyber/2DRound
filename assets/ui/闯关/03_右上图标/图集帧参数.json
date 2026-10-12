@@ -1,0 +1,128 @@
+{
+  "battledrama_1001": {
+    "frame": "{{724,103},{139,139}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{139,139}}",
+    "sourceSize": "{139,139}"
+  },
+  "battledrama_1010": {
+    "frame": "{{724,402},{131,131}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{131,131}}",
+    "sourceSize": "{131,131}"
+  },
+  "battledrama_1013": {
+    "frame": "{{898,2},{22,32}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{22,32}}",
+    "sourceSize": "{22,32}"
+  },
+  "battledrama_1016": {
+    "frame": "{{547,893},{37,39}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{37,39}}",
+    "sourceSize": "{37,39}"
+  },
+  "battledrama_1018": {
+    "frame": "{{504,893},{37,41}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{37,41}}",
+    "sourceSize": "{37,41}"
+  },
+  "battledrama_1020": {
+    "frame": "{{590,787},{73,73}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{73,73}}",
+    "sourceSize": "{73,73}"
+  },
+  "battledrama_1014": {
+    "frame": "{{803,606},{119,103}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{119,103}}",
+    "sourceSize": "{119,103}"
+  },
+  "battledrama_1021": {
+    "frame": "{{652,711},{71,71}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{71,71}}",
+    "sourceSize": "{71,71}"
+  },
+  "battledrama_1024": {
+    "frame": "{{876,179},{36,50}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{36,50}}",
+    "sourceSize": "{36,50}"
+  },
+  "battledrama_1038": {
+    "frame": "{{2,450},{500,480}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{500,480}}",
+    "sourceSize": "{500,480}"
+  },
+  "battledrama_resoure_1": {
+    "frame": "{{578,711},{74,72}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{74,72}}",
+    "sourceSize": "{74,72}"
+  },
+  "battledrama_resoure_2": {
+    "frame": "{{504,803},{84,88}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{84,88}}",
+    "sourceSize": "{84,88}"
+  },
+  "battledrama_resoure_3": {
+    "frame": "{{504,647},{58,66}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{58,66}}",
+    "sourceSize": "{58,66}"
+  },
+  "battledrama_resoure_4": {
+    "frame": "{{504,711},{90,46}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{90,46}}",
+    "sourceSize": "{90,46}"
+  },
+  "battledrama_2001": {
+    "frame": "{{2,2},{720,446}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{720,446}}",
+    "sourceSize": "{720,446}"
+  },
+  "battledrama_2005": {
+    "frame": "{{865,217},{323,58}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{323,58}}",
+    "sourceSize": "{323,58}"
+  },
+  "txt_cn_common_90022": {
+    "frame": "{{730,706},{39,39}}",
+    "offset": "{0,0}",
+    "rotated": false,
+    "sourceColorRect": "{{0,0},{39,39}}",
+    "sourceSize": "{39,39}"
+  },
+  "common_1056": {
+    "frame": "{{771,705},{49,43}}",
+    "offset": "{0,0}",
+    "rotated": true,
+    "sourceColorRect": "{{0,0},{49,43}}",
+    "sourceSize": "{49,43}"
+  }
+}

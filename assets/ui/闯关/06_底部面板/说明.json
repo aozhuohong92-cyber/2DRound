@@ -1,0 +1,44 @@
+{
+  "category": "底部面板",
+  "items": [
+    {
+      "name": "面板 battle_button_list.csb",
+      "status": "已确认",
+      "source": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb（真机已加载）"
+    },
+    {
+      "name": "标题 title_pass「伟大航路3」/ 描述《ONE PIECE》",
+      "status": "近似",
+      "source": "title_pass 节点；描述为代码内创建，覆盖显示"
+    },
+    {
+      "name": "详情 / 快速挂机 / 奖励栏框 / WANTED 板",
+      "status": "近似",
+      "source": "CSB 内节点，P0 曾隐藏，参考模式重新显示，位置未设备验证"
+    },
+    {
+      "name": "挑战BOSS 按钮",
+      "status": "已确认",
+      "source": "guildsign_battle_boss_btn；仅入口门控 + 固定回放"
+    },
+    {
+      "name": "奖励 4 格图标",
+      "status": "缺资源",
+      "source": "resource/item/{3,7,10001,29997}.png；仅 3.png（钻石）本机已有，其余 3 个缺"
+    },
+    {
+      "name": "BOSS 悬赏人像",
+      "status": "缺资源",
+      "source": "resource/headicon/b<head_icon>.jpg"
+    },
+    {
+      "name": "「我要变强」encounter_btn",
+      "status": "占位",
+      "source": "参考图无此项，保持隐藏"
+    }
+  ],
+  "notes": [
+    "面板位置 panel:setPosition(width/2, -33)，层级 5，低于底栏 10。",
+    "奖励 show_items 前 4 项：钻石、远航情报、突破卡、3星随机碎片。"
+  ]
+}

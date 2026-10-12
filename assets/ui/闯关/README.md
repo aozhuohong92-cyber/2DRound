@@ -1,57 +1,36 @@
-# 闯关界面资源归档（第一版入口与返回）
+# 闯关界面美术（按类别归档）
 
-本目录只归档当前已经接入并在真机加载成功的闯关资源。第一版范围是：
-主城中央草帽骷髅进入闯关预览，以及点击底部“主城”返回；不包含挑战、
-战斗演出、结算、奖励或正式进度。
+参考画面：用户提供的闯关截图（伟大航路3，900×2000）。每个子目录是一类美术，
+含 `说明.json`（逐项状态、来源、帧参数）与 `README.md`；已有的原资源按原逻辑路径
+放在 `原资源/` 下（原加密字节，不是可直接预览的 PNG）。
 
-## 已确认默认画面
-
-原代码不是先打开章节地图弹窗。调用链为：
-
-1. `main_ui_view.lua` 中央槽位调用 `requestOpenBattleRelevanceWindow(Darma)`。
-2. `mainui_controller.lua` 发送 `send20060(Darma)`。
-3. `battle_controller.lua:handle20060` 收到 Darma 后调用
-   `openBattleView(true)`。
-4. `BattleController:createMap` 创建 `BattleSceneNewView`。
-5. `BattleSceneNewView:createHorizontalMap` 对 Darma 加载 `m_bg`、`map_bg`，
-   并调用 `BattleDramaController:openBattleDramaUI`。
-6. `battle_drama_top_view.lua` 加载 `battledrama` 图集和
-   `battle/battle_button_list`，在战斗背景上创建关卡、挑战及奖励区域。
-
-首章 `Config.DungeonData.data_drama_world_info[1][1]` 的 `map_id=10008`；
-离线预览使用首关记录 `dun_id=10010`、`next_id=10020`。这些值只写入
-`src/offline/drama_fixture.lua`，不写入正常存档。
-
-## 分类
-
-| 分类 | 资源 | 用途 |
+| 目录 | 内容 | 状态概览 |
 |---|---|---|
-| 闯关主界面/背景 | `resource/bigbg/battle_bg/10008/m_bg.jpg` | 远层森林背景，原坐标 y=736 |
-| 闯关主界面/背景 | `resource/bigbg/battle_bg/10008/map_bg.png` | 近层森林背景，原坐标 y=40 |
-| 闯关主界面/关键按钮 | `SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb` | 挑战、奖励、详情等底部面板 |
-| 闯关主界面/关键按钮 | `resource/battledrama/battledrama.plist` / `.png` | 底部面板及关卡 UI 帧 |
-| 闯关主界面/预留战斗UI | `resource/battle/battle.plist` / `.png` | 后续战斗视图所需图集，本轮仅随包 |
-| 闯关主界面/装饰背景 | `resource/bigbg/pattern/pattern_3.png` | 原顶部界面资源；本轮顶部暂不处理 |
-| 闯关主界面/复用底栏 | `mainui_view.csb` + `mainui.plist` / `.png` | 保持确认版本的七个底部图标不变 |
+| [01_背景](01_背景/README.md) | 森林远/近层、顶部装饰 | 已确认 |
+| [02_顶部栏](02_顶部栏/README.md) | 头像、昵称、战力、货币 | 近似（示例值） |
+| [03_右上图标](03_右上图标/README.md) | 世界等级、通关奖励、日常任务、小地图、远航 | 近似 / 缺资源 |
+| [04_战场](04_战场/README.md) | 我方路飞、敌方、血条 | 路飞已确认，敌方缺资源 |
+| [05_收益挂机](05_收益挂机/README.md) | 每分钟收益、挂机UP、宝箱 | 近似 / 缺资源 |
+| [06_底部面板](06_底部面板/README.md) | 标题、奖励栏、WANTED、挑战BOSS | 面板已确认，图标缺资源 |
+| [07_底栏](07_底栏/README.md) | 七槽底栏 | 已确认，保持不变 |
 
-完整逻辑路径、原文件、包内路径、SHA256 和依赖见
-`资源清单.json`。资源仍以原加密字节复制，不转换成编辑器预览图。
+状态词：**已确认**（已在真机/模拟器加载验证）、**近似**（用已有资源或示例值还原，
+未逐像素对齐或未设备验证）、**占位**（带标签的占位块）、**缺资源**（本机没有该文件）。
 
-## 本轮代码映射
+## 索引
+
+- `原资源清单.json`：每个已拷贝文件的逻辑路径、原文件、SHA256（共 11 个）。
+- `缺资源清单.json`：需从原机器拷回的文件（12 个本机缺失）。
+- `历史/`：第一版（入口与返回）的说明和清单，保留不改。
+
+## 代码映射
 
 | 文件 | 作用 |
 |---|---|
-| `outputs/offline-client/src/offline/drama_resources.lua` | 10008 背景、CSB、plist 路径 |
-| `outputs/offline-client/src/offline/drama_fixture.lua` | 明确标记的首关离线预览数据 |
-| `outputs/offline-client/src/offline/drama_scene.lua` | 背景层级、横向重复和原按钮 CSB |
-| `outputs/offline-client/src/offline/main_city.lua` | 中央导航回调；可复用原底栏、隐藏主城地图/顶部 |
-| `outputs/offline-client/src/offline/route.lua` | 阻止重复点击和重入建场景 |
-| `outputs/offline-client/src/main.lua` | 主城 ↔ 闯关场景调度 |
+| `src/offline/drama_scene.lua` | 场景、背景、原按钮 CSB、挑战入口 |
+| `src/offline/drama_reference.lua` / `drama_reference_view.lua` | 参考截图示例值与右上/收益/奖励布局 |
+| `src/offline/drama_catalog.lua` | 10010 / 10030 关卡字段（带来源） |
+| `src/offline/drama_replay.lua` / `drama_battle_view.lua` / `drama_record.lua` | 固定回放状态机、视图、独立测试记录 |
+| `src/offline/main_city.lua` | 复用主城顶部栏与底栏 |
 
-## 待确认
-
-- 原顶部头像、货币和活动信息栏未实现。
-- 章节地图弹窗未实现；原默认入口已核实为战斗场景，不是该弹窗。
-- 挑战按钮不进入战斗，不发送网络消息，不改存档，不发奖励。
-- 原地图名称弹出动画和右上“退出”键未逐项还原。
-- 中央图标继续使用已验收的 `action1`；本轮没有切换 `action2`。
+整理脚本：`python3 outputs/offline-client/organize_drama.py`（只读本地已有资源，重跑会覆盖本目录生成物）。

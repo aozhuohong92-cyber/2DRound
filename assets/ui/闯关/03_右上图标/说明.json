@@ -1,0 +1,65 @@
+{
+  "category": "右上图标",
+  "items": [
+    {
+      "name": "世界等级按钮「世」",
+      "status": "近似",
+      "source": "common.plist txt_cn_common_90022；参考图为文字按钮",
+      "frame": {
+        "frame": "{{730,706},{39,39}}",
+        "offset": "{0,0}",
+        "rotated": false,
+        "sourceColorRect": "{{0,0},{39,39}}",
+        "sourceSize": "{39,39}"
+      }
+    },
+    {
+      "name": "通关奖励",
+      "status": "近似",
+      "source": "battledrama_1018 + 底 battledrama_1020",
+      "frame": {
+        "frame": "{{504,893},{37,41}}",
+        "offset": "{0,0}",
+        "rotated": true,
+        "sourceColorRect": "{{0,0},{37,41}}",
+        "sourceSize": "{37,41}"
+      }
+    },
+    {
+      "name": "日常任务",
+      "status": "近似",
+      "source": "battledrama_1016 + 底 battledrama_1020",
+      "frame": {
+        "frame": "{{547,893},{37,39}}",
+        "offset": "{0,0}",
+        "rotated": true,
+        "sourceColorRect": "{{0,0},{37,39}}",
+        "sourceSize": "{37,39}"
+      }
+    },
+    {
+      "name": "小地图外圈/遮罩/旗标",
+      "status": "近似",
+      "source": "battledrama_1001 / 1010 / 1013"
+    },
+    {
+      "name": "小地图底图",
+      "status": "缺资源",
+      "source": "resource/bigbg/battle_bg/10008/blayer/small_map.jpg"
+    },
+    {
+      "name": "远航节点（远航 200）",
+      "status": "缺资源",
+      "source": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battledrama/battle_drama_qingbao_node.csb；进度环 battledrama_1021"
+    },
+    {
+      "name": "在线礼包（钻石 5000 可领取）",
+      "status": "占位",
+      "source": "online_gift_node；礼包底图未取证；钻石图标 resource/item/3.png 本机已有，尚未接入"
+    }
+  ],
+  "notes": [
+    "图集帧矩形见 说明.json 的 frame 字段；帧在原包加密图集中，不能单独当 PNG 预览。",
+    "布局为参考图 900×2000 ×0.8 的设计坐标，已本地构建、未做设备截图验证。"
+  ]
+}

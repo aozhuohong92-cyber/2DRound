@@ -1,0 +1,39 @@
+{
+  "category": "战场",
+  "items": [
+    {
+      "name": "我方：路飞 H30104",
+      "status": "已确认",
+      "source": "../../characters/路飞/（stand2/action1/action2/hurt/run）"
+    },
+    {
+      "name": "命中特效 E80008 / E80009",
+      "status": "已确认",
+      "source": "../../characters/路飞/（技能演出已接入）"
+    },
+    {
+      "name": "敌方：海贼1号 H30012（首关）",
+      "status": "缺资源",
+      "source": "unit_data1.lua:22257；resource Spine 未在本机"
+    },
+    {
+      "name": "敌方：索隆组 H30022（伟大航路3）",
+      "status": "缺资源",
+      "source": "unit_data1.lua；101031/101032 body_id"
+    },
+    {
+      "name": "敌方占位牌",
+      "status": "占位",
+      "source": "src/offline/drama_battle_view.lua"
+    },
+    {
+      "name": "血条",
+      "status": "占位",
+      "source": "参考图红条；battle_boss_hp_progress.csb 仅用于技能演示"
+    }
+  ],
+  "notes": [
+    "固定回放只用路飞作为测试角色，不计算伤害。",
+    "参考图中的三个战斗角色模型编号未取证。"
+  ]
+}

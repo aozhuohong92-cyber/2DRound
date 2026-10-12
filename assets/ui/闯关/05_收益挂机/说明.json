@@ -1,0 +1,33 @@
+{
+  "category": "收益挂机",
+  "items": [
+    {
+      "name": "每分钟收益图标 resoure_1..4",
+      "status": "近似",
+      "source": "battledrama_resoure_1..4（帧存在，对应关系待核）"
+    },
+    {
+      "name": "收益文字 10/m 210/m 35/m 10/m",
+      "status": "近似",
+      "source": "hook_items of 10030 = {{5,10},{22,35},{1,210},{7,10}}"
+    },
+    {
+      "name": "挂机UP",
+      "status": "占位",
+      "source": "原控件未取证"
+    },
+    {
+      "name": "资源收集面板",
+      "status": "缺资源",
+      "source": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_resources_collect.csb"
+    },
+    {
+      "name": "宝箱 Spine + 12:00",
+      "status": "缺资源",
+      "source": "effect 282；CSB 缺"
+    }
+  ],
+  "notes": [
+    "物品图标走 resource/item/<icon>.png，见 缺资源清单.json。"
+  ]
+}

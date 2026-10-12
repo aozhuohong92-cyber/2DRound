@@ -1,0 +1,35 @@
+{
+  "category": "顶部栏",
+  "items": [
+    {
+      "name": "头像容器 head_container",
+      "status": "近似",
+      "source": "mainui_view.csb/top_container；头像图为 CSB 示例"
+    },
+    {
+      "name": "昵称 name_label / 等级 lev_label",
+      "status": "近似",
+      "source": "参考图示例值：流年灬贝克 / 124"
+    },
+    {
+      "name": "战力 fight_label",
+      "status": "近似",
+      "source": "参考图示例值：1643"
+    },
+    {
+      "name": "金币/钻石/第三货币 wealth_label_1..3",
+      "status": "近似",
+      "source": "参考图示例值：8000 / 3601 / 181"
+    },
+    {
+      "name": "经验条 exp_bar",
+      "status": "近似",
+      "source": "mainui_view.csb"
+    }
+  ],
+  "notes": [
+    "复用主城同一个 mainui_view.csb 与 mainui/common 图集，不在此重复拷贝：见 ../../主城/底部导航/共用原资源/。",
+    "数值来自 src/offline/drama_reference.lua，仅显示，不写存档。",
+    "闯关页隐藏了活动/红包/提示等主城专属容器。"
+  ]
+}
