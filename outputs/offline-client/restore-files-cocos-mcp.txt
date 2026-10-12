@@ -1,0 +1,1 @@
+work/mcp-install/cocos-creator-mcp/

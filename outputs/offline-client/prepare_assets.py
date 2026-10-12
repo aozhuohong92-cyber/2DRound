@@ -1,8 +1,11 @@
 """Resolve original asset dependencies without copying or changing source assets."""
 from pathlib import Path, PurePosixPath
-import hashlib, json, plistlib, re, sys
+import hashlib, json, os, plistlib, re, sys
 PROJ = Path(__file__).resolve().parent
 ROOT = PROJ.parents[1]
+APK_EXTRACTED = Path(os.environ.get('OFFLINE_APK_EXTRACTED', ROOT / 'outputs/apk-extracted'))
+# Repo-archived copies of original resources; usable only when the SHA256 matches asset-manifest.json.
+REPO_ROOTS = [ROOT / 'assets', PROJ / 'assets']
 sys.path.insert(0, str(ROOT / 'outputs/recovery-tools'))
 from resource_hash import resource_hash
 SPINE = 'v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/'
@@ -41,14 +44,66 @@ STAGE3 = [
 ]
 SEEDS += STAGE3
 
+_repo_index = None
+_expected = None
+
+def _sha256_file(p):
+    h = hashlib.sha256()
+    with open(p, 'rb') as f:
+        for chunk in iter(lambda: f.read(1 << 20), b''):
+            h.update(chunk)
+    return h.hexdigest()
+
+def _expected_sha(name):
+    global _expected
+    if _expected is None:
+        try:
+            _expected = {k: v['sha256'] for k, v in json.loads((PROJ / 'asset-manifest.json').read_text())['resources'].items()}
+        except (OSError, ValueError, KeyError):
+            _expected = {}
+    return _expected.get(name)
+
+def _repo_fallback(name):
+    """Return a repo-archived file whose SHA256 equals the recorded one, else None.
+    A same-named repo file with different bytes is an error, never a silent substitute."""
+    global _repo_index
+    expected = _expected_sha(name)
+    if not expected:
+        return None
+    if _repo_index is None:
+        _repo_index = {}
+        for root in REPO_ROOTS:
+            for f in sorted(root.rglob('*')) if root.is_dir() else []:
+                if f.is_file():
+                    _repo_index.setdefault(_sha256_file(f), f)
+    hit = _repo_index.get(expected)
+    if hit:
+        return hit
+    for root in REPO_ROOTS:
+        for f in (root.rglob(PurePosixPath(name).name) if root.is_dir() else []):
+            if f.is_file() and f.as_posix().endswith('/' + name):
+                raise ValueError(f'SHA256 mismatch for fallback {name}: {f} is {_sha256_file(f)}, expected {expected}')
+    return None
+
 def resolve(name):
     if name.startswith('/') or '..' in PurePosixPath(name).parts:
         raise ValueError('Unsafe resource path: ' + name)
     h = resource_hash(name)
-    p = ROOT / 'outputs/apk-extracted/assets/HASH' / h[0] / (h + PurePosixPath(name).suffix)
+    p = APK_EXTRACTED / 'assets/HASH' / h[0] / (h + PurePosixPath(name).suffix)
     if not p.is_file():
-        raise FileNotFoundError(name + ' -> ' + str(p))
+        fb = _repo_fallback(name)
+        if fb is None:
+            raise FileNotFoundError(name + ' -> ' + str(p))
+        return fb
     return p
+
+def canonical_archive(name):
+    h = resource_hash(name)
+    return 'assets/HASH/' + h[0] + '/' + h + PurePosixPath(name).suffix
+
+def source_path(row):
+    """Local file to pack for a manifest row: the repo fallback when one was used."""
+    return ROOT / (row.get('fallback_from') or row['source'])
 
 def dependencies(name, data):
     parent = PurePosixPath(name).parent
@@ -79,16 +134,23 @@ def prepare():
             continue
         try:
             p = resolve(name)
-        except FileNotFoundError:
+        except (FileNotFoundError, ValueError) as e:
             if required:
                 raise
+            if isinstance(e, ValueError):
+                print('WARNING: optional dependency skipped:', e, file=sys.stderr)
             unresolved.append(name)
             continue
         data = p.read_bytes()
         deps = dependencies(name, data)
-        rows[name] = {'source': str(p.relative_to(ROOT)),
-                      'archive': 'assets/' + str(p.relative_to(ROOT / 'outputs/apk-extracted/assets')),
-                      'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest(), 'dependencies': deps}
+        archive = canonical_archive(name)
+        # Record where the bytes really came from, so an OFFLINE_APK_EXTRACTED override stays usable.
+        src = p if APK_EXTRACTED in p.parents else ROOT / 'outputs/apk-extracted' / archive
+        row = {'source': str(src.relative_to(ROOT)) if ROOT in src.parents else str(src), 'archive': archive,
+               'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest(), 'dependencies': deps}
+        if APK_EXTRACTED not in p.parents:
+            row['fallback_from'] = str(p.relative_to(ROOT))
+        rows[name] = row
         pending.extend((dep, False) for dep in deps)
     report = {'status': 'dependencies_resolved_runtime_pending', 'resources': rows,
               'unresolved_dependencies': sorted(set(unresolved)),

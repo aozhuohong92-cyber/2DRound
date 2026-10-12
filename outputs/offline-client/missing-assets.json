@@ -1,0 +1,1371 @@
+{
+  "generated_at": "2026-10-12T02:08:20",
+  "status": "ready",
+  "summary": {
+    "resources_total": 74,
+    "present": 28,
+    "in_repo": 46,
+    "missing": 0,
+    "hash_mismatch": 0,
+    "missing_bytes": 0,
+    "luac_to_copy": 2145,
+    "luac_present": 2145,
+    "ready_for_build": true,
+    "ready_for_verify": true,
+    "ready_for_cocos_mcp_work": true,
+    "visual_acceptance": "waiting_for_user_video"
+  },
+  "blockers": [],
+  "acceptance": {
+    "status": "waiting_for_user_video",
+    "rule": "画面验收必须等用户提供参考视频；以视频抽帧与设备截图/照片逐项对比为准。docs/reference-video 现有仅是抽帧与时间线，不替代用户后续提供的视频。",
+    "apk_build": "ready"
+  },
+  "paths": {
+    "root": "/Users/test0/Documents/code/2DRound",
+    "apk_extracted": "/Users/test0/Documents/code/2DRound/outputs/apk-extracted",
+    "work": "/Users/test0/Documents/code/2DRound/work"
+  },
+  "resources": [
+    {
+      "logical": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_boss_hp_progress.csb",
+      "status": "present",
+      "archive": "assets/HASH/6/639D9362515FBEE6.csb",
+      "source_rel": "outputs/apk-extracted/assets/HASH/6/639D9362515FBEE6.csb",
+      "bytes": 5268,
+      "sha256": "3fa98f1e01d26c0fdafe903928a4617963a014476191126bd18adeb016092ae3",
+      "repo_path": null,
+      "size_on_original_machine": 5268,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "csb"
+    },
+    {
+      "logical": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb",
+      "status": "present",
+      "archive": "assets/HASH/7/7757BCD0D2745B3D.csb",
+      "source_rel": "outputs/apk-extracted/assets/HASH/7/7757BCD0D2745B3D.csb",
+      "bytes": 15012,
+      "sha256": "9aebefffe1392953edbf09809a0af39cf6bafdca4fc8ab356835ff530c9e262e",
+      "repo_path": null,
+      "size_on_original_machine": 15012,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "csb"
+    },
+    {
+      "logical": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/hero/formation_select_panel.csb",
+      "status": "present",
+      "archive": "assets/HASH/F/FDE7A573D765F57E.csb",
+      "source_rel": "outputs/apk-extracted/assets/HASH/F/FDE7A573D765F57E.csb",
+      "bytes": 4600,
+      "sha256": "de6fc1d72059d40483c755029b9e332c5307e98cc647b420c617cc64b054c6bd",
+      "repo_path": null,
+      "size_on_original_machine": 4600,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "csb"
+    },
+    {
+      "logical": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb",
+      "status": "in_repo",
+      "archive": "assets/HASH/5/55588DD081BA8E99.csb",
+      "source_rel": "outputs/apk-extracted/assets/HASH/5/55588DD081BA8E99.csb",
+      "bytes": 36676,
+      "sha256": "2238a1966642c5b2aff6496746dca9654c3888ee508eb48caf569dc31e63b136",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb",
+      "size_on_original_machine": 36676,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "csb"
+    },
+    {
+      "logical": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/recruithero/recruit_hero_window.csb",
+      "status": "present",
+      "archive": "assets/HASH/8/8755A6EECD56F7AD.csb",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/8755A6EECD56F7AD.csb",
+      "bytes": 15188,
+      "sha256": "aca879ccf0244d84b3dafb7839787226926c13f6951b5d30357d0c7a56c57125",
+      "repo_path": null,
+      "size_on_original_machine": 15188,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "csb"
+    },
+    {
+      "logical": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/roleinfo/role_setname_view.csb",
+      "status": "present",
+      "archive": "assets/HASH/9/9FC44CB3FE5BDBA5.csb",
+      "source_rel": "outputs/apk-extracted/assets/HASH/9/9FC44CB3FE5BDBA5.csb",
+      "bytes": 4636,
+      "sha256": "1a66ed95029083aeba5874f80dc61bbf17165ddb631a49bf8507e3f3d282eb0c",
+      "repo_path": null,
+      "size_on_original_machine": 4636,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "csb"
+    },
+    {
+      "logical": "fonts/mini.ttf",
+      "status": "in_repo",
+      "archive": "assets/HASH/9/9AA9297BB02E30D4.ttf",
+      "source_rel": "outputs/apk-extracted/assets/HASH/9/9AA9297BB02E30D4.ttf",
+      "bytes": 8012356,
+      "sha256": "7f680346a281b079095d8a25077201f510842617589e4c6dd85cfa614e512869",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/fonts/mini.ttf",
+      "size_on_original_machine": 8012356,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_boss_hp_progress.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/hero/formation_select_panel.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/recruithero/recruit_hero_window.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/roleinfo/role_setname_view.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "ttf"
+    },
+    {
+      "logical": "resource/actionwhitedaymonster/actionwhitedaymonster.plist",
+      "status": "present",
+      "archive": "assets/HASH/8/8C10DA73F3C03F4C.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/8C10DA73F3C03F4C.plist",
+      "bytes": 1775,
+      "sha256": "afe5bff1347a7b7b4e8870ce2e52563d239fd157d952bc4247ed6b389ff4a176",
+      "repo_path": null,
+      "size_on_original_machine": 1775,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_boss_hp_progress.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/actionwhitedaymonster/actionwhitedaymonster.png",
+      "status": "present",
+      "archive": "assets/HASH/F/F7977581538D9B3F.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/F/F7977581538D9B3F.png",
+      "bytes": 1074,
+      "sha256": "49fd90c9651d4705c1237127d9902092d829e75829754e35d017f2680d616c73",
+      "repo_path": null,
+      "size_on_original_machine": 1074,
+      "referenced_by": [
+        "resource/actionwhitedaymonster/actionwhitedaymonster.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/actionyearmonster/actionyearmonster_result.plist",
+      "status": "present",
+      "archive": "assets/HASH/8/8A5137CBD5C15050.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/8A5137CBD5C15050.plist",
+      "bytes": 4261,
+      "sha256": "99042a11bc794987238a3a73bfaa90c3d682301e2c0225135f395fe59bf0bbeb",
+      "repo_path": null,
+      "size_on_original_machine": 4261,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_boss_hp_progress.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/actionyearmonster/actionyearmonster_result.png",
+      "status": "present",
+      "archive": "assets/HASH/3/35395F2DFF8CD812.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/3/35395F2DFF8CD812.png",
+      "bytes": 10926,
+      "sha256": "a88c45b036e3bfe2d0a7420d13e956504c28b6358a4026c7ade93029a90d891e",
+      "repo_path": null,
+      "size_on_original_machine": 10926,
+      "referenced_by": [
+        "resource/actionyearmonster/actionyearmonster_result.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/battle/battle.plist",
+      "status": "present",
+      "archive": "assets/HASH/1/1A93DAAD9C2B2074.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/1/1A93DAAD9C2B2074.plist",
+      "bytes": 27918,
+      "sha256": "615ca77f392914f176ee1f38b00ab7833cc30bdc6f508e73b42da2f8353863cd",
+      "repo_path": null,
+      "size_on_original_machine": 27918,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/battle/battle.png",
+      "status": "present",
+      "archive": "assets/HASH/E/E9A66599D482D347.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/E/E9A66599D482D347.png",
+      "bytes": 88450,
+      "sha256": "2de32ad31c5eb24ec358ba746104ee9f673cfc85fea88648f41ce912296740de",
+      "repo_path": null,
+      "size_on_original_machine": 88450,
+      "referenced_by": [
+        "resource/battle/battle.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/battledrama/battledrama.plist",
+      "status": "present",
+      "archive": "assets/HASH/4/47D39DBA487E3573.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/4/47D39DBA487E3573.plist",
+      "bytes": 22676,
+      "sha256": "c4d70fcf76d7aa8b64c2ac719533ceac1153ea0f2eafb028f273c24621f454bc",
+      "repo_path": null,
+      "size_on_original_machine": 22676,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/battledrama/battledrama.png",
+      "status": "present",
+      "archive": "assets/HASH/8/8F38A6BA04FD7328.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/8F38A6BA04FD7328.png",
+      "bytes": 125830,
+      "sha256": "7af6152efc55939726378d1f69e8ef6d5f60eade71870201c41ad148f8df7274",
+      "repo_path": null,
+      "size_on_original_machine": 125830,
+      "referenced_by": [
+        "resource/battledrama/battledrama.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/bigbg/battle_bg/10008/m_bg.jpg",
+      "status": "present",
+      "archive": "assets/HASH/A/A98DEE231B74A394.jpg",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/A98DEE231B74A394.jpg",
+      "bytes": 64426,
+      "sha256": "27da71f0c99bb6b581fffbcb8c509a6ac8d28e2d4762f158dee1da3aeaec05bd",
+      "repo_path": null,
+      "size_on_original_machine": 64426,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "jpg"
+    },
+    {
+      "logical": "resource/bigbg/battle_bg/10008/map_bg.png",
+      "status": "present",
+      "archive": "assets/HASH/5/5FABF1DC0814E50D.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/5/5FABF1DC0814E50D.png",
+      "bytes": 53502,
+      "sha256": "11a3c8863e0d0c9699281cda0b20503e1780522b099f7022b132a383b909f539",
+      "repo_path": null,
+      "size_on_original_machine": 53502,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/bigbg/battle_bg/10032/b_bg.jpg",
+      "status": "in_repo",
+      "archive": "assets/HASH/F/F79CD1E28104FE60.jpg",
+      "source_rel": "outputs/apk-extracted/assets/HASH/F/F79CD1E28104FE60.jpg",
+      "bytes": 70406,
+      "sha256": "567f14b2923087b96adb7a1c1cd35c3fed9c40725fac9813916df94ca4f3a6a0",
+      "repo_path": "outputs/offline-client/assets/HASH/F/F79CD1E28104FE60.jpg",
+      "size_on_original_machine": 70406,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "jpg"
+    },
+    {
+      "logical": "resource/bigbg/pattern/pattern_3.png",
+      "status": "present",
+      "archive": "assets/HASH/0/09B09D318F61F6B6.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/0/09B09D318F61F6B6.png",
+      "bytes": 7122,
+      "sha256": "8970a1a512b7ac17277382da3b3ce535a61123e172f6235d02804d13c0e80be3",
+      "repo_path": null,
+      "size_on_original_machine": 7122,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/centerscene/centercity/1/1.png",
+      "status": "present",
+      "archive": "assets/HASH/9/98B88855C55558DC.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/9/98B88855C55558DC.png",
+      "bytes": 566,
+      "sha256": "570283f3d966e0108d3df77b6bbe278168355860f9ea5750a459db660bfd42c2",
+      "repo_path": null,
+      "size_on_original_machine": 566,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/centerscene/centercity/1/2.png",
+      "status": "present",
+      "archive": "assets/HASH/A/A83364384D2120CF.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/A83364384D2120CF.png",
+      "bytes": 237590,
+      "sha256": "367ac7ec13835499f00e2187aff6bae3c44045135b2cce79487685978fa53ad7",
+      "repo_path": null,
+      "size_on_original_machine": 237590,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/centerscene/centercity/1/3.png",
+      "status": "present",
+      "archive": "assets/HASH/8/8E10224ED8828B23.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/8E10224ED8828B23.png",
+      "bytes": 114698,
+      "sha256": "1414e6ab0225dc41762bfbaefa5bc5d68cbf56120bef8fedfc3c43ccc8ac10b0",
+      "repo_path": null,
+      "size_on_original_machine": 114698,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/centerscene/centercity/1/4.jpg",
+      "status": "present",
+      "archive": "assets/HASH/E/EE5CCCC1B5AFA1EF.jpg",
+      "source_rel": "outputs/apk-extracted/assets/HASH/E/EE5CCCC1B5AFA1EF.jpg",
+      "bytes": 71358,
+      "sha256": "2b71843c83333a4e0b143abc9348e1295e9daedf141c676fc73f1bc6fe84c0fd",
+      "repo_path": null,
+      "size_on_original_machine": 71358,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "jpg"
+    },
+    {
+      "logical": "resource/centerscene/centerscene.plist",
+      "status": "present",
+      "archive": "assets/HASH/1/14DB545CBFF36DD3.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/1/14DB545CBFF36DD3.plist",
+      "bytes": 9512,
+      "sha256": "aea0d37e122e280262359edf8f60066aeee1051b458fe23c547665c521075e75",
+      "repo_path": null,
+      "size_on_original_machine": 9512,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/centerscene/centerscene.png",
+      "status": "present",
+      "archive": "assets/HASH/A/A96F1A940AF266E2.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/A96F1A940AF266E2.png",
+      "bytes": 173238,
+      "sha256": "88fdfbf450dd4b8e62c8004c71c9aa294e1b13779a3899e3225e5e82cc9034ce",
+      "repo_path": null,
+      "size_on_original_machine": 173238,
+      "referenced_by": [
+        "resource/centerscene/centerscene.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/common/common.plist",
+      "status": "in_repo",
+      "archive": "assets/HASH/A/AC4DDFACAF618118.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/AC4DDFACAF618118.plist",
+      "bytes": 130832,
+      "sha256": "558007cffdf4bc6685ef65f9ea254fb9ee30d6c772efe1ba765163e705612005",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/resource/common/common.plist",
+      "size_on_original_machine": 130832,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/hero/formation_select_panel.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/recruithero/recruit_hero_window.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/roleinfo/role_setname_view.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/common/common.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/4/457F310E570B4D9E.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/4/457F310E570B4D9E.png",
+      "bytes": 1173798,
+      "sha256": "e1ec1ebaf8e432dcf1afc7f0b1ba2f629aa873bd003762cc4cbef3d3f2f7914c",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/resource/common/common.png",
+      "size_on_original_machine": 1173798,
+      "referenced_by": [
+        "resource/common/common.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/face/face.plist",
+      "status": "present",
+      "archive": "assets/HASH/8/8042F526095CD479.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/8042F526095CD479.plist",
+      "bytes": 4605,
+      "sha256": "771ef582ea17a88a1688608a09f8d7b91a3afd0100fb5ea3b321f35fd7fc84fd",
+      "repo_path": null,
+      "size_on_original_machine": 4605,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/roleinfo/role_setname_view.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/face/face.png",
+      "status": "present",
+      "archive": "assets/HASH/D/DD367172CCC13F81.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/D/DD367172CCC13F81.png",
+      "bytes": 16206,
+      "sha256": "c429e4f6f1d05ea2b2c9b83b3d7b67538e687fd440cb3ee589c8c821f12e8b60",
+      "repo_path": null,
+      "size_on_original_machine": 16206,
+      "referenced_by": [
+        "resource/face/face.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/form/form.plist",
+      "status": "present",
+      "archive": "assets/HASH/C/C4AB79B61AC61A90.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/C/C4AB79B61AC61A90.plist",
+      "bytes": 5160,
+      "sha256": "ecccb62dd58c12eb66fd816b4c7494d2bf147911ecab5e16955da55a152d7510",
+      "repo_path": null,
+      "size_on_original_machine": 5160,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/form/form.png",
+      "status": "present",
+      "archive": "assets/HASH/1/126E77072544DBCD.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/1/126E77072544DBCD.png",
+      "bytes": 79562,
+      "sha256": "fdf798909d8689a29c97145898ca7ca95afc20bb7a2a584082e9790958a49b0e",
+      "repo_path": null,
+      "size_on_original_machine": 79562,
+      "referenced_by": [
+        "resource/form/form.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/item/2.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/4/493C04BD3EC75FFB.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/4/493C04BD3EC75FFB.png",
+      "bytes": 4114,
+      "sha256": "9d691f241ff1eaef76d939aab6c05a9a65f5162d732c05780e5981f2ec0196f9",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/resource/item/2.png",
+      "size_on_original_machine": 4114,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/item/3.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/7/7A18FA19AEF80D27.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/7/7A18FA19AEF80D27.png",
+      "bytes": 3538,
+      "sha256": "638decf5021d84a9212e34e9863fc3a89d42544dda15d7677f4e2a601f8f5653",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/resource/item/3.png",
+      "size_on_original_machine": 3538,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/item/41.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/9/993B1BA140E723DD.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/9/993B1BA140E723DD.png",
+      "bytes": 3246,
+      "sha256": "9ede466d3f37cf6540fff1b5a32f1de95481098b169297082b7c7485b3471832",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/resource/item/41.png",
+      "size_on_original_machine": 3246,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/mainui/mainui.plist",
+      "status": "in_repo",
+      "archive": "assets/HASH/8/8417B8AD5F4C2F40.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/8417B8AD5F4C2F40.plist",
+      "bytes": 44874,
+      "sha256": "d13332e4497172a0360e23d3c3a499e7e44e8cc75021e6e82a3a12e302d1f95b",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/resource/mainui/mainui.plist",
+      "size_on_original_machine": 44874,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb",
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/mainui/mainui.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/C/C1C0B3151C790BA7.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/C/C1C0B3151C790BA7.png",
+      "bytes": 171014,
+      "sha256": "21679f7d688cb336b0e09d620c9d35726145848d03af1917a177f507bd0a0d81",
+      "repo_path": "assets/ui/主城/底部导航/共用原资源/resource/mainui/mainui.png",
+      "size_on_original_machine": 171014,
+      "referenced_by": [
+        "resource/mainui/mainui.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "resource/recruithero/recruithero.plist",
+      "status": "present",
+      "archive": "assets/HASH/4/4E2E8D00D7EB7C3F.plist",
+      "source_rel": "outputs/apk-extracted/assets/HASH/4/4E2E8D00D7EB7C3F.plist",
+      "bytes": 3661,
+      "sha256": "93424eb66df9788cc014950a6a011e97b538cc8d57b3253711fc170a8ee14800",
+      "repo_path": null,
+      "size_on_original_machine": 3661,
+      "referenced_by": [
+        "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/recruithero/recruit_hero_window.csb"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "plist"
+    },
+    {
+      "logical": "resource/recruithero/recruithero.png",
+      "status": "present",
+      "archive": "assets/HASH/C/CD416FA4AABAC16E.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/C/CD416FA4AABAC16E.png",
+      "bytes": 14150,
+      "sha256": "0717da53ca15ed7148c7ffb009b3c9a7ab3874ea8bf716bfb45fe68b6c5ce671",
+      "repo_path": null,
+      "size_on_original_machine": 14150,
+      "referenced_by": [
+        "resource/recruithero/recruithero.plist"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "sound/battle/b_baoqi1.mp3",
+      "status": "in_repo",
+      "archive": "assets/HASH/D/D0251AFEE334A9AF.mp3",
+      "source_rel": "outputs/apk-extracted/assets/HASH/D/D0251AFEE334A9AF.mp3",
+      "bytes": 14136,
+      "sha256": "ce5368220e9d0e86f69440aedb2324280a9c286006abf60e6b9fbb7b0ed94487",
+      "repo_path": "assets/characters/路飞/音效/b_baoqi1.mp3",
+      "size_on_original_machine": 14136,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "mp3"
+    },
+    {
+      "logical": "sound/battle/b_dirk1.mp3",
+      "status": "in_repo",
+      "archive": "assets/HASH/A/A8C48A79A81D5169.mp3",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/A8C48A79A81D5169.mp3",
+      "bytes": 20804,
+      "sha256": "5393efb5dbe3c18e7ccef557022db568b01b2eb0b78fc43bcfbed6e8599293ed",
+      "repo_path": "assets/characters/路飞/音效/b_dirk1.mp3",
+      "size_on_original_machine": 20804,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "mp3"
+    },
+    {
+      "logical": "sound/battle/b_effect_cut01.mp3",
+      "status": "in_repo",
+      "archive": "assets/HASH/C/C33E7CA103C00166.mp3",
+      "source_rel": "outputs/apk-extracted/assets/HASH/C/C33E7CA103C00166.mp3",
+      "bytes": 12610,
+      "sha256": "347eedf351a5482b9f6c9a33393fc0a11a6089080c8b6f35b862442075aff752",
+      "repo_path": "assets/characters/路飞/音效/b_effect_cut01.mp3",
+      "size_on_original_machine": 12610,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "mp3"
+    },
+    {
+      "logical": "sound/battle/b_effect_cut02.mp3",
+      "status": "in_repo",
+      "archive": "assets/HASH/0/02036842C48FCD99.mp3",
+      "source_rel": "outputs/apk-extracted/assets/HASH/0/02036842C48FCD99.mp3",
+      "bytes": 17626,
+      "sha256": "deff66b13d57d1de9afa3623bd699e472109600d2c2da0f6064328418b9e7aa3",
+      "repo_path": "assets/characters/路飞/音效/b_effect_cut02.mp3",
+      "size_on_original_machine": 17626,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "mp3"
+    },
+    {
+      "logical": "sound/battle/b_skill_sprint.mp3",
+      "status": "in_repo",
+      "archive": "assets/HASH/0/014F48B64CE484F5.mp3",
+      "source_rel": "outputs/apk-extracted/assets/HASH/0/014F48B64CE484F5.mp3",
+      "bytes": 44352,
+      "sha256": "1ac8d1875bb31c1bd059103cb67fe47989969c38cb39bb81bc71cdae22d77b60",
+      "repo_path": "assets/characters/路飞/音效/b_skill_sprint.mp3",
+      "size_on_original_machine": 44352,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "mp3"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/D/DBB6632517A82B87.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/D/DBB6632517A82B87.atlas",
+      "bytes": 811,
+      "sha256": "151803f1ace02bfdfa205953f8e170cc4074bdca7f37e4864d36b59c8963de15",
+      "repo_path": "assets/ui/主城/底部导航/04_中央草帽骷髅/原动画/action.atlas",
+      "size_on_original_machine": 811,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/A/A2DE96F001518BD3.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/A2DE96F001518BD3.png",
+      "bytes": 10734,
+      "sha256": "25b551d1cefa1cee06ae8f65d340d4f0e467fcad0efcc2e8ad9295626d7a46f1",
+      "repo_path": "assets/ui/主城/底部导航/04_中央草帽骷髅/原动画/action.png",
+      "size_on_original_machine": 10734,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/3/3C9AA8B61D96FE27.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/3/3C9AA8B61D96FE27.skel",
+      "bytes": 3855,
+      "sha256": "388011820a92e97a4205d2d970f768eccdb36e2573e3da3ebff8dca8a5967a7c",
+      "repo_path": "assets/ui/主城/底部导航/04_中央草帽骷髅/原动画/action.skel",
+      "size_on_original_machine": 3855,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/C/CFF4FD7B8741D3CE.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/C/CFF4FD7B8741D3CE.atlas",
+      "bytes": 3741,
+      "sha256": "b233f8f67b57b7951f22f35d8189b84a78754fe436b32c8627c8e3dc1ab1ae6f",
+      "repo_path": "assets/characters/路飞/特效/15611_E54320/action.atlas",
+      "size_on_original_machine": 3741,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/1/19127A9BA6D83E8F.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/1/19127A9BA6D83E8F.png",
+      "bytes": 296106,
+      "sha256": "4bf54178ae258ff775deac09f563ac70273eee55ead5ad5fcb94c2e0fc1b0b86",
+      "repo_path": "assets/characters/路飞/特效/15611_E54320/action.png",
+      "size_on_original_machine": 296106,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/A/A0F101AFBE9C0A64.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/A0F101AFBE9C0A64.skel",
+      "bytes": 4500,
+      "sha256": "c5e35eda23ad3beecaaab7d82228c991c8f45cac9613922b645d914d76f13543",
+      "repo_path": "assets/characters/路飞/特效/15611_E54320/action.skel",
+      "size_on_original_machine": 4500,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action2.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/9/98782BE3432CACC3.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/9/98782BE3432CACC3.png",
+      "bytes": 151386,
+      "sha256": "4520ce1bd83920d11026faa86028d2512e6ab0e01994c5dffe0fa38874172f3a",
+      "repo_path": "assets/characters/路飞/特效/15611_E54320/action2.png",
+      "size_on_original_machine": 151386,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/B/BC61659E4A736C41.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/B/BC61659E4A736C41.atlas",
+      "bytes": 631,
+      "sha256": "3759de3ee457ec9c5e720bdd5729aac61e2034dfdd9ddb44cffee7d2d39de1ce",
+      "repo_path": "assets/characters/路飞/特效/20223_E80008/action.atlas",
+      "size_on_original_machine": 631,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/F/F959330DEB1DAD26.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/F/F959330DEB1DAD26.png",
+      "bytes": 82042,
+      "sha256": "42160cc25a32013118925d78a52a78f8d142307c4dd00dab091a374691a27d43",
+      "repo_path": "assets/characters/路飞/特效/20223_E80008/action.png",
+      "size_on_original_machine": 82042,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/F/F1DFA96C66B46FC4.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/F/F1DFA96C66B46FC4.skel",
+      "bytes": 457,
+      "sha256": "7a9390f5d59baf75399da1a9186d40f6209c7e07a7f38245a5a3e87ee7beb645",
+      "repo_path": "assets/characters/路飞/特效/20223_E80008/action.skel",
+      "size_on_original_machine": 457,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/2/2C233E3C21262CF7.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/2/2C233E3C21262CF7.atlas",
+      "bytes": 416,
+      "sha256": "bb4670dfd50b7915969bea2516963c3f9030d37afbdbc729313d97bc4c573333",
+      "repo_path": "assets/characters/路飞/特效/20224_E80009/action.atlas",
+      "size_on_original_machine": 416,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/1/1483A1D95EA725BE.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/1/1483A1D95EA725BE.png",
+      "bytes": 70790,
+      "sha256": "89e015245061b4881017081ccd3ee602229aaad58eb2d3a0d7016f2e33bd36aa",
+      "repo_path": "assets/characters/路飞/特效/20224_E80009/action.png",
+      "size_on_original_machine": 70790,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/B/B806183278756546.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/B/B806183278756546.skel",
+      "bytes": 2640,
+      "sha256": "b8d814679fadc59f4ab2738c84ca18ebcfb9921cd5b0823def5d8d863a9e1feb",
+      "repo_path": "assets/characters/路飞/特效/20224_E80009/action.skel",
+      "size_on_original_machine": 2640,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/D/DDD4DFD1DECD3692.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/D/DDD4DFD1DECD3692.atlas",
+      "bytes": 2608,
+      "sha256": "a17009583c733a345d40efb17b597a808abcc0dd7bc98c2fc294de6822d66efd",
+      "repo_path": "assets/characters/路飞/动作/02_普攻_action1/action1.atlas",
+      "size_on_original_machine": 2608,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/3/357F67757C4BCB3D.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/3/357F67757C4BCB3D.png",
+      "bytes": 133526,
+      "sha256": "f24053ced4218dfe46850e6664e7f03fe7354664b99d5edd250d7ea20d750b8b",
+      "repo_path": "assets/characters/路飞/动作/02_普攻_action1/action1.png",
+      "size_on_original_machine": 133526,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/B/B51719F801082960.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/B/B51719F801082960.skel",
+      "bytes": 1905,
+      "sha256": "97525be80e7c342f0b20d52c34cff6b8b9a9b2681cbc55f9bfcfc9934d7c354d",
+      "repo_path": "assets/characters/路飞/动作/02_普攻_action1/action1.skel",
+      "size_on_original_machine": 1905,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/5/51948AD0F161B394.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/5/51948AD0F161B394.atlas",
+      "bytes": 4736,
+      "sha256": "4c6e6dacd575c6528979a6c80b13457ffa8a35d787c2f3cbd8f98e0bcc1e0214",
+      "repo_path": "assets/characters/路飞/动作/03_Jet枪分段_action2/action2.atlas",
+      "size_on_original_machine": 4736,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/6/626700088DC8DA18.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/6/626700088DC8DA18.png",
+      "bytes": 544934,
+      "sha256": "3a0e05510a1282a4d77b6c5447d8ebc9cb2af7f9f28b5949755a7e3111d5c11e",
+      "repo_path": "assets/characters/路飞/动作/03_Jet枪分段_action2/action2.png",
+      "size_on_original_machine": 544934,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/B/B740E262C0C45F75.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/B/B740E262C0C45F75.skel",
+      "bytes": 3338,
+      "sha256": "0a25112feeb6fbeacbdb06af9fac77d5eff674dd6394f75959a27f3420bf538f",
+      "repo_path": "assets/characters/路飞/动作/03_Jet枪分段_action2/action2.skel",
+      "size_on_original_machine": 3338,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/D/DC11F25905BFEBF2.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/D/DC11F25905BFEBF2.atlas",
+      "bytes": 752,
+      "sha256": "f365fe6ffc01c0beb13b1f03b1bf862e64cc64122ec54c3c870797e2a113a262",
+      "repo_path": "assets/characters/路飞/动作/06_二档_action9/action9.atlas",
+      "size_on_original_machine": 752,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/1/1EDBBB1D4639ACA5.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/1/1EDBBB1D4639ACA5.png",
+      "bytes": 28214,
+      "sha256": "4878b563b5618c1c653d370244361e5a88a430fbe4f9b076c74249de7a31d478",
+      "repo_path": "assets/characters/路飞/动作/06_二档_action9/action9.png",
+      "size_on_original_machine": 28214,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/A/AE84B9E80AE75638.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/A/AE84B9E80AE75638.skel",
+      "bytes": 720,
+      "sha256": "c75220c70cd19981984f28ce5488ad61934ddb65110d8e33f401acde9bbcefc2",
+      "repo_path": "assets/characters/路飞/动作/06_二档_action9/action9.skel",
+      "size_on_original_machine": 720,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/D/DAADFC564ADDB504.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/D/DAADFC564ADDB504.atlas",
+      "bytes": 751,
+      "sha256": "04c92cdd1e8097a911bc6014bc9b5dbfdddb739bd74f58fa48444c99ae21e378",
+      "repo_path": "assets/characters/路飞/动作/04_受击_hurt/hurt.atlas",
+      "size_on_original_machine": 751,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/6/67260D390AB0288C.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/6/67260D390AB0288C.png",
+      "bytes": 29286,
+      "sha256": "e575c18830716823186a2ba308c3fb7563313cd55de53ec497b67db52ed3041d",
+      "repo_path": "assets/characters/路飞/动作/04_受击_hurt/hurt.png",
+      "size_on_original_machine": 29286,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/E/E90B7F02F753BA70.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/E/E90B7F02F753BA70.skel",
+      "bytes": 748,
+      "sha256": "9112354f7ab9757e795257d6878ca86c45cc764b94f504f5e5eafa0b310bcd0a",
+      "repo_path": "assets/characters/路飞/动作/04_受击_hurt/hurt.skel",
+      "size_on_original_machine": 748,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/B/BBC56C4AA7DB5E6B.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/B/BBC56C4AA7DB5E6B.atlas",
+      "bytes": 1495,
+      "sha256": "8f63a9fbfe826f25753921ffc6f66329546ef79c29fef315a277a5aca52a0798",
+      "repo_path": "assets/characters/路飞/动作/05_移动_run/run.atlas",
+      "size_on_original_machine": 1495,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/6/6CD17B8C590237C0.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/6/6CD17B8C590237C0.png",
+      "bytes": 52654,
+      "sha256": "174551b5d18d786074e726d27bd41b83ca0b2409b6ba420fd058f7dd59870d80",
+      "repo_path": "assets/characters/路飞/动作/05_移动_run/run.png",
+      "size_on_original_machine": 52654,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/4/4081F3CA8D987B6D.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/4/4081F3CA8D987B6D.skel",
+      "bytes": 1430,
+      "sha256": "898a117ceac73ec2384262f2a8ebbc6fb5dce3538c3c62dde6d0fb0ad9a35706",
+      "repo_path": "assets/characters/路飞/动作/05_移动_run/run.skel",
+      "size_on_original_machine": 1430,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.atlas",
+      "status": "in_repo",
+      "archive": "assets/HASH/8/88565BD1DCE7CDFA.atlas",
+      "source_rel": "outputs/apk-extracted/assets/HASH/8/88565BD1DCE7CDFA.atlas",
+      "bytes": 1440,
+      "sha256": "6f0d84f8a8b0861d959b734a095e30062dbdbf331ac7feec157c8f9b3c3203d4",
+      "repo_path": "assets/characters/路飞/动作/01_待机_stand2/stand2.atlas",
+      "size_on_original_machine": 1440,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "atlas"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.png",
+      "status": "in_repo",
+      "archive": "assets/HASH/6/61A90643EAAD47CB.png",
+      "source_rel": "outputs/apk-extracted/assets/HASH/6/61A90643EAAD47CB.png",
+      "bytes": 52682,
+      "sha256": "2a735aad21fc11c4cfadcb79e4117a9ddd65fb17114a52d298d4167899c190a3",
+      "repo_path": "assets/characters/路飞/动作/01_待机_stand2/stand2.png",
+      "size_on_original_machine": 52682,
+      "referenced_by": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.atlas"
+      ],
+      "seed": false,
+      "unknown_dependencies": [],
+      "kind": "png"
+    },
+    {
+      "logical": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.skel",
+      "status": "in_repo",
+      "archive": "assets/HASH/9/99EE59A1C1C19694.skel",
+      "source_rel": "outputs/apk-extracted/assets/HASH/9/99EE59A1C1C19694.skel",
+      "bytes": 1051,
+      "sha256": "d31499403f294d28e60833258033189cc002641bab70db352fe36a287cca8d15",
+      "repo_path": "assets/characters/路飞/动作/01_待机_stand2/stand2.skel",
+      "size_on_original_machine": 1051,
+      "referenced_by": [],
+      "seed": true,
+      "unknown_dependencies": [],
+      "kind": "skel"
+    }
+  ],
+  "unresolved_editor_defaults": [
+    "Default/Button_Disable.png",
+    "Default/Button_Press.png",
+    "Default/CheckBoxNode_Disable.png",
+    "Default/CheckBox_Disable.png",
+    "Default/CheckBox_Press.png",
+    "Default/ImageFile.png",
+    "resource/bigbg/action/action_bigbg_3.png"
+  ],
+  "lua_dependency": {
+    "mode": "conservative_full",
+    "confirmed_subset": false,
+    "subset_candidate_modules": [],
+    "own_external_requires": [],
+    "framework_symbol_hits": {
+      "cc.TEXTURE2_D_PIXEL_FORMAT_RGB_A4444": [
+        "outputs/offline-client/src/offline/resources.lua"
+      ],
+      "ccui.TouchEventType": [
+        "outputs/offline-client/src/offline/drama_scene.lua"
+      ]
+    },
+    "module_include_modules": 1760,
+    "module_include_mapped": 1741,
+    "module_include_unmapped": [
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.action.view.action_godpartner_panel",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.action.view.merge_action.merge_task_panel",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.hero.view.skill_view_item",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.mail.view.mail_info",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.mail.view.mail_item",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.mail.view.mail_view",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.mainui.view.item_exhibition_comp_view",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.mall.view.charge_value_panel",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.partnersummon.view.partnersummon_god_view",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.role.view.role_attr_view",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.role.view.role_skill_view",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.startower.view.star_tower_award_item",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.welfare.view.hero_soul_wish_panel",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.welfare.view.luxury_panel",
+      "0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS.welfare.view.power_welfare_panel",
+      "UUn2rw1Xe79sI0UaGlea5iQRvaDeuUng.custom_scroll_view",
+      "ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW.holiday_lanterm_adventure_data",
+      "ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW.skill_data7",
+      "game_analysis"
+    ],
+    "luac_files_to_copy": 2145,
+    "luac_bytes": 42126230,
+    "entry_luac_excluded": "D6D87D9149AFCAB5.luac",
+    "native_loader_evidence": [
+      {
+        "line": 49603,
+        "text": "main.lua"
+      },
+      {
+        "line": 49747,
+        "text": "%s;%s/?.lua"
+      },
+      {
+        "line": 49758,
+        "text": ".luac"
+      },
+      {
+        "line": 49759,
+        "text": "?.lua"
+      },
+      {
+        "line": 62047,
+        "text": "./?.lua;/usr/local/share/luajit-2.1.0-beta3/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua"
+      }
+    ],
+    "reasons": [
+      "自有 Lua 未 require 任何原模块",
+      "framework 层符号命中: cc.TEXTURE2_D_PIXEL_FORMAT_RGB_A4444, ccui.TouchEventType",
+      "原生加载器（LuaStack::executeScriptFile/luaLoadBuffer、loader 路径）是否会在启动时按名批量载入 luac，尚无静态或真机证据确认 —— 无法确认的部分按“保守全量”处理"
+    ]
+  },
+  "binaries": [
+    {
+      "rel": "outputs/apk-extracted/classes.dex",
+      "purpose": "原包 Java DEX，build.py 直接打入 APK",
+      "required": true,
+      "group": "A",
+      "note": null,
+      "present": true,
+      "bytes": 3832460,
+      "primary_source": "/Users/mountainwalkeralliance/Documents/code/海贼王/outputs/apk-extracted/classes.dex",
+      "backup_source": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/apk-extracted/classes.dex",
+      "local_target": "/Users/test0/Documents/code/2DRound/outputs/apk-extracted/classes.dex"
+    },
+    {
+      "rel": "outputs/apk-extracted/lib/arm64-v8a/libcocos2dlua.so",
+      "purpose": "原生 Cocos2d-x/Lua 引擎库",
+      "required": true,
+      "group": "A",
+      "note": null,
+      "present": true,
+      "bytes": 16075176,
+      "primary_source": "/Users/mountainwalkeralliance/Documents/code/海贼王/outputs/apk-extracted/lib/arm64-v8a/libcocos2dlua.so",
+      "backup_source": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/apk-extracted/lib/arm64-v8a/libcocos2dlua.so",
+      "local_target": "/Users/test0/Documents/code/2DRound/outputs/apk-extracted/lib/arm64-v8a/libcocos2dlua.so"
+    },
+    {
+      "rel": "work/offline-build/offline-debug.jks",
+      "purpose": "调试签名；覆盖安装旧测试包时必需（换签名只能先卸载旧包）",
+      "required": true,
+      "group": "C",
+      "note": "缺失时 build.py 不再默认生成；需 --new-keystore 且必须先卸载 org.local.onepiece.offline",
+      "present": true,
+      "bytes": 3446,
+      "primary_source": "/Users/mountainwalkeralliance/Documents/code/海贼王/work/offline-build/offline-debug.jks",
+      "backup_source": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/work/offline-build/offline-debug.jks",
+      "local_target": "/Users/test0/Documents/code/2DRound/work/offline-build/offline-debug.jks"
+    },
+    {
+      "rel": "work/tools/LuaJIT-2.1/src/luajit",
+      "purpose": "verify.py 运行 Lua 单测；也可 brew install luajit 代替",
+      "required": false,
+      "group": "C",
+      "note": null,
+      "present": true,
+      "bytes": 626056,
+      "primary_source": "/Users/mountainwalkeralliance/Documents/code/海贼王/work/tools/LuaJIT-2.1/src/luajit",
+      "backup_source": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/work/tools/LuaJIT-2.1/src/luajit",
+      "local_target": "/Users/test0/Documents/code/2DRound/work/tools/LuaJIT-2.1/src/luajit"
+    },
+    {
+      "rel": "work/offline-build/mobile_capture.py",
+      "purpose": "真机截图脚本（可选；需配合其 venv，或改用 adb screencap）",
+      "required": false,
+      "group": "C",
+      "note": null,
+      "present": true,
+      "bytes": 780,
+      "primary_source": "/Users/mountainwalkeralliance/Documents/code/海贼王/work/offline-build/mobile_capture.py",
+      "backup_source": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/work/offline-build/mobile_capture.py",
+      "local_target": "/Users/test0/Documents/code/2DRound/work/offline-build/mobile_capture.py"
+    }
+  ],
+  "tools": [
+    {
+      "name": "JDK (java)",
+      "ok": true,
+      "detail": "openjdk version \"17.0.20.1\" 2026-08-18",
+      "required": true,
+      "scope": "build"
+    },
+    {
+      "name": "keytool",
+      "ok": true,
+      "detail": "ok",
+      "required": false,
+      "scope": "build"
+    },
+    {
+      "name": "Android SDK",
+      "ok": true,
+      "detail": "/Users/test0/Library/Android/sdk",
+      "required": true,
+      "scope": "build"
+    },
+    {
+      "name": "build-tools 35.0.1",
+      "ok": true,
+      "detail": "/Users/test0/Library/Android/sdk/build-tools/35.0.1",
+      "required": true,
+      "scope": "build"
+    },
+    {
+      "name": "aapt2",
+      "ok": true,
+      "detail": "/Users/test0/Library/Android/sdk/build-tools/35.0.1/aapt2",
+      "required": true,
+      "scope": "build"
+    },
+    {
+      "name": "apksigner",
+      "ok": true,
+      "detail": "/Users/test0/Library/Android/sdk/build-tools/35.0.1/apksigner",
+      "required": true,
+      "scope": "build"
+    },
+    {
+      "name": "zipalign",
+      "ok": true,
+      "detail": "/Users/test0/Library/Android/sdk/build-tools/35.0.1/zipalign",
+      "required": true,
+      "scope": "build"
+    },
+    {
+      "name": "platforms/android-35/android.jar",
+      "ok": true,
+      "detail": "/Users/test0/Library/Android/sdk/platforms/android-35/android.jar",
+      "required": true,
+      "scope": "build"
+    },
+    {
+      "name": "luajit",
+      "ok": true,
+      "detail": "/usr/local/bin/luajit",
+      "required": true,
+      "scope": "verify"
+    },
+    {
+      "name": "clang",
+      "ok": true,
+      "detail": "/usr/bin/clang",
+      "required": true,
+      "scope": "verify"
+    },
+    {
+      "name": "adb",
+      "ok": true,
+      "detail": "/Users/test0/Library/Android/sdk/platform-tools/adb",
+      "required": false,
+      "scope": "device"
+    }
+  ],
+  "cocos_mcp": {
+    "mcp_dir_present": true,
+    "extension_link_resolves": true,
+    "extension_link_target": "../../../work/mcp-install/cocos-creator-mcp",
+    "localhost_3000_listening": true,
+    "cocos_creator_apps": [
+      "/Applications/Cocos/Creator/3.8.8/CocosCreator.app"
+    ],
+    "cocos_dashboard_installed": true,
+    "mcp_dir_files_on_original": 1891,
+    "mcp_dir_bytes_on_original": 62564196,
+    "launcher": "outputs/mcp-setup/启动Cocos工作台.command",
+    "note": "本会话未加载任何 Cocos MCP 工具；UI/场景工作与验收须在 MCP 可用后进行，不用其他引擎替代。"
+  }
+}

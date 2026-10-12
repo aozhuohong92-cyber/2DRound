@@ -1,16 +1,28 @@
 """Local stage-1 validation; never installs an APK or accesses a phone."""
 from pathlib import Path
-import argparse, ctypes, hashlib, json, plistlib, re, subprocess, tempfile, zipfile
+import argparse, ctypes, hashlib, json, plistlib, re, shutil, subprocess, sys, tempfile, zipfile
 from bundle import bundle
 from pack_lua import encode
-from prepare_assets import prepare
+from prepare_assets import prepare, source_path
 from zipcheck import assert_audio_uncompressed
 PROJ = Path(__file__).resolve().parent
 ROOT = PROJ.parents[1]
 BUILD = ROOT / 'work/offline-build'
-LUA = ROOT / 'work/tools/LuaJIT-2.1/src/luajit'
+def find_luajit():
+    # First candidate that actually executes: the bundled work/ binary may be the wrong CPU arch.
+    for cand in (ROOT / 'work/tools/LuaJIT-2.1/src/luajit', shutil.which('luajit')):
+        if cand and Path(cand).is_file():
+            try:
+                if subprocess.run([str(cand), '-e', 'os.exit(0)'], capture_output=True, timeout=10).returncode == 0:
+                    return Path(cand)
+            except (OSError, subprocess.SubprocessError):
+                pass
+    return None
+LUA = find_luajit()
 
 def verify(apk=False):
+    if LUA is None:
+        sys.exit('luajit not found (work/tools/LuaJIT-2.1 or PATH). Run: python3 outputs/offline-client/check_env.py')
     resources = prepare()
     source, modules = bundle(PROJ, resources)
     BUILD.mkdir(parents=True, exist_ok=True)
@@ -38,11 +50,11 @@ def verify(apk=False):
         frames = set()
         for name, row in resources.items():
             if name.endswith('.plist'):
-                frames.update(plistlib.loads((ROOT / row['source']).read_bytes()).get('frames', {}))
+                frames.update(plistlib.loads(source_path(row).read_bytes()).get('frames', {}))
         csb_frames = set()
         for name, row in resources.items():
             if name.endswith('.csb'):
-                refs = re.findall(rb'[A-Za-z0-9_./-]+\.(?:png|jpg)', (ROOT / row['source']).read_bytes())
+                refs = re.findall(rb'[A-Za-z0-9_./-]+\.(?:png|jpg)', source_path(row).read_bytes())
                 csb_frames.update(s.decode() for s in refs if b'/' not in s)
         assert not csb_frames - frames, f'Missing CSB frames: {csb_frames - frames}'
         apk_hash = None
@@ -68,4 +80,7 @@ def verify(apk=False):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(); parser.add_argument('--apk', action='store_true')
-    verify(parser.parse_args().apk)
+    try:
+        verify(parser.parse_args().apk)
+    except FileNotFoundError as e:
+        sys.exit(f'dependency missing: {e}\nRun: python3 outputs/offline-client/check_env.py (acceptance waits for dependencies)')

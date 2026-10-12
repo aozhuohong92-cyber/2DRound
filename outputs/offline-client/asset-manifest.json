@@ -6,14 +6,16 @@
       "archive": "assets/HASH/F/F79CD1E28104FE60.jpg",
       "bytes": 70406,
       "sha256": "567f14b2923087b96adb7a1c1cd35c3fed9c40725fac9813916df94ca4f3a6a0",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "outputs/offline-client/assets/HASH/F/F79CD1E28104FE60.jpg"
     },
     "fonts/mini.ttf": {
       "source": "outputs/apk-extracted/assets/HASH/9/9AA9297BB02E30D4.ttf",
       "archive": "assets/HASH/9/9AA9297BB02E30D4.ttf",
       "bytes": 8012356,
       "sha256": "7f680346a281b079095d8a25077201f510842617589e4c6dd85cfa614e512869",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/fonts/mini.ttf"
     },
     "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_boss_hp_progress.csb": {
       "source": "outputs/apk-extracted/assets/HASH/6/639D9362515FBEE6.csb",
@@ -31,7 +33,8 @@
       "archive": "assets/HASH/9/99EE59A1C1C19694.skel",
       "bytes": 1051,
       "sha256": "d31499403f294d28e60833258033189cc002641bab70db352fe36a287cca8d15",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/01_待机_stand2/stand2.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/8/88565BD1DCE7CDFA.atlas",
@@ -40,14 +43,16 @@
       "sha256": "6f0d84f8a8b0861d959b734a095e30062dbdbf331ac7feec157c8f9b3c3203d4",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/动作/01_待机_stand2/stand2.atlas"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.skel": {
       "source": "outputs/apk-extracted/assets/HASH/B/B51719F801082960.skel",
       "archive": "assets/HASH/B/B51719F801082960.skel",
       "bytes": 1905,
       "sha256": "97525be80e7c342f0b20d52c34cff6b8b9a9b2681cbc55f9bfcfc9934d7c354d",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/02_普攻_action1/action1.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/D/DDD4DFD1DECD3692.atlas",
@@ -56,14 +61,16 @@
       "sha256": "a17009583c733a345d40efb17b597a808abcc0dd7bc98c2fc294de6822d66efd",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/动作/02_普攻_action1/action1.atlas"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.skel": {
       "source": "outputs/apk-extracted/assets/HASH/B/B740E262C0C45F75.skel",
       "archive": "assets/HASH/B/B740E262C0C45F75.skel",
       "bytes": 3338,
       "sha256": "0a25112feeb6fbeacbdb06af9fac77d5eff674dd6394f75959a27f3420bf538f",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/03_Jet枪分段_action2/action2.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/5/51948AD0F161B394.atlas",
@@ -72,14 +79,16 @@
       "sha256": "4c6e6dacd575c6528979a6c80b13457ffa8a35d787c2f3cbd8f98e0bcc1e0214",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/动作/03_Jet枪分段_action2/action2.atlas"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.skel": {
       "source": "outputs/apk-extracted/assets/HASH/E/E90B7F02F753BA70.skel",
       "archive": "assets/HASH/E/E90B7F02F753BA70.skel",
       "bytes": 748,
       "sha256": "9112354f7ab9757e795257d6878ca86c45cc764b94f504f5e5eafa0b310bcd0a",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/04_受击_hurt/hurt.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/D/DAADFC564ADDB504.atlas",
@@ -88,14 +97,16 @@
       "sha256": "04c92cdd1e8097a911bc6014bc9b5dbfdddb739bd74f58fa48444c99ae21e378",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/动作/04_受击_hurt/hurt.atlas"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.skel": {
       "source": "outputs/apk-extracted/assets/HASH/4/4081F3CA8D987B6D.skel",
       "archive": "assets/HASH/4/4081F3CA8D987B6D.skel",
       "bytes": 1430,
       "sha256": "898a117ceac73ec2384262f2a8ebbc6fb5dce3538c3c62dde6d0fb0ad9a35706",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/05_移动_run/run.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/B/BBC56C4AA7DB5E6B.atlas",
@@ -104,14 +115,16 @@
       "sha256": "8f63a9fbfe826f25753921ffc6f66329546ef79c29fef315a277a5aca52a0798",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/动作/05_移动_run/run.atlas"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.skel": {
       "source": "outputs/apk-extracted/assets/HASH/A/AE84B9E80AE75638.skel",
       "archive": "assets/HASH/A/AE84B9E80AE75638.skel",
       "bytes": 720,
       "sha256": "c75220c70cd19981984f28ce5488ad61934ddb65110d8e33f401acde9bbcefc2",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/06_二档_action9/action9.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/D/DC11F25905BFEBF2.atlas",
@@ -120,49 +133,56 @@
       "sha256": "f365fe6ffc01c0beb13b1f03b1bf862e64cc64122ec54c3c870797e2a113a262",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/动作/06_二档_action9/action9.atlas"
     },
     "sound/battle/b_dirk1.mp3": {
       "source": "outputs/apk-extracted/assets/HASH/A/A8C48A79A81D5169.mp3",
       "archive": "assets/HASH/A/A8C48A79A81D5169.mp3",
       "bytes": 20804,
       "sha256": "5393efb5dbe3c18e7ccef557022db568b01b2eb0b78fc43bcfbed6e8599293ed",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/音效/b_dirk1.mp3"
     },
     "sound/battle/b_effect_cut01.mp3": {
       "source": "outputs/apk-extracted/assets/HASH/C/C33E7CA103C00166.mp3",
       "archive": "assets/HASH/C/C33E7CA103C00166.mp3",
       "bytes": 12610,
       "sha256": "347eedf351a5482b9f6c9a33393fc0a11a6089080c8b6f35b862442075aff752",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/音效/b_effect_cut01.mp3"
     },
     "sound/battle/b_effect_cut02.mp3": {
       "source": "outputs/apk-extracted/assets/HASH/0/02036842C48FCD99.mp3",
       "archive": "assets/HASH/0/02036842C48FCD99.mp3",
       "bytes": 17626,
       "sha256": "deff66b13d57d1de9afa3623bd699e472109600d2c2da0f6064328418b9e7aa3",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/音效/b_effect_cut02.mp3"
     },
     "sound/battle/b_baoqi1.mp3": {
       "source": "outputs/apk-extracted/assets/HASH/D/D0251AFEE334A9AF.mp3",
       "archive": "assets/HASH/D/D0251AFEE334A9AF.mp3",
       "bytes": 14136,
       "sha256": "ce5368220e9d0e86f69440aedb2324280a9c286006abf60e6b9fbb7b0ed94487",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/音效/b_baoqi1.mp3"
     },
     "sound/battle/b_skill_sprint.mp3": {
       "source": "outputs/apk-extracted/assets/HASH/0/014F48B64CE484F5.mp3",
       "archive": "assets/HASH/0/014F48B64CE484F5.mp3",
       "bytes": 44352,
       "sha256": "1ac8d1875bb31c1bd059103cb67fe47989969c38cb39bb81bc71cdae22d77b60",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/音效/b_skill_sprint.mp3"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.skel": {
       "source": "outputs/apk-extracted/assets/HASH/F/F1DFA96C66B46FC4.skel",
       "archive": "assets/HASH/F/F1DFA96C66B46FC4.skel",
       "bytes": 457,
       "sha256": "7a9390f5d59baf75399da1a9186d40f6209c7e07a7f38245a5a3e87ee7beb645",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/特效/20223_E80008/action.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/B/BC61659E4A736C41.atlas",
@@ -171,14 +191,16 @@
       "sha256": "3759de3ee457ec9c5e720bdd5729aac61e2034dfdd9ddb44cffee7d2d39de1ce",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/特效/20223_E80008/action.atlas"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.skel": {
       "source": "outputs/apk-extracted/assets/HASH/B/B806183278756546.skel",
       "archive": "assets/HASH/B/B806183278756546.skel",
       "bytes": 2640,
       "sha256": "b8d814679fadc59f4ab2738c84ca18ebcfb9921cd5b0823def5d8d863a9e1feb",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/特效/20224_E80009/action.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/2/2C233E3C21262CF7.atlas",
@@ -187,14 +209,16 @@
       "sha256": "bb4670dfd50b7915969bea2516963c3f9030d37afbdbc729313d97bc4c573333",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/特效/20224_E80009/action.atlas"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.skel": {
       "source": "outputs/apk-extracted/assets/HASH/A/A0F101AFBE9C0A64.skel",
       "archive": "assets/HASH/A/A0F101AFBE9C0A64.skel",
       "bytes": 4500,
       "sha256": "c5e35eda23ad3beecaaab7d82228c991c8f45cac9613922b645d914d76f13543",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/特效/15611_E54320/action.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/C/CFF4FD7B8741D3CE.atlas",
@@ -204,7 +228,8 @@
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.png",
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action2.png"
-      ]
+      ],
+      "fallback_from": "assets/characters/路飞/特效/15611_E54320/action.atlas"
     },
     "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb": {
       "source": "outputs/apk-extracted/assets/HASH/5/55588DD081BA8E99.csb",
@@ -220,7 +245,8 @@
         "resource/item/3.png",
         "resource/item/41.png",
         "resource/mainui/mainui.plist"
-      ]
+      ],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb"
     },
     "resource/mainui/mainui.plist": {
       "source": "outputs/apk-extracted/assets/HASH/8/8417B8AD5F4C2F40.plist",
@@ -229,7 +255,8 @@
       "sha256": "d13332e4497172a0360e23d3c3a499e7e44e8cc75021e6e82a3a12e302d1f95b",
       "dependencies": [
         "resource/mainui/mainui.png"
-      ]
+      ],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/mainui/mainui.plist"
     },
     "resource/common/common.plist": {
       "source": "outputs/apk-extracted/assets/HASH/A/AC4DDFACAF618118.plist",
@@ -238,7 +265,8 @@
       "sha256": "558007cffdf4bc6685ef65f9ea254fb9ee30d6c772efe1ba765163e705612005",
       "dependencies": [
         "resource/common/common.png"
-      ]
+      ],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/common/common.plist"
     },
     "resource/centerscene/centerscene.plist": {
       "source": "outputs/apk-extracted/assets/HASH/1/14DB545CBFF36DD3.plist",
@@ -347,7 +375,8 @@
       "archive": "assets/HASH/3/3C9AA8B61D96FE27.skel",
       "bytes": 3855,
       "sha256": "388011820a92e97a4205d2d970f768eccdb36e2573e3da3ebff8dca8a5967a7c",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/04_中央草帽骷髅/原动画/action.skel"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.atlas": {
       "source": "outputs/apk-extracted/assets/HASH/D/DBB6632517A82B87.atlas",
@@ -356,7 +385,8 @@
       "sha256": "151803f1ace02bfdfa205953f8e170cc4074bdca7f37e4864d36b59c8963de15",
       "dependencies": [
         "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.png"
-      ]
+      ],
+      "fallback_from": "assets/ui/主城/底部导航/04_中央草帽骷髅/原动画/action.atlas"
     },
     "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb": {
       "source": "outputs/apk-extracted/assets/HASH/7/7757BCD0D2745B3D.csb",
@@ -433,105 +463,120 @@
       "archive": "assets/HASH/6/61A90643EAAD47CB.png",
       "bytes": 52682,
       "sha256": "2a735aad21fc11c4cfadcb79e4117a9ddd65fb17114a52d298d4167899c190a3",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/01_待机_stand2/stand2.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.png": {
       "source": "outputs/apk-extracted/assets/HASH/3/357F67757C4BCB3D.png",
       "archive": "assets/HASH/3/357F67757C4BCB3D.png",
       "bytes": 133526,
       "sha256": "f24053ced4218dfe46850e6664e7f03fe7354664b99d5edd250d7ea20d750b8b",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/02_普攻_action1/action1.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.png": {
       "source": "outputs/apk-extracted/assets/HASH/6/626700088DC8DA18.png",
       "archive": "assets/HASH/6/626700088DC8DA18.png",
       "bytes": 544934,
       "sha256": "3a0e05510a1282a4d77b6c5447d8ebc9cb2af7f9f28b5949755a7e3111d5c11e",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/03_Jet枪分段_action2/action2.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.png": {
       "source": "outputs/apk-extracted/assets/HASH/6/67260D390AB0288C.png",
       "archive": "assets/HASH/6/67260D390AB0288C.png",
       "bytes": 29286,
       "sha256": "e575c18830716823186a2ba308c3fb7563313cd55de53ec497b67db52ed3041d",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/04_受击_hurt/hurt.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.png": {
       "source": "outputs/apk-extracted/assets/HASH/6/6CD17B8C590237C0.png",
       "archive": "assets/HASH/6/6CD17B8C590237C0.png",
       "bytes": 52654,
       "sha256": "174551b5d18d786074e726d27bd41b83ca0b2409b6ba420fd058f7dd59870d80",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/05_移动_run/run.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.png": {
       "source": "outputs/apk-extracted/assets/HASH/1/1EDBBB1D4639ACA5.png",
       "archive": "assets/HASH/1/1EDBBB1D4639ACA5.png",
       "bytes": 28214,
       "sha256": "4878b563b5618c1c653d370244361e5a88a430fbe4f9b076c74249de7a31d478",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/动作/06_二档_action9/action9.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.png": {
       "source": "outputs/apk-extracted/assets/HASH/F/F959330DEB1DAD26.png",
       "archive": "assets/HASH/F/F959330DEB1DAD26.png",
       "bytes": 82042,
       "sha256": "42160cc25a32013118925d78a52a78f8d142307c4dd00dab091a374691a27d43",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/特效/20223_E80008/action.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.png": {
       "source": "outputs/apk-extracted/assets/HASH/1/1483A1D95EA725BE.png",
       "archive": "assets/HASH/1/1483A1D95EA725BE.png",
       "bytes": 70790,
       "sha256": "89e015245061b4881017081ccd3ee602229aaad58eb2d3a0d7016f2e33bd36aa",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/特效/20224_E80009/action.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.png": {
       "source": "outputs/apk-extracted/assets/HASH/1/19127A9BA6D83E8F.png",
       "archive": "assets/HASH/1/19127A9BA6D83E8F.png",
       "bytes": 296106,
       "sha256": "4bf54178ae258ff775deac09f563ac70273eee55ead5ad5fcb94c2e0fc1b0b86",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/特效/15611_E54320/action.png"
     },
     "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action2.png": {
       "source": "outputs/apk-extracted/assets/HASH/9/98782BE3432CACC3.png",
       "archive": "assets/HASH/9/98782BE3432CACC3.png",
       "bytes": 151386,
       "sha256": "4520ce1bd83920d11026faa86028d2512e6ab0e01994c5dffe0fa38874172f3a",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/characters/路飞/特效/15611_E54320/action2.png"
     },
     "resource/item/2.png": {
       "source": "outputs/apk-extracted/assets/HASH/4/493C04BD3EC75FFB.png",
       "archive": "assets/HASH/4/493C04BD3EC75FFB.png",
       "bytes": 4114,
       "sha256": "9d691f241ff1eaef76d939aab6c05a9a65f5162d732c05780e5981f2ec0196f9",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/item/2.png"
     },
     "resource/item/3.png": {
       "source": "outputs/apk-extracted/assets/HASH/7/7A18FA19AEF80D27.png",
       "archive": "assets/HASH/7/7A18FA19AEF80D27.png",
       "bytes": 3538,
       "sha256": "638decf5021d84a9212e34e9863fc3a89d42544dda15d7677f4e2a601f8f5653",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/item/3.png"
     },
     "resource/item/41.png": {
       "source": "outputs/apk-extracted/assets/HASH/9/993B1BA140E723DD.png",
       "archive": "assets/HASH/9/993B1BA140E723DD.png",
       "bytes": 3246,
       "sha256": "9ede466d3f37cf6540fff1b5a32f1de95481098b169297082b7c7485b3471832",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/item/41.png"
     },
     "resource/mainui/mainui.png": {
       "source": "outputs/apk-extracted/assets/HASH/C/C1C0B3151C790BA7.png",
       "archive": "assets/HASH/C/C1C0B3151C790BA7.png",
       "bytes": 171014,
       "sha256": "21679f7d688cb336b0e09d620c9d35726145848d03af1917a177f507bd0a0d81",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/mainui/mainui.png"
     },
     "resource/common/common.png": {
       "source": "outputs/apk-extracted/assets/HASH/4/457F310E570B4D9E.png",
       "archive": "assets/HASH/4/457F310E570B4D9E.png",
       "bytes": 1173798,
       "sha256": "e1ec1ebaf8e432dcf1afc7f0b1ba2f629aa873bd003762cc4cbef3d3f2f7914c",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/common/common.png"
     },
     "resource/centerscene/centerscene.png": {
       "source": "outputs/apk-extracted/assets/HASH/A/A96F1A940AF266E2.png",
@@ -566,7 +611,8 @@
       "archive": "assets/HASH/A/A2DE96F001518BD3.png",
       "bytes": 10734,
       "sha256": "25b551d1cefa1cee06ae8f65d340d4f0e467fcad0efcc2e8ad9295626d7a46f1",
-      "dependencies": []
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/04_中央草帽骷髅/原动画/action.png"
     },
     "resource/battle/battle.png": {
       "source": "outputs/apk-extracted/assets/HASH/E/E9A66599D482D347.png",

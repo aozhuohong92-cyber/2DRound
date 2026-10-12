@@ -1,0 +1,5 @@
+outputs/apk-extracted/classes.dex
+outputs/apk-extracted/lib/arm64-v8a/libcocos2dlua.so
+work/offline-build/offline-debug.jks
+work/tools/LuaJIT-2.1/src/luajit
+work/offline-build/mobile_capture.py
