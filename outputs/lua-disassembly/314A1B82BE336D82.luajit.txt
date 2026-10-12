@@ -1,0 +1,4044 @@
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    ISNES    0   0      ; "exit"
+0002    JMP      1 => 0015
+0003    GGET     1   1      ; "pairs"
+0004    UGET     3   0      ; 
+0005    CALL     1   4   2
+0006    ISNEXT   4 => 0013
+0007 => UGET     6   1      ; 
+0008    ISNEV    5   6
+0009    JMP      6 => 0013
+0010    UGET     6   0      ; 
+0011    KPRI     7   0
+0012    TSETV    7   6   4
+0013 => ITERN    4   3   3
+0014    ITERL    4 => 0007
+0015 => RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    GGET     7   0      ; "tonumber"
+0002    MOV      9   0
+0003    CALL     7   2   2
+0004    MOV      0   7
+0005    IST          1
+0006    JMP      7 => 0008
+0007    KPRI     1   1
+0008 => IST          3
+0009    JMP      7 => 0011
+0010    KPRI     3   1
+0011 => ISNEP    1   2
+0012    JMP      7 => 0018
+0013    UGET     7   0      ; 
+0014    KSTR     8   1      ; "bigcard/"
+0015    CAT      7   7   8
+0016    IST          7
+0017    JMP      8 => 0021
+0018 => UGET     7   0      ; 
+0019    KSTR     8   2      ; "card/"
+0020    CAT      7   7   8
+0021 => KSTR     8   3      ; "nil"
+0022    KNIL     9  10
+0023    MOV     11   2
+0024    KPRI    12   0
+0025    ISTC    13   5
+0026    JMP     13 => 0028
+0027    KPRI    13   0
+0028 => ISEQP    2   0
+0029    JMP     14 => 0096
+0030    GGET    14   4      ; "DB_Heroes"
+0031    TGETS   14  14   5  ; "getDataById"
+0032    MOV     16   2
+0033    CALL    14   2   2
+0034    ISNEP   14   0
+0035    JMP     15 => 0041
+0036    GGET    15   6      ; "DB_Monsters_tmpl"
+0037    TGETS   15  15   5  ; "getDataById"
+0038    MOV     17   2
+0039    CALL    15   2   2
+0040    MOV     14  15
+0041 => TGETS   10  14   7  ; "star_lv"
+0042    TGETS    9  14   8  ; "action_module_id"
+0043    TGETS    8  14   9  ; "name"
+0044    MOV     12  14
+0045    GGET    15  10      ; "print"
+0046    KSTR    17  11      ; "hid==="
+0047    MOV     18   0
+0048    CALL    15   1   3
+0049    ISF          0
+0050    JMP     15 => 0083
+0051    GGET    15  12      ; "getBattleHeroInfo"
+0052    MOV     17   0
+0053    CALL    15   2   2
+0054    GGET    16  10      ; "print"
+0055    KSTR    18  13      ; "-=-=-=-=--"
+0056    CALL    16   1   2
+0057    GGET    16  14      ; "print_t"
+0058    MOV     18  15
+0059    CALL    16   1   2
+0060    ISEQP   15   0
+0061    JMP     16 => 0083
+0062    GGET    16  15      ; "HeroModel"
+0063    TGETS   16  16  16  ; "getHeroName"
+0064    MOV     18  15
+0065    CALL    16   2   2
+0066    MOV      8  16
+0067    GGET    16   0      ; "tonumber"
+0068    TGETS   18  15  17  ; "turned_id"
+0069    CALL    16   2   2
+0070    IST         16
+0071    JMP     17 => 0073
+0072    KSHORT  16   0
+0073 => TSETS   16  15  17  ; "turned_id"
+0074    TGETS   16  15  17  ; "turned_id"
+0075    ISEQN   16   0      ; 0
+0076    JMP     16 => 0083
+0077    TGETS   13  15  17  ; "turned_id"
+0078    GGET    16  18      ; "HeroTurnedData"
+0079    TGETS   16  16  19  ; "getHeroCardImgById"
+0080    TGETS   18  15  17  ; "turned_id"
+0081    CALL    16   2   2
+0082    MOV      9  16
+0083 => ISF         13
+0084    JMP     15 => 0201
+0085    GGET    15   0      ; "tonumber"
+0086    MOV     17  13
+0087    CALL    15   2   2
+0088    ISEQN   15   0      ; 0
+0089    JMP     15 => 0201
+0090    GGET    15  18      ; "HeroTurnedData"
+0091    TGETS   15  15  19  ; "getHeroCardImgById"
+0092    MOV     17  13
+0093    CALL    15   2   2
+0094    MOV      9  15
+0095    JMP     14 => 0201
+0096 => KNUM    14   1      ; 10000000
+0097    ISGE     0  14
+0098    JMP     14 => 0120
+0099    GGET    14  20      ; "DB_Monsters"
+0100    TGETS   14  14   5  ; "getDataById"
+0101    MOV     16   0
+0102    CALL    14   2   2
+0103    ISNEP   14   0
+0104    JMP     15 => 0110
+0105    GGET    15  20      ; "DB_Monsters"
+0106    TGETS   15  15   5  ; "getDataById"
+0107    KNUM    17   2      ; 3014201
+0108    CALL    15   2   2
+0109    MOV     14  15
+0110 => GGET    15   6      ; "DB_Monsters_tmpl"
+0111    TGETS   15  15   5  ; "getDataById"
+0112    TGETS   17  14  21  ; "htid"
+0113    CALL    15   2   2
+0114    TGETS   10  15   7  ; "star_lv"
+0115    TGETS    9  15   8  ; "action_module_id"
+0116    TGETS    8  15   9  ; "name"
+0117    TGETS   11  14  21  ; "htid"
+0118    MOV     12  15
+0119    JMP     14 => 0201
+0120 => GGET    14  15      ; "HeroModel"
+0121    TGETS   14  14  22  ; "getAllHeroes"
+0122    CALL    14   2   1
+0123    ISEQP   14   0
+0124    JMP     15 => 0131
+0125    MOV     15   0
+0126    KSTR    16  23      ; ""
+0127    CAT     15  15  16
+0128    TGETV   15  14  15
+0129    ISNEP   15   0
+0130    JMP     15 => 0135
+0131 => MODVN   15   0   3  ; 6
+0132    ADDVN   10  15   4  ; 1
+0133    KSTR     9  24      ; "zhan_jiang_guojia.png"
+0134    JMP     15 => 0201
+0135 => GGET    15  12      ; "getBattleHeroInfo"
+0136    MOV     17   0
+0137    CALL    15   2   2
+0138    MOV     16   0
+0139    KSTR    17  23      ; ""
+0140    CAT     16  16  17
+0141    TGETV   16  14  16
+0142    TGETS   16  16  21  ; "htid"
+0143    ISF         15
+0144    JMP     17 => 0146
+0145    TGETS   16  15  21  ; "htid"
+0146 => GGET    17   4      ; "DB_Heroes"
+0147    TGETS   17  17   5  ; "getDataById"
+0148    MOV     19  16
+0149    CALL    17   2   2
+0150    MOV     11  16
+0151    TGETS   10  17   7  ; "star_lv"
+0152    TGETS    9  17   8  ; "action_module_id"
+0153    GGET    18  15      ; "HeroModel"
+0154    TGETS   18  18  16  ; "getHeroName"
+0155    MOV     20   0
+0156    KSTR    21  23      ; ""
+0157    CAT     20  20  21
+0158    TGETV   20  14  20
+0159    CALL    18   2   2
+0160    MOV      8  18
+0161    MOV     12  17
+0162    ISF         15
+0163    JMP     18 => 0181
+0164    GGET    18   0      ; "tonumber"
+0165    TGETS   20  15  17  ; "turned_id"
+0166    CALL    18   2   2
+0167    IST         18
+0168    JMP     19 => 0170
+0169    KSHORT  18   0
+0170 => TSETS   18  15  17  ; "turned_id"
+0171    TGETS   18  15  17  ; "turned_id"
+0172    ISEQN   18   0      ; 0
+0173    JMP     18 => 0201
+0174    TGETS   13  15  17  ; "turned_id"
+0175    GGET    18  18      ; "HeroTurnedData"
+0176    TGETS   18  18  19  ; "getHeroCardImgById"
+0177    TGETS   20  15  17  ; "turned_id"
+0178    CALL    18   2   2
+0179    MOV      9  18
+0180    JMP     18 => 0201
+0181 => MOV     18   0
+0182    KSTR    19  23      ; ""
+0183    CAT     18  18  19
+0184    TGETV   15  14  18
+0185    GGET    18   0      ; "tonumber"
+0186    TGETS   20  15  17  ; "turned_id"
+0187    CALL    18   2   2
+0188    IST         18
+0189    JMP     19 => 0191
+0190    KSHORT  18   0
+0191 => TSETS   18  15  17  ; "turned_id"
+0192    TGETS   18  15  17  ; "turned_id"
+0193    ISEQN   18   0      ; 0
+0194    JMP     18 => 0201
+0195    TGETS   13  15  17  ; "turned_id"
+0196    GGET    18  18      ; "HeroTurnedData"
+0197    TGETS   18  18  19  ; "getHeroCardImgById"
+0198    TGETS   20  15  17  ; "turned_id"
+0199    CALL    18   2   2
+0200    MOV      9  18
+0201 => ISEQP    4   0
+0202    JMP     14 => 0204
+0203    MOV      9   4
+0204 => ISNEP    3   2
+0205    JMP     14 => 0211
+0206    KSHORT  10  99
+0207    UGET    14   0      ; 
+0208    KSTR    15   1      ; "bigcard/"
+0209    CAT      7  14  15
+0210    KPRI     1   2
+0211 => GGET    14  25      ; "CCXMLSprite"
+0212    MOV     16  14
+0213    TGETS   14  14  26  ; "create"
+0214    MOV     17   7
+0215    KSTR    18  27      ; "card_"
+0216    MOV     19  10
+0217    KSTR    20  28      ; ".png"
+0218    CAT     17  17  20
+0219    CALL    14   2   3
+0220    MOV     17  14
+0221    TGETS   15  14  29  ; "initXMLSprite"
+0222    GGET    18  30      ; "CCString"
+0223    MOV     20  18
+0224    TGETS   18  18  26  ; "create"
+0225    MOV     21   7
+0226    KSTR    22  27      ; "card_"
+0227    MOV     23  10
+0228    KSTR    24  28      ; ".png"
+0229    CAT     21  21  24
+0230    CALL    18   0   3
+0231    CALLM   15   1   1
+0232    MOV     17  14
+0233    TGETS   15  14  31  ; "setAnchorPoint"
+0234    GGET    18  32      ; "ccp"
+0235    KNUM    20   5      ; 0.5
+0236    KNUM    21   5      ; 0.5
+0237    CALL    18   0   3
+0238    CALLM   15   1   1
+0239    MOV     17  14
+0240    TGETS   15  14  33  ; "setCascadeOpacityEnabled"
+0241    KPRI    18   2
+0242    CALL    15   1   3
+0243    MOV     17  14
+0244    TGETS   15  14  34  ; "setCascadeColorEnabled"
+0245    KPRI    18   2
+0246    CALL    15   1   3
+0247    KPRI    15   0
+0248    ISF          9
+0249    JMP     16 => 0298
+0250    GGET    16  35      ; "CCFileUtils"
+0251    MOV     18  16
+0252    TGETS   16  16  36  ; "sharedFileUtils"
+0253    CALL    16   2   2
+0254    MOV     18  16
+0255    TGETS   16  16  37  ; "fullPathForFilename"
+0256    KSTR    19  38      ; "images/base/hero/action_module_b/"
+0257    MOV     20   9
+0258    CAT     19  19  20
+0259    CALL    16   2   3
+0260    GGET    17  35      ; "CCFileUtils"
+0261    MOV     19  17
+0262    TGETS   17  17  36  ; "sharedFileUtils"
+0263    CALL    17   2   2
+0264    MOV     19  17
+0265    TGETS   17  17  39  ; "isFileExist"
+0266    MOV     20  16
+0267    CALL    17   2   3
+0268    ISEQP    1   2
+0269    JMP     18 => 0272
+0270    ISNEP    3   2
+0271    JMP     18 => 0283
+0272 => ISNEP   17   2
+0273    JMP     18 => 0283
+0274    GGET    18  40      ; "CCSprite"
+0275    MOV     20  18
+0276    TGETS   18  18  26  ; "create"
+0277    KSTR    21  38      ; "images/base/hero/action_module_b/"
+0278    MOV     22   9
+0279    CAT     21  21  22
+0280    CALL    18   2   3
+0281    MOV     15  18
+0282    JMP     18 => 0291
+0283 => GGET    18  40      ; "CCSprite"
+0284    MOV     20  18
+0285    TGETS   18  18  26  ; "create"
+0286    KSTR    21  41      ; "images/base/hero/action_module/"
+0287    MOV     22   9
+0288    CAT     21  21  22
+0289    CALL    18   2   3
+0290    MOV     15  18
+0291 => MOV     20  15
+0292    TGETS   18  15  31  ; "setAnchorPoint"
+0293    GGET    21  32      ; "ccp"
+0294    KNUM    23   5      ; 0.5
+0295    KSHORT  24   0
+0296    CALL    21   0   3
+0297    CALLM   18   1   1
+0298 => GGET    16  42      ; "getDifferenceYByImageName"
+0299    MOV     18  11
+0300    MOV     19   9
+0301    MOV     20   1
+0302    MOV     21  13
+0303    CALL    16   2   5
+0304    ISNEP    3   2
+0305    JMP     17 => 0312
+0306    MOV     19  14
+0307    TGETS   17  14  43  ; "getContentSize"
+0308    CALL    17   2   2
+0309    TGETS   17  17  44  ; "height"
+0310    MULVN   17  17   6  ; 0.027
+0311    SUBVV   16  16  17
+0312 => GGET    17  10      ; "print"
+0313    KSTR    19  45      ; "turnedId 1"
+0314    MOV     20  13
+0315    MOV     21  16
+0316    CALL    17   1   4
+0317    MOV     19  15
+0318    TGETS   17  15  46  ; "setPosition"
+0319    MOV     22  14
+0320    TGETS   20  14  43  ; "getContentSize"
+0321    CALL    20   2   2
+0322    TGETS   20  20  47  ; "width"
+0323    DIVVN   20  20   7  ; 2
+0324    MOV     23  14
+0325    TGETS   21  14  43  ; "getContentSize"
+0326    CALL    21   2   2
+0327    TGETS   21  21  44  ; "height"
+0328    MULVN   21  21   8  ; 0.17
+0329    ADDVV   21  21  16
+0330    CALL    17   1   4
+0331    MOV     19  14
+0332    TGETS   17  14  48  ; "addChild"
+0333    MOV     20  15
+0334    KSHORT  21   2
+0335    KSHORT  22   1
+0336    CALL    17   1   5
+0337    GGET    17  40      ; "CCSprite"
+0338    MOV     19  17
+0339    TGETS   17  17  26  ; "create"
+0340    MOV     20   7
+0341    KSTR    21  27      ; "card_"
+0342    MOV     22  10
+0343    KSTR    23  49      ; "_top.png"
+0344    CAT     20  20  23
+0345    CALL    17   2   3
+0346    MOV     20  17
+0347    TGETS   18  17  31  ; "setAnchorPoint"
+0348    GGET    21  32      ; "ccp"
+0349    KSHORT  23   0
+0350    KSHORT  24   1
+0351    CALL    21   0   3
+0352    CALLM   18   1   1
+0353    MOV     20  17
+0354    TGETS   18  17  46  ; "setPosition"
+0355    KSHORT  21   0
+0356    MOV     24  14
+0357    TGETS   22  14  43  ; "getContentSize"
+0358    CALL    22   2   2
+0359    TGETS   22  22  44  ; "height"
+0360    CALL    18   1   4
+0361    MOV     20  14
+0362    TGETS   18  14  48  ; "addChild"
+0363    MOV     21  17
+0364    KSHORT  22   1
+0365    KSHORT  23   2
+0366    CALL    18   1   5
+0367    GGET    18  40      ; "CCSprite"
+0368    MOV     20  18
+0369    TGETS   18  18  26  ; "create"
+0370    MOV     21   7
+0371    KSTR    22  50      ; "card_shadow.png"
+0372    CAT     21  21  22
+0373    CALL    18   2   3
+0374    MOV     21  18
+0375    TGETS   19  18  31  ; "setAnchorPoint"
+0376    GGET    22  32      ; "ccp"
+0377    KSHORT  24   0
+0378    KSHORT  25   1
+0379    CALL    22   0   3
+0380    CALLM   19   1   1
+0381    MOV     21  18
+0382    TGETS   19  18  46  ; "setPosition"
+0383    KSHORT  22  -6
+0384    MOV     25  14
+0385    TGETS   23  14  43  ; "getContentSize"
+0386    CALL    23   2   2
+0387    TGETS   23  23  44  ; "height"
+0388    ADDVN   23  23   9  ; 5
+0389    CALL    19   1   4
+0390    MOV     21  14
+0391    TGETS   19  14  48  ; "addChild"
+0392    MOV     22  18
+0393    KSHORT  23  -1
+0394    KSHORT  24   5
+0395    CALL    19   1   5
+0396    GGET    19  40      ; "CCSprite"
+0397    MOV     21  19
+0398    TGETS   19  19  26  ; "create"
+0399    MOV     22   7
+0400    KSTR    23  51      ; "hpline_bg.png"
+0401    CAT     22  22  23
+0402    CALL    19   2   3
+0403    MOV     22  19
+0404    TGETS   20  19  31  ; "setAnchorPoint"
+0405    GGET    23  32      ; "ccp"
+0406    KNUM    25   5      ; 0.5
+0407    KNUM    26   5      ; 0.5
+0408    CALL    23   0   3
+0409    CALLM   20   1   1
+0410    MOV     22  19
+0411    TGETS   20  19  46  ; "setPosition"
+0412    MOV     25  14
+0413    TGETS   23  14  43  ; "getContentSize"
+0414    CALL    23   2   2
+0415    TGETS   23  23  47  ; "width"
+0416    MULVN   23  23   5  ; 0.5
+0417    MOV     26  14
+0418    TGETS   24  14  43  ; "getContentSize"
+0419    CALL    24   2   2
+0420    TGETS   24  24  44  ; "height"
+0421    MULVN   24  24  10  ; -0.05
+0422    CALL    20   1   4
+0423    MOV     22  14
+0424    TGETS   20  14  48  ; "addChild"
+0425    MOV     23  19
+0426    KSHORT  24   1
+0427    GGET    25  52      ; "kHpBgTag"
+0428    CALL    20   1   5
+0429    MOV     22  19
+0430    TGETS   20  19  33  ; "setCascadeOpacityEnabled"
+0431    KPRI    23   2
+0432    CALL    20   1   3
+0433    MOV     22  19
+0434    TGETS   20  19  34  ; "setCascadeColorEnabled"
+0435    KPRI    23   2
+0436    CALL    20   1   3
+0437    GGET    20  40      ; "CCSprite"
+0438    MOV     22  20
+0439    TGETS   20  20  26  ; "create"
+0440    MOV     23   7
+0441    KSTR    24  53      ; "hpline.png"
+0442    CAT     23  23  24
+0443    CALL    20   2   3
+0444    MOV     23  20
+0445    TGETS   21  20  31  ; "setAnchorPoint"
+0446    GGET    24  32      ; "ccp"
+0447    KSHORT  26   0
+0448    KNUM    27   5      ; 0.5
+0449    CALL    24   0   3
+0450    CALLM   21   1   1
+0451    MOV     23  20
+0452    TGETS   21  20  46  ; "setPosition"
+0453    KSHORT  24   0
+0454    MOV     27  19
+0455    TGETS   25  19  43  ; "getContentSize"
+0456    CALL    25   2   2
+0457    TGETS   25  25  44  ; "height"
+0458    MULVN   25  25   5  ; 0.5
+0459    CALL    21   1   4
+0460    MOV     23  19
+0461    TGETS   21  19  48  ; "addChild"
+0462    MOV     24  20
+0463    KSHORT  25   1
+0464    GGET    26  54      ; "kHpTag"
+0465    CALL    21   1   5
+0466    GGET    21  40      ; "CCSprite"
+0467    MOV     23  21
+0468    TGETS   21  21  26  ; "create"
+0469    MOV     24   7
+0470    KSTR    25  55      ; "card_hero_bg.png"
+0471    CAT     24  24  25
+0472    CALL    21   2   3
+0473    MOV     24  21
+0474    TGETS   22  21  31  ; "setAnchorPoint"
+0475    GGET    25  32      ; "ccp"
+0476    KNUM    27   5      ; 0.5
+0477    KSHORT  28   0
+0478    CALL    25   0   3
+0479    CALLM   22   1   1
+0480    MOV     24  21
+0481    TGETS   22  21  46  ; "setPosition"
+0482    MOV     27  14
+0483    TGETS   25  14  43  ; "getContentSize"
+0484    CALL    25   2   2
+0485    TGETS   25  25  47  ; "width"
+0486    DIVVN   25  25   7  ; 2
+0487    MOV     28  14
+0488    TGETS   26  14  43  ; "getContentSize"
+0489    CALL    26   2   2
+0490    TGETS   26  26  44  ; "height"
+0491    MULVN   26  26   8  ; 0.17
+0492    CALL    22   1   4
+0493    MOV     24  14
+0494    TGETS   22  14  48  ; "addChild"
+0495    MOV     25  21
+0496    KSHORT  26   0
+0497    KSHORT  27   8
+0498    CALL    22   1   5
+0499    ISEQP   11   0
+0500    JMP     22 => 0517
+0501    GGET    22  15      ; "HeroModel"
+0502    TGETS   22  22  56  ; "isNecessaryHero"
+0503    MOV     24  11
+0504    CALL    22   2   2
+0505    ISF         22
+0506    JMP     23 => 0517
+0507    GGET    22  57      ; "getNecessaryName"
+0508    MOV     24   0
+0509    CALL    22   2   2
+0510    MOV      8  22
+0511    ISNEP    8   0
+0512    JMP     22 => 0517
+0513    GGET    22  58      ; "UserModel"
+0514    TGETS   22  22  59  ; "getUserName"
+0515    CALL    22   2   1
+0516    MOV      8  22
+0517 => GGET    22  60      ; "HeroPublicLua"
+0518    TGETS   22  22  61  ; "getCCColorByStarLevel"
+0519    TGETS   24  12  62  ; "potential"
+0520    CALL    22   2   2
+0521    GGET    23  63      ; "CCRenderLabel"
+0522    MOV     25  23
+0523    TGETS   23  23  26  ; "create"
+0524    MOV     26   8
+0525    GGET    27  64      ; "g_sFontPangWa"
+0526    KSHORT  28  18
+0527    KSHORT  29   1
+0528    GGET    30  65      ; "ccc3"
+0529    KSHORT  32   0
+0530    KSHORT  33   0
+0531    KSHORT  34   0
+0532    CALL    30   2   4
+0533    GGET    31  66      ; "type_shadow"
+0534    CALL    23   2   8
+0535    MOV     26  23
+0536    TGETS   24  23  46  ; "setPosition"
+0537    GGET    27  32      ; "ccp"
+0538    MOV     31  14
+0539    TGETS   29  14  43  ; "getContentSize"
+0540    CALL    29   2   2
+0541    TGETS   29  29  47  ; "width"
+0542    DIVVN   29  29   7  ; 2
+0543    MOV     32  14
+0544    TGETS   30  14  43  ; "getContentSize"
+0545    CALL    30   2   2
+0546    TGETS   30  30  44  ; "height"
+0547    CALL    27   0   3
+0548    CALLM   24   1   1
+0549    MOV     26  23
+0550    TGETS   24  23  31  ; "setAnchorPoint"
+0551    GGET    27  32      ; "ccp"
+0552    KNUM    29   5      ; 0.5
+0553    KSHORT  30   0
+0554    CALL    27   0   3
+0555    CALLM   24   1   1
+0556    MOV     26  23
+0557    TGETS   24  23  67  ; "setColor"
+0558    MOV     27  22
+0559    CALL    24   1   3
+0560    MOV     26  14
+0561    TGETS   24  14  48  ; "addChild"
+0562    MOV     27  23
+0563    KSHORT  28 1000
+0564    GGET    29  68      ; "kHeroNameLabelTag"
+0565    CALL    24   1   5
+0566    MOV     26  23
+0567    TGETS   24  23  69  ; "setVisible"
+0568    UGET    27   1      ; 
+0569    CALL    24   1   3
+0570    GGET    24  70      ; "table"
+0571    TGETS   24  24  71  ; "insert"
+0572    UGET    26   2      ; 
+0573    MOV     27  23
+0574    CALL    24   1   3
+0575    MOV     26  23
+0576    TGETS   24  23  72  ; "registerScriptHandler"
+0577    FNEW    27  73      ; 314A1B82BE336D82.luac:0
+0578    CALL    24   1   3
+0579    ISEQP    6   0
+0580    JMP     24 => 0585
+0581    MOV     26  23
+0582    TGETS   24  23  69  ; "setVisible"
+0583    MOV     27   6
+0584    CALL    24   1   3
+0585 => UCLO     0 => 0586
+0586 => RET1    14   2
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    ISEQP    0   0
+0002    JMP      2 => 0057
+0003    MOV      4   0
+0004    TGETS    2   0   0  ; "getChildByTag"
+0005    KSHORT   5   6
+0006    CALL     2   2   3
+0007    ISEQP    2   0
+0008    JMP      2 => 0057
+0009    MOV      4   0
+0010    TGETS    2   0   0  ; "getChildByTag"
+0011    KSHORT   5   6
+0012    CALL     2   2   3
+0013    MOV      4   2
+0014    TGETS    2   2   0  ; "getChildByTag"
+0015    KSHORT   5   7
+0016    CALL     2   2   3
+0017    ISEQP    2   0
+0018    JMP      2 => 0057
+0019    GGET     2   1      ; "tolua"
+0020    TGETS    2   2   2  ; "cast"
+0021    MOV      6   0
+0022    TGETS    4   0   0  ; "getChildByTag"
+0023    KSHORT   7   6
+0024    CALL     4   2   3
+0025    MOV      6   4
+0026    TGETS    4   4   0  ; "getChildByTag"
+0027    KSHORT   7   7
+0028    CALL     4   2   3
+0029    KSTR     5   3      ; "CCSprite"
+0030    CALL     2   2   3
+0031    MOV      5   2
+0032    TGETS    3   2   4  ; "getTexture"
+0033    CALL     3   2   2
+0034    MOV      5   3
+0035    TGETS    3   3   5  ; "getContentSize"
+0036    CALL     3   2   2
+0037    KSHORT   4   1
+0038    ISGE     4   1
+0039    JMP      4 => 0042
+0040    KSHORT   1   1
+0041    JMP      4 => 0042
+0042 => KSHORT   4   0
+0043    ISGE     1   4
+0044    JMP      4 => 0047
+0045    KSHORT   1   0
+0046    JMP      4 => 0047
+0047 => MOV      6   2
+0048    TGETS    4   2   6  ; "setTextureRect"
+0049    GGET     7   7      ; "CCRectMake"
+0050    KSHORT   9   0
+0051    KSHORT  10   0
+0052    TGETS   11   3   8  ; "width"
+0053    MULVV   11  11   1
+0054    TGETS   12   3   9  ; "height"
+0055    CALL     7   0   5
+0056    CALLM    4   1   1
+0057 => RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    ISNEP    1   0
+0002    JMP      3 => 0004
+0003    RET0     0   1
+0004 => ISEQP    0   0
+0005    JMP      3 => 0022
+0006    MOV      5   0
+0007    TGETS    3   0   0  ; "getChildByTag"
+0008    KSHORT   6   6
+0009    CALL     3   2   3
+0010    ISEQP    3   0
+0011    JMP      3 => 0022
+0012    MOV      5   0
+0013    TGETS    3   0   0  ; "getChildByTag"
+0014    KSHORT   6   6
+0015    CALL     3   2   3
+0016    MOV      5   3
+0017    TGETS    3   3   0  ; "getChildByTag"
+0018    KSHORT   6   7
+0019    CALL     3   2   3
+0020    ISNEP    3   0
+0021    JMP      3 => 0023
+0022 => RET0     0   1
+0023 => KSHORT   3   1
+0024    GGET     4   1      ; "math"
+0025    TGETS    4   4   2  ; "floor"
+0026    DIVVV    6   1   3
+0027    CALL     4   2   2
+0028    GGET     5   3      ; "isOpenGodUnion"
+0029    MOV      7   2
+0030    CALL     5   2   2
+0031    KSHORT   6   4
+0032    ISGE     6   4
+0033    JMP      6 => 0359
+0034    MOV      8   0
+0035    TGETS    6   0   0  ; "getChildByTag"
+0036    KSHORT   9 8881
+0037    CALL     6   2   3
+0038    ISEQP    6   0
+0039    JMP      6 => 0050
+0040    MOV      8   0
+0041    TGETS    6   0   0  ; "getChildByTag"
+0042    KSHORT   9 8881
+0043    CALL     6   2   3
+0044    MOV      8   6
+0045    TGETS    6   6   0  ; "getChildByTag"
+0046    KSHORT   9 1290
+0047    CALL     6   2   3
+0048    ISNEP    6   0
+0049    JMP      6 => 0261
+0050 => MOV      8   0
+0051    TGETS    6   0   4  ; "getContentSize"
+0052    CALL     6   2   2
+0053    TGETS    6   6   5  ; "width"
+0054    KSHORT   7 150
+0055    ISGE     7   6
+0056    JMP      6 => 0159
+0057    GGET     6   6      ; "CCSprite"
+0058    MOV      8   6
+0059    TGETS    6   6   7  ; "create"
+0060    UGET     9   0      ; 
+0061    KSTR    10   8      ; "anger/big.png"
+0062    CAT      9   9  10
+0063    CALL     6   2   3
+0064    MOV      9   6
+0065    TGETS    7   6   9  ; "setAnchorPoint"
+0066    GGET    10  10      ; "ccp"
+0067    KNUM    12   0      ; 0.5
+0068    KNUM    13   0      ; 0.5
+0069    CALL    10   0   3
+0070    CALLM    7   1   1
+0071    MOV      9   6
+0072    TGETS    7   6  11  ; "setPosition"
+0073    MOV     12   0
+0074    TGETS   10   0   4  ; "getContentSize"
+0075    CALL    10   2   2
+0076    TGETS   10  10   5  ; "width"
+0077    MULVN   10  10   1  ; 0.7
+0078    KSHORT  11  21
+0079    CALL     7   1   4
+0080    MOV      9   0
+0081    TGETS    7   0  12  ; "addChild"
+0082    MOV     10   6
+0083    KSHORT  11  10
+0084    KSHORT  12 8881
+0085    CALL     7   1   5
+0086    MOV      9   6
+0087    TGETS    7   6  13  ; "setCascadeOpacityEnabled"
+0088    KPRI    10   2
+0089    CALL     7   1   3
+0090    MOV      9   6
+0091    TGETS    7   6  14  ; "setCascadeColorEnabled"
+0092    KPRI    10   2
+0093    CALL     7   1   3
+0094    GGET     7   6      ; "CCSprite"
+0095    MOV      9   7
+0096    TGETS    7   7   7  ; "create"
+0097    UGET    10   0      ; 
+0098    KSTR    11  15      ; "anger/X.png"
+0099    CAT     10  10  11
+0100    CALL     7   2   3
+0101    MOV     10   7
+0102    TGETS    8   7   9  ; "setAnchorPoint"
+0103    GGET    11  10      ; "ccp"
+0104    KSHORT  13   0
+0105    KSHORT  14   0
+0106    CALL    11   0   3
+0107    CALLM    8   1   1
+0108    MOV     10   7
+0109    TGETS    8   7  11  ; "setPosition"
+0110    MOV     13   6
+0111    TGETS   11   6   4  ; "getContentSize"
+0112    CALL    11   2   2
+0113    TGETS   11  11   5  ; "width"
+0114    KSHORT  12   0
+0115    CALL     8   1   4
+0116    MOV     10   6
+0117    TGETS    8   6  12  ; "addChild"
+0118    MOV     11   7
+0119    KSHORT  12   1
+0120    KSHORT  13 1299
+0121    CALL     8   1   5
+0122    GGET     8  16      ; "LuaCC"
+0123    TGETS    8   8  17  ; "createNumberSprite02"
+0124    UGET    10   0      ; 
+0125    KSTR    11  18      ; "anger"
+0126    CAT     10  10  11
+0127    KSTR    11  19      ; ""
+0128    MOV     12   4
+0129    CAT     11  11  12
+0130    KSHORT  12   0
+0131    CALL     8   2   4
+0132    MOV     11   8
+0133    TGETS    9   8   9  ; "setAnchorPoint"
+0134    GGET    12  10      ; "ccp"
+0135    KSHORT  14   0
+0136    KSHORT  15   0
+0137    CALL    12   0   3
+0138    CALLM    9   1   1
+0139    MOV     11   8
+0140    TGETS    9   8  11  ; "setPosition"
+0141    MOV     14   6
+0142    TGETS   12   6   4  ; "getContentSize"
+0143    CALL    12   2   2
+0144    TGETS   12  12   5  ; "width"
+0145    MOV     15   7
+0146    TGETS   13   7   4  ; "getContentSize"
+0147    CALL    13   2   2
+0148    TGETS   13  13   5  ; "width"
+0149    ADDVV   12  12  13
+0150    KSHORT  13 -13
+0151    CALL     9   1   4
+0152    MOV     11   6
+0153    TGETS    9   6  12  ; "addChild"
+0154    MOV     12   8
+0155    KSHORT  13   1
+0156    KSHORT  14 1290
+0157    CALL     9   1   5
+0158    JMP      6 => 0384
+0159 => GGET     6   6      ; "CCSprite"
+0160    MOV      8   6
+0161    TGETS    6   6   7  ; "create"
+0162    UGET     9   0      ; 
+0163    KSTR    10  20      ; "anger/nomal.png"
+0164    CAT      9   9  10
+0165    CALL     6   2   3
+0166    MOV      9   6
+0167    TGETS    7   6   9  ; "setAnchorPoint"
+0168    GGET    10  10      ; "ccp"
+0169    KNUM    12   0      ; 0.5
+0170    KNUM    13   0      ; 0.5
+0171    CALL    10   0   3
+0172    CALLM    7   1   1
+0173    MOV      9   6
+0174    TGETS    7   6  11  ; "setPosition"
+0175    MOV     12   0
+0176    TGETS   10   0   4  ; "getContentSize"
+0177    CALL    10   2   2
+0178    TGETS   10  10   5  ; "width"
+0179    MULVN   10  10   1  ; 0.7
+0180    KSHORT  11  12
+0181    CALL     7   1   4
+0182    MOV      9   0
+0183    TGETS    7   0  12  ; "addChild"
+0184    MOV     10   6
+0185    KSHORT  11  10
+0186    KSHORT  12 8881
+0187    CALL     7   1   5
+0188    MOV      9   6
+0189    TGETS    7   6  13  ; "setCascadeOpacityEnabled"
+0190    KPRI    10   2
+0191    CALL     7   1   3
+0192    MOV      9   6
+0193    TGETS    7   6  14  ; "setCascadeColorEnabled"
+0194    KPRI    10   2
+0195    CALL     7   1   3
+0196    GGET     7   6      ; "CCSprite"
+0197    MOV      9   7
+0198    TGETS    7   7   7  ; "create"
+0199    UGET    10   0      ; 
+0200    KSTR    11  15      ; "anger/X.png"
+0201    CAT     10  10  11
+0202    CALL     7   2   3
+0203    MOV     10   7
+0204    TGETS    8   7   9  ; "setAnchorPoint"
+0205    GGET    11  10      ; "ccp"
+0206    KSHORT  13   0
+0207    KSHORT  14   0
+0208    CALL    11   0   3
+0209    CALLM    8   1   1
+0210    MOV     10   7
+0211    TGETS    8   7  11  ; "setPosition"
+0212    MOV     13   6
+0213    TGETS   11   6   4  ; "getContentSize"
+0214    CALL    11   2   2
+0215    TGETS   11  11   5  ; "width"
+0216    KSHORT  12   0
+0217    CALL     8   1   4
+0218    MOV     10   6
+0219    TGETS    8   6  12  ; "addChild"
+0220    MOV     11   7
+0221    KSHORT  12   1
+0222    KSHORT  13 1299
+0223    CALL     8   1   5
+0224    GGET     8  16      ; "LuaCC"
+0225    TGETS    8   8  17  ; "createNumberSprite02"
+0226    UGET    10   0      ; 
+0227    KSTR    11  18      ; "anger"
+0228    CAT     10  10  11
+0229    KSTR    11  19      ; ""
+0230    MOV     12   4
+0231    CAT     11  11  12
+0232    KSHORT  12   0
+0233    CALL     8   2   4
+0234    MOV     11   8
+0235    TGETS    9   8   9  ; "setAnchorPoint"
+0236    GGET    12  10      ; "ccp"
+0237    KSHORT  14   0
+0238    KSHORT  15   0
+0239    CALL    12   0   3
+0240    CALLM    9   1   1
+0241    MOV     11   8
+0242    TGETS    9   8  11  ; "setPosition"
+0243    MOV     14   6
+0244    TGETS   12   6   4  ; "getContentSize"
+0245    CALL    12   2   2
+0246    TGETS   12  12   5  ; "width"
+0247    MOV     15   7
+0248    TGETS   13   7   4  ; "getContentSize"
+0249    CALL    13   2   2
+0250    TGETS   13  13   5  ; "width"
+0251    ADDVV   12  12  13
+0252    KSHORT  13 -13
+0253    CALL     9   1   4
+0254    MOV     11   6
+0255    TGETS    9   6  12  ; "addChild"
+0256    MOV     12   8
+0257    KSHORT  13   1
+0258    KSHORT  14 1290
+0259    CALL     9   1   5
+0260    JMP      6 => 0384
+0261 => MOV      8   0
+0262    TGETS    6   0   0  ; "getChildByTag"
+0263    KSHORT   9 8881
+0264    CALL     6   2   3
+0265    MOV      9   6
+0266    TGETS    7   6  21  ; "removeChildByTag"
+0267    KSHORT  10 1290
+0268    KPRI    11   2
+0269    CALL     7   1   4
+0270    MOV      9   0
+0271    TGETS    7   0   4  ; "getContentSize"
+0272    CALL     7   2   2
+0273    TGETS    7   7   5  ; "width"
+0274    KSHORT   8 150
+0275    ISGE     8   7
+0276    JMP      7 => 0318
+0277    GGET     7  16      ; "LuaCC"
+0278    TGETS    7   7  17  ; "createNumberSprite02"
+0279    UGET     9   0      ; 
+0280    KSTR    10  18      ; "anger"
+0281    CAT      9   9  10
+0282    KSTR    10  19      ; ""
+0283    MOV     11   4
+0284    CAT     10  10  11
+0285    KSHORT  11  20
+0286    CALL     7   2   4
+0287    MOV     10   7
+0288    TGETS    8   7   9  ; "setAnchorPoint"
+0289    GGET    11  10      ; "ccp"
+0290    KSHORT  13   0
+0291    KSHORT  14   0
+0292    CALL    11   0   3
+0293    CALLM    8   1   1
+0294    MOV     10   7
+0295    TGETS    8   7  11  ; "setPosition"
+0296    MOV     13   6
+0297    TGETS   11   6   4  ; "getContentSize"
+0298    CALL    11   2   2
+0299    TGETS   11  11   5  ; "width"
+0300    MOV     14   6
+0301    TGETS   12   6   0  ; "getChildByTag"
+0302    KSHORT  15 1299
+0303    CALL    12   2   3
+0304    MOV     14  12
+0305    TGETS   12  12   4  ; "getContentSize"
+0306    CALL    12   2   2
+0307    TGETS   12  12   5  ; "width"
+0308    ADDVV   11  11  12
+0309    KSHORT  12 -13
+0310    CALL     8   1   4
+0311    MOV     10   6
+0312    TGETS    8   6  12  ; "addChild"
+0313    MOV     11   7
+0314    KSHORT  12   1
+0315    KSHORT  13 1290
+0316    CALL     8   1   5
+0317    JMP      7 => 0384
+0318 => GGET     7  16      ; "LuaCC"
+0319    TGETS    7   7  17  ; "createNumberSprite02"
+0320    UGET     9   0      ; 
+0321    KSTR    10  18      ; "anger"
+0322    CAT      9   9  10
+0323    KSTR    10  19      ; ""
+0324    MOV     11   4
+0325    CAT     10  10  11
+0326    KSHORT  11  20
+0327    CALL     7   2   4
+0328    MOV     10   7
+0329    TGETS    8   7   9  ; "setAnchorPoint"
+0330    GGET    11  10      ; "ccp"
+0331    KSHORT  13   0
+0332    KSHORT  14   0
+0333    CALL    11   0   3
+0334    CALLM    8   1   1
+0335    MOV     10   7
+0336    TGETS    8   7  11  ; "setPosition"
+0337    MOV     13   6
+0338    TGETS   11   6   4  ; "getContentSize"
+0339    CALL    11   2   2
+0340    TGETS   11  11   5  ; "width"
+0341    MOV     14   6
+0342    TGETS   12   6   0  ; "getChildByTag"
+0343    KSHORT  15 1299
+0344    CALL    12   2   3
+0345    MOV     14  12
+0346    TGETS   12  12   4  ; "getContentSize"
+0347    CALL    12   2   2
+0348    TGETS   12  12   5  ; "width"
+0349    ADDVV   11  11  12
+0350    KSHORT  12 -13
+0351    CALL     8   1   4
+0352    MOV     10   6
+0353    TGETS    8   6  12  ; "addChild"
+0354    MOV     11   7
+0355    KSHORT  12   1
+0356    KSHORT  13 1290
+0357    CALL     8   1   5
+0358    JMP      6 => 0384
+0359 => MOV      8   0
+0360    TGETS    6   0   0  ; "getChildByTag"
+0361    KSHORT   9 8881
+0362    CALL     6   2   3
+0363    ISEQP    6   0
+0364    JMP      6 => 0384
+0365    MOV      8   0
+0366    TGETS    6   0   0  ; "getChildByTag"
+0367    KSHORT   9 8881
+0368    CALL     6   2   3
+0369    MOV      8   6
+0370    TGETS    6   6   0  ; "getChildByTag"
+0371    KSHORT   9 1290
+0372    CALL     6   2   3
+0373    ISNEP    6   0
+0374    JMP      6 => 0376
+0375    JMP      6 => 0384
+0376 => MOV      8   0
+0377    TGETS    6   0   0  ; "getChildByTag"
+0378    KSHORT   9 8881
+0379    CALL     6   2   3
+0380    MOV      9   6
+0381    TGETS    7   6  22  ; "setVisible"
+0382    KPRI    10   1
+0383    CALL     7   1   3
+0384 => KSTR     6  23      ; "images/battle/effect/honggouyu"
+0385    KSHORT   7   1
+0386    KSHORT   8   4
+0387    KSHORT   9   1
+0388    FORI     7 => 0540
+0389 => GGET    11  24      ; "tolua"
+0390    TGETS   11  11  25  ; "cast"
+0391    MOV     15   0
+0392    TGETS   13   0   0  ; "getChildByTag"
+0393    ADDNV   16  10   2  ; 10
+0394    CALL    13   2   3
+0395    KSTR    14   6      ; "CCSprite"
+0396    CALL    11   2   3
+0397    ISGT    10   4
+0398    JMP     12 => 0533
+0399    ISNEP   11   0
+0400    JMP     12 => 0539
+0401    MOV     14   0
+0402    TGETS   12   0   4  ; "getContentSize"
+0403    CALL    12   2   2
+0404    TGETS   12  12   5  ; "width"
+0405    KSHORT  13 150
+0406    ISGE    13  12
+0407    JMP     12 => 0470
+0408    KPRI    12   0
+0409    ISF          5
+0410    JMP     13 => 0441
+0411    GGET    13  26      ; "CCLayerSprite"
+0412    MOV     15  13
+0413    TGETS   13  13  27  ; "layerSpriteWithName"
+0414    GGET    16  28      ; "CCString"
+0415    MOV     18  16
+0416    TGETS   16  16   7  ; "create"
+0417    MOV     19   6
+0418    CALL    16   2   3
+0419    KSHORT  17  -1
+0420    GGET    18  28      ; "CCString"
+0421    MOV     20  18
+0422    TGETS   18  18   7  ; "create"
+0423    KSTR    21  19      ; ""
+0424    CALL    18   0   3
+0425    CALLM   13   2   3
+0426    MOV     16  13
+0427    TGETS   14  13   9  ; "setAnchorPoint"
+0428    GGET    17  10      ; "ccp"
+0429    KNUM    19   0      ; 0.5
+0430    KNUM    20   0      ; 0.5
+0431    CALL    17   0   3
+0432    CALLM   14   1   1
+0433    MOV     16  13
+0434    TGETS   14  13  11  ; "setPosition"
+0435    SUBVN   17  10   3  ; 1
+0436    MULVN   17  17   4  ; 20
+0437    ADDNV   17  17   5  ; 22
+0438    KSHORT  18  21
+0439    CALL    14   1   4
+0440    JMP     13 => 0463
+0441 => GGET    13   6      ; "CCSprite"
+0442    MOV     15  13
+0443    TGETS   13  13   7  ; "create"
+0444    UGET    16   0      ; 
+0445    KSTR    17  29      ; "bigcard/anger.png"
+0446    CAT     16  16  17
+0447    CALL    13   2   3
+0448    MOV     12  13
+0449    MOV     15  12
+0450    TGETS   13  12   9  ; "setAnchorPoint"
+0451    GGET    16  10      ; "ccp"
+0452    KNUM    18   0      ; 0.5
+0453    KNUM    19   0      ; 0.5
+0454    CALL    16   0   3
+0455    CALLM   13   1   1
+0456    MOV     15  12
+0457    TGETS   13  12  11  ; "setPosition"
+0458    SUBVN   16  10   3  ; 1
+0459    MULVN   16  16   4  ; 20
+0460    ADDNV   16  16   5  ; 22
+0461    KSHORT  17  21
+0462    CALL    13   1   4
+0463 => MOV     15   0
+0464    TGETS   13   0  12  ; "addChild"
+0465    MOV     16  12
+0466    KSHORT  17   3
+0467    ADDNV   18  10   2  ; 10
+0468    CALL    13   1   5
+0469    JMP     12 => 0539
+0470 => KPRI    12   0
+0471    ISF          5
+0472    JMP     13 => 0504
+0473    GGET    13  26      ; "CCLayerSprite"
+0474    MOV     15  13
+0475    TGETS   13  13  27  ; "layerSpriteWithName"
+0476    GGET    16  28      ; "CCString"
+0477    MOV     18  16
+0478    TGETS   16  16   7  ; "create"
+0479    MOV     19   6
+0480    CALL    16   2   3
+0481    KSHORT  17  -1
+0482    GGET    18  28      ; "CCString"
+0483    MOV     20  18
+0484    TGETS   18  18   7  ; "create"
+0485    KSTR    21  19      ; ""
+0486    CALL    18   0   3
+0487    CALLM   13   2   3
+0488    MOV     12  13
+0489    MOV     15  12
+0490    TGETS   13  12   9  ; "setAnchorPoint"
+0491    GGET    16  10      ; "ccp"
+0492    KNUM    18   0      ; 0.5
+0493    KNUM    19   0      ; 0.5
+0494    CALL    16   0   3
+0495    CALLM   13   1   1
+0496    MOV     15  12
+0497    TGETS   13  12  11  ; "setPosition"
+0498    SUBVN   16  10   3  ; 1
+0499    MULVN   16  16   6  ; 14
+0500    ADDNV   16  16   7  ; 17
+0501    KNUM    17   8      ; 13.5
+0502    CALL    13   1   4
+0503    JMP     13 => 0526
+0504 => GGET    13   6      ; "CCSprite"
+0505    MOV     15  13
+0506    TGETS   13  13   7  ; "create"
+0507    UGET    16   0      ; 
+0508    KSTR    17  30      ; "card/anger.png"
+0509    CAT     16  16  17
+0510    CALL    13   2   3
+0511    MOV     12  13
+0512    MOV     15  12
+0513    TGETS   13  12   9  ; "setAnchorPoint"
+0514    GGET    16  10      ; "ccp"
+0515    KNUM    18   0      ; 0.5
+0516    KNUM    19   0      ; 0.5
+0517    CALL    16   0   3
+0518    CALLM   13   1   1
+0519    MOV     15  12
+0520    TGETS   13  12  11  ; "setPosition"
+0521    SUBVN   16  10   3  ; 1
+0522    MULVN   16  16   6  ; 14
+0523    ADDNV   16  16   6  ; 14
+0524    KSHORT  17  12
+0525    CALL    13   1   4
+0526 => MOV     15   0
+0527    TGETS   13   0  12  ; "addChild"
+0528    MOV     16  12
+0529    KSHORT  17   3
+0530    ADDNV   18  10   2  ; 10
+0531    CALL    13   1   5
+0532    JMP     12 => 0539
+0533 => ISEQP   11   0
+0534    JMP     12 => 0539
+0535    MOV     14  11
+0536    TGETS   12  11  31  ; "removeFromParentAndCleanup"
+0537    KPRI    15   2
+0538    CALL    12   1   3
+0539 => FORL     7 => 0389
+0540 => KSTR     7  32      ; "images/battle/effect/lvdou"
+0541    ISF          5
+0542    JMP      8 => 0544
+0543    KSTR     7  23      ; "images/battle/effect/honggouyu"
+0544 => KSHORT   8   4
+0545    ISGT     8   4
+0546    JMP      8 => 0623
+0547    MOV     10   0
+0548    TGETS    8   0   0  ; "getChildByTag"
+0549    KSHORT  11 131
+0550    CALL     8   2   3
+0551    ISNEP    8   0
+0552    JMP      9 => 0649
+0553    KSHORT   9   1
+0554    KSHORT  10   4
+0555    KSHORT  11   1
+0556    FORI     9 => 0622
+0557 => GGET    13  26      ; "CCLayerSprite"
+0558    MOV     15  13
+0559    TGETS   13  13  27  ; "layerSpriteWithName"
+0560    GGET    16  28      ; "CCString"
+0561    MOV     18  16
+0562    TGETS   16  16   7  ; "create"
+0563    MOV     19   7
+0564    CALL    16   2   3
+0565    KSHORT  17  -1
+0566    GGET    18  28      ; "CCString"
+0567    MOV     20  18
+0568    TGETS   18  18   7  ; "create"
+0569    KSTR    21  19      ; ""
+0570    CALL    18   0   3
+0571    CALLM   13   2   3
+0572    MOV     16  13
+0573    TGETS   14  13   9  ; "setAnchorPoint"
+0574    GGET    17  10      ; "ccp"
+0575    KNUM    19   0      ; 0.5
+0576    KNUM    20   0      ; 0.5
+0577    CALL    17   0   3
+0578    CALLM   14   1   1
+0579    MOV     16   0
+0580    TGETS   14   0   4  ; "getContentSize"
+0581    CALL    14   2   2
+0582    TGETS   14  14   5  ; "width"
+0583    KSHORT  15 150
+0584    ISGE    15  14
+0585    JMP     14 => 0598
+0586    MOV     16  13
+0587    TGETS   14  13  11  ; "setPosition"
+0588    SUBVN   17  12   3  ; 1
+0589    MULVN   17  17   4  ; 20
+0590    ADDNV   17  17   5  ; 22
+0591    KSHORT  18  19
+0592    CALL    14   1   4
+0593    MOV     16  13
+0594    TGETS   14  13  33  ; "setScale"
+0595    KNUM    17   9      ; 1.5
+0596    CALL    14   1   3
+0597    JMP     14 => 0605
+0598 => MOV     16  13
+0599    TGETS   14  13  11  ; "setPosition"
+0600    SUBVN   17  12   3  ; 1
+0601    MULVN   17  17   6  ; 14
+0602    ADDNV   17  17   6  ; 14
+0603    KSHORT  18  12
+0604    CALL    14   1   4
+0605 => MOV     16   0
+0606    TGETS   14   0  12  ; "addChild"
+0607    MOV     17  13
+0608    KSHORT  18   3
+0609    ADDNV   19  12  10  ; 130
+0610    CALL    14   1   5
+0611    MOV     16   0
+0612    TGETS   14   0   0  ; "getChildByTag"
+0613    ADDNV   17  12   2  ; 10
+0614    CALL    14   2   3
+0615    ISEQP   14   0
+0616    JMP     15 => 0621
+0617    MOV     17  14
+0618    TGETS   15  14  22  ; "setVisible"
+0619    KPRI    18   1
+0620    CALL    15   1   3
+0621 => FORL     9 => 0557
+0622 => JMP      8 => 0649
+0623 => KSHORT   8   1
+0624    KSHORT   9   4
+0625    KSHORT  10   1
+0626    FORI     8 => 0649
+0627 => MOV     14   0
+0628    TGETS   12   0   0  ; "getChildByTag"
+0629    ADDNV   15  11  10  ; 130
+0630    CALL    12   2   3
+0631    ISEQP   12   0
+0632    JMP     13 => 0638
+0633    MOV     15   0
+0634    TGETS   13   0  21  ; "removeChildByTag"
+0635    ADDNV   16  11  10  ; 130
+0636    KPRI    17   2
+0637    CALL    13   1   4
+0638 => MOV     15   0
+0639    TGETS   13   0   0  ; "getChildByTag"
+0640    ADDNV   16  11   2  ; 10
+0641    CALL    13   2   3
+0642    ISEQP   13   0
+0643    JMP     14 => 0648
+0644    MOV     16  13
+0645    TGETS   14  13  22  ; "setVisible"
+0646    KPRI    17   2
+0647    CALL    14   1   3
+0648 => FORL     8 => 0627
+0649 => ISF          2
+0650    JMP      8 => 0699
+0651    KSHORT   8   4
+0652    ISGT     8   4
+0653    JMP      8 => 0699
+0654    GGET     8  34      ; "BattleLayer"
+0655    TGETS    8   8  35  ; "isShowCooperateIcon"
+0656    MOV     10   2
+0657    CALL     8   2   2
+0658    GGET     9  34      ; "BattleLayer"
+0659    TGETS    9   9  36  ; "getCooprateEffectName"
+0660    MOV     11   2
+0661    CALL     9   2   2
+0662    GGET    10  37      ; "Logger"
+0663    TGETS   10  10  38  ; "debug"
+0664    KSTR    12  39      ; "cooperate effect name is %s"
+0665    KSTR    13  40      ; "nuqizhubei"
+0666    CALL    10   1   3
+0667    ISF          8
+0668    JMP     10 => 0704
+0669    MOV     12   0
+0670    TGETS   10   0  21  ; "removeChildByTag"
+0671    GGET    13  41      ; "kCooperateIconTag"
+0672    KPRI    14   2
+0673    CALL    10   1   4
+0674    GGET    10  42      ; "XMLSprite"
+0675    MOV     12  10
+0676    TGETS   10  10   7  ; "create"
+0677    KSTR    13  43      ; "images/battle/cooperate/effect/"
+0678    MOV     14   9
+0679    CAT     13  13  14
+0680    CALL    10   2   3
+0681    MOV     13  10
+0682    TGETS   11  10  11  ; "setPosition"
+0683    GGET    14  44      ; "ccpsprite"
+0684    KNUM    16   0      ; 0.5
+0685    KNUM    17  11      ; 0.1
+0686    MOV     18   0
+0687    CALL    14   0   4
+0688    CALLM   11   1   1
+0689    MOV     13  10
+0690    TGETS   11  10  45  ; "setTag"
+0691    GGET    14  41      ; "kCooperateIconTag"
+0692    CALL    11   1   3
+0693    MOV     13   0
+0694    TGETS   11   0  12  ; "addChild"
+0695    MOV     14  10
+0696    KSHORT  15 1000
+0697    CALL    11   1   4
+0698    JMP      8 => 0704
+0699 => MOV     10   0
+0700    TGETS    8   0  21  ; "removeChildByTag"
+0701    GGET    11  41      ; "kCooperateIconTag"
+0702    KPRI    12   2
+0703    CALL     8   1   4
+0704 => RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    GGET     1   0      ; "tonumber"
+0002    MOV      3   0
+0003    CALL     1   2   2
+0004    MOV      0   1
+0005    GGET     1   1      ; "isBoss"
+0006    ISNEP    1   2
+0007    JMP      1 => 0013
+0008    UGET     1   0      ; 
+0009    KSTR     2   2      ; "bigcard/"
+0010    CAT      1   1   2
+0011    IST          1
+0012    JMP      2 => 0016
+0013 => UGET     1   0      ; 
+0014    KSTR     2   3      ; "card/"
+0015    CAT      1   1   2
+0016 => KNIL     2   3
+0017    GGET     4   4      ; "htid"
+0018    ISEQP    4   0
+0019    JMP      4 => 0027
+0020    GGET     4   5      ; "DB_Heroes"
+0021    TGETS    4   4   6  ; "getDataById"
+0022    GGET     6   4      ; "htid"
+0023    CALL     4   2   2
+0024    TGETS    3   4   7  ; "star_lv"
+0025    TGETS    2   4   8  ; "boss_icon_id"
+0026    JMP      4 => 0074
+0027 => KNUM     4   0      ; 10000000
+0028    ISGE     0   4
+0029    JMP      4 => 0048
+0030    GGET     4   9      ; "DB_Monsters"
+0031    TGETS    4   4   6  ; "getDataById"
+0032    MOV      6   0
+0033    CALL     4   2   2
+0034    ISNEP    4   0
+0035    JMP      5 => 0041
+0036    GGET     5   9      ; "DB_Monsters"
+0037    TGETS    5   5   6  ; "getDataById"
+0038    KNUM     7   1      ; 1002011
+0039    CALL     5   2   2
+0040    MOV      4   5
+0041 => GGET     5  10      ; "DB_Monsters_tmpl"
+0042    TGETS    5   5   6  ; "getDataById"
+0043    TGETS    7   4   4  ; "htid"
+0044    CALL     5   2   2
+0045    TGETS    3   5   7  ; "star_lv"
+0046    TGETS    2   5   8  ; "boss_icon_id"
+0047    JMP      4 => 0074
+0048 => GGET     4  11      ; "HeroModel"
+0049    TGETS    4   4  12  ; "getAllHeroes"
+0050    CALL     4   2   1
+0051    ISEQP    4   0
+0052    JMP      5 => 0059
+0053    MOV      5   0
+0054    KSTR     6  13      ; ""
+0055    CAT      5   5   6
+0056    TGETV    5   4   5
+0057    ISNEP    5   0
+0058    JMP      5 => 0063
+0059 => MODVN    5   0   2  ; 6
+0060    ADDVN    3   5   3  ; 1
+0061    KSTR     2  14      ; "zhan_jiang_guojia.png"
+0062    JMP      5 => 0074
+0063 => MOV      5   0
+0064    KSTR     6  13      ; ""
+0065    CAT      5   5   6
+0066    TGETV    5   4   5
+0067    TGETS    5   5   4  ; "htid"
+0068    GGET     6   5      ; "DB_Heroes"
+0069    TGETS    6   6   6  ; "getDataById"
+0070    MOV      8   5
+0071    CALL     6   2   2
+0072    TGETS    3   6   7  ; "star_lv"
+0073    TGETS    2   6   8  ; "boss_icon_id"
+0074 => GGET     4  15      ; "CCXMLSprite"
+0075    MOV      6   4
+0076    TGETS    4   4  16  ; "create"
+0077    UGET     7   0      ; 
+0078    KSTR     8  17      ; "card/blankcard.png"
+0079    CAT      7   7   8
+0080    CALL     4   2   3
+0081    MOV      7   4
+0082    TGETS    5   4  18  ; "initXMLSprite"
+0083    GGET     8  19      ; "CCString"
+0084    MOV     10   8
+0085    TGETS    8   8  16  ; "create"
+0086    UGET    11   0      ; 
+0087    KSTR    12  17      ; "card/blankcard.png"
+0088    CAT     11  11  12
+0089    CALL     8   0   3
+0090    CALLM    5   1   1
+0091    MOV      7   4
+0092    TGETS    5   4  20  ; "setAnchorPoint"
+0093    GGET     8  21      ; "ccp"
+0094    KNUM    10   4      ; 0.5
+0095    KNUM    11   4      ; 0.5
+0096    CALL     8   0   3
+0097    CALLM    5   1   1
+0098    MOV      7   4
+0099    TGETS    5   4  22  ; "setCascadeOpacityEnabled"
+0100    KPRI     8   2
+0101    CALL     5   1   3
+0102    MOV      7   4
+0103    TGETS    5   4  23  ; "setCascadeColorEnabled"
+0104    KPRI     8   2
+0105    CALL     5   1   3
+0106    GGET     5  24      ; "CCSprite"
+0107    MOV      7   5
+0108    TGETS    5   5  16  ; "create"
+0109    KSTR     8  25      ; "images/base/hero/body_img/"
+0110    MOV      9   2
+0111    CAT      8   8   9
+0112    CALL     5   2   3
+0113    MOV      8   5
+0114    TGETS    6   5  20  ; "setAnchorPoint"
+0115    GGET     9  21      ; "ccp"
+0116    KNUM    11   4      ; 0.5
+0117    KSHORT  12   0
+0118    CALL     9   0   3
+0119    CALLM    6   1   1
+0120    MOV      8   5
+0121    TGETS    6   5  26  ; "setPosition"
+0122    GGET     9  21      ; "ccp"
+0123    MOV     13   4
+0124    TGETS   11   4  27  ; "getContentSize"
+0125    CALL    11   2   2
+0126    TGETS   11  11  28  ; "width"
+0127    MULVN   11  11   4  ; 0.5
+0128    KSHORT  12   0
+0129    CALL     9   0   3
+0130    CALLM    6   1   1
+0131    MOV      8   5
+0132    TGETS    6   5  22  ; "setCascadeOpacityEnabled"
+0133    KPRI     9   2
+0134    CALL     6   1   3
+0135    MOV      8   5
+0136    TGETS    6   5  23  ; "setCascadeColorEnabled"
+0137    KPRI     9   2
+0138    CALL     6   1   3
+0139    MOV      8   4
+0140    TGETS    6   4  29  ; "addChild"
+0141    MOV      9   5
+0142    CALL     6   1   3
+0143    RET1     4   2
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    GGET     4   0      ; "require"
+0002    KSTR     6   1      ; "script/battle/BattleLayer"
+0003    CALL     4   1   2
+0004    GGET     4   2      ; "BattleLayer"
+0005    TGETS    4   4   3  ; "initPlayerCardHidMap"
+0006    CALL     4   1   1
+0007    GGET     4   2      ; "BattleLayer"
+0008    TGETS    4   4   4  ; "m_playerCardHidMap"
+0009    ISEQP    3   0
+0010    JMP      5 => 0072
+0011    GGET     5   5      ; "tonumber"
+0012    MOV      7   3
+0013    CALL     5   2   2
+0014    KSHORT   6   0
+0015    ISGE     6   5
+0016    JMP      5 => 0072
+0017    GGET     5   6      ; "DB_Item_dress"
+0018    TGETS    5   5   7  ; "getDataById"
+0019    GGET     7   5      ; "tonumber"
+0020    MOV      9   3
+0021    CALL     7   0   2
+0022    CALLM    5   2   0
+0023    TGETS    6   5   8  ; "changeModel"
+0024    ISF          6
+0025    JMP      7 => 0072
+0026    GGET     6   9      ; "lua_string_split"
+0027    TGETS    8   5   8  ; "changeModel"
+0028    KSTR     9  10      ; ","
+0029    CALL     6   2   3
+0030    KSHORT   7   1
+0031    LEN      8   6
+0032    KSHORT   9   1
+0033    FORI     7 => 0072
+0034 => GGET    11   9      ; "lua_string_split"
+0035    TGETV   13   6  10
+0036    KSTR    14  11      ; "|"
+0037    CALL    11   2   3
+0038    TGETB   11  11   1
+0039    GGET    12   9      ; "lua_string_split"
+0040    TGETV   14   6  10
+0041    KSTR    15  11      ; "|"
+0042    CALL    12   2   3
+0043    TGETB   12  12   2
+0044    GGET    13  12      ; "DB_Heroes"
+0045    TGETS   13  13   7  ; "getDataById"
+0046    GGET    15   5      ; "tonumber"
+0047    MOV     17   2
+0048    CALL    15   0   2
+0049    CALLM   13   2   0
+0050    TGETS   14  13  13  ; "model_id"
+0051    GGET    15   5      ; "tonumber"
+0052    MOV     17  11
+0053    CALL    15   2   2
+0054    ISNEV   14  15
+0055    JMP     14 => 0071
+0056    GGET    14  14      ; "print"
+0057    KSTR    16  15      ; "m_playerCardHidMap[cardInfo.hid]:"
+0058    MOV     17   0
+0059    MOV     18  11
+0060    CALL    14   1   4
+0061    MOV     14   0
+0062    KSTR    15  16      ; ""
+0063    CAT     14  14  15
+0064    TNEW    15   0
+0065    TSETV   15   4  14
+0066    MOV     14   0
+0067    KSTR    15  16      ; ""
+0068    CAT     14  14  15
+0069    TGETV   14   4  14
+0070    TSETS   12  14  17  ; "actionFile"
+0071 => FORL     7 => 0034
+0072 => ISNEP    0   0
+0073    JMP      5 => 0075
+0074    KSHORT   0   0
+0075 => GGET     5   5      ; "tonumber"
+0076    MOV      7   0
+0077    CALL     5   2   2
+0078    MOV      0   5
+0079    GGET     5  18      ; "HeroModel"
+0080    TGETS    5   5  19  ; "getHeroByHid"
+0081    MOV      7   0
+0082    CALL     5   2   2
+0083    ISNEP    1   0
+0084    JMP      6 => 0086
+0085    KPRI     1   1
+0086 => GGET     6   5      ; "tonumber"
+0087    MOV      8   2
+0088    CALL     6   2   2
+0089    MOV      2   6
+0090    KNIL     6   7
+0091    ISEQP    2   0
+0092    JMP      8 => 0123
+0093    GGET     8  12      ; "DB_Heroes"
+0094    TGETS    8   8   7  ; "getDataById"
+0095    MOV     10   2
+0096    CALL     8   2   2
+0097    TGETS    7   8  20  ; "star_lv"
+0098    TGETS    6   8  21  ; "action_module_id"
+0099    ISF          5
+0100    JMP      9 => 0191
+0101    GGET     9   5      ; "tonumber"
+0102    TGETS   11   5  22  ; "turned_id"
+0103    CALL     9   2   2
+0104    IST          9
+0105    JMP     10 => 0107
+0106    KSHORT   9   0
+0107 => TSETS    9   5  22  ; "turned_id"
+0108    TGETS    9   5  22  ; "turned_id"
+0109    ISEQN    9   0      ; 0
+0110    JMP      9 => 0191
+0111    TGETS    9   5  22  ; "turned_id"
+0112    GSET     9  23      ; "turnedId"
+0113    GGET     9  24      ; "HeroTurnedData"
+0114    TGETS    9   9  25  ; "getHeroCardImgById"
+0115    TGETS   11   5  22  ; "turned_id"
+0116    CALL     9   2   2
+0117    MOV      6   9
+0118    GGET     9  14      ; "print"
+0119    KSTR    11  26      ; "1"
+0120    MOV     12   6
+0121    CALL     9   1   3
+0122    JMP      8 => 0191
+0123 => KNUM     8   1      ; 10000000
+0124    ISGE     0   8
+0125    JMP      8 => 0144
+0126    GGET     8  27      ; "DB_Monsters"
+0127    TGETS    8   8   7  ; "getDataById"
+0128    MOV     10   0
+0129    CALL     8   2   2
+0130    ISNEP    8   0
+0131    JMP      9 => 0137
+0132    GGET     9  27      ; "DB_Monsters"
+0133    TGETS    9   9   7  ; "getDataById"
+0134    KNUM    11   2      ; 1002011
+0135    CALL     9   2   2
+0136    MOV      8   9
+0137 => GGET     9  28      ; "DB_Monsters_tmpl"
+0138    TGETS    9   9   7  ; "getDataById"
+0139    TGETS   11   8  29  ; "htid"
+0140    CALL     9   2   2
+0141    TGETS    7   9  20  ; "star_lv"
+0142    TGETS    6   9  21  ; "action_module_id"
+0143    JMP      8 => 0191
+0144 => GGET     8  18      ; "HeroModel"
+0145    TGETS    8   8  30  ; "getAllHeroes"
+0146    CALL     8   2   1
+0147    MOV      9   0
+0148    KSTR    10  16      ; ""
+0149    CAT      9   9  10
+0150    TGETV    9   8   9
+0151    ISNEP    9   0
+0152    JMP      9 => 0157
+0153    MODVN    9   0   3  ; 6
+0154    ADDVN    7   9   4  ; 1
+0155    KSTR     6  31      ; "zhu_nanxing.png"
+0156    JMP      9 => 0191
+0157 => MOV      9   0
+0158    KSTR    10  16      ; ""
+0159    CAT      9   9  10
+0160    TGETV    9   8   9
+0161    TGETS    9   9  29  ; "htid"
+0162    GGET    10  12      ; "DB_Heroes"
+0163    TGETS   10  10   7  ; "getDataById"
+0164    MOV     12   9
+0165    CALL    10   2   2
+0166    TGETS    7  10  20  ; "star_lv"
+0167    TGETS    6  10  21  ; "action_module_id"
+0168    ISF          5
+0169    JMP     11 => 0191
+0170    GGET    11   5      ; "tonumber"
+0171    TGETS   13   5  22  ; "turned_id"
+0172    CALL    11   2   2
+0173    IST         11
+0174    JMP     12 => 0176
+0175    KSHORT  11   0
+0176 => TSETS   11   5  22  ; "turned_id"
+0177    TGETS   11   5  22  ; "turned_id"
+0178    ISEQN   11   0      ; 0
+0179    JMP     11 => 0191
+0180    TGETS   11   5  22  ; "turned_id"
+0181    GSET    11  23      ; "turnedId"
+0182    GGET    11  24      ; "HeroTurnedData"
+0183    TGETS   11  11  25  ; "getHeroCardImgById"
+0184    TGETS   13   5  22  ; "turned_id"
+0185    CALL    11   2   2
+0186    MOV      6  11
+0187    GGET    11  14      ; "print"
+0188    KSTR    13  32      ; "2"
+0189    MOV     14   6
+0190    CALL    11   1   3
+0191 => MOV      8   0
+0192    KSTR     9  16      ; ""
+0193    CAT      8   8   9
+0194    TGETV    8   4   8
+0195    ISEQP    8   0
+0196    JMP      8 => 0209
+0197    MOV      8   0
+0198    KSTR     9  16      ; ""
+0199    CAT      8   8   9
+0200    TGETV    8   4   8
+0201    TGETS    8   8  17  ; "actionFile"
+0202    ISEQP    8   0
+0203    JMP      8 => 0209
+0204    MOV      8   0
+0205    KSTR     9  16      ; ""
+0206    CAT      8   8   9
+0207    TGETV    8   4   8
+0208    TGETS    6   8  17  ; "actionFile"
+0209 => ISF          5
+0210    JMP      8 => 0230
+0211    TGETS    8   5  22  ; "turned_id"
+0212    IST          8
+0213    JMP      9 => 0215
+0214    KSHORT   8   0
+0215 => TSETS    8   5  22  ; "turned_id"
+0216    TGETS    8   5  22  ; "turned_id"
+0217    ISEQN    8   0      ; 0
+0218    JMP      8 => 0226
+0219    TGETS    8   5  22  ; "turned_id"
+0220    GSET     8  23      ; "turnedId"
+0221    GGET     8  24      ; "HeroTurnedData"
+0222    TGETS    8   8  25  ; "getHeroCardImgById"
+0223    TGETS   10   5  22  ; "turned_id"
+0224    CALL     8   2   2
+0225    MOV      6   8
+0226 => GGET     8  14      ; "print"
+0227    KSTR    10  33      ; "3"
+0228    MOV     11   6
+0229    CALL     8   1   3
+0230 => GGET     8  14      ; "print"
+0231    KSTR    10  23      ; "turnedId"
+0232    GGET    11  23      ; "turnedId"
+0233    CALL     8   1   3
+0234    GGET     8  34      ; "printTable"
+0235    KSTR    10  35      ; "heroInfo"
+0236    MOV     11   5
+0237    CALL     8   1   3
+0238    GGET     8  36      ; "CCXMLSprite"
+0239    MOV     10   8
+0240    TGETS    8   8  37  ; "create"
+0241    UGET    11   0      ; 
+0242    KSTR    12  38      ; "card/card_"
+0243    MOV     13   7
+0244    KSTR    14  39      ; ".png"
+0245    CAT     11  11  14
+0246    CALL     8   2   3
+0247    MOV     11   8
+0248    TGETS    9   8  40  ; "initXMLSprite"
+0249    GGET    12  41      ; "CCString"
+0250    MOV     14  12
+0251    TGETS   12  12  37  ; "create"
+0252    UGET    15   0      ; 
+0253    KSTR    16  38      ; "card/card_"
+0254    MOV     17   7
+0255    KSTR    18  39      ; ".png"
+0256    CAT     15  15  18
+0257    CALL    12   0   3
+0258    CALLM    9   1   1
+0259    MOV     11   8
+0260    TGETS    9   8  42  ; "setAnchorPoint"
+0261    GGET    12  43      ; "ccp"
+0262    KNUM    14   5      ; 0.5
+0263    KNUM    15   5      ; 0.5
+0264    CALL    12   0   3
+0265    CALLM    9   1   1
+0266    MOV     11   8
+0267    TGETS    9   8  44  ; "setCascadeOpacityEnabled"
+0268    KPRI    12   2
+0269    CALL     9   1   3
+0270    MOV     11   8
+0271    TGETS    9   8  45  ; "setCascadeColorEnabled"
+0272    KPRI    12   2
+0273    CALL     9   1   3
+0274    GGET     9  46      ; "CCSprite"
+0275    MOV     11   9
+0276    TGETS    9   9  37  ; "create"
+0277    KSTR    12  47      ; "images/base/hero/action_module/"
+0278    MOV     13   6
+0279    CAT     12  12  13
+0280    CALL     9   2   3
+0281    MOV     12   9
+0282    TGETS   10   9  42  ; "setAnchorPoint"
+0283    GGET    13  43      ; "ccp"
+0284    KNUM    15   5      ; 0.5
+0285    KSHORT  16   0
+0286    CALL    13   0   3
+0287    CALLM   10   1   1
+0288    KPRI    10   0
+0289    ISF          5
+0290    JMP     11 => 0292
+0291    TGETS   10   5  22  ; "turned_id"
+0292 => GGET    11  48      ; "getDifferenceYByImageName"
+0293    MOV     13   2
+0294    MOV     14   6
+0295    KPRI    15   1
+0296    MOV     16  10
+0297    CALL    11   2   5
+0298    MOV     14   9
+0299    TGETS   12   9  49  ; "setPosition"
+0300    MOV     17   8
+0301    TGETS   15   8  50  ; "getContentSize"
+0302    CALL    15   2   2
+0303    TGETS   15  15  51  ; "width"
+0304    DIVVN   15  15   6  ; 2
+0305    MOV     18   8
+0306    TGETS   16   8  50  ; "getContentSize"
+0307    CALL    16   2   2
+0308    TGETS   16  16  52  ; "height"
+0309    MULVN   16  16   7  ; 0.17
+0310    ADDVV   16  16  11
+0311    CALL    12   1   4
+0312    MOV     14   8
+0313    TGETS   12   8  53  ; "addChild"
+0314    MOV     15   9
+0315    KSHORT  16   2
+0316    KSHORT  17   1
+0317    CALL    12   1   5
+0318    GGET    12  14      ; "print"
+0319    KSTR    14  54      ; "turnedId 2"
+0320    MOV     15  10
+0321    MOV     16  11
+0322    CALL    12   1   4
+0323    GGET    12  46      ; "CCSprite"
+0324    MOV     14  12
+0325    TGETS   12  12  37  ; "create"
+0326    UGET    15   0      ; 
+0327    KSTR    16  38      ; "card/card_"
+0328    MOV     17   7
+0329    KSTR    18  55      ; "_top.png"
+0330    CAT     15  15  18
+0331    CALL    12   2   3
+0332    MOV     15  12
+0333    TGETS   13  12  42  ; "setAnchorPoint"
+0334    GGET    16  43      ; "ccp"
+0335    KSHORT  18   0
+0336    KSHORT  19   1
+0337    CALL    16   0   3
+0338    CALLM   13   1   1
+0339    MOV     15  12
+0340    TGETS   13  12  49  ; "setPosition"
+0341    KSHORT  16   0
+0342    MOV     19   8
+0343    TGETS   17   8  50  ; "getContentSize"
+0344    CALL    17   2   2
+0345    TGETS   17  17  52  ; "height"
+0346    CALL    13   1   4
+0347    MOV     15   8
+0348    TGETS   13   8  53  ; "addChild"
+0349    MOV     16  12
+0350    KSHORT  17   1
+0351    KSHORT  18   2
+0352    CALL    13   1   5
+0353    GGET    13  46      ; "CCSprite"
+0354    MOV     15  13
+0355    TGETS   13  13  37  ; "create"
+0356    UGET    16   0      ; 
+0357    KSTR    17  56      ; "card/card_hero_bg.png"
+0358    CAT     16  16  17
+0359    CALL    13   2   3
+0360    MOV     16  13
+0361    TGETS   14  13  42  ; "setAnchorPoint"
+0362    GGET    17  43      ; "ccp"
+0363    KNUM    19   5      ; 0.5
+0364    KSHORT  20   0
+0365    CALL    17   0   3
+0366    CALLM   14   1   1
+0367    MOV     16  13
+0368    TGETS   14  13  49  ; "setPosition"
+0369    MOV     19   8
+0370    TGETS   17   8  50  ; "getContentSize"
+0371    CALL    17   2   2
+0372    TGETS   17  17  51  ; "width"
+0373    DIVVN   17  17   6  ; 2
+0374    MOV     20   8
+0375    TGETS   18   8  50  ; "getContentSize"
+0376    CALL    18   2   2
+0377    TGETS   18  18  52  ; "height"
+0378    MULVN   18  18   7  ; 0.17
+0379    CALL    14   1   4
+0380    MOV     16   8
+0381    TGETS   14   8  53  ; "addChild"
+0382    MOV     17  13
+0383    KSHORT  18   0
+0384    KSHORT  19   8
+0385    CALL    14   1   5
+0386    ISF          1
+0387    JMP     14 => 0392
+0388    MOV     16   8
+0389    TGETS   14   8  57  ; "setScale"
+0390    KNUM    17   8      ; 1.5
+0391    CALL    14   1   3
+0392 => RET1     8   2
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    GGET     1   0      ; "tonumber"
+0002    MOV      3   0
+0003    CALL     1   2   2
+0004    MOV      0   1
+0005    GGET     1   1      ; "DB_Army"
+0006    TGETS    1   1   2  ; "getDataById"
+0007    MOV      3   0
+0008    CALL     1   2   2
+0009    GGET     2   3      ; "DB_Team"
+0010    TGETS    2   2   2  ; "getDataById"
+0011    TGETS    4   1   4  ; "monster_group"
+0012    CALL     2   2   2
+0013    TGETS    3   2   5  ; "copyTeamShowId"
+0014    GGET     4   6      ; "getBattlePlayerCardImage"
+0015    KSHORT   6   0
+0016    KPRI     7   0
+0017    MOV      8   3
+0018    KPRI     9   0
+0019    CALLT    4   5
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    USETV    0   0      ; 
+0002    GGET     1   0      ; "pairs"
+0003    UGET     3   1      ; 
+0004    CALL     1   4   2
+0005    ISNEXT   4 => 0029
+0006 => GGET     6   1      ; "tolua"
+0007    TGETS    6   6   2  ; "cast"
+0008    MOV      8   5
+0009    KSTR     9   3      ; "CCRenderLabel"
+0010    CALL     6   2   3
+0011    ISF          6
+0012    JMP      7 => 0022
+0013    MOV      9   6
+0014    TGETS    7   6   4  ; "setVisible"
+0015    MOV     10   0
+0016    CALL     7   1   3
+0017    GGET     7   5      ; "print"
+0018    KSTR     9   6      ; "nameLabel:setVisible(isVisible)"
+0019    MOV     10   0
+0020    CALL     7   1   3
+0021    JMP      7 => 0029
+0022 => UGET     7   1      ; 
+0023    KPRI     8   0
+0024    TSETV    8   7   4
+0025    GGET     7   5      ; "print"
+0026    KSTR     9   6      ; "nameLabel:setVisible(isVisible)"
+0027    MOV     10   4
+0028    CALL     7   1   3
+0029 => ITERN    4   3   3
+0030    ITERL    4 => 0006
+0031    RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    USETV    0   0      ; 
+0002    RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    GGET     1   0      ; "table"
+0002    TGETS    1   1   1  ; "isEmpty"
+0003    UGET     3   0      ; 
+0004    CALL     1   2   2
+0005    ISF          1
+0006    JMP      2 => 0008
+0007    RET0     0   1
+0008 => KPRI     1   0
+0009    GGET     2   2      ; "pairs"
+0010    UGET     4   0      ; 
+0011    TGETS    4   4   3  ; "team1"
+0012    TGETS    4   4   4  ; "arrHero"
+0013    CALL     2   4   2
+0014    ISNEXT   5 => 0024
+0015 => GGET     7   5      ; "tonumber"
+0016    TGETS    9   6   6  ; "hid"
+0017    CALL     7   2   2
+0018    GGET     8   5      ; "tonumber"
+0019    MOV     10   0
+0020    CALL     8   2   2
+0021    ISNEV    7   8
+0022    JMP      7 => 0024
+0023    MOV      1   6
+0024 => ITERN    5   3   3
+0025    ITERL    5 => 0015
+0026    GGET     2   2      ; "pairs"
+0027    UGET     4   0      ; 
+0028    TGETS    4   4   7  ; "team2"
+0029    TGETS    4   4   4  ; "arrHero"
+0030    CALL     2   4   2
+0031    ISNEXT   5 => 0041
+0032 => GGET     7   5      ; "tonumber"
+0033    TGETS    9   6   6  ; "hid"
+0034    CALL     7   2   2
+0035    GGET     8   5      ; "tonumber"
+0036    MOV     10   0
+0037    CALL     8   2   2
+0038    ISNEV    7   8
+0039    JMP      7 => 0041
+0040    MOV      1   6
+0041 => ITERN    5   3   3
+0042    ITERL    5 => 0032
+0043    RET1     1   2
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    IST          0
+0002    JMP      1 => 0005
+0003    KPRI     1   1
+0004    RET1     1   2
+0005 => GGET     1   0      ; "getBattleHeroInfo"
+0006    MOV      3   0
+0007    CALL     1   2   2
+0008    GGET     2   1      ; "printTable"
+0009    KSTR     4   2      ; "heroInfo"
+0010    MOV      5   1
+0011    CALL     2   1   3
+0012    GGET     2   3      ; "GodWeaponItemUtil"
+0013    TGETS    2   2   4  ; "unionInfoForFight"
+0014    MOV      4   1
+0015    CALL     2   2   2
+0016    GGET     3   1      ; "printTable"
+0017    KSTR     5   5      ; "unionInfo"
+0018    MOV      6   2
+0019    CALL     3   1   3
+0020    GGET     3   6      ; "table"
+0021    TGETS    3   3   7  ; "isEmpty"
+0022    MOV      5   2
+0023    CALL     3   2   2
+0024    IST          3
+0025    JMP      3 => 0029
+0026    KPRI     3   2
+0027    RET1     3   2
+0028    JMP      3 => 0031
+0029 => KPRI     3   1
+0030    RET1     3   2
+0031 => RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    UGET     1   0      ; 
+0002    ISNEP    1   0
+0003    JMP      1 => 0005
+0004    RET0     0   1
+0005 => GGET     1   0      ; "ipairs"
+0006    UGET     3   0      ; 
+0007    TGETS    3   3   1  ; "team1"
+0008    TGETS    3   3   2  ; "arrHero"
+0009    CALL     1   4   2
+0010    JMP      4 => 0028
+0011 => GGET     6   3      ; "print"
+0012    KSTR     8   4      ; "team1: hid , v.hid"
+0013    MOV      9   0
+0014    TGETS   10   5   5  ; "hid"
+0015    CALL     6   1   4
+0016    GGET     6   6      ; "tonumber"
+0017    MOV      8   0
+0018    CALL     6   2   2
+0019    GGET     7   6      ; "tonumber"
+0020    TGETS    9   5   5  ; "hid"
+0021    CALL     7   2   2
+0022    ISNEV    6   7
+0023    JMP      6 => 0028
+0024    UGET     6   0      ; 
+0025    TGETS    6   6   1  ; "team1"
+0026    TGETS    6   6   7  ; "name"
+0027    RET1     6   2
+0028 => ITERC    4   3   3
+0029    ITERL    4 => 0011
+0030    GGET     1   0      ; "ipairs"
+0031    UGET     3   0      ; 
+0032    TGETS    3   3   8  ; "team2"
+0033    TGETS    3   3   2  ; "arrHero"
+0034    CALL     1   4   2
+0035    JMP      4 => 0053
+0036 => GGET     6   3      ; "print"
+0037    KSTR     8   9      ; "team2:hid , v.hid"
+0038    MOV      9   0
+0039    TGETS   10   5   5  ; "hid"
+0040    CALL     6   1   4
+0041    GGET     6   6      ; "tonumber"
+0042    MOV      8   0
+0043    CALL     6   2   2
+0044    GGET     7   6      ; "tonumber"
+0045    TGETS    9   5   5  ; "hid"
+0046    CALL     7   2   2
+0047    ISNEV    6   7
+0048    JMP      6 => 0053
+0049    UGET     6   0      ; 
+0050    TGETS    6   6   8  ; "team2"
+0051    TGETS    6   6   7  ; "name"
+0052    RET1     6   2
+0053 => ITERC    4   3   3
+0054    ITERL    4 => 0036
+0055    RET0     0   1
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    ISEQP    3   0
+0002    JMP      4 => 0054
+0003    GGET     4   0      ; "tonumber"
+0004    MOV      6   3
+0005    CALL     4   2   2
+0006    KSHORT   5   0
+0007    ISGE     5   4
+0008    JMP      4 => 0054
+0009    GGET     4   1      ; "require"
+0010    KSTR     6   2      ; "db/DB_Item_dress"
+0011    CALL     4   1   2
+0012    GGET     4   3      ; "DB_Item_dress"
+0013    TGETS    4   4   4  ; "getDataById"
+0014    GGET     6   0      ; "tonumber"
+0015    MOV      8   3
+0016    CALL     6   0   2
+0017    CALLM    4   2   0
+0018    TGETS    5   4   5  ; "changeModel"
+0019    ISF          5
+0020    JMP      6 => 0054
+0021    GGET     5   6      ; "lua_string_split"
+0022    TGETS    7   4   5  ; "changeModel"
+0023    KSTR     8   7      ; ","
+0024    CALL     5   2   3
+0025    KSHORT   6   1
+0026    LEN      7   5
+0027    KSHORT   8   1
+0028    FORI     6 => 0054
+0029 => GGET    10   6      ; "lua_string_split"
+0030    TGETV   12   5   9
+0031    KSTR    13   8      ; "|"
+0032    CALL    10   2   3
+0033    TGETB   10  10   1
+0034    GGET    11   6      ; "lua_string_split"
+0035    TGETV   13   5   9
+0036    KSTR    14   8      ; "|"
+0037    CALL    11   2   3
+0038    TGETB   11  11   2
+0039    GGET    12   9      ; "DB_Heroes"
+0040    TGETS   12  12   4  ; "getDataById"
+0041    GGET    14   0      ; "tonumber"
+0042    MOV     16   2
+0043    CALL    14   0   2
+0044    CALLM   12   2   0
+0045    TGETS   13  12  10  ; "model_id"
+0046    GGET    14   0      ; "tonumber"
+0047    MOV     16  10
+0048    CALL    14   2   2
+0049    ISNEV   13  14
+0050    JMP     13 => 0053
+0051    TNEW     0   0
+0052    TSETS   11   0  11  ; "actionFile"
+0053 => FORL     6 => 0029
+0054 => ISNEP    1   0
+0055    JMP      4 => 0057
+0056    KPRI     1   1
+0057 => KNIL     4   6
+0058    ISEQP    2   0
+0059    JMP      7 => 0083
+0060    GGET     7   9      ; "DB_Heroes"
+0061    TGETS    7   7   4  ; "getDataById"
+0062    MOV      9   2
+0063    CALL     7   2   2
+0064    TGETS    5   7  12  ; "star_lv"
+0065    TGETS    4   7  13  ; "action_module_id"
+0066    GGET     8   0      ; "tonumber"
+0067    TGETS   10   7  14  ; "turned_id"
+0068    CALL     8   2   2
+0069    IST          8
+0070    JMP      9 => 0072
+0071    KSHORT   8   0
+0072 => TSETS    8   7  14  ; "turned_id"
+0073    TGETS    8   7  14  ; "turned_id"
+0074    ISEQN    8   0      ; 0
+0075    JMP      8 => 0129
+0076    GGET     8  15      ; "HeroTurnedData"
+0077    TGETS    8   8  16  ; "getHeroCardImgById"
+0078    TGETS   10   7  14  ; "turned_id"
+0079    CALL     8   2   2
+0080    MOV      4   8
+0081    TGETS    6   7  14  ; "turned_id"
+0082    JMP      7 => 0129
+0083 => GGET     7   0      ; "tonumber"
+0084    TGETS    9   0  17  ; "hid"
+0085    CALL     7   2   2
+0086    KNUM     8   1      ; 10000000
+0087    ISGE     7   8
+0088    JMP      7 => 0107
+0089    GGET     7  18      ; "DB_Monsters"
+0090    TGETS    7   7   4  ; "getDataById"
+0091    GGET     9  17      ; "hid"
+0092    CALL     7   2   2
+0093    ISNEP    7   0
+0094    JMP      8 => 0100
+0095    GGET     8  18      ; "DB_Monsters"
+0096    TGETS    8   8   4  ; "getDataById"
+0097    KNUM    10   2      ; 1002011
+0098    CALL     8   2   2
+0099    MOV      7   8
+0100 => GGET     8  19      ; "DB_Monsters_tmpl"
+0101    TGETS    8   8   4  ; "getDataById"
+0102    TGETS   10   7  20  ; "htid"
+0103    CALL     8   2   2
+0104    TGETS    5   8  12  ; "star_lv"
+0105    TGETS    4   8  13  ; "action_module_id"
+0106    JMP      7 => 0129
+0107 => GGET     7   9      ; "DB_Heroes"
+0108    TGETS    7   7   4  ; "getDataById"
+0109    MOV      9   2
+0110    CALL     7   2   2
+0111    TGETS    5   7  12  ; "star_lv"
+0112    TGETS    4   7  13  ; "action_module_id"
+0113    GGET     8   0      ; "tonumber"
+0114    TGETS   10   7  14  ; "turned_id"
+0115    CALL     8   2   2
+0116    IST          8
+0117    JMP      9 => 0119
+0118    KSHORT   8   0
+0119 => TSETS    8   7  14  ; "turned_id"
+0120    TGETS    8   7  14  ; "turned_id"
+0121    ISEQN    8   0      ; 0
+0122    JMP      8 => 0129
+0123    GGET     8  15      ; "HeroTurnedData"
+0124    TGETS    8   8  16  ; "getHeroCardImgById"
+0125    TGETS   10   7  14  ; "turned_id"
+0126    CALL     8   2   2
+0127    MOV      4   8
+0128    TGETS    6   7  14  ; "turned_id"
+0129 => TGETS    7   0  11  ; "actionFile"
+0130    ISEQP    7   0
+0131    JMP      7 => 0133
+0132    TGETS    4   0  11  ; "actionFile"
+0133 => GGET     7   0      ; "tonumber"
+0134    TGETS    9   0  14  ; "turned_id"
+0135    CALL     7   2   2
+0136    IST          7
+0137    JMP      8 => 0139
+0138    KSHORT   7   0
+0139 => TSETS    7   0  14  ; "turned_id"
+0140    TGETS    7   0  14  ; "turned_id"
+0141    ISEQN    7   0      ; 0
+0142    JMP      7 => 0149
+0143    GGET     7  15      ; "HeroTurnedData"
+0144    TGETS    7   7  16  ; "getHeroCardImgById"
+0145    TGETS    9   0  14  ; "turned_id"
+0146    CALL     7   2   2
+0147    MOV      4   7
+0148    TGETS    6   0  14  ; "turned_id"
+0149 => GGET     7  21      ; "CCXMLSprite"
+0150    MOV      9   7
+0151    TGETS    7   7  22  ; "create"
+0152    UGET    10   0      ; 
+0153    KSTR    11  23      ; "card/card_"
+0154    MOV     12   5
+0155    KSTR    13  24      ; ".png"
+0156    CAT     10  10  13
+0157    CALL     7   2   3
+0158    MOV     10   7
+0159    TGETS    8   7  25  ; "initXMLSprite"
+0160    GGET    11  26      ; "CCString"
+0161    MOV     13  11
+0162    TGETS   11  11  22  ; "create"
+0163    UGET    14   0      ; 
+0164    KSTR    15  23      ; "card/card_"
+0165    MOV     16   5
+0166    KSTR    17  24      ; ".png"
+0167    CAT     14  14  17
+0168    CALL    11   0   3
+0169    CALLM    8   1   1
+0170    MOV     10   7
+0171    TGETS    8   7  27  ; "setAnchorPoint"
+0172    GGET    11  28      ; "ccp"
+0173    KNUM    13   3      ; 0.5
+0174    KNUM    14   3      ; 0.5
+0175    CALL    11   0   3
+0176    CALLM    8   1   1
+0177    MOV     10   7
+0178    TGETS    8   7  29  ; "setCascadeOpacityEnabled"
+0179    KPRI    11   2
+0180    CALL     8   1   3
+0181    MOV     10   7
+0182    TGETS    8   7  30  ; "setCascadeColorEnabled"
+0183    KPRI    11   2
+0184    CALL     8   1   3
+0185    GGET     8  31      ; "CCSprite"
+0186    MOV     10   8
+0187    TGETS    8   8  22  ; "create"
+0188    KSTR    11  32      ; "images/base/hero/action_module/"
+0189    MOV     12   4
+0190    CAT     11  11  12
+0191    CALL     8   2   3
+0192    MOV     11   8
+0193    TGETS    9   8  27  ; "setAnchorPoint"
+0194    GGET    12  28      ; "ccp"
+0195    KNUM    14   3      ; 0.5
+0196    KSHORT  15   0
+0197    CALL    12   0   3
+0198    CALLM    9   1   1
+0199    GGET     9  33      ; "getDifferenceYByImageName"
+0200    MOV     11   2
+0201    MOV     12   4
+0202    KPRI    13   1
+0203    MOV     14   6
+0204    CALL     9   2   5
+0205    MOV     12   8
+0206    TGETS   10   8  34  ; "setPosition"
+0207    MOV     15   7
+0208    TGETS   13   7  35  ; "getContentSize"
+0209    CALL    13   2   2
+0210    TGETS   13  13  36  ; "width"
+0211    DIVVN   13  13   4  ; 2
+0212    MOV     16   7
+0213    TGETS   14   7  35  ; "getContentSize"
+0214    CALL    14   2   2
+0215    TGETS   14  14  37  ; "height"
+0216    MULVN   14  14   5  ; 0.17
+0217    ADDVV   14  14   9
+0218    CALL    10   1   4
+0219    MOV     12   7
+0220    TGETS   10   7  38  ; "addChild"
+0221    MOV     13   8
+0222    KSHORT  14   2
+0223    KSHORT  15   1
+0224    CALL    10   1   5
+0225    GGET    10  31      ; "CCSprite"
+0226    MOV     12  10
+0227    TGETS   10  10  22  ; "create"
+0228    UGET    13   0      ; 
+0229    KSTR    14  23      ; "card/card_"
+0230    MOV     15   5
+0231    KSTR    16  39      ; "_top.png"
+0232    CAT     13  13  16
+0233    CALL    10   2   3
+0234    MOV     13  10
+0235    TGETS   11  10  27  ; "setAnchorPoint"
+0236    GGET    14  28      ; "ccp"
+0237    KSHORT  16   0
+0238    KSHORT  17   1
+0239    CALL    14   0   3
+0240    CALLM   11   1   1
+0241    MOV     13  10
+0242    TGETS   11  10  34  ; "setPosition"
+0243    KSHORT  14   0
+0244    MOV     17   7
+0245    TGETS   15   7  35  ; "getContentSize"
+0246    CALL    15   2   2
+0247    TGETS   15  15  37  ; "height"
+0248    CALL    11   1   4
+0249    MOV     13   7
+0250    TGETS   11   7  38  ; "addChild"
+0251    MOV     14  10
+0252    KSHORT  15   1
+0253    KSHORT  16   2
+0254    CALL    11   1   5
+0255    GGET    11  31      ; "CCSprite"
+0256    MOV     13  11
+0257    TGETS   11  11  22  ; "create"
+0258    UGET    14   0      ; 
+0259    KSTR    15  40      ; "card/card_hero_bg.png"
+0260    CAT     14  14  15
+0261    CALL    11   2   3
+0262    MOV     14  11
+0263    TGETS   12  11  27  ; "setAnchorPoint"
+0264    GGET    15  28      ; "ccp"
+0265    KNUM    17   3      ; 0.5
+0266    KSHORT  18   0
+0267    CALL    15   0   3
+0268    CALLM   12   1   1
+0269    MOV     14  11
+0270    TGETS   12  11  34  ; "setPosition"
+0271    MOV     17   7
+0272    TGETS   15   7  35  ; "getContentSize"
+0273    CALL    15   2   2
+0274    TGETS   15  15  36  ; "width"
+0275    DIVVN   15  15   4  ; 2
+0276    MOV     18   7
+0277    TGETS   16   7  35  ; "getContentSize"
+0278    CALL    16   2   2
+0279    TGETS   16  16  37  ; "height"
+0280    MULVN   16  16   5  ; 0.17
+0281    CALL    12   1   4
+0282    MOV     14   7
+0283    TGETS   12   7  38  ; "addChild"
+0284    MOV     15  11
+0285    KSHORT  16   0
+0286    KSHORT  17   8
+0287    CALL    12   1   5
+0288    ISF          1
+0289    JMP     12 => 0294
+0290    MOV     14   7
+0291    TGETS   12   7  41  ; "setScale"
+0292    KNUM    15   6      ; 1.5
+0293    CALL    12   1   3
+0294 => RET1     7   2
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    ISNEP    2   0
+0002    JMP      4 => 0004
+0003    KPRI     2   1
+0004 => KSHORT   4   0
+0005    ISNES    1   0      ; "zhan_jiang_dingyuan.png"
+0006    JMP      5 => 0009
+0007    KSHORT   4 -37
+0008    JMP      5 => 1436
+0009 => ISNES    1   1      ; "zhan_jiang_guanyinping.png"
+0010    JMP      5 => 0013
+0011    KSHORT   4 -25
+0012    JMP      5 => 1436
+0013 => ISNES    1   2      ; "zhan_jiang_zhegeliang.png"
+0014    JMP      5 => 0017
+0015    KSHORT   4 -44
+0016    JMP      5 => 1436
+0017 => ISNES    1   3      ; "zhan_jiang_zhenji.png"
+0018    JMP      5 => 0021
+0019    KSHORT   4  -8
+0020    JMP      5 => 1436
+0021 => ISNES    1   4      ; "zhan_jiang_ganning.png"
+0022    JMP      5 => 0027
+0023    ISNEP    2   1
+0024    JMP      5 => 0027
+0025    KSHORT   4 -17
+0026    JMP      5 => 1436
+0027 => ISNES    1   5      ; "zhan_jiang_xiahoudun.png"
+0028    JMP      5 => 0033
+0029    ISNEP    2   1
+0030    JMP      5 => 0033
+0031    KSHORT   4 -17
+0032    JMP      5 => 1436
+0033 => ISNES    1   6      ; "zhan_jiang_zhangfei.png"
+0034    JMP      5 => 0039
+0035    ISNEP    2   1
+0036    JMP      5 => 0039
+0037    KSHORT   4  -6
+0038    JMP      5 => 1436
+0039 => ISNES    1   7      ; "zhan_jiang_nvzhu.png"
+0040    JMP      5 => 0065
+0041    GGET     5   8      ; "Platform"
+0042    TGETS    5   5   9  ; "getPlatformFlag"
+0043    CALL     5   2   1
+0044    ISEQS    5  10      ; "ios_korea"
+0045    JMP      5 => 0061
+0046    GGET     5   8      ; "Platform"
+0047    TGETS    5   5   9  ; "getPlatformFlag"
+0048    CALL     5   2   1
+0049    ISEQS    5  11      ; "Android_korea"
+0050    JMP      5 => 0061
+0051    GGET     5   8      ; "Platform"
+0052    TGETS    5   5   9  ; "getPlatformFlag"
+0053    CALL     5   2   1
+0054    ISEQS    5  12      ; "Android_kakao"
+0055    JMP      5 => 0061
+0056    GGET     5   8      ; "Platform"
+0057    TGETS    5   5   9  ; "getPlatformFlag"
+0058    CALL     5   2   1
+0059    ISNES    5  13      ; "ios_kakao"
+0060    JMP      5 => 0063
+0061 => KSHORT   4 -37
+0062    JMP      5 => 1436
+0063 => KSHORT   4 -23
+0064    JMP      5 => 1436
+0065 => ISNES    1  14      ; "zhan_jiang_zhugeliang.png"
+0066    JMP      5 => 0071
+0067    ISNEP    2   1
+0068    JMP      5 => 0071
+0069    KSHORT   4 -40
+0070    JMP      5 => 1436
+0071 => ISNES    1  15      ; "zhan_jiang_sunjian.png"
+0072    JMP      5 => 0077
+0073    ISNEP    2   1
+0074    JMP      5 => 0077
+0075    KSHORT   4 -10
+0076    JMP      5 => 1436
+0077 => ISNES    1  16      ; "zhan_jiang_taishici.png"
+0078    JMP      5 => 0083
+0079    ISNEP    2   1
+0080    JMP      5 => 0083
+0081    KSHORT   4 -30
+0082    JMP      5 => 1436
+0083 => ISNES    1  17      ; "zhan_jiang_zhangbao.png"
+0084    JMP      5 => 0087
+0085    KSHORT   4 -47
+0086    JMP      5 => 1436
+0087 => ISNES    1  18      ; "zhan_jiang_dongzhuo.png"
+0088    JMP      5 => 0091
+0089    KSHORT   4 -15
+0090    JMP      5 => 1436
+0091 => ISNES    1  19      ; "zhan_jiang_simayi.png"
+0092    JMP      5 => 0095
+0093    KSHORT   4 -12
+0094    JMP      5 => 1436
+0095 => ISNES    1  20      ; "zhan_jiang_wujiang9.png"
+0096    JMP      5 => 0099
+0097    KSHORT   4 -38
+0098    JMP      5 => 1436
+0099 => ISNES    1  21      ; "zhan_jiang_yujin.png"
+0100    JMP      5 => 0103
+0101    KSHORT   4 -44
+0102    JMP      5 => 1436
+0103 => ISNES    1  22      ; "zhan_jiang_zhaoyun.png"
+0104    JMP      5 => 0109
+0105    ISNEP    2   1
+0106    JMP      5 => 0109
+0107    KSHORT   4 -32
+0108    JMP      5 => 1436
+0109 => ISNES    1  22      ; "zhan_jiang_zhaoyun.png"
+0110    JMP      5 => 0113
+0111    KSHORT   4 -49
+0112    JMP      5 => 1436
+0113 => ISNES    1  23      ; "zhan_jiang_xuchu.png"
+0114    JMP      5 => 0119
+0115    ISNEP    2   1
+0116    JMP      5 => 0119
+0117    KSHORT   4 -10
+0118    JMP      5 => 1436
+0119 => ISNES    1  23      ; "zhan_jiang_xuchu.png"
+0120    JMP      5 => 0123
+0121    KSHORT   4 -12
+0122    JMP      5 => 1436
+0123 => ISNES    1  24      ; "zhan_jiang_xuhuang.png"
+0124    JMP      5 => 0129
+0125    ISNEP    2   1
+0126    JMP      5 => 0129
+0127    KSHORT   4 -32
+0128    JMP      5 => 1436
+0129 => ISNES    1  24      ; "zhan_jiang_xuhuang.png"
+0130    JMP      5 => 0133
+0131    KSHORT   4 -68
+0132    JMP      5 => 1436
+0133 => ISNES    1  25      ; "zhan_jiang_xunyou.png"
+0134    JMP      5 => 0137
+0135    KSHORT   4 -35
+0136    JMP      5 => 1436
+0137 => ISNES    1  26      ; "zhan_jiang_guanping.png"
+0138    JMP      5 => 0141
+0139    KSHORT   4 -22
+0140    JMP      5 => 1436
+0141 => ISNES    1  27      ; "zhan_jiang_chengpu.png"
+0142    JMP      5 => 0145
+0143    KSHORT   4 -21
+0144    JMP      5 => 1436
+0145 => ISNES    1  28      ; "zhan_jiang_lvbu.png"
+0146    JMP      5 => 0151
+0147    ISNEP    2   1
+0148    JMP      5 => 0151
+0149    KSHORT   4 -45
+0150    JMP      5 => 1436
+0151 => ISNES    1  29      ; "zhan_jiang_molvbu.png"
+0152    JMP      5 => 0157
+0153    ISNEP    2   1
+0154    JMP      5 => 0157
+0155    KSHORT   4 -102
+0156    JMP      5 => 1436
+0157 => ISNES    1  30      ; "zhan_jiang_mozhangjiao.png"
+0158    JMP      5 => 0163
+0159    ISNEP    2   1
+0160    JMP      5 => 0163
+0161    KSHORT   4 -78
+0162    JMP      5 => 1436
+0163 => ISNES    1  29      ; "zhan_jiang_molvbu.png"
+0164    JMP      5 => 0167
+0165    KSHORT   4 -138
+0166    JMP      5 => 1436
+0167 => ISNES    1  30      ; "zhan_jiang_mozhangjiao.png"
+0168    JMP      5 => 0171
+0169    KSHORT   4 -144
+0170    JMP      5 => 1436
+0171 => ISNES    1  31      ; "zhan_jiang_mowang.png"
+0172    JMP      5 => 0175
+0173    KSHORT   4 -41
+0174    JMP      5 => 1436
+0175 => ISNES    1  32      ; "zhan_jiang_mowang_1.png"
+0176    JMP      5 => 0179
+0177    KSHORT   4 -41
+0178    JMP      5 => 1436
+0179 => ISNES    1  15      ; "zhan_jiang_sunjian.png"
+0180    JMP      5 => 0183
+0181    KSHORT   4 -32
+0182    JMP      5 => 1436
+0183 => ISNES    1  28      ; "zhan_jiang_lvbu.png"
+0184    JMP      5 => 0187
+0185    KSHORT   4 -63
+0186    JMP      5 => 1436
+0187 => ISNES    1  33      ; "zhan_jiang_fazheng.png"
+0188    JMP      5 => 0191
+0189    KSHORT   4 -20
+0190    JMP      5 => 1436
+0191 => ISNES    1  34      ; "zhan_jiang_caoren.png"
+0192    JMP      5 => 0197
+0193    ISNEP    2   1
+0194    JMP      5 => 0197
+0195    KSHORT   4 -42
+0196    JMP      5 => 1436
+0197 => ISNES    1  35      ; "zhan_jiang_handang.png"
+0198    JMP      5 => 0203
+0199    ISNEP    2   1
+0200    JMP      5 => 0203
+0201    KSHORT   4 -27
+0202    JMP      5 => 1436
+0203 => ISNES    1  36      ; "zhan_jiang_huatuo.png"
+0204    JMP      5 => 0209
+0205    ISNEP    2   1
+0206    JMP      5 => 0209
+0207    KSHORT   4 -38
+0208    JMP      5 => 1436
+0209 => ISNES    1  37      ; "zhan_jiang_sunquan.png"
+0210    JMP      5 => 0215
+0211    ISNEP    2   1
+0212    JMP      5 => 0215
+0213    KSHORT   4 -46
+0214    JMP      5 => 1436
+0215 => ISNES    1  38      ; "zhan_jiang_zhuhuan.png"
+0216    JMP      5 => 0221
+0217    ISNEP    2   1
+0218    JMP      5 => 0221
+0219    KSHORT   4 -14
+0220    JMP      5 => 1436
+0221 => ISNES    1  39      ; "zhan_jiang_nanzhu2.png"
+0222    JMP      5 => 0249
+0223    ISNEP    2   1
+0224    JMP      5 => 0249
+0225    GGET     5   8      ; "Platform"
+0226    TGETS    5   5   9  ; "getPlatformFlag"
+0227    CALL     5   2   1
+0228    ISEQS    5  10      ; "ios_korea"
+0229    JMP      5 => 0245
+0230    GGET     5   8      ; "Platform"
+0231    TGETS    5   5   9  ; "getPlatformFlag"
+0232    CALL     5   2   1
+0233    ISEQS    5  11      ; "Android_korea"
+0234    JMP      5 => 0245
+0235    GGET     5   8      ; "Platform"
+0236    TGETS    5   5   9  ; "getPlatformFlag"
+0237    CALL     5   2   1
+0238    ISEQS    5  12      ; "Android_kakao"
+0239    JMP      5 => 0245
+0240    GGET     5   8      ; "Platform"
+0241    TGETS    5   5   9  ; "getPlatformFlag"
+0242    CALL     5   2   1
+0243    ISNES    5  13      ; "ios_kakao"
+0244    JMP      5 => 0247
+0245 => KSHORT   4 -37
+0246    JMP      5 => 1436
+0247 => KSHORT   4 -29
+0248    JMP      5 => 1436
+0249 => ISNES    1  40      ; "zhan_jiang_nanzhu.png"
+0250    JMP      5 => 0277
+0251    ISNEP    2   1
+0252    JMP      5 => 0277
+0253    GGET     5   8      ; "Platform"
+0254    TGETS    5   5   9  ; "getPlatformFlag"
+0255    CALL     5   2   1
+0256    ISEQS    5  10      ; "ios_korea"
+0257    JMP      5 => 0273
+0258    GGET     5   8      ; "Platform"
+0259    TGETS    5   5   9  ; "getPlatformFlag"
+0260    CALL     5   2   1
+0261    ISEQS    5  11      ; "Android_korea"
+0262    JMP      5 => 0273
+0263    GGET     5   8      ; "Platform"
+0264    TGETS    5   5   9  ; "getPlatformFlag"
+0265    CALL     5   2   1
+0266    ISEQS    5  12      ; "Android_kakao"
+0267    JMP      5 => 0273
+0268    GGET     5   8      ; "Platform"
+0269    TGETS    5   5   9  ; "getPlatformFlag"
+0270    CALL     5   2   1
+0271    ISNES    5  13      ; "ios_kakao"
+0272    JMP      5 => 0275
+0273 => KSHORT   4 -37
+0274    JMP      5 => 1436
+0275 => KSHORT   4   0
+0276    JMP      5 => 1436
+0277 => ISNES    1  41      ; "zhan_jiang_nvzhu2.png"
+0278    JMP      5 => 0305
+0279    ISNEP    2   1
+0280    JMP      5 => 0305
+0281    GGET     5   8      ; "Platform"
+0282    TGETS    5   5   9  ; "getPlatformFlag"
+0283    CALL     5   2   1
+0284    ISEQS    5  10      ; "ios_korea"
+0285    JMP      5 => 0301
+0286    GGET     5   8      ; "Platform"
+0287    TGETS    5   5   9  ; "getPlatformFlag"
+0288    CALL     5   2   1
+0289    ISEQS    5  11      ; "Android_korea"
+0290    JMP      5 => 0301
+0291    GGET     5   8      ; "Platform"
+0292    TGETS    5   5   9  ; "getPlatformFlag"
+0293    CALL     5   2   1
+0294    ISEQS    5  12      ; "Android_kakao"
+0295    JMP      5 => 0301
+0296    GGET     5   8      ; "Platform"
+0297    TGETS    5   5   9  ; "getPlatformFlag"
+0298    CALL     5   2   1
+0299    ISNES    5  13      ; "ios_kakao"
+0300    JMP      5 => 0303
+0301 => KSHORT   4 -37
+0302    JMP      5 => 1436
+0303 => KSHORT   4 -16
+0304    JMP      5 => 1436
+0305 => ISNES    1  42      ; "zhan_jiang_wenguan6.png"
+0306    JMP      5 => 0311
+0307    ISNEP    2   1
+0308    JMP      5 => 0311
+0309    KSHORT   4 -61
+0310    JMP      5 => 1436
+0311 => ISNES    1  43      ; "zhan_jiang_yinma.png"
+0312    JMP      5 => 0317
+0313    ISNEP    2   1
+0314    JMP      5 => 0317
+0315    KSHORT   4 -25
+0316    JMP      5 => 1436
+0317 => ISNES    1  44      ; "zhan_jiang_jinma.png"
+0318    JMP      5 => 0323
+0319    ISNEP    2   1
+0320    JMP      5 => 0323
+0321    KSHORT   4 -23
+0322    JMP      5 => 1436
+0323 => ISNES    1  45      ; "zhan_jiang_zhuyi.png"
+0324    JMP      5 => 0329
+0325    ISNEP    2   1
+0326    JMP      5 => 0329
+0327    KSHORT   4 -43
+0328    JMP      5 => 1436
+0329 => ISNES    1  46      ; "zhan_jiang_masu.png"
+0330    JMP      5 => 0335
+0331    ISNEP    2   1
+0332    JMP      5 => 0335
+0333    KSHORT   4 -59
+0334    JMP      5 => 1436
+0335 => ISNES    1  45      ; "zhan_jiang_zhuyi.png"
+0336    JMP      5 => 0339
+0337    KSHORT   4 -52
+0338    JMP      5 => 1436
+0339 => ISNES    1  43      ; "zhan_jiang_yinma.png"
+0340    JMP      5 => 0343
+0341    KSHORT   4 -18
+0342    JMP      5 => 1436
+0343 => ISNES    1  44      ; "zhan_jiang_jinma.png"
+0344    JMP      5 => 0347
+0345    KSHORT   4 -16
+0346    JMP      5 => 1436
+0347 => ISNES    1  34      ; "zhan_jiang_caoren.png"
+0348    JMP      5 => 0351
+0349    KSHORT   4 -66
+0350    JMP      5 => 1436
+0351 => ISNES    1   4      ; "zhan_jiang_ganning.png"
+0352    JMP      5 => 0355
+0353    KSHORT   4 -32
+0354    JMP      5 => 1436
+0355 => ISNES    1  35      ; "zhan_jiang_handang.png"
+0356    JMP      5 => 0359
+0357    KSHORT   4 -26
+0358    JMP      5 => 1436
+0359 => ISNES    1  37      ; "zhan_jiang_sunquan.png"
+0360    JMP      5 => 0363
+0361    KSHORT   4 -81
+0362    JMP      5 => 1436
+0363 => ISNES    1  14      ; "zhan_jiang_zhugeliang.png"
+0364    JMP      5 => 0367
+0365    KSHORT   4 -56
+0366    JMP      5 => 1436
+0367 => ISNES    1  16      ; "zhan_jiang_taishici.png"
+0368    JMP      5 => 0371
+0369    KSHORT   4 -77
+0370    JMP      5 => 1436
+0371 => ISNES    1  47      ; "zhan_jiang_feiyi.png"
+0372    JMP      5 => 0375
+0373    KSHORT   4 -38
+0374    JMP      5 => 1436
+0375 => ISNES    1  48      ; "zhan_jiang_guansuo.png"
+0376    JMP      5 => 0379
+0377    KSHORT   4 -41
+0378    JMP      5 => 1436
+0379 => ISNES    1  46      ; "zhan_jiang_masu.png"
+0380    JMP      5 => 0383
+0381    KSHORT   4 -110
+0382    JMP      5 => 1436
+0383 => ISNES    1  49      ; "zhan_jiang_simazhao.png"
+0384    JMP      5 => 0387
+0385    KSHORT   4 -36
+0386    JMP      5 => 1436
+0387 => ISNES    1  50      ; "zhan_jiang_yangxiu.png"
+0388    JMP      5 => 0391
+0389    KSHORT   4 -45
+0390    JMP      5 => 1436
+0391 => ISNES    1  51      ; "zhan_jiang_xiahouyuan.png"
+0392    JMP      5 => 0397
+0393    ISNEP    2   1
+0394    JMP      5 => 0397
+0395    KSHORT   4 -29
+0396    JMP      5 => 1436
+0397 => ISNES    1  51      ; "zhan_jiang_xiahouyuan.png"
+0398    JMP      5 => 0401
+0399    KSHORT   4 -37
+0400    JMP      5 => 1436
+0401 => ISNES    1  52      ; "zhan_jiang_nanzhu_shizhuang1.png"
+0402    JMP      5 => 0405
+0403    KSHORT   4 -21
+0404    JMP      5 => 1436
+0405 => ISNES    1  53      ; "zhan_jiang_nvzhu_shizhuang1.png"
+0406    JMP      5 => 0409
+0407    KSHORT   4 -32
+0408    JMP      5 => 1436
+0409 => ISNES    1  54      ; "zhan_jiang_weiyan.png"
+0410    JMP      5 => 0415
+0411    ISNEP    2   1
+0412    JMP      5 => 0415
+0413    KSHORT   4  -7
+0414    JMP      5 => 1436
+0415 => ISNES    1  55      ; "zhan_jiang_jiangwei.png"
+0416    JMP      5 => 0422
+0417    ISNEP    2   1
+0418    JMP      5 => 0422
+0419    KSHORT   5   0
+0420    UNM      4   5
+0421    JMP      5 => 1436
+0422 => ISNES    1  55      ; "zhan_jiang_jiangwei.png"
+0423    JMP      5 => 0426
+0424    KSHORT   4 -47
+0425    JMP      5 => 1436
+0426 => ISNES    1  54      ; "zhan_jiang_weiyan.png"
+0427    JMP      5 => 0430
+0428    KSHORT   4 -66
+0429    JMP      5 => 1436
+0430 => ISNES    1  56      ; "zhan_jiang_xushu.png"
+0431    JMP      5 => 0436
+0432    ISNEP    2   1
+0433    JMP      5 => 0436
+0434    KSHORT   4  -6
+0435    JMP      5 => 1436
+0436 => ISNES    1  56      ; "zhan_jiang_xushu.png"
+0437    JMP      5 => 0440
+0438    KSHORT   4 -66
+0439    JMP      5 => 1436
+0440 => ISNES    1  57      ; "zhan_jiang_yuji.png"
+0441    JMP      5 => 0446
+0442    ISNEP    2   1
+0443    JMP      5 => 0446
+0444    KSHORT   4 -20
+0445    JMP      5 => 1436
+0446 => ISNES    1  58      ; "zhan_jiang_yuanshu.png"
+0447    JMP      5 => 0452
+0448    ISNEP    2   1
+0449    JMP      5 => 0452
+0450    KSHORT   4  -6
+0451    JMP      5 => 1436
+0452 => ISNES    1  59      ; "zhan_jiang_zhurong.png"
+0453    JMP      5 => 0458
+0454    ISNEP    2   1
+0455    JMP      5 => 0458
+0456    KSHORT   4 -17
+0457    JMP      5 => 1436
+0458 => ISNES    1  60      ; "zhan_jiang_caocao_1.png"
+0459    JMP      5 => 0464
+0460    ISNEP    2   1
+0461    JMP      5 => 0464
+0462    KSHORT   4 -80
+0463    JMP      5 => 1436
+0464 => ISNES    1  61      ; "zhan_jiang_diaochan_1.png"
+0465    JMP      5 => 0470
+0466    ISNEP    2   1
+0467    JMP      5 => 0470
+0468    KSHORT   4 -28
+0469    JMP      5 => 1436
+0470 => ISNES    1  62      ; "zhan_jiang_ganning_1.png"
+0471    JMP      5 => 0476
+0472    ISNEP    2   1
+0473    JMP      5 => 0476
+0474    KSHORT   4 -29
+0475    JMP      5 => 1436
+0476 => ISNES    1  63      ; "zhan_jiang_guanyu_1.png"
+0477    JMP      5 => 0482
+0478    ISNEP    2   1
+0479    JMP      5 => 0482
+0480    KSHORT   4 -12
+0481    JMP      5 => 1436
+0482 => ISNES    1  64      ; "zhan_jiang_guojia_1.png"
+0483    JMP      5 => 0488
+0484    ISNEP    2   1
+0485    JMP      5 => 0488
+0486    KSHORT   4 -20
+0487    JMP      5 => 1436
+0488 => ISNES    1  65      ; "zhan_jiang_huatuo_1.png"
+0489    JMP      5 => 0494
+0490    ISNEP    2   1
+0491    JMP      5 => 0494
+0492    KSHORT   4 -47
+0493    JMP      5 => 1436
+0494 => ISNES    1  66      ; "zhan_jiang_jiaxu_1.png"
+0495    JMP      5 => 0500
+0496    ISNEP    2   1
+0497    JMP      5 => 0500
+0498    KSHORT   4 -26
+0499    JMP      5 => 1436
+0500 => ISNES    1  67      ; "zhan_jiang_luxun_1.png"
+0501    JMP      5 => 0506
+0502    ISNEP    2   1
+0503    JMP      5 => 0506
+0504    KSHORT   4 -34
+0505    JMP      5 => 1436
+0506 => ISNES    1  68      ; "zhan_jiang_lvmeng_1.png"
+0507    JMP      5 => 0512
+0508    ISNEP    2   1
+0509    JMP      5 => 0512
+0510    KSHORT   4 -30
+0511    JMP      5 => 1436
+0512 => ISNES    1  69      ; "zhan_jiang_machao_1.png"
+0513    JMP      5 => 0518
+0514    ISNEP    2   1
+0515    JMP      5 => 0518
+0516    KSHORT   4 -35
+0517    JMP      5 => 1436
+0518 => ISNES    1  70      ; "zhan_jiang_sunce_1.png"
+0519    JMP      5 => 0524
+0520    ISNEP    2   1
+0521    JMP      5 => 0524
+0522    KSHORT   4 -81
+0523    JMP      5 => 1436
+0524 => ISNES    1  71      ; "zhan_jiang_taishici_1.png"
+0525    JMP      5 => 0530
+0526    ISNEP    2   1
+0527    JMP      5 => 0530
+0528    KSHORT   4 -64
+0529    JMP      5 => 1436
+0530 => ISNES    1  72      ; "zhan_jiang_weiyan_1.png"
+0531    JMP      5 => 0536
+0532    ISNEP    2   1
+0533    JMP      5 => 0536
+0534    KSHORT   4 -17
+0535    JMP      5 => 1436
+0536 => ISNES    1  73      ; "zhan_jiang_xiahoudun_1.png"
+0537    JMP      5 => 0542
+0538    ISNEP    2   1
+0539    JMP      5 => 0542
+0540    KSHORT   4 -76
+0541    JMP      5 => 1436
+0542 => ISNES    1  74      ; "zhan_jiang_zhangfei_.png"
+0543    JMP      5 => 0548
+0544    ISNEP    2   1
+0545    JMP      5 => 0548
+0546    KSHORT   4  -8
+0547    JMP      5 => 1436
+0548 => ISNES    1  75      ; "zhan_jiang_zhanghe_1.png"
+0549    JMP      5 => 0554
+0550    ISNEP    2   1
+0551    JMP      5 => 0554
+0552    KSHORT   4 -31
+0553    JMP      5 => 1436
+0554 => ISNES    1  76      ; "zhan_jiang_zhangjiao_1.png"
+0555    JMP      5 => 0560
+0556    ISNEP    2   1
+0557    JMP      5 => 0560
+0558    KSHORT   4 -23
+0559    JMP      5 => 1436
+0560 => ISNES    1  77      ; "zhan_jiang_zhangliao_1.png"
+0561    JMP      5 => 0566
+0562    ISNEP    2   1
+0563    JMP      5 => 0566
+0564    KSHORT   4 -28
+0565    JMP      5 => 1436
+0566 => ISNES    1  78      ; "zhan_jiang_zhugeliang_1.png"
+0567    JMP      5 => 0572
+0568    ISNEP    2   1
+0569    JMP      5 => 0572
+0570    KSHORT   4 -51
+0571    JMP      5 => 1436
+0572 => ISNES    1  79      ; "zhan_jiang_zuoci_1.png"
+0573    JMP      5 => 0578
+0574    ISNEP    2   1
+0575    JMP      5 => 0578
+0576    KSHORT   4 -25
+0577    JMP      5 => 1436
+0578 => ISNES    1  80      ; "zhan_jiang_zhangfei_1.png"
+0579    JMP      5 => 0584
+0580    ISNEP    2   1
+0581    JMP      5 => 0584
+0582    KSHORT   4 -81
+0583    JMP      5 => 1436
+0584 => ISNES    1  54      ; "zhan_jiang_weiyan.png"
+0585    JMP      5 => 0590
+0586    ISNEP    2   1
+0587    JMP      5 => 0590
+0588    KSHORT   4  -7
+0589    JMP      5 => 1436
+0590 => ISNES    1  81      ; "zhan_jiang_nanzhu3.png"
+0591    JMP      5 => 0596
+0592    ISNEP    2   1
+0593    JMP      5 => 0596
+0594    KSHORT   4 -64
+0595    JMP      5 => 1436
+0596 => ISNES    1  82      ; "zhan_jiang_nvzhu3.png"
+0597    JMP      5 => 0602
+0598    ISNEP    2   1
+0599    JMP      5 => 0602
+0600    KSHORT   4 -50
+0601    JMP      5 => 1436
+0602 => ISNES    1  83      ; "zhan_jiang_dengai.png"
+0603    JMP      5 => 0608
+0604    ISNEP    2   1
+0605    JMP      5 => 0608
+0606    KSHORT   4 -71
+0607    JMP      5 => 1436
+0608 => ISNES    1  84      ; "zhan_jiang_jianggan.png"
+0609    JMP      5 => 0614
+0610    ISNEP    2   1
+0611    JMP      5 => 0614
+0612    KSHORT   4 -34
+0613    JMP      5 => 1436
+0614 => ISNES    1  85      ; "zhan_jiang_pangtong.png"
+0615    JMP      5 => 0620
+0616    ISNEP    2   1
+0617    JMP      5 => 0620
+0618    KSHORT   4 -75
+0619    JMP      5 => 1436
+0620 => ISNES    1  86      ; "zhan_jiang_sunce.png"
+0621    JMP      5 => 0626
+0622    ISNEP    2   1
+0623    JMP      5 => 0626
+0624    KSHORT   4 -57
+0625    JMP      5 => 1436
+0626 => ISNES    1  87      ; "zhan_jiang_yanyan.png"
+0627    JMP      5 => 0632
+0628    ISNEP    2   1
+0629    JMP      5 => 0632
+0630    KSHORT   4 -25
+0631    JMP      5 => 1436
+0632 => ISNES    1  88      ; "zhan_jiang_chengyu.png"
+0633    JMP      5 => 0638
+0634    ISNEP    2   1
+0635    JMP      5 => 0638
+0636    KSHORT   4 -25
+0637    JMP      5 => 1436
+0638 => ISNES    1  89      ; "zhan_jiang_gongsunzan.png"
+0639    JMP      5 => 0644
+0640    ISNEP    2   1
+0641    JMP      5 => 0644
+0642    KSHORT   4 -42
+0643    JMP      5 => 1436
+0644 => ISNES    1  90      ; "zhan_jiang_maliang.png"
+0645    JMP      5 => 0650
+0646    ISNEP    2   1
+0647    JMP      5 => 0650
+0648    KSHORT   4 -21
+0649    JMP      5 => 1436
+0650 => ISNES    1  91      ; "zhan_jiang_wenyang.png"
+0651    JMP      5 => 0656
+0652    ISNEP    2   1
+0653    JMP      5 => 0656
+0654    KSHORT   4 -22
+0655    JMP      5 => 1436
+0656 => ISNES    1  92      ; "zhan_jiang_zhangzhongjing.png"
+0657    JMP      5 => 0662
+0658    ISNEP    2   1
+0659    JMP      5 => 0662
+0660    KSHORT   4 -44
+0661    JMP      5 => 1436
+0662 => ISNES    1  93      ; "zhan_jiang_zhugeke.png"
+0663    JMP      5 => 0668
+0664    ISNEP    2   1
+0665    JMP      5 => 0668
+0666    KSHORT   4 -38
+0667    JMP      5 => 1436
+0668 => ISNES    1  94      ; "zhan_jiang_zhangjiao.png"
+0669    JMP      5 => 0675
+0670    ISNEP    2   1
+0671    JMP      5 => 0675
+0672    KSHORT   5   0
+0673    UNM      4   5
+0674    JMP      5 => 1436
+0675 => ISNES    1  95      ; "zhan_jiang_baosanniang.png"
+0676    JMP      5 => 0681
+0677    ISNEP    2   1
+0678    JMP      5 => 0681
+0679    KSHORT   4 -28
+0680    JMP      5 => 1436
+0681 => ISNES    1  96      ; "zhan_jiang_liaohua.png"
+0682    JMP      5 => 0687
+0683    ISNEP    2   1
+0684    JMP      5 => 0687
+0685    KSHORT   4 -13
+0686    JMP      5 => 1436
+0687 => ISNES    1  97      ; "zhan_jiang_liuxie.png"
+0688    JMP      5 => 0693
+0689    ISNEP    2   1
+0690    JMP      5 => 0693
+0691    KSHORT   4 -10
+0692    JMP      5 => 1436
+0693 => ISNES    1  98      ; "zhan_jiang_nanhualaoxian.png"
+0694    JMP      5 => 0699
+0695    ISNEP    2   1
+0696    JMP      5 => 0699
+0697    KSHORT   4 -36
+0698    JMP      5 => 1436
+0699 => ISNES    1  99      ; "zhan_jiang_xunyu.png"
+0700    JMP      5 => 0705
+0701    ISNEP    2   1
+0702    JMP      5 => 0705
+0703    KSHORT   4 -34
+0704    JMP      5 => 1436
+0705 => ISNES    1 100      ; "zhan_jiang_machao.png"
+0706    JMP      5 => 0711
+0707    ISNEP    2   1
+0708    JMP      5 => 0711
+0709    KSHORT   4   0
+0710    JMP      5 => 1436
+0711 => ISNES    1 101      ; "zhan_jiang_caopei.png"
+0712    JMP      5 => 0717
+0713    ISNEP    2   1
+0714    JMP      5 => 0717
+0715    KSHORT   4   0
+0716    JMP      5 => 1436
+0717 => ISNES    1 102      ; "zhan_jiang_liubei.png"
+0718    JMP      5 => 0723
+0719    ISNEP    2   1
+0720    JMP      5 => 0723
+0721    KSHORT   4   0
+0722    JMP      5 => 1436
+0723 => ISNES    1 103      ; "zhan_jiang_menghuo.png"
+0724    JMP      5 => 0729
+0725    ISNEP    2   1
+0726    JMP      5 => 0729
+0727    KSHORT   4   0
+0728    JMP      5 => 1436
+0729 => ISNES    1 104      ; "zhan_jiang_dianwei.png"
+0730    JMP      5 => 0735
+0731    ISNEP    2   1
+0732    JMP      5 => 0735
+0733    KSHORT   4 -31
+0734    JMP      5 => 1436
+0735 => ISNES    1 105      ; "zhan_jiang_diaochan.png"
+0736    JMP      5 => 0741
+0737    ISNEP    2   1
+0738    JMP      5 => 0741
+0739    KSHORT   4 -15
+0740    JMP      5 => 1436
+0741 => ISNES    1 106      ; "zhan_jiang_guanyu.png"
+0742    JMP      5 => 0747
+0743    ISNEP    2   1
+0744    JMP      5 => 0747
+0745    KSHORT   4 -32
+0746    JMP      5 => 1436
+0747 => ISNES    1 107      ; "zhan_jiang_zhangliao.png"
+0748    JMP      5 => 0753
+0749    ISNEP    2   1
+0750    JMP      5 => 0753
+0751    KSHORT   4 -23
+0752    JMP      5 => 1436
+0753 => ISNES    1 108      ; "zhan_jiang_pangde.png"
+0754    JMP      5 => 0759
+0755    ISNEP    2   1
+0756    JMP      5 => 0759
+0757    KSHORT   4 -42
+0758    JMP      5 => 1436
+0759 => ISNES    1 109      ; "zhan_jiang_nanzhu_shizhuang4.png"
+0760    JMP      5 => 0765
+0761    ISNEP    2   1
+0762    JMP      5 => 0765
+0763    KSHORT   4 -33
+0764    JMP      5 => 1436
+0765 => ISNES    1 110      ; "zhan_jiang_nvzhu_shizhuang4.png"
+0766    JMP      5 => 0771
+0767    ISNEP    2   1
+0768    JMP      5 => 0771
+0769    KSHORT   4 -26
+0770    JMP      5 => 1436
+0771 => ISNES    1 111      ; "zhan_jiang_dongzhuo_1.png"
+0772    JMP      5 => 0777
+0773    ISNEP    2   1
+0774    JMP      5 => 0777
+0775    KSHORT   4 -25
+0776    JMP      5 => 1436
+0777 => ISNES    1 112      ; "zhan_jiang_liubei_1.png"
+0778    JMP      5 => 0783
+0779    ISNEP    2   1
+0780    JMP      5 => 0783
+0781    KSHORT   4 -46
+0782    JMP      5 => 1436
+0783 => ISNES    1 113      ; "zhan_jiang_sunquan_1.png"
+0784    JMP      5 => 0789
+0785    ISNEP    2   1
+0786    JMP      5 => 0789
+0787    KSHORT   4 -24
+0788    JMP      5 => 1436
+0789 => ISNES    1 114      ; "zhan_jiang_xuhuang_1.png"
+0790    JMP      5 => 0795
+0791    ISNEP    2   1
+0792    JMP      5 => 0795
+0793    KSHORT   4 -28
+0794    JMP      5 => 1436
+0795 => ISNES    1 115      ; "zhan_jiang_nanzhu_shizhuang5.png"
+0796    JMP      5 => 0801
+0797    ISNEP    2   1
+0798    JMP      5 => 0801
+0799    KSHORT   4  -7
+0800    JMP      5 => 1436
+0801 => ISNES    1 116      ; "zhan_jiang_nvzhu_shizhuang5.png"
+0802    JMP      5 => 0807
+0803    ISNEP    2   1
+0804    JMP      5 => 0807
+0805    KSHORT   4 -65
+0806    JMP      5 => 1436
+0807 => ISNES    1 117      ; "zhan_jiang_huangzhong_1.png"
+0808    JMP      5 => 0813
+0809    ISNEP    2   1
+0810    JMP      5 => 0813
+0811    KSHORT   4  -6
+0812    JMP      5 => 1436
+0813 => ISNES    1 118      ; "zhan_jiang_lejin_1.png"
+0814    JMP      5 => 0819
+0815    ISNEP    2   1
+0816    JMP      5 => 0819
+0817    KSHORT   4  -9
+0818    JMP      5 => 1436
+0819 => ISNES    1 116      ; "zhan_jiang_nvzhu_shizhuang5.png"
+0820    JMP      5 => 0825
+0821    ISNEP    2   1
+0822    JMP      5 => 0825
+0823    KSHORT   4  -5
+0824    JMP      5 => 1436
+0825 => ISNES    1 119      ; "zhan_jiang_yuanshao_1.png"
+0826    JMP      5 => 0832
+0827    ISNEP    2   1
+0828    JMP      5 => 0832
+0829    KSHORT   5   0
+0830    UNM      4   5
+0831    JMP      5 => 1436
+0832 => ISNES    1 120      ; "zhan_jiang_jiangwei_1.png"
+0833    JMP      5 => 0838
+0834    ISNEP    2   1
+0835    JMP      5 => 0838
+0836    KSHORT   4  -5
+0837    JMP      5 => 1436
+0838 => ISNES    1 121      ; "zhan_jiang_nanzhu_shizhuang6.png"
+0839    JMP      5 => 0844
+0840    ISNEP    2   1
+0841    JMP      5 => 0844
+0842    KSHORT   4 -19
+0843    JMP      5 => 1436
+0844 => ISNES    1 122      ; "zhan_jiang_nvzhu_shizhuang6.png"
+0845    JMP      5 => 0850
+0846    ISNEP    2   1
+0847    JMP      5 => 0850
+0848    KSHORT   4 -29
+0849    JMP      5 => 1436
+0850 => ISNES    1 123      ; "zhan_jiang_xiaoqiao_1.png"
+0851    JMP      5 => 0856
+0852    ISNEP    2   1
+0853    JMP      5 => 0856
+0854    KSHORT   4 -26
+0855    JMP      5 => 1436
+0856 => ISNES    1 124      ; "zhan_jiang_yujin_1.png"
+0857    JMP      5 => 0862
+0858    ISNEP    2   1
+0859    JMP      5 => 0862
+0860    KSHORT   4 -30
+0861    JMP      5 => 1436
+0862 => ISNES    1 125      ; "zhan_jiang_yuji_1.png"
+0863    JMP      5 => 0868
+0864    ISNEP    2   1
+0865    JMP      5 => 0868
+0866    KSHORT   4 -27
+0867    JMP      5 => 1436
+0868 => ISNES    1 126      ; "zhan_jiang_lvbu_1.png"
+0869    JMP      5 => 0874
+0870    ISNEP    2   1
+0871    JMP      5 => 0874
+0872    KSHORT   4 -21
+0873    JMP      5 => 1436
+0874 => ISNES    1 127      ; "zhan_jiang_simayi_1.png"
+0875    JMP      5 => 0880
+0876    ISNEP    2   1
+0877    JMP      5 => 0880
+0878    KSHORT   4 -23
+0879    JMP      5 => 1436
+0880 => ISNES    1 128      ; "zhan_jiang_zhaoyun_1.png"
+0881    JMP      5 => 0886
+0882    ISNEP    2   1
+0883    JMP      5 => 0886
+0884    KSHORT   4 -24
+0885    JMP      5 => 1436
+0886 => ISNES    1 129      ; "zhan_jiang_zhouyu_1.png"
+0887    JMP      5 => 0892
+0888    ISNEP    2   1
+0889    JMP      5 => 0892
+0890    KSHORT   4 -47
+0891    JMP      5 => 1436
+0892 => ISNES    1 130      ; "zhan_jiang_nanzhu_shizhuang7.png"
+0893    JMP      5 => 0898
+0894    ISNEP    2   1
+0895    JMP      5 => 0898
+0896    KSHORT   4 -39
+0897    JMP      5 => 1436
+0898 => ISNES    1 131      ; "zhan_jiang_nvzhu_shizhuang7.png"
+0899    JMP      5 => 0904
+0900    ISNEP    2   1
+0901    JMP      5 => 0904
+0902    KSHORT   4 -36
+0903    JMP      5 => 1436
+0904 => ISNES    1 132      ; "zhan_jiang_chengong_1.png"
+0905    JMP      5 => 0910
+0906    ISNEP    2   1
+0907    JMP      5 => 0910
+0908    KSHORT   4 -45
+0909    JMP      5 => 1436
+0910 => ISNES    1 133      ; "zhan_jiang_dianwei_1.png"
+0911    JMP      5 => 0916
+0912    ISNEP    2   1
+0913    JMP      5 => 0916
+0914    KSHORT   4 -23
+0915    JMP      5 => 1436
+0916 => ISNES    1 134      ; "zhan_jiang_huangyueying_1.png"
+0917    JMP      5 => 0922
+0918    ISNEP    2   1
+0919    JMP      5 => 0922
+0920    KSHORT   4 -57
+0921    JMP      5 => 1436
+0922 => ISNES    1 135      ; "zhan_jiang_sunshangxiang_1.png"
+0923    JMP      5 => 0928
+0924    ISNEP    2   1
+0925    JMP      5 => 0928
+0926    KSHORT   4 -25
+0927    JMP      5 => 1436
+0928 => ISNES    1 136      ; "zhan_jiang_luxun.png"
+0929    JMP      5 => 0935
+0930    ISNEP    2   1
+0931    JMP      5 => 0935
+0932    KSHORT   5   0
+0933    UNM      4   5
+0934    JMP      5 => 1436
+0935 => ISNES    1 137      ; "zhan_jiang_caiwenji_1.png"
+0936    JMP      5 => 0941
+0937    ISNEP    2   1
+0938    JMP      5 => 0941
+0939    KSHORT   4 -48
+0940    JMP      5 => 1436
+0941 => ISNES    1 138      ; "zhan_jiang_huaxiong_1.png"
+0942    JMP      5 => 0947
+0943    ISNEP    2   1
+0944    JMP      5 => 0947
+0945    KSHORT   4 -25
+0946    JMP      5 => 1436
+0947 => ISNES    1 139      ; "zhan_jiang_sunjian_1.png"
+0948    JMP      5 => 0953
+0949    ISNEP    2   1
+0950    JMP      5 => 0953
+0951    KSHORT   4 -19
+0952    JMP      5 => 1436
+0953 => ISNES    1 140      ; "zhan_jiang_xushu_1.png"
+0954    JMP      5 => 0959
+0955    ISNEP    2   1
+0956    JMP      5 => 0959
+0957    KSHORT   4 -24
+0958    JMP      5 => 1436
+0959 => ISNES    1 141      ; "zhan_jiang_zhoutai_1.png"
+0960    JMP      5 => 0965
+0961    ISNEP    2   1
+0962    JMP      5 => 0965
+0963    KSHORT   4 -18
+0964    JMP      5 => 1436
+0965 => ISNES    1 137      ; "zhan_jiang_caiwenji_1.png"
+0966    JMP      5 => 0969
+0967    KSHORT   4 -53
+0968    JMP      5 => 1436
+0969 => ISNES    1 138      ; "zhan_jiang_huaxiong_1.png"
+0970    JMP      5 => 0973
+0971    KSHORT   4 -66
+0972    JMP      5 => 1436
+0973 => ISNES    1 139      ; "zhan_jiang_sunjian_1.png"
+0974    JMP      5 => 0977
+0975    KSHORT   4 -49
+0976    JMP      5 => 1436
+0977 => ISNES    1 140      ; "zhan_jiang_xushu_1.png"
+0978    JMP      5 => 0981
+0979    KSHORT   4 -30
+0980    JMP      5 => 1436
+0981 => ISNES    1 141      ; "zhan_jiang_zhoutai_1.png"
+0982    JMP      5 => 0985
+0983    KSHORT   4 -58
+0984    JMP      5 => 1436
+0985 => ISNES    1   0      ; "zhan_jiang_dingyuan.png"
+0986    JMP      5 => 0989
+0987    KSHORT   4 -46
+0988    JMP      5 => 1436
+0989 => ISNES    1  56      ; "zhan_jiang_xushu.png"
+0990    JMP      5 => 0993
+0991    KSHORT   4 -66
+0992    JMP      5 => 1436
+0993 => ISNES    1 136      ; "zhan_jiang_luxun.png"
+0994    JMP      5 => 0997
+0995    KSHORT   4 -43
+0996    JMP      5 => 1436
+0997 => ISNES    1 132      ; "zhan_jiang_chengong_1.png"
+0998    JMP      5 => 1001
+0999    KSHORT   4 -30
+1000    JMP      5 => 1436
+1001 => ISNES    1 133      ; "zhan_jiang_dianwei_1.png"
+1002    JMP      5 => 1005
+1003    KSHORT   4 -61
+1004    JMP      5 => 1436
+1005 => ISNES    1 134      ; "zhan_jiang_huangyueying_1.png"
+1006    JMP      5 => 1009
+1007    KSHORT   4 -21
+1008    JMP      5 => 1436
+1009 => ISNES    1 135      ; "zhan_jiang_sunshangxiang_1.png"
+1010    JMP      5 => 1013
+1011    KSHORT   4 -26
+1012    JMP      5 => 1436
+1013 => ISNES    1  80      ; "zhan_jiang_zhangfei_1.png"
+1014    JMP      5 => 1017
+1015    KSHORT   4 -122
+1016    JMP      5 => 1436
+1017 => ISNES    1 126      ; "zhan_jiang_lvbu_1.png"
+1018    JMP      5 => 1021
+1019    KSHORT   4 -36
+1020    JMP      5 => 1436
+1021 => ISNES    1 129      ; "zhan_jiang_zhouyu_1.png"
+1022    JMP      5 => 1025
+1023    KSHORT   4 -16
+1024    JMP      5 => 1436
+1025 => ISNES    1  72      ; "zhan_jiang_weiyan_1.png"
+1026    JMP      5 => 1029
+1027    KSHORT   4 -30
+1028    JMP      5 => 1436
+1029 => ISNES    1  79      ; "zhan_jiang_zuoci_1.png"
+1030    JMP      5 => 1033
+1031    KSHORT   4 -54
+1032    JMP      5 => 1436
+1033 => ISNES    1  78      ; "zhan_jiang_zhugeliang_1.png"
+1034    JMP      5 => 1037
+1035    KSHORT   4 -38
+1036    JMP      5 => 1436
+1037 => ISNES    1  60      ; "zhan_jiang_caocao_1.png"
+1038    JMP      5 => 1041
+1039    KSHORT   4 -57
+1040    JMP      5 => 1436
+1041 => ISNES    1 124      ; "zhan_jiang_yujin_1.png"
+1042    JMP      5 => 1045
+1043    KSHORT   4 -27
+1044    JMP      5 => 1436
+1045 => ISNES    1 125      ; "zhan_jiang_yuji_1.png"
+1046    JMP      5 => 1049
+1047    KSHORT   4 -37
+1048    JMP      5 => 1436
+1049 => ISNES    1 123      ; "zhan_jiang_xiaoqiao_1.png"
+1050    JMP      5 => 1053
+1051    KSHORT   4 -42
+1052    JMP      5 => 1436
+1053 => ISNES    1 120      ; "zhan_jiang_jiangwei_1.png"
+1054    JMP      5 => 1057
+1055    KSHORT   4 -40
+1056    JMP      5 => 1436
+1057 => ISNES    1  73      ; "zhan_jiang_xiahoudun_1.png"
+1058    JMP      5 => 1061
+1059    KSHORT   4 -25
+1060    JMP      5 => 1436
+1061 => ISNES    1  71      ; "zhan_jiang_taishici_1.png"
+1062    JMP      5 => 1065
+1063    KSHORT   4 -21
+1064    JMP      5 => 1436
+1065 => ISNES    1  64      ; "zhan_jiang_guojia_1.png"
+1066    JMP      5 => 1069
+1067    KSHORT   4 -46
+1068    JMP      5 => 1436
+1069 => ISNES    1 117      ; "zhan_jiang_huangzhong_1.png"
+1070    JMP      5 => 1073
+1071    KSHORT   4 -41
+1072    JMP      5 => 1436
+1073 => ISNES    1 118      ; "zhan_jiang_lejin_1.png"
+1074    JMP      5 => 1077
+1075    KSHORT   4 -39
+1076    JMP      5 => 1436
+1077 => ISNES    1 119      ; "zhan_jiang_yuanshao_1.png"
+1078    JMP      5 => 1081
+1079    KSHORT   4 -28
+1080    JMP      5 => 1436
+1081 => ISNES    1 111      ; "zhan_jiang_dongzhuo_1.png"
+1082    JMP      5 => 1085
+1083    KSHORT   4 -32
+1084    JMP      5 => 1436
+1085 => ISNES    1 112      ; "zhan_jiang_liubei_1.png"
+1086    JMP      5 => 1089
+1087    KSHORT   4 -76
+1088    JMP      5 => 1436
+1089 => ISNES    1 113      ; "zhan_jiang_sunquan_1.png"
+1090    JMP      5 => 1093
+1091    KSHORT   4 -41
+1092    JMP      5 => 1436
+1093 => ISNES    1 114      ; "zhan_jiang_xuhuang_1.png"
+1094    JMP      5 => 1097
+1095    KSHORT   4 -30
+1096    JMP      5 => 1436
+1097 => ISNES    1  38      ; "zhan_jiang_zhuhuan.png"
+1098    JMP      5 => 1101
+1099    KSHORT   4 -35
+1100    JMP      5 => 1436
+1101 => ISNES    1 108      ; "zhan_jiang_pangde.png"
+1102    JMP      5 => 1105
+1103    KSHORT   4 -62
+1104    JMP      5 => 1436
+1105 => ISNES    1  83      ; "zhan_jiang_dengai.png"
+1106    JMP      5 => 1109
+1107    KSHORT   4 -71
+1108    JMP      5 => 1436
+1109 => ISNES    1 142      ; "zhan_jiang_guyong.png"
+1110    JMP      5 => 1113
+1111    KSHORT   4  -4
+1112    JMP      5 => 1436
+1113 => ISNES    1  84      ; "zhan_jiang_jianggan.png"
+1114    JMP      5 => 1117
+1115    KSHORT   4 -35
+1116    JMP      5 => 1436
+1117 => ISNES    1 143      ; "zhan_jiang_mateng.png"
+1118    JMP      5 => 1121
+1119    KSHORT   4 -25
+1120    JMP      5 => 1436
+1121 => ISNES    1  85      ; "zhan_jiang_pangtong.png"
+1122    JMP      5 => 1125
+1123    KSHORT   4 -94
+1124    JMP      5 => 1436
+1125 => ISNES    1  86      ; "zhan_jiang_sunce.png"
+1126    JMP      5 => 1129
+1127    KSHORT   4 -96
+1128    JMP      5 => 1436
+1129 => ISNES    1  70      ; "zhan_jiang_sunce_1.png"
+1130    JMP      5 => 1133
+1131    KSHORT   4 -94
+1132    JMP      5 => 1436
+1133 => ISNES    1  87      ; "zhan_jiang_yanyan.png"
+1134    JMP      5 => 1137
+1135    KSHORT   4 -53
+1136    JMP      5 => 1436
+1137 => ISNES    1 144      ; "zhan_jiang_nanzhu_shizhuang3.png"
+1138    JMP      5 => 1141
+1139    KSHORT   4 -26
+1140    JMP      5 => 1436
+1141 => ISNES    1 145      ; "zhan_jiang_chengyu_37px.png"
+1142    JMP      5 => 1145
+1143    KSHORT   4 -25
+1144    JMP      5 => 1436
+1145 => ISNES    1 146      ; "zhan_jiang_nvzhu_shizhuang3.png"
+1146    JMP      5 => 1149
+1147    KSHORT   4 -25
+1148    JMP      5 => 1436
+1149 => ISNES    1  88      ; "zhan_jiang_chengyu.png"
+1150    JMP      5 => 1153
+1151    KSHORT   4 -25
+1152    JMP      5 => 1436
+1153 => ISNES    1  89      ; "zhan_jiang_gongsunzan.png"
+1154    JMP      5 => 1157
+1155    KSHORT   4 -89
+1156    JMP      5 => 1436
+1157 => ISNES    1  90      ; "zhan_jiang_maliang.png"
+1158    JMP      5 => 1161
+1159    KSHORT   4 -21
+1160    JMP      5 => 1436
+1161 => ISNES    1  91      ; "zhan_jiang_wenyang.png"
+1162    JMP      5 => 1165
+1163    KSHORT   4 -22
+1164    JMP      5 => 1436
+1165 => ISNES    1  92      ; "zhan_jiang_zhangzhongjing.png"
+1166    JMP      5 => 1169
+1167    KSHORT   4 -44
+1168    JMP      5 => 1436
+1169 => ISNES    1  93      ; "zhan_jiang_zhugeke.png"
+1170    JMP      5 => 1173
+1171    KSHORT   4 -38
+1172    JMP      5 => 1436
+1173 => ISNES    1  94      ; "zhan_jiang_zhangjiao.png"
+1174    JMP      5 => 1177
+1175    KSHORT   4 -17
+1176    JMP      5 => 1436
+1177 => ISNES    1  95      ; "zhan_jiang_baosanniang.png"
+1178    JMP      5 => 1181
+1179    KSHORT   4 -36
+1180    JMP      5 => 1436
+1181 => ISNES    1  96      ; "zhan_jiang_liaohua.png"
+1182    JMP      5 => 1185
+1183    KSHORT   4  -6
+1184    JMP      5 => 1436
+1185 => ISNES    1  99      ; "zhan_jiang_xunyu.png"
+1186    JMP      5 => 1189
+1187    KSHORT   4 -70
+1188    JMP      5 => 1436
+1189 => ISNES    1 101      ; "zhan_jiang_caopei.png"
+1190    JMP      5 => 1193
+1191    KSHORT   4 -28
+1192    JMP      5 => 1436
+1193 => ISNES    1 104      ; "zhan_jiang_dianwei.png"
+1194    JMP      5 => 1197
+1195    KSHORT   4 -43
+1196    JMP      5 => 1436
+1197 => ISNES    1 105      ; "zhan_jiang_diaochan.png"
+1198    JMP      5 => 1201
+1199    KSHORT   4 -60
+1200    JMP      5 => 1436
+1201 => ISNES    1 106      ; "zhan_jiang_guanyu.png"
+1202    JMP      5 => 1205
+1203    KSHORT   4 -54
+1204    JMP      5 => 1436
+1205 => ISNES    1 102      ; "zhan_jiang_liubei.png"
+1206    JMP      5 => 1209
+1207    KSHORT   4 -55
+1208    JMP      5 => 1436
+1209 => ISNES    1 100      ; "zhan_jiang_machao.png"
+1210    JMP      5 => 1213
+1211    KSHORT   4 -60
+1212    JMP      5 => 1436
+1213 => ISNES    1 103      ; "zhan_jiang_menghuo.png"
+1214    JMP      5 => 1217
+1215    KSHORT   4 -36
+1216    JMP      5 => 1436
+1217 => ISNES    1   6      ; "zhan_jiang_zhangfei.png"
+1218    JMP      5 => 1221
+1219    KSHORT   4 -32
+1220    JMP      5 => 1436
+1221 => ISNES    1 147      ; "zhan_jiang_nanzhu_shizhuang8.png"
+1222    JMP      5 => 1225
+1223    KSHORT   4 -26
+1224    JMP      5 => 1436
+1225 => ISNES    1 148      ; "zhan_jiang_nvzhu_shizhuang8.png"
+1226    JMP      5 => 1229
+1227    KSHORT   4 -24
+1228    JMP      5 => 1436
+1229 => ISNES    1 149      ; "zhan_jiang_nanzhu_shizhuang9.png"
+1230    JMP      5 => 1233
+1231    KSHORT   4 -43
+1232    JMP      5 => 1436
+1233 => ISNES    1 150      ; "zhan_jiang_nvzhu_shizhuang9.png"
+1234    JMP      5 => 1237
+1235    KSHORT   4 -48
+1236    JMP      5 => 1436
+1237 => ISNES    1  62      ; "zhan_jiang_ganning_1.png"
+1238    JMP      5 => 1241
+1239    KSHORT   4 -61
+1240    JMP      5 => 1436
+1241 => ISNES    1 151      ; "zhan_jiang_nvzhu_shizhuang10.png"
+1242    JMP      5 => 1245
+1243    KSHORT   4 -31
+1244    JMP      5 => 1436
+1245 => ISNES    1 152      ; "zhan_jiang_nanzhu_shizhuang11.png"
+1246    JMP      5 => 1249
+1247    KSHORT   4 -38
+1248    JMP      5 => 1436
+1249 => ISNES    1 153      ; "zhan_jiang_nvzhu_shizhuang11.png"
+1250    JMP      5 => 1253
+1251    KSHORT   4 -40
+1252    JMP      5 => 1436
+1253 => ISNES    1 154      ; "zhan_jiang_nanzhu_shizhuang12.png"
+1254    JMP      5 => 1257
+1255    KSHORT   4 -22
+1256    JMP      5 => 1436
+1257 => ISNES    1 155      ; "zhan_jiang_nvzhu_shizhuang12.png"
+1258    JMP      5 => 1261
+1259    KSHORT   4 -55
+1260    JMP      5 => 1436
+1261 => ISNES    1 156      ; "zhan_jiang_nanzhu_shizhuang13.png"
+1262    JMP      5 => 1265
+1263    KSHORT   4 -47
+1264    JMP      5 => 1436
+1265 => ISNES    1 157      ; "zhan_jiang_nvzhu_shizhuang13.png"
+1266    JMP      5 => 1269
+1267    KSHORT   4 -50
+1268    JMP      5 => 1436
+1269 => ISNES    1 158      ; "zhan_jiang_nanzhu_shizhuang14.png"
+1270    JMP      5 => 1273
+1271    KSHORT   4 -62
+1272    JMP      5 => 1436
+1273 => ISNES    1 159      ; "zhan_jiang_nvzhu_shizhuang14.png"
+1274    JMP      5 => 1277
+1275    KSHORT   4 -34
+1276    JMP      5 => 1436
+1277 => ISNES    1 160      ; "zhan_jiang_nanzhu_shizhuang15.png"
+1278    JMP      5 => 1281
+1279    KSHORT   4 -42
+1280    JMP      5 => 1436
+1281 => ISNES    1 161      ; "zhan_jiang_nvzhu_shizhuang15.png"
+1282    JMP      5 => 1285
+1283    KSHORT   4 -43
+1284    JMP      5 => 1436
+1285 => ISNES    1 162      ; "zhan_jiang_nanzhu_shizhuang16.png"
+1286    JMP      5 => 1289
+1287    KSHORT   4 -47
+1288    JMP      5 => 1436
+1289 => ISNES    1 163      ; "zhan_jiang_nvzhu_shizhuang16.png"
+1290    JMP      5 => 1293
+1291    KSHORT   4 -31
+1292    JMP      5 => 1436
+1293 => ISNES    1 164      ; "zhan_jiang_nanzhu_shizhuang17.png"
+1294    JMP      5 => 1297
+1295    KSHORT   4 -27
+1296    JMP      5 => 1436
+1297 => ISNES    1 165      ; "zhan_jiang_nvzhu_shizhuang17.png"
+1298    JMP      5 => 1301
+1299    KSHORT   4 -27
+1300    JMP      5 => 1436
+1301 => ISNES    1 166      ; "zhan_jiang_nanzhu_shizhuang18.png"
+1302    JMP      5 => 1305
+1303    KSHORT   4 -24
+1304    JMP      5 => 1436
+1305 => ISNES    1 167      ; "zhan_jiang_nvzhu_shizhuang18.png"
+1306    JMP      5 => 1309
+1307    KSHORT   4 -26
+1308    JMP      5 => 1436
+1309 => ISNES    1 168      ; "zhan_jiang_nanzhu_shizhuang19.png"
+1310    JMP      5 => 1313
+1311    KSHORT   4 -40
+1312    JMP      5 => 1436
+1313 => ISNES    1 169      ; "zhan_jiang_nvzhu_shizhuang19.png"
+1314    JMP      5 => 1317
+1315    KSHORT   4 -23
+1316    JMP      5 => 1436
+1317 => ISNES    1 170      ; "zhan_jiang_nanzhu_shizhuang20.png"
+1318    JMP      5 => 1321
+1319    KSHORT   4 -20
+1320    JMP      5 => 1436
+1321 => ISNES    1 171      ; "zhan_jiang_nvzhu_shizhuang20.png"
+1322    JMP      5 => 1325
+1323    KSHORT   4 -21
+1324    JMP      5 => 1436
+1325 => ISNES    1 172      ; "zhan_jiang_nanzhu_shizhuang21.png"
+1326    JMP      5 => 1329
+1327    KSHORT   4 -30
+1328    JMP      5 => 1436
+1329 => ISNES    1 173      ; "zhan_jiang_nvzhu_shizhuang21.png"
+1330    JMP      5 => 1333
+1331    KSHORT   4 -14
+1332    JMP      5 => 1436
+1333 => ISNES    1 174      ; "zhan_jiang_nanzhu_shizhuang22.png"
+1334    JMP      5 => 1337
+1335    KSHORT   4 -30
+1336    JMP      5 => 1436
+1337 => ISNES    1 175      ; "zhan_jiang_nvzhu_shizhuang22.png"
+1338    JMP      5 => 1341
+1339    KSHORT   4 -23
+1340    JMP      5 => 1436
+1341 => ISNES    1 176      ; "zhan_jiang_nanzhu_shizhuang23.png"
+1342    JMP      5 => 1345
+1343    KSHORT   4 -20
+1344    JMP      5 => 1436
+1345 => ISNES    1 177      ; "zhan_jiang_nvzhu_shizhuang23.png"
+1346    JMP      5 => 1349
+1347    KSHORT   4 -19
+1348    JMP      5 => 1436
+1349 => ISNES    1 178      ; "zhan_jiang_nanzhu_shizhuang24.png"
+1350    JMP      5 => 1353
+1351    KSHORT   4 -25
+1352    JMP      5 => 1436
+1353 => ISNES    1 179      ; "zhan_jiang_nvzhu_shizhuang24.png"
+1354    JMP      5 => 1357
+1355    KSHORT   4 -50
+1356    JMP      5 => 1436
+1357 => ISNES    1 180      ; "zhan_jiang_nvzhu_shizhuang25.png"
+1358    JMP      5 => 1361
+1359    KSHORT   4 -24
+1360    JMP      5 => 1436
+1361 => ISNES    1 181      ; "zhan_jiang_nanzhu_shizhuang25.png"
+1362    JMP      5 => 1365
+1363    KSHORT   4 -38
+1364    JMP      5 => 1436
+1365 => ISNES    1 182      ; "zhan_jiang_nvzhu_shizhuang26.png"
+1366    JMP      5 => 1369
+1367    KSHORT   4 -39
+1368    JMP      5 => 1436
+1369 => ISNES    1 183      ; "zhan_jiang_nanzhu_shizhuang27.png"
+1370    JMP      5 => 1373
+1371    KSHORT   4 -41
+1372    JMP      5 => 1436
+1373 => ISNES    1 184      ; "zhan_jiang_nvzhu_shizhuang27.png"
+1374    JMP      5 => 1377
+1375    KSHORT   4 -29
+1376    JMP      5 => 1436
+1377 => ISNES    1 185      ; "zhan_jiang_nanzhu_shizhuang26.png"
+1378    JMP      5 => 1381
+1379    KSHORT   4 -30
+1380    JMP      5 => 1436
+1381 => ISNES    1 186      ; "zhan_jiang_nvzhu_shizhuang28.png"
+1382    JMP      5 => 1385
+1383    KSHORT   4 -30
+1384    JMP      5 => 1436
+1385 => ISNES    1 187      ; "zhan_jiang_nvzhu_shizhuang29.png"
+1386    JMP      5 => 1389
+1387    KSHORT   4 -46
+1388    JMP      5 => 1436
+1389 => ISNES    1 188      ; "zhan_jiang_nanzhu_shizhuang30.png"
+1390    JMP      5 => 1393
+1391    KSHORT   4 -22
+1392    JMP      5 => 1436
+1393 => ISNES    1 189      ; "zhan_jiang_nvzhu_shizhuang30.png"
+1394    JMP      5 => 1397
+1395    KSHORT   4 -32
+1396    JMP      5 => 1436
+1397 => ISNES    1 190      ; "zhan_jiang_nvzhu_shizhuang31.png"
+1398    JMP      5 => 1401
+1399    KSHORT   4 -40
+1400    JMP      5 => 1436
+1401 => ISNES    1 191      ; "zhan_jiang_nanzhu_shizhuang31.png"
+1402    JMP      5 => 1405
+1403    KSHORT   4 -30
+1404    JMP      5 => 1436
+1405 => ISNES    1 192      ; "zhan_jiang_nvzhu_shizhuang32.png"
+1406    JMP      5 => 1409
+1407    KSHORT   4  -8
+1408    JMP      5 => 1436
+1409 => ISNES    1 193      ; "zhan_jiang_nanzhu_shizhuang32.png"
+1410    JMP      5 => 1413
+1411    KSHORT   4 -23
+1412    JMP      5 => 1436
+1413 => ISNES    1 194      ; "zhan_jiang_nanzhu_shizhuang33.png"
+1414    JMP      5 => 1417
+1415    KSHORT   4 -30
+1416    JMP      5 => 1436
+1417 => ISNES    1 195      ; "zhan_jiang_nvzhu_shizhuang33.png"
+1418    JMP      5 => 1421
+1419    KSHORT   4 -30
+1420    JMP      5 => 1436
+1421 => ISNES    1 196      ; "zhan_jiang_nanzhu_shizhuang34.png"
+1422    JMP      5 => 1425
+1423    KSHORT   4 -34
+1424    JMP      5 => 1436
+1425 => ISNES    1 197      ; "zhan_jiang_nvzhu_shizhuang34.png"
+1426    JMP      5 => 1429
+1427    KSHORT   4 -41
+1428    JMP      5 => 1436
+1429 => ISNES    1 198      ; "zhan_jiang_nvzhu_shizhuang35.png"
+1430    JMP      5 => 1433
+1431    KSHORT   4 -23
+1432    JMP      5 => 1436
+1433 => ISNES    1 199      ; "zhan_jiang_nanzhu_shizhuang35.png"
+1434    JMP      5 => 1436
+1435    KSHORT   4 -26
+1436 => KPRI     5   1
+1437    GGET     6 200      ; "pairs"
+1438    GGET     8 201      ; "DB_Item_dress"
+1439    TGETS    8   8 202  ; "Item_dress"
+1440    CALL     6   4   2
+1441    ISNEXT   9 => 1470
+1442 => GGET    11 201      ; "DB_Item_dress"
+1443    TGETS   11  11 203  ; "getDataById"
+1444    TGETB   13  10   1
+1445    CALL    11   2   2
+1446    GGET    12 204      ; "string"
+1447    TGETS   12  12 205  ; "split"
+1448    TGETS   14  11 206  ; "changeModel"
+1449    KSTR    15 207      ; ","
+1450    CALL    12   2   3
+1451    GGET    13 200      ; "pairs"
+1452    MOV     15  12
+1453    CALL    13   4   2
+1454    ISNEXT  16 => 1465
+1455 => GGET    18 204      ; "string"
+1456    TGETS   18  18 205  ; "split"
+1457    MOV     20  17
+1458    KSTR    21 208      ; "|"
+1459    CALL    18   2   3
+1460    TGETB   19  18   2
+1461    ISNEV   19   1
+1462    JMP     19 => 1465
+1463    KPRI     5   2
+1464    JMP     13 => 1467
+1465 => ITERN   16   3   3
+1466    ITERL   16 => 1455
+1467 => ISF          5
+1468    JMP     13 => 1470
+1469    JMP      6 => 1472
+1470 => ITERN    9   3   3
+1471    ITERL    9 => 1442
+1472 => ISF          3
+1473    JMP      6 => 1517
+1474    GGET     6 209      ; "tonumber"
+1475    MOV      8   3
+1476    CALL     6   2   2
+1477    ISEQN    6   0      ; 0
+1478    JMP      6 => 1517
+1479    GGET     6 210      ; "print"
+1480    KSTR     8 211      ; "pTurnedId offset 1"
+1481    MOV      9   4
+1482    CALL     6   1   3
+1483    GGET     6 210      ; "print"
+1484    KSTR     8 212      ; "imageFile"
+1485    MOV      9   1
+1486    CALL     6   1   3
+1487    GGET     6 210      ; "print"
+1488    KSTR     8 213      ; "pTurnedId"
+1489    MOV      9   3
+1490    CALL     6   1   3
+1491    GGET     6 214      ; "HeroTurnedData"
+1492    TGETS    6   6 215  ; "getTurnDBInfoById"
+1493    MOV      8   3
+1494    CALL     6   2   2
+1495    ISF          2
+1496    JMP      7 => 1505
+1497    TGETS    7   6 216  ; "bigOffset"
+1498    ISF          7
+1499    JMP      8 => 1505
+1500    GGET     7 209      ; "tonumber"
+1501    TGETS    9   6 216  ; "bigOffset"
+1502    CALL     7   2   2
+1503    UNM      4   7
+1504    JMP      7 => 1512
+1505 => TGETS    7   6 217  ; "littleOffset"
+1506    ISF          7
+1507    JMP      8 => 1512
+1508    GGET     7 209      ; "tonumber"
+1509    TGETS    9   6 217  ; "littleOffset"
+1510    CALL     7   2   2
+1511    UNM      4   7
+1512 => GGET     7 210      ; "print"
+1513    KSTR     9 218      ; "pTurnedId offset 2"
+1514    MOV     10   4
+1515    CALL     7   1   3
+1516    JMP      6 => 1551
+1517 => IST          5
+1518    JMP      6 => 1551
+1519    GGET     6 219      ; "DB_Heroes"
+1520    TGETS    6   6 203  ; "getDataById"
+1521    MOV      8   0
+1522    CALL     6   2   2
+1523    ISNEP    6   0
+1524    JMP      7 => 1534
+1525    GGET     7 220      ; "DB_Monsters"
+1526    TGETS    7   7 203  ; "getDataById"
+1527    MOV      9   0
+1528    CALL     7   2   2
+1529    GGET     8 219      ; "DB_Heroes"
+1530    TGETS    8   8 203  ; "getDataById"
+1531    TGETS   10   7 221  ; "htid"
+1532    CALL     8   2   2
+1533    MOV      6   8
+1534 => ISF          2
+1535    JMP      7 => 1544
+1536    TGETS    7   6 216  ; "bigOffset"
+1537    ISF          7
+1538    JMP      8 => 1544
+1539    GGET     7 209      ; "tonumber"
+1540    TGETS    9   6 216  ; "bigOffset"
+1541    CALL     7   2   2
+1542    UNM      4   7
+1543    JMP      7 => 1551
+1544 => TGETS    7   6 217  ; "littleOffset"
+1545    ISF          7
+1546    JMP      8 => 1551
+1547    GGET     7 209      ; "tonumber"
+1548    TGETS    9   6 217  ; "littleOffset"
+1549    CALL     7   2   2
+1550    UNM      4   7
+1551 => RET1     4   2
+
+-- BYTECODE -- 314A1B82BE336D82.luac:0-0
+0001    GGET     0   0      ; "module"
+0002    KSTR     2   1      ; "BattleCardUtil"
+0003    GGET     3   2      ; "package"
+0004    TGETS    3   3   3  ; "seeall"
+0005    CALL     0   1   3
+0006    GGET     0   4      ; "require"
+0007    KSTR     2   5      ; "script/utils/extern"
+0008    CALL     0   1   2
+0009    GGET     0   4      ; "require"
+0010    KSTR     2   6      ; "script/utils/LuaUtil"
+0011    CALL     0   1   2
+0012    GGET     0   4      ; "require"
+0013    KSTR     2   7      ; "db/DB_Heroes"
+0014    CALL     0   1   2
+0015    GGET     0   4      ; "require"
+0016    KSTR     2   8      ; "db/DB_Monsters_tmpl"
+0017    CALL     0   1   2
+0018    GGET     0   4      ; "require"
+0019    KSTR     2   9      ; "db/DB_Monsters"
+0020    CALL     0   1   2
+0021    GGET     0   4      ; "require"
+0022    KSTR     2  10      ; "script/model/hero/HeroModel"
+0023    CALL     0   1   2
+0024    GGET     0   4      ; "require"
+0025    KSTR     2   6      ; "script/utils/LuaUtil"
+0026    CALL     0   1   2
+0027    GGET     0   4      ; "require"
+0028    KSTR     2  11      ; "script/model/user/UserModel"
+0029    CALL     0   1   2
+0030    GGET     0   4      ; "require"
+0031    KSTR     2  12      ; "db/DB_Item_dress"
+0032    CALL     0   1   2
+0033    GGET     0   4      ; "require"
+0034    KSTR     2   7      ; "db/DB_Heroes"
+0035    CALL     0   1   2
+0036    GGET     0   4      ; "require"
+0037    KSTR     2  13      ; "db/DB_Army"
+0038    CALL     0   1   2
+0039    GGET     0   4      ; "require"
+0040    KSTR     2  14      ; "db/DB_Team"
+0041    CALL     0   1   2
+0042    GGET     0   4      ; "require"
+0043    KSTR     2  15      ; "script/ui/turnedSys/HeroTurnedData"
+0044    CALL     0   1   2
+0045    KSHORT   0  10
+0046    GSET     0  16      ; "kHeroNameLabelTag"
+0047    KSHORT   0 8881
+0048    GSET     0  17      ; "kAngerSprteTag"
+0049    KSHORT   0   6
+0050    GSET     0  18      ; "kHpBgTag"
+0051    KSHORT   0   7
+0052    GSET     0  19      ; "kHpTag"
+0053    KSHORT   0 110
+0054    GSET     0  20      ; "kCooperateIconTag"
+0055    KSTR     0  21      ; "images/battle/"
+0056    TNEW     1   0
+0057    KPRI     2   0
+0058    KPRI     3   2
+0059    FNEW     4  22      ; 314A1B82BE336D82.luac:0
+0060    GSET     4  23      ; "getBattlePlayerCardImage"
+0061    FNEW     4  24      ; 314A1B82BE336D82.luac:0
+0062    GSET     4  25      ; "setCardHp"
+0063    FNEW     4  26      ; 314A1B82BE336D82.luac:0
+0064    GSET     4  27      ; "setCardAnger"
+0065    FNEW     4  28      ; 314A1B82BE336D82.luac:0
+0066    GSET     4  29      ; "release"
+0067    FNEW     4  30      ; 314A1B82BE336D82.luac:0
+0068    GSET     4  31      ; "getBattleOutLinePlayerCard"
+0069    FNEW     4  32      ; 314A1B82BE336D82.luac:0
+0070    GSET     4  33      ; "getFormationPlayerCard"
+0071    FNEW     4  34      ; 314A1B82BE336D82.luac:0
+0072    GSET     4  35      ; "getCardByArmyId"
+0073    FNEW     4  36      ; 314A1B82BE336D82.luac:0
+0074    GSET     4  37      ; "setNameVisible"
+0075    FNEW     4  38      ; 314A1B82BE336D82.luac:0
+0076    GSET     4  39      ; "setBattleData"
+0077    FNEW     4  40      ; 314A1B82BE336D82.luac:0
+0078    GSET     4  41      ; "getBattleHeroInfo"
+0079    FNEW     4  42      ; 314A1B82BE336D82.luac:0
+0080    GSET     4  43      ; "isOpenGodUnion"
+0081    FNEW     4  44      ; 314A1B82BE336D82.luac:0
+0082    GSET     4  45      ; "getNecessaryName"
+0083    FNEW     4  46      ; 314A1B82BE336D82.luac:0
+0084    GSET     4  47      ; "getFormationPlayerCardByHeroData"
+0085    FNEW     4  48      ; 314A1B82BE336D82.luac:0
+0086    GSET     4  49      ; "getDifferenceYByImageName"
+0087    UCLO     0 => 0088
+0088 => RET0     0   1
+

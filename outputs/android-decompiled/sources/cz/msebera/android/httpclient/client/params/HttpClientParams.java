@@ -1,0 +1,59 @@
+package cz.msebera.android.httpclient.client.params;
+
+import cz.msebera.android.httpclient.annotation.Immutable;
+import cz.msebera.android.httpclient.params.HttpConnectionParams;
+import cz.msebera.android.httpclient.params.HttpParams;
+import cz.msebera.android.httpclient.util.Args;
+
+@Immutable
+@Deprecated
+/* loaded from: /Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/apk-extracted/classes.dex */
+public class HttpClientParams {
+    private HttpClientParams() {
+    }
+
+    public static boolean isRedirecting(HttpParams params) {
+        Args.notNull(params, "HTTP parameters");
+        return params.getBooleanParameter(ClientPNames.HANDLE_REDIRECTS, true);
+    }
+
+    public static void setRedirecting(HttpParams params, boolean value) {
+        Args.notNull(params, "HTTP parameters");
+        params.setBooleanParameter(ClientPNames.HANDLE_REDIRECTS, value);
+    }
+
+    public static boolean isAuthenticating(HttpParams params) {
+        Args.notNull(params, "HTTP parameters");
+        return params.getBooleanParameter(ClientPNames.HANDLE_AUTHENTICATION, true);
+    }
+
+    public static void setAuthenticating(HttpParams params, boolean value) {
+        Args.notNull(params, "HTTP parameters");
+        params.setBooleanParameter(ClientPNames.HANDLE_AUTHENTICATION, value);
+    }
+
+    public static String getCookiePolicy(HttpParams params) {
+        Args.notNull(params, "HTTP parameters");
+        String cookiePolicy = (String) params.getParameter("http.protocol.cookie-policy");
+        if (cookiePolicy == null) {
+            return "best-match";
+        }
+        return cookiePolicy;
+    }
+
+    public static void setCookiePolicy(HttpParams params, String cookiePolicy) {
+        Args.notNull(params, "HTTP parameters");
+        params.setParameter("http.protocol.cookie-policy", cookiePolicy);
+    }
+
+    public static void setConnectionManagerTimeout(HttpParams params, long timeout) {
+        Args.notNull(params, "HTTP parameters");
+        params.setLongParameter("http.conn-manager.timeout", timeout);
+    }
+
+    public static long getConnectionManagerTimeout(HttpParams params) {
+        Args.notNull(params, "HTTP parameters");
+        Long timeout = (Long) params.getParameter("http.conn-manager.timeout");
+        return timeout != null ? timeout.longValue() : HttpConnectionParams.getConnectionTimeout(params);
+    }
+}

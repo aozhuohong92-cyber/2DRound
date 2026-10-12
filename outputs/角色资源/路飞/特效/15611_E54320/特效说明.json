@@ -1,0 +1,36 @@
+{
+  "config": {
+    "id": 15611,
+    "model": "E54320",
+    "file": "action",
+    "animation": "action1",
+    "x": 0,
+    "y": 1,
+    "scale": 1.0,
+    "source_line": 7344
+  },
+  "assets": [
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.skel",
+      "source": "outputs/apk-extracted/assets/HASH/A/A0F101AFBE9C0A64.skel",
+      "sha256": "c5e35eda23ad3beecaaab7d82228c991c8f45cac9613922b645d914d76f13543"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.atlas",
+      "source": "outputs/apk-extracted/assets/HASH/C/CFF4FD7B8741D3CE.atlas",
+      "sha256": "b233f8f67b57b7951f22f35d8189b84a78754fe436b32c8627c8e3dc1ab1ae6f"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.png",
+      "source": "outputs/apk-extracted/assets/HASH/1/19127A9BA6D83E8F.png",
+      "sha256": "4bf54178ae258ff775deac09f563ac70273eee55ead5ad5fcb94c2e0fc1b0b86"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action2.png",
+      "source": "outputs/apk-extracted/assets/HASH/9/98782BE3432CACC3.png",
+      "sha256": "4520ce1bd83920d11026faa86028d2512e6ab0e01994c5dffe0fa38874172f3a"
+    }
+  ],
+  "status": "local_integration_device_pending",
+  "source": "skill_data.lua"
+}

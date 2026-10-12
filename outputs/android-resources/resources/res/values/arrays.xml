@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="yh_file_endings">
+        <item>apk</item>
+        <item>rar</item>
+        <item>zip</item>
+        <item>exe</item>
+        <item>pdf</item>
+        <item>rm</item>
+        <item>avi</item>
+        <item>xls</item>
+        <item>txt</item>
+    </array>
+</resources>

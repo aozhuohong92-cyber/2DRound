@@ -1,0 +1,66 @@
+package cz.msebera.android.httpclient.impl.io;
+
+import cz.msebera.android.httpclient.annotation.NotThreadSafe;
+import cz.msebera.android.httpclient.io.SessionOutputBuffer;
+import cz.msebera.android.httpclient.util.Args;
+import java.io.IOException;
+import java.io.OutputStream;
+
+@NotThreadSafe
+/* loaded from: /Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/apk-extracted/classes.dex */
+public class ContentLengthOutputStream extends OutputStream {
+    private final long contentLength;
+    private final SessionOutputBuffer out;
+    private long total = 0;
+    private boolean closed = false;
+
+    public ContentLengthOutputStream(SessionOutputBuffer out, long contentLength) {
+        this.out = (SessionOutputBuffer) Args.notNull(out, "Session output buffer");
+        this.contentLength = Args.notNegative(contentLength, "Content length");
+    }
+
+    @Override // java.io.OutputStream, java.io.Closeable, java.lang.AutoCloseable
+    public void close() throws IOException {
+        if (!this.closed) {
+            this.closed = true;
+            this.out.flush();
+        }
+    }
+
+    @Override // java.io.OutputStream, java.io.Flushable
+    public void flush() throws IOException {
+        this.out.flush();
+    }
+
+    @Override // java.io.OutputStream
+    public void write(byte[] b, int off, int len) throws IOException {
+        if (this.closed) {
+            throw new IOException("Attempted write to closed stream.");
+        }
+        if (this.total < this.contentLength) {
+            long max = this.contentLength - this.total;
+            int chunk = len;
+            if (chunk > max) {
+                chunk = (int) max;
+            }
+            this.out.write(b, off, chunk);
+            this.total += chunk;
+        }
+    }
+
+    @Override // java.io.OutputStream
+    public void write(byte[] b) throws IOException {
+        write(b, 0, b.length);
+    }
+
+    @Override // java.io.OutputStream
+    public void write(int b) throws IOException {
+        if (this.closed) {
+            throw new IOException("Attempted write to closed stream.");
+        }
+        if (this.total < this.contentLength) {
+            this.out.write(b);
+            this.total++;
+        }
+    }
+}

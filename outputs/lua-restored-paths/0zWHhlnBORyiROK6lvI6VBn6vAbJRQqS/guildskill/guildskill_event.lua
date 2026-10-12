@@ -1,0 +1,10 @@
+GuildskillEvent = GuildskillEvent or {}
+GuildskillEvent.UpdateGuildSkillEvent = "GuildskillEvent.UpdateGuildSkillEvent"
+GuildskillEvent.UpdateSkillStatusEvent = "GuildskillEvent.UpdateSkillStatusEvent"
+GuildskillEvent.UpdateSkilUpgradeEvent = "GuildskillEvent.UpdateSkilUpgradeEvent"
+GuildskillEvent.UpdateSkillResetEvent = "GuildskillEvent.UpdateSkillResetEvent"
+GuildskillEvent.ResetGuildSkillEvent = "GuildskillEvent.ResetGuildSkillEvent"
+GuildskillEvent.Guild_Pvp_Skill_Info_Event = "GuildskillEvent.Guild_Pvp_Skill_Info_Event"
+GuildskillEvent.Guild_Pvp_Career_Info_Event = "GuildskillEvent.Guild_Pvp_Career_Info_Event"
+GuildskillEvent.Guild_Pvp_Career_Update_Event = "GuildskillEvent.Guild_Pvp_Career_Update_Event"
+GuildskillEvent.Guild_Pvp_Career_Break_Event = "GuildskillEvent.Guild_Pvp_Career_Break_Event"

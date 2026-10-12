@@ -1,0 +1,35 @@
+{
+  "stage": 1,
+  "device": "vivo V2405A / Android 16",
+  "serial": "10AF5J1JP1004SU",
+  "apk_sha256": "cfa099e8dbd1579a8f4f03a4b3415430665e2747ec75a2d4f7c8f8547a37f1fd",
+  "conclusion": "resource_and_framework_smoke_acceptance_passed_with_layout_issue",
+  "passed": [
+    "startup",
+    "original_background",
+    "original_csb",
+    "original_chinese_font",
+    "five_action_buttons",
+    "five_preview_animation_loops",
+    "isolated_save_write",
+    "cross_process_reload",
+    "duplicate_reward_rejection",
+    "one_slot_corruption_recovery",
+    "both_slots_corruption_protection"
+  ],
+  "open_issues": [
+    "Top black inset about 84 pixels in 720x1600 screenshot; final long-screen layout pending.",
+    "Jet gun preview plays only action2 inside action2.skel; complete five-hit skill not implemented.",
+    "action9 resources organized, not device-tested.",
+    "No full tutorial, real battle computation, skill effects or audio acceptance."
+  ],
+  "evidence": [
+    "probe.txt",
+    "motion.mp4",
+    "motion-timeline.json",
+    "motion-check.json",
+    "process-log.txt",
+    "exit-info.txt"
+  ],
+  "storage_test_namespace": "acceptance-state.*; normal offline-state.* not modified"
+}

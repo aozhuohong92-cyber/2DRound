@@ -1,0 +1,9 @@
+GuildvoyageEvent = GuildvoyageEvent or {}
+GuildvoyageEvent.UpdateGuildvoyageOrderListEvent = "GuildvoyageEvent.UpdateGuildvoyageOrderListEvent"
+GuildvoyageEvent.AddToOrderPartnerListEvent = "GuildvoyageEvent.AddToOrderPartnerListEvent"
+GuildvoyageEvent.UpdateGuildvoyageOrderStatus = "GuildvoyageEvent.UpdateGuildvoyageOrderStatus"
+GuildvoyageEvent.UpdateGuildVoyageInteractionEvent = "GuildvoyageEvent.UpdateGuildVoyageInteractionEvent"
+GuildvoyageEvent.RemoveGuildVoyageInteractionEvent = "GuildvoyageEvent.RemoveGuildVoyageInteractionEvent"
+GuildvoyageEvent.UpdateNearLogInfoEvent = "GuildvoyageEvent.UpdateNearLogInfoEvent"
+GuildvoyageEvent.UpdateLogListEvent = "GuildvoyageEvent.UpdateLogListEvent"
+GuildvoyageEvent.UpdateDailyEscortTimes = "GuildvoyageEvent.UpdateDailyEscortTimes"

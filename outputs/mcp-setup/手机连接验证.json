@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"devices\":[{\"id\":\"10AF5J1JP1004SU\",\"name\":\"V2405A\",\"platform\":\"android\",\"type\":\"real\",\"version\":\"16\",\"state\":\"online\",\"model\":\"V2405A\"}]}"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

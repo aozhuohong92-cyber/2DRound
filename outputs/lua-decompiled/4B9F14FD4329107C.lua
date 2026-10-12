@@ -1,0 +1,1 @@
+LimitTimeGiftActionConst = LimitTimeGiftActionConst or {}

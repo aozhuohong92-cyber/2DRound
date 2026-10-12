@@ -1,0 +1,62 @@
+[
+  {
+    "action": "stand2",
+    "time": 0.08995529200000002,
+    "tap": [
+      126,
+      2468
+    ],
+    "screenshots": [
+      "outputs/offline-client/device-acceptance/stand2-0.png",
+      "outputs/offline-client/device-acceptance/stand2-1.png"
+    ]
+  },
+  {
+    "action": "action1",
+    "time": 4.088284708,
+    "tap": [
+      378,
+      2468
+    ],
+    "screenshots": [
+      "outputs/offline-client/device-acceptance/action1-0.png",
+      "outputs/offline-client/device-acceptance/action1-1.png"
+    ]
+  },
+  {
+    "action": "action2",
+    "time": 8.210729833,
+    "tap": [
+      630,
+      2468
+    ],
+    "screenshots": [
+      "outputs/offline-client/device-acceptance/action2-0.png",
+      "outputs/offline-client/device-acceptance/action2-1.png"
+    ]
+  },
+  {
+    "action": "hurt",
+    "time": 12.31108075,
+    "tap": [
+      882,
+      2468
+    ],
+    "screenshots": [
+      "outputs/offline-client/device-acceptance/hurt-0.png",
+      "outputs/offline-client/device-acceptance/hurt-1.png"
+    ]
+  },
+  {
+    "action": "run",
+    "time": 16.270712625,
+    "tap": [
+      1134,
+      2468
+    ],
+    "screenshots": [
+      "outputs/offline-client/device-acceptance/run-0.png",
+      "outputs/offline-client/device-acceptance/run-1.png"
+    ]
+  }
+]

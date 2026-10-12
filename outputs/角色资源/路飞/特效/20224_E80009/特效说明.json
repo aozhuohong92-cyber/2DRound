@@ -1,0 +1,31 @@
+{
+  "config": {
+    "id": 20224,
+    "model": "E80009",
+    "file": "action",
+    "animation": "action",
+    "x": 0,
+    "y": 50,
+    "scale": 1.0,
+    "source_line": 4029
+  },
+  "assets": [
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.skel",
+      "source": "outputs/apk-extracted/assets/HASH/B/B806183278756546.skel",
+      "sha256": "b8d814679fadc59f4ab2738c84ca18ebcfb9921cd5b0823def5d8d863a9e1feb"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.atlas",
+      "source": "outputs/apk-extracted/assets/HASH/2/2C233E3C21262CF7.atlas",
+      "sha256": "bb4670dfd50b7915969bea2516963c3f9030d37afbdbc729313d97bc4c573333"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.png",
+      "source": "outputs/apk-extracted/assets/HASH/1/1483A1D95EA725BE.png",
+      "sha256": "89e015245061b4881017081ccd3ee602229aaad58eb2d3a0d7016f2e33bd36aa"
+    }
+  ],
+  "status": "local_integration_device_pending",
+  "source": "skill_data.lua"
+}

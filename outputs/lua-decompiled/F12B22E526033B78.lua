@@ -1,0 +1,43 @@
+ActionyearmonsterConstants = ActionyearmonsterConstants or {}
+ActionyearmonsterConstants.Move_Speed = 300
+ActionyearmonsterConstants.Evt_Type = {
+	Tribute = 9,
+	GoldYearMonster = 13,
+	Goods = 4,
+	RedBag = 11,
+	Barrier = 7,
+	YearMonster = 12,
+	Start = 2,
+	Fireworks = 10,
+	Board = 3,
+	YearMonster_nothit = 14,
+	Character = 8,
+	Dialog = 5,
+	GoldYearMonster_nothit = 15,
+	DesBarrier = 6,
+	Monster = 1,
+	Normal = 0
+}
+ActionyearmonsterConstants.Proto_28203 = {
+	_2 = 2,
+	_1 = 1,
+	_4 = 4,
+	_3 = 3
+}
+ActionyearmonsterConstants.Proto_28205 = {
+	Board = 1,
+	GoldYearMonster = 6,
+	Goods = 4,
+	Dialog = 2,
+	YearMonster = 5,
+	DesBarrier = 3
+}
+ActionyearmonsterConstants.evt_redbag = 10701
+ActionyearmonsterConstants.evt_limit_monster_not_hit = 19001
+ActionyearmonsterConstants.evt_limit_monster_hit = 19003
+ActionyearmonsterConstants.evt_gold_monster_not_hit = 19051
+ActionyearmonsterConstants.evt_gold_monster_hit = 19053
+ActionyearmonsterConstants.evt_limit_monster_not_hit_2 = 19002
+ActionyearmonsterConstants.evt_limit_monster_hit_2 = 19004
+ActionyearmonsterConstants.evt_gold_monster_not_hit_2 = 19052
+ActionyearmonsterConstants.evt_gold_monster_hit_2 = 19054

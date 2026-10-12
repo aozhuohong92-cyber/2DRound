@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/yh_activity_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="200dp">
+        <RelativeLayout
+            android:id="@+id/yh_rl_tilte"
+            android:background="@color/yh_blue"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <TextView
+                android:textSize="18sp"
+                android:textColor="@color/yh_white"
+                android:gravity="center"
+                android:id="@+id/yh_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="错 误"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <Button
+            android:textColor="@color/yh_white"
+            android:gravity="center"
+            android:id="@+id/yh_btn_sure"
+            android:background="@color/yh_blue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="确定"
+            android:layout_alignParentBottom="true"/>
+        <FrameLayout
+            android:id="@+id/yh_fl_web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_above="@+id/yh_btn_sure"
+            android:layout_below="@+id/yh_rl_tilte"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+PartnersummonEvent = PartnersummonEvent or {}
+PartnersummonEvent.updateSummonDataEvent = "PartnersummonEvent.updateSummonDataEvent"
+PartnersummonEvent.updateSummonShareDataEvent = "PartnersummonEvent.updateSummonShareDataEvent"
+PartnersummonEvent.updateSummonSingleDataEvent = "PartnersummonEvent.updateSummonSingleDataEvent"
+PartnersummonEvent.SummonMustFiveStarEvent = "PartnersummonEvent.SummonMustFiveStarEvent"

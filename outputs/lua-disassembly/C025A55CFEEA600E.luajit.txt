@@ -1,0 +1,4070 @@
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    KPRI     1   2
+0002    TSETS    1   0   0  ; "is_full_screen"
+0003    GGET     1   2      ; "WinType"
+0004    TGETS    1   1   3  ; "Full"
+0005    TSETS    1   0   1  ; "win_type"
+0006    GGET     1   5      ; "ViewMgrTag"
+0007    TGETS    1   1   6  ; "WIN_TAG"
+0008    TSETS    1   0   4  ; "view_tag"
+0009    KSTR     1   8      ; "planes/planes_map_window"
+0010    TSETS    1   0   7  ; "layout_name"
+0011    TNEW     1   3
+0012    TDUP     2  14
+0013    GGET     3  10      ; "PathTool"
+0014    TGETS    3   3  11  ; "getPlistImgForDownLoad"
+0015    KSTR     5  12      ; "planes"
+0016    KSTR     6  13      ; "planes_map"
+0017    CALL     3   2   3
+0018    TSETS    3   2  15  ; "path"
+0019    GGET     3  16      ; "ResourcesType"
+0020    TGETS    3   3  17  ; "plist"
+0021    TSETS    3   2  18  ; "type"
+0022    TSETB    2   1   1
+0023    TSETS    1   0   9  ; "res_list"
+0024    MOV      3   0
+0025    TGETS    1   0  19  ; "initConfig"
+0026    CALL     1   1   2
+0027    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    KSHORT   1   0
+0002    TSETS    1   0   0  ; "cur_role_grid_index"
+0003    KPRI     1   1
+0004    TSETS    1   0   1  ; "is_role_moving"
+0005    TNEW     1   0
+0006    TSETS    1   0   2  ; "grid_object_list"
+0007    TNEW     1   0
+0008    TSETS    1   0   3  ; "par_grid_object_list"
+0009    TNEW     1   0
+0010    TSETS    1   0   4  ; "evt_item_list"
+0011    TNEW     1   0
+0012    TSETS    1   0   5  ; "role_move_grid_cache"
+0013    KPRI     1   1
+0014    TSETS    1   0   6  ; "is_hide_top"
+0015    TNEW     1   0
+0016    TSETS    1   0   7  ; "route_effect_list"
+0017    TNEW     1   0
+0018    TSETS    1   0   8  ; "break_effect_list"
+0019    GGET     1  10      ; "PlanesConst"
+0020    TGETS    1   1  11  ; "Map_Width"
+0021    TSETS    1   0   9  ; "cur_map_width"
+0022    GGET     1  10      ; "PlanesConst"
+0023    TGETS    1   1  13  ; "Map_Height"
+0024    TSETS    1   0  12  ; "cur_map_height"
+0025    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   1  ; "root_wnd"
+0002    MOV      3   1
+0003    TGETS    1   1   2  ; "getChildByName"
+0004    KSTR     4   0      ; "background"
+0005    CALL     1   2   3
+0006    TSETS    1   0   0  ; "background"
+0007    TGETS    1   0   0  ; "background"
+0008    MOV      3   1
+0009    TGETS    1   1   3  ; "setScale"
+0010    GGET     4   4      ; "display"
+0011    TGETS    4   4   5  ; "getMaxScale"
+0012    CALL     4   0   1
+0013    CALLM    1   1   1
+0014    TGETS    1   0   1  ; "root_wnd"
+0015    MOV      3   1
+0016    TGETS    1   1   2  ; "getChildByName"
+0017    KSTR     4   6      ; "touch_slayer"
+0018    CALL     1   2   3
+0019    TSETS    1   0   6  ; "touch_slayer"
+0020    TGETS    1   0   6  ; "touch_slayer"
+0021    MOV      3   1
+0022    TGETS    1   1   3  ; "setScale"
+0023    GGET     4   4      ; "display"
+0024    TGETS    4   4   5  ; "getMaxScale"
+0025    CALL     4   0   1
+0026    CALLM    1   1   1
+0027    TGETS    1   0   6  ; "touch_slayer"
+0028    MOV      3   1
+0029    TGETS    1   1   7  ; "setSwallowTouches"
+0030    KPRI     4   1
+0031    CALL     1   1   3
+0032    TGETS    1   0   1  ; "root_wnd"
+0033    MOV      3   1
+0034    TGETS    1   1   2  ; "getChildByName"
+0035    KSTR     4   8      ; "map_container"
+0036    CALL     1   2   3
+0037    TSETS    1   0   8  ; "map_container"
+0038    TGETS    1   0   8  ; "map_container"
+0039    MOV      3   1
+0040    TGETS    1   1   2  ; "getChildByName"
+0041    KSTR     4   9      ; "grid_slayer"
+0042    CALL     1   2   3
+0043    TSETS    1   0   9  ; "grid_slayer"
+0044    TGETS    1   0   8  ; "map_container"
+0045    MOV      3   1
+0046    TGETS    1   1   2  ; "getChildByName"
+0047    KSTR     4  10      ; "evt_slayer"
+0048    CALL     1   2   3
+0049    TSETS    1   0  10  ; "evt_slayer"
+0050    TGETS    1   0   1  ; "root_wnd"
+0051    MOV      3   1
+0052    TGETS    1   1   2  ; "getChildByName"
+0053    KSTR     4  11      ; "ui_container"
+0054    CALL     1   2   3
+0055    TSETS    1   0  11  ; "ui_container"
+0056    TGETS    1   0  11  ; "ui_container"
+0057    MOV      3   1
+0058    TGETS    1   1   2  ; "getChildByName"
+0059    KSTR     4  12      ; "close_btn"
+0060    CALL     1   2   3
+0061    TSETS    1   0  12  ; "close_btn"
+0062    TGETS    1   0  12  ; "close_btn"
+0063    MOV      3   1
+0064    TGETS    1   1   2  ; "getChildByName"
+0065    KSTR     4  13      ; "label"
+0066    CALL     1   2   3
+0067    MOV      3   1
+0068    TGETS    1   1  14  ; "setString"
+0069    GGET     4  15      ; "TI18N"
+0070    KSTR     6  16      ; "返回"
+0071    CALL     4   0   2
+0072    CALLM    1   1   1
+0073    TGETS    1   0  11  ; "ui_container"
+0074    MOV      3   1
+0075    TGETS    1   1   2  ; "getChildByName"
+0076    KSTR     4  17      ; "dun_btn"
+0077    CALL     1   2   3
+0078    TSETS    1   0  17  ; "dun_btn"
+0079    TGETS    1   0  17  ; "dun_btn"
+0080    MOV      3   1
+0081    TGETS    1   1   2  ; "getChildByName"
+0082    KSTR     4  13      ; "label"
+0083    CALL     1   2   3
+0084    MOV      3   1
+0085    TGETS    1   1  14  ; "setString"
+0086    GGET     4  15      ; "TI18N"
+0087    KSTR     6  18      ; "副本信息"
+0088    CALL     4   0   2
+0089    CALLM    1   1   1
+0090    TGETS    1   0  11  ; "ui_container"
+0091    MOV      3   1
+0092    TGETS    1   1   2  ; "getChildByName"
+0093    KSTR     4  19      ; "figure_btn"
+0094    CALL     1   2   3
+0095    TSETS    1   0  19  ; "figure_btn"
+0096    TGETS    1   0  19  ; "figure_btn"
+0097    MOV      3   1
+0098    TGETS    1   1   2  ; "getChildByName"
+0099    KSTR     4  13      ; "label"
+0100    CALL     1   2   3
+0101    MOV      3   1
+0102    TGETS    1   1  14  ; "setString"
+0103    GGET     4  15      ; "TI18N"
+0104    KSTR     6  20      ; "更换形象"
+0105    CALL     4   0   2
+0106    CALLM    1   1   1
+0107    TGETS    1   0  19  ; "figure_btn"
+0108    MOV      3   1
+0109    TGETS    1   1  21  ; "setVisible"
+0110    KPRI     4   1
+0111    CALL     1   1   3
+0112    UGET     1   0      ; 
+0113    MOV      3   1
+0114    TGETS    1   1  22  ; "getPlanesRoleLookId"
+0115    CALL     1   2   2
+0116    ISF          1
+0117    JMP      2 => 0120
+0118    ISNEN    1   0      ; 0
+0119    JMP      2 => 0125
+0120 => GGET     2  23      ; "setChildUnEnabled"
+0121    KPRI     4   2
+0122    TGETS    5   0  19  ; "figure_btn"
+0123    CALL     2   1   3
+0124    JMP      2 => 0129
+0125 => GGET     2  23      ; "setChildUnEnabled"
+0126    KPRI     4   1
+0127    TGETS    5   0  19  ; "figure_btn"
+0128    CALL     2   1   3
+0129 => TGETS    2   0  11  ; "ui_container"
+0130    MOV      4   2
+0131    TGETS    2   2   2  ; "getChildByName"
+0132    KSTR     5  24      ; "btn_rule"
+0133    CALL     2   2   3
+0134    TSETS    2   0  24  ; "btn_rule"
+0135    TGETS    2   0  11  ; "ui_container"
+0136    MOV      4   2
+0137    TGETS    2   2   2  ; "getChildByName"
+0138    KSTR     5  25      ; "btn_hide"
+0139    CALL     2   2   3
+0140    TSETS    2   0  25  ; "btn_hide"
+0141    TGETS    2   0  11  ; "ui_container"
+0142    MOV      4   2
+0143    TGETS    2   2   2  ; "getChildByName"
+0144    KSTR     5  26      ; "bottom_panel"
+0145    CALL     2   2   3
+0146    TSETS    2   0  26  ; "bottom_panel"
+0147    TGETS    2   0  26  ; "bottom_panel"
+0148    MOV      4   2
+0149    TGETS    2   2   2  ; "getChildByName"
+0150    KSTR     5  27      ; "bag_btn"
+0151    CALL     2   2   3
+0152    TSETS    2   0  27  ; "bag_btn"
+0153    TGETS    2   0  26  ; "bottom_panel"
+0154    MOV      4   2
+0155    TGETS    2   2   2  ; "getChildByName"
+0156    KSTR     5  28      ; "hero_btn"
+0157    CALL     2   2   3
+0158    TSETS    2   0  28  ; "hero_btn"
+0159    TGETS    2   0  26  ; "bottom_panel"
+0160    MOV      4   2
+0161    TGETS    2   2   2  ; "getChildByName"
+0162    KSTR     5  29      ; "buff_btn"
+0163    CALL     2   2   3
+0164    TSETS    2   0  29  ; "buff_btn"
+0165    TGETS    2   0  11  ; "ui_container"
+0166    MOV      4   2
+0167    TGETS    2   2   2  ; "getChildByName"
+0168    KSTR     5  30      ; "shadow_bg_1"
+0169    CALL     2   2   3
+0170    TGETS    3   0  11  ; "ui_container"
+0171    MOV      5   3
+0172    TGETS    3   3   2  ; "getChildByName"
+0173    KSTR     6  31      ; "shadow_bg_2"
+0174    CALL     3   2   3
+0175    TGETS    4   0  11  ; "ui_container"
+0176    MOV      6   4
+0177    TGETS    4   4   2  ; "getChildByName"
+0178    KSTR     7  32      ; "chapter_panel"
+0179    CALL     4   2   3
+0180    TSETS    4   0  32  ; "chapter_panel"
+0181    TGETS    4   0  32  ; "chapter_panel"
+0182    MOV      6   4
+0183    TGETS    4   4  21  ; "setVisible"
+0184    KPRI     7   1
+0185    CALL     4   1   3
+0186    TGETS    4   0  32  ; "chapter_panel"
+0187    MOV      6   4
+0188    TGETS    4   4   2  ; "getChildByName"
+0189    KSTR     7  33      ; "chapter_name_txt"
+0190    CALL     4   2   3
+0191    TSETS    4   0  33  ; "chapter_name_txt"
+0192    TGETS    4   0  32  ; "chapter_panel"
+0193    MOV      6   4
+0194    TGETS    4   4   2  ; "getChildByName"
+0195    KSTR     7  34      ; "chapter_desc_txt"
+0196    CALL     4   2   3
+0197    TSETS    4   0  34  ; "chapter_desc_txt"
+0198    TGETS    4   0  11  ; "ui_container"
+0199    MOV      6   4
+0200    TGETS    4   4   2  ; "getChildByName"
+0201    KSTR     7  35      ; "top_title_bg"
+0202    CALL     4   2   3
+0203    TSETS    4   0  35  ; "top_title_bg"
+0204    TGETS    4   0  35  ; "top_title_bg"
+0205    MOV      6   4
+0206    TGETS    4   4   2  ; "getChildByName"
+0207    KSTR     7  36      ; "floor_txt"
+0208    CALL     4   2   3
+0209    TSETS    4   0  36  ; "floor_txt"
+0210    GGET     4   4      ; "display"
+0211    TGETS    4   4  37  ; "getTop"
+0212    CALL     4   2   1
+0213    GGET     5   4      ; "display"
+0214    TGETS    5   5  38  ; "getBottom"
+0215    CALL     5   2   1
+0216    TGETS    6   0  26  ; "bottom_panel"
+0217    MOV      8   6
+0218    TGETS    6   6  39  ; "setPositionY"
+0219    ADDVN    9   5   1  ; 79
+0220    CALL     6   1   3
+0221    TGETS    6   0  12  ; "close_btn"
+0222    MOV      8   6
+0223    TGETS    6   6  39  ; "setPositionY"
+0224    SUBVN    9   4   2  ; 140
+0225    CALL     6   1   3
+0226    TGETS    6   0  17  ; "dun_btn"
+0227    MOV      8   6
+0228    TGETS    6   6  39  ; "setPositionY"
+0229    SUBVN    9   4   3  ; 245
+0230    CALL     6   1   3
+0231    TGETS    6   0  19  ; "figure_btn"
+0232    MOV      8   6
+0233    TGETS    6   6  39  ; "setPositionY"
+0234    SUBVN    9   4   4  ; 350
+0235    CALL     6   1   3
+0236    TGETS    6   0  24  ; "btn_rule"
+0237    MOV      8   6
+0238    TGETS    6   6  39  ; "setPositionY"
+0239    SUBVN    9   4   5  ; 160
+0240    CALL     6   1   3
+0241    TGETS    6   0  25  ; "btn_hide"
+0242    MOV      8   6
+0243    TGETS    6   6  39  ; "setPositionY"
+0244    SUBVN    9   4   6  ; 230
+0245    CALL     6   1   3
+0246    MOV      8   2
+0247    TGETS    6   2  39  ; "setPositionY"
+0248    MOV      9   5
+0249    CALL     6   1   3
+0250    MOV      8   3
+0251    TGETS    6   3  39  ; "setPositionY"
+0252    MOV      9   4
+0253    CALL     6   1   3
+0254    TGETS    6   0  35  ; "top_title_bg"
+0255    MOV      8   6
+0256    TGETS    6   6  39  ; "setPositionY"
+0257    MOV      9   4
+0258    CALL     6   1   3
+0259    GGET     6  40      ; "MainuiController"
+0260    MOV      8   6
+0261    TGETS    6   6  41  ; "getInstance"
+0262    CALL     6   2   2
+0263    MOV      8   6
+0264    TGETS    6   6  42  ; "setIsShowMainUIBottom"
+0265    KPRI     9   1
+0266    CALL     6   1   3
+0267    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     2   0      ; 
+0002    TGETS    2   2   0  ; "init_tile_end"
+0003    IST          2
+0004    JMP      2 => 0006
+0005    RET0     0   1
+0006 => UGET     2   0      ; 
+0007    TGETS    2   2   1  ; "is_role_moving"
+0008    ISF          2
+0009    JMP      3 => 0013
+0010    UGET     2   0      ; 
+0011    KPRI     3   2
+0012    TSETS    3   2   2  ; "stop_center_flag"
+0013 => GGET     2   3      ; "ccui"
+0014    TGETS    2   2   4  ; "TouchEventType"
+0015    TGETS    2   2   5  ; "began"
+0016    ISNEV    1   2
+0017    JMP      2 => 0028
+0018    UGET     2   0      ; 
+0019    MOV      5   0
+0020    TGETS    3   0   7  ; "getTouchBeganPosition"
+0021    CALL     3   2   2
+0022    TSETS    3   2   6  ; "touch_began_pos"
+0023    UGET     2   0      ; 
+0024    UGET     3   0      ; 
+0025    TGETS    3   3   6  ; "touch_began_pos"
+0026    TSETS    3   2   8  ; "last_pos"
+0027    JMP      2 => 0127
+0028 => GGET     2   3      ; "ccui"
+0029    TGETS    2   2   4  ; "TouchEventType"
+0030    TGETS    2   2   9  ; "moved"
+0031    ISNEV    1   2
+0032    JMP      2 => 0059
+0033    MOV      4   0
+0034    TGETS    2   0  10  ; "getTouchMovePosition"
+0035    CALL     2   2   2
+0036    UGET     3   0      ; 
+0037    TGETS    3   3   8  ; "last_pos"
+0038    ISF          3
+0039    JMP      4 => 0127
+0040    TGETS    3   2  11  ; "x"
+0041    UGET     4   0      ; 
+0042    TGETS    4   4   8  ; "last_pos"
+0043    TGETS    4   4  11  ; "x"
+0044    SUBVV    3   3   4
+0045    TGETS    4   2  12  ; "y"
+0046    UGET     5   0      ; 
+0047    TGETS    5   5   8  ; "last_pos"
+0048    TGETS    5   5  12  ; "y"
+0049    SUBVV    4   4   5
+0050    UGET     5   0      ; 
+0051    TSETS    2   5   8  ; "last_pos"
+0052    UGET     5   0      ; 
+0053    MOV      7   5
+0054    TGETS    5   5  13  ; "onTouchMoveMap"
+0055    MOV      8   3
+0056    MOV      9   4
+0057    CALL     5   1   4
+0058    JMP      2 => 0127
+0059 => GGET     2   3      ; "ccui"
+0060    TGETS    2   2   4  ; "TouchEventType"
+0061    TGETS    2   2  14  ; "ended"
+0062    ISNEV    1   2
+0063    JMP      2 => 0127
+0064    MOV      4   0
+0065    TGETS    2   0  15  ; "getTouchEndPosition"
+0066    CALL     2   2   2
+0067    UGET     3   0      ; 
+0068    TGETS    3   3   6  ; "touch_began_pos"
+0069    ISF          3
+0070    JMP      4 => 0127
+0071    ISF          2
+0072    JMP      3 => 0127
+0073    GGET     3  16      ; "math"
+0074    TGETS    3   3  17  ; "abs"
+0075    TGETS    5   2  11  ; "x"
+0076    UGET     6   0      ; 
+0077    TGETS    6   6   6  ; "touch_began_pos"
+0078    TGETS    6   6  11  ; "x"
+0079    SUBVV    5   5   6
+0080    CALL     3   2   2
+0081    KSHORT   4  20
+0082    ISGT     3   4
+0083    JMP      3 => 0127
+0084    GGET     3  16      ; "math"
+0085    TGETS    3   3  17  ; "abs"
+0086    TGETS    5   2  12  ; "y"
+0087    UGET     6   0      ; 
+0088    TGETS    6   6   6  ; "touch_began_pos"
+0089    TGETS    6   6  12  ; "y"
+0090    SUBVV    5   5   6
+0091    CALL     3   2   2
+0092    KSHORT   4  20
+0093    ISGT     3   4
+0094    JMP      3 => 0127
+0095    UGET     3   0      ; 
+0096    TGETS    3   3   1  ; "is_role_moving"
+0097    ISF          3
+0098    JMP      4 => 0106
+0099    UGET     3   0      ; 
+0100    KPRI     4   0
+0101    TSETS    4   3  18  ; "target_grid_index"
+0102    UGET     3   0      ; 
+0103    TNEW     4   0
+0104    TSETS    4   3  19  ; "role_move_grid_cache"
+0105    JMP      3 => 0127
+0106 => UGET     3   0      ; 
+0107    TGETS    3   3  20  ; "grid_slayer"
+0108    MOV      5   3
+0109    TGETS    3   3  21  ; "convertToNodeSpace"
+0110    MOV      6   2
+0111    CALL     3   2   3
+0112    GGET     4  22      ; "PlanesTile"
+0113    TGETS    4   4  23  ; "toTile"
+0114    TGETS    6   3  11  ; "x"
+0115    TGETS    7   3  12  ; "y"
+0116    CALL     4   3   3
+0117    GGET     6  22      ; "PlanesTile"
+0118    TGETS    6   6  24  ; "tileIndex"
+0119    MOV      8   4
+0120    MOV      9   5
+0121    CALL     6   2   3
+0122    UGET     7   0      ; 
+0123    MOV      9   7
+0124    TGETS    7   7  25  ; "onClickGridIconByIndex"
+0125    MOV     10   6
+0126    CALL     7   1   3
+0127 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "setData"
+0004    MOV      4   0
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          0
+0002    JMP      1 => 0008
+0003    UGET     1   0      ; 
+0004    MOV      3   1
+0005    TGETS    1   1   0  ; "updateSomeGridData"
+0006    MOV      4   0
+0007    CALL     1   1   3
+0008 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    TGETS    1   1   0  ; "init_evt_end"
+0003    ISF          1
+0004    JMP      2 => 0012
+0005    ISF          0
+0006    JMP      1 => 0012
+0007    UGET     1   0      ; 
+0008    MOV      3   1
+0009    TGETS    1   1   1  ; "addEvtItemList"
+0010    MOV      4   0
+0011    CALL     1   1   3
+0012 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          0
+0002    JMP      1 => 0010
+0003    TGETS    1   0   0  ; "code"
+0004    ISNEN    1   0      ; 0
+0005    JMP      1 => 0010
+0006    UGET     1   0      ; 
+0007    MOV      3   1
+0008    TGETS    1   1   1  ; "doRoleStopMove"
+0009    CALL     1   1   2
+0010 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   2
+0003    TGETS    2   2   0  ; "showBuffItemMoveAni"
+0004    MOV      5   0
+0005    MOV      6   1
+0006    CALL     2   1   4
+0007    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "showBreakEffect"
+0004    MOV      4   0
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     0   0      ; "HomeworldController"
+0002    MOV      2   0
+0003    TGETS    0   0   1  ; "getInstance"
+0004    CALL     0   2   2
+0005    MOV      2   0
+0006    TGETS    0   0   2  ; "getModel"
+0007    CALL     0   2   2
+0008    MOV      2   0
+0009    TGETS    0   0   3  ; "getMyCurHomeFigureId"
+0010    CALL     0   2   2
+0011    UGET     1   0      ; 
+0012    MOV      3   1
+0013    TGETS    1   1   4  ; "createRole"
+0014    MOV      4   0
+0015    CALL     1   1   3
+0016    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     1   0      ; "registerButtonEventListener"
+0002    TGETS    3   0   1  ; "close_btn"
+0003    GGET     4   2      ; "handler"
+0004    MOV      6   0
+0005    TGETS    7   0   3  ; "onClickCloseBtn"
+0006    CALL     4   2   3
+0007    KPRI     5   2
+0008    KSHORT   6   2
+0009    CALL     1   1   5
+0010    GGET     1   0      ; "registerButtonEventListener"
+0011    TGETS    3   0   4  ; "dun_btn"
+0012    GGET     4   2      ; "handler"
+0013    MOV      6   0
+0014    TGETS    7   0   5  ; "onClickDunBtn"
+0015    CALL     4   2   3
+0016    KPRI     5   2
+0017    CALL     1   1   4
+0018    GGET     1   0      ; "registerButtonEventListener"
+0019    TGETS    3   0   6  ; "btn_hide"
+0020    GGET     4   2      ; "handler"
+0021    MOV      6   0
+0022    TGETS    7   0   7  ; "onClickHideBtn"
+0023    CALL     4   2   3
+0024    KPRI     5   2
+0025    CALL     1   1   4
+0026    GGET     1   0      ; "registerButtonEventListener"
+0027    TGETS    3   0   8  ; "bag_btn"
+0028    GGET     4   2      ; "handler"
+0029    MOV      6   0
+0030    TGETS    7   0   9  ; "onClickBagBtn"
+0031    CALL     4   2   3
+0032    KPRI     5   2
+0033    CALL     1   1   4
+0034    GGET     1   0      ; "registerButtonEventListener"
+0035    TGETS    3   0  10  ; "hero_btn"
+0036    GGET     4   2      ; "handler"
+0037    MOV      6   0
+0038    TGETS    7   0  11  ; "onClickHeroBtn"
+0039    CALL     4   2   3
+0040    KPRI     5   2
+0041    CALL     1   1   4
+0042    GGET     1   0      ; "registerButtonEventListener"
+0043    TGETS    3   0  12  ; "buff_btn"
+0044    GGET     4   2      ; "handler"
+0045    MOV      6   0
+0046    TGETS    7   0  13  ; "onClickBuffBtn"
+0047    CALL     4   2   3
+0048    KPRI     5   2
+0049    CALL     1   1   4
+0050    GGET     1   0      ; "registerButtonEventListener"
+0051    TGETS    3   0  14  ; "btn_rule"
+0052    GGET     4   2      ; "handler"
+0053    MOV      6   0
+0054    TGETS    7   0  15  ; "onClickRuleBtn"
+0055    CALL     4   2   3
+0056    KPRI     5   2
+0057    CALL     1   1   4
+0058    GGET     1   0      ; "registerButtonEventListener"
+0059    TGETS    3   0  16  ; "figure_btn"
+0060    GGET     4   2      ; "handler"
+0061    MOV      6   0
+0062    TGETS    7   0  17  ; "onClickFigureBtn"
+0063    CALL     4   2   3
+0064    KPRI     5   2
+0065    CALL     1   1   4
+0066    TGETS    1   0  18  ; "touch_slayer"
+0067    MOV      3   1
+0068    TGETS    1   1  19  ; "addTouchEventListener"
+0069    FNEW     4  20      ; C025A55CFEEA600E.luac:0
+0070    CALL     1   1   3
+0071    MOV      3   0
+0072    TGETS    1   0  21  ; "addGlobalEvent"
+0073    GGET     4  22      ; "PlanesEvent"
+0074    TGETS    4   4  23  ; "Update_Map_Data_Event"
+0075    FNEW     5  24      ; C025A55CFEEA600E.luac:0
+0076    CALL     1   1   4
+0077    MOV      3   0
+0078    TGETS    1   0  21  ; "addGlobalEvent"
+0079    GGET     4  22      ; "PlanesEvent"
+0080    TGETS    4   4  25  ; "Update_Grid_Event"
+0081    FNEW     5  26      ; C025A55CFEEA600E.luac:0
+0082    CALL     1   1   4
+0083    MOV      3   0
+0084    TGETS    1   0  21  ; "addGlobalEvent"
+0085    GGET     4  22      ; "PlanesEvent"
+0086    TGETS    4   4  27  ; "Add_Evt_Data_Event"
+0087    FNEW     5  28      ; C025A55CFEEA600E.luac:0
+0088    CALL     1   1   4
+0089    MOV      3   0
+0090    TGETS    1   0  21  ; "addGlobalEvent"
+0091    GGET     4  22      ; "PlanesEvent"
+0092    TGETS    4   4  29  ; "Update_Role_Grid_Event"
+0093    FNEW     5  30      ; C025A55CFEEA600E.luac:0
+0094    CALL     1   1   4
+0095    MOV      3   0
+0096    TGETS    1   0  21  ; "addGlobalEvent"
+0097    GGET     4  22      ; "PlanesEvent"
+0098    TGETS    4   4  31  ; "Chose_Buff_Event"
+0099    FNEW     5  32      ; C025A55CFEEA600E.luac:0
+0100    CALL     1   1   4
+0101    MOV      3   0
+0102    TGETS    1   0  21  ; "addGlobalEvent"
+0103    GGET     4  22      ; "PlanesEvent"
+0104    TGETS    4   4  33  ; "Show_Break_Effect_Event"
+0105    FNEW     5  34      ; C025A55CFEEA600E.luac:0
+0106    CALL     1   1   4
+0107    MOV      3   0
+0108    TGETS    1   0  21  ; "addGlobalEvent"
+0109    GGET     4  35      ; "HomeworldEvent"
+0110    TGETS    4   4  36  ; "Update_My_Home_Figure_Event"
+0111    FNEW     5  37      ; C025A55CFEEA600E.luac:0
+0112    CALL     1   1   4
+0113    UCLO     0 => 0114
+0114 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    3   0   0  ; "map_container"
+0002    IST          3
+0003    JMP      3 => 0005
+0004    RET0     0   1
+0005 => TGETS    3   0   0  ; "map_container"
+0006    MOV      5   3
+0007    TGETS    3   3   1  ; "getPosition"
+0008    CALL     3   3   2
+0009    ADDVV    5   3   1
+0010    ADDVV    6   4   2
+0011    MOV      9   0
+0012    TGETS    7   0   2  ; "checkMapSafePos"
+0013    MOV     10   5
+0014    MOV     11   6
+0015    CALL     7   3   4
+0016    MOV      6   8
+0017    MOV      5   7
+0018    TGETS    7   0   0  ; "map_container"
+0019    MOV      9   7
+0020    TGETS    7   7   3  ; "setPosition"
+0021    GGET    10   4      ; "cc"
+0022    TGETS   10  10   5  ; "p"
+0023    MOV     12   5
+0024    MOV     13   6
+0025    CALL    10   0   3
+0026    CALLM    7   1   1
+0027    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    3   0   0  ; "map_max_pos_x"
+0002    ISGE     3   1
+0003    JMP      3 => 0006
+0004    TGETS    1   0   0  ; "map_max_pos_x"
+0005    JMP      3 => 0010
+0006 => TGETS    3   0   1  ; "map_min_pos_x"
+0007    ISGE     1   3
+0008    JMP      3 => 0010
+0009    TGETS    1   0   1  ; "map_min_pos_x"
+0010 => TGETS    3   0   2  ; "map_max_pos_y"
+0011    ISGE     3   2
+0012    JMP      3 => 0015
+0013    TGETS    2   0   2  ; "map_max_pos_y"
+0014    JMP      3 => 0019
+0015 => TGETS    3   0   3  ; "map_min_pos_y"
+0016    ISGE     2   3
+0017    JMP      3 => 0019
+0018    TGETS    2   0   3  ; "map_min_pos_y"
+0019 => MOV      3   1
+0020    MOV      4   2
+0021    RET      3   3
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "openPlanesMapWindow"
+0004    KPRI     4   1
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "openPlanesBagPanel"
+0004    KPRI     4   2
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "openPlanesHeroListPanel"
+0004    KPRI     4   2
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "cur_dun_id"
+0002    ISF          1
+0003    JMP      2 => 0010
+0004    UGET     1   0      ; 
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "openPlanesDunInfoWindow"
+0007    KPRI     4   2
+0008    TGETS    5   0   0  ; "cur_dun_id"
+0009    CALL     1   1   4
+0010 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     2   0      ; "ccui"
+0002    TGETS    2   2   1  ; "TouchEventType"
+0003    TGETS    2   2   2  ; "ended"
+0004    ISNEV    1   2
+0005    JMP      2 => 0010
+0006    UGET     2   0      ; 
+0007    MOV      4   2
+0008    TGETS    2   2   3  ; "onClickHideBtn"
+0009    CALL     2   1   2
+0010 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "is_hide_top"
+0002    NOT      1   1
+0003    TSETS    1   0   0  ; "is_hide_top"
+0004    GGET     1   1      ; "MainuiController"
+0005    MOV      3   1
+0006    TGETS    1   1   2  ; "getInstance"
+0007    CALL     1   2   2
+0008    MOV      3   1
+0009    TGETS    1   1   3  ; "setMainUIShowStatus"
+0010    TGETS    4   0   0  ; "is_hide_top"
+0011    NOT      4   4
+0012    CALL     1   1   3
+0013    GGET     1   1      ; "MainuiController"
+0014    MOV      3   1
+0015    TGETS    1   1   2  ; "getInstance"
+0016    CALL     1   2   2
+0017    MOV      3   1
+0018    TGETS    1   1   4  ; "setIsShowMainUIBottom"
+0019    KPRI     4   1
+0020    CALL     1   1   3
+0021    TGETS    1   0   5  ; "top_title_bg"
+0022    MOV      3   1
+0023    TGETS    1   1   6  ; "setVisible"
+0024    TGETS    4   0   0  ; "is_hide_top"
+0025    NOT      4   4
+0026    CALL     1   1   3
+0027    TGETS    1   0   7  ; "btn_rule"
+0028    MOV      3   1
+0029    TGETS    1   1   6  ; "setVisible"
+0030    TGETS    4   0   0  ; "is_hide_top"
+0031    NOT      4   4
+0032    CALL     1   1   3
+0033    TGETS    1   0   8  ; "btn_hide"
+0034    MOV      3   1
+0035    TGETS    1   1   6  ; "setVisible"
+0036    TGETS    4   0   0  ; "is_hide_top"
+0037    NOT      4   4
+0038    CALL     1   1   3
+0039    TGETS    1   0   9  ; "close_btn"
+0040    MOV      3   1
+0041    TGETS    1   1   6  ; "setVisible"
+0042    TGETS    4   0   0  ; "is_hide_top"
+0043    NOT      4   4
+0044    CALL     1   1   3
+0045    TGETS    1   0  10  ; "dun_btn"
+0046    MOV      3   1
+0047    TGETS    1   1   6  ; "setVisible"
+0048    TGETS    4   0   0  ; "is_hide_top"
+0049    NOT      4   4
+0050    CALL     1   1   3
+0051    TGETS    1   0  11  ; "bottom_panel"
+0052    MOV      3   1
+0053    TGETS    1   1   6  ; "setVisible"
+0054    TGETS    4   0   0  ; "is_hide_top"
+0055    NOT      4   4
+0056    CALL     1   1   3
+0057    TGETS    1   0   0  ; "is_hide_top"
+0058    ISF          1
+0059    JMP      2 => 0126
+0060    TGETS    1   0  12  ; "hide_mask"
+0061    IST          1
+0062    JMP      1 => 0120
+0063    GGET     1  13      ; "ccui"
+0064    TGETS    1   1  14  ; "Layout"
+0065    MOV      3   1
+0066    TGETS    1   1  15  ; "create"
+0067    CALL     1   2   2
+0068    TSETS    1   0  12  ; "hide_mask"
+0069    TGETS    1   0  12  ; "hide_mask"
+0070    MOV      3   1
+0071    TGETS    1   1  16  ; "setContentSize"
+0072    GGET     4  17      ; "SCREEN_WIDTH"
+0073    GGET     5  18      ; "SCREEN_HEIGHT"
+0074    CALL     1   1   4
+0075    TGETS    1   0  12  ; "hide_mask"
+0076    MOV      3   1
+0077    TGETS    1   1  19  ; "setScale"
+0078    GGET     4  20      ; "display"
+0079    TGETS    4   4  21  ; "getMaxScale"
+0080    CALL     4   0   1
+0081    CALLM    1   1   1
+0082    TGETS    1   0  12  ; "hide_mask"
+0083    MOV      3   1
+0084    TGETS    1   1  22  ; "setAnchorPoint"
+0085    GGET     4  23      ; "cc"
+0086    TGETS    4   4  24  ; "p"
+0087    KNUM     6   0      ; 0.5
+0088    KNUM     7   0      ; 0.5
+0089    CALL     4   0   3
+0090    CALLM    1   1   1
+0091    TGETS    1   0  12  ; "hide_mask"
+0092    MOV      3   1
+0093    TGETS    1   1  25  ; "setPosition"
+0094    GGET     4  17      ; "SCREEN_WIDTH"
+0095    MULVN    4   4   0  ; 0.5
+0096    GGET     5  18      ; "SCREEN_HEIGHT"
+0097    MULVN    5   5   0  ; 0.5
+0098    CALL     1   1   4
+0099    TGETS    1   0  12  ; "hide_mask"
+0100    MOV      3   1
+0101    TGETS    1   1  26  ; "setTouchEnabled"
+0102    KPRI     4   2
+0103    CALL     1   1   3
+0104    TGETS    1   0  27  ; "ui_container"
+0105    MOV      3   1
+0106    TGETS    1   1  28  ; "addChild"
+0107    TGETS    4   0  12  ; "hide_mask"
+0108    KSHORT   5  99
+0109    CALL     1   1   4
+0110    TGETS    1   0  12  ; "hide_mask"
+0111    MOV      3   1
+0112    TGETS    1   1  29  ; "setSwallowTouches"
+0113    KPRI     4   1
+0114    CALL     1   1   3
+0115    TGETS    1   0  12  ; "hide_mask"
+0116    MOV      3   1
+0117    TGETS    1   1  30  ; "addTouchEventListener"
+0118    FNEW     4  31      ; C025A55CFEEA600E.luac:0
+0119    CALL     1   1   3
+0120 => TGETS    1   0  12  ; "hide_mask"
+0121    MOV      3   1
+0122    TGETS    1   1   6  ; "setVisible"
+0123    KPRI     4   2
+0124    CALL     1   1   3
+0125    JMP      1 => 0134
+0126 => TGETS    1   0  12  ; "hide_mask"
+0127    ISF          1
+0128    JMP      2 => 0134
+0129    TGETS    1   0  12  ; "hide_mask"
+0130    MOV      3   1
+0131    TGETS    1   1   6  ; "setVisible"
+0132    KPRI     4   1
+0133    CALL     1   1   3
+0134 => UCLO     0 => 0135
+0135 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "openPlanesBuffListWindow"
+0004    KPRI     4   2
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     4   0      ; "Config"
+0002    TGETS    4   4   1  ; "SecretDunData"
+0003    TGETS    4   4   2  ; "data_const"
+0004    TGETS    4   4   3  ; "planes_rule"
+0005    ISF          4
+0006    JMP      5 => 0018
+0007    GGET     5   4      ; "TipsManager"
+0008    MOV      7   5
+0009    TGETS    5   5   5  ; "getInstance"
+0010    CALL     5   2   2
+0011    MOV      7   5
+0012    TGETS    5   5   6  ; "showCommonTips"
+0013    TGETS    8   4   7  ; "desc"
+0014    MOV     11   2
+0015    TGETS    9   2   8  ; "getTouchBeganPosition"
+0016    CALL     9   0   2
+0017    CALLM    5   1   2
+0018 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "is_role_moving"
+0002    ISF          1
+0003    JMP      2 => 0010
+0004    GGET     1   1      ; "message"
+0005    GGET     3   2      ; "TI18N"
+0006    KSTR     5   3      ; "角色移动中，无法更换形象"
+0007    CALL     3   0   2
+0008    CALLM    1   1   0
+0009    RET0     0   1
+0010 => UGET     1   0      ; 
+0011    MOV      3   1
+0012    TGETS    1   1   4  ; "getPlanesRoleLookId"
+0013    CALL     1   2   2
+0014    ISF          1
+0015    JMP      2 => 0018
+0016    ISNEN    1   0      ; 0
+0017    JMP      2 => 0038
+0018 => GGET     2   5      ; "Config"
+0019    TGETS    2   2   6  ; "HomeData"
+0020    TGETS    2   2   7  ; "data_const"
+0021    TGETS    2   2   8  ; "open_lev"
+0022    KSHORT   3  70
+0023    ISF          2
+0024    JMP      4 => 0029
+0025    TGETS    4   2   9  ; "val"
+0026    ISTC     3   4
+0027    JMP      5 => 0029
+0028    KSHORT   3  70
+0029 => GGET     4   1      ; "message"
+0030    UGET     6   1      ; 
+0031    GGET     8   2      ; "TI18N"
+0032    KSTR    10  10      ; "%s级开启家园系统，开启后才�"~
+0033    CALL     8   2   2
+0034    MOV      9   3
+0035    CALL     6   0   3
+0036    CALLM    4   1   0
+0037    JMP      2 => 0046
+0038 => GGET     2  11      ; "HomeworldController"
+0039    MOV      4   2
+0040    TGETS    2   2  12  ; "getInstance"
+0041    CALL     2   2   2
+0042    MOV      4   2
+0043    TGETS    2   2  13  ; "openHomeworldFigureWindow"
+0044    KPRI     5   2
+0045    CALL     2   1   3
+0046 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     0   0      ; "MonopolyController"
+0002    MOV      2   0
+0003    TGETS    0   0   1  ; "getInstance"
+0004    CALL     0   2   2
+0005    MOV      2   0
+0006    TGETS    0   0   2  ; "openMonopolyDialogWindow"
+0007    KPRI     3   2
+0008    KSHORT   4  89
+0009    KSHORT   5   0
+0010    UGET     6   0      ; 
+0011    CALL     0   1   6
+0012    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    TNEW     1   0
+0004 => TGETS    2   1   1  ; "dun_id"
+0005    IST          2
+0006    JMP      3 => 0011
+0007    UGET     2   0      ; 
+0008    MOV      4   2
+0009    TGETS    2   2   2  ; "getCurDunId"
+0010    CALL     2   2   2
+0011 => TSETS    2   0   0  ; "cur_dun_id"
+0012    TGETS    2   1   4  ; "floor"
+0013    IST          2
+0014    JMP      3 => 0019
+0015    UGET     2   0      ; 
+0016    MOV      4   2
+0017    TGETS    2   2   5  ; "getCurPlanesFloor"
+0018    CALL     2   2   2
+0019 => TSETS    2   0   3  ; "cur_floor"
+0020    TGETS    2   0   0  ; "cur_dun_id"
+0021    ISEQN    2   0      ; 0
+0022    JMP      2 => 0026
+0023    TGETS    2   0   3  ; "cur_floor"
+0024    ISNEN    2   0      ; 0
+0025    JMP      2 => 0032
+0026 => UGET     2   1      ; 
+0027    MOV      4   2
+0028    TGETS    2   2   6  ; "openPlanesMapWindow"
+0029    KPRI     5   1
+0030    CALL     2   1   3
+0031    UCLO     0 => 0062
+0032 => UGET     2   1      ; 
+0033    MOV      4   2
+0034    TGETS    2   2   7  ; "sender23106"
+0035    TGETS    5   0   3  ; "cur_floor"
+0036    CALL     2   1   3
+0037    UGET     2   1      ; 
+0038    MOV      4   2
+0039    TGETS    2   2   8  ; "sender23115"
+0040    CALL     2   1   2
+0041    UGET     2   0      ; 
+0042    MOV      4   2
+0043    TGETS    2   2   9  ; "getPlanesDramIdCache"
+0044    CALL     2   2   2
+0045    GGET     3  10      ; "Config"
+0046    TGETS    3   3  11  ; "SecretDunData"
+0047    TGETS    3   3  12  ; "data_drama"
+0048    TGETV    3   3   2
+0049    ISF          3
+0050    JMP      4 => 0060
+0051    GGET     4  13      ; "delayOnce"
+0052    FNEW     6  14      ; C025A55CFEEA600E.luac:0
+0053    KNUM     7   1      ; 0.5
+0054    CALL     4   1   3
+0055    UGET     4   0      ; 
+0056    MOV      6   4
+0057    TGETS    4   4  15  ; "setPlanesDramIdCache"
+0058    KSHORT   7   0
+0059    CALL     4   1   3
+0060 => UCLO     0 => 0061
+0061 => RET0     0   1
+0062 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TSETS    1   0   0  ; "is_visible"
+0002    TGETS    2   0   1  ; "root_wnd"
+0003    ISEQP    2   0
+0004    JMP      2 => 0011
+0005    GGET     2   2      ; "tolua"
+0006    TGETS    2   2   3  ; "isnull"
+0007    TGETS    4   0   1  ; "root_wnd"
+0008    CALL     2   2   2
+0009    ISF          2
+0010    JMP      3 => 0012
+0011 => RET0     0   1
+0012 => TGETS    2   0   1  ; "root_wnd"
+0013    MOV      4   2
+0014    TGETS    2   2   4  ; "setVisible"
+0015    MOV      5   1
+0016    CALL     2   1   3
+0017    ISNEP    1   2
+0018    JMP      2 => 0028
+0019    GGET     2   5      ; "MainuiController"
+0020    MOV      4   2
+0021    TGETS    2   2   6  ; "getInstance"
+0022    CALL     2   2   2
+0023    MOV      4   2
+0024    TGETS    2   2   7  ; "setIsShowMainUIBottom"
+0025    KPRI     5   1
+0026    CALL     2   1   3
+0027    JMP      2 => 0036
+0028 => GGET     2   5      ; "MainuiController"
+0029    MOV      4   2
+0030    TGETS    2   2   6  ; "getInstance"
+0031    CALL     2   2   2
+0032    MOV      4   2
+0033    TGETS    2   2   7  ; "setIsShowMainUIBottom"
+0034    KPRI     5   2
+0035    CALL     2   1   3
+0036 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => MOV      4   0
+0005    TGETS    2   0   0  ; "playCloudEffect"
+0006    KPRI     5   2
+0007    CALL     2   1   3
+0008    MOV      4   0
+0009    TGETS    2   0   1  ; "initMapTileConfig"
+0010    TGETS    5   1   2  ; "map_id"
+0011    CALL     2   1   3
+0012    TSETS    1   0   3  ; "data"
+0013    TGETS    2   1   5  ; "floor"
+0014    TSETS    2   0   4  ; "cur_floor"
+0015    TGETS    2   1   7  ; "index"
+0016    TSETS    2   0   6  ; "cur_role_grid_index"
+0017    TNEW     2   0
+0018    TSETS    2   0   8  ; "cur_grid_data"
+0019    GGET     2   9      ; "pairs"
+0020    TGETS    4   1  10  ; "tile_list"
+0021    IST          4
+0022    JMP      5 => 0024
+0023    TNEW     4   0
+0024 => CALL     2   4   2
+0025    ISNEXT   5 => 0029
+0026 => TGETS    7   0   8  ; "cur_grid_data"
+0027    TGETS    8   6   7  ; "index"
+0028    TSETV    6   7   8
+0029 => ITERN    5   3   3
+0030    ITERL    5 => 0026
+0031    UGET     2   0      ; 
+0032    MOV      4   2
+0033    TGETS    2   2  11  ; "getPlanesEvtVoList"
+0034    CALL     2   2   2
+0035    TNEW     3   0
+0036    TNEW     4   0
+0037    TGETS    5   1  12  ; "walk_tile"
+0038    ISF          5
+0039    JMP      6 => 0100
+0040    GGET     5  13      ; "next"
+0041    TGETS    7   1  12  ; "walk_tile"
+0042    CALL     5   2   2
+0043    ISEQP    5   0
+0044    JMP      5 => 0100
+0045    TNEW     5   0
+0046    GGET     6   9      ; "pairs"
+0047    TGETS    8   1  12  ; "walk_tile"
+0048    CALL     6   4   2
+0049    ISNEXT   9 => 0098
+0050 => GGET    11  14      ; "PlanesTile"
+0051    TGETS   11  11  15  ; "indexTile"
+0052    TGETS   13  10  16  ; "pos"
+0053    CALL    11   3   2
+0054    GGET    13  14      ; "PlanesTile"
+0055    TGETS   13  13  17  ; "tileRange"
+0056    MOV     15  11
+0057    MOV     16  12
+0058    GGET    17  18      ; "PlanesConst"
+0059    TGETS   17  17  19  ; "Grid_Round"
+0060    GGET    18  18      ; "PlanesConst"
+0061    TGETS   18  18  19  ; "Grid_Round"
+0062    CALL    13   2   5
+0063    GGET    14   9      ; "pairs"
+0064    MOV     16  13
+0065    CALL    14   4   2
+0066    ISNEXT  17 => 0096
+0067 => TGETB   19  18   1
+0068    ISF         19
+0069    JMP     20 => 0096
+0070    TGETB   19  18   2
+0071    ISF         19
+0072    JMP     20 => 0096
+0073    GGET    19  14      ; "PlanesTile"
+0074    TGETS   19  19  20  ; "tileIndex"
+0075    TGETB   21  18   1
+0076    TGETB   22  18   2
+0077    CALL    19   2   3
+0078    TGETV   20   5  19
+0079    IST         20
+0080    JMP     20 => 0096
+0081    TGETS   20   0   8  ; "cur_grid_data"
+0082    TGETV   20  20  19
+0083    ISF         20
+0084    JMP     21 => 0096
+0085    KPRI    20   2
+0086    TSETV   20   5  19
+0087    UGET    20   1      ; 
+0088    MOV     22   3
+0089    TGETS   23   0   8  ; "cur_grid_data"
+0090    TGETV   23  23  19
+0091    CALL    20   1   3
+0092    UGET    20   1      ; 
+0093    MOV     22   4
+0094    TGETV   23   2  19
+0095    CALL    20   1   3
+0096 => ITERN   17   3   3
+0097    ITERL   17 => 0067
+0098 => ITERN    9   3   3
+0099    ITERL    9 => 0050
+0100 => UGET     5   0      ; 
+0101    MOV      7   5
+0102    TGETS    5   5  21  ; "getCurDunId"
+0103    CALL     5   2   2
+0104    GGET     6  22      ; "Config"
+0105    TGETS    6   6  23  ; "SecretDunData"
+0106    TGETS    6   6  24  ; "data_max_dun_num"
+0107    TGETS    7   0   4  ; "cur_floor"
+0108    TGETV    6   6   7
+0109    GGET     7  22      ; "Config"
+0110    TGETS    7   7  23  ; "SecretDunData"
+0111    TGETS    7   7  25  ; "data_dun_info"
+0112    TGETV    7   7   5
+0113    ISF          7
+0114    JMP      8 => 0129
+0115    ISF          6
+0116    JMP      8 => 0129
+0117    TGETS    8   0  26  ; "floor_txt"
+0118    MOV     10   8
+0119    TGETS    8   8  27  ; "setString"
+0120    GGET    11  28      ; "TI18N"
+0121    UGET    13   2      ; 
+0122    KSTR    15  29      ; "%s 第%d/%d层"
+0123    TGETS   16   7  30  ; "name"
+0124    TGETS   17   0   4  ; "cur_floor"
+0125    MOV     18   6
+0126    CALL    13   0   5
+0127    CALLM   11   0   0
+0128    CALLM    8   1   1
+0129 => MOV     10   0
+0130    TGETS    8   0  31  ; "updateMapBg"
+0131    CALL     8   1   2
+0132    KPRI     8   1
+0133    TSETS    8   0  32  ; "init_grid_end"
+0134    MOV     10   0
+0135    TGETS    8   0  33  ; "updateGridList"
+0136    MOV     11   3
+0137    KPRI    12   2
+0138    CALL     8   1   4
+0139    KPRI     8   1
+0140    TSETS    8   0  34  ; "init_evt_end"
+0141    MOV     10   0
+0142    TGETS    8   0  35  ; "updateEvtList"
+0143    MOV     11   4
+0144    CALL     8   1   3
+0145    MOV     10   0
+0146    TGETS    8   0  36  ; "createRole"
+0147    CALL     8   1   2
+0148    MOV     10   0
+0149    TGETS    8   0  37  ; "moveMapToRoleCenter"
+0150    CALL     8   1   2
+0151    MOV     10   0
+0152    TGETS    8   0  38  ; "playBackgroundMusic"
+0153    CALL     8   1   2
+0154    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "getCurDunId"
+0004    CALL     1   2   2
+0005    GGET     2   1      ; "Config"
+0006    TGETS    2   2   2  ; "SecretDunData"
+0007    TGETS    2   2   3  ; "data_customs"
+0008    TGETV    2   2   1
+0009    IST          2
+0010    JMP      3 => 0012
+0011    RET0     0   1
+0012 => TGETS    3   0   4  ; "cur_music"
+0013    ISF          3
+0014    JMP      3 => 0019
+0015    TGETS    3   0   4  ; "cur_music"
+0016    TGETS    4   2   5  ; "music"
+0017    ISEQV    3   4
+0018    JMP      3 => 0036
+0019 => TGETS    3   2   5  ; "music"
+0020    TSETS    3   0   4  ; "cur_music"
+0021    TGETS    3   2   5  ; "music"
+0022    ISEQS    3   6      ; ""
+0023    JMP      3 => 0036
+0024    GGET     3   7      ; "AudioManager"
+0025    MOV      5   3
+0026    TGETS    3   3   8  ; "getInstance"
+0027    CALL     3   2   2
+0028    MOV      5   3
+0029    TGETS    3   3   9  ; "playMusic"
+0030    GGET     6   7      ; "AudioManager"
+0031    TGETS    6   6  10  ; "AUDIO_TYPE"
+0032    TGETS    6   6  11  ; "SCENE"
+0033    TGETS    7   2   5  ; "music"
+0034    KPRI     8   2
+0035    CALL     3   1   5
+0036 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => GGET     2   1      ; "Config"
+0005    TGETS    2   2   2  ; "MapBlock"
+0006    TGETS    2   2   3  ; "data"
+0007    MOV      4   1
+0008    CALL     2   2   2
+0009    IST          2
+0010    JMP      3 => 0012
+0011    TNEW     2   0
+0012 => TSETS    2   0   0  ; "cur_block_cfg"
+0013    GGET     2   1      ; "Config"
+0014    TGETS    2   2   4  ; "Map"
+0015    TGETV    2   2   1
+0016    ISF          2
+0017    JMP      3 => 0022
+0018    TGETS    3   2   6  ; "width"
+0019    TSETS    3   0   5  ; "cur_map_width"
+0020    TGETS    3   2   8  ; "height"
+0021    TSETS    3   0   7  ; "cur_map_height"
+0022 => GGET     3  10      ; "SCREEN_WIDTH"
+0023    TGETS    4   0   5  ; "cur_map_width"
+0024    SUBVV    3   3   4
+0025    TSETS    3   0   9  ; "map_min_pos_x"
+0026    KSHORT   3   0
+0027    TSETS    3   0  11  ; "map_max_pos_x"
+0028    GGET     3  13      ; "display"
+0029    TGETS    3   3   8  ; "height"
+0030    TGETS    4   0   7  ; "cur_map_height"
+0031    SUBVV    3   3   4
+0032    TSETS    3   0  12  ; "map_min_pos_y"
+0033    KSHORT   3   0
+0034    TSETS    3   0  14  ; "map_max_pos_y"
+0035    GGET     3  15      ; "PlanesTile"
+0036    TGETS    3   3  16  ; "init"
+0037    GGET     5  17      ; "PlanesConst"
+0038    TGETS    5   5  18  ; "Grid_Width"
+0039    MULVN    5   5   0  ; 0.5
+0040    GGET     6  17      ; "PlanesConst"
+0041    TGETS    6   6  19  ; "Grid_Height"
+0042    MULVN    6   6   0  ; 0.5
+0043    TGETS    7   0   5  ; "cur_map_width"
+0044    TGETS    8   0   7  ; "cur_map_height"
+0045    CALL     3   1   5
+0046    KPRI     3   2
+0047    TSETS    3   0  20  ; "init_tile_end"
+0048    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "cur_dun_id"
+0002    ISF          1
+0003    JMP      1 => 0007
+0004    TGETS    1   0   1  ; "cur_floor"
+0005    IST          1
+0006    JMP      1 => 0008
+0007 => RET0     0   1
+0008 => GGET     1   2      ; "Config"
+0009    TGETS    1   1   3  ; "SecretDunData"
+0010    TGETS    1   1   4  ; "data_dun_map"
+0011    TGETS    2   0   0  ; "cur_dun_id"
+0012    TGETV    1   1   2
+0013    ISF          1
+0014    JMP      2 => 0019
+0015    TGETS    2   0   1  ; "cur_floor"
+0016    TGETV    2   1   2
+0017    IST          2
+0018    JMP      2 => 0020
+0019 => RET0     0   1
+0020 => TGETS    2   0   1  ; "cur_floor"
+0021    TGETV    2   1   2
+0022    TGETS    2   2   5  ; "map_res_id"
+0023    IST          2
+0024    JMP      3 => 0026
+0025    KSHORT   2   1
+0026 => TGETS    3   0   6  ; "cur_map_res_id"
+0027    ISF          3
+0028    JMP      3 => 0032
+0029    TGETS    3   0   6  ; "cur_map_res_id"
+0030    ISEQV    3   2
+0031    JMP      3 => 0045
+0032 => TSETS    2   0   6  ; "cur_map_res_id"
+0033    UGET     3   0      ; 
+0034    KSTR     5   7      ; "resource/planes/map_bg/map_bg_%s.jpg"
+0035    MOV      6   2
+0036    CALL     3   2   3
+0037    GGET     4   9      ; "loadImageTextureFromCDN"
+0038    TGETS    6   0  10  ; "background"
+0039    MOV      7   3
+0040    GGET     8  11      ; "ResourcesType"
+0041    TGETS    8   8  12  ; "single"
+0042    TGETS    9   0   8  ; "bg_img_load"
+0043    CALL     4   2   5
+0044    TSETS    4   0   8  ; "bg_img_load"
+0045 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "createOneGridObject"
+0004    UGET     3   1      ; 
+0005    CALL     0   1   3
+0006    UGET     0   2      ; 
+0007    ADDVN    0   0   0  ; 1
+0008    USETV    2   0      ; 
+0009    UGET     0   2      ; 
+0010    GGET     1   1      ; "tableLen"
+0011    UGET     3   3      ; 
+0012    CALL     1   2   2
+0013    ISNEV    0   1
+0014    JMP      0 => 0018
+0015    UGET     0   0      ; 
+0016    KPRI     1   2
+0017    TSETS    1   0   2  ; "init_grid_end"
+0018 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     0   0      ; 
+0002    ISF          0
+0003    JMP      1 => 0045
+0004    GGET     0   0      ; "pairs"
+0005    UGET     2   1      ; 
+0006    TGETS    2   2   1  ; "grid_object_list"
+0007    CALL     0   4   2
+0008    ISNEXT   3 => 0023
+0009 => TGETS    5   4   2  ; "grid_icon"
+0010    ISF          5
+0011    JMP      6 => 0023
+0012    TGETS    5   4   2  ; "grid_icon"
+0013    MOV      7   5
+0014    TGETS    5   5   3  ; "setVisible"
+0015    KPRI     8   1
+0016    CALL     5   1   3
+0017    TGETS    5   4   4  ; "grid_data"
+0018    ISF          5
+0019    JMP      6 => 0023
+0020    TGETS    5   4   4  ; "grid_data"
+0021    KSHORT   6   1
+0022    TSETS    6   5   5  ; "is_hide"
+0023 => ITERN    3   3   3
+0024    ITERL    3 => 0009
+0025    KSHORT   0   0
+0026    KSHORT   1   0
+0027    GGET     2   6      ; "ipairs"
+0028    UGET     4   2      ; 
+0029    CALL     2   4   2
+0030    JMP      5 => 0042
+0031 => ADDVN    0   0   0  ; 1
+0032    GGET     7   7      ; "delayRun"
+0033    UGET     9   1      ; 
+0034    TGETS    9   9   8  ; "grid_slayer"
+0035    DIVVN   10   0   1  ; 5
+0036    GGET    11   9      ; "display"
+0037    TGETS   11  11  10  ; "DEFAULT_FPS"
+0038    DIVVV   10  10  11
+0039    FNEW    11  11      ; C025A55CFEEA600E.luac:0
+0040    CALL     7   1   4
+0041    UCLO     5 => 0042
+0042 => ITERC    5   3   3
+0043    ITERL    5 => 0031
+0044    UCLO     0 => 0056
+0045 => GGET     0   0      ; "pairs"
+0046    UGET     2   2      ; 
+0047    CALL     0   4   2
+0048    ISNEXT   3 => 0054
+0049 => UGET     5   1      ; 
+0050    MOV      7   5
+0051    TGETS    5   5  12  ; "createOneGridObject"
+0052    MOV      8   4
+0053    CALL     5   1   3
+0054 => ITERN    3   3   3
+0055    ITERL    3 => 0049
+0056 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      3 => 0008
+0003    GGET     3   0      ; "next"
+0004    MOV      5   1
+0005    CALL     3   2   2
+0006    ISNEP    3   0
+0007    JMP      3 => 0009
+0008 => UCLO     0 => 0057
+0009 => TGETS    3   0   1  ; "grid_icon_load"
+0010    ISF          3
+0011    JMP      4 => 0018
+0012    TGETS    3   0   1  ; "grid_icon_load"
+0013    MOV      5   3
+0014    TGETS    3   3   2  ; "DeleteMe"
+0015    CALL     3   1   2
+0016    KPRI     3   0
+0017    TSETS    3   0   1  ; "grid_icon_load"
+0018 => TNEW     3   0
+0019    TNEW     4   0
+0020    GGET     5   3      ; "pairs"
+0021    MOV      7   1
+0022    CALL     5   4   2
+0023    ISNEXT   8 => 0043
+0024 => TGETS   10   9   4  ; "res_id"
+0025    TGETV   10   4  10
+0026    IST         10
+0027    JMP     10 => 0043
+0028    MOV     12   0
+0029    TGETS   10   0   5  ; "getGridPathByResId"
+0030    TGETS   13   9   4  ; "res_id"
+0031    CALL    10   2   3
+0032    UGET    11   0      ; 
+0033    MOV     13   3
+0034    TDUP    14   6
+0035    TSETS   10  14   7  ; "path"
+0036    GGET    15   8      ; "ResourcesType"
+0037    TGETS   15  15   9  ; "single"
+0038    TSETS   15  14  10  ; "type"
+0039    CALL    11   1   3
+0040    TGETS   11   9   4  ; "res_id"
+0041    KPRI    12   2
+0042    TSETV   12   4  11
+0043 => ITERN    8   3   3
+0044    ITERL    8 => 0024
+0045    GGET     5  11      ; "ResourcesLoad"
+0046    TGETS    5   5  12  ; "New"
+0047    CALL     5   2   1
+0048    TSETS    5   0   1  ; "grid_icon_load"
+0049    TGETS    5   0   1  ; "grid_icon_load"
+0050    MOV      7   5
+0051    TGETS    5   5  13  ; "addAllList"
+0052    MOV      8   3
+0053    FNEW     9  14      ; C025A55CFEEA600E.luac:0
+0054    CALL     5   1   4
+0055    UCLO     0 => 0056
+0056 => RET0     0   1
+0057 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    3   1   0  ; "index"
+0002    TGETS    4   0   1  ; "grid_object_list"
+0003    TGETV    4   4   3
+0004    IST          4
+0005    JMP      5 => 0007
+0006    TNEW     4   0
+0007 => TGETS    5   4   2  ; "grid_icon"
+0008    IST          5
+0009    JMP      6 => 0034
+0010    GGET     6   3      ; "createImage"
+0011    TGETS    8   0   4  ; "grid_slayer"
+0012    KPRI     9   0
+0013    KSHORT  10   0
+0014    KSHORT  11   0
+0015    GGET    12   5      ; "cc"
+0016    TGETS   12  12   6  ; "p"
+0017    KNUM    14   0      ; 0.5
+0018    KNUM    15   0      ; 0.5
+0019    CALL    12   2   3
+0020    KPRI    13   1
+0021    CALL     6   2   7
+0022    MOV      5   6
+0023    MOV      8   5
+0024    TGETS    6   5   7  ; "ignoreContentAdaptWithSize"
+0025    KPRI     9   2
+0026    CALL     6   1   3
+0027    TSETS    5   4   2  ; "grid_icon"
+0028    TGETS    6   0   1  ; "grid_object_list"
+0029    TSETV    4   6   3
+0030    UGET     6   0      ; 
+0031    TGETS    8   0   8  ; "par_grid_object_list"
+0032    MOV      9   4
+0033    CALL     6   1   3
+0034 => ISF          5
+0035    JMP      6 => 0101
+0036    TGETS    6   1   9  ; "is_hide"
+0037    ISNEN    6   1      ; 1
+0038    JMP      6 => 0044
+0039    MOV      8   5
+0040    TGETS    6   5  10  ; "setVisible"
+0041    KPRI     9   1
+0042    CALL     6   1   3
+0043    JMP      6 => 0101
+0044 => MOV      8   0
+0045    TGETS    6   0  11  ; "getGridPathByResId"
+0046    TGETS    9   1  12  ; "res_id"
+0047    CALL     6   2   3
+0048    TGETS    7   4  13  ; "grid_data"
+0049    ISF          7
+0050    JMP      7 => 0054
+0051    TGETS    7   5  14  ; "grid_res"
+0052    ISEQV    7   6
+0053    JMP      7 => 0076
+0054 => TSETS    6   5  14  ; "grid_res"
+0055    MOV      9   5
+0056    TGETS    7   5  15  ; "loadTexture"
+0057    MOV     10   6
+0058    GGET    11  16      ; "LOADTEXT_TYPE"
+0059    CALL     7   1   4
+0060    MOV      9   5
+0061    TGETS    7   5  17  ; "getContentSize"
+0062    CALL     7   2   2
+0063    MOV     10   5
+0064    TGETS    8   5  18  ; "setAnchorPoint"
+0065    GGET    11   5      ; "cc"
+0066    TGETS   11  11   6  ; "p"
+0067    KNUM    13   0      ; 0.5
+0068    GGET    14  19      ; "PlanesConst"
+0069    TGETS   14  14  20  ; "Grid_Height"
+0070    MULVN   14  14   0  ; 0.5
+0071    TGETS   15   7  21  ; "height"
+0072    DIVVV   14  14  15
+0073    SUBNV   14  14   1  ; 1
+0074    CALL    11   0   3
+0075    CALLM    8   1   1
+0076 => MOV      9   5
+0077    TGETS    7   5  10  ; "setVisible"
+0078    NOT     10   2
+0079    CALL     7   1   3
+0080    GGET     7  22      ; "PlanesTile"
+0081    TGETS    7   7  23  ; "indexPixel"
+0082    TGETS    9   1   0  ; "index"
+0083    CALL     7   3   2
+0084    TSETS    7   4  24  ; "pos_x"
+0085    TSETS    8   4  25  ; "pos_y"
+0086    MOV     11   5
+0087    TGETS    9   5  26  ; "setPosition"
+0088    MOV     12   7
+0089    MOV     13   8
+0090    CALL     9   1   4
+0091    GGET     9  22      ; "PlanesTile"
+0092    TGETS    9   9  27  ; "indexTile"
+0093    MOV     11   3
+0094    CALL     9   3   2
+0095    MOV     13   5
+0096    TGETS   11   5  28  ; "setLocalZOrder"
+0097    SUBNV   14  10   2  ; 100
+0098    MULVN   14  14   2  ; 100
+0099    ADDVV   14  14   9
+0100    CALL    11   1   3
+0101 => TGETS    6   0  29  ; "cur_grid_data"
+0102    TSETV    1   6   3
+0103    TSETS    1   4  13  ; "grid_data"
+0104    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     2   0      ; "PlanesTile"
+0002    TGETS    2   2   1  ; "indexTile"
+0003    TGETS    4   0   2  ; "cur_role_grid_index"
+0004    CALL     2   3   2
+0005    GGET     4   3      ; "pairs"
+0006    MOV      6   1
+0007    CALL     4   4   2
+0008    ISNEXT   7 => 0118
+0009 => TGETS    9   0   4  ; "grid_object_list"
+0010    TGETV    9   9   8
+0011    ISF          9
+0012    JMP     10 => 0118
+0013    TGETS   10   9   5  ; "grid_icon"
+0014    ISF         10
+0015    JMP     11 => 0118
+0016    TGETS   10   9   6  ; "grid_data"
+0017    ISF         10
+0018    JMP     11 => 0118
+0019    TGETS   10   9   5  ; "grid_icon"
+0020    MOV     12  10
+0021    TGETS   10  10   7  ; "setVisible"
+0022    KPRI    13   2
+0023    CALL    10   1   3
+0024    TGETS   10   9   5  ; "grid_icon"
+0025    MOV     12  10
+0026    TGETS   10  10   8  ; "setOpacity"
+0027    KSHORT  13   0
+0028    CALL    10   1   3
+0029    GGET    10   0      ; "PlanesTile"
+0030    TGETS   10  10   1  ; "indexTile"
+0031    MOV     12   8
+0032    CALL    10   3   2
+0033    GGET    12   0      ; "PlanesTile"
+0034    TGETS   12  12   9  ; "indexPixel"
+0035    MOV     14   8
+0036    CALL    12   3   2
+0037    GGET    14  10      ; "cc"
+0038    TGETS   14  14  11  ; "FadeIn"
+0039    MOV     16  14
+0040    TGETS   14  14  12  ; "create"
+0041    KNUM    17   0      ; 0.4
+0042    CALL    14   2   3
+0043    GGET    15  10      ; "cc"
+0044    TGETS   15  15  13  ; "EaseBackOut"
+0045    MOV     17  15
+0046    TGETS   15  15  12  ; "create"
+0047    GGET    18  10      ; "cc"
+0048    TGETS   18  18  14  ; "MoveTo"
+0049    MOV     20  18
+0050    TGETS   18  18  12  ; "create"
+0051    KNUM    21   0      ; 0.4
+0052    GGET    22  10      ; "cc"
+0053    TGETS   22  22  15  ; "p"
+0054    MOV     24  12
+0055    MOV     25  13
+0056    CALL    22   0   3
+0057    CALLM   18   0   2
+0058    CALLM   15   2   1
+0059    GGET    16   0      ; "PlanesTile"
+0060    TGETS   16  16  16  ; "tileDistance"
+0061    MOV     18  10
+0062    MOV     19  11
+0063    MOV     20   2
+0064    MOV     21   3
+0065    CALL    16   2   5
+0066    GGET    17  17      ; "math"
+0067    TGETS   17  17  18  ; "random"
+0068    KSHORT  19   5
+0069    KSHORT  20  10
+0070    CALL    17   2   3
+0071    DIVVN   17  17   1  ; 10
+0072    DIVVN   18  16   2  ; 4
+0073    MULVV   18  18  17
+0074    GGET    19  10      ; "cc"
+0075    TGETS   19  19  19  ; "DelayTime"
+0076    MOV     21  19
+0077    TGETS   19  19  12  ; "create"
+0078    MOV     22  18
+0079    CALL    19   2   3
+0080    TGETS   20   9   5  ; "grid_icon"
+0081    MOV     22  20
+0082    TGETS   20  20  20  ; "setPositionY"
+0083    SUBVN   23  13   3  ; 200
+0084    CALL    20   1   3
+0085    TGETS   20   9   5  ; "grid_icon"
+0086    MOV     22  20
+0087    TGETS   20  20  21  ; "runAction"
+0088    GGET    23  10      ; "cc"
+0089    TGETS   23  23  22  ; "Sequence"
+0090    MOV     25  23
+0091    TGETS   23  23  12  ; "create"
+0092    MOV     26  19
+0093    GGET    27  10      ; "cc"
+0094    TGETS   27  27  23  ; "Spawn"
+0095    MOV     29  27
+0096    TGETS   27  27  12  ; "create"
+0097    MOV     30  14
+0098    MOV     31  15
+0099    CALL    27   0   4
+0100    CALLM   23   0   2
+0101    CALLM   20   1   1
+0102    TGETS   20   9   6  ; "grid_data"
+0103    ISF         20
+0104    JMP     21 => 0118
+0105    TGETS   20   9   6  ; "grid_data"
+0106    TGETS   20  20  24  ; "evtid"
+0107    KSHORT  21   0
+0108    ISGE    21  20
+0109    JMP     20 => 0118
+0110    TGETS   20   0  25  ; "evt_item_list"
+0111    TGETV   20  20   8
+0112    ISF         20
+0113    JMP     21 => 0118
+0114    MOV     23  20
+0115    TGETS   21  20  26  ; "showEvtEnterAni"
+0116    MOV     24  18
+0117    CALL    21   1   3
+0118 => ITERN    7   3   3
+0119    ITERL    7 => 0009
+0120    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0015
+0003    GGET     2   0      ; "next"
+0004    MOV      4   1
+0005    CALL     2   2   2
+0006    ISEQP    2   0
+0007    JMP      2 => 0015
+0008    TGETS    2   0   1  ; "init_grid_end"
+0009    ISF          2
+0010    JMP      3 => 0015
+0011    MOV      4   0
+0012    TGETS    2   0   2  ; "updateGridList"
+0013    MOV      5   1
+0014    CALL     2   1   3
+0015 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => GGET     2   0      ; "PlanesTile"
+0005    TGETS    2   2   1  ; "indexTile"
+0006    MOV      4   1
+0007    CALL     2   3   2
+0008    GGET     4   0      ; "PlanesTile"
+0009    TGETS    4   4   2  ; "tileRange"
+0010    MOV      6   2
+0011    MOV      7   3
+0012    GGET     8   3      ; "PlanesConst"
+0013    TGETS    8   8   4  ; "Grid_Round"
+0014    GGET     9   3      ; "PlanesConst"
+0015    TGETS    9   9   4  ; "Grid_Round"
+0016    CALL     4   2   5
+0017    TNEW     5   0
+0018    GGET     6   5      ; "pairs"
+0019    MOV      8   4
+0020    CALL     6   4   2
+0021    ISNEXT   9 => 0070
+0022 => TGETB   11  10   1
+0023    ISF         11
+0024    JMP     12 => 0070
+0025    TGETB   11  10   2
+0026    ISF         11
+0027    JMP     12 => 0070
+0028    GGET    11   0      ; "PlanesTile"
+0029    TGETS   11  11   6  ; "tileIndex"
+0030    TGETB   13  10   1
+0031    TGETB   14  10   2
+0032    CALL    11   2   3
+0033    TGETS   12   0   7  ; "cur_grid_data"
+0034    TGETV   12  12  11
+0035    TGETS   13   0   8  ; "grid_object_list"
+0036    TGETV   13  13  11
+0037    ISF         12
+0038    JMP     14 => 0070
+0039    TGETS   14  12   9  ; "is_hide"
+0040    ISNEN   14   0      ; 0
+0041    JMP     14 => 0070
+0042    ISF         13
+0043    JMP     14 => 0051
+0044    TGETS   14  13  10  ; "grid_data"
+0045    ISF         14
+0046    JMP     15 => 0070
+0047    TGETS   14  13  10  ; "grid_data"
+0048    TGETS   14  14   9  ; "is_hide"
+0049    ISNEN   14   1      ; 1
+0050    JMP     14 => 0070
+0051 => MOV     16   0
+0052    TGETS   14   0  11  ; "createOneGridObject"
+0053    MOV     17  12
+0054    KPRI    18   2
+0055    CALL    14   1   4
+0056    UGET    14   0      ; 
+0057    MOV     16   5
+0058    MOV     17  11
+0059    CALL    14   1   3
+0060    UGET    14   1      ; 
+0061    MOV     16  14
+0062    TGETS   14  14  12  ; "getPlanesEvtVoByGridIndex"
+0063    MOV     17  11
+0064    CALL    14   2   3
+0065    MOV     17   0
+0066    TGETS   15   0  13  ; "createOneEvtItem"
+0067    MOV     18  14
+0068    KPRI    19   2
+0069    CALL    15   1   4
+0070 => ITERN    9   3   3
+0071    ITERL    9 => 0022
+0072    GGET     6  14      ; "next"
+0073    MOV      8   5
+0074    CALL     6   2   2
+0075    ISEQP    6   0
+0076    JMP      6 => 0081
+0077    MOV      8   0
+0078    TGETS    6   0  15  ; "showGridEnterAniByIndex"
+0079    MOV      9   5
+0080    CALL     6   1   3
+0081 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0009
+0003    ISEQS    1   0      ; ""
+0004    JMP      2 => 0009
+0005    UGET     2   0      ; 
+0006    KSTR     4   1      ; "resource/planes/grid_icon/%s.png"
+0007    MOV      5   1
+0008    CALLT    2   3
+0009 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "createOneEvtItem"
+0004    UGET     3   1      ; 
+0005    CALL     0   1   3
+0006    UGET     0   2      ; 
+0007    ADDVN    0   0   0  ; 1
+0008    USETV    2   0      ; 
+0009    UGET     0   2      ; 
+0010    GGET     1   1      ; "tableLen"
+0011    UGET     3   3      ; 
+0012    CALL     1   2   2
+0013    ISNEV    0   1
+0014    JMP      0 => 0018
+0015    UGET     0   0      ; 
+0016    KPRI     1   2
+0017    TSETS    1   0   2  ; "init_evt_end"
+0018 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     0   0      ; "pairs"
+0002    UGET     2   0      ; 
+0003    TGETS    2   2   1  ; "evt_item_list"
+0004    CALL     0   4   2
+0005    ISNEXT   3 => 0010
+0006 => MOV      7   4
+0007    TGETS    5   4   2  ; "setVisible"
+0008    KPRI     8   1
+0009    CALL     5   1   3
+0010 => ITERN    3   3   3
+0011    ITERL    3 => 0006
+0012    KSHORT   0   0
+0013    KSHORT   1   0
+0014    GGET     2   0      ; "pairs"
+0015    UGET     4   1      ; 
+0016    CALL     2   4   2
+0017    ISNEXT   5 => 0029
+0018 => ADDVN    0   0   0  ; 1
+0019    GGET     7   3      ; "delayRun"
+0020    UGET     9   0      ; 
+0021    TGETS    9   9   4  ; "evt_slayer"
+0022    DIVVN   10   0   1  ; 5
+0023    GGET    11   5      ; "display"
+0024    TGETS   11  11   6  ; "DEFAULT_FPS"
+0025    DIVVV   10  10  11
+0026    FNEW    11   7      ; C025A55CFEEA600E.luac:0
+0027    CALL     7   1   4
+0028    UCLO     5 => 0029
+0029 => ITERN    5   3   3
+0030    ITERL    5 => 0018
+0031    UCLO     0 => 0032
+0032 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0008
+0003    GGET     2   0      ; "next"
+0004    MOV      4   1
+0005    CALL     2   2   2
+0006    ISNEP    2   0
+0007    JMP      2 => 0009
+0008 => UCLO     0 => 0034
+0009 => TGETS    2   0   1  ; "evt_icon_load"
+0010    ISF          2
+0011    JMP      3 => 0018
+0012    TGETS    2   0   1  ; "evt_icon_load"
+0013    MOV      4   2
+0014    TGETS    2   2   2  ; "DeleteMe"
+0015    CALL     2   1   2
+0016    KPRI     2   0
+0017    TSETS    2   0   1  ; "evt_icon_load"
+0018 => MOV      4   0
+0019    TGETS    2   0   3  ; "getEvtResPathListByData"
+0020    MOV      5   1
+0021    CALL     2   2   3
+0022    GGET     3   4      ; "ResourcesLoad"
+0023    TGETS    3   3   5  ; "New"
+0024    CALL     3   2   1
+0025    TSETS    3   0   1  ; "evt_icon_load"
+0026    TGETS    3   0   1  ; "evt_icon_load"
+0027    MOV      5   3
+0028    TGETS    3   3   6  ; "addAllList"
+0029    MOV      6   2
+0030    FNEW     7   7      ; C025A55CFEEA600E.luac:0
+0031    CALL     3   1   4
+0032    UCLO     0 => 0033
+0033 => RET0     0   1
+0034 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    IST          1
+0002    JMP      3 => 0004
+0003    RET0     0   1
+0004 => TGETS    3   1   0  ; "index"
+0005    TGETS    4   0   1  ; "evt_item_list"
+0006    TGETV    4   4   3
+0007    IST          4
+0008    JMP      5 => 0016
+0009    GGET     5   2      ; "PlanesEvtItem"
+0010    TGETS    5   5   3  ; "New"
+0011    TGETS    7   0   4  ; "evt_slayer"
+0012    CALL     5   2   2
+0013    MOV      4   5
+0014    TGETS    5   0   1  ; "evt_item_list"
+0015    TSETV    4   5   3
+0016 => MOV      7   4
+0017    TGETS    5   4   5  ; "setData"
+0018    MOV      8   1
+0019    MOV      9   2
+0020    CALL     5   1   4
+0021    GGET     5   6      ; "PlanesTile"
+0022    TGETS    5   5   7  ; "indexPixel"
+0023    MOV      7   3
+0024    CALL     5   3   2
+0025    MOV      9   4
+0026    TGETS    7   4   8  ; "setPosition"
+0027    MOV     10   5
+0028    MOV     11   6
+0029    CALL     7   1   4
+0030    GGET     7   6      ; "PlanesTile"
+0031    TGETS    7   7   9  ; "indexTile"
+0032    MOV      9   3
+0033    CALL     7   3   2
+0034    MOV     11   4
+0035    TGETS    9   4  10  ; "setLocalZOrder"
+0036    SUBNV   12   8   0  ; 100
+0037    MULVN   12  12   0  ; 100
+0038    ADDVV   12  12   7
+0039    CALL     9   1   3
+0040    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TNEW     2   0
+0002    TNEW     3   0
+0003    GGET     4   0      ; "pairs"
+0004    MOV      6   1
+0005    CALL     4   4   2
+0006    ISNEXT   7 => 0046
+0007 => KPRI     9   0
+0008    TGETS   10   8   1  ; "status"
+0009    GGET    11   2      ; "PlanesConst"
+0010    TGETS   11  11   3  ; "Evt_State"
+0011    TGETS   11  11   4  ; "Doing"
+0012    ISNEV   10  11
+0013    JMP     10 => 0017
+0014    TGETS   10   8   5  ; "config"
+0015    TGETS    9  10   6  ; "res_1"
+0016    JMP     10 => 0019
+0017 => TGETS   10   8   5  ; "config"
+0018    TGETS    9  10   7  ; "res_2"
+0019 => ISF          9
+0020    JMP     10 => 0046
+0021    TGETB   10   9   1
+0022    ISF         10
+0023    JMP     11 => 0046
+0024    TGETB   10   9   1
+0025    ISNEN   10   0      ; 1
+0026    JMP     10 => 0046
+0027    TGETB   10   9   2
+0028    TGETV   10   3  10
+0029    IST         10
+0030    JMP     10 => 0046
+0031    MOV     12   0
+0032    TGETS   10   0   8  ; "getEvtPathByResId"
+0033    TGETB   13   9   2
+0034    CALL    10   2   3
+0035    UGET    11   0      ; 
+0036    MOV     13   2
+0037    TDUP    14   9
+0038    TSETS   10  14  10  ; "path"
+0039    GGET    15  11      ; "ResourcesType"
+0040    TGETS   15  15  12  ; "single"
+0041    TSETS   15  14  13  ; "type"
+0042    CALL    11   1   3
+0043    TGETB   11   9   2
+0044    KPRI    12   2
+0045    TSETV   12   3  11
+0046 => ITERN    7   3   3
+0047    ITERL    7 => 0007
+0048    RET1     2   2
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     0   0      ; "pairs"
+0002    UGET     2   0      ; 
+0003    CALL     0   4   2
+0004    ISNEXT   3 => 0044
+0005 => UGET     5   1      ; 
+0006    TGETS    5   5   1  ; "evt_item_list"
+0007    TGETS    6   4   2  ; "index"
+0008    TGETV    5   5   6
+0009    IST          5
+0010    JMP      6 => 0021
+0011    GGET     6   3      ; "PlanesEvtItem"
+0012    TGETS    6   6   4  ; "New"
+0013    UGET     8   1      ; 
+0014    TGETS    8   8   5  ; "evt_slayer"
+0015    CALL     6   2   2
+0016    MOV      5   6
+0017    UGET     6   1      ; 
+0018    TGETS    6   6   1  ; "evt_item_list"
+0019    TGETS    7   4   2  ; "index"
+0020    TSETV    5   6   7
+0021 => MOV      8   5
+0022    TGETS    6   5   6  ; "setData"
+0023    MOV      9   4
+0024    CALL     6   1   3
+0025    GGET     6   7      ; "PlanesTile"
+0026    TGETS    6   6   8  ; "indexPixel"
+0027    TGETS    8   4   2  ; "index"
+0028    CALL     6   3   2
+0029    MOV     10   5
+0030    TGETS    8   5   9  ; "setPosition"
+0031    MOV     11   6
+0032    MOV     12   7
+0033    CALL     8   1   4
+0034    GGET     8   7      ; "PlanesTile"
+0035    TGETS    8   8  10  ; "indexTile"
+0036    TGETS   10   4   2  ; "index"
+0037    CALL     8   3   2
+0038    MOV     12   5
+0039    TGETS   10   5  11  ; "setLocalZOrder"
+0040    SUBNV   13   9   0  ; 100
+0041    MULVN   13  13   0  ; 100
+0042    ADDVV   13  13   8
+0043    CALL    10   1   3
+0044 => ITERN    3   3   3
+0045    ITERL    3 => 0005
+0046    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0008
+0003    GGET     2   0      ; "next"
+0004    MOV      4   1
+0005    CALL     2   2   2
+0006    ISNEP    2   0
+0007    JMP      2 => 0009
+0008 => UCLO     0 => 0034
+0009 => TGETS    2   0   1  ; "evt_icon_load"
+0010    ISF          2
+0011    JMP      3 => 0018
+0012    TGETS    2   0   1  ; "evt_icon_load"
+0013    MOV      4   2
+0014    TGETS    2   2   2  ; "DeleteMe"
+0015    CALL     2   1   2
+0016    KPRI     2   0
+0017    TSETS    2   0   1  ; "evt_icon_load"
+0018 => MOV      4   0
+0019    TGETS    2   0   3  ; "getEvtResPathListByData"
+0020    MOV      5   1
+0021    CALL     2   2   3
+0022    GGET     3   4      ; "ResourcesLoad"
+0023    TGETS    3   3   5  ; "New"
+0024    CALL     3   2   1
+0025    TSETS    3   0   1  ; "evt_icon_load"
+0026    TGETS    3   0   1  ; "evt_icon_load"
+0027    MOV      5   3
+0028    TGETS    3   3   6  ; "addAllList"
+0029    MOV      6   2
+0030    FNEW     7   7      ; C025A55CFEEA600E.luac:0
+0031    CALL     3   1   4
+0032    UCLO     0 => 0033
+0033 => RET0     0   1
+0034 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0009
+0003    ISEQS    1   0      ; ""
+0004    JMP      2 => 0009
+0005    UGET     2   0      ; 
+0006    KSTR     4   1      ; "resource/planes/evt_icon/%s.png"
+0007    MOV      5   1
+0008    CALLT    2   3
+0009 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0008
+0003    UGET     2   0      ; 
+0004    MOV      4   2
+0005    TGETS    2   2   0  ; "getPlanesRoleLookId"
+0006    CALL     2   2   2
+0007    MOV      1   2
+0008 => TGETS    2   0   1  ; "cur_look_id"
+0009    ISF          2
+0010    JMP      2 => 0014
+0011    TGETS    2   0   1  ; "cur_look_id"
+0012    ISEQV    2   1
+0013    JMP      2 => 0058
+0014 => TSETS    1   0   1  ; "cur_look_id"
+0015    MOV      4   0
+0016    TGETS    2   0   2  ; "removeMapRole"
+0017    CALL     2   1   2
+0018    GGET     2   3      ; "Config"
+0019    TGETS    2   2   4  ; "HomeData"
+0020    TGETS    2   2   5  ; "data_figure"
+0021    TGETV    2   2   1
+0022    KSTR     3   6      ; "H60001"
+0023    ISF          2
+0024    JMP      4 => 0026
+0025    TGETS    3   2   7  ; "look_id"
+0026 => GGET     4   9      ; "createEffectSpine"
+0027    MOV      6   3
+0028    GGET     7  10      ; "cc"
+0029    TGETS    7   7  11  ; "p"
+0030    KSHORT   9   0
+0031    KSHORT  10   0
+0032    CALL     7   2   3
+0033    GGET     8  10      ; "cc"
+0034    TGETS    8   8  11  ; "p"
+0035    KNUM    10   0      ; 0.5
+0036    KSHORT  11   0
+0037    CALL     8   2   3
+0038    KPRI     9   2
+0039    GGET    10  12      ; "PlayerAction"
+0040    TGETS   10  10  13  ; "idle"
+0041    CALL     4   2   6
+0042    TSETS    4   0   8  ; "map_role"
+0043    TGETS    4   0   8  ; "map_role"
+0044    MOV      6   4
+0045    TGETS    4   4  14  ; "setScale"
+0046    KSHORT   7   1
+0047    CALL     4   1   3
+0048    TGETS    4   0   8  ; "map_role"
+0049    MOV      6   4
+0050    TGETS    4   4  15  ; "setTimeScale"
+0051    KNUM     7   1      ; 1.6
+0052    CALL     4   1   3
+0053    TGETS    4   0  16  ; "evt_slayer"
+0054    MOV      6   4
+0055    TGETS    4   4  17  ; "addChild"
+0056    TGETS    7   0   8  ; "map_role"
+0057    CALL     4   1   3
+0058 => GGET     2  18      ; "PlanesTile"
+0059    TGETS    2   2  19  ; "indexPixel"
+0060    TGETS    4   0  20  ; "cur_role_grid_index"
+0061    CALL     2   3   2
+0062    TGETS    4   0   8  ; "map_role"
+0063    MOV      6   4
+0064    TGETS    4   4  21  ; "setPosition"
+0065    MOV      7   2
+0066    MOV      8   3
+0067    CALL     4   1   4
+0068    MOV      6   0
+0069    TGETS    4   0  22  ; "updateRoleZOrder"
+0070    CALL     4   1   2
+0071    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "cur_role_grid_index"
+0002    IST          1
+0003    JMP      1 => 0005
+0004    RET0     0   1
+0005 => GGET     1   1      ; "PlanesTile"
+0006    TGETS    1   1   2  ; "indexTile"
+0007    TGETS    3   0   0  ; "cur_role_grid_index"
+0008    CALL     1   3   2
+0009    TGETS    3   0   3  ; "map_role"
+0010    MOV      5   3
+0011    TGETS    3   3   4  ; "setLocalZOrder"
+0012    SUBNV    6   2   0  ; 100
+0013    MULVN    6   6   0  ; 100
+0014    ADDVV    6   6   1
+0015    ADDVN    6   6   1  ; 1
+0016    CALL     3   1   3
+0017    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "map_role"
+0002    ISF          1
+0003    JMP      2 => 0014
+0004    TGETS    1   0   0  ; "map_role"
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "clearTracks"
+0007    CALL     1   1   2
+0008    TGETS    1   0   0  ; "map_role"
+0009    MOV      3   1
+0010    TGETS    1   1   2  ; "removeFromParent"
+0011    CALL     1   1   2
+0012    KPRI     1   0
+0013    TSETS    1   0   0  ; "map_role"
+0014 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    2   0   0  ; "grid_object_list"
+0002    TGETV    2   2   1
+0003    IST          2
+0004    JMP      3 => 0006
+0005    RET0     0   1
+0006 => TGETS    3   2   1  ; "grid_icon"
+0007    ISF          3
+0008    JMP      4 => 0112
+0009    TGETS    3   2   2  ; "pos_x"
+0010    IST          3
+0011    JMP      4 => 0013
+0012    KSHORT   3   0
+0013 => TGETS    4   2   3  ; "pos_y"
+0014    IST          4
+0015    JMP      5 => 0017
+0016    KSHORT   4   0
+0017 => TGETS    5   2   1  ; "grid_icon"
+0018    MOV      7   5
+0019    TGETS    5   5   4  ; "stopAllActions"
+0020    CALL     5   1   2
+0021    TGETS    5   2   1  ; "grid_icon"
+0022    MOV      7   5
+0023    TGETS    5   5   5  ; "setPosition"
+0024    MOV      8   3
+0025    MOV      9   4
+0026    CALL     5   1   4
+0027    GGET     5   6      ; "cc"
+0028    TGETS    5   5   7  ; "EaseBackOut"
+0029    MOV      7   5
+0030    TGETS    5   5   8  ; "create"
+0031    GGET     8   6      ; "cc"
+0032    TGETS    8   8   9  ; "MoveTo"
+0033    MOV     10   8
+0034    TGETS    8   8   8  ; "create"
+0035    KNUM    11   0      ; 0.1
+0036    GGET    12   6      ; "cc"
+0037    TGETS   12  12  10  ; "p"
+0038    MOV     14   3
+0039    ADDVN   15   4   1  ; 20
+0040    CALL    12   0   3
+0041    CALLM    8   0   2
+0042    CALLM    5   2   1
+0043    GGET     6   6      ; "cc"
+0044    TGETS    6   6   7  ; "EaseBackOut"
+0045    MOV      8   6
+0046    TGETS    6   6   8  ; "create"
+0047    GGET     9   6      ; "cc"
+0048    TGETS    9   9   9  ; "MoveTo"
+0049    MOV     11   9
+0050    TGETS    9   9   8  ; "create"
+0051    KNUM    12   0      ; 0.1
+0052    GGET    13   6      ; "cc"
+0053    TGETS   13  13  10  ; "p"
+0054    MOV     15   3
+0055    MOV     16   4
+0056    CALL    13   0   3
+0057    CALLM    9   0   2
+0058    CALLM    6   2   1
+0059    GGET     7   6      ; "cc"
+0060    TGETS    7   7  11  ; "Spawn"
+0061    MOV      9   7
+0062    TGETS    7   7   8  ; "create"
+0063    MOV     10   5
+0064    GGET    11   6      ; "cc"
+0065    TGETS   11  11  12  ; "ScaleTo"
+0066    MOV     13  11
+0067    TGETS   11  11   8  ; "create"
+0068    KNUM    14   0      ; 0.1
+0069    KNUM    15   2      ; 1.2
+0070    CALL    11   0   4
+0071    CALLM    7   2   2
+0072    GGET     8   6      ; "cc"
+0073    TGETS    8   8  11  ; "Spawn"
+0074    MOV     10   8
+0075    TGETS    8   8   8  ; "create"
+0076    MOV     11   6
+0077    GGET    12   6      ; "cc"
+0078    TGETS   12  12  12  ; "ScaleTo"
+0079    MOV     14  12
+0080    TGETS   12  12   8  ; "create"
+0081    KNUM    15   0      ; 0.1
+0082    KNUM    16   3      ; 0.9
+0083    CALL    12   0   4
+0084    CALLM    8   2   2
+0085    TGETS    9   2   1  ; "grid_icon"
+0086    MOV     11   9
+0087    TGETS    9   9  13  ; "runAction"
+0088    GGET    12   6      ; "cc"
+0089    TGETS   12  12  14  ; "Sequence"
+0090    MOV     14  12
+0091    TGETS   12  12   8  ; "create"
+0092    MOV     15   7
+0093    MOV     16   8
+0094    GGET    17   6      ; "cc"
+0095    TGETS   17  17  12  ; "ScaleTo"
+0096    MOV     19  17
+0097    TGETS   17  17   8  ; "create"
+0098    KNUM    20   4      ; 0.05
+0099    KSHORT  21   1
+0100    CALL    17   2   4
+0101    CALL    12   0   5
+0102    CALLM    9   1   1
+0103    TGETS    9   0  15  ; "evt_item_list"
+0104    TGETV    9   9   1
+0105    ISF          9
+0106    JMP     10 => 0110
+0107    MOV     12   9
+0108    TGETS   10   9  16  ; "showClickAni"
+0109    CALL    10   1   2
+0110 => GGET    10  17      ; "playButtonSound2"
+0111    CALL    10   1   1
+0112 => TGETS    3   0  18  ; "init_grid_end"
+0113    IST          3
+0114    JMP      3 => 0116
+0115    RET0     0   1
+0116 => TGETS    3   0  19  ; "cur_role_grid_index"
+0117    ISNEV    3   1
+0118    JMP      3 => 0120
+0119    RET0     0   1
+0120 => TGETS    3   2  20  ; "grid_data"
+0121    ISF          3
+0122    JMP      3 => 0127
+0123    TGETS    3   2  20  ; "grid_data"
+0124    TGETS    3   3  21  ; "is_hide"
+0125    ISNEN    3   5      ; 1
+0126    JMP      3 => 0128
+0127 => RET0     0   1
+0128 => UGET     3   0      ; 
+0129    MOV      5   3
+0130    TGETS    3   3  22  ; "checkIsHaveEvtByGridIndex"
+0131    MOV      6   1
+0132    CALL     3   2   3
+0133    IST          3
+0134    JMP      3 => 0145
+0135    TGETS    3   2  20  ; "grid_data"
+0136    TGETS    3   3  23  ; "is_walk"
+0137    ISNEN    3   6      ; 0
+0138    JMP      3 => 0145
+0139    GGET     3  24      ; "message"
+0140    GGET     5  25      ; "TI18N"
+0141    KSTR     7  26      ; "目标点为不可行走区域，请选�"~
+0142    CALL     5   0   2
+0143    CALLM    3   1   0
+0144    RET0     0   1
+0145 => UGET     3   0      ; 
+0146    MOV      5   3
+0147    TGETS    3   3  27  ; "checkEvtCanWalkByGridIndex"
+0148    MOV      6   1
+0149    KPRI     7   2
+0150    CALL     3   2   4
+0151    IST          3
+0152    JMP      3 => 0159
+0153    GGET     3  24      ; "message"
+0154    GGET     5  25      ; "TI18N"
+0155    KSTR     7  26      ; "目标点为不可行走区域，请选�"~
+0156    CALL     5   0   2
+0157    CALLM    3   1   0
+0158    RET0     0   1
+0159 => TGETS    3   0  28  ; "is_role_moving"
+0160    ISF          3
+0161    JMP      4 => 0167
+0162    KPRI     3   0
+0163    TSETS    3   0  29  ; "target_grid_index"
+0164    TNEW     3   0
+0165    TSETS    3   0  30  ; "role_move_grid_cache"
+0166    RET0     0   1
+0167 => GGET     3  31      ; "PlanesTile"
+0168    TGETS    3   3  32  ; "indexTile"
+0169    TGETS    5   0  19  ; "cur_role_grid_index"
+0170    CALL     3   3   2
+0171    GGET     5   6      ; "cc"
+0172    TGETS    5   5  10  ; "p"
+0173    MOV      7   3
+0174    MOV      8   4
+0175    CALL     5   2   3
+0176    GGET     6  31      ; "PlanesTile"
+0177    TGETS    6   6  32  ; "indexTile"
+0178    MOV      8   1
+0179    CALL     6   3   2
+0180    GGET     8   6      ; "cc"
+0181    TGETS    8   8  10  ; "p"
+0182    MOV     10   6
+0183    MOV     11   7
+0184    CALL     8   2   3
+0185    GGET     9  31      ; "PlanesTile"
+0186    TGETS    9   9  33  ; "astar"
+0187    MOV     11   5
+0188    MOV     12   8
+0189    TGETS   13   0  34  ; "cur_block_cfg"
+0190    CALL     9   2   4
+0191    TNEW    10   0
+0192    TSETS   10   0  30  ; "role_move_grid_cache"
+0193 => ISF          9
+0194    JMP     10 => 0213
+0195    LOOP    10 => 0213
+0196    TGETS   10   9  35  ; "x"
+0197    TGETS   11   9  36  ; "y"
+0198    GGET    12  31      ; "PlanesTile"
+0199    TGETS   12  12  37  ; "tileIndex"
+0200    MOV     14  10
+0201    MOV     15  11
+0202    CALL    12   2   3
+0203    TGETS   13   0  19  ; "cur_role_grid_index"
+0204    ISEQV   12  13
+0205    JMP     13 => 0211
+0206    UGET    13   1      ; 
+0207    TGETS   15   0  30  ; "role_move_grid_cache"
+0208    KSHORT  16   1
+0209    MOV     17  12
+0210    CALL    13   1   4
+0211 => TGETS    9   9  38  ; "parent"
+0212    JMP     10 => 0193
+0213 => UGET    10   0      ; 
+0214    MOV     12  10
+0215    TGETS   10  10  39  ; "checkIsNeedStopPreGrid"
+0216    MOV     13   1
+0217    CALL    10   2   3
+0218    ISF         10
+0219    JMP     11 => 0226
+0220    UGET    10   2      ; 
+0221    TGETS   12   0  30  ; "role_move_grid_cache"
+0222    TGETS   13   0  30  ; "role_move_grid_cache"
+0223    LEN     13  13
+0224    CALL    10   2   3
+0225    TSETS   10   0  29  ; "target_grid_index"
+0226 => GGET    10  40      ; "next"
+0227    TGETS   12   0  30  ; "role_move_grid_cache"
+0228    CALL    10   2   2
+0229    ISEQP   10   0
+0230    JMP     10 => 0247
+0231    TGETS   10   0  30  ; "role_move_grid_cache"
+0232    TGETS   11   0  30  ; "role_move_grid_cache"
+0233    LEN     11  11
+0234    TGETV   10  10  11
+0235    ISF         10
+0236    JMP     11 => 0247
+0237    GGET    11  31      ; "PlanesTile"
+0238    TGETS   11  11  41  ; "indexPixel"
+0239    MOV     13  10
+0240    CALL    11   3   2
+0241    MOV     15   0
+0242    TGETS   13   0  42  ; "handlerTargetEffect"
+0243    KPRI    16   2
+0244    MOV     17  11
+0245    MOV     18  12
+0246    CALL    13   1   5
+0247 => KPRI    10   1
+0248    TSETS   10   0  43  ; "stop_center_flag"
+0249    MOV     12   0
+0250    TGETS   10   0  44  ; "showMoveRoute"
+0251    CALL    10   1   2
+0252    MOV     12   0
+0253    TGETS   10   0  45  ; "doNextRoleMove"
+0254    CALL    10   1   2
+0255    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "role_move_grid_cache"
+0002    ISF          1
+0003    JMP      1 => 0009
+0004    GGET     1   1      ; "next"
+0005    TGETS    3   0   0  ; "role_move_grid_cache"
+0006    CALL     1   2   2
+0007    ISNEP    1   0
+0008    JMP      1 => 0010
+0009 => RET0     0   1
+0010 => TNEW     1   0
+0011    GGET     2   2      ; "ipairs"
+0012    TGETS    4   0   0  ; "role_move_grid_cache"
+0013    CALL     2   4   2
+0014    JMP      5 => 0065
+0015 => TNEW     7   0
+0016    KSHORT   8   1
+0017    TSETS    8   7   3  ; "dir"
+0018    GGET     8   4      ; "PlanesTile"
+0019    TGETS    8   8   5  ; "indexPixel"
+0020    MOV     10   6
+0021    CALL     8   3   2
+0022    TGETS   10   0   0  ; "role_move_grid_cache"
+0023    ADDVN   11   5   0  ; 1
+0024    TGETV   10  10  11
+0025    ISF         10
+0026    JMP     11 => 0065
+0027    GGET    11   4      ; "PlanesTile"
+0028    TGETS   11  11   5  ; "indexPixel"
+0029    MOV     13  10
+0030    CALL    11   3   2
+0031    ISGE     8  11
+0032    JMP     13 => 0038
+0033    ISGE     9  12
+0034    JMP     13 => 0038
+0035    KSHORT  13   1
+0036    TSETS   13   7   3  ; "dir"
+0037    JMP     13 => 0058
+0038 => ISGE     8  11
+0039    JMP     13 => 0045
+0040    ISGE    12   9
+0041    JMP     13 => 0045
+0042    KSHORT  13   2
+0043    TSETS   13   7   3  ; "dir"
+0044    JMP     13 => 0058
+0045 => ISGE    11   8
+0046    JMP     13 => 0052
+0047    ISGE    12   9
+0048    JMP     13 => 0052
+0049    KSHORT  13   3
+0050    TSETS   13   7   3  ; "dir"
+0051    JMP     13 => 0058
+0052 => ISGE    11   8
+0053    JMP     13 => 0058
+0054    ISGE     9  12
+0055    JMP     13 => 0058
+0056    KSHORT  13   4
+0057    TSETS   13   7   3  ; "dir"
+0058 => TSETS    8   7   6  ; "pos_x"
+0059    TSETS    9   7   7  ; "pos_y"
+0060    TSETS    6   7   8  ; "grid_index"
+0061    UGET    13   0      ; 
+0062    MOV     15   1
+0063    MOV     16   7
+0064    CALL    13   1   3
+0065 => ITERC    5   3   3
+0066    ITERL    5 => 0015
+0067    GGET     2   9      ; "pairs"
+0068    TGETS    4   0  10  ; "route_effect_list"
+0069    CALL     2   4   2
+0070    ISNEXT   5 => 0079
+0071 => TGETS    7   6  11  ; "effect"
+0072    ISF          7
+0073    JMP      8 => 0079
+0074    TGETS    7   6  11  ; "effect"
+0075    MOV      9   7
+0076    TGETS    7   7  12  ; "setVisible"
+0077    KPRI    10   1
+0078    CALL     7   1   3
+0079 => ITERN    5   3   3
+0080    ITERL    5 => 0071
+0081    GGET     2   2      ; "ipairs"
+0082    MOV      4   1
+0083    CALL     2   4   2
+0084    JMP      5 => 0190
+0085 => TGETS    7   0  10  ; "route_effect_list"
+0086    TGETV    7   7   5
+0087    ISF          7
+0088    JMP      8 => 0094
+0089    GGET     8   1      ; "next"
+0090    MOV     10   7
+0091    CALL     8   2   2
+0092    ISNEP    8   0
+0093    JMP      8 => 0125
+0094 => TNEW     7   0
+0095    GGET     8  13      ; "createEffectSpine"
+0096    GGET    10  14      ; "Config"
+0097    TGETS   10  10  15  ; "EffectData"
+0098    TGETS   10  10  16  ; "data_effect_info"
+0099    KSHORT  11 1505
+0100    TGETV   10  10  11
+0101    GGET    11  17      ; "cc"
+0102    TGETS   11  11  18  ; "p"
+0103    TGETS   13   6   6  ; "pos_x"
+0104    TGETS   14   6   7  ; "pos_y"
+0105    CALL    11   2   3
+0106    GGET    12  17      ; "cc"
+0107    TGETS   12  12  18  ; "p"
+0108    KNUM    14   1      ; 0.5
+0109    KNUM    15   1      ; 0.5
+0110    CALL    12   2   3
+0111    KPRI    13   2
+0112    GGET    14  19      ; "PlayerAction"
+0113    TGETS   14  14  20  ; "action"
+0114    CALL     8   2   6
+0115    TSETS    8   7  11  ; "effect"
+0116    TGETS    8   0  21  ; "evt_slayer"
+0117    MOV     10   8
+0118    TGETS    8   8  22  ; "addChild"
+0119    TGETS   11   7  11  ; "effect"
+0120    KSHORT  12 999
+0121    CALL     8   1   4
+0122    TGETS    8   0  10  ; "route_effect_list"
+0123    TSETV    7   8   5
+0124    JMP      8 => 0143
+0125 => TGETS    8   7  11  ; "effect"
+0126    MOV     10   8
+0127    TGETS    8   8  23  ; "setToSetupPose"
+0128    CALL     8   1   2
+0129    TGETS    8   7  11  ; "effect"
+0130    MOV     10   8
+0131    TGETS    8   8  24  ; "setPosition"
+0132    TGETS   11   6   6  ; "pos_x"
+0133    TGETS   12   6   7  ; "pos_y"
+0134    CALL     8   1   4
+0135    TGETS    8   7  11  ; "effect"
+0136    MOV     10   8
+0137    TGETS    8   8  25  ; "setAnimation"
+0138    KSHORT  11   0
+0139    GGET    12  19      ; "PlayerAction"
+0140    TGETS   12  12  20  ; "action"
+0141    KPRI    13   2
+0142    CALL     8   1   5
+0143 => TGETS    8   7  11  ; "effect"
+0144    MOV     10   8
+0145    TGETS    8   8  12  ; "setVisible"
+0146    KPRI    11   2
+0147    CALL     8   1   3
+0148    TGETS    8   7  11  ; "effect"
+0149    MOV     10   8
+0150    TGETS    8   8  26  ; "setScale"
+0151    KSHORT  11   1
+0152    CALL     8   1   3
+0153    TGETS    8   6   3  ; "dir"
+0154    ISNEN    8   0      ; 1
+0155    JMP      8 => 0162
+0156    TGETS    8   7  11  ; "effect"
+0157    MOV     10   8
+0158    TGETS    8   8  26  ; "setScale"
+0159    KSHORT  11  -1
+0160    CALL     8   1   3
+0161    JMP      8 => 0188
+0162 => TGETS    8   6   3  ; "dir"
+0163    ISNEN    8   2      ; 2
+0164    JMP      8 => 0171
+0165    TGETS    8   7  11  ; "effect"
+0166    MOV     10   8
+0167    TGETS    8   8  27  ; "setScaleX"
+0168    KSHORT  11  -1
+0169    CALL     8   1   3
+0170    JMP      8 => 0188
+0171 => TGETS    8   6   3  ; "dir"
+0172    ISNEN    8   3      ; 3
+0173    JMP      8 => 0180
+0174    TGETS    8   7  11  ; "effect"
+0175    MOV     10   8
+0176    TGETS    8   8  26  ; "setScale"
+0177    KSHORT  11   1
+0178    CALL     8   1   3
+0179    JMP      8 => 0188
+0180 => TGETS    8   6   3  ; "dir"
+0181    ISNEN    8   4      ; 4
+0182    JMP      8 => 0188
+0183    TGETS    8   7  11  ; "effect"
+0184    MOV     10   8
+0185    TGETS    8   8  28  ; "setScaleY"
+0186    KSHORT  11  -1
+0187    CALL     8   1   3
+0188 => TGETS    8   6   8  ; "grid_index"
+0189    TSETS    8   7   8  ; "grid_index"
+0190 => ITERC    5   3   3
+0191    ITERL    5 => 0085
+0192    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      4 => 0062
+0003    GGET     4   0      ; "tolua"
+0004    TGETS    4   4   1  ; "isnull"
+0005    TGETS    6   0   2  ; "evt_slayer"
+0006    CALL     4   2   2
+0007    IST          4
+0008    JMP      4 => 0040
+0009    TGETS    4   0   3  ; "target_effect"
+0010    ISNEP    4   0
+0011    JMP      4 => 0040
+0012    GGET     4   4      ; "createEffectSpine"
+0013    GGET     6   5      ; "Config"
+0014    TGETS    6   6   6  ; "EffectData"
+0015    TGETS    6   6   7  ; "data_effect_info"
+0016    KSHORT   7 1504
+0017    TGETV    6   6   7
+0018    GGET     7   8      ; "cc"
+0019    TGETS    7   7   9  ; "p"
+0020    MOV      9   2
+0021    MOV     10   3
+0022    CALL     7   2   3
+0023    GGET     8   8      ; "cc"
+0024    TGETS    8   8   9  ; "p"
+0025    KNUM    10   0      ; 0.5
+0026    KNUM    11   0      ; 0.5
+0027    CALL     8   2   3
+0028    KPRI     9   2
+0029    GGET    10  10      ; "PlayerAction"
+0030    TGETS   10  10  11  ; "action_2"
+0031    CALL     4   2   6
+0032    TSETS    4   0   3  ; "target_effect"
+0033    TGETS    4   0   2  ; "evt_slayer"
+0034    MOV      6   4
+0035    TGETS    4   4  12  ; "addChild"
+0036    TGETS    7   0   3  ; "target_effect"
+0037    KNUM     8   1      ; 99999
+0038    CALL     4   1   4
+0039    JMP      4 => 0075
+0040 => TGETS    4   0   3  ; "target_effect"
+0041    ISF          4
+0042    JMP      5 => 0075
+0043    TGETS    4   0   3  ; "target_effect"
+0044    MOV      6   4
+0045    TGETS    4   4  13  ; "setToSetupPose"
+0046    CALL     4   1   2
+0047    TGETS    4   0   3  ; "target_effect"
+0048    MOV      6   4
+0049    TGETS    4   4  14  ; "setPosition"
+0050    MOV      7   2
+0051    MOV      8   3
+0052    CALL     4   1   4
+0053    TGETS    4   0   3  ; "target_effect"
+0054    MOV      6   4
+0055    TGETS    4   4  15  ; "setAnimation"
+0056    KSHORT   7   0
+0057    GGET     8  10      ; "PlayerAction"
+0058    TGETS    8   8  11  ; "action_2"
+0059    KPRI     9   2
+0060    CALL     4   1   5
+0061    JMP      4 => 0075
+0062 => TGETS    4   0   3  ; "target_effect"
+0063    ISF          4
+0064    JMP      5 => 0075
+0065    TGETS    4   0   3  ; "target_effect"
+0066    MOV      6   4
+0067    TGETS    4   4  16  ; "clearTracks"
+0068    CALL     4   1   2
+0069    TGETS    4   0   3  ; "target_effect"
+0070    MOV      6   4
+0071    TGETS    4   4  17  ; "removeFromParent"
+0072    CALL     4   1   2
+0073    KPRI     4   0
+0074    TSETS    4   0   3  ; "target_effect"
+0075 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0008
+0003    GGET     2   0      ; "next"
+0004    MOV      4   1
+0005    CALL     2   2   2
+0006    ISNEP    2   0
+0007    JMP      2 => 0009
+0008 => RET0     0   1
+0009 => GGET     2   1      ; "pairs"
+0010    MOV      4   1
+0011    CALL     2   4   2
+0012    ISNEXT   5 => 0103
+0013 => TGETS    7   0   2  ; "evt_item_list"
+0014    TGETV    7   7   6
+0015    ISF          7
+0016    JMP      8 => 0021
+0017    MOV     10   7
+0018    TGETS    8   7   3  ; "setVisible"
+0019    KPRI    11   1
+0020    CALL     8   1   3
+0021 => TGETS    8   0   4  ; "grid_object_list"
+0022    TGETV    8   8   6
+0023    ISF          8
+0024    JMP      9 => 0033
+0025    TGETS    9   8   5  ; "grid_icon"
+0026    ISF          9
+0027    JMP     10 => 0033
+0028    TGETS    9   8   5  ; "grid_icon"
+0029    MOV     11   9
+0030    TGETS    9   9   3  ; "setVisible"
+0031    KPRI    12   1
+0032    CALL     9   1   3
+0033 => TGETS    9   0   6  ; "break_effect_list"
+0034    TGETV    9   9   5
+0035    IST          9
+0036    JMP     10 => 0070
+0037    GGET    10   7      ; "createEffectSpine"
+0038    GGET    12   8      ; "Config"
+0039    TGETS   12  12   9  ; "EffectData"
+0040    TGETS   12  12  10  ; "data_effect_info"
+0041    KSHORT  13 1705
+0042    TGETV   12  12  13
+0043    GGET    13  11      ; "cc"
+0044    TGETS   13  13  12  ; "p"
+0045    KSHORT  15   0
+0046    KSHORT  16   0
+0047    CALL    13   2   3
+0048    GGET    14  11      ; "cc"
+0049    TGETS   14  14  12  ; "p"
+0050    KNUM    16   0      ; 0.5
+0051    KNUM    17   1      ; 0.75
+0052    CALL    14   2   3
+0053    KPRI    15   1
+0054    GGET    16  13      ; "PlayerAction"
+0055    TGETS   16  16  14  ; "action"
+0056    GGET    17  15      ; "handler"
+0057    MOV     19   0
+0058    TGETS   20   0  16  ; "onBreakAniEnd"
+0059    CALL    17   0   3
+0060    CALLM   10   2   5
+0061    MOV      9  10
+0062    TGETS   10   0  17  ; "grid_slayer"
+0063    MOV     12  10
+0064    TGETS   10  10  18  ; "addChild"
+0065    MOV     13   9
+0066    CALL    10   1   3
+0067    TGETS   10   0   6  ; "break_effect_list"
+0068    TSETV    9  10   5
+0069    JMP     10 => 0084
+0070 => MOV     12   9
+0071    TGETS   10   9   3  ; "setVisible"
+0072    KPRI    13   2
+0073    CALL    10   1   3
+0074    MOV     12   9
+0075    TGETS   10   9  19  ; "setToSetupPose"
+0076    CALL    10   1   2
+0077    MOV     12   9
+0078    TGETS   10   9  20  ; "setAnimation"
+0079    KSHORT  13   0
+0080    GGET    14  13      ; "PlayerAction"
+0081    TGETS   14  14  14  ; "action"
+0082    KPRI    15   1
+0083    CALL    10   1   5
+0084 => GGET    10  21      ; "PlanesTile"
+0085    TGETS   10  10  22  ; "indexPixel"
+0086    MOV     12   6
+0087    CALL    10   3   2
+0088    MOV     14   9
+0089    TGETS   12   9  23  ; "setPosition"
+0090    MOV     15  10
+0091    MOV     16  11
+0092    CALL    12   1   4
+0093    GGET    12  21      ; "PlanesTile"
+0094    TGETS   12  12  24  ; "indexTile"
+0095    MOV     14   6
+0096    CALL    12   3   2
+0097    MOV     16   9
+0098    TGETS   14   9  25  ; "setLocalZOrder"
+0099    SUBNV   17  13   2  ; 100
+0100    MULVN   17  17   2  ; 100
+0101    ADDVV   17  17  12
+0102    CALL    14   1   3
+0103 => ITERN    5   3   3
+0104    ITERL    5 => 0013
+0105    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     1   0      ; "pairs"
+0002    TGETS    3   0   1  ; "break_effect_list"
+0003    CALL     1   4   2
+0004    ISNEXT   4 => 0009
+0005 => MOV      8   5
+0006    TGETS    6   5   2  ; "setVisible"
+0007    KPRI     9   1
+0008    CALL     6   1   3
+0009 => ITERN    4   3   3
+0010    ITERL    4 => 0005
+0011    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0068
+0003    TGETS    2   0   0  ; "lock_mask"
+0004    IST          2
+0005    JMP      2 => 0062
+0006    TGETS    2   0   1  ; "ui_container"
+0007    MOV      4   2
+0008    TGETS    2   2   2  ; "getContentSize"
+0009    CALL     2   2   2
+0010    GGET     3   3      ; "ccui"
+0011    TGETS    3   3   4  ; "Layout"
+0012    MOV      5   3
+0013    TGETS    3   3   5  ; "create"
+0014    CALL     3   2   2
+0015    TSETS    3   0   0  ; "lock_mask"
+0016    TGETS    3   0   0  ; "lock_mask"
+0017    MOV      5   3
+0018    TGETS    3   3   6  ; "setContentSize"
+0019    GGET     6   7      ; "SCREEN_WIDTH"
+0020    GGET     7   8      ; "SCREEN_HEIGHT"
+0021    CALL     3   1   4
+0022    TGETS    3   0   0  ; "lock_mask"
+0023    MOV      5   3
+0024    TGETS    3   3   9  ; "setAnchorPoint"
+0025    GGET     6  10      ; "cc"
+0026    TGETS    6   6  11  ; "p"
+0027    KNUM     8   0      ; 0.5
+0028    KNUM     9   0      ; 0.5
+0029    CALL     6   0   3
+0030    CALLM    3   1   1
+0031    TGETS    3   0   0  ; "lock_mask"
+0032    MOV      5   3
+0033    TGETS    3   3  12  ; "setScale"
+0034    GGET     6  13      ; "display"
+0035    TGETS    6   6  14  ; "getMaxScale"
+0036    CALL     6   0   1
+0037    CALLM    3   1   1
+0038    TGETS    3   0   0  ; "lock_mask"
+0039    MOV      5   3
+0040    TGETS    3   3  15  ; "setPosition"
+0041    TGETS    6   2  16  ; "width"
+0042    MULVN    6   6   0  ; 0.5
+0043    TGETS    7   2  17  ; "height"
+0044    MULVN    7   7   0  ; 0.5
+0045    CALL     3   1   4
+0046    TGETS    3   0   0  ; "lock_mask"
+0047    MOV      5   3
+0048    TGETS    3   3  18  ; "setTouchEnabled"
+0049    KPRI     6   2
+0050    CALL     3   1   3
+0051    TGETS    3   0   0  ; "lock_mask"
+0052    MOV      5   3
+0053    TGETS    3   3  19  ; "setSwallowTouches"
+0054    KPRI     6   2
+0055    CALL     3   1   3
+0056    TGETS    3   0   1  ; "ui_container"
+0057    MOV      5   3
+0058    TGETS    3   3  20  ; "addChild"
+0059    TGETS    6   0   0  ; "lock_mask"
+0060    KSHORT   7  10
+0061    CALL     3   1   4
+0062 => TGETS    2   0   0  ; "lock_mask"
+0063    MOV      4   2
+0064    TGETS    2   2  21  ; "setVisible"
+0065    KPRI     5   2
+0066    CALL     2   1   3
+0067    JMP      2 => 0076
+0068 => TGETS    2   0   0  ; "lock_mask"
+0069    ISF          2
+0070    JMP      3 => 0076
+0071    TGETS    2   0   0  ; "lock_mask"
+0072    MOV      4   2
+0073    TGETS    2   2  21  ; "setVisible"
+0074    KPRI     5   1
+0075    CALL     2   1   3
+0076 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     1   0      ; 
+0002    TGETS    3   0   0  ; "role_move_grid_cache"
+0003    KSHORT   4   1
+0004    CALL     1   2   3
+0005    IST          1
+0006    JMP      2 => 0011
+0007    MOV      4   0
+0008    TGETS    2   0   1  ; "doRoleStopMove"
+0009    CALL     2   1   2
+0010    RET0     0   1
+0011 => TGETS    2   0   2  ; "stop_center_flag"
+0012    IST          2
+0013    JMP      2 => 0017
+0014    MOV      4   0
+0015    TGETS    2   0   3  ; "moveMapToRoleCenter"
+0016    CALL     2   1   2
+0017 => UGET     2   1      ; 
+0018    MOV      4   2
+0019    TGETS    2   2   4  ; "sender23103"
+0020    MOV      5   1
+0021    CALL     2   1   3
+0022    MOV      4   0
+0023    TGETS    2   0   5  ; "moveRoleByGrid"
+0024    MOV      5   1
+0025    CALL     2   1   3
+0026    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     0   0      ; 
+0002    TGETS    0   0   0  ; "effect"
+0003    MOV      2   0
+0004    TGETS    0   0   1  ; "setVisible"
+0005    KPRI     3   1
+0006    CALL     0   1   3
+0007    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "doNextRoleMove"
+0004    CALL     0   1   2
+0005    UGET     0   0      ; 
+0006    MOV      2   0
+0007    TGETS    0   0   1  ; "checkShowRoundGrid"
+0008    UGET     3   0      ; 
+0009    TGETS    3   3   2  ; "cur_role_grid_index"
+0010    CALL     0   1   3
+0011    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    2   0   0  ; "map_role"
+0002    IST          2
+0003    JMP      2 => 0005
+0004    UCLO     0 => 0226
+0005 => GGET     2   1      ; "PlanesTile"
+0006    TGETS    2   2   2  ; "indexTile"
+0007    MOV      4   1
+0008    CALL     2   3   2
+0009    TSETS    1   0   3  ; "cur_role_grid_index"
+0010    KPRI     4   2
+0011    TSETS    4   0   4  ; "is_role_moving"
+0012    MOV      6   0
+0013    TGETS    4   0   5  ; "openMapMoveTimer"
+0014    KPRI     7   1
+0015    CALL     4   1   3
+0016    TGETS    4   0   0  ; "map_role"
+0017    MOV      6   4
+0018    TGETS    4   4   6  ; "getPosition"
+0019    CALL     4   3   2
+0020    GGET     6   1      ; "PlanesTile"
+0021    TGETS    6   6   7  ; "indexPixel"
+0022    MOV      8   1
+0023    CALL     6   3   2
+0024    TSETS    6   0   8  ; "move_target_pos_x"
+0025    TSETS    7   0   9  ; "move_target_pos_y"
+0026    ISGE     4   6
+0027    JMP      8 => 0034
+0028    TGETS    8   0   0  ; "map_role"
+0029    MOV     10   8
+0030    TGETS    8   8  10  ; "setScaleX"
+0031    KNUM    11   0      ; 0.4
+0032    CALL     8   1   3
+0033    JMP      8 => 0039
+0034 => TGETS    8   0   0  ; "map_role"
+0035    MOV     10   8
+0036    TGETS    8   8  10  ; "setScaleX"
+0037    KNUM    11   1      ; -0.4
+0038    CALL     8   1   3
+0039 => GGET     8  11      ; "pairs"
+0040    TGETS   10   0  12  ; "route_effect_list"
+0041    CALL     8   4   2
+0042    ISNEXT  11 => 0072
+0043 => TGETS   13  12  13  ; "grid_index"
+0044    ISNEV   13   1
+0045    JMP     13 => 0071
+0046    TGETS   13  12  14  ; "effect"
+0047    ISF         13
+0048    JMP     14 => 0070
+0049    TGETS   13  12  14  ; "effect"
+0050    MOV     15  13
+0051    TGETS   13  13  15  ; "runAction"
+0052    GGET    16  16      ; "cc"
+0053    TGETS   16  16  17  ; "Sequence"
+0054    MOV     18  16
+0055    TGETS   16  16  18  ; "create"
+0056    GGET    19  16      ; "cc"
+0057    TGETS   19  19  19  ; "DelayTime"
+0058    MOV     21  19
+0059    TGETS   19  19  18  ; "create"
+0060    KNUM    22   2      ; 0.5
+0061    CALL    19   2   3
+0062    GGET    20  16      ; "cc"
+0063    TGETS   20  20  20  ; "CallFunc"
+0064    MOV     22  20
+0065    TGETS   20  20  18  ; "create"
+0066    FNEW    23  21      ; C025A55CFEEA600E.luac:0
+0067    CALL    20   0   3
+0068    CALLM   16   0   2
+0069    CALLM   13   1   1
+0070 => UCLO     8 => 0074
+0071 => UCLO    11 => 0072
+0072 => ITERN   11   3   3
+0073    ITERL   11 => 0043
+0074 => GGET     8  22      ; "math"
+0075    TGETS    8   8  23  ; "sqrt"
+0076    GGET    10  22      ; "math"
+0077    TGETS   10  10  24  ; "pow"
+0078    SUBVV   12   6   4
+0079    KSHORT  13   2
+0080    CALL    10   2   3
+0081    GGET    11  22      ; "math"
+0082    TGETS   11  11  24  ; "pow"
+0083    SUBVV   13   7   5
+0084    KSHORT  14   2
+0085    CALL    11   2   3
+0086    ADDVV   10  10  11
+0087    CALL     8   2   2
+0088    GGET     9  25      ; "PlanesConst"
+0089    TGETS    9   9  26  ; "Move_Speed"
+0090    DIVVV    9   8   9
+0091    TGETS   10   0  27  ; "cur_role_action"
+0092    ISF         10
+0093    JMP     10 => 0099
+0094    TGETS   10   0  27  ; "cur_role_action"
+0095    GGET    11  28      ; "PlayerAction"
+0096    TGETS   11  11  29  ; "move"
+0097    ISEQV   10  11
+0098    JMP     10 => 0114
+0099 => GGET    10  28      ; "PlayerAction"
+0100    TGETS   10  10  29  ; "move"
+0101    TSETS   10   0  27  ; "cur_role_action"
+0102    TGETS   10   0   0  ; "map_role"
+0103    MOV     12  10
+0104    TGETS   10  10  30  ; "setToSetupPose"
+0105    CALL    10   1   2
+0106    TGETS   10   0   0  ; "map_role"
+0107    MOV     12  10
+0108    TGETS   10  10  31  ; "setAnimation"
+0109    KSHORT  13   0
+0110    GGET    14  28      ; "PlayerAction"
+0111    TGETS   14  14  29  ; "move"
+0112    KPRI    15   2
+0113    CALL    10   1   5
+0114 => TGETS   10   0   0  ; "map_role"
+0115    MOV     12  10
+0116    TGETS   10  10  15  ; "runAction"
+0117    GGET    13  16      ; "cc"
+0118    TGETS   13  13  17  ; "Sequence"
+0119    MOV     15  13
+0120    TGETS   13  13  18  ; "create"
+0121    GGET    16  16      ; "cc"
+0122    TGETS   16  16  32  ; "MoveTo"
+0123    MOV     18  16
+0124    TGETS   16  16  18  ; "create"
+0125    MOV     19   9
+0126    GGET    20  16      ; "cc"
+0127    TGETS   20  20  33  ; "p"
+0128    MOV     22   6
+0129    MOV     23   7
+0130    CALL    20   0   3
+0131    CALLM   16   2   2
+0132    GGET    17  16      ; "cc"
+0133    TGETS   17  17  20  ; "CallFunc"
+0134    MOV     19  17
+0135    TGETS   17  17  18  ; "create"
+0136    FNEW    20  34      ; C025A55CFEEA600E.luac:0
+0137    CALL    17   0   3
+0138    CALLM   13   0   2
+0139    CALLM   10   1   1
+0140    MOV     12   0
+0141    TGETS   10   0  35  ; "updateRoleZOrder"
+0142    CALL    10   1   2
+0143    TGETS   10   0  36  ; "stop_center_flag"
+0144    IST         10
+0145    JMP     10 => 0224
+0146    TGETS   10   0  37  ; "map_container"
+0147    MOV     12  10
+0148    TGETS   10  10   6  ; "getPosition"
+0149    CALL    10   3   2
+0150    SUBVV   12   6   4
+0151    SUBVV   12  10  12
+0152    SUBVV   13   7   5
+0153    SUBVV   13  11  13
+0154    MOV     16   0
+0155    TGETS   14   0  39  ; "checkMapIsCanMove"
+0156    CALL    14   2   2
+0157    TSETS   14   0  38  ; "map_move_state"
+0158    TGETS   14   0  38  ; "map_move_state"
+0159    ISEQN   14   3      ; 0
+0160    JMP     14 => 0217
+0161    MOV     16   0
+0162    TGETS   14   0  40  ; "checkMapSafePos"
+0163    MOV     17  12
+0164    MOV     18  13
+0165    CALL    14   3   4
+0166    MOV     13  15
+0167    MOV     12  14
+0168    TGETS   14   0  38  ; "map_move_state"
+0169    ISNEN   14   4      ; 1
+0170    JMP     14 => 0177
+0171    MOV     13  11
+0172    MOV     16   0
+0173    TGETS   14   0   5  ; "openMapMoveTimer"
+0174    KPRI    17   2
+0175    CALL    14   1   3
+0176    JMP     14 => 0185
+0177 => TGETS   14   0  38  ; "map_move_state"
+0178    ISNEN   14   5      ; 2
+0179    JMP     14 => 0185
+0180    MOV     12  10
+0181    MOV     16   0
+0182    TGETS   14   0   5  ; "openMapMoveTimer"
+0183    KPRI    17   2
+0184    CALL    14   1   3
+0185 => GGET    14  22      ; "math"
+0186    TGETS   14  14  23  ; "sqrt"
+0187    GGET    16  22      ; "math"
+0188    TGETS   16  16  24  ; "pow"
+0189    SUBVV   18  12  10
+0190    KSHORT  19   2
+0191    CALL    16   2   3
+0192    GGET    17  22      ; "math"
+0193    TGETS   17  17  24  ; "pow"
+0194    SUBVV   19  13  11
+0195    KSHORT  20   2
+0196    CALL    17   2   3
+0197    ADDVV   16  16  17
+0198    CALL    14   2   2
+0199    GGET    15  25      ; "PlanesConst"
+0200    TGETS   15  15  26  ; "Move_Speed"
+0201    DIVVV   15  14  15
+0202    TGETS   16   0  37  ; "map_container"
+0203    MOV     18  16
+0204    TGETS   16  16  15  ; "runAction"
+0205    GGET    19  16      ; "cc"
+0206    TGETS   19  19  32  ; "MoveTo"
+0207    MOV     21  19
+0208    TGETS   19  19  18  ; "create"
+0209    MOV     22  15
+0210    GGET    23  16      ; "cc"
+0211    TGETS   23  23  33  ; "p"
+0212    MOV     25  12
+0213    MOV     26  13
+0214    CALL    23   0   3
+0215    CALLM   19   0   2
+0216    CALLM   16   1   1
+0217 => TGETS   14   0  38  ; "map_move_state"
+0218    ISEQN   14   6      ; 3
+0219    JMP     14 => 0224
+0220    MOV     16   0
+0221    TGETS   14   0   5  ; "openMapMoveTimer"
+0222    KPRI    17   2
+0223    CALL    14   1   3
+0224 => UCLO     0 => 0225
+0225 => RET0     0   1
+0226 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "getMapPosOfRoleCenter"
+0003    CALL     1   3   2
+0004    TGETS    3   0   1  ; "map_container"
+0005    MOV      5   3
+0006    TGETS    3   3   2  ; "runAction"
+0007    GGET     6   3      ; "cc"
+0008    TGETS    6   6   4  ; "MoveTo"
+0009    MOV      8   6
+0010    TGETS    6   6   5  ; "create"
+0011    KNUM     9   0      ; 0.3
+0012    GGET    10   3      ; "cc"
+0013    TGETS   10  10   6  ; "p"
+0014    MOV     12   1
+0015    MOV     13   2
+0016    CALL    10   0   3
+0017    CALLM    6   0   2
+0018    CALLM    3   1   1
+0019    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    KSHORT   1   0
+0002    KSHORT   2   0
+0003    TGETS    3   0   0  ; "map_role"
+0004    ISF          3
+0005    JMP      4 => 0030
+0006    TGETS    3   0   0  ; "map_role"
+0007    MOV      5   3
+0008    TGETS    3   3   1  ; "getPosition"
+0009    CALL     3   3   2
+0010    GGET     5   2      ; "SCREEN_WIDTH"
+0011    MULVN    5   5   0  ; 0.5
+0012    ISGT     3   5
+0013    JMP      5 => 0016
+0014    KSHORT   1   0
+0015    JMP      5 => 0019
+0016 => GGET     5   2      ; "SCREEN_WIDTH"
+0017    MULVN    5   5   0  ; 0.5
+0018    SUBVV    1   5   3
+0019 => GGET     5   3      ; "display"
+0020    TGETS    5   5   4  ; "height"
+0021    MULVN    5   5   0  ; 0.5
+0022    ISGT     4   5
+0023    JMP      5 => 0026
+0024    KSHORT   2   0
+0025    JMP      5 => 0030
+0026 => GGET     5   3      ; "display"
+0027    TGETS    5   5   4  ; "height"
+0028    MULVN    5   5   0  ; 0.5
+0029    SUBVV    2   5   4
+0030 => MOV      5   0
+0031    TGETS    3   0   5  ; "checkMapSafePos"
+0032    MOV      6   1
+0033    MOV      7   2
+0034    CALLT    3   4
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    KSHORT   1   0
+0002    TGETS    2   0   0  ; "map_role"
+0003    IST          2
+0004    JMP      2 => 0006
+0005    RET1     1   2
+0006 => TGETS    2   0   0  ; "map_role"
+0007    MOV      4   2
+0008    TGETS    2   2   1  ; "getPosition"
+0009    CALL     2   3   2
+0010    GGET     4   2      ; "SCREEN_WIDTH"
+0011    MULVN    4   4   0  ; 0.5
+0012    ISGT     4   2
+0013    JMP      4 => 0021
+0014    TGETS    4   0   3  ; "cur_map_width"
+0015    GGET     5   2      ; "SCREEN_WIDTH"
+0016    MULVN    5   5   0  ; 0.5
+0017    SUBVV    4   4   5
+0018    ISGT     2   4
+0019    JMP      4 => 0021
+0020    KSHORT   1   1
+0021 => GGET     4   4      ; "display"
+0022    TGETS    4   4   5  ; "height"
+0023    MULVN    4   4   0  ; 0.5
+0024    ISGT     4   3
+0025    JMP      4 => 0039
+0026    TGETS    4   0   6  ; "cur_map_height"
+0027    GGET     5   4      ; "display"
+0028    TGETS    5   5   5  ; "height"
+0029    MULVN    5   5   0  ; 0.5
+0030    SUBVV    4   4   5
+0031    ISGT     3   4
+0032    JMP      4 => 0039
+0033    KSHORT   4   0
+0034    ISGE     4   1
+0035    JMP      4 => 0038
+0036    KSHORT   1   3
+0037    JMP      4 => 0039
+0038 => KSHORT   1   2
+0039 => RET1     1   2
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "checkMapIsCanMove"
+0004    CALL     0   2   2
+0005    UGET     1   0      ; 
+0006    TGETS    1   1   1  ; "map_move_state"
+0007    ISEQV    0   1
+0008    JMP      1 => 0085
+0009    UGET     1   0      ; 
+0010    TSETS    0   1   1  ; "map_move_state"
+0011    UGET     1   0      ; 
+0012    TGETS    1   1   2  ; "move_target_pos_x"
+0013    ISF          1
+0014    JMP      2 => 0085
+0015    UGET     1   0      ; 
+0016    TGETS    1   1   3  ; "move_target_pos_y"
+0017    ISF          1
+0018    JMP      2 => 0085
+0019    UGET     1   0      ; 
+0020    TGETS    1   1   4  ; "map_role"
+0021    MOV      3   1
+0022    TGETS    1   1   5  ; "getPosition"
+0023    CALL     1   3   2
+0024    UGET     3   0      ; 
+0025    TGETS    3   3   6  ; "map_container"
+0026    MOV      5   3
+0027    TGETS    3   3   5  ; "getPosition"
+0028    CALL     3   3   2
+0029    UGET     5   0      ; 
+0030    TGETS    5   5   2  ; "move_target_pos_x"
+0031    SUBVV    5   5   1
+0032    SUBVV    5   3   5
+0033    UGET     6   0      ; 
+0034    TGETS    6   6   3  ; "move_target_pos_y"
+0035    SUBVV    6   6   2
+0036    SUBVV    6   4   6
+0037    UGET     7   0      ; 
+0038    MOV      9   7
+0039    TGETS    7   7   7  ; "checkMapSafePos"
+0040    MOV     10   5
+0041    MOV     11   6
+0042    CALL     7   3   4
+0043    MOV      6   8
+0044    MOV      5   7
+0045    ISNEN    0   0      ; 1
+0046    JMP      7 => 0049
+0047    MOV      6   4
+0048    JMP      7 => 0052
+0049 => ISNEN    0   1      ; 2
+0050    JMP      7 => 0052
+0051    MOV      5   3
+0052 => GGET     7   8      ; "math"
+0053    TGETS    7   7   9  ; "sqrt"
+0054    GGET     9   8      ; "math"
+0055    TGETS    9   9  10  ; "pow"
+0056    SUBVV   11   5   3
+0057    KSHORT  12   2
+0058    CALL     9   2   3
+0059    GGET    10   8      ; "math"
+0060    TGETS   10  10  10  ; "pow"
+0061    SUBVV   12   6   4
+0062    KSHORT  13   2
+0063    CALL    10   2   3
+0064    ADDVV    9   9  10
+0065    CALL     7   2   2
+0066    GGET     8  11      ; "PlanesConst"
+0067    TGETS    8   8  12  ; "Move_Speed"
+0068    DIVVV    8   7   8
+0069    UGET     9   0      ; 
+0070    TGETS    9   9   6  ; "map_container"
+0071    MOV     11   9
+0072    TGETS    9   9  13  ; "runAction"
+0073    GGET    12  14      ; "cc"
+0074    TGETS   12  12  15  ; "MoveTo"
+0075    MOV     14  12
+0076    TGETS   12  12  16  ; "create"
+0077    MOV     15   8
+0078    GGET    16  14      ; "cc"
+0079    TGETS   16  16  17  ; "p"
+0080    MOV     18   5
+0081    MOV     19   6
+0082    CALL    16   0   3
+0083    CALLM   12   0   2
+0084    CALLM    9   1   1
+0085 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0017
+0003    TGETS    2   0   0  ; "map_move_timer"
+0004    IST          2
+0005    JMP      2 => 0030
+0006    GGET     2   1      ; "GlobalTimeTicket"
+0007    MOV      4   2
+0008    TGETS    2   2   2  ; "getInstance"
+0009    CALL     2   2   2
+0010    MOV      4   2
+0011    TGETS    2   2   3  ; "add"
+0012    FNEW     5   4      ; C025A55CFEEA600E.luac:0
+0013    KNUM     6   0      ; 0.1
+0014    CALL     2   2   4
+0015    TSETS    2   0   0  ; "map_move_timer"
+0016    JMP      2 => 0030
+0017 => TGETS    2   0   0  ; "map_move_timer"
+0018    ISEQP    2   0
+0019    JMP      2 => 0030
+0020    GGET     2   1      ; "GlobalTimeTicket"
+0021    MOV      4   2
+0022    TGETS    2   2   2  ; "getInstance"
+0023    CALL     2   2   2
+0024    MOV      4   2
+0025    TGETS    2   2   5  ; "remove"
+0026    TGETS    5   0   0  ; "map_move_timer"
+0027    CALL     2   1   3
+0028    KPRI     2   0
+0029    TSETS    2   0   0  ; "map_move_timer"
+0030 => UCLO     0 => 0031
+0031 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "openMapMoveTimer"
+0003    KPRI     4   1
+0004    CALL     1   1   3
+0005    MOV      3   0
+0006    TGETS    1   0   1  ; "handlerTargetEffect"
+0007    KPRI     4   1
+0008    CALL     1   1   3
+0009    TGETS    1   0   2  ; "map_role"
+0010    MOV      3   1
+0011    TGETS    1   1   3  ; "stopAllActions"
+0012    CALL     1   1   2
+0013    TGETS    1   0   2  ; "map_role"
+0014    MOV      3   1
+0015    TGETS    1   1   4  ; "setToSetupPose"
+0016    CALL     1   1   2
+0017    TGETS    1   0   2  ; "map_role"
+0018    MOV      3   1
+0019    TGETS    1   1   5  ; "setAnimation"
+0020    KSHORT   4   0
+0021    GGET     5   6      ; "PlayerAction"
+0022    TGETS    5   5   7  ; "idle"
+0023    KPRI     6   2
+0024    CALL     1   1   5
+0025    GGET     1   6      ; "PlayerAction"
+0026    TGETS    1   1   7  ; "idle"
+0027    TSETS    1   0   8  ; "cur_role_action"
+0028    KPRI     1   1
+0029    TSETS    1   0   9  ; "is_role_moving"
+0030    TNEW     1   0
+0031    TSETS    1   0  10  ; "role_move_grid_cache"
+0032    GGET     1  11      ; "pairs"
+0033    TGETS    3   0  12  ; "route_effect_list"
+0034    CALL     1   4   2
+0035    ISNEXT   4 => 0048
+0036 => TGETS    6   5  13  ; "effect"
+0037    ISF          6
+0038    JMP      7 => 0048
+0039    TGETS    6   5  13  ; "effect"
+0040    MOV      8   6
+0041    TGETS    6   6   3  ; "stopAllActions"
+0042    CALL     6   1   2
+0043    TGETS    6   5  13  ; "effect"
+0044    MOV      8   6
+0045    TGETS    6   6  14  ; "setVisible"
+0046    KPRI     9   1
+0047    CALL     6   1   3
+0048 => ITERN    4   3   3
+0049    ITERL    4 => 0036
+0050    MOV      3   0
+0051    TGETS    1   0  15  ; "checkProceedGridEvt"
+0052    CALL     1   1   2
+0053    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    TGETS    1   0   0  ; "target_grid_index"
+0002    ISF          1
+0003    JMP      2 => 0029
+0004    UGET     1   0      ; 
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "getPlanesEvtVoByGridIndex"
+0007    TGETS    4   0   0  ; "target_grid_index"
+0008    CALL     1   2   3
+0009    ISF          1
+0010    JMP      2 => 0027
+0011    TGETS    2   1   2  ; "config"
+0012    ISF          2
+0013    JMP      3 => 0027
+0014    TGETS    2   1   3  ; "status"
+0015    GGET     3   4      ; "PlanesConst"
+0016    TGETS    3   3   5  ; "Evt_State"
+0017    TGETS    3   3   6  ; "Doing"
+0018    ISNEV    2   3
+0019    JMP      2 => 0027
+0020    UGET     2   1      ; 
+0021    MOV      4   2
+0022    TGETS    2   2   7  ; "onHandlePlanesEvtById"
+0023    TGETS    5   1   2  ; "config"
+0024    TGETS    5   5   8  ; "type"
+0025    TGETS    6   1   9  ; "index"
+0026    CALL     2   1   4
+0027 => KPRI     2   0
+0028    TSETS    2   0   0  ; "target_grid_index"
+0029 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0064
+0003    GGET     2   0      ; "tolua"
+0004    TGETS    2   2   1  ; "isnull"
+0005    TGETS    4   0   2  ; "ui_container"
+0006    CALL     2   2   2
+0007    IST          2
+0008    JMP      2 => 0048
+0009    TGETS    2   0   3  ; "cloud_effect"
+0010    ISNEP    2   0
+0011    JMP      2 => 0048
+0012    GGET     2   4      ; "createEffectSpine"
+0013    GGET     4   5      ; "Config"
+0014    TGETS    4   4   6  ; "EffectData"
+0015    TGETS    4   4   7  ; "data_effect_info"
+0016    TGETB    4   4 157
+0017    GGET     5   8      ; "cc"
+0018    TGETS    5   5   9  ; "p"
+0019    GGET     7  10      ; "SCREEN_WIDTH"
+0020    MULVN    7   7   0  ; 0.5
+0021    GGET     8  11      ; "SCREEN_HEIGHT"
+0022    MULVN    8   8   0  ; 0.5
+0023    CALL     5   2   3
+0024    GGET     6   8      ; "cc"
+0025    TGETS    6   6   9  ; "p"
+0026    KNUM     8   0      ; 0.5
+0027    KNUM     9   0      ; 0.5
+0028    CALL     6   2   3
+0029    KPRI     7   1
+0030    GGET     8  12      ; "PlayerAction"
+0031    TGETS    8   8  13  ; "action_1"
+0032    CALL     2   2   6
+0033    TSETS    2   0   3  ; "cloud_effect"
+0034    TGETS    2   0   3  ; "cloud_effect"
+0035    MOV      4   2
+0036    TGETS    2   2  14  ; "setScale"
+0037    GGET     5  15      ; "display"
+0038    TGETS    5   5  16  ; "getMaxScale"
+0039    CALL     5   0   1
+0040    CALLM    2   1   1
+0041    TGETS    2   0   2  ; "ui_container"
+0042    MOV      4   2
+0043    TGETS    2   2  17  ; "addChild"
+0044    TGETS    5   0   3  ; "cloud_effect"
+0045    KSHORT   6  99
+0046    CALL     2   1   4
+0047    JMP      2 => 0077
+0048 => TGETS    2   0   3  ; "cloud_effect"
+0049    ISF          2
+0050    JMP      3 => 0077
+0051    TGETS    2   0   3  ; "cloud_effect"
+0052    MOV      4   2
+0053    TGETS    2   2  18  ; "setToSetupPose"
+0054    CALL     2   1   2
+0055    TGETS    2   0   3  ; "cloud_effect"
+0056    MOV      4   2
+0057    TGETS    2   2  19  ; "setAnimation"
+0058    KSHORT   5   0
+0059    GGET     6  12      ; "PlayerAction"
+0060    TGETS    6   6  13  ; "action_1"
+0061    KPRI     7   1
+0062    CALL     2   1   5
+0063    JMP      2 => 0077
+0064 => TGETS    2   0   3  ; "cloud_effect"
+0065    ISF          2
+0066    JMP      3 => 0077
+0067    TGETS    2   0   3  ; "cloud_effect"
+0068    MOV      4   2
+0069    TGETS    2   2  20  ; "clearTracks"
+0070    CALL     2   1   2
+0071    TGETS    2   0   3  ; "cloud_effect"
+0072    MOV      4   2
+0073    TGETS    2   2  21  ; "removeFromParent"
+0074    CALL     2   1   2
+0075    KPRI     2   0
+0076    TSETS    2   0   3  ; "cloud_effect"
+0077 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    UGET     0   0      ; 
+0002    TGETS    0   0   0  ; "move_buff_item"
+0003    MOV      2   0
+0004    TGETS    0   0   1  ; "DeleteMe"
+0005    CALL     0   1   2
+0006    UGET     0   0      ; 
+0007    KPRI     1   0
+0008    TSETS    1   0   0  ; "move_buff_item"
+0009    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    ISF          1
+0002    JMP      3 => 0005
+0003    IST          2
+0004    JMP      3 => 0006
+0005 => UCLO     0 => 0124
+0006 => GGET     3   0      ; "Config"
+0007    TGETS    3   3   1  ; "SecretDunData"
+0008    TGETS    3   3   2  ; "data_buff"
+0009    TGETV    3   3   1
+0010    IST          3
+0011    JMP      4 => 0013
+0012    UCLO     0 => 0125
+0013 => TGETS    4   0   3  ; "move_buff_item"
+0014    ISF          4
+0015    JMP      5 => 0022
+0016    TGETS    4   0   3  ; "move_buff_item"
+0017    MOV      6   4
+0018    TGETS    4   4   4  ; "DeleteMe"
+0019    CALL     4   1   2
+0020    KPRI     4   0
+0021    TSETS    4   0   3  ; "move_buff_item"
+0022 => GGET     4   5      ; "PlanesBuffItem"
+0023    TGETS    4   4   6  ; "new"
+0024    CALL     4   2   1
+0025    TSETS    4   0   3  ; "move_buff_item"
+0026    TGETS    4   0   3  ; "move_buff_item"
+0027    MOV      6   4
+0028    TGETS    4   4   7  ; "setAnchorPoint"
+0029    GGET     7   8      ; "cc"
+0030    TGETS    7   7   9  ; "p"
+0031    KNUM     9   0      ; 0.5
+0032    KNUM    10   0      ; 0.5
+0033    CALL     7   0   3
+0034    CALLM    4   1   1
+0035    TGETS    4   0   3  ; "move_buff_item"
+0036    MOV      6   4
+0037    TGETS    4   4  10  ; "setData"
+0038    MOV      7   3
+0039    CALL     4   1   3
+0040    TGETS    4   0  11  ; "ui_container"
+0041    MOV      6   4
+0042    TGETS    4   4  12  ; "convertToNodeSpace"
+0043    MOV      7   2
+0044    CALL     4   2   3
+0045    TGETS    5   0   3  ; "move_buff_item"
+0046    MOV      7   5
+0047    TGETS    5   5  13  ; "getContentSize"
+0048    CALL     5   2   2
+0049    TGETS    6   0   3  ; "move_buff_item"
+0050    MOV      8   6
+0051    TGETS    6   6  14  ; "setPosition"
+0052    GGET     9   8      ; "cc"
+0053    TGETS    9   9   9  ; "p"
+0054    TGETS   11   4  15  ; "x"
+0055    TGETS   12   5  16  ; "width"
+0056    MULVN   12  12   0  ; 0.5
+0057    ADDVV   11  11  12
+0058    TGETS   12   4  17  ; "y"
+0059    TGETS   13   5  18  ; "height"
+0060    MULVN   13  13   0  ; 0.5
+0061    ADDVV   12  12  13
+0062    CALL     9   0   3
+0063    CALLM    6   1   1
+0064    TGETS    6   0  11  ; "ui_container"
+0065    MOV      8   6
+0066    TGETS    6   6  19  ; "addChild"
+0067    TGETS    9   0   3  ; "move_buff_item"
+0068    CALL     6   1   3
+0069    TGETS    6   0  20  ; "buff_btn"
+0070    MOV      8   6
+0071    TGETS    6   6  21  ; "getPosition"
+0072    CALL     6   3   2
+0073    GGET     8   8      ; "cc"
+0074    TGETS    8   8  22  ; "MoveTo"
+0075    MOV     10   8
+0076    TGETS    8   8  23  ; "create"
+0077    KNUM    11   1      ; 0.7
+0078    GGET    12   8      ; "cc"
+0079    TGETS   12  12   9  ; "p"
+0080    MOV     14   6
+0081    MOV     15   7
+0082    CALL    12   0   3
+0083    CALLM    8   2   2
+0084    GGET     9   8      ; "cc"
+0085    TGETS    9   9  24  ; "RotateTo"
+0086    MOV     11   9
+0087    TGETS    9   9  23  ; "create"
+0088    KNUM    12   2      ; 0.4
+0089    KSHORT  13 -30
+0090    CALL     9   2   4
+0091    GGET    10   8      ; "cc"
+0092    TGETS   10  10  25  ; "ScaleTo"
+0093    MOV     12  10
+0094    TGETS   10  10  23  ; "create"
+0095    KNUM    13   1      ; 0.7
+0096    KNUM    14   3      ; 0.2
+0097    CALL    10   2   4
+0098    FNEW    11  26      ; C025A55CFEEA600E.luac:0
+0099    TGETS   12   0   3  ; "move_buff_item"
+0100    MOV     14  12
+0101    TGETS   12  12  27  ; "runAction"
+0102    GGET    15   8      ; "cc"
+0103    TGETS   15  15  28  ; "Sequence"
+0104    MOV     17  15
+0105    TGETS   15  15  23  ; "create"
+0106    GGET    18   8      ; "cc"
+0107    TGETS   18  18  29  ; "Spawn"
+0108    MOV     20  18
+0109    TGETS   18  18  23  ; "create"
+0110    MOV     21   8
+0111    MOV     22   9
+0112    MOV     23  10
+0113    CALL    18   2   5
+0114    GGET    19   8      ; "cc"
+0115    TGETS   19  19  30  ; "CallFunc"
+0116    MOV     21  19
+0117    TGETS   19  19  23  ; "create"
+0118    MOV     22  11
+0119    CALL    19   0   3
+0120    CALLM   15   0   2
+0121    CALLM   12   1   1
+0122    UCLO     0 => 0123
+0123 => RET0     0   1
+0124 => RET0     0   1
+0125 => RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     1   0      ; "pairs"
+0002    TGETS    3   0   1  ; "route_effect_list"
+0003    CALL     1   4   2
+0004    ISNEXT   4 => 0022
+0005 => TGETS    6   5   2  ; "effect"
+0006    ISF          6
+0007    JMP      7 => 0022
+0008    TGETS    6   5   2  ; "effect"
+0009    MOV      8   6
+0010    TGETS    6   6   3  ; "stopAllActions"
+0011    CALL     6   1   2
+0012    TGETS    6   5   2  ; "effect"
+0013    MOV      8   6
+0014    TGETS    6   6   4  ; "clearTracks"
+0015    CALL     6   1   2
+0016    TGETS    6   5   2  ; "effect"
+0017    MOV      8   6
+0018    TGETS    6   6   5  ; "removeFromParent"
+0019    CALL     6   1   2
+0020    KPRI     6   0
+0021    TSETS    6   5   2  ; "effect"
+0022 => ITERN    4   3   3
+0023    ITERL    4 => 0005
+0024    GGET     1   0      ; "pairs"
+0025    TGETS    3   0   6  ; "break_effect_list"
+0026    CALL     1   4   2
+0027    ISNEXT   4 => 0035
+0028 => MOV      8   5
+0029    TGETS    6   5   4  ; "clearTracks"
+0030    CALL     6   1   2
+0031    MOV      8   5
+0032    TGETS    6   5   5  ; "removeFromParent"
+0033    CALL     6   1   2
+0034    KPRI     5   0
+0035 => ITERN    4   3   3
+0036    ITERL    4 => 0028
+0037    MOV      3   0
+0038    TGETS    1   0   7  ; "openMapMoveTimer"
+0039    KPRI     4   1
+0040    CALL     1   1   3
+0041    MOV      3   0
+0042    TGETS    1   0   8  ; "playCloudEffect"
+0043    KPRI     4   1
+0044    CALL     1   1   3
+0045    MOV      3   0
+0046    TGETS    1   0   9  ; "handlerTargetEffect"
+0047    KPRI     4   1
+0048    CALL     1   1   3
+0049    TGETS    1   0  10  ; "move_buff_item"
+0050    ISF          1
+0051    JMP      2 => 0058
+0052    TGETS    1   0  10  ; "move_buff_item"
+0053    MOV      3   1
+0054    TGETS    1   1  11  ; "DeleteMe"
+0055    CALL     1   1   2
+0056    KPRI     1   0
+0057    TSETS    1   0  10  ; "move_buff_item"
+0058 => TGETS    1   0  12  ; "grid_icon_load"
+0059    ISF          1
+0060    JMP      2 => 0067
+0061    TGETS    1   0  12  ; "grid_icon_load"
+0062    MOV      3   1
+0063    TGETS    1   1  11  ; "DeleteMe"
+0064    CALL     1   1   2
+0065    KPRI     1   0
+0066    TSETS    1   0  12  ; "grid_icon_load"
+0067 => TGETS    1   0  13  ; "evt_icon_load"
+0068    ISF          1
+0069    JMP      2 => 0076
+0070    TGETS    1   0  13  ; "evt_icon_load"
+0071    MOV      3   1
+0072    TGETS    1   1  11  ; "DeleteMe"
+0073    CALL     1   1   2
+0074    KPRI     1   0
+0075    TSETS    1   0  13  ; "evt_icon_load"
+0076 => TGETS    1   0  14  ; "bg_img_load"
+0077    ISF          1
+0078    JMP      2 => 0085
+0079    TGETS    1   0  14  ; "bg_img_load"
+0080    MOV      3   1
+0081    TGETS    1   1  11  ; "DeleteMe"
+0082    CALL     1   1   2
+0083    KPRI     1   0
+0084    TSETS    1   0  14  ; "bg_img_load"
+0085 => GGET     1   0      ; "pairs"
+0086    TGETS    3   0  15  ; "evt_item_list"
+0087    CALL     1   4   2
+0088    ISNEXT   4 => 0093
+0089 => MOV      8   5
+0090    TGETS    6   5  11  ; "DeleteMe"
+0091    CALL     6   1   2
+0092    KPRI     5   0
+0093 => ITERN    4   3   3
+0094    ITERL    4 => 0089
+0095    MOV      3   0
+0096    TGETS    1   0  16  ; "removeMapRole"
+0097    CALL     1   1   2
+0098    GGET     1  17      ; "RoleController"
+0099    MOV      3   1
+0100    TGETS    1   1  18  ; "getInstance"
+0101    CALL     1   2   2
+0102    MOV      3   1
+0103    TGETS    1   1  19  ; "getModel"
+0104    CALL     1   2   2
+0105    TGETS    1   1  20  ; "city_music_name"
+0106    IST          1
+0107    JMP      2 => 0109
+0108    KSTR     1  21      ; "s_002"
+0109 => GGET     2  22      ; "AudioManager"
+0110    MOV      4   2
+0111    TGETS    2   2  18  ; "getInstance"
+0112    CALL     2   2   2
+0113    MOV      4   2
+0114    TGETS    2   2  23  ; "playMusic"
+0115    GGET     5  22      ; "AudioManager"
+0116    TGETS    5   5  24  ; "AUDIO_TYPE"
+0117    TGETS    5   5  25  ; "SCENE"
+0118    MOV      6   1
+0119    KPRI     7   2
+0120    CALL     2   1   5
+0121    GGET     2  26      ; "MainuiController"
+0122    MOV      4   2
+0123    TGETS    2   2  18  ; "getInstance"
+0124    CALL     2   2   2
+0125    MOV      4   2
+0126    TGETS    2   2  27  ; "setIsShowMainUIBottom"
+0127    KPRI     5   2
+0128    CALL     2   1   3
+0129    UGET     2   0      ; 
+0130    MOV      4   2
+0131    TGETS    2   2  28  ; "openPlanesMapWindow"
+0132    KPRI     5   1
+0133    CALL     2   1   3
+0134    RET0     0   1
+
+-- BYTECODE -- C025A55CFEEA600E.luac:0-0
+0001    GGET     0   0      ; "PlanesController"
+0002    MOV      2   0
+0003    TGETS    0   0   1  ; "getInstance"
+0004    CALL     0   2   2
+0005    MOV      3   0
+0006    TGETS    1   0   2  ; "getModel"
+0007    CALL     1   2   2
+0008    GGET     2   3      ; "string"
+0009    TGETS    2   2   4  ; "format"
+0010    GGET     3   5      ; "table"
+0011    TGETS    3   3   6  ; "insert"
+0012    GGET     4   5      ; "table"
+0013    TGETS    4   4   7  ; "remove"
+0014    GGET     5   5      ; "table"
+0015    TGETS    5   5   8  ; "sort"
+0016    GGET     6   9      ; "PlanesMapWindow"
+0017    IST          6
+0018    JMP      7 => 0022
+0019    GGET     6  10      ; "BaseClass"
+0020    GGET     8  11      ; "BaseView"
+0021    CALL     6   2   2
+0022 => GSET     6   9      ; "PlanesMapWindow"
+0023    GGET     6   9      ; "PlanesMapWindow"
+0024    FNEW     7  13      ; C025A55CFEEA600E.luac:0
+0025    TSETS    7   6  12  ; "__init"
+0026    GGET     6   9      ; "PlanesMapWindow"
+0027    FNEW     7  15      ; C025A55CFEEA600E.luac:0
+0028    TSETS    7   6  14  ; "initConfig"
+0029    GGET     6   9      ; "PlanesMapWindow"
+0030    FNEW     7  17      ; C025A55CFEEA600E.luac:0
+0031    TSETS    7   6  16  ; "open_callback"
+0032    GGET     6   9      ; "PlanesMapWindow"
+0033    FNEW     7  19      ; C025A55CFEEA600E.luac:0
+0034    TSETS    7   6  18  ; "register_event"
+0035    GGET     6   9      ; "PlanesMapWindow"
+0036    FNEW     7  21      ; C025A55CFEEA600E.luac:0
+0037    TSETS    7   6  20  ; "onTouchMoveMap"
+0038    GGET     6   9      ; "PlanesMapWindow"
+0039    FNEW     7  23      ; C025A55CFEEA600E.luac:0
+0040    TSETS    7   6  22  ; "checkMapSafePos"
+0041    GGET     6   9      ; "PlanesMapWindow"
+0042    FNEW     7  25      ; C025A55CFEEA600E.luac:0
+0043    TSETS    7   6  24  ; "onClickCloseBtn"
+0044    GGET     6   9      ; "PlanesMapWindow"
+0045    FNEW     7  27      ; C025A55CFEEA600E.luac:0
+0046    TSETS    7   6  26  ; "onClickBagBtn"
+0047    GGET     6   9      ; "PlanesMapWindow"
+0048    FNEW     7  29      ; C025A55CFEEA600E.luac:0
+0049    TSETS    7   6  28  ; "onClickHeroBtn"
+0050    GGET     6   9      ; "PlanesMapWindow"
+0051    FNEW     7  31      ; C025A55CFEEA600E.luac:0
+0052    TSETS    7   6  30  ; "onClickDunBtn"
+0053    GGET     6   9      ; "PlanesMapWindow"
+0054    FNEW     7  33      ; C025A55CFEEA600E.luac:0
+0055    TSETS    7   6  32  ; "onClickHideBtn"
+0056    GGET     6   9      ; "PlanesMapWindow"
+0057    FNEW     7  35      ; C025A55CFEEA600E.luac:0
+0058    TSETS    7   6  34  ; "onClickBuffBtn"
+0059    GGET     6   9      ; "PlanesMapWindow"
+0060    FNEW     7  37      ; C025A55CFEEA600E.luac:0
+0061    TSETS    7   6  36  ; "onClickRuleBtn"
+0062    GGET     6   9      ; "PlanesMapWindow"
+0063    FNEW     7  39      ; C025A55CFEEA600E.luac:0
+0064    TSETS    7   6  38  ; "onClickFigureBtn"
+0065    GGET     6   9      ; "PlanesMapWindow"
+0066    FNEW     7  41      ; C025A55CFEEA600E.luac:0
+0067    TSETS    7   6  40  ; "openRootWnd"
+0068    GGET     6   9      ; "PlanesMapWindow"
+0069    FNEW     7  43      ; C025A55CFEEA600E.luac:0
+0070    TSETS    7   6  42  ; "setVisible"
+0071    GGET     6   9      ; "PlanesMapWindow"
+0072    FNEW     7  45      ; C025A55CFEEA600E.luac:0
+0073    TSETS    7   6  44  ; "setData"
+0074    GGET     6   9      ; "PlanesMapWindow"
+0075    FNEW     7  47      ; C025A55CFEEA600E.luac:0
+0076    TSETS    7   6  46  ; "playBackgroundMusic"
+0077    GGET     6   9      ; "PlanesMapWindow"
+0078    FNEW     7  49      ; C025A55CFEEA600E.luac:0
+0079    TSETS    7   6  48  ; "initMapTileConfig"
+0080    GGET     6   9      ; "PlanesMapWindow"
+0081    FNEW     7  51      ; C025A55CFEEA600E.luac:0
+0082    TSETS    7   6  50  ; "updateMapBg"
+0083    GGET     6   9      ; "PlanesMapWindow"
+0084    FNEW     7  53      ; C025A55CFEEA600E.luac:0
+0085    TSETS    7   6  52  ; "updateGridList"
+0086    GGET     6   9      ; "PlanesMapWindow"
+0087    FNEW     7  55      ; C025A55CFEEA600E.luac:0
+0088    TSETS    7   6  54  ; "createOneGridObject"
+0089    GGET     6   9      ; "PlanesMapWindow"
+0090    FNEW     7  57      ; C025A55CFEEA600E.luac:0
+0091    TSETS    7   6  56  ; "showGridEnterAniByIndex"
+0092    GGET     6   9      ; "PlanesMapWindow"
+0093    FNEW     7  59      ; C025A55CFEEA600E.luac:0
+0094    TSETS    7   6  58  ; "updateSomeGridData"
+0095    GGET     6   9      ; "PlanesMapWindow"
+0096    FNEW     7  61      ; C025A55CFEEA600E.luac:0
+0097    TSETS    7   6  60  ; "checkShowRoundGrid"
+0098    GGET     6   9      ; "PlanesMapWindow"
+0099    FNEW     7  63      ; C025A55CFEEA600E.luac:0
+0100    TSETS    7   6  62  ; "getGridPathByResId"
+0101    GGET     6   9      ; "PlanesMapWindow"
+0102    FNEW     7  65      ; C025A55CFEEA600E.luac:0
+0103    TSETS    7   6  64  ; "updateEvtList"
+0104    GGET     6   9      ; "PlanesMapWindow"
+0105    FNEW     7  67      ; C025A55CFEEA600E.luac:0
+0106    TSETS    7   6  66  ; "createOneEvtItem"
+0107    GGET     6   9      ; "PlanesMapWindow"
+0108    FNEW     7  69      ; C025A55CFEEA600E.luac:0
+0109    TSETS    7   6  68  ; "getEvtResPathListByData"
+0110    GGET     6   9      ; "PlanesMapWindow"
+0111    FNEW     7  71      ; C025A55CFEEA600E.luac:0
+0112    TSETS    7   6  70  ; "addEvtItemList"
+0113    GGET     6   9      ; "PlanesMapWindow"
+0114    FNEW     7  73      ; C025A55CFEEA600E.luac:0
+0115    TSETS    7   6  72  ; "getEvtPathByResId"
+0116    GGET     6   9      ; "PlanesMapWindow"
+0117    FNEW     7  75      ; C025A55CFEEA600E.luac:0
+0118    TSETS    7   6  74  ; "createRole"
+0119    GGET     6   9      ; "PlanesMapWindow"
+0120    FNEW     7  77      ; C025A55CFEEA600E.luac:0
+0121    TSETS    7   6  76  ; "updateRoleZOrder"
+0122    GGET     6   9      ; "PlanesMapWindow"
+0123    FNEW     7  79      ; C025A55CFEEA600E.luac:0
+0124    TSETS    7   6  78  ; "removeMapRole"
+0125    GGET     6   9      ; "PlanesMapWindow"
+0126    FNEW     7  81      ; C025A55CFEEA600E.luac:0
+0127    TSETS    7   6  80  ; "onClickGridIconByIndex"
+0128    GGET     6   9      ; "PlanesMapWindow"
+0129    FNEW     7  83      ; C025A55CFEEA600E.luac:0
+0130    TSETS    7   6  82  ; "showMoveRoute"
+0131    GGET     6   9      ; "PlanesMapWindow"
+0132    FNEW     7  85      ; C025A55CFEEA600E.luac:0
+0133    TSETS    7   6  84  ; "handlerTargetEffect"
+0134    GGET     6   9      ; "PlanesMapWindow"
+0135    FNEW     7  87      ; C025A55CFEEA600E.luac:0
+0136    TSETS    7   6  86  ; "showBreakEffect"
+0137    GGET     6   9      ; "PlanesMapWindow"
+0138    FNEW     7  89      ; C025A55CFEEA600E.luac:0
+0139    TSETS    7   6  88  ; "onBreakAniEnd"
+0140    GGET     6   9      ; "PlanesMapWindow"
+0141    FNEW     7  91      ; C025A55CFEEA600E.luac:0
+0142    TSETS    7   6  90  ; "isLockPlanesMapScreen"
+0143    GGET     6   9      ; "PlanesMapWindow"
+0144    FNEW     7  93      ; C025A55CFEEA600E.luac:0
+0145    TSETS    7   6  92  ; "doNextRoleMove"
+0146    GGET     6   9      ; "PlanesMapWindow"
+0147    FNEW     7  95      ; C025A55CFEEA600E.luac:0
+0148    TSETS    7   6  94  ; "moveRoleByGrid"
+0149    GGET     6   9      ; "PlanesMapWindow"
+0150    FNEW     7  97      ; C025A55CFEEA600E.luac:0
+0151    TSETS    7   6  96  ; "moveMapToRoleCenter"
+0152    GGET     6   9      ; "PlanesMapWindow"
+0153    FNEW     7  99      ; C025A55CFEEA600E.luac:0
+0154    TSETS    7   6  98  ; "getMapPosOfRoleCenter"
+0155    GGET     6   9      ; "PlanesMapWindow"
+0156    FNEW     7 101      ; C025A55CFEEA600E.luac:0
+0157    TSETS    7   6 100  ; "checkMapIsCanMove"
+0158    GGET     6   9      ; "PlanesMapWindow"
+0159    FNEW     7 103      ; C025A55CFEEA600E.luac:0
+0160    TSETS    7   6 102  ; "openMapMoveTimer"
+0161    GGET     6   9      ; "PlanesMapWindow"
+0162    FNEW     7 105      ; C025A55CFEEA600E.luac:0
+0163    TSETS    7   6 104  ; "doRoleStopMove"
+0164    GGET     6   9      ; "PlanesMapWindow"
+0165    FNEW     7 107      ; C025A55CFEEA600E.luac:0
+0166    TSETS    7   6 106  ; "checkProceedGridEvt"
+0167    GGET     6   9      ; "PlanesMapWindow"
+0168    FNEW     7 109      ; C025A55CFEEA600E.luac:0
+0169    TSETS    7   6 108  ; "playCloudEffect"
+0170    GGET     6   9      ; "PlanesMapWindow"
+0171    FNEW     7 111      ; C025A55CFEEA600E.luac:0
+0172    TSETS    7   6 110  ; "showBuffItemMoveAni"
+0173    GGET     6   9      ; "PlanesMapWindow"
+0174    FNEW     7 113      ; C025A55CFEEA600E.luac:0
+0175    TSETS    7   6 112  ; "close_callback"
+0176    UCLO     0 => 0177
+0177 => RET0     0   1
+

@@ -1,0 +1,1219 @@
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TSETS    1   0   0  ; "ctrl"
+0002    MOV      4   0
+0003    TGETS    2   0   1  ; "config"
+0004    CALL     2   1   2
+0005    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TNEW     1   5
+0002    TNEW     2   0
+0003    TSETB    2   1   1
+0004    TNEW     2   0
+0005    TSETB    2   1   2
+0006    TNEW     2   0
+0007    TSETB    2   1   3
+0008    TNEW     2   0
+0009    TSETB    2   1   4
+0010    TSETS    1   0   0  ; "list"
+0011    TGETS    1   0   0  ; "list"
+0012    GGET     2   1      ; "FruitTreasureConst"
+0013    TGETS    2   2   2  ; "Type"
+0014    TGETS    2   2   3  ; "Tian"
+0015    TNEW     3   0
+0016    TSETV    3   1   2
+0017    TGETS    1   0   0  ; "list"
+0018    GGET     2   1      ; "FruitTreasureConst"
+0019    TGETS    2   2   2  ; "Type"
+0020    TGETS    2   2   4  ; "Di"
+0021    TNEW     3   0
+0022    TSETV    3   1   2
+0023    TGETS    1   0   0  ; "list"
+0024    GGET     2   1      ; "FruitTreasureConst"
+0025    TGETS    2   2   2  ; "Type"
+0026    TGETS    2   2   5  ; "Xuan"
+0027    TNEW     3   0
+0028    TSETV    3   1   2
+0029    TGETS    1   0   0  ; "list"
+0030    GGET     2   1      ; "FruitTreasureConst"
+0031    TGETS    2   2   2  ; "Type"
+0032    TGETS    2   2   6  ; "Huang"
+0033    TNEW     3   0
+0034    TSETV    3   1   2
+0035    TNEW     1   0
+0036    TSETS    1   0   7  ; "allinfo"
+0037    TNEW     1   0
+0038    TSETS    1   0   8  ; "fruittreasure_red_list"
+0039    TNEW     1   0
+0040    TSETS    1   0   9  ; "otherlist"
+0041    MOV      3   0
+0042    TGETS    1   0  10  ; "initAllList"
+0043    GGET     4  11      ; "Config"
+0044    TGETS    4   4  12  ; "BlastiaData"
+0045    TGETS    4   4  13  ; "data_get_blastia"
+0046    CALL     1   1   3
+0047    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TNEW     2   0
+0002    TSETS    2   0   0  ; "otherlist"
+0003    GGET     2   1      ; "Config"
+0004    TGETS    2   2   2  ; "BlastiaData"
+0005    TGETS    2   2   3  ; "data_get_blastia"
+0006    GGET     3   4      ; "pairs"
+0007    MOV      5   1
+0008    CALL     3   4   2
+0009    ISNEXT   6 => 0027
+0010 => GGET     8   5      ; "FruitTreasureVo"
+0011    TGETS    8   8   6  ; "New"
+0012    CALL     8   2   1
+0013    MOV     11   8
+0014    TGETS    9   8   7  ; "setData"
+0015    TGETS   12   7   8  ; "id"
+0016    TGETV   12   2  12
+0017    CALL     9   1   3
+0018    MOV     11   8
+0019    TGETS    9   8   9  ; "updateList"
+0020    MOV     12   7
+0021    CALL     9   1   3
+0022    GGET     9  10      ; "table"
+0023    TGETS    9   9  11  ; "insert"
+0024    TGETS   11   0   0  ; "otherlist"
+0025    MOV     12   8
+0026    CALL     9   1   3
+0027 => ITERN    6   3   3
+0028    ITERL    6 => 0010
+0029    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     2   0      ; "pairs"
+0002    MOV      4   1
+0003    CALL     2   4   2
+0004    ISNEXT   5 => 0012
+0005 => GGET     7   1      ; "table"
+0006    TGETS    7   7   2  ; "insert"
+0007    TGETS    9   0   3  ; "list"
+0008    TGETS   10   6   4  ; "type"
+0009    TGETV    9   9  10
+0010    MOV     10   6
+0011    CALL     7   1   3
+0012 => ITERN    5   3   3
+0013    ITERL    5 => 0005
+0014    MOV      4   0
+0015    TGETS    2   0   5  ; "initList"
+0016    CALL     2   1   2
+0017    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TNEW     1   0
+0002    TSETS    1   0   0  ; "alllist"
+0003    GGET     1   1      ; "FruitTreasureConst"
+0004    TGETS    1   1   2  ; "Type"
+0005    TGETS    1   1   3  ; "Tian"
+0006    KSHORT   2   5
+0007    KSHORT   3   1
+0008    KSHORT   4   4
+0009    KSHORT   5   1
+0010    KSHORT   6  -1
+0011    FORI     4 => 0054
+0012 => GGET     8   4      ; "pairs"
+0013    TGETS   10   0   5  ; "list"
+0014    TGETV   10  10   7
+0015    CALL     8   4   2
+0016    ISNEXT  11 => 0046
+0017 => TDUP    13   6
+0018    TSETS    7  13   7  ; "type"
+0019    TNEW    14   0
+0020    TSETS   14  13   5  ; "list"
+0021    TGETS   14   0   0  ; "alllist"
+0022    TGETV   14  14   3
+0023    ISF         14
+0024    JMP     15 => 0027
+0025    TGETS   14   0   0  ; "alllist"
+0026    TGETV   13  14   3
+0027 => GGET    14   8      ; "FruitTreasureVo"
+0028    TGETS   14  14   9  ; "New"
+0029    CALL    14   2   1
+0030    MOV     17  14
+0031    TGETS   15  14  10  ; "setData"
+0032    MOV     18  12
+0033    CALL    15   1   3
+0034    GGET    15  11      ; "table"
+0035    TGETS   15  15  12  ; "insert"
+0036    TGETS   17  13   5  ; "list"
+0037    MOV     18  14
+0038    CALL    15   1   3
+0039    TGETS   15   0   0  ; "alllist"
+0040    TSETV   13  15   3
+0041    TGETS   15  13   5  ; "list"
+0042    LEN     15  15
+0043    ISGT     2  15
+0044    JMP     15 => 0046
+0045    ADDVN    3   3   0  ; 1
+0046 => ITERN   11   3   3
+0047    ITERL   11 => 0017
+0048    TGETS    8   0   0  ; "alllist"
+0049    TGETV    8   8   3
+0050    ISF          8
+0051    JMP      9 => 0053
+0052    ADDVN    3   3   0  ; 1
+0053 => FORL     4 => 0012
+0054 => RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     2   0      ; "Config"
+0002    TGETS    2   2   1  ; "BlastiaData"
+0003    TGETS    2   2   2  ; "data_get_blastia"
+0004    TGETV    2   2   1
+0005    TGETS    2   2   3  ; "piece_num"
+0006    GGET     3   0      ; "Config"
+0007    TGETS    3   3   1  ; "BlastiaData"
+0008    TGETS    3   3   2  ; "data_get_blastia"
+0009    TGETV    3   3   1
+0010    TGETS    3   3   4  ; "piece_id"
+0011    GGET     4   5      ; "BackpackController"
+0012    MOV      6   4
+0013    TGETS    4   4   6  ; "getInstance"
+0014    CALL     4   2   2
+0015    MOV      6   4
+0016    TGETS    4   4   7  ; "getModel"
+0017    CALL     4   2   2
+0018    MOV      6   4
+0019    TGETS    4   4   8  ; "getItemNumByBid"
+0020    MOV      7   3
+0021    CALL     4   2   3
+0022    ISLE     2   4
+0023    JMP      5 => 0026
+0024    KPRI     5   1
+0025    JMP      6 => 0027
+0026 => KPRI     5   2
+0027 => RET1     5   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KPRI     2   1
+0002    KSHORT   3   0
+0003    MOV      6   0
+0004    TGETS    4   0   0  ; "getMaxLvByStar"
+0005    TGETS    7   1   1  ; "type"
+0006    TGETS    8   1   2  ; "star"
+0007    CALL     4   2   4
+0008    TGETS    5   1   3  ; "lev"
+0009    ISGT     4   5
+0010    JMP      5 => 0013
+0011    KPRI     5   1
+0012    RET1     5   2
+0013 => MOV      7   0
+0014    TGETS    5   0   4  ; "getLvUpCost"
+0015    TGETS    8   1   1  ; "type"
+0016    TGETS    9   1   3  ; "lev"
+0017    CALL     5   2   4
+0018    ISF          5
+0019    JMP      6 => 0049
+0020    TGETS    6   5   5  ; "expend"
+0021    ISF          6
+0022    JMP      7 => 0049
+0023    GGET     6   6      ; "pairs"
+0024    TGETS    8   5   5  ; "expend"
+0025    CALL     6   4   2
+0026    ISNEXT   9 => 0043
+0027 => TGETB   11  10   1
+0028    TGETB   12  10   2
+0029    GGET    13   7      ; "BackpackController"
+0030    MOV     15  13
+0031    TGETS   13  13   8  ; "getInstance"
+0032    CALL    13   2   2
+0033    MOV     15  13
+0034    TGETS   13  13   9  ; "getModel"
+0035    CALL    13   2   2
+0036    MOV     15  13
+0037    TGETS   13  13  10  ; "getItemNumByBid"
+0038    MOV     16  11
+0039    CALL    13   2   3
+0040    ISGT    12  13
+0041    JMP     14 => 0043
+0042    ADDVN    3   3   0  ; 1
+0043 => ITERN    9   3   3
+0044    ITERL    9 => 0027
+0045    KSHORT   6   2
+0046    ISGT     6   3
+0047    JMP      6 => 0049
+0048    KPRI     2   2
+0049 => RET1     2   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KPRI     2   1
+0002    KSHORT   3   0
+0003    MOV      6   0
+0004    TGETS    4   0   0  ; "getStarUpCost"
+0005    TGETS    7   1   1  ; "type"
+0006    TGETS    8   1   2  ; "star"
+0007    CALL     4   2   4
+0008    ISF          4
+0009    JMP      5 => 0144
+0010    TGETS    5   4   3  ; "cost_hero"
+0011    ISF          5
+0012    JMP      6 => 0144
+0013    TGETS    5   1   4  ; "piece_id"
+0014    TGETS    6   4   5  ; "cost_piece"
+0015    GGET     7   6      ; "BackpackController"
+0016    MOV      9   7
+0017    TGETS    7   7   7  ; "getInstance"
+0018    CALL     7   2   2
+0019    MOV      9   7
+0020    TGETS    7   7   8  ; "getModel"
+0021    CALL     7   2   2
+0022    MOV      9   7
+0023    TGETS    7   7   9  ; "getItemNumByBid"
+0024    MOV     10   5
+0025    CALL     7   2   3
+0026    ISGT     6   7
+0027    JMP      8 => 0029
+0028    ADDVN    3   3   0  ; 1
+0029 => TNEW     8   0
+0030    TNEW     9   0
+0031    MOV     12   0
+0032    TGETS   10   0  10  ; "getHeroData"
+0033    KPRI    13   0
+0034    TGETS   14   4   3  ; "cost_hero"
+0035    TGETB   14  14   1
+0036    TGETS   15   4   3  ; "cost_hero"
+0037    TGETB   15  15   2
+0038    KSHORT  16   0
+0039    CALL    10   2   6
+0040    TSETB   10   9   1
+0041    GGET    10  11      ; "HeroController"
+0042    MOV     12  10
+0043    TGETS   10  10   7  ; "getInstance"
+0044    CALL    10   2   2
+0045    MOV     12  10
+0046    TGETS   10  10   8  ; "getModel"
+0047    CALL    10   2   2
+0048    MOV     12  10
+0049    TGETS   10  10  12  ; "getHeroList"
+0050    CALL    10   2   2
+0051    GGET    11  13      ; "pairs"
+0052    MOV     13  10
+0053    CALL    11   4   2
+0054    ISNEXT  14 => 0074
+0055 => GGET    16  14      ; "ipairs"
+0056    MOV     18   9
+0057    CALL    16   4   2
+0058    JMP     19 => 0072
+0059 => TGETV   21   8  19
+0060    ISNEP   21   0
+0061    JMP     21 => 0064
+0062    TNEW    21   0
+0063    TSETV   21   8  19
+0064 => TGETS   21  20   2  ; "star"
+0065    TGETS   22  15   2  ; "star"
+0066    ISNEV   21  22
+0067    JMP     21 => 0072
+0068    UGET    21   0      ; 
+0069    TGETV   23   8  19
+0070    MOV     24  15
+0071    CALL    21   1   3
+0072 => ITERC   19   3   3
+0073    ITERL   19 => 0059
+0074 => ITERN   14   3   3
+0075    ITERL   14 => 0055
+0076    GGET    11   6      ; "BackpackController"
+0077    MOV     13  11
+0078    TGETS   11  11   7  ; "getInstance"
+0079    CALL    11   2   2
+0080    MOV     13  11
+0081    TGETS   11  11   8  ; "getModel"
+0082    CALL    11   2   2
+0083    MOV     13  11
+0084    TGETS   11  11  15  ; "getHeroHunList"
+0085    CALL    11   2   2
+0086    GGET    12  13      ; "pairs"
+0087    MOV     14  11
+0088    CALL    12   4   2
+0089    ISNEXT  15 => 0132
+0090 => TGETS   17  16  16  ; "config"
+0091    ISF         17
+0092    JMP     18 => 0132
+0093    GGET    17  14      ; "ipairs"
+0094    MOV     19   9
+0095    CALL    17   4   2
+0096    JMP     20 => 0130
+0097 => TGETV   22   8  20
+0098    ISNEP   22   0
+0099    JMP     22 => 0102
+0100    TNEW    22   0
+0101    TSETV   22   8  20
+0102 => TGETV   22   9  20
+0103    TGETS   22  22  17  ; "bid"
+0104    ISNEN   22   1      ; 0
+0105    JMP     22 => 0130
+0106    TGETS   22  16  16  ; "config"
+0107    TGETS   22  22  18  ; "camp_type"
+0108    TGETS   23  16  16  ; "config"
+0109    TGETS   23  23  19  ; "eqm_jie"
+0110    TGETS   24  21   2  ; "star"
+0111    ISNEV   24  23
+0112    JMP     24 => 0130
+0113    KSHORT  24   1
+0114    TGETS   25  16  20  ; "quantity"
+0115    KSHORT  26   1
+0116    FORI    24 => 0130
+0117 => TNEW    28   0
+0118    MULVN   29  22   2  ; 10
+0119    ADDVV   29  27  29
+0120    UNM     29  29
+0121    TSETS   29  28  21  ; "id"
+0122    TGETS   29  28  21  ; "id"
+0123    TSETS   29  28  22  ; "partner_id"
+0124    TSETS   16  28  23  ; "good_vo"
+0125    UGET    29   0      ; 
+0126    TGETV   31   8  20
+0127    MOV     32  28
+0128    CALL    29   1   3
+0129    FORL    24 => 0117
+0130 => ITERC   20   3   3
+0131    ITERL   20 => 0097
+0132 => ITERN   15   3   3
+0133    ITERL   15 => 0090
+0134    LEN     12   8
+0135    TGETS   13   4   3  ; "cost_hero"
+0136    TGETB   13  13   2
+0137    ISGT    12  13
+0138    JMP     12 => 0140
+0139    ADDVN    3   3   0  ; 1
+0140 => KSHORT  12   2
+0141    ISGT    12   3
+0142    JMP     12 => 0144
+0143    KPRI     2   2
+0144 => RET1     2   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     2   0      ; "type"
+0002    MOV      4   1
+0003    CALL     2   2   2
+0004    ISEQS    2   1      ; "number"
+0005    JMP      2 => 0010
+0006    GGET     2   2      ; "tonumber"
+0007    MOV      4   1
+0008    CALL     2   2   2
+0009    MOV      1   2
+0010 => GGET     2   3      ; "Config"
+0011    TGETS    2   2   4  ; "BlastiaData"
+0012    TGETS    2   2   5  ; "data_get_blastia"
+0013    TGETV    2   2   1
+0014    TGETS    2   2   6  ; "piece_num"
+0015    GGET     3   3      ; "Config"
+0016    TGETS    3   3   4  ; "BlastiaData"
+0017    TGETS    3   3   5  ; "data_get_blastia"
+0018    TGETV    3   3   1
+0019    TGETS    3   3   7  ; "piece_id"
+0020    GGET     4   8      ; "BackpackController"
+0021    MOV      6   4
+0022    TGETS    4   4   9  ; "getInstance"
+0023    CALL     4   2   2
+0024    MOV      6   4
+0025    TGETS    4   4  10  ; "getModel"
+0026    CALL     4   2   2
+0027    MOV      6   4
+0028    TGETS    4   4  11  ; "getItemNumByBid"
+0029    MOV      7   3
+0030    CALL     4   2   3
+0031    MOV      5   4
+0032    KSTR     6  12      ; "/"
+0033    MOV      7   2
+0034    CAT      5   5   7
+0035    RET1     5   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TNEW     5   0
+0002    ISTC     6   2
+0003    JMP      6 => 0005
+0004    KSHORT   6   0
+0005 => TSETS    6   5   0  ; "star"
+0006    ISTC     6   3
+0007    JMP      6 => 0009
+0008    KSHORT   6   0
+0009 => TSETS    6   5   1  ; "count"
+0010    UGET     6   0      ; 
+0011    KSTR     8   3      ; "%s/%s"
+0012    KSHORT   9   0
+0013    MOV     10   3
+0014    CALL     6   2   4
+0015    TSETS    6   5   2  ; "lev"
+0016    ISNEP    1   0
+0017    JMP      6 => 0022
+0018    KSHORT   6   0
+0019    TSETS    6   5   4  ; "bid"
+0020    TSETS    4   5   5  ; "camp_type"
+0021    JMP      6 => 0036
+0022 => GGET     6   6      ; "Config"
+0023    TGETS    6   6   7  ; "PartnerData"
+0024    TGETS    6   6   8  ; "data_partner_base"
+0025    TGETV    6   6   1
+0026    ISF          6
+0027    JMP      7 => 0034
+0028    TSETS    1   5   4  ; "bid"
+0029    TGETS    7   6   5  ; "camp_type"
+0030    TSETS    7   5   5  ; "camp_type"
+0031    TGETS    7   6   9  ; "name"
+0032    TSETS    7   5   9  ; "name"
+0033    JMP      7 => 0036
+0034 => KPRI     7   0
+0035    RET1     7   2
+0036 => TNEW     6   0
+0037    TSETS    6   5  10  ; "dic_select_list"
+0038    RET1     5   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KSHORT   3  17
+0002    UNM      4   0
+0003    MULVV    4   4   3
+0004    MULVN    4   4   0  ; 0.5
+0005    MULVN    5   3   0  ; 0.5
+0006    ADDVV    4   4   5
+0007    KSHORT   5   1
+0008    MOV      6   0
+0009    KSHORT   7   1
+0010    FORI     5 => 0047
+0011 => TGETV    9   2   8
+0012    IST          9
+0013    JMP      9 => 0033
+0014    GGET     9   0      ; "createImage"
+0015    UGET    11   0      ; 
+0016    MOV     12   1
+0017    KSHORT  13   0
+0018    KSHORT  14  10
+0019    GGET    15   1      ; "cc"
+0020    TGETS   15  15   2  ; "p"
+0021    KNUM    17   0      ; 0.5
+0022    KNUM    18   0      ; 0.5
+0023    CALL    15   2   3
+0024    KPRI    16   2
+0025    KSHORT  17   0
+0026    KPRI    18   1
+0027    CALL     9   2   9
+0028    MOV     12   9
+0029    TGETS   10   9   3  ; "setScale"
+0030    KNUM    13   1      ; 1.5
+0031    CALL    10   1   3
+0032    TSETV    9   2   8
+0033 => TGETV    9   2   8
+0034    MOV     11   9
+0035    TGETS    9   9   4  ; "setVisible"
+0036    KPRI    12   2
+0037    CALL     9   1   3
+0038    TGETV    9   2   8
+0039    MOV     11   9
+0040    TGETS    9   9   5  ; "setPositionX"
+0041    SUBVN   12   8   2  ; 1
+0042    MULVV   12  12   3
+0043    ADDVV   12   4  12
+0044    ADDVN   12  12   3  ; 60
+0045    CALL     9   1   3
+0046    FORL     5 => 0011
+0047 => RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    ISTC     4   1
+0002    JMP      4 => 0004
+0003    KSHORT   4   0
+0004 => TNEW     5   0
+0005    TGETS    6   5   0  ; "star_list"
+0006    ISNEP    6   0
+0007    JMP      6 => 0010
+0008    TNEW     6   0
+0009    TSETS    6   5   0  ; "star_list"
+0010 => TGETS    6   5   1  ; "star_list2"
+0011    ISNEP    6   0
+0012    JMP      6 => 0015
+0013    TNEW     6   0
+0014    TSETS    6   5   1  ; "star_list2"
+0015 => GGET     6   2      ; "pairs"
+0016    TGETS    8   5   0  ; "star_list"
+0017    CALL     6   4   2
+0018    ISNEXT   9 => 0023
+0019 => MOV     13  10
+0020    TGETS   11  10   3  ; "setVisible"
+0021    KPRI    14   1
+0022    CALL    11   1   3
+0023 => ITERN    9   3   3
+0024    ITERL    9 => 0019
+0025    GGET     6   2      ; "pairs"
+0026    TGETS    8   5   1  ; "star_list2"
+0027    CALL     6   4   2
+0028    ISNEXT   9 => 0033
+0029 => MOV     13  10
+0030    TGETS   11  10   3  ; "setVisible"
+0031    KPRI    14   1
+0032    CALL    11   1   3
+0033 => ITERN    9   3   3
+0034    ITERL    9 => 0029
+0035    FNEW     6   4      ; 451B8A49D78157CB.luac:0
+0036    GGET     7   5      ; "PathTool"
+0037    TGETS    7   7   6  ; "getResFrame"
+0038    KSTR     9   7      ; "yanfubaoshu"
+0039    KSTR    10   8      ; "star"
+0040    CALL     7   2   3
+0041    GGET     8   5      ; "PathTool"
+0042    TGETS    8   8   6  ; "getResFrame"
+0043    KSTR    10   7      ; "yanfubaoshu"
+0044    KSTR    11   9      ; "starbg"
+0045    CALL     8   2   3
+0046    MOV      9   6
+0047    MOV     11   3
+0048    MOV     12   8
+0049    TGETS   13   5   1  ; "star_list2"
+0050    CALL     9   1   4
+0051    MOV      9   6
+0052    MOV     11   3
+0053    MOV     12   7
+0054    TGETS   13   5   0  ; "star_list"
+0055    CALL     9   1   4
+0056    KSHORT   9   1
+0057    MOV     10   3
+0058    KSHORT  11   1
+0059    FORI     9 => 0069
+0060 => ISGE     4  12
+0061    JMP     13 => 0068
+0062    TGETS   13   5   0  ; "star_list"
+0063    TGETV   13  13  12
+0064    MOV     15  13
+0065    TGETS   13  13   3  ; "setVisible"
+0066    KPRI    16   1
+0067    CALL    13   1   3
+0068 => FORL     9 => 0060
+0069 => UCLO     0 => 0070
+0070 => RET1     5   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KSHORT   2   0
+0002    ISNEN    1   0      ; 1
+0003    JMP      3 => 0006
+0004    KSHORT   2   6
+0005    JMP      3 => 0017
+0006 => ISNEN    1   1      ; 2
+0007    JMP      3 => 0010
+0008    KSHORT   2   5
+0009    JMP      3 => 0017
+0010 => ISNEN    1   2      ; 3
+0011    JMP      3 => 0014
+0012    KSHORT   2   4
+0013    JMP      3 => 0017
+0014 => ISNEN    1   3      ; 4
+0015    JMP      3 => 0017
+0016    KSHORT   2   3
+0017 => RET1     2   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KSHORT   2   0
+0002    ISNEN    1   0      ; 1
+0003    JMP      3 => 0006
+0004    KSHORT   2  80
+0005    JMP      3 => 0017
+0006 => ISNEN    1   1      ; 2
+0007    JMP      3 => 0010
+0008    KSHORT   2  70
+0009    JMP      3 => 0017
+0010 => ISNEN    1   2      ; 3
+0011    JMP      3 => 0014
+0012    KSHORT   2  40
+0013    JMP      3 => 0017
+0014 => ISNEN    1   3      ; 4
+0015    JMP      3 => 0017
+0016    KSHORT   2  30
+0017 => RET1     2   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0028
+0003    GGET     2   0      ; "pairs"
+0004    TGETS    4   0   1  ; "alllist"
+0005    CALL     2   4   2
+0006    ISNEXT   5 => 0026
+0007 => GGET     7   0      ; "pairs"
+0008    TGETS    9   6   2  ; "list"
+0009    CALL     7   4   2
+0010    ISNEXT  10 => 0024
+0011 => TGETS   12  11   3  ; "id"
+0012    TGETS   13   1   3  ; "id"
+0013    ISNEV   12  13
+0014    JMP     12 => 0024
+0015    MOV     14  11
+0016    TGETS   12  11   4  ; "updateList"
+0017    MOV     15   1
+0018    CALL    12   1   3
+0019    MOV     14   0
+0020    TGETS   12   0   5  ; "checkFruitTreasureRedSingle"
+0021    MOV     15  11
+0022    CALL    12   1   3
+0023    JMP      7 => 0026
+0024 => ITERN   10   3   3
+0025    ITERL   10 => 0011
+0026 => ITERN    5   3   3
+0027    ITERL    5 => 0007
+0028 => RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    ISF          1
+0002    JMP      2 => 0019
+0003    GGET     2   0      ; "pairs"
+0004    TGETS    4   0   1  ; "alllist"
+0005    CALL     2   4   2
+0006    ISNEXT   5 => 0017
+0007 => GGET     7   0      ; "pairs"
+0008    TGETS    9   6   2  ; "list"
+0009    CALL     7   4   2
+0010    ISNEXT  10 => 0015
+0011 => TGETS   12  11   3  ; "id"
+0012    ISNEV   12   1
+0013    JMP     12 => 0015
+0014    RET1    11   2
+0015 => ITERN   10   3   3
+0016    ITERL   10 => 0011
+0017 => ITERN    5   3   3
+0018    ITERL    5 => 0007
+0019 => RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    MOV      3   1
+0002    KSTR     4   0      ; "_"
+0003    MOV      5   2
+0004    CAT      3   3   5
+0005    GGET     4   1      ; "Config"
+0006    TGETS    4   4   2  ; "BlastiaData"
+0007    TGETS    4   4   3  ; "data_upgrade_star"
+0008    TGETV    4   4   3
+0009    TGETS    4   4   4  ; "limit_lev"
+0010    RET1     4   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    MOV      3   1
+0002    KSTR     4   0      ; "_"
+0003    ADDVN    5   2   0  ; 1
+0004    CAT      3   3   5
+0005    GGET     4   1      ; "Config"
+0006    TGETS    4   4   2  ; "BlastiaData"
+0007    TGETS    4   4   3  ; "data_upgrade_level"
+0008    TGETV    4   4   3
+0009    RET1     4   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    MOV      3   1
+0002    KSTR     4   0      ; "_"
+0003    ADDVN    5   2   0  ; 1
+0004    CAT      3   3   5
+0005    GGET     4   1      ; "Config"
+0006    TGETS    4   4   2  ; "BlastiaData"
+0007    TGETS    4   4   3  ; "data_upgrade_star"
+0008    TGETV    4   4   3
+0009    RET1     4   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     2   0      ; "Config"
+0002    TGETS    2   2   1  ; "BlastiaData"
+0003    TGETS    2   2   2  ; "data_node_increase"
+0004    TNEW     3   0
+0005    GGET     4   3      ; "pairs"
+0006    MOV      6   2
+0007    CALL     4   4   2
+0008    ISNEXT   7 => 0017
+0009 => TGETS    9   8   4  ; "type"
+0010    ISNEV    9   1
+0011    JMP      9 => 0017
+0012    GGET     9   5      ; "table"
+0013    TGETS    9   9   6  ; "insert"
+0014    MOV     11   3
+0015    MOV     12   8
+0016    CALL     9   1   3
+0017 => ITERN    7   3   3
+0018    ITERL    7 => 0009
+0019    RET1     3   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KSHORT   3   0
+0002    GGET     4   0      ; "Config"
+0003    TGETS    4   4   1  ; "AttrData"
+0004    TGETS    4   4   2  ; "data_key_to_id"
+0005    TGETV    4   4   1
+0006    GGET     5   3      ; "pairs"
+0007    MOV      7   2
+0008    CALL     5   4   2
+0009    ISNEXT   8 => 0014
+0010 => TGETS   10   9   4  ; "attr_id"
+0011    ISNEV   10   4
+0012    JMP     10 => 0014
+0013    TGETS    3   9   5  ; "attr_val"
+0014 => ITERN    8   3   3
+0015    ITERL    8 => 0010
+0016    RET1     3   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     3   0      ; "Config"
+0002    TGETS    3   3   1  ; "BlastiaData"
+0003    TGETS    3   3   2  ; "data_get_blastia"
+0004    TGETV    3   3   1
+0005    TGETS    3   3   3  ; "exclusive"
+0006    TGETV    4   3   2
+0007    TGETB    4   4   2
+0008    GGET     5   0      ; "Config"
+0009    TGETS    5   5   1  ; "BlastiaData"
+0010    TGETS    5   5   4  ; "data_effect"
+0011    TGETV    5   5   4
+0012    TGETS    5   5   5  ; "desc_effect"
+0013    IST          5
+0014    JMP      6 => 0016
+0015    KSTR     5   6      ; ""
+0016 => RET1     5   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     2   0      ; "Config"
+0002    TGETS    2   2   1  ; "BlastiaData"
+0003    TGETS    2   2   2  ; "data_get_blastia"
+0004    TGETV    2   2   1
+0005    TGETS    2   2   3  ; "exclusive"
+0006    GGET     3   4      ; "star"
+0007    TGETV    3   2   3
+0008    TNEW     4   0
+0009    GGET     5   5      ; "pairs"
+0010    MOV      7   2
+0011    CALL     5   4   2
+0012    ISNEXT   8 => 0024
+0013 => TGETB   10   9   2
+0014    GGET    11   0      ; "Config"
+0015    TGETS   11  11   1  ; "BlastiaData"
+0016    TGETS   11  11   6  ; "data_effect"
+0017    TGETV   11  11  10
+0018    TGETS   11  11   7  ; "desc_effect"
+0019    GGET    12   8      ; "table"
+0020    TGETS   12  12   9  ; "insert"
+0021    MOV     14   4
+0022    MOV     15  11
+0023    CALL    12   1   3
+0024 => ITERN    8   3   3
+0025    ITERL    8 => 0013
+0026    RET1     4   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     2   0      ; "pairs"
+0002    TGETS    4   0   1  ; "alllist"
+0003    CALL     2   4   2
+0004    ISNEXT   5 => 0015
+0005 => GGET     7   0      ; "pairs"
+0006    TGETS    9   6   2  ; "list"
+0007    CALL     7   4   2
+0008    ISNEXT  10 => 0013
+0009 => TGETS   12  11   3  ; "piece_id"
+0010    ISNEV   12   1
+0011    JMP     12 => 0013
+0012    RET1    11   2
+0013 => ITERN   10   3   3
+0014    ITERL   10 => 0009
+0015 => ITERN    5   3   3
+0016    ITERL    5 => 0005
+0017    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     1   0      ; "pairs"
+0002    TGETS    3   0   1  ; "alllist"
+0003    CALL     1   4   2
+0004    ISNEXT   4 => 0015
+0005 => GGET     6   0      ; "pairs"
+0006    TGETS    8   5   2  ; "list"
+0007    CALL     6   4   2
+0008    ISNEXT   9 => 0013
+0009 => MOV     13   0
+0010    TGETS   11   0   3  ; "checkFruitTreasureRedSingle"
+0011    MOV     14  10
+0012    CALL    11   1   3
+0013 => ITERN    9   3   3
+0014    ITERL    9 => 0009
+0015 => ITERN    4   3   3
+0016    ITERL    4 => 0005
+0017    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KPRI     2   1
+0002    TGETS    3   1   0  ; "isActive"
+0003    IST          3
+0004    JMP      3 => 0015
+0005    MOV      5   0
+0006    TGETS    3   0   1  ; "checkCanActive"
+0007    TGETS    6   1   2  ; "id"
+0008    CALL     3   2   3
+0009    ISF          3
+0010    JMP      4 => 0013
+0011    KPRI     2   2
+0012    JMP      3 => 0016
+0013 => KPRI     2   1
+0014    JMP      3 => 0016
+0015 => KPRI     2   1
+0016 => KPRI     3   1
+0017    MOV      6   0
+0018    TGETS    4   0   3  ; "checkCanLvUp"
+0019    MOV      7   1
+0020    CALL     4   2   3
+0021    ISF          4
+0022    JMP      5 => 0028
+0023    TGETS    4   1   0  ; "isActive"
+0024    ISF          4
+0025    JMP      5 => 0028
+0026    KPRI     3   2
+0027    JMP      4 => 0029
+0028 => KPRI     3   1
+0029 => KPRI     4   1
+0030    MOV      7   0
+0031    TGETS    5   0   4  ; "checkCanStarUp"
+0032    MOV      8   1
+0033    CALL     5   2   3
+0034    ISF          5
+0035    JMP      6 => 0041
+0036    TGETS    5   1   0  ; "isActive"
+0037    ISF          5
+0038    JMP      6 => 0041
+0039    KPRI     4   2
+0040    JMP      5 => 0042
+0041 => KPRI     4   1
+0042 => TNEW     5   0
+0043    GGET     6   5      ; "FruitTreasureConst"
+0044    TGETS    6   6   6  ; "RedType"
+0045    TGETS    6   6   7  ; "Lv"
+0046    TSETV    3   5   6
+0047    GGET     6   5      ; "FruitTreasureConst"
+0048    TGETS    6   6   6  ; "RedType"
+0049    TGETS    6   6   8  ; "Star"
+0050    TSETV    4   5   6
+0051    GGET     6   5      ; "FruitTreasureConst"
+0052    TGETS    6   6   6  ; "RedType"
+0053    TGETS    6   6   9  ; "Active"
+0054    TSETV    2   5   6
+0055    MOV      8   0
+0056    TGETS    6   0  10  ; "updateFruitTreasureRedStatus"
+0057    TGETS    9   1   2  ; "id"
+0058    MOV     10   5
+0059    CALL     6   1   4
+0060    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TGETS    3   0   0  ; "fruittreasure_red_list"
+0002    TGETV    3   3   1
+0003    ISNEV    3   2
+0004    JMP      4 => 0006
+0005    RET0     0   1
+0006 => TGETS    4   0   0  ; "fruittreasure_red_list"
+0007    TSETV    2   4   1
+0008    GGET     4   1      ; "GlobalEvent"
+0009    MOV      6   4
+0010    TGETS    4   4   2  ; "getInstance"
+0011    CALL     4   2   2
+0012    MOV      6   4
+0013    TGETS    4   4   3  ; "Fire"
+0014    GGET     7   4      ; "FruitTreasureEvent"
+0015    TGETS    7   7   5  ; "UpdateFruitTreasureRed"
+0016    MOV      8   1
+0017    MOV      9   2
+0018    CALL     4   1   5
+0019    MOV      6   0
+0020    TGETS    4   0   6  ; "checkMainRed"
+0021    CALL     4   1   2
+0022    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TGETS    3   0   0  ; "fruittreasure_red_list"
+0002    TGETV    3   3   1
+0003    TGETV    4   3   2
+0004    RET1     4   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KPRI     1   1
+0002    GGET     2   0      ; "pairs"
+0003    TGETS    4   0   1  ; "fruittreasure_red_list"
+0004    CALL     2   4   2
+0005    ISNEXT   5 => 0026
+0006 => GGET     7   2      ; "FruitTreasureConst"
+0007    TGETS    7   7   3  ; "RedType"
+0008    TGETS    7   7   4  ; "Lv"
+0009    TGETV    7   6   7
+0010    IST          7
+0011    JMP      8 => 0024
+0012    GGET     7   2      ; "FruitTreasureConst"
+0013    TGETS    7   7   3  ; "RedType"
+0014    TGETS    7   7   5  ; "Star"
+0015    TGETV    7   6   7
+0016    IST          7
+0017    JMP      8 => 0024
+0018    GGET     7   2      ; "FruitTreasureConst"
+0019    TGETS    7   7   3  ; "RedType"
+0020    TGETS    7   7   6  ; "Active"
+0021    TGETV    7   6   7
+0022    ISF          7
+0023    JMP      8 => 0026
+0024 => KPRI     1   2
+0025    JMP      2 => 0028
+0026 => ITERN    5   3   3
+0027    ITERL    5 => 0006
+0028 => GGET     2   7      ; "MainSceneController"
+0029    MOV      4   2
+0030    TGETS    2   2   8  ; "getInstance"
+0031    CALL     2   2   2
+0032    MOV      4   2
+0033    TGETS    2   2   9  ; "setBuildRedStatus"
+0034    GGET     5  10      ; "CenterSceneBuild"
+0035    TGETS    5   5  11  ; "fruit"
+0036    MOV      6   1
+0037    CALL     2   1   4
+0038    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TSETS    1   0   0  ; "_battle_pass_info"
+0002    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TGETS    1   0   0  ; "_battle_pass_info"
+0002    RET1     1   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    TGETS    2   0   0  ; "_battle_pass_info"
+0002    IST          2
+0003    JMP      3 => 0005
+0004    TNEW     2   0
+0005 => TGETV    2   2   1
+0006    RET1     2   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    KPRI     1   1
+0002    MOV      4   0
+0003    TGETS    2   0   0  ; "GetBattlePassInfo"
+0004    CALL     2   2   2
+0005    IST          2
+0006    JMP      3 => 0008
+0007    TNEW     2   0
+0008 => TGETS    3   2   1  ; "end_time"
+0009    IST          3
+0010    JMP      4 => 0012
+0011    KSHORT   3   0
+0012 => KSHORT   4   0
+0013    ISGT     3   4
+0014    JMP      3 => 0016
+0015    RET0     0   1
+0016 => TGETS    3   2   2  ; "reward_list"
+0017    TGETS    4   2   3  ; "junior_status"
+0018    GGET     5   4      ; "TRUE"
+0019    ISEQV    4   5
+0020    JMP      4 => 0023
+0021    KPRI     4   1
+0022    JMP      5 => 0024
+0023 => KPRI     4   2
+0024 => TGETS    5   2   5  ; "senior_status"
+0025    GGET     6   4      ; "TRUE"
+0026    ISEQV    5   6
+0027    JMP      5 => 0030
+0028    KPRI     5   1
+0029    JMP      6 => 0031
+0030 => KPRI     5   2
+0031 => TGETS    6   2   6  ; "activity"
+0032    GGET     7   7      ; "tableLen"
+0033    MOV      9   3
+0034    CALL     7   2   2
+0035    GGET     8   8      ; "Config"
+0036    TGETS    8   8   9  ; "BlastiaActivityOrderData"
+0037    TGETS    8   8  10  ; "data_reward_list"
+0038    IST          8
+0039    JMP      9 => 0041
+0040    RET0     0   1
+0041 => LEN      9   8
+0042    ISGT     7   9
+0043    JMP      9 => 0099
+0044    KSHORT   9   0
+0045    KSHORT  10   0
+0046    KSHORT  11   0
+0047    GGET    12  11      ; "ipairs"
+0048    MOV     14   8
+0049    CALL    12   4   2
+0050    JMP     15 => 0079
+0051 => TGETV   17   3  15
+0052    TGETS   18  16   6  ; "activity"
+0053    ISLE    18   6
+0054    JMP     18 => 0057
+0055    KPRI    18   1
+0056    JMP     19 => 0058
+0057 => KPRI    18   2
+0058 => ISF         18
+0059    JMP     19 => 0063
+0060    ADDVN   19   9   0  ; 1
+0061    ISTC     9  19
+0062    JMP     20 => 0063
+0063 => ISF         17
+0064    JMP     19 => 0079
+0065    TGETS   19  17  12  ; "status1"
+0066    GGET    20   4      ; "TRUE"
+0067    ISNEV   19  20
+0068    JMP     19 => 0072
+0069    ADDVN   19  10   0  ; 1
+0070    ISTC    10  19
+0071    JMP     20 => 0072
+0072 => TGETS   19  17  13  ; "status2"
+0073    GGET    20   4      ; "TRUE"
+0074    ISNEV   19  20
+0075    JMP     19 => 0079
+0076    ADDVN   19  11   0  ; 1
+0077    ISTC    11  19
+0078    JMP     20 => 0079
+0079 => ITERC   15   3   3
+0080    ITERL   15 => 0051
+0081    ISGE    10   9
+0082    JMP     12 => 0085
+0083    IST          4
+0084    JMP     12 => 0089
+0085 => ISGE    11   9
+0086    JMP     12 => 0090
+0087    ISF          5
+0088    JMP     12 => 0090
+0089 => KPRI     1   2
+0090 => TGETS   12   0  14  ; "_flag_first"
+0091    ISF         12
+0092    JMP     13 => 0097
+0093    LEN     12   8
+0094    ISGE     9  12
+0095    JMP     12 => 0097
+0096    KPRI     1   2
+0097 => KPRI    12   1
+0098    TSETS   12   0  14  ; "_flag_first"
+0099 => RET1     1   2
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     2   0      ; "Config"
+0002    TGETS    2   2   1  ; "BlastiaActivityOrderData"
+0003    TGETS    2   2   2  ; "data_constant"
+0004    IST          2
+0005    JMP      3 => 0007
+0006    RET0     0   1
+0007 => TGETV    3   2   1
+0008    ISF          3
+0009    JMP      4 => 0017
+0010    TGETV    3   2   1
+0011    TGETS    3   3   3  ; "val"
+0012    ISF          3
+0013    JMP      4 => 0017
+0014    TGETV    3   2   1
+0015    TGETS    3   3   3  ; "val"
+0016    RET1     3   2
+0017 => RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    RET0     0   1
+
+-- BYTECODE -- 451B8A49D78157CB.luac:0-0
+0001    GGET     0   0      ; "FruitTreasureModel"
+0002    IST          0
+0003    JMP      1 => 0006
+0004    GGET     0   1      ; "BaseClass"
+0005    CALL     0   2   1
+0006 => GSET     0   0      ; "FruitTreasureModel"
+0007    GGET     0   2      ; "string"
+0008    TGETS    0   0   3  ; "format"
+0009    GGET     1   4      ; "table"
+0010    TGETS    1   1   5  ; "insert"
+0011    GGET     2   0      ; "FruitTreasureModel"
+0012    FNEW     3   7      ; 451B8A49D78157CB.luac:0
+0013    TSETS    3   2   6  ; "__init"
+0014    GGET     2   0      ; "FruitTreasureModel"
+0015    FNEW     3   9      ; 451B8A49D78157CB.luac:0
+0016    TSETS    3   2   8  ; "config"
+0017    GGET     2   0      ; "FruitTreasureModel"
+0018    FNEW     3  11      ; 451B8A49D78157CB.luac:0
+0019    TSETS    3   2  10  ; "initOtherList"
+0020    GGET     2   0      ; "FruitTreasureModel"
+0021    FNEW     3  13      ; 451B8A49D78157CB.luac:0
+0022    TSETS    3   2  12  ; "initAllList"
+0023    GGET     2   0      ; "FruitTreasureModel"
+0024    FNEW     3  15      ; 451B8A49D78157CB.luac:0
+0025    TSETS    3   2  14  ; "initList"
+0026    GGET     2   0      ; "FruitTreasureModel"
+0027    FNEW     3  17      ; 451B8A49D78157CB.luac:0
+0028    TSETS    3   2  16  ; "checkCanActive"
+0029    GGET     2   0      ; "FruitTreasureModel"
+0030    FNEW     3  19      ; 451B8A49D78157CB.luac:0
+0031    TSETS    3   2  18  ; "checkCanLvUp"
+0032    GGET     2   0      ; "FruitTreasureModel"
+0033    FNEW     3  21      ; 451B8A49D78157CB.luac:0
+0034    TSETS    3   2  20  ; "checkCanStarUp"
+0035    GGET     2   0      ; "FruitTreasureModel"
+0036    FNEW     3  23      ; 451B8A49D78157CB.luac:0
+0037    TSETS    3   2  22  ; "getActive"
+0038    GGET     2   0      ; "FruitTreasureModel"
+0039    FNEW     3  25      ; 451B8A49D78157CB.luac:0
+0040    TSETS    3   2  24  ; "getHeroData"
+0041    GGET     2   0      ; "FruitTreasureModel"
+0042    FNEW     3  27      ; 451B8A49D78157CB.luac:0
+0043    TSETS    3   2  26  ; "createStar"
+0044    GGET     2   0      ; "FruitTreasureModel"
+0045    FNEW     3  29      ; 451B8A49D78157CB.luac:0
+0046    TSETS    3   2  28  ; "getStarMax"
+0047    GGET     2   0      ; "FruitTreasureModel"
+0048    FNEW     3  31      ; 451B8A49D78157CB.luac:0
+0049    TSETS    3   2  30  ; "getLvMax"
+0050    GGET     2   0      ; "FruitTreasureModel"
+0051    FNEW     3  33      ; 451B8A49D78157CB.luac:0
+0052    TSETS    3   2  32  ; "setItemInfo"
+0053    GGET     2   0      ; "FruitTreasureModel"
+0054    FNEW     3  35      ; 451B8A49D78157CB.luac:0
+0055    TSETS    3   2  34  ; "getItemInfo"
+0056    GGET     2   0      ; "FruitTreasureModel"
+0057    FNEW     3  37      ; 451B8A49D78157CB.luac:0
+0058    TSETS    3   2  36  ; "getMaxLvByStar"
+0059    GGET     2   0      ; "FruitTreasureModel"
+0060    FNEW     3  39      ; 451B8A49D78157CB.luac:0
+0061    TSETS    3   2  38  ; "getLvUpCost"
+0062    GGET     2   0      ; "FruitTreasureModel"
+0063    FNEW     3  41      ; 451B8A49D78157CB.luac:0
+0064    TSETS    3   2  40  ; "getStarUpCost"
+0065    GGET     2   0      ; "FruitTreasureModel"
+0066    FNEW     3  43      ; 451B8A49D78157CB.luac:0
+0067    TSETS    3   2  42  ; "getNodeList"
+0068    GGET     2   0      ; "FruitTreasureModel"
+0069    FNEW     3  45      ; 451B8A49D78157CB.luac:0
+0070    TSETS    3   2  44  ; "getAttrByKey"
+0071    GGET     2   0      ; "FruitTreasureModel"
+0072    FNEW     3  47      ; 451B8A49D78157CB.luac:0
+0073    TSETS    3   2  46  ; "getExStr"
+0074    GGET     2   0      ; "FruitTreasureModel"
+0075    FNEW     3  49      ; 451B8A49D78157CB.luac:0
+0076    TSETS    3   2  48  ; "getExStrlist"
+0077    GGET     2   0      ; "FruitTreasureModel"
+0078    FNEW     3  51      ; 451B8A49D78157CB.luac:0
+0079    TSETS    3   2  50  ; "getInfoBychip"
+0080    GGET     2   0      ; "FruitTreasureModel"
+0081    FNEW     3  53      ; 451B8A49D78157CB.luac:0
+0082    TSETS    3   2  52  ; "checkFruitTreasureRedStatus"
+0083    GGET     2   0      ; "FruitTreasureModel"
+0084    FNEW     3  55      ; 451B8A49D78157CB.luac:0
+0085    TSETS    3   2  54  ; "checkFruitTreasureRedSingle"
+0086    GGET     2   0      ; "FruitTreasureModel"
+0087    FNEW     3  57      ; 451B8A49D78157CB.luac:0
+0088    TSETS    3   2  56  ; "updateFruitTreasureRedStatus"
+0089    GGET     2   0      ; "FruitTreasureModel"
+0090    FNEW     3  59      ; 451B8A49D78157CB.luac:0
+0091    TSETS    3   2  58  ; "getFruitTreasureRedStatus"
+0092    GGET     2   0      ; "FruitTreasureModel"
+0093    FNEW     3  61      ; 451B8A49D78157CB.luac:0
+0094    TSETS    3   2  60  ; "checkMainRed"
+0095    GGET     2   0      ; "FruitTreasureModel"
+0096    FNEW     3  63      ; 451B8A49D78157CB.luac:0
+0097    TSETS    3   2  62  ; "SetBattlePassInfo"
+0098    GGET     2   0      ; "FruitTreasureModel"
+0099    FNEW     3  65      ; 451B8A49D78157CB.luac:0
+0100    TSETS    3   2  64  ; "GetBattlePassInfo"
+0101    GGET     2   0      ; "FruitTreasureModel"
+0102    FNEW     3  67      ; 451B8A49D78157CB.luac:0
+0103    TSETS    3   2  66  ; "GetBattlePassInfoByKey"
+0104    GGET     2   0      ; "FruitTreasureModel"
+0105    FNEW     3  69      ; 451B8A49D78157CB.luac:0
+0106    TSETS    3   2  68  ; "CheckBattlePassRedState"
+0107    GGET     2   0      ; "FruitTreasureModel"
+0108    FNEW     3  71      ; 451B8A49D78157CB.luac:0
+0109    TSETS    3   2  70  ; "GetPassConfigByKey"
+0110    GGET     2   0      ; "FruitTreasureModel"
+0111    FNEW     3  73      ; 451B8A49D78157CB.luac:0
+0112    TSETS    3   2  72  ; "__delete"
+0113    UCLO     0 => 0114
+0114 => RET0     0   1
+

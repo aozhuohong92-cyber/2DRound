@@ -1,0 +1,160 @@
+
+action1.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack/10002
+  rotate: true
+  xy: 1045, 9
+  size: 112, 139
+  orig: 396, 396
+  offset: 113, 136
+  index: -1
+attack/10004
+  rotate: true
+  xy: 1891, 172
+  size: 80, 143
+  orig: 396, 396
+  offset: 113, 136
+  index: -1
+attack/10006
+  rotate: false
+  xy: 1935, 28
+  size: 80, 142
+  orig: 396, 396
+  offset: 118, 136
+  index: -1
+attack/10008
+  rotate: true
+  xy: 1747, 164
+  size: 88, 142
+  orig: 396, 396
+  offset: 124, 136
+  index: -1
+attack/10010
+  rotate: true
+  xy: 1604, 158
+  size: 94, 141
+  orig: 396, 396
+  offset: 131, 136
+  index: -1
+attack/10012
+  rotate: false
+  xy: 1822, 45
+  size: 111, 117
+  orig: 396, 396
+  offset: 143, 136
+  index: -1
+attack/10013
+  rotate: false
+  xy: 2, 5
+  size: 281, 108
+  orig: 396, 396
+  offset: 0, 133
+  index: -1
+attack/10014
+  rotate: false
+  xy: 2, 115
+  size: 396, 137
+  orig: 396, 396
+  offset: 0, 130
+  index: -1
+attack/10016
+  rotate: false
+  xy: 400, 116
+  size: 396, 136
+  orig: 396, 396
+  offset: 0, 130
+  index: -1
+attack/10018
+  rotate: false
+  xy: 1316, 2
+  size: 390, 137
+  orig: 396, 396
+  offset: 0, 130
+  index: -1
+attack/10020
+  rotate: false
+  xy: 285, 7
+  size: 215, 106
+  orig: 396, 396
+  offset: 172, 145
+  index: -1
+attack/10022
+  rotate: false
+  xy: 502, 13
+  size: 193, 101
+  orig: 396, 396
+  offset: 191, 145
+  index: -1
+attack/10024
+  rotate: false
+  xy: 697, 21
+  size: 189, 93
+  orig: 396, 396
+  offset: 189, 145
+  index: -1
+attack/10025
+  rotate: false
+  xy: 888, 20
+  size: 155, 101
+  orig: 396, 396
+  offset: 190, 145
+  index: -1
+attack/10026
+  rotate: true
+  xy: 1471, 148
+  size: 104, 131
+  orig: 396, 396
+  offset: 154, 145
+  index: -1
+attack/10028
+  rotate: false
+  xy: 798, 123
+  size: 139, 129
+  orig: 396, 396
+  offset: 116, 136
+  index: -1
+attack/10030
+  rotate: false
+  xy: 939, 123
+  size: 138, 129
+  orig: 396, 396
+  offset: 116, 136
+  index: -1
+attack/10032
+  rotate: false
+  xy: 1079, 125
+  size: 121, 127
+  orig: 396, 396
+  offset: 133, 136
+  index: -1
+attack/10034
+  rotate: true
+  xy: 1186, 5
+  size: 118, 128
+  orig: 396, 396
+  offset: 136, 136
+  index: -1
+attack/10036
+  rotate: false
+  xy: 1708, 27
+  size: 112, 129
+  orig: 396, 396
+  offset: 142, 136
+  index: -1
+attack/10038
+  rotate: true
+  xy: 1337, 141
+  size: 111, 132
+  orig: 396, 396
+  offset: 143, 136
+  index: -1
+idle/10000
+  rotate: true
+  xy: 1202, 141
+  size: 111, 133
+  orig: 396, 396
+  offset: 143, 136
+  index: -1

@@ -1,0 +1,93 @@
+[
+  {
+    "video": 1,
+    "start_s": 26,
+    "end_s": 36,
+    "observed": "主城、乔巴对话、命名、引导召唤",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 36,
+    "end_s": 44,
+    "observed": "基础召唤、翻卡、单个伙伴结果",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 44,
+    "end_s": 50,
+    "observed": "冒险挂机、英雄出战、上阵引导",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 50,
+    "end_s": 62,
+    "observed": "第一场挑战：开战、回合、技能、血条",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 62,
+    "end_s": 68,
+    "observed": "MVP、挑战成功、奖励、等级提升",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 68,
+    "end_s": 76,
+    "observed": "通关奖励领取、战力变化",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 76,
+    "end_s": 82,
+    "observed": "挂机、出战编队",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 82,
+    "end_s": 98,
+    "observed": "第二场挑战、技能演出、结算",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 1,
+    "start_s": 98,
+    "end_s": 107,
+    "observed": "挂机收益信息、后续关卡",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 2,
+    "start_s": 0,
+    "end_s": 10,
+    "observed": "伙伴列表、返回主城",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 2,
+    "start_s": 10,
+    "end_s": 20,
+    "observed": "高级召唤、单抽、结果",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 2,
+    "start_s": 20,
+    "end_s": 30,
+    "observed": "十连召唤、角色展示、结果",
+    "timing_precision": "approximate_2s_sampling"
+  },
+  {
+    "video": 2,
+    "start_s": 30,
+    "end_s": 37,
+    "observed": "继续十连、结果、返回召唤页",
+    "timing_precision": "approximate_2s_sampling"
+  }
+]

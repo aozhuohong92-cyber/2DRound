@@ -1,0 +1,83 @@
+
+run.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flight/flightcontinued/10000
+  rotate: false
+  xy: 2, 6
+  size: 136, 112
+  orig: 396, 396
+  offset: 129, 153
+  index: -1
+flight/flightcontinued/10002
+  rotate: false
+  xy: 825, 4
+  size: 124, 114
+  orig: 396, 396
+  offset: 137, 147
+  index: -1
+flight/flightcontinued/10004
+  rotate: true
+  xy: 1317, 20
+  size: 98, 111
+  orig: 396, 396
+  offset: 162, 143
+  index: -1
+flight/flightcontinued/10006
+  rotate: false
+  xy: 951, 9
+  size: 123, 109
+  orig: 396, 396
+  offset: 141, 148
+  index: -1
+flight/flightcontinued/10008
+  rotate: false
+  xy: 286, 12
+  size: 140, 106
+  orig: 396, 396
+  offset: 128, 156
+  index: -1
+flight/flightcontinued/10010
+  rotate: false
+  xy: 140, 14
+  size: 144, 104
+  orig: 396, 396
+  offset: 128, 161
+  index: -1
+flight/flightcontinued/10012
+  rotate: false
+  xy: 697, 2
+  size: 126, 116
+  orig: 396, 396
+  offset: 135, 144
+  index: -1
+flight/flightcontinued/10014
+  rotate: false
+  xy: 1201, 9
+  size: 114, 109
+  orig: 396, 396
+  offset: 149, 144
+  index: -1
+flight/flightcontinued/10016
+  rotate: false
+  xy: 1076, 9
+  size: 123, 109
+  orig: 396, 396
+  offset: 141, 150
+  index: -1
+flight/flightcontinued/10018
+  rotate: false
+  xy: 563, 6
+  size: 132, 112
+  orig: 396, 396
+  offset: 131, 151
+  index: -1
+idle/10000
+  rotate: true
+  xy: 428, 7
+  size: 111, 133
+  orig: 396, 396
+  offset: 143, 136
+  index: -1

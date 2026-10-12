@@ -1,0 +1,32 @@
+[
+  {
+    "file": "b_baoqi1.mp3",
+    "logical_path": "sound/battle/b_baoqi1.mp3",
+    "source": "outputs/apk-extracted/assets/HASH/D/D0251AFEE334A9AF.mp3",
+    "sha256": "ce5368220e9d0e86f69440aedb2324280a9c286006abf60e6b9fbb7b0ed94487"
+  },
+  {
+    "file": "b_dirk1.mp3",
+    "logical_path": "sound/battle/b_dirk1.mp3",
+    "source": "outputs/apk-extracted/assets/HASH/A/A8C48A79A81D5169.mp3",
+    "sha256": "5393efb5dbe3c18e7ccef557022db568b01b2eb0b78fc43bcfbed6e8599293ed"
+  },
+  {
+    "file": "b_effect_cut01.mp3",
+    "logical_path": "sound/battle/b_effect_cut01.mp3",
+    "source": "outputs/apk-extracted/assets/HASH/C/C33E7CA103C00166.mp3",
+    "sha256": "347eedf351a5482b9f6c9a33393fc0a11a6089080c8b6f35b862442075aff752"
+  },
+  {
+    "file": "b_effect_cut02.mp3",
+    "logical_path": "sound/battle/b_effect_cut02.mp3",
+    "source": "outputs/apk-extracted/assets/HASH/0/02036842C48FCD99.mp3",
+    "sha256": "deff66b13d57d1de9afa3623bd699e472109600d2c2da0f6064328418b9e7aa3"
+  },
+  {
+    "file": "b_skill_sprint.mp3",
+    "logical_path": "sound/battle/b_skill_sprint.mp3",
+    "source": "outputs/apk-extracted/assets/HASH/0/014F48B64CE484F5.mp3",
+    "sha256": "1ac8d1875bb31c1bd059103cb67fe47989969c38cb39bb81bc71cdae22d77b60"
+  }
+]

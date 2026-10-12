@@ -1,0 +1,9 @@
+TaskEvent = TaskEvent or {}
+TaskEvent.UpdateActivityInfo = "TaskEvent.UpdateActivityInfo"
+TaskEvent.UpdateSingleQuest = "TaskEvent.UpdateSingleQuest"
+TaskEvent.UpdateTaskList = "TaskEvent.UpdateTaskList"
+TaskEvent.UpdateFeatList = "TaskEvent.UpdateFeatList"
+TaskEvent.UpdateUIRedStatus = "TaskEvent.UpdateUIRedStatus"
+TaskEvent.TASK_EXP_UPDATE_EVENT = "TaskEvent.TASK_EXP_UPDATE_EVENT"
+TaskEvent.TASK_EXP_UPDATE_TINE_EVENT = "TaskEvent.TASK_EXP_UPDATE_TINE_EVENT"
+TaskEvent.TASK_EXP_FINISH_TIPS_EVENT = "TaskEvent.TASK_EXP_FINISH_TIPS_EVENT"

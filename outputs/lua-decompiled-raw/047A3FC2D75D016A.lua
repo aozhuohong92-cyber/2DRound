@@ -1,0 +1,16 @@
+math.randomseed(os.time())
+
+DEBUG_MODE = DEBUG_MODE or false
+TRUE = 1
+FALSE = 0
+DISABLE_LOWPOWER_FREE = false
+HAS_USER_CENTER = true
+LOW_PERFORMANCE_TIMEOUT = 300
+IS_SHOW_VOICE = false
+IS_TEST_SERVER = PLATFORM_NAME == "demo"
+FPS_RATE = 1
+LOADTEXT_TYPE = ccui.TextureResType.localType
+LOADTEXT_TYPE_PLIST = ccui.TextureResType.plistType
+ADD_OBJ_RATE = 15
+DEL_PLAYER_RATE = 25
+RECONNEST_INTERVAL = 5

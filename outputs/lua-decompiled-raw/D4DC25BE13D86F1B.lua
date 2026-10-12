@@ -1,0 +1,506 @@
+Config = Config or {}
+Config.HolidayRandData = Config.HolidayRandData or {}
+Config.HolidayRandData.data_const_length = 0
+Config.HolidayRandData.data_const = {}
+Config.HolidayRandData.data_reward_length = 30
+Config.HolidayRandData.data_reward = {
+	{
+		id = 1,
+		rand = 100,
+		l_can = 5,
+		base_id = 10220,
+		group = 1,
+		num = 1,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 2,
+		rand = 200,
+		l_can = 0,
+		base_id = 1,
+		group = 1,
+		num = 2000000,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 3,
+		rand = 100,
+		l_can = 0,
+		base_id = 81100,
+		group = 1,
+		num = 1,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 4,
+		rand = 200,
+		l_can = 5,
+		base_id = 2,
+		group = 1,
+		num = 1000,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 5,
+		rand = 150,
+		l_can = 0,
+		base_id = 10401,
+		group = 1,
+		num = 10,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 6,
+		rand = 50,
+		l_can = 0,
+		base_id = 10212,
+		group = 1,
+		num = 1,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 7,
+		rand = 25,
+		l_can = 0,
+		base_id = 81101,
+		group = 1,
+		num = 1,
+		is_notice = 1,
+		is_worth = 1
+	},
+	{
+		id = 8,
+		rand = 50,
+		l_can = 0,
+		base_id = 10213,
+		group = 1,
+		num = 20,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 9,
+		rand = 25,
+		l_can = 8,
+		base_id = 10221,
+		group = 1,
+		num = 1,
+		is_notice = 1,
+		is_worth = 1
+	},
+	{
+		id = 10,
+		rand = 100,
+		l_can = 5,
+		base_id = 10201,
+		group = 1,
+		num = 10,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 11,
+		rand = 100,
+		l_can = 5,
+		base_id = 10220,
+		group = 2,
+		num = 1,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 12,
+		rand = 200,
+		l_can = 0,
+		base_id = 1,
+		group = 2,
+		num = 3000000,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 13,
+		rand = 50,
+		l_can = 0,
+		base_id = 10212,
+		group = 2,
+		num = 1,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 14,
+		rand = 150,
+		l_can = 0,
+		base_id = 2,
+		group = 2,
+		num = 2000,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 15,
+		rand = 150,
+		l_can = 0,
+		base_id = 10401,
+		group = 2,
+		num = 20,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 16,
+		rand = 125,
+		l_can = 0,
+		base_id = 81102,
+		group = 2,
+		num = 1,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 17,
+		rand = 25,
+		l_can = 8,
+		base_id = 10222,
+		group = 2,
+		num = 1,
+		is_notice = 1,
+		is_worth = 1
+	},
+	{
+		id = 18,
+		rand = 50,
+		l_can = 0,
+		base_id = 10213,
+		group = 2,
+		num = 30,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 19,
+		rand = 50,
+		l_can = 5,
+		base_id = 81103,
+		group = 2,
+		num = 1,
+		is_notice = 1,
+		is_worth = 1
+	},
+	{
+		id = 20,
+		rand = 100,
+		l_can = 5,
+		base_id = 10201,
+		group = 2,
+		num = 20,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 21,
+		rand = 150,
+		l_can = 5,
+		base_id = 10220,
+		group = 3,
+		num = 2,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 22,
+		rand = 200,
+		l_can = 0,
+		base_id = 1,
+		group = 3,
+		num = 5000000,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 23,
+		rand = 100,
+		l_can = 5,
+		base_id = 81106,
+		group = 3,
+		num = 1,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 24,
+		rand = 150,
+		l_can = 0,
+		base_id = 2,
+		group = 3,
+		num = 3000,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 25,
+		rand = 150,
+		l_can = 0,
+		base_id = 10401,
+		group = 3,
+		num = 30,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 26,
+		rand = 50,
+		l_can = 0,
+		base_id = 10212,
+		group = 3,
+		num = 2,
+		is_notice = 0,
+		is_worth = 1
+	},
+	{
+		id = 27,
+		rand = 25,
+		l_can = 5,
+		base_id = 81105,
+		group = 3,
+		num = 1,
+		is_notice = 1,
+		is_worth = 1
+	},
+	{
+		id = 28,
+		rand = 50,
+		l_can = 0,
+		base_id = 10213,
+		group = 3,
+		num = 40,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 29,
+		rand = 100,
+		l_can = 6,
+		base_id = 10201,
+		group = 3,
+		num = 30,
+		is_notice = 0,
+		is_worth = 0
+	},
+	{
+		id = 30,
+		rand = 25,
+		l_can = 8,
+		base_id = 10223,
+		group = 3,
+		num = 1,
+		is_notice = 1,
+		is_worth = 1
+	}
+}
+Config.HolidayRandData.data_charge_zhuan_length = 14
+Config.HolidayRandData.data_charge_zhuan = {
+	{
+		id = 1,
+		base_id = 20027,
+		rand = 1,
+		type = 3,
+		group = 1,
+		num = 80,
+		is_reset = 1,
+		min = 15,
+		must = 50,
+		lucky = 0,
+		is_notice = 1,
+		max = 50
+	},
+	{
+		id = 2,
+		base_id = 15101,
+		rand = 40,
+		type = 1,
+		group = 1,
+		num = 1,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 3,
+		base_id = 15102,
+		rand = 25,
+		type = 3,
+		group = 1,
+		num = 1,
+		is_reset = 1,
+		min = 15,
+		must = 50,
+		lucky = 0,
+		is_notice = 1,
+		max = 50
+	},
+	{
+		id = 4,
+		base_id = 15030,
+		rand = 80,
+		type = 1,
+		group = 1,
+		num = 2,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 5,
+		base_id = 15002,
+		rand = 150,
+		type = 1,
+		group = 1,
+		num = 5,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 6,
+		base_id = 10213,
+		rand = 75,
+		type = 1,
+		group = 1,
+		num = 2,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 1,
+		max = 0
+	},
+	{
+		id = 7,
+		base_id = 10214,
+		rand = 150,
+		type = 1,
+		group = 1,
+		num = 10,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 8,
+		base_id = 10212,
+		rand = 10,
+		type = 3,
+		group = 1,
+		num = 1,
+		is_reset = 1,
+		min = 15,
+		must = 50,
+		lucky = 0,
+		is_notice = 1,
+		max = 50
+	},
+	{
+		id = 9,
+		base_id = 10401,
+		rand = 80,
+		type = 1,
+		group = 1,
+		num = 1,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 10,
+		base_id = 15012,
+		rand = 50,
+		type = 1,
+		group = 1,
+		num = 1,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 11,
+		base_id = 15010,
+		rand = 80,
+		type = 1,
+		group = 1,
+		num = 2,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 12,
+		base_id = 20027,
+		rand = 80,
+		type = 1,
+		group = 1,
+		num = 2,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	},
+	{
+		id = 13,
+		base_id = 15000,
+		rand = 100,
+		type = 3,
+		group = 1,
+		num = 1,
+		is_reset = 1,
+		min = 0,
+		must = 0,
+		lucky = 0,
+		is_notice = 1,
+		max = 0
+	},
+	{
+		id = 14,
+		base_id = 1,
+		rand = 79,
+		type = 1,
+		group = 1,
+		num = 100000,
+		is_reset = 0,
+		min = 0,
+		must = 0,
+		lucky = 1,
+		is_notice = 0,
+		max = 0
+	}
+}

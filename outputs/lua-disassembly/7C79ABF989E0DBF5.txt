@@ -1,0 +1,266 @@
+;
+; Disassemble of outputs/lua-bytecode/7C79ABF989E0DBF5.luac
+;
+; Source file: N/A
+;
+; Flags:
+;	Stripped: Yes
+;	Endianness: Little
+;	FFI: Not present
+;
+
+main N/A:0-0: 0+ args, 0 upvalues, 10 slots
+	;;;; constant tables ;;;;
+	;;;; instructions ;;;;
+[34 00 00 00]	  1	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+	  2	[  0]	FNEW 	  1		12	; N/A:0-0: 1 args, 1 upvalues, 8 slots
+		
+		;;;; constant tables ;;;;
+		ktable#0 = [
+			]
+		
+		
+		ktable#4 = [
+			]
+		
+		
+		;;;; instructions ;;;;
+[34 01 00 00]		  1	[  0]	TNEW 	  1		0	; slot1 = new table( array: 0, dict: 1)
+[2B 02 01 00]		  2	[  0]	KPRI 	  2		1	; slot2 = false
+[3D 02 00 01]		  3	[  0]	TSETS	  2	1	11	; slot1.__init = slot2
+[2B 02 01 00]		  4	[  0]	KPRI 	  2		1	; slot2 = false
+[3D 02 01 01]		  5	[  0]	TSETS	  2	1	10	; slot1.__delete = slot2
+[3D 00 02 01]		  6	[  0]	TSETS	  0	1	9	; slot1.super = slot0
+		  7	[  0]	FNEW 	  2		7	; N/A:0-0: 0+ args, 2 upvalues, 7 slots
+			
+			;;;; constant tables ;;;;
+			ktable#4 = [
+				]
+			
+			
+			;;;; instructions ;;;;
+[34 00 00 00]			  1	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+[2D 01 00 00]			  2	[  0]	UGET 	  1		0	; slot1 = uv0"unknwon"
+[3D 01 00 00]			  3	[  0]	TSETS	  1	0	6	; slot0._class_type = uv0"unknown"
+[36 01 01 00]			  4	[  0]	GGET 	  1		5	; slot1 = _env["setmetatable"]
+[12 03 00 00]			  5	[  0]	MOV  	  3		0	; slot3 = slot0
+[35 04 02 00]			  6	[  0]	TDUP 	  4		4	; slot4 = copy table#k4
+[2D 05 01 00]			  7	[  0]	UGET 	  5		1	; slot5 = uv1"unknwon"
+[2D 06 00 00]			  8	[  0]	UGET 	  6		0	; slot6 = uv0"unknwon"
+[38 05 06 05]			  9	[  0]	TGETV	  5	5	6	; slot5 = uv1"unknown"[uv0"unknown"]
+[3D 05 03 04]			 10	[  0]	TSETS	  5	4	3	; slot4.__index = slot5
+[42 01 03 01]			 11	[  0]	CALL 	  1	1	3	;  = setmetatable(slot2, slot3)
+[2B 01 00 00]			 12	[  0]	KPRI 	  1		0	; slot1 = nil
+			 13	[  0]	FNEW 	  1		2	; N/A:0-0: 1+ args, 2 upvalues, 5 slots
+				
+				;;;; constant tables ;;;;
+				;;;; instructions ;;;;
+[39 01 00 00]				  1	[  0]	TGETS	  1	0	1	; slot1 = slot0.super
+[0F 00 01 00]				  2	[  0]	ISF  	   		1	; if not <unknown table>.super
+[58 02 04 80]				  3	[  0]	JMP  	  2		4	; 	goto 8
+[2D 01 00 00]				  4	[  0]	UGET 	  1		0	; slot1 = uv0"unknwon"
+[39 03 00 00]				  5	[  0]	TGETS	  3	0	1	; slot3 = slot0.super
+[47 04 01 00]				  6	[  0]	VARG 	  4	0	1	; MULTRES = ...
+[41 01 01 01]				  7	[  0]	CALLM	  1	1	1	;  = uv0"unknown"(slot2, ...MULTRES)
+[39 01 01 00]				  8	[  0]	TGETS	  1	0	0	; slot1 = slot0.__init
+[0F 00 01 00]				  9	[  0]	ISF  	   		1	; if not <unknown table>.__init
+[58 02 04 80]				 10	[  0]	JMP  	  2		4	; 	goto 15
+[39 01 01 00]				 11	[  0]	TGETS	  1	0	0	; slot1 = slot0.__init
+[2D 03 01 00]				 12	[  0]	UGET 	  3		1	; slot3 = uv1"unknwon"
+[47 04 01 00]				 13	[  0]	VARG 	  4	0	1	; MULTRES = ...
+[41 01 01 01]				 14	[  0]	CALLM	  1	1	1	;  = <unknown table>.__init(slot2, ...MULTRES)
+[4B 00 01 00]				 15	[  0]	RET0 	  0		1	; return
+[12 02 01 00]			 14	[  0]	MOV  	  2		1	; slot2 = slot1
+[2D 04 00 00]			 15	[  0]	UGET 	  4		0	; slot4 = uv0"unknwon"
+[47 05 00 00]			 16	[  0]	VARG 	  5	0	0	; MULTRES = ...
+[41 02 01 01]			 17	[  0]	CALLM	  2	1	1	;  = slot2(slot3, ...MULTRES)
+[32 01 00 80]			 18	[  0]	UCLO 	  1		0	; nil uvs >= r1; goto 19
+			 19	[  0]	FNEW 	  1		0	; N/A:0-0: 1 args, 0 upvalues, 5 slots
+				
+				;;;; constant tables ;;;;
+				;;;; instructions ;;;;
+[39 01 00 00]				  1	[  0]	TGETS	  1	0	2	; slot1 = slot0._class_type
+[0A 01 00 00]				  2	[  0]	ISEQP	  1		0	; if <unknown table>._class_type == nil
+[58 02 09 80]				  3	[  0]	JMP  	  2		9	; 	goto 13
+[55 02 08 80]				  4	[  0]	LOOP 	  2		8	; Loop start, exit goto 13
+[39 02 01 01]				  5	[  0]	TGETS	  2	1	1	; slot2 = <unknown table>._class_type.__delete
+[0F 00 02 00]				  6	[  0]	ISF  	   		2	; if not <unknown table>._class_type.__delete
+[58 03 03 80]				  7	[  0]	JMP  	  3		3	; 	goto 11
+[39 02 01 01]				  8	[  0]	TGETS	  2	1	1	; slot2 = <unknown table>._class_type.__delete
+[12 04 00 00]				  9	[  0]	MOV  	  4		0	; slot4 = slot0
+[42 02 02 01]				 10	[  0]	CALL 	  2	1	2	;  = <unknown table>._class_type.__delete(slot3)
+[39 01 02 01]				 11	[  0]	TGETS	  1	1	0	; slot1 = <unknown table>._class_type.super
+[58 02 F5 7F]				 12	[  0]	JMP  	  2		-11	; 	goto 2
+[4B 00 01 00]				 13	[  0]	RET0 	  0		1	; return
+[3D 01 05 00]			 20	[  0]	TSETS	  1	0	1	; slot0.DeleteMe = slot1
+[32 00 00 80]			 21	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 22
+[4C 00 02 00]			 22	[  0]	RET1 	  0		2	; return slot0
+[3D 02 03 01]		  8	[  0]	TSETS	  2	1	8	; slot1.New = slot2
+[34 02 00 00]		  9	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[2D 03 00 00]		 10	[  0]	UGET 	  3		0	; slot3 = uv0"unknwon"
+[3C 02 01 03]		 11	[  0]	TSETV	  2	3	1	; uv0"unknown"[slot1] = slot2
+[36 03 05 00]		 12	[  0]	GGET 	  3		6	; slot3 = _env["setmetatable"]
+[12 05 01 00]		 13	[  0]	MOV  	  5		1	; slot5 = slot1
+[35 06 07 00]		 14	[  0]	TDUP 	  6		4	; slot6 = copy table#k4
+		 15	[  0]	FNEW 	  7		5	; N/A:0-0: 3 args, 1 upvalues, 4 slots
+			
+			;;;; constant tables ;;;;
+			;;;; instructions ;;;;
+[2D 03 00 00]			  1	[  0]	UGET 	  3		0	; slot3 = uv0"unknwon"
+[3C 02 01 03]			  2	[  0]	TSETV	  2	3	1	; uv0"unknown"[slot1] = slot2
+[4B 00 01 00]			  3	[  0]	RET0 	  0		1	; return
+[3D 07 08 06]		 16	[  0]	TSETS	  7	6	3	; slot6.__newindex = slot7
+[3D 02 09 06]		 17	[  0]	TSETS	  2	6	2	; slot6.__index = slot2
+[42 03 03 01]		 18	[  0]	CALL 	  3	1	3	;  = setmetatable(slot4, slot5)
+[0F 00 00 00]		 19	[  0]	ISF  	   		0	; if not slot0
+[58 03 06 80]		 20	[  0]	JMP  	  3		6	; 	goto 27
+[36 03 05 00]		 21	[  0]	GGET 	  3		6	; slot3 = _env["setmetatable"]
+[12 05 02 00]		 22	[  0]	MOV  	  5		2	; slot5 = slot2
+[35 06 0B 00]		 23	[  0]	TDUP 	  6		0	; slot6 = copy table#k0
+		 24	[  0]	FNEW 	  7		1	; N/A:0-0: 2 args, 2 upvalues, 4 slots
+			
+			;;;; constant tables ;;;;
+			;;;; instructions ;;;;
+[2D 02 00 00]			  1	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[2D 03 01 00]			  2	[  0]	UGET 	  3		1	; slot3 = uv1"unknwon"
+[38 02 03 02]			  3	[  0]	TGETV	  2	2	3	; slot2 = uv0"unknown"[uv1"unknown"]
+[0A 02 00 00]			  4	[  0]	ISEQP	  2		0	; if slot2 == nil
+[58 02 02 80]			  5	[  0]	JMP  	  2		2	; 	goto 8
+[0B 01 00 00]			  6	[  0]	ISNEP	  1		0	; if slot1 ~= nil
+[58 02 02 80]			  7	[  0]	JMP  	  2		2	; 	goto 10
+[34 02 00 00]			  8	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[4C 02 02 00]			  9	[  0]	RET1 	  2		2	; return slot2
+[2D 02 00 00]			 10	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[2D 03 01 00]			 11	[  0]	UGET 	  3		1	; slot3 = uv1"unknwon"
+[38 02 03 02]			 12	[  0]	TGETV	  2	2	3	; slot2 = uv0"unknown"[uv1"unknown"]
+[38 02 01 02]			 13	[  0]	TGETV	  2	2	1	; slot2 = slot2[slot1]
+[4C 02 02 00]			 14	[  0]	RET1 	  2		2	; return slot2
+[3D 07 09 06]		 25	[  0]	TSETS	  7	6	2	; slot6.__index = slot7
+[42 03 03 01]		 26	[  0]	CALL 	  3	1	3	;  = setmetatable(slot4, slot5)
+[32 00 00 80]		 27	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 28
+[4C 01 02 00]		 28	[  0]	RET1 	  1		2	; return slot1
+[37 01 01 00]	  3	[  0]	GSET 	  1		11	; _env["BaseClass"] = slot1
+[34 01 00 00]	  4	[  0]	TNEW 	  1		0	; slot1 = new table( array: 0, dict: 1)
+[36 02 02 00]	  5	[  0]	GGET 	  2		10	; slot2 = _env["NewModelFile"]
+[0E 00 02 00]	  6	[  0]	IST  	   		2	; if NewModelFile
+[58 03 01 80]	  7	[  0]	JMP  	  3		1	; 	goto 9
+[34 02 00 00]	  8	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[34 03 00 00]	  9	[  0]	TNEW 	  3		0	; slot3 = new table( array: 0, dict: 1)
+[36 04 03 00]	 10	[  0]	GGET 	  4		9	; slot4 = _env["setmetatable"]
+[36 06 04 00]	 11	[  0]	GGET 	  6		8	; slot6 = _env["_G"]
+[12 07 01 00]	 12	[  0]	MOV  	  7		1	; slot7 = slot1
+[42 04 03 01]	 13	[  0]	CALL 	  4	1	3	;  = setmetatable(slot5, _G)
+	 14	[  0]	FNEW 	  4		6	; N/A:0-0: 2 args, 2 upvalues, 7 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[2D 02 00 00]		  1	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[38 02 01 02]		  2	[  0]	TGETV	  2	2	1	; slot2 = uv0"unknown"[slot1]
+[0F 00 02 00]		  3	[  0]	ISF  	   		2	; if not slot2
+[58 03 17 80]		  4	[  0]	JMP  	  3		23	; 	goto 28
+[2D 03 01 00]		  5	[  0]	UGET 	  3		1	; slot3 = uv1"unknwon"
+[38 03 02 03]		  6	[  0]	TGETV	  3	3	2	; slot3 = uv1"unknown"[slot2]
+[0E 00 03 00]		  7	[  0]	IST  	   		3	; if slot3
+[58 03 13 80]		  8	[  0]	JMP  	  3		19	; 	goto 28
+[2D 03 00 00]		  9	[  0]	UGET 	  3		0	; slot3 = uv0"unknwon"
+[2B 04 00 00]		 10	[  0]	KPRI 	  4		0	; slot4 = nil
+[3C 04 01 03]		 11	[  0]	TSETV	  4	3	1	; uv0"unknown"[slot1] = slot4
+[2D 03 01 00]		 12	[  0]	UGET 	  3		1	; slot3 = uv1"unknwon"
+[2B 04 02 00]		 13	[  0]	KPRI 	  4		2	; slot4 = true
+[3C 04 02 03]		 14	[  0]	TSETV	  4	3	2	; uv1"unknown"[slot2] = slot4
+[36 03 00 00]		 15	[  0]	GGET 	  3		3	; slot3 = _env["require"]
+[12 05 02 00]		 16	[  0]	MOV  	  5		2	; slot5 = slot2
+[42 03 02 02]		 17	[  0]	CALL 	  3	2	2	; slot3 = require(slot4)
+[36 04 01 00]		 18	[  0]	GGET 	  4		2	; slot4 = _env["type"]
+[12 06 03 00]		 19	[  0]	MOV  	  6		3	; slot6 = require
+[42 04 02 02]		 20	[  0]	CALL 	  4	2	2	; slot4 = type(slot5)
+[07 04 02 00]		 21	[  0]	ISNES	  4		1	; if type ~= "boolean"
+[58 04 04 80]		 22	[  0]	JMP  	  4		4	; 	goto 27
+[36 04 03 00]		 23	[  0]	GGET 	  4		0	; slot4 = _env["_G"]
+[38 04 01 04]		 24	[  0]	TGETV	  4	4	1	; slot4 = _G[slot1]
+[4C 04 02 00]		 25	[  0]	RET1 	  4		2	; return slot4
+[58 04 01 80]		 26	[  0]	JMP  	  4		1	; 	goto 28
+[4C 03 02 00]		 27	[  0]	RET1 	  3		2	; return require
+[4B 00 01 00]		 28	[  0]	RET0 	  0		1	; return
+[3D 04 05 01]	 15	[  0]	TSETS	  4	1	7	; slot1.__index = slot4
+[34 04 00 00]	 16	[  0]	TNEW 	  4		0	; slot4 = new table( array: 0, dict: 1)
+[34 05 00 00]	 17	[  0]	TNEW 	  5		0	; slot5 = new table( array: 0, dict: 1)
+[36 06 07 00]	 18	[  0]	GGET 	  6		5	; slot6 = _env["Config"]
+[0E 00 06 00]	 19	[  0]	IST  	   		6	; if Config
+[58 07 01 80]	 20	[  0]	JMP  	  7		1	; 	goto 22
+[34 06 00 00]	 21	[  0]	TNEW 	  6		0	; slot6 = new table( array: 0, dict: 1)
+[37 06 07 00]	 22	[  0]	GSET 	  6		5	; _env["Config"] = slot6
+[36 06 03 00]	 23	[  0]	GGET 	  6		9	; slot6 = _env["setmetatable"]
+[36 08 04 00]	 24	[  0]	GGET 	  8		8	; slot8 = _env["_G"]
+[39 08 07 08]	 25	[  0]	TGETS	  8	8	5	; slot8 = _G.Config
+[12 09 04 00]	 26	[  0]	MOV  	  9		4	; slot9 = slot4
+[42 06 03 01]	 27	[  0]	CALL 	  6	1	3	;  = setmetatable(slot7, _G.Config)
+	 28	[  0]	FNEW 	  6		4	; N/A:0-0: 2 args, 2 upvalues, 8 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[0E 00 01 00]		  1	[  0]	IST  	   		1	; if slot1
+[58 02 01 80]		  2	[  0]	JMP  	  2		1	; 	goto 4
+[4B 00 01 00]		  3	[  0]	RET0 	  0		1	; return
+[27 02 00 00]		  4	[  0]	KSTR 	  2		5	; slot2 = "Config_"
+[12 03 01 00]		  5	[  0]	MOV  	  3		1	; slot3 = slot1
+[26 02 03 02]		  6	[  0]	CAT  	  2	2	3	; slot2 = slot2 .. slot3
+[2D 03 00 00]		  7	[  0]	UGET 	  3		0	; slot3 = uv0"unknwon"
+[38 03 02 03]		  8	[  0]	TGETV	  3	3	2	; slot3 = uv0"unknown"[slot2]
+[0F 00 03 00]		  9	[  0]	ISF  	   		3	; if not slot3
+[58 04 18 80]		 10	[  0]	JMP  	  4		24	; 	goto 35
+[2D 04 01 00]		 11	[  0]	UGET 	  4		1	; slot4 = uv1"unknwon"
+[38 04 03 04]		 12	[  0]	TGETV	  4	4	3	; slot4 = uv1"unknown"[slot3]
+[0E 00 04 00]		 13	[  0]	IST  	   		4	; if slot4
+[58 04 14 80]		 14	[  0]	JMP  	  4		20	; 	goto 35
+[2D 04 00 00]		 15	[  0]	UGET 	  4		0	; slot4 = uv0"unknwon"
+[2B 05 00 00]		 16	[  0]	KPRI 	  5		0	; slot5 = nil
+[3C 05 02 04]		 17	[  0]	TSETV	  5	4	2	; uv0"unknown"[slot2] = slot5
+[2D 04 01 00]		 18	[  0]	UGET 	  4		1	; slot4 = uv1"unknwon"
+[2B 05 02 00]		 19	[  0]	KPRI 	  5		2	; slot5 = true
+[3C 05 03 04]		 20	[  0]	TSETV	  5	4	3	; uv1"unknown"[slot3] = slot5
+[36 04 01 00]		 21	[  0]	GGET 	  4		4	; slot4 = _env["require"]
+[12 06 03 00]		 22	[  0]	MOV  	  6		3	; slot6 = slot3
+[42 04 02 02]		 23	[  0]	CALL 	  4	2	2	; slot4 = require(slot5)
+[36 05 02 00]		 24	[  0]	GGET 	  5		3	; slot5 = _env["type"]
+[12 07 04 00]		 25	[  0]	MOV  	  7		4	; slot7 = require
+[42 05 02 02]		 26	[  0]	CALL 	  5	2	2	; slot5 = type(slot6)
+[07 05 03 00]		 27	[  0]	ISNES	  5		2	; if type ~= "boolean"
+[58 05 05 80]		 28	[  0]	JMP  	  5		5	; 	goto 34
+[36 05 04 00]		 29	[  0]	GGET 	  5		1	; slot5 = _env["_G"]
+[39 05 05 05]		 30	[  0]	TGETS	  5	5	0	; slot5 = _G.Config
+[38 05 01 05]		 31	[  0]	TGETV	  5	5	1	; slot5 = _G.Config[slot1]
+[4C 05 02 00]		 32	[  0]	RET1 	  5		2	; return slot5
+[58 05 01 80]		 33	[  0]	JMP  	  5		1	; 	goto 35
+[4C 04 02 00]		 34	[  0]	RET1 	  4		2	; return require
+[4B 00 01 00]		 35	[  0]	RET0 	  0		1	; return
+[3D 06 05 04]	 29	[  0]	TSETS	  6	4	7	; slot4.__index = slot6
+	 30	[  0]	FNEW 	  6		3	; N/A:0-0: 0 args, 6 upvalues, 1 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[34 00 00 00]		  1	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+[2E 00 00 00]		  2	[  0]	USETV	  0		0	; uv0"unknwon" = slot0
+[34 00 00 00]		  3	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+[2E 01 00 00]		  4	[  0]	USETV	  1		0	; uv1"unknwon" = slot0
+[34 00 00 00]		  5	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+[2E 02 00 00]		  6	[  0]	USETV	  2		0	; uv2"unknwon" = slot0
+[34 00 00 00]		  7	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+[2E 03 00 00]		  8	[  0]	USETV	  3		0	; uv3"unknwon" = slot0
+[34 00 00 00]		  9	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+[2E 04 00 00]		 10	[  0]	USETV	  4		0	; uv4"unknwon" = slot0
+[34 00 00 00]		 11	[  0]	TNEW 	  0		0	; slot0 = new table( array: 0, dict: 1)
+[2E 05 00 00]		 12	[  0]	USETV	  5		0	; uv5"unknwon" = slot0
+[4B 00 01 00]		 13	[  0]	RET0 	  0		1	; return
+[37 06 0A 00]	 31	[  0]	GSET 	  6		2	; _env["clearSuperClass"] = slot6
+	 32	[  0]	FNEW 	  6		1	; N/A:0-0: 1 args, 1 upvalues, 2 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[2D 01 00 00]		  1	[  0]	UGET 	  1		0	; slot1 = uv0"unknwon"
+[38 01 00 01]		  2	[  0]	TGETV	  1	1	0	; slot1 = uv0"unknown"[slot0]
+[4C 01 02 00]		  3	[  0]	RET1 	  1		2	; return slot1
+[37 06 0C 00]	 33	[  0]	GSET 	  6		0	; _env["getSuperClass"] = slot6
+[32 00 00 80]	 34	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 35
+[4B 00 01 00]	 35	[  0]	RET0 	  0		1	; return
+	

@@ -1,0 +1,14 @@
+[
+  {
+    "skill": "normal",
+    "trace": "SKILL_STEP 5200001 action1 action1\nSPINE_EVENT 5200001 action1 move\nSPINE_EVENT 5200001 action1 ready\nSPINE_EVENT 5200001 action1 attack\nSPINE_EVENT 5200001 action1 hit\nAUDIO_REQUEST b_dirk1 1\nSKILL_HIT 5200001 spine-event\nVFX_PLAY 20223 E80008 action\nSPINE_EVENT 5200001 action1 back\nSKILL_SEQUENCE_DONE\n"
+  },
+  {
+    "skill": "jet",
+    "trace": "SKILL_STEP 5201011 action2 action1\nSPINE_EVENT 5201011 action1 move\nSPINE_EVENT 5201011 action1 ready\nSPINE_EVENT 5201011 action1 shake_point\nSPINE_EVENT 5201011 action1 attack\nSPINE_EVENT 5201011 action1 hit\nAUDIO_REQUEST b_effect_cut01 2\nSKILL_HIT 5201011 spine-event\nVFX_PLAY 20224 E80009 action\nSKILL_STEP 5201021 action2 action2\nSPINE_EVENT 5201021 action2 hit\nSPINE_EVENT 5201021 action2 shake_point\nSKILL_HIT 5201021 spine-event\nVFX_PLAY 20224 E80009 action\nSKILL_STEP 5201031 action2 action3\nSPINE_EVENT 5201031 action3 hit\nSPINE_EVENT 5201031 action3 shake_point\nAUDIO_REQUEST b_effect_cut01 3\nSKILL_HIT 5201031 spine-event\nVFX_PLAY 20224 E80009 action\nSKILL_STEP 5201041 action2 action4\nSPINE_EVENT 5201041 action4 hit\nSPINE_EVENT 5201041 action4 shake_point\nSKILL_HIT 5201041 spine-event\nVFX_PLAY 20224 E80009 action\nSKILL_STEP 5201051 action2 action5\nAUDIO_REQUEST b_baoqi1 4\nSPINE_EVENT 5201051 action5 ready\nSPINE_EVENT 5201051 action5 hit\nSPINE_EVENT 5201051 action5 shake_point\nAUDIO_REQUEST b_effect_cut02 5\nSKILL_HIT 5201051 spine-event\nVFX_PLAY 20224 E80009 action\nSPINE_EVENT 5201051 action5 back\nSKILL_SEQUENCE_DONE\n"
+  },
+  {
+    "skill": "gear2",
+    "trace": "SKILL_STEP 5203011 action9 action9\nVFX_PLAY 15611 E54320 action1\nAUDIO_REQUEST b_skill_sprint 6\nSPINE_EVENT 5203011 action9 ready\nSPINE_EVENT 5203011 action9 attack\nSPINE_EVENT 5203011 action9 attack\nSPINE_EVENT 5203011 action9 hit\nSKILL_HIT 5203011 spine-event\nSKILL_SEQUENCE_DONE\n"
+  }
+]

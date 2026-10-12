@@ -1,0 +1,31 @@
+{
+  "config": {
+    "id": 20223,
+    "model": "E80008",
+    "file": "action",
+    "animation": "action",
+    "x": 0,
+    "y": 50,
+    "scale": 1.0,
+    "source_line": 4014
+  },
+  "assets": [
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.skel",
+      "source": "outputs/apk-extracted/assets/HASH/F/F1DFA96C66B46FC4.skel",
+      "sha256": "7a9390f5d59baf75399da1a9186d40f6209c7e07a7f38245a5a3e87ee7beb645"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.atlas",
+      "source": "outputs/apk-extracted/assets/HASH/B/BC61659E4A736C41.atlas",
+      "sha256": "3759de3ee457ec9c5e720bdd5729aac61e2034dfdd9ddb44cffee7d2d39de1ce"
+    },
+    {
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.png",
+      "source": "outputs/apk-extracted/assets/HASH/F/F959330DEB1DAD26.png",
+      "sha256": "42160cc25a32013118925d78a52a78f8d142307c4dd00dab091a374691a27d43"
+    }
+  ],
+  "status": "local_integration_device_pending",
+  "source": "skill_data.lua"
+}

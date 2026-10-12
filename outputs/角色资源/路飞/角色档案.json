@@ -1,0 +1,207 @@
+{
+  "name": "路飞",
+  "partner_id": 20510,
+  "model_id": "H30104",
+  "variant": "基础路飞；其他形态另建目录",
+  "mapping_source": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/partner_data.lua",
+  "mapping_lines": [
+    {
+      "line": 28467,
+      "text": "\t[\"20510_5\"] = \"{20510, 5, \\\"H30104\\\", 20510, 1000, 1000, 1000, 1000, {{'hp_max',200},{'atk',40},{'speed',10}}, {}, {}, {}, {}, {{1,520001},{2,520101},{3,520201},{4,520301},{5,520401}}, 100, 1, 1, {{\\\"等级上限:\\\",\\\"100\\\",\\\"100\\\"}}, \\\"\\\", \\\"\\\", {}}\","
+    },
+    {
+      "line": 34686,
+      "text": "\t[\"20510_5\"] = \"{20510, 100, 5, 2514, 719, 12012, 665, 0, 1500, 0, 0, 0, 1000, 0, 0, 0, 0, 0, {}}\","
+    }
+  ],
+  "actions": [
+    {
+      "action_file": "stand2",
+      "folder": "outputs/角色资源/路飞/动作/01_待机_stand2",
+      "animation_names_from_config": [
+        "stand2"
+      ],
+      "device_verified_animation_names": [
+        "stand2"
+      ],
+      "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+      "assets": [
+        {
+          "file": "stand2.skel",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.skel",
+          "original_file": "outputs/apk-extracted/assets/HASH/9/99EE59A1C1C19694.skel",
+          "sha256": "d31499403f294d28e60833258033189cc002641bab70db352fe36a287cca8d15"
+        },
+        {
+          "file": "stand2.atlas",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.atlas",
+          "original_file": "outputs/apk-extracted/assets/HASH/8/88565BD1DCE7CDFA.atlas",
+          "sha256": "6f0d84f8a8b0861d959b734a095e30062dbdbf331ac7feec157c8f9b3c3203d4"
+        },
+        {
+          "file": "stand2.png",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.png",
+          "original_file": "outputs/apk-extracted/assets/HASH/6/61A90643EAAD47CB.png",
+          "sha256": "2a735aad21fc11c4cfadcb79e4117a9ddd65fb17114a52d298d4167899c190a3"
+        }
+      ]
+    },
+    {
+      "action_file": "action1",
+      "folder": "outputs/角色资源/路飞/动作/02_普攻_action1",
+      "animation_names_from_config": [
+        "action1"
+      ],
+      "device_verified_animation_names": [
+        "action1"
+      ],
+      "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+      "assets": [
+        {
+          "file": "action1.skel",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.skel",
+          "original_file": "outputs/apk-extracted/assets/HASH/B/B51719F801082960.skel",
+          "sha256": "97525be80e7c342f0b20d52c34cff6b8b9a9b2681cbc55f9bfcfc9934d7c354d"
+        },
+        {
+          "file": "action1.atlas",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.atlas",
+          "original_file": "outputs/apk-extracted/assets/HASH/D/DDD4DFD1DECD3692.atlas",
+          "sha256": "a17009583c733a345d40efb17b597a808abcc0dd7bc98c2fc294de6822d66efd"
+        },
+        {
+          "file": "action1.png",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.png",
+          "original_file": "outputs/apk-extracted/assets/HASH/3/357F67757C4BCB3D.png",
+          "sha256": "f24053ced4218dfe46850e6664e7f03fe7354664b99d5edd250d7ea20d750b8b"
+        }
+      ]
+    },
+    {
+      "action_file": "action2",
+      "folder": "outputs/角色资源/路飞/动作/03_Jet枪分段_action2",
+      "animation_names_from_config": [
+        "action1",
+        "action2",
+        "action3",
+        "action4",
+        "action5"
+      ],
+      "device_verified_animation_names": [
+        "action2"
+      ],
+      "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+      "assets": [
+        {
+          "file": "action2.skel",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.skel",
+          "original_file": "outputs/apk-extracted/assets/HASH/B/B740E262C0C45F75.skel",
+          "sha256": "0a25112feeb6fbeacbdb06af9fac77d5eff674dd6394f75959a27f3420bf538f"
+        },
+        {
+          "file": "action2.atlas",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.atlas",
+          "original_file": "outputs/apk-extracted/assets/HASH/5/51948AD0F161B394.atlas",
+          "sha256": "4c6e6dacd575c6528979a6c80b13457ffa8a35d787c2f3cbd8f98e0bcc1e0214"
+        },
+        {
+          "file": "action2.png",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.png",
+          "original_file": "outputs/apk-extracted/assets/HASH/6/626700088DC8DA18.png",
+          "sha256": "3a0e05510a1282a4d77b6c5447d8ebc9cb2af7f9f28b5949755a7e3111d5c11e"
+        }
+      ]
+    },
+    {
+      "action_file": "hurt",
+      "folder": "outputs/角色资源/路飞/动作/04_受击_hurt",
+      "animation_names_from_config": [
+        "hurt"
+      ],
+      "device_verified_animation_names": [
+        "hurt"
+      ],
+      "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+      "assets": [
+        {
+          "file": "hurt.skel",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.skel",
+          "original_file": "outputs/apk-extracted/assets/HASH/E/E90B7F02F753BA70.skel",
+          "sha256": "9112354f7ab9757e795257d6878ca86c45cc764b94f504f5e5eafa0b310bcd0a"
+        },
+        {
+          "file": "hurt.atlas",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.atlas",
+          "original_file": "outputs/apk-extracted/assets/HASH/D/DAADFC564ADDB504.atlas",
+          "sha256": "04c92cdd1e8097a911bc6014bc9b5dbfdddb739bd74f58fa48444c99ae21e378"
+        },
+        {
+          "file": "hurt.png",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.png",
+          "original_file": "outputs/apk-extracted/assets/HASH/6/67260D390AB0288C.png",
+          "sha256": "e575c18830716823186a2ba308c3fb7563313cd55de53ec497b67db52ed3041d"
+        }
+      ]
+    },
+    {
+      "action_file": "run",
+      "folder": "outputs/角色资源/路飞/动作/05_移动_run",
+      "animation_names_from_config": [
+        "run"
+      ],
+      "device_verified_animation_names": [
+        "run"
+      ],
+      "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+      "assets": [
+        {
+          "file": "run.skel",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.skel",
+          "original_file": "outputs/apk-extracted/assets/HASH/4/4081F3CA8D987B6D.skel",
+          "sha256": "898a117ceac73ec2384262f2a8ebbc6fb5dce3538c3c62dde6d0fb0ad9a35706"
+        },
+        {
+          "file": "run.atlas",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.atlas",
+          "original_file": "outputs/apk-extracted/assets/HASH/B/BBC56C4AA7DB5E6B.atlas",
+          "sha256": "8f63a9fbfe826f25753921ffc6f66329546ef79c29fef315a277a5aca52a0798"
+        },
+        {
+          "file": "run.png",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.png",
+          "original_file": "outputs/apk-extracted/assets/HASH/6/6CD17B8C590237C0.png",
+          "sha256": "174551b5d18d786074e726d27bd41b83ca0b2409b6ba420fd058f7dd59870d80"
+        }
+      ]
+    },
+    {
+      "action_file": "action9",
+      "folder": "outputs/角色资源/路飞/动作/06_二档_action9",
+      "animation_names_from_config": [
+        "action9"
+      ],
+      "device_verified_animation_names": [],
+      "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+      "assets": [
+        {
+          "file": "action9.skel",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.skel",
+          "original_file": "outputs/apk-extracted/assets/HASH/A/AE84B9E80AE75638.skel",
+          "sha256": "c75220c70cd19981984f28ce5488ad61934ddb65110d8e33f401acde9bbcefc2"
+        },
+        {
+          "file": "action9.atlas",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.atlas",
+          "original_file": "outputs/apk-extracted/assets/HASH/D/DC11F25905BFEBF2.atlas",
+          "sha256": "f365fe6ffc01c0beb13b1f03b1bf862e64cc64122ec54c3c870797e2a113a262"
+        },
+        {
+          "file": "action9.png",
+          "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.png",
+          "original_file": "outputs/apk-extracted/assets/HASH/1/1EDBBB1D4639ACA5.png",
+          "sha256": "4878b563b5618c1c653d370244361e5a88a430fbe4f9b076c74249de7a31d478"
+        }
+      ]
+    }
+  ]
+}

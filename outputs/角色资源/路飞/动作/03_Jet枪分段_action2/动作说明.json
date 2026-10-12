@@ -1,0 +1,35 @@
+{
+  "action_file": "action2",
+  "folder": "outputs/角色资源/路飞/动作/03_Jet枪分段_action2",
+  "animation_names_from_config": [
+    "action1",
+    "action2",
+    "action3",
+    "action4",
+    "action5"
+  ],
+  "device_verified_animation_names": [
+    "action2"
+  ],
+  "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+  "assets": [
+    {
+      "file": "action2.skel",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.skel",
+      "original_file": "outputs/apk-extracted/assets/HASH/B/B740E262C0C45F75.skel",
+      "sha256": "0a25112feeb6fbeacbdb06af9fac77d5eff674dd6394f75959a27f3420bf538f"
+    },
+    {
+      "file": "action2.atlas",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.atlas",
+      "original_file": "outputs/apk-extracted/assets/HASH/5/51948AD0F161B394.atlas",
+      "sha256": "4c6e6dacd575c6528979a6c80b13457ffa8a35d787c2f3cbd8f98e0bcc1e0214"
+    },
+    {
+      "file": "action2.png",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.png",
+      "original_file": "outputs/apk-extracted/assets/HASH/6/626700088DC8DA18.png",
+      "sha256": "3a0e05510a1282a4d77b6c5447d8ebc9cb2af7f9f28b5949755a7e3111d5c11e"
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+;
+; Disassemble of outputs/lua-bytecode/17BCEEFA63F8FC88.luac
+;
+; Source file: N/A
+;
+; Flags:
+;	Stripped: Yes
+;	Endianness: Little
+;	FFI: Not present
+;
+
+main N/A:0-0: 0+ args, 0 upvalues, 4 slots
+	;;;; constant tables ;;;;
+	;;;; instructions ;;;;
+[36 00 00 00]	  1	[  0]	GGET 	  0		15	; slot0 = _env["BattlDramaSwapWindow"]
+[0E 00 00 00]	  2	[  0]	IST  	   		0	; if BattlDramaSwapWindow
+[58 01 03 80]	  3	[  0]	JMP  	  1		3	; 	goto 7
+[36 00 01 00]	  4	[  0]	GGET 	  0		14	; slot0 = _env["BaseClass"]
+[36 02 02 00]	  5	[  0]	GGET 	  2		13	; slot2 = _env["BaseView"]
+[42 00 02 02]	  6	[  0]	CALL 	  0	2	2	; slot0 = BaseClass(slot1)
+[37 00 00 00]	  7	[  0]	GSET 	  0		15	; _env["BattlDramaSwapWindow"] = slot0
+[36 00 03 00]	  8	[  0]	GGET 	  0		12	; slot0 = _env["BattleDramaController"]
+[12 02 00 00]	  9	[  0]	MOV  	  2		0	; slot2 = BattleDramaController
+[39 00 04 00]	 10	[  0]	TGETS	  0	0	11	; slot0 = BattleDramaController.getInstance
+[42 00 02 02]	 11	[  0]	CALL 	  0	2	2	; slot0 = BattleDramaController.getInstance(slot1)
+[36 01 03 00]	 12	[  0]	GGET 	  1		12	; slot1 = _env["BattleDramaController"]
+[12 03 01 00]	 13	[  0]	MOV  	  3		1	; slot3 = BattleDramaController
+[39 01 04 01]	 14	[  0]	TGETS	  1	1	11	; slot1 = BattleDramaController.getInstance
+[42 01 02 02]	 15	[  0]	CALL 	  1	2	2	; slot1 = BattleDramaController.getInstance(slot2)
+[12 03 01 00]	 16	[  0]	MOV  	  3		1	; slot3 = slot1
+[39 01 05 01]	 17	[  0]	TGETS	  1	1	10	; slot1 = slot1.getModel
+[42 01 02 02]	 18	[  0]	CALL 	  1	2	2	; slot1 = <unknown table>.getModel(slot2)
+[36 02 00 00]	 19	[  0]	GGET 	  2		15	; slot2 = _env["BattlDramaSwapWindow"]
+	 20	[  0]	FNEW 	  3		8	; N/A:0-0: 2 args, 0 upvalues, 3 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 01 00]		  1	[  0]	GGET 	  2		7	; slot2 = _env["WinType"]
+[39 02 02 02]		  2	[  0]	TGETS	  2	2	6	; slot2 = WinType.Mini
+[3D 02 00 00]		  3	[  0]	TSETS	  2	0	8	; slot0.win_type = WinType.Mini
+[36 02 04 00]		  4	[  0]	GGET 	  2		4	; slot2 = _env["ViewMgrTag"]
+[39 02 05 02]		  5	[  0]	TGETS	  2	2	3	; slot2 = ViewMgrTag.DIALOGUE_TAG
+[3D 02 03 00]		  6	[  0]	TSETS	  2	0	5	; slot0.view_tag = ViewMgrTag.DIALOGUE_TAG
+[3D 01 06 00]		  7	[  0]	TSETS	  1	0	2	; slot0.dun_id = slot1
+[27 02 08 00]		  8	[  0]	KSTR 	  2		0	; slot2 = "battledrama/battle_drama_swap_view"
+[3D 02 07 00]		  9	[  0]	TSETS	  2	0	1	; slot0.layout_name = slot2
+[4B 00 01 00]		 10	[  0]	RET0 	  0		1	; return
+[3D 03 06 02]	 21	[  0]	TSETS	  3	2	9	; BattlDramaSwapWindow.__init = slot3
+[36 02 00 00]	 22	[  0]	GGET 	  2		15	; slot2 = _env["BattlDramaSwapWindow"]
+	 23	[  0]	FNEW 	  3		6	; N/A:0-0: 1 args, 1 upvalues, 11 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[39 01 01 00]		  1	[  0]	TGETS	  1	0	62	; slot1 = slot0.root_wnd
+[12 03 01 00]		  2	[  0]	MOV  	  3		1	; slot3 = <unknown table>.root_wnd
+[39 01 02 01]		  3	[  0]	TGETS	  1	1	61	; slot1 = <unknown table>.root_wnd.getChildByName
+[27 04 03 00]		  4	[  0]	KSTR 	  4		60	; slot4 = "Panel_bg"
+[42 01 03 02]		  5	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.root_wnd.getChildByName(slot2, <unknown table>.root_wnd)
+[3D 01 00 00]		  6	[  0]	TSETS	  1	0	63	; slot0.panel_bg = slot1
+[39 01 00 00]		  7	[  0]	TGETS	  1	0	63	; slot1 = slot0.panel_bg
+[12 03 01 00]		  8	[  0]	MOV  	  3		1	; slot3 = <unknown table>.panel_bg
+[39 01 02 01]		  9	[  0]	TGETS	  1	1	61	; slot1 = <unknown table>.panel_bg.getChildByName
+[27 04 04 00]		 10	[  0]	KSTR 	  4		59	; slot4 = "background"
+[42 01 03 02]		 11	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.panel_bg.getChildByName(slot2, <unknown table>.panel_bg)
+[3D 01 04 00]		 12	[  0]	TSETS	  1	0	59	; slot0.background = slot1
+[39 01 00 00]		 13	[  0]	TGETS	  1	0	63	; slot1 = slot0.panel_bg
+[12 03 01 00]		 14	[  0]	MOV  	  3		1	; slot3 = <unknown table>.panel_bg
+[39 01 05 01]		 15	[  0]	TGETS	  1	1	58	; slot1 = <unknown table>.panel_bg.setScale
+[36 04 06 00]		 16	[  0]	GGET 	  4		57	; slot4 = _env["display"]
+[39 04 07 04]		 17	[  0]	TGETS	  4	4	56	; slot4 = display.getMaxScale
+[42 04 01 00]		 18	[  0]	CALL 	  4	0	1	; MULTRES = display.getMaxScale()
+[41 01 01 01]		 19	[  0]	CALLM	  1	1	1	;  = <unknown table>.panel_bg.setScale(slot2, ...MULTRES)
+[39 01 01 00]		 20	[  0]	TGETS	  1	0	62	; slot1 = slot0.root_wnd
+[12 03 01 00]		 21	[  0]	MOV  	  3		1	; slot3 = <unknown table>.root_wnd
+[39 01 02 01]		 22	[  0]	TGETS	  1	1	61	; slot1 = <unknown table>.root_wnd.getChildByName
+[27 04 09 00]		 23	[  0]	KSTR 	  4		54	; slot4 = "root"
+[42 01 03 02]		 24	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.root_wnd.getChildByName(slot2, <unknown table>.root_wnd)
+[3D 01 08 00]		 25	[  0]	TSETS	  1	0	55	; slot0.main_container = slot1
+[39 01 08 00]		 26	[  0]	TGETS	  1	0	55	; slot1 = slot0.main_container
+[12 03 01 00]		 27	[  0]	MOV  	  3		1	; slot3 = <unknown table>.main_container
+[39 01 02 01]		 28	[  0]	TGETS	  1	1	61	; slot1 = <unknown table>.main_container.getChildByName
+[27 04 0A 00]		 29	[  0]	KSTR 	  4		53	; slot4 = "close_btn"
+[42 01 03 02]		 30	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.main_container.getChildByName(slot2, <unknown table>.main_container)
+[3D 01 0A 00]		 31	[  0]	TSETS	  1	0	53	; slot0.close_btn = slot1
+[39 01 08 00]		 32	[  0]	TGETS	  1	0	55	; slot1 = slot0.main_container
+[12 03 01 00]		 33	[  0]	MOV  	  3		1	; slot3 = <unknown table>.main_container
+[39 01 02 01]		 34	[  0]	TGETS	  1	1	61	; slot1 = <unknown table>.main_container.getChildByName
+[27 04 0B 00]		 35	[  0]	KSTR 	  4		52	; slot4 = "ack_button"
+[42 01 03 02]		 36	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.main_container.getChildByName(slot2, <unknown table>.main_container)
+[3D 01 0B 00]		 37	[  0]	TSETS	  1	0	52	; slot0.ack_button = slot1
+[39 01 0B 00]		 38	[  0]	TGETS	  1	0	52	; slot1 = slot0.ack_button
+[39 02 0B 00]		 39	[  0]	TGETS	  2	0	52	; slot2 = slot0.ack_button
+[12 04 02 00]		 40	[  0]	MOV  	  4		2	; slot4 = <unknown table>.ack_button
+[39 02 0D 02]		 41	[  0]	TGETS	  2	2	50	; slot2 = <unknown table>.ack_button.getTitleRenderer
+[42 02 02 02]		 42	[  0]	CALL 	  2	2	2	; slot2 = <unknown table>.ack_button.getTitleRenderer(slot3)
+[3D 02 0C 01]		 43	[  0]	TSETS	  2	1	51	; <unknown table>.ack_button.label = slot2
+[39 01 0B 00]		 44	[  0]	TGETS	  1	0	52	; slot1 = slot0.ack_button
+[39 01 0C 01]		 45	[  0]	TGETS	  1	1	51	; slot1 = <unknown table>.ack_button.label
+[12 03 01 00]		 46	[  0]	MOV  	  3		1	; slot3 = <unknown table>.ack_button.label
+[39 01 0E 01]		 47	[  0]	TGETS	  1	1	49	; slot1 = <unknown table>.ack_button.label.enableOutline
+[36 04 0F 00]		 48	[  0]	GGET 	  4		48	; slot4 = _env["Config"]
+[39 04 10 04]		 49	[  0]	TGETS	  4	4	47	; slot4 = Config.ColorData
+[39 04 11 04]		 50	[  0]	TGETS	  4	4	46	; slot4 = Config.ColorData.data_color4
+[3A 04 52 04]		 51	[  0]	TGETB	  4	4	82	; slot4 = Config.ColorData.data_color4[82]
+[29 05 02 00]		 52	[  0]	KSHORT	  5		2	; slot5 = 2
+[42 01 04 01]		 53	[  0]	CALL 	  1	1	4	;  = <unknown table>.ack_button.label.enableOutline(slot2, <unknown table>.ack_button.label, slot4)
+[39 01 08 00]		 54	[  0]	TGETS	  1	0	55	; slot1 = slot0.main_container
+[12 03 01 00]		 55	[  0]	MOV  	  3		1	; slot3 = <unknown table>.main_container
+[39 01 02 01]		 56	[  0]	TGETS	  1	1	61	; slot1 = <unknown table>.main_container.getChildByName
+[27 04 12 00]		 57	[  0]	KSTR 	  4		45	; slot4 = "swap_num_desc"
+[42 01 03 02]		 58	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.main_container.getChildByName(slot2, <unknown table>.main_container)
+[3D 01 12 00]		 59	[  0]	TSETS	  1	0	45	; slot0.swap_num_desc = slot1
+[39 01 12 00]		 60	[  0]	TGETS	  1	0	45	; slot1 = slot0.swap_num_desc
+[12 03 01 00]		 61	[  0]	MOV  	  3		1	; slot3 = <unknown table>.swap_num_desc
+[39 01 13 01]		 62	[  0]	TGETS	  1	1	44	; slot1 = <unknown table>.swap_num_desc.setString
+[36 04 14 00]		 63	[  0]	GGET 	  4		43	; slot4 = _env["TI18N"]
+[27 06 15 00]		 64	[  0]	KSTR 	  6		42	; slot6 = "扫荡卷的数量:"
+[42 04 02 00]		 65	[  0]	CALL 	  4	0	2	; MULTRES = TI18N(slot5)
+[41 01 01 01]		 66	[  0]	CALLM	  1	1	1	;  = <unknown table>.swap_num_desc.setString(slot2, ...MULTRES)
+[39 01 08 00]		 67	[  0]	TGETS	  1	0	55	; slot1 = slot0.main_container
+[12 03 01 00]		 68	[  0]	MOV  	  3		1	; slot3 = <unknown table>.main_container
+[39 01 02 01]		 69	[  0]	TGETS	  1	1	61	; slot1 = <unknown table>.main_container.getChildByName
+[27 04 16 00]		 70	[  0]	KSTR 	  4		41	; slot4 = "swap_num"
+[42 01 03 02]		 71	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.main_container.getChildByName(slot2, <unknown table>.main_container)
+[3D 01 16 00]		 72	[  0]	TSETS	  1	0	41	; slot0.swap_num = slot1
+[36 01 17 00]		 73	[  0]	GGET 	  1		40	; slot1 = _env["BackpackController"]
+[12 03 01 00]		 74	[  0]	MOV  	  3		1	; slot3 = BackpackController
+[39 01 18 01]		 75	[  0]	TGETS	  1	1	39	; slot1 = BackpackController.getInstance
+[42 01 02 02]		 76	[  0]	CALL 	  1	2	2	; slot1 = BackpackController.getInstance(slot2)
+[12 03 01 00]		 77	[  0]	MOV  	  3		1	; slot3 = slot1
+[39 01 19 01]		 78	[  0]	TGETS	  1	1	38	; slot1 = slot1.getModel
+[42 01 02 02]		 79	[  0]	CALL 	  1	2	2	; slot1 = <unknown table>.getModel(slot2)
+[12 03 01 00]		 80	[  0]	MOV  	  3		1	; slot3 = slot1
+[39 01 1A 01]		 81	[  0]	TGETS	  1	1	37	; slot1 = slot1.getBackPackItemNumByBid
+[36 04 0F 00]		 82	[  0]	GGET 	  4		48	; slot4 = _env["Config"]
+[39 04 1B 04]		 83	[  0]	TGETS	  4	4	36	; slot4 = Config.DungeonData
+[39 04 1C 04]		 84	[  0]	TGETS	  4	4	35	; slot4 = Config.DungeonData.data_drama_const
+[39 04 1D 04]		 85	[  0]	TGETS	  4	4	34	; slot4 = Config.DungeonData.data_drama_const.swap_item
+[39 04 1E 04]		 86	[  0]	TGETS	  4	4	33	; slot4 = Config.DungeonData.data_drama_const.swap_item.val
+[42 01 03 02]		 87	[  0]	CALL 	  1	2	3	; slot1 = <unknown table>.getBackPackItemNumByBid(slot2, slot3)
+[39 02 16 00]		 88	[  0]	TGETS	  2	0	41	; slot2 = slot0.swap_num
+[12 04 02 00]		 89	[  0]	MOV  	  4		2	; slot4 = <unknown table>.swap_num
+[39 02 13 02]		 90	[  0]	TGETS	  2	2	44	; slot2 = <unknown table>.swap_num.setString
+[12 05 01 00]		 91	[  0]	MOV  	  5		1	; slot5 = slot1
+[42 02 03 01]		 92	[  0]	CALL 	  2	1	3	;  = <unknown table>.swap_num.setString(slot3, <unknown table>.swap_num)
+[36 02 20 00]		 93	[  0]	GGET 	  2		31	; slot2 = _env["createRichLabel"]
+[29 04 18 00]		 94	[  0]	KSHORT	  4		24	; slot4 = 24
+[29 05 75 00]		 95	[  0]	KSHORT	  5		117	; slot5 = 117
+[36 06 21 00]		 96	[  0]	GGET 	  6		30	; slot6 = _env["cc"]
+[39 06 22 06]		 97	[  0]	TGETS	  6	6	29	; slot6 = cc.p
+[2A 08 00 00]		 98	[  0]	KNUM 	  8		0	; slot8 = 0.5
+[2A 09 00 00]		 99	[  0]	KNUM 	  9		0	; slot9 = 0.5
+[42 06 03 02]		100	[  0]	CALL 	  6	2	3	; slot6 = cc.p(slot7, slot8)
+[36 07 21 00]		101	[  0]	GGET 	  7		30	; slot7 = _env["cc"]
+[39 07 22 07]		102	[  0]	TGETS	  7	7	29	; slot7 = cc.p
+[29 09 6D 01]		103	[  0]	KSHORT	  9		365	; slot9 = 365
+[29 0A 76 02]		104	[  0]	KSHORT	 10		630	; slot10 = 630
+[42 07 03 02]		105	[  0]	CALL 	  7	2	3	; slot7 = cc.p(slot8, slot9)
+[2C 08 09 00]		106	[  0]	KNIL 	  8		9	; slot8, slot9 = nil
+[29 0A E8 03]		107	[  0]	KSHORT	 10		1000	; slot10 = 1000
+[42 02 08 02]		108	[  0]	CALL 	  2	2	8	; slot2 = createRichLabel(slot3, slot4, slot5, cc.p, cc.p, slot8, slot9)
+[3D 02 1F 00]		109	[  0]	TSETS	  2	0	32	; slot0.swap_num_label = slot2
+[39 02 08 00]		110	[  0]	TGETS	  2	0	55	; slot2 = slot0.main_container
+[12 04 02 00]		111	[  0]	MOV  	  4		2	; slot4 = <unknown table>.main_container
+[39 02 23 02]		112	[  0]	TGETS	  2	2	28	; slot2 = <unknown table>.main_container.addChild
+[39 05 1F 00]		113	[  0]	TGETS	  5	0	32	; slot5 = slot0.swap_num_label
+[42 02 03 01]		114	[  0]	CALL 	  2	1	3	;  = <unknown table>.main_container.addChild(slot3, <unknown table>.main_container)
+[39 02 1F 00]		115	[  0]	TGETS	  2	0	32	; slot2 = slot0.swap_num_label
+[12 04 02 00]		116	[  0]	MOV  	  4		2	; slot4 = <unknown table>.swap_num_label
+[39 02 24 02]		117	[  0]	TGETS	  2	2	27	; slot2 = <unknown table>.swap_num_label.setVisible
+[2B 05 02 00]		118	[  0]	KPRI 	  5		2	; slot5 = true
+[42 02 03 01]		119	[  0]	CALL 	  2	1	3	;  = <unknown table>.swap_num_label.setVisible(slot3, <unknown table>.swap_num_label)
+[39 02 08 00]		120	[  0]	TGETS	  2	0	55	; slot2 = slot0.main_container
+[12 04 02 00]		121	[  0]	MOV  	  4		2	; slot4 = <unknown table>.main_container
+[39 02 02 02]		122	[  0]	TGETS	  2	2	61	; slot2 = <unknown table>.main_container.getChildByName
+[27 05 25 00]		123	[  0]	KSTR 	  5		26	; slot5 = "icon"
+[42 02 03 02]		124	[  0]	CALL 	  2	2	3	; slot2 = <unknown table>.main_container.getChildByName(slot3, <unknown table>.main_container)
+[3D 02 25 00]		125	[  0]	TSETS	  2	0	26	; slot0.icon = slot2
+[36 02 0F 00]		126	[  0]	GGET 	  2		48	; slot2 = _env["Config"]
+[39 02 26 02]		127	[  0]	TGETS	  2	2	25	; slot2 = Config.ItemData
+[39 02 27 02]		128	[  0]	TGETS	  2	2	24	; slot2 = Config.ItemData.data_get_data
+[36 04 0F 00]		129	[  0]	GGET 	  4		48	; slot4 = _env["Config"]
+[39 04 1B 04]		130	[  0]	TGETS	  4	4	36	; slot4 = Config.DungeonData
+[39 04 1C 04]		131	[  0]	TGETS	  4	4	35	; slot4 = Config.DungeonData.data_drama_const
+[39 04 1D 04]		132	[  0]	TGETS	  4	4	34	; slot4 = Config.DungeonData.data_drama_const.swap_item
+[39 04 1E 04]		133	[  0]	TGETS	  4	4	33	; slot4 = Config.DungeonData.data_drama_const.swap_item.val
+[42 02 02 02]		134	[  0]	CALL 	  2	2	2	; slot2 = Config.ItemData.data_get_data(slot3)
+[39 02 25 02]		135	[  0]	TGETS	  2	2	26	; slot2 = slot2.icon
+[39 03 25 00]		136	[  0]	TGETS	  3	0	26	; slot3 = slot0.icon
+[12 05 03 00]		137	[  0]	MOV  	  5		3	; slot5 = <unknown table>.icon
+[39 03 28 03]		138	[  0]	TGETS	  3	3	23	; slot3 = <unknown table>.icon.loadTexture
+[36 06 29 00]		139	[  0]	GGET 	  6		22	; slot6 = _env["PathTool"]
+[39 06 2A 06]		140	[  0]	TGETS	  6	6	21	; slot6 = PathTool.getItemRes
+[12 08 02 00]		141	[  0]	MOV  	  8		2	; slot8 = <unknown table>.icon
+[42 06 02 02]		142	[  0]	CALL 	  6	2	2	; slot6 = PathTool.getItemRes(slot7)
+[36 07 2B 00]		143	[  0]	GGET 	  7		20	; slot7 = _env["LOADTEXT_TYPE"]
+[42 03 04 01]		144	[  0]	CALL 	  3	1	4	;  = <unknown table>.icon.loadTexture(Config.DungeonData.data_drama_const.swap_item.val, <unknown table>.icon, PathTool.getItemRes)
+[36 03 2D 00]		145	[  0]	GGET 	  3		18	; slot3 = _env["CommonNumBar"]
+[39 03 2E 03]		146	[  0]	TGETS	  3	3	17	; slot3 = CommonNumBar.New
+[39 05 08 00]		147	[  0]	TGETS	  5	0	55	; slot5 = slot0.main_container
+[36 06 21 00]		148	[  0]	GGET 	  6		30	; slot6 = _env["cc"]
+[39 06 2F 06]		149	[  0]	TGETS	  6	6	16	; slot6 = cc.size
+[29 08 A5 00]		150	[  0]	KSHORT	  8		165	; slot8 = 165
+[29 09 34 00]		151	[  0]	KSHORT	  9		52	; slot9 = 52
+[42 06 03 02]		152	[  0]	CALL 	  6	2	3	; slot6 = cc.size(LOADTEXT_TYPE, slot8)
+[29 07 14 00]		153	[  0]	KSHORT	  7		20	; slot7 = 20
+[42 03 04 02]		154	[  0]	CALL 	  3	2	4	; slot3 = CommonNumBar.New(slot4, <unknown table>.main_container, cc.size)
+[3D 03 2C 00]		155	[  0]	TSETS	  3	0	19	; slot0.num_bar = slot3
+[39 03 2C 00]		156	[  0]	TGETS	  3	0	19	; slot3 = slot0.num_bar
+[12 05 03 00]		157	[  0]	MOV  	  5		3	; slot5 = <unknown table>.num_bar
+[39 03 30 03]		158	[  0]	TGETS	  3	3	15	; slot3 = <unknown table>.num_bar.setMinSuffix
+[29 06 01 00]		159	[  0]	KSHORT	  6		1	; slot6 = 1
+[42 03 03 01]		160	[  0]	CALL 	  3	1	3	;  = <unknown table>.num_bar.setMinSuffix(slot4, <unknown table>.num_bar)
+[39 03 2C 00]		161	[  0]	TGETS	  3	0	19	; slot3 = slot0.num_bar
+[12 05 03 00]		162	[  0]	MOV  	  5		3	; slot5 = <unknown table>.num_bar
+[39 03 31 03]		163	[  0]	TGETS	  3	3	14	; slot3 = <unknown table>.num_bar.setAnchorPoint
+[29 06 00 00]		164	[  0]	KSHORT	  6		0	; slot6 = 0
+[29 07 01 00]		165	[  0]	KSHORT	  7		1	; slot7 = 1
+[42 03 04 01]		166	[  0]	CALL 	  3	1	4	;  = <unknown table>.num_bar.setAnchorPoint(slot4, <unknown table>.num_bar, slot6)
+[39 03 2C 00]		167	[  0]	TGETS	  3	0	19	; slot3 = slot0.num_bar
+[12 05 03 00]		168	[  0]	MOV  	  5		3	; slot5 = <unknown table>.num_bar
+[39 03 32 03]		169	[  0]	TGETS	  3	3	13	; slot3 = <unknown table>.num_bar.setPosition
+[29 06 1D 01]		170	[  0]	KSHORT	  6		285	; slot6 = 285
+[29 07 C1 02]		171	[  0]	KSHORT	  7		705	; slot7 = 705
+[42 03 04 01]		172	[  0]	CALL 	  3	1	4	;  = <unknown table>.num_bar.setPosition(slot4, <unknown table>.num_bar, slot6)
+[39 03 2C 00]		173	[  0]	TGETS	  3	0	19	; slot3 = slot0.num_bar
+[12 05 03 00]		174	[  0]	MOV  	  5		3	; slot5 = <unknown table>.num_bar
+[39 03 33 03]		175	[  0]	TGETS	  3	3	12	; slot3 = <unknown table>.num_bar.setNum
+[29 06 01 00]		176	[  0]	KSHORT	  6		1	; slot6 = 1
+[42 03 03 01]		177	[  0]	CALL 	  3	1	3	;  = <unknown table>.num_bar.setNum(slot4, <unknown table>.num_bar)
+[39 03 2C 00]		178	[  0]	TGETS	  3	0	19	; slot3 = slot0.num_bar
+[39 03 04 03]		179	[  0]	TGETS	  3	3	59	; slot3 = <unknown table>.num_bar.background
+[12 05 03 00]		180	[  0]	MOV  	  5		3	; slot5 = <unknown table>.num_bar.background
+[39 03 34 03]		181	[  0]	TGETS	  3	3	11	; slot3 = <unknown table>.num_bar.background.setContentSize
+[36 06 21 00]		182	[  0]	GGET 	  6		30	; slot6 = _env["cc"]
+[39 06 2F 06]		183	[  0]	TGETS	  6	6	16	; slot6 = cc.size
+[29 08 A5 00]		184	[  0]	KSHORT	  8		165	; slot8 = 165
+[29 09 34 00]		185	[  0]	KSHORT	  9		52	; slot9 = 52
+[42 06 03 00]		186	[  0]	CALL 	  6	0	3	; MULTRES = cc.size(slot7, slot8)
+[41 03 01 01]		187	[  0]	CALLM	  3	1	1	;  = <unknown table>.num_bar.background.setContentSize(slot4, ...MULTRES)
+[36 03 35 00]		188	[  0]	GGET 	  3		10	; slot3 = _env["BattleDramaController"]
+[12 05 03 00]		189	[  0]	MOV  	  5		3	; slot5 = BattleDramaController
+[39 03 18 03]		190	[  0]	TGETS	  3	3	39	; slot3 = BattleDramaController.getInstance
+[42 03 02 02]		191	[  0]	CALL 	  3	2	2	; slot3 = BattleDramaController.getInstance(slot4)
+[12 05 03 00]		192	[  0]	MOV  	  5		3	; slot5 = BattleDramaController.getInstance
+[39 03 19 03]		193	[  0]	TGETS	  3	3	38	; slot3 = BattleDramaController.getInstance.getModel
+[42 03 02 02]		194	[  0]	CALL 	  3	2	2	; slot3 = BattleDramaController.getInstance.getModel(slot4)
+[12 05 03 00]		195	[  0]	MOV  	  5		3	; slot5 = BattleDramaController.getInstance.getModel
+[39 03 36 03]		196	[  0]	TGETS	  3	3	9	; slot3 = BattleDramaController.getInstance.getModel.getDramaData
+[42 03 02 02]		197	[  0]	CALL 	  3	2	2	; slot3 = BattleDramaController.getInstance.getModel.getDramaData(slot4)
+[0F 00 03 00]		198	[  0]	ISF  	   		3	; if not BattleDramaController.getInstance.getModel.getDramaData
+[58 04 20 80]		199	[  0]	JMP  	  4		32	; 	goto 232
+[39 04 2C 00]		200	[  0]	TGETS	  4	0	19	; slot4 = slot0.num_bar
+[0F 00 04 00]		201	[  0]	ISF  	   		4	; if not <unknown table>.num_bar
+[58 05 05 80]		202	[  0]	JMP  	  5		5	; 	goto 208
+[39 04 2C 00]		203	[  0]	TGETS	  4	0	19	; slot4 = slot0.num_bar
+[12 06 04 00]		204	[  0]	MOV  	  6		4	; slot6 = <unknown table>.num_bar
+[39 04 37 04]		205	[  0]	TGETS	  4	4	8	; slot4 = <unknown table>.num_bar.registerHandle
+		206	[  0]	FNEW 	  7		7	; N/A:0-0: 2 args, 3 upvalues, 11 slots
+			
+			;;;; constant tables ;;;;
+			;;;; instructions ;;;;
+[36 02 00 00]			  1	[  0]	GGET 	  2		21	; slot2 = _env["BackpackController"]
+[12 04 02 00]			  2	[  0]	MOV  	  4		2	; slot4 = BackpackController
+[39 02 01 02]			  3	[  0]	TGETS	  2	2	20	; slot2 = BackpackController.getInstance
+[42 02 02 02]			  4	[  0]	CALL 	  2	2	2	; slot2 = BackpackController.getInstance(slot3)
+[12 04 02 00]			  5	[  0]	MOV  	  4		2	; slot4 = slot2
+[39 02 02 02]			  6	[  0]	TGETS	  2	2	19	; slot2 = slot2.getModel
+[42 02 02 02]			  7	[  0]	CALL 	  2	2	2	; slot2 = <unknown table>.getModel(slot3)
+[12 04 02 00]			  8	[  0]	MOV  	  4		2	; slot4 = slot2
+[39 02 03 02]			  9	[  0]	TGETS	  2	2	18	; slot2 = slot2.getBackPackItemNumByBid
+[36 05 04 00]			 10	[  0]	GGET 	  5		17	; slot5 = _env["Config"]
+[39 05 05 05]			 11	[  0]	TGETS	  5	5	16	; slot5 = Config.DungeonData
+[39 05 06 05]			 12	[  0]	TGETS	  5	5	15	; slot5 = Config.DungeonData.data_drama_const
+[39 05 07 05]			 13	[  0]	TGETS	  5	5	14	; slot5 = Config.DungeonData.data_drama_const.swap_item
+[39 05 08 05]			 14	[  0]	TGETS	  5	5	13	; slot5 = Config.DungeonData.data_drama_const.swap_item.val
+[42 02 03 02]			 15	[  0]	CALL 	  2	2	3	; slot2 = <unknown table>.getBackPackItemNumByBid(slot3, slot4)
+[2D 03 00 00]			 16	[  0]	UGET 	  3		0	; slot3 = uv0"unknwon"
+[12 05 03 00]			 17	[  0]	MOV  	  5		3	; slot5 = uv0"unknown"
+[39 03 09 03]			 18	[  0]	TGETS	  3	3	12	; slot3 = uv0"unknown".getCurDunInfoByID
+[2D 06 01 00]			 19	[  0]	UGET 	  6		1	; slot6 = uv1"unknwon"
+[39 06 0A 06]			 20	[  0]	TGETS	  6	6	11	; slot6 = uv1"unknown".dun_id
+[42 03 03 02]			 21	[  0]	CALL 	  3	2	3	; slot3 = uv0"unknown".getCurDunInfoByID(slot4, uv0"unknown")
+[0F 00 03 00]			 22	[  0]	ISF  	   		3	; if not slot3
+[58 04 1F 80]			 23	[  0]	JMP  	  4		31	; 	goto 55
+[39 04 0B 03]			 24	[  0]	TGETS	  4	3	10	; slot4 = slot3.auto_num
+[0F 00 04 00]			 25	[  0]	ISF  	   		4	; if not <unknown table>.auto_num
+[58 05 1C 80]			 26	[  0]	JMP  	  5		28	; 	goto 55
+[2D 04 02 00]			 27	[  0]	UGET 	  4		2	; slot4 = uv2"unknwon"
+[39 04 0C 04]			 28	[  0]	TGETS	  4	4	9	; slot4 = uv2"unknown".auto_num_max
+[39 05 0B 03]			 29	[  0]	TGETS	  5	3	10	; slot5 = slot3.auto_num
+[21 04 05 04]			 30	[  0]	SUBVV	  4	4	5	; slot4 = uv2"unknown".auto_num_max - <unknown table>.auto_num
+[36 05 0D 00]			 31	[  0]	GGET 	  5		8	; slot5 = _env["math"]
+[39 05 0E 05]			 32	[  0]	TGETS	  5	5	7	; slot5 = math.min
+[12 07 02 00]			 33	[  0]	MOV  	  7		2	; slot7 = slot2
+[12 08 04 00]			 34	[  0]	MOV  	  8		4	; slot8 = slot4
+[42 05 03 02]			 35	[  0]	CALL 	  5	2	3	; slot5 = math.min(uv1"unknown".dun_id, slot7)
+[06 00 0F 00]			 36	[  0]	ISEQS	  0		6	; if slot0 == "add"
+[58 06 00 80]			 37	[  0]	JMP  	  6		0	; 	goto 38
+[01 05 01 00]			 38	[  0]	ISGE 	  5		1	; if math.min >= slot1
+[58 06 0F 80]			 39	[  0]	JMP  	  6		15	; 	goto 55
+[36 06 10 00]			 40	[  0]	GGET 	  6		5	; slot6 = _env["message"]
+[36 08 11 00]			 41	[  0]	GGET 	  8		4	; slot8 = _env["TI18N"]
+[27 0A 12 00]			 42	[  0]	KSTR 	 10		3	; slot10 = "已达最大次数"
+[42 08 02 00]			 43	[  0]	CALL 	  8	0	2	; MULTRES = TI18N(slot9)
+[41 06 00 01]			 44	[  0]	CALLM	  6	1	0	;  = message(, ...MULTRES)
+[2D 06 01 00]			 45	[  0]	UGET 	  6		1	; slot6 = uv1"unknwon"
+[39 06 13 06]			 46	[  0]	TGETS	  6	6	2	; slot6 = uv1"unknown".num_bar
+[12 08 06 00]			 47	[  0]	MOV  	  8		6	; slot8 = uv1"unknown".num_bar
+[39 06 14 06]			 48	[  0]	TGETS	  6	6	1	; slot6 = uv1"unknown".num_bar.setNum
+[12 09 05 00]			 49	[  0]	MOV  	  9		5	; slot9 = math.min
+[42 06 03 01]			 50	[  0]	CALL 	  6	1	3	;  = uv1"unknown".num_bar.setNum(slot7, uv1"unknown".num_bar)
+[4B 00 01 00]			 51	[  0]	RET0 	  0		1	; return
+[58 06 02 80]			 52	[  0]	JMP  	  6		2	; 	goto 55
+[07 00 15 00]			 53	[  0]	ISNES	  0		0	; if slot0 ~= "sub"
+[58 06 00 80]			 54	[  0]	JMP  	  6		0	; 	goto 55
+[4B 00 01 00]			 55	[  0]	RET0 	  0		1	; return
+[42 04 03 01]		207	[  0]	CALL 	  4	1	3	;  = <unknown table>.num_bar.registerHandle(BattleDramaController.getInstance.getModel, <unknown table>.num_bar)
+[2D 04 00 00]		208	[  0]	UGET 	  4		0	; slot4 = uv0"unknwon"
+[12 06 04 00]		209	[  0]	MOV  	  6		4	; slot6 = uv0"unknown"
+[39 04 39 04]		210	[  0]	TGETS	  4	4	6	; slot4 = uv0"unknown".getCurDunInfoByID
+[39 07 3A 00]		211	[  0]	TGETS	  7	0	5	; slot7 = slot0.dun_id
+[42 04 03 02]		212	[  0]	CALL 	  4	2	3	; slot4 = uv0"unknown".getCurDunInfoByID(BattleDramaController.getInstance.getModel, uv0"unknown")
+[0F 00 04 00]		213	[  0]	ISF  	   		4	; if not uv0"unknown".getCurDunInfoByID
+[58 05 11 80]		214	[  0]	JMP  	  5		17	; 	goto 232
+[39 05 3B 04]		215	[  0]	TGETS	  5	4	4	; slot5 = uv0"unknown".getCurDunInfoByID.auto_num
+[0F 00 05 00]		216	[  0]	ISF  	   		5	; if not uv0"unknown".getCurDunInfoByID.auto_num
+[58 06 0E 80]		217	[  0]	JMP  	  6		14	; 	goto 232
+[36 05 3C 00]		218	[  0]	GGET 	  5		3	; slot5 = _env["string"]
+[39 05 3D 05]		219	[  0]	TGETS	  5	5	2	; slot5 = string.format
+[36 07 14 00]		220	[  0]	GGET 	  7		43	; slot7 = _env["TI18N"]
+[27 09 3E 00]		221	[  0]	KSTR 	  9		1	; slot9 = "<div fontColor=#68452a>(剩余:%s次)</div>"
+[42 07 02 02]		222	[  0]	CALL 	  7	2	2	; slot7 = TI18N(slot8)
+[39 08 3F 03]		223	[  0]	TGETS	  8	3	0	; slot8 = BattleDramaController.getInstance.getModel.getDramaData.auto_num_max
+[39 09 3B 04]		224	[  0]	TGETS	  9	4	4	; slot9 = uv0"unknown".getCurDunInfoByID.auto_num
+[21 08 09 08]		225	[  0]	SUBVV	  8	8	9	; slot8 = BattleDramaController.getInstance.getModel.getDramaData.auto_num_max - uv0"unknown".getCurDunInfoByID.auto_num
+[42 05 03 02]		226	[  0]	CALL 	  5	2	3	; slot5 = string.format(uv0"unknown", TI18N)
+[39 06 1F 00]		227	[  0]	TGETS	  6	0	32	; slot6 = slot0.swap_num_label
+[12 08 06 00]		228	[  0]	MOV  	  8		6	; slot8 = <unknown table>.swap_num_label
+[39 06 13 06]		229	[  0]	TGETS	  6	6	44	; slot6 = <unknown table>.swap_num_label.setString
+[12 09 05 00]		230	[  0]	MOV  	  9		5	; slot9 = string.format
+[42 06 03 01]		231	[  0]	CALL 	  6	1	3	;  = <unknown table>.swap_num_label.setString(TI18N, <unknown table>.swap_num_label)
+[32 00 00 80]		232	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 233
+[4B 00 01 00]		233	[  0]	RET0 	  0		1	; return
+[3D 03 08 02]	 24	[  0]	TSETS	  3	2	7	; BattlDramaSwapWindow.open_callback = slot3
+[36 02 00 00]	 25	[  0]	GGET 	  2		15	; slot2 = _env["BattlDramaSwapWindow"]
+	 26	[  0]	FNEW 	  3		4	; N/A:0-0: 1 args, 1 upvalues, 5 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[39 01 00 00]		  1	[  0]	TGETS	  1	0	6	; slot1 = slot0.background
+[0F 00 01 00]		  2	[  0]	ISF  	   		1	; if not <unknown table>.background
+[58 02 05 80]		  3	[  0]	JMP  	  2		5	; 	goto 9
+[39 01 00 00]		  4	[  0]	TGETS	  1	0	6	; slot1 = slot0.background
+[12 03 01 00]		  5	[  0]	MOV  	  3		1	; slot3 = <unknown table>.background
+[39 01 01 01]		  6	[  0]	TGETS	  1	1	5	; slot1 = <unknown table>.background.addTouchEventListener
+		  7	[  0]	FNEW 	  4		4	; N/A:0-0: 2 args, 1 upvalues, 6 slots
+			
+			;;;; constant tables ;;;;
+			;;;; instructions ;;;;
+[36 02 00 00]			  1	[  0]	GGET 	  2		4	; slot2 = _env["ccui"]
+[39 02 01 02]			  2	[  0]	TGETS	  2	2	3	; slot2 = ccui.TouchEventType
+[39 02 02 02]			  3	[  0]	TGETS	  2	2	2	; slot2 = ccui.TouchEventType.ended
+[05 01 02 00]			  4	[  0]	ISNEV	  1		2	; if slot1 ~= ccui.TouchEventType.ended
+[58 02 07 80]			  5	[  0]	JMP  	  2		7	; 	goto 13
+[36 02 03 00]			  6	[  0]	GGET 	  2		1	; slot2 = _env["playButtonSound2"]
+[42 02 01 01]			  7	[  0]	CALL 	  2	1	1	;  = playButtonSound2()
+[2D 02 00 00]			  8	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[12 04 02 00]			  9	[  0]	MOV  	  4		2	; slot4 = uv0"unknown"
+[39 02 04 02]			 10	[  0]	TGETS	  2	2	0	; slot2 = uv0"unknown".openDramSwapView
+[2B 05 01 00]			 11	[  0]	KPRI 	  5		1	; slot5 = false
+[42 02 03 01]			 12	[  0]	CALL 	  2	1	3	;  = uv0"unknown".openDramSwapView(slot3, uv0"unknown")
+[4B 00 01 00]			 13	[  0]	RET0 	  0		1	; return
+[42 01 03 01]		  8	[  0]	CALL 	  1	1	3	;  = <unknown table>.background.addTouchEventListener(slot2, <unknown table>.background)
+[39 01 03 00]		  9	[  0]	TGETS	  1	0	3	; slot1 = slot0.close_btn
+[0F 00 01 00]		 10	[  0]	ISF  	   		1	; if not <unknown table>.close_btn
+[58 02 05 80]		 11	[  0]	JMP  	  2		5	; 	goto 17
+[39 01 03 00]		 12	[  0]	TGETS	  1	0	3	; slot1 = slot0.close_btn
+[12 03 01 00]		 13	[  0]	MOV  	  3		1	; slot3 = <unknown table>.close_btn
+[39 01 01 01]		 14	[  0]	TGETS	  1	1	5	; slot1 = <unknown table>.close_btn.addTouchEventListener
+		 15	[  0]	FNEW 	  4		2	; N/A:0-0: 2 args, 1 upvalues, 6 slots
+			
+			;;;; constant tables ;;;;
+			;;;; instructions ;;;;
+[36 02 00 00]			  1	[  0]	GGET 	  2		4	; slot2 = _env["ccui"]
+[39 02 01 02]			  2	[  0]	TGETS	  2	2	3	; slot2 = ccui.TouchEventType
+[39 02 02 02]			  3	[  0]	TGETS	  2	2	2	; slot2 = ccui.TouchEventType.ended
+[05 01 02 00]			  4	[  0]	ISNEV	  1		2	; if slot1 ~= ccui.TouchEventType.ended
+[58 02 07 80]			  5	[  0]	JMP  	  2		7	; 	goto 13
+[36 02 03 00]			  6	[  0]	GGET 	  2		1	; slot2 = _env["playButtonSound2"]
+[42 02 01 01]			  7	[  0]	CALL 	  2	1	1	;  = playButtonSound2()
+[2D 02 00 00]			  8	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[12 04 02 00]			  9	[  0]	MOV  	  4		2	; slot4 = uv0"unknown"
+[39 02 04 02]			 10	[  0]	TGETS	  2	2	0	; slot2 = uv0"unknown".openDramSwapView
+[2B 05 01 00]			 11	[  0]	KPRI 	  5		1	; slot5 = false
+[42 02 03 01]			 12	[  0]	CALL 	  2	1	3	;  = uv0"unknown".openDramSwapView(slot3, uv0"unknown")
+[4B 00 01 00]			 13	[  0]	RET0 	  0		1	; return
+[42 01 03 01]		 16	[  0]	CALL 	  1	1	3	;  = <unknown table>.close_btn.addTouchEventListener(slot2, <unknown table>.close_btn)
+[39 01 05 00]		 17	[  0]	TGETS	  1	0	1	; slot1 = slot0.ack_button
+[0F 00 01 00]		 18	[  0]	ISF  	   		1	; if not <unknown table>.ack_button
+[58 02 05 80]		 19	[  0]	JMP  	  2		5	; 	goto 25
+[39 01 05 00]		 20	[  0]	TGETS	  1	0	1	; slot1 = slot0.ack_button
+[12 03 01 00]		 21	[  0]	MOV  	  3		1	; slot3 = <unknown table>.ack_button
+[39 01 01 01]		 22	[  0]	TGETS	  1	1	5	; slot1 = <unknown table>.ack_button.addTouchEventListener
+		 23	[  0]	FNEW 	  4		0	; N/A:0-0: 2 args, 2 upvalues, 7 slots
+			
+			;;;; constant tables ;;;;
+			;;;; instructions ;;;;
+[36 02 00 00]			  1	[  0]	GGET 	  2		10	; slot2 = _env["ccui"]
+[39 02 01 02]			  2	[  0]	TGETS	  2	2	9	; slot2 = ccui.TouchEventType
+[39 02 02 02]			  3	[  0]	TGETS	  2	2	8	; slot2 = ccui.TouchEventType.ended
+[05 01 02 00]			  4	[  0]	ISNEV	  1		2	; if slot1 ~= ccui.TouchEventType.ended
+[58 02 21 80]			  5	[  0]	JMP  	  2		33	; 	goto 39
+[36 02 03 00]			  6	[  0]	GGET 	  2		7	; slot2 = _env["playButtonSound2"]
+[42 02 01 01]			  7	[  0]	CALL 	  2	1	1	;  = playButtonSound2()
+[2D 02 00 00]			  8	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[39 02 04 02]			  9	[  0]	TGETS	  2	2	6	; slot2 = uv0"unknown".dun_id
+[0F 00 02 00]			 10	[  0]	ISF  	   		2	; if not uv0"unknown".dun_id
+[58 03 1B 80]			 11	[  0]	JMP  	  3		27	; 	goto 39
+[2D 02 00 00]			 12	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[2D 03 00 00]			 13	[  0]	UGET 	  3		0	; slot3 = uv0"unknwon"
+[39 03 06 03]			 14	[  0]	TGETS	  3	3	4	; slot3 = uv0"unknown".num_bar
+[12 05 03 00]			 15	[  0]	MOV  	  5		3	; slot5 = uv0"unknown".num_bar
+[39 03 07 03]			 16	[  0]	TGETS	  3	3	3	; slot3 = uv0"unknown".num_bar.getNum
+[42 03 02 02]			 17	[  0]	CALL 	  3	2	2	; slot3 = uv0"unknown".num_bar.getNum(slot4)
+[3D 03 05 02]			 18	[  0]	TSETS	  3	2	5	; uv0"unknown".num = uv0"unknown".num_bar.getNum
+[2D 02 00 00]			 19	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[39 02 05 02]			 20	[  0]	TGETS	  2	2	5	; slot2 = uv0"unknown".num
+[0F 00 02 00]			 21	[  0]	ISF  	   		2	; if not uv0"unknown".num
+[58 03 0D 80]			 22	[  0]	JMP  	  3		13	; 	goto 36
+[2D 02 00 00]			 23	[  0]	UGET 	  2		0	; slot2 = uv0"unknwon"
+[39 02 05 02]			 24	[  0]	TGETS	  2	2	5	; slot2 = uv0"unknown".num
+[08 02 00 00]			 25	[  0]	ISEQN	  2		0	; if uv0"unknown".num == 0
+[58 02 09 80]			 26	[  0]	JMP  	  2		9	; 	goto 36
+[2D 02 01 00]			 27	[  0]	UGET 	  2		1	; slot2 = uv1"unknwon"
+[12 04 02 00]			 28	[  0]	MOV  	  4		2	; slot4 = uv1"unknown"
+[39 02 08 02]			 29	[  0]	TGETS	  2	2	2	; slot2 = uv1"unknown".send13005
+[2D 05 00 00]			 30	[  0]	UGET 	  5		0	; slot5 = uv0"unknwon"
+[39 05 04 05]			 31	[  0]	TGETS	  5	5	6	; slot5 = uv0"unknown".dun_id
+[2D 06 00 00]			 32	[  0]	UGET 	  6		0	; slot6 = uv0"unknwon"
+[39 06 05 06]			 33	[  0]	TGETS	  6	6	5	; slot6 = uv0"unknown".num
+[42 02 04 01]			 34	[  0]	CALL 	  2	1	4	;  = uv1"unknown".send13005(uv0"unknown".num_bar.getNum, uv1"unknown", uv0"unknown".dun_id)
+[58 02 03 80]			 35	[  0]	JMP  	  2		3	; 	goto 39
+[36 02 09 00]			 36	[  0]	GGET 	  2		1	; slot2 = _env["message"]
+[27 04 0A 00]			 37	[  0]	KSTR 	  4		0	; slot4 = "请选择扫荡次数"
+[42 02 02 01]			 38	[  0]	CALL 	  2	1	2	;  = message(slot3)
+[4B 00 01 00]			 39	[  0]	RET0 	  0		1	; return
+[42 01 03 01]		 24	[  0]	CALL 	  1	1	3	;  = <unknown table>.ack_button.addTouchEventListener(slot2, <unknown table>.ack_button)
+[32 00 00 80]		 25	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 26
+[4B 00 01 00]		 26	[  0]	RET0 	  0		1	; return
+[3D 03 0A 02]	 27	[  0]	TSETS	  3	2	5	; BattlDramaSwapWindow.register_event = slot3
+[36 02 00 00]	 28	[  0]	GGET 	  2		15	; slot2 = _env["BattlDramaSwapWindow"]
+	 29	[  0]	FNEW 	  3		2	; N/A:0-0: 2 args, 0 upvalues, 2 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[4B 00 01 00]		  1	[  0]	RET0 	  0		1	; return
+[3D 03 0C 02]	 30	[  0]	TSETS	  3	2	3	; BattlDramaSwapWindow.openRootWnd = slot3
+[36 02 00 00]	 31	[  0]	GGET 	  2		15	; slot2 = _env["BattlDramaSwapWindow"]
+	 32	[  0]	FNEW 	  3		0	; N/A:0-0: 1 args, 1 upvalues, 5 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[39 01 00 00]		  1	[  0]	TGETS	  1	0	2	; slot1 = slot0.num_bar
+[0F 00 01 00]		  2	[  0]	ISF  	   		1	; if not <unknown table>.num_bar
+[58 02 04 80]		  3	[  0]	JMP  	  2		4	; 	goto 8
+[39 01 00 00]		  4	[  0]	TGETS	  1	0	2	; slot1 = slot0.num_bar
+[12 03 01 00]		  5	[  0]	MOV  	  3		1	; slot3 = <unknown table>.num_bar
+[39 01 01 01]		  6	[  0]	TGETS	  1	1	1	; slot1 = <unknown table>.num_bar.DeleteMe
+[42 01 02 01]		  7	[  0]	CALL 	  1	1	2	;  = <unknown table>.num_bar.DeleteMe(slot2)
+[2D 01 00 00]		  8	[  0]	UGET 	  1		0	; slot1 = uv0"unknwon"
+[12 03 01 00]		  9	[  0]	MOV  	  3		1	; slot3 = uv0"unknown"
+[39 01 02 01]		 10	[  0]	TGETS	  1	1	0	; slot1 = uv0"unknown".openDramSwapView
+[2B 04 01 00]		 11	[  0]	KPRI 	  4		1	; slot4 = false
+[42 01 03 01]		 12	[  0]	CALL 	  1	1	3	;  = uv0"unknown".openDramSwapView(slot2, uv0"unknown")
+[4B 00 01 00]		 13	[  0]	RET0 	  0		1	; return
+[3D 03 0E 02]	 33	[  0]	TSETS	  3	2	1	; BattlDramaSwapWindow.close_callback = slot3
+[32 00 00 80]	 34	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 35
+[4B 00 01 00]	 35	[  0]	RET0 	  0		1	; return
+	

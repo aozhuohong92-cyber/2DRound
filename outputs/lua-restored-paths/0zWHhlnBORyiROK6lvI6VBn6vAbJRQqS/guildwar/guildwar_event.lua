@@ -1,0 +1,12 @@
+GuildwarEvent = GuildwarEvent or {}
+GuildwarEvent.UpdateGuildWarStatusEvent = "GuildwarEvent.UpdateGuildWarStatusEvent"
+GuildwarEvent.GuildWarEnemyPositionDataInitEvent = "GuildwarEvent.GuildWarEnemyPositionDataInitEvent"
+GuildwarEvent.UpdateGuildwarChallengeCountEvent = "GuildwarEvent.UpdateGuildwarChallengeCountEvent"
+GuildwarEvent.UpdateGuildWarPositionDataEvent = "GuildwarEvent.UpdateGuildWarPositionDataEvent"
+GuildwarEvent.UpdateGuildWarBaseInfoEvent = "GuildwarEvent.UpdateGuildWarBaseInfoEvent"
+GuildwarEvent.GetGuildWarMyPositionDataEvent = "GuildwarEvent.GetGuildWarMyPositionDataEvent"
+GuildwarEvent.UpdateGuildWarRankDataEvent = "GuildwarEvent.UpdateGuildWarRankDataEvent"
+GuildwarEvent.UpdateGuildWarRedStatusEvent = "GuildwarEvent.UpdateGuildWarRedStatusEvent"
+GuildwarEvent.UpdateGuildWarBoxDataEvent = "GuildwarEvent.UpdateGuildWarBoxDataEvent"
+GuildwarEvent.UpdateSingleBoxDataEvent = "GuildwarEvent.UpdateSingleBoxDataEvent"
+GuildwarEvent.UpdateMyAwardBoxEvent = "GuildwarEvent.UpdateMyAwardBoxEvent"

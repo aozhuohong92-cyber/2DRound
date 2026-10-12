@@ -1,0 +1,48 @@
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-10-11 18:19:16.175
+  package: org.local.onepiece.offline
+    Historical Process Exit for uid=10636
+        ApplicationExitInfo #0:
+          timestamp=2026-10-11 16:15:39.529 pid=28732 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0.00 rss=0.00 description=PRESTART WITHOUT START ACTIVITY state=empty trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-10-11 16:15:35.928 pid=27032 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=400 pss=0.00 rss=335MB description=stop org.local.onepiece.offline due to single-cleaner state=empty trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-10-11 16:04:27.924 pid=26904 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop org.local.onepiece.offline due to stop by 27000 state=empty trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-10-11 16:04:26.337 pid=26101 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=0.00 rss=345MB description=stop org.local.onepiece.offline due to installPackageLI state=empty trace=null
+        ApplicationExitInfo #4:
+          timestamp=2026-10-11 16:02:42.855 pid=3615 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0.00 rss=150MB description=stop org.local.onepiece.offline due to installPackageLI state=empty trace=null
+        ApplicationExitInfo #5:
+          timestamp=2026-10-11 13:26:01.836 pid=1616 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=0.00 rss=284MB description=stop org.local.onepiece.offline due to installPackageLI state=empty trace=null
+        ApplicationExitInfo #6:
+          timestamp=2026-10-11 13:25:18.685 pid=32697 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=0.00 rss=270MB description=stop org.local.onepiece.offline due to installPackageLI state=empty trace=null
+        ApplicationExitInfo #7:
+          timestamp=2026-10-11 13:24:31.368 pid=32017 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=0.00 rss=250MB description=stop org.local.onepiece.offline due to installPackageLI state=empty trace=null
+        ApplicationExitInfo #8:
+          timestamp=2026-10-11 13:23:54.777 pid=31325 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=0.00 rss=247MB description=stop org.local.onepiece.offline due to installPackageLI state=empty trace=null
+        ApplicationExitInfo #9:
+          timestamp=2026-10-11 13:23:05.189 pid=27451 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=184MB description=stop org.local.onepiece.offline due to stop by 31187 state=empty trace=null
+        ApplicationExitInfo #10:
+          timestamp=2026-10-11 13:20:48.695 pid=25622 realUid=10636 packageUid=10636 definingUid=10636 user=0
+          process=org.local.onepiece.offline reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=400 pss=0.00 rss=243MB description=stop org.local.onepiece.offline due to single-cleaner state=empty trace=null

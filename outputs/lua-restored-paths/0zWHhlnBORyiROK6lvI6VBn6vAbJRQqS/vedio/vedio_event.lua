@@ -1,0 +1,10 @@
+VedioEvent = VedioEvent or {}
+VedioEvent.UpdateMyselfVedioEvent = "VedioEvent.UpdateMyselfVedioEvent"
+VedioEvent.UpdateCollectVedioEvent = "VedioEvent.UpdateCollectVedioEvent"
+VedioEvent.UpdatePublicVedioEvent = "VedioEvent.UpdatePublicVedioEvent"
+VedioEvent.CancelCollectVedioEvent = "VedioEvent.CancelCollectVedioEvent"
+VedioEvent.CollectSuccessVedioEvent = "VedioEvent.CollectSuccessVedioEvent"
+VedioEvent.UpdateVedioDataEvent = "VedioEvent.UpdateVedioDataEvent"
+VedioEvent.UpdateTodayLikeNum = "VedioEvent.UpdateTodayLikeNum"
+VedioEvent.OpenCollectViewEvent = "VedioEvent.OpenCollectViewEvent"
+VedioEvent.LOOK_VEDIO_EVENT = "VedioEvent.LOOK_VEDIO_EVENT"

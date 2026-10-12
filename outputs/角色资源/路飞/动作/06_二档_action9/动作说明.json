@@ -1,0 +1,29 @@
+{
+  "action_file": "action9",
+  "folder": "outputs/角色资源/路飞/动作/06_二档_action9",
+  "animation_names_from_config": [
+    "action9"
+  ],
+  "device_verified_animation_names": [],
+  "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+  "assets": [
+    {
+      "file": "action9.skel",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.skel",
+      "original_file": "outputs/apk-extracted/assets/HASH/A/AE84B9E80AE75638.skel",
+      "sha256": "c75220c70cd19981984f28ce5488ad61934ddb65110d8e33f401acde9bbcefc2"
+    },
+    {
+      "file": "action9.atlas",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.atlas",
+      "original_file": "outputs/apk-extracted/assets/HASH/D/DC11F25905BFEBF2.atlas",
+      "sha256": "f365fe6ffc01c0beb13b1f03b1bf862e64cc64122ec54c3c870797e2a113a262"
+    },
+    {
+      "file": "action9.png",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.png",
+      "original_file": "outputs/apk-extracted/assets/HASH/1/1EDBBB1D4639ACA5.png",
+      "sha256": "4878b563b5618c1c653d370244361e5a88a430fbe4f9b076c74249de7a31d478"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    GGET     2   1      ; "WinType"
+0002    TGETS    2   2   2  ; "Mini"
+0003    TSETS    2   0   0  ; "win_type"
+0004    GGET     2   4      ; "ViewMgrTag"
+0005    TGETS    2   2   5  ; "DIALOGUE_TAG"
+0006    TSETS    2   0   3  ; "view_tag"
+0007    TSETS    1   0   6  ; "dun_id"
+0008    KSTR     2   8      ; "battledrama/battle_drama_swap_view"
+0009    TSETS    2   0   7  ; "layout_name"
+0010    RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    GGET     2   0      ; "BackpackController"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "getInstance"
+0004    CALL     2   2   2
+0005    MOV      4   2
+0006    TGETS    2   2   2  ; "getModel"
+0007    CALL     2   2   2
+0008    MOV      4   2
+0009    TGETS    2   2   3  ; "getBackPackItemNumByBid"
+0010    GGET     5   4      ; "Config"
+0011    TGETS    5   5   5  ; "DungeonData"
+0012    TGETS    5   5   6  ; "data_drama_const"
+0013    TGETS    5   5   7  ; "swap_item"
+0014    TGETS    5   5   8  ; "val"
+0015    CALL     2   2   3
+0016    UGET     3   0      ; 
+0017    MOV      5   3
+0018    TGETS    3   3   9  ; "getCurDunInfoByID"
+0019    UGET     6   1      ; 
+0020    TGETS    6   6  10  ; "dun_id"
+0021    CALL     3   2   3
+0022    ISF          3
+0023    JMP      4 => 0055
+0024    TGETS    4   3  11  ; "auto_num"
+0025    ISF          4
+0026    JMP      5 => 0055
+0027    UGET     4   2      ; 
+0028    TGETS    4   4  12  ; "auto_num_max"
+0029    TGETS    5   3  11  ; "auto_num"
+0030    SUBVV    4   4   5
+0031    GGET     5  13      ; "math"
+0032    TGETS    5   5  14  ; "min"
+0033    MOV      7   2
+0034    MOV      8   4
+0035    CALL     5   2   3
+0036    ISEQS    0  15      ; "add"
+0037    JMP      6 => 0038
+0038 => ISGE     5   1
+0039    JMP      6 => 0055
+0040    GGET     6  16      ; "message"
+0041    GGET     8  17      ; "TI18N"
+0042    KSTR    10  18      ; "已达最大次数"
+0043    CALL     8   0   2
+0044    CALLM    6   1   0
+0045    UGET     6   1      ; 
+0046    TGETS    6   6  19  ; "num_bar"
+0047    MOV      8   6
+0048    TGETS    6   6  20  ; "setNum"
+0049    MOV      9   5
+0050    CALL     6   1   3
+0051    RET0     0   1
+0052    JMP      6 => 0055
+0053    ISNES    0  21      ; "sub"
+0054    JMP      6 => 0055
+0055 => RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    TGETS    1   0   1  ; "root_wnd"
+0002    MOV      3   1
+0003    TGETS    1   1   2  ; "getChildByName"
+0004    KSTR     4   3      ; "Panel_bg"
+0005    CALL     1   2   3
+0006    TSETS    1   0   0  ; "panel_bg"
+0007    TGETS    1   0   0  ; "panel_bg"
+0008    MOV      3   1
+0009    TGETS    1   1   2  ; "getChildByName"
+0010    KSTR     4   4      ; "background"
+0011    CALL     1   2   3
+0012    TSETS    1   0   4  ; "background"
+0013    TGETS    1   0   0  ; "panel_bg"
+0014    MOV      3   1
+0015    TGETS    1   1   5  ; "setScale"
+0016    GGET     4   6      ; "display"
+0017    TGETS    4   4   7  ; "getMaxScale"
+0018    CALL     4   0   1
+0019    CALLM    1   1   1
+0020    TGETS    1   0   1  ; "root_wnd"
+0021    MOV      3   1
+0022    TGETS    1   1   2  ; "getChildByName"
+0023    KSTR     4   9      ; "root"
+0024    CALL     1   2   3
+0025    TSETS    1   0   8  ; "main_container"
+0026    TGETS    1   0   8  ; "main_container"
+0027    MOV      3   1
+0028    TGETS    1   1   2  ; "getChildByName"
+0029    KSTR     4  10      ; "close_btn"
+0030    CALL     1   2   3
+0031    TSETS    1   0  10  ; "close_btn"
+0032    TGETS    1   0   8  ; "main_container"
+0033    MOV      3   1
+0034    TGETS    1   1   2  ; "getChildByName"
+0035    KSTR     4  11      ; "ack_button"
+0036    CALL     1   2   3
+0037    TSETS    1   0  11  ; "ack_button"
+0038    TGETS    1   0  11  ; "ack_button"
+0039    TGETS    2   0  11  ; "ack_button"
+0040    MOV      4   2
+0041    TGETS    2   2  13  ; "getTitleRenderer"
+0042    CALL     2   2   2
+0043    TSETS    2   1  12  ; "label"
+0044    TGETS    1   0  11  ; "ack_button"
+0045    TGETS    1   1  12  ; "label"
+0046    MOV      3   1
+0047    TGETS    1   1  14  ; "enableOutline"
+0048    GGET     4  15      ; "Config"
+0049    TGETS    4   4  16  ; "ColorData"
+0050    TGETS    4   4  17  ; "data_color4"
+0051    TGETB    4   4  82
+0052    KSHORT   5   2
+0053    CALL     1   1   4
+0054    TGETS    1   0   8  ; "main_container"
+0055    MOV      3   1
+0056    TGETS    1   1   2  ; "getChildByName"
+0057    KSTR     4  18      ; "swap_num_desc"
+0058    CALL     1   2   3
+0059    TSETS    1   0  18  ; "swap_num_desc"
+0060    TGETS    1   0  18  ; "swap_num_desc"
+0061    MOV      3   1
+0062    TGETS    1   1  19  ; "setString"
+0063    GGET     4  20      ; "TI18N"
+0064    KSTR     6  21      ; "扫荡卷的数量:"
+0065    CALL     4   0   2
+0066    CALLM    1   1   1
+0067    TGETS    1   0   8  ; "main_container"
+0068    MOV      3   1
+0069    TGETS    1   1   2  ; "getChildByName"
+0070    KSTR     4  22      ; "swap_num"
+0071    CALL     1   2   3
+0072    TSETS    1   0  22  ; "swap_num"
+0073    GGET     1  23      ; "BackpackController"
+0074    MOV      3   1
+0075    TGETS    1   1  24  ; "getInstance"
+0076    CALL     1   2   2
+0077    MOV      3   1
+0078    TGETS    1   1  25  ; "getModel"
+0079    CALL     1   2   2
+0080    MOV      3   1
+0081    TGETS    1   1  26  ; "getBackPackItemNumByBid"
+0082    GGET     4  15      ; "Config"
+0083    TGETS    4   4  27  ; "DungeonData"
+0084    TGETS    4   4  28  ; "data_drama_const"
+0085    TGETS    4   4  29  ; "swap_item"
+0086    TGETS    4   4  30  ; "val"
+0087    CALL     1   2   3
+0088    TGETS    2   0  22  ; "swap_num"
+0089    MOV      4   2
+0090    TGETS    2   2  19  ; "setString"
+0091    MOV      5   1
+0092    CALL     2   1   3
+0093    GGET     2  32      ; "createRichLabel"
+0094    KSHORT   4  24
+0095    KSHORT   5 117
+0096    GGET     6  33      ; "cc"
+0097    TGETS    6   6  34  ; "p"
+0098    KNUM     8   0      ; 0.5
+0099    KNUM     9   0      ; 0.5
+0100    CALL     6   2   3
+0101    GGET     7  33      ; "cc"
+0102    TGETS    7   7  34  ; "p"
+0103    KSHORT   9 365
+0104    KSHORT  10 630
+0105    CALL     7   2   3
+0106    KNIL     8   9
+0107    KSHORT  10 1000
+0108    CALL     2   2   8
+0109    TSETS    2   0  31  ; "swap_num_label"
+0110    TGETS    2   0   8  ; "main_container"
+0111    MOV      4   2
+0112    TGETS    2   2  35  ; "addChild"
+0113    TGETS    5   0  31  ; "swap_num_label"
+0114    CALL     2   1   3
+0115    TGETS    2   0  31  ; "swap_num_label"
+0116    MOV      4   2
+0117    TGETS    2   2  36  ; "setVisible"
+0118    KPRI     5   2
+0119    CALL     2   1   3
+0120    TGETS    2   0   8  ; "main_container"
+0121    MOV      4   2
+0122    TGETS    2   2   2  ; "getChildByName"
+0123    KSTR     5  37      ; "icon"
+0124    CALL     2   2   3
+0125    TSETS    2   0  37  ; "icon"
+0126    GGET     2  15      ; "Config"
+0127    TGETS    2   2  38  ; "ItemData"
+0128    TGETS    2   2  39  ; "data_get_data"
+0129    GGET     4  15      ; "Config"
+0130    TGETS    4   4  27  ; "DungeonData"
+0131    TGETS    4   4  28  ; "data_drama_const"
+0132    TGETS    4   4  29  ; "swap_item"
+0133    TGETS    4   4  30  ; "val"
+0134    CALL     2   2   2
+0135    TGETS    2   2  37  ; "icon"
+0136    TGETS    3   0  37  ; "icon"
+0137    MOV      5   3
+0138    TGETS    3   3  40  ; "loadTexture"
+0139    GGET     6  41      ; "PathTool"
+0140    TGETS    6   6  42  ; "getItemRes"
+0141    MOV      8   2
+0142    CALL     6   2   2
+0143    GGET     7  43      ; "LOADTEXT_TYPE"
+0144    CALL     3   1   4
+0145    GGET     3  45      ; "CommonNumBar"
+0146    TGETS    3   3  46  ; "New"
+0147    TGETS    5   0   8  ; "main_container"
+0148    GGET     6  33      ; "cc"
+0149    TGETS    6   6  47  ; "size"
+0150    KSHORT   8 165
+0151    KSHORT   9  52
+0152    CALL     6   2   3
+0153    KSHORT   7  20
+0154    CALL     3   2   4
+0155    TSETS    3   0  44  ; "num_bar"
+0156    TGETS    3   0  44  ; "num_bar"
+0157    MOV      5   3
+0158    TGETS    3   3  48  ; "setMinSuffix"
+0159    KSHORT   6   1
+0160    CALL     3   1   3
+0161    TGETS    3   0  44  ; "num_bar"
+0162    MOV      5   3
+0163    TGETS    3   3  49  ; "setAnchorPoint"
+0164    KSHORT   6   0
+0165    KSHORT   7   1
+0166    CALL     3   1   4
+0167    TGETS    3   0  44  ; "num_bar"
+0168    MOV      5   3
+0169    TGETS    3   3  50  ; "setPosition"
+0170    KSHORT   6 285
+0171    KSHORT   7 705
+0172    CALL     3   1   4
+0173    TGETS    3   0  44  ; "num_bar"
+0174    MOV      5   3
+0175    TGETS    3   3  51  ; "setNum"
+0176    KSHORT   6   1
+0177    CALL     3   1   3
+0178    TGETS    3   0  44  ; "num_bar"
+0179    TGETS    3   3   4  ; "background"
+0180    MOV      5   3
+0181    TGETS    3   3  52  ; "setContentSize"
+0182    GGET     6  33      ; "cc"
+0183    TGETS    6   6  47  ; "size"
+0184    KSHORT   8 165
+0185    KSHORT   9  52
+0186    CALL     6   0   3
+0187    CALLM    3   1   1
+0188    GGET     3  53      ; "BattleDramaController"
+0189    MOV      5   3
+0190    TGETS    3   3  24  ; "getInstance"
+0191    CALL     3   2   2
+0192    MOV      5   3
+0193    TGETS    3   3  25  ; "getModel"
+0194    CALL     3   2   2
+0195    MOV      5   3
+0196    TGETS    3   3  54  ; "getDramaData"
+0197    CALL     3   2   2
+0198    ISF          3
+0199    JMP      4 => 0232
+0200    TGETS    4   0  44  ; "num_bar"
+0201    ISF          4
+0202    JMP      5 => 0208
+0203    TGETS    4   0  44  ; "num_bar"
+0204    MOV      6   4
+0205    TGETS    4   4  55  ; "registerHandle"
+0206    FNEW     7  56      ; 17BCEEFA63F8FC88.luac:0
+0207    CALL     4   1   3
+0208 => UGET     4   0      ; 
+0209    MOV      6   4
+0210    TGETS    4   4  57  ; "getCurDunInfoByID"
+0211    TGETS    7   0  58  ; "dun_id"
+0212    CALL     4   2   3
+0213    ISF          4
+0214    JMP      5 => 0232
+0215    TGETS    5   4  59  ; "auto_num"
+0216    ISF          5
+0217    JMP      6 => 0232
+0218    GGET     5  60      ; "string"
+0219    TGETS    5   5  61  ; "format"
+0220    GGET     7  20      ; "TI18N"
+0221    KSTR     9  62      ; "<div fontColor=#68452a>(剩余:%s次)</d"~
+0222    CALL     7   2   2
+0223    TGETS    8   3  63  ; "auto_num_max"
+0224    TGETS    9   4  59  ; "auto_num"
+0225    SUBVV    8   8   9
+0226    CALL     5   2   3
+0227    TGETS    6   0  31  ; "swap_num_label"
+0228    MOV      8   6
+0229    TGETS    6   6  19  ; "setString"
+0230    MOV      9   5
+0231    CALL     6   1   3
+0232 => UCLO     0 => 0233
+0233 => RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    GGET     2   0      ; "ccui"
+0002    TGETS    2   2   1  ; "TouchEventType"
+0003    TGETS    2   2   2  ; "ended"
+0004    ISNEV    1   2
+0005    JMP      2 => 0013
+0006    GGET     2   3      ; "playButtonSound2"
+0007    CALL     2   1   1
+0008    UGET     2   0      ; 
+0009    MOV      4   2
+0010    TGETS    2   2   4  ; "openDramSwapView"
+0011    KPRI     5   1
+0012    CALL     2   1   3
+0013 => RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    GGET     2   0      ; "ccui"
+0002    TGETS    2   2   1  ; "TouchEventType"
+0003    TGETS    2   2   2  ; "ended"
+0004    ISNEV    1   2
+0005    JMP      2 => 0013
+0006    GGET     2   3      ; "playButtonSound2"
+0007    CALL     2   1   1
+0008    UGET     2   0      ; 
+0009    MOV      4   2
+0010    TGETS    2   2   4  ; "openDramSwapView"
+0011    KPRI     5   1
+0012    CALL     2   1   3
+0013 => RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    GGET     2   0      ; "ccui"
+0002    TGETS    2   2   1  ; "TouchEventType"
+0003    TGETS    2   2   2  ; "ended"
+0004    ISNEV    1   2
+0005    JMP      2 => 0039
+0006    GGET     2   3      ; "playButtonSound2"
+0007    CALL     2   1   1
+0008    UGET     2   0      ; 
+0009    TGETS    2   2   4  ; "dun_id"
+0010    ISF          2
+0011    JMP      3 => 0039
+0012    UGET     2   0      ; 
+0013    UGET     3   0      ; 
+0014    TGETS    3   3   6  ; "num_bar"
+0015    MOV      5   3
+0016    TGETS    3   3   7  ; "getNum"
+0017    CALL     3   2   2
+0018    TSETS    3   2   5  ; "num"
+0019    UGET     2   0      ; 
+0020    TGETS    2   2   5  ; "num"
+0021    ISF          2
+0022    JMP      3 => 0036
+0023    UGET     2   0      ; 
+0024    TGETS    2   2   5  ; "num"
+0025    ISEQN    2   0      ; 0
+0026    JMP      2 => 0036
+0027    UGET     2   1      ; 
+0028    MOV      4   2
+0029    TGETS    2   2   8  ; "send13005"
+0030    UGET     5   0      ; 
+0031    TGETS    5   5   4  ; "dun_id"
+0032    UGET     6   0      ; 
+0033    TGETS    6   6   5  ; "num"
+0034    CALL     2   1   4
+0035    JMP      2 => 0039
+0036 => GGET     2   9      ; "message"
+0037    KSTR     4  10      ; "请选择扫荡次数"
+0038    CALL     2   1   2
+0039 => RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    TGETS    1   0   0  ; "background"
+0002    ISF          1
+0003    JMP      2 => 0009
+0004    TGETS    1   0   0  ; "background"
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "addTouchEventListener"
+0007    FNEW     4   2      ; 17BCEEFA63F8FC88.luac:0
+0008    CALL     1   1   3
+0009 => TGETS    1   0   3  ; "close_btn"
+0010    ISF          1
+0011    JMP      2 => 0017
+0012    TGETS    1   0   3  ; "close_btn"
+0013    MOV      3   1
+0014    TGETS    1   1   1  ; "addTouchEventListener"
+0015    FNEW     4   4      ; 17BCEEFA63F8FC88.luac:0
+0016    CALL     1   1   3
+0017 => TGETS    1   0   5  ; "ack_button"
+0018    ISF          1
+0019    JMP      2 => 0025
+0020    TGETS    1   0   5  ; "ack_button"
+0021    MOV      3   1
+0022    TGETS    1   1   1  ; "addTouchEventListener"
+0023    FNEW     4   6      ; 17BCEEFA63F8FC88.luac:0
+0024    CALL     1   1   3
+0025 => UCLO     0 => 0026
+0026 => RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    TGETS    1   0   0  ; "num_bar"
+0002    ISF          1
+0003    JMP      2 => 0008
+0004    TGETS    1   0   0  ; "num_bar"
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "DeleteMe"
+0007    CALL     1   1   2
+0008 => UGET     1   0      ; 
+0009    MOV      3   1
+0010    TGETS    1   1   2  ; "openDramSwapView"
+0011    KPRI     4   1
+0012    CALL     1   1   3
+0013    RET0     0   1
+
+-- BYTECODE -- 17BCEEFA63F8FC88.luac:0-0
+0001    GGET     0   0      ; "BattlDramaSwapWindow"
+0002    IST          0
+0003    JMP      1 => 0007
+0004    GGET     0   1      ; "BaseClass"
+0005    GGET     2   2      ; "BaseView"
+0006    CALL     0   2   2
+0007 => GSET     0   0      ; "BattlDramaSwapWindow"
+0008    GGET     0   3      ; "BattleDramaController"
+0009    MOV      2   0
+0010    TGETS    0   0   4  ; "getInstance"
+0011    CALL     0   2   2
+0012    GGET     1   3      ; "BattleDramaController"
+0013    MOV      3   1
+0014    TGETS    1   1   4  ; "getInstance"
+0015    CALL     1   2   2
+0016    MOV      3   1
+0017    TGETS    1   1   5  ; "getModel"
+0018    CALL     1   2   2
+0019    GGET     2   0      ; "BattlDramaSwapWindow"
+0020    FNEW     3   7      ; 17BCEEFA63F8FC88.luac:0
+0021    TSETS    3   2   6  ; "__init"
+0022    GGET     2   0      ; "BattlDramaSwapWindow"
+0023    FNEW     3   9      ; 17BCEEFA63F8FC88.luac:0
+0024    TSETS    3   2   8  ; "open_callback"
+0025    GGET     2   0      ; "BattlDramaSwapWindow"
+0026    FNEW     3  11      ; 17BCEEFA63F8FC88.luac:0
+0027    TSETS    3   2  10  ; "register_event"
+0028    GGET     2   0      ; "BattlDramaSwapWindow"
+0029    FNEW     3  13      ; 17BCEEFA63F8FC88.luac:0
+0030    TSETS    3   2  12  ; "openRootWnd"
+0031    GGET     2   0      ; "BattlDramaSwapWindow"
+0032    FNEW     3  15      ; 17BCEEFA63F8FC88.luac:0
+0033    TSETS    3   2  14  ; "close_callback"
+0034    UCLO     0 => 0035
+0035 => RET0     0   1
+

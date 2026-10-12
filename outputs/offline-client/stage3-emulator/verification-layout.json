@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "device": "emulator-5554",
+  "counts": {
+    "entered": 5,
+    "returned": 5,
+    "notice": 1,
+    "errors": 0
+  },
+  "apk_sha256": "94bb1ff396173b2d69c15db22cb083799eb7cb3454c4dd351d41055517fd85a5",
+  "no_normal_save": true,
+  "screenshot": "layout-preview.png",
+  "screenshot_sha256": "570378a17570d87028e3dd587ac790df0f736ebfa5a32c4783fad3416385fcf5",
+  "local_verification": {
+    "stage": 1,
+    "core_tests": 14,
+    "skill_test_groups": 5,
+    "encoding_roundtrips": 21,
+    "resources": 74,
+    "csb_frames_resolved": 62,
+    "bundled_modules": [
+      "offline.atlas_frames",
+      "offline.atlas_viewer",
+      "offline.class",
+      "offline.codec",
+      "offline.device_checks",
+      "offline.drama_fixture",
+      "offline.drama_preview",
+      "offline.drama_resources",
+      "offline.drama_scene",
+      "offline.events",
+      "offline.luffy_skills",
+      "offline.main_city",
+      "offline.presentation",
+      "offline.resources",
+      "offline.route",
+      "offline.skill_player",
+      "offline.state",
+      "offline.store"
+    ],
+    "syntax": "PASS",
+    "apk_sha256": "94bb1ff396173b2d69c15db22cb083799eb7cb3454c4dd351d41055517fd85a5",
+    "audio_uncompressed": 5,
+    "device_tested": false,
+    "limitations": [
+      "Native Spine/CSB rendering and input require later device verification.",
+      "Offline fixture data does not reproduce original server rules.",
+      "Two-slot recovery may restore the preceding committed revision; no fsync guarantee."
+    ]
+  }
+}

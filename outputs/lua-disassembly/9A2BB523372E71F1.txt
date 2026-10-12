@@ -1,0 +1,16 @@
+;
+; Disassemble of outputs/lua-bytecode/9A2BB523372E71F1.luac
+;
+; Source file: N/A
+;
+; Flags:
+;	Stripped: Yes
+;	Endianness: Little
+;	FFI: Not present
+;
+
+main N/A:0-0: 0+ args, 0 upvalues, 1 slots
+	;;;; constant tables ;;;;
+	;;;; instructions ;;;;
+[4B 00 01 00]	  1	[  0]	RET0 	  0		1	; return
+	

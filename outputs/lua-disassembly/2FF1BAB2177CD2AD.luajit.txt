@@ -1,0 +1,3663 @@
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    KPRI     1   2
+0002    TSETS    1   0   0  ; "is_full_screen"
+0003    GGET     1   2      ; "WinType"
+0004    TGETS    1   1   3  ; "Full"
+0005    TSETS    1   0   1  ; "win_type"
+0006    KSTR     1   5      ; "monopoly/monopoly_main_window"
+0007    TSETS    1   0   4  ; "layout_name"
+0008    TNEW     1   3
+0009    TDUP     2  11
+0010    GGET     3   7      ; "PathTool"
+0011    TGETS    3   3   8  ; "getPlistImgForDownLoad"
+0012    KSTR     5   9      ; "monopoly"
+0013    KSTR     6  10      ; "monopolyboard"
+0014    CALL     3   2   3
+0015    TSETS    3   2  12  ; "path"
+0016    GGET     3  13      ; "ResourcesType"
+0017    TGETS    3   3  14  ; "plist"
+0018    TSETS    3   2  15  ; "type"
+0019    TSETB    2   1   1
+0020    TDUP     2  17
+0021    GGET     3   7      ; "PathTool"
+0022    TGETS    3   3   8  ; "getPlistImgForDownLoad"
+0023    KSTR     5   9      ; "monopoly"
+0024    KSTR     6  16      ; "dim_bg"
+0025    KPRI     7   2
+0026    CALL     3   2   4
+0027    TSETS    3   2  12  ; "path"
+0028    GGET     3  13      ; "ResourcesType"
+0029    TGETS    3   3  18  ; "single"
+0030    TSETS    3   2  15  ; "type"
+0031    TSETB    2   1   2
+0032    TSETS    1   0   6  ; "res_list"
+0033    MOV      3   0
+0034    TGETS    1   0  19  ; "initConfig"
+0035    CALL     1   1   2
+0036    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    KPRI     1   1
+0002    TSETS    1   0   0  ; "is_proceed_evt"
+0003    KPRI     1   1
+0004    TSETS    1   0   1  ; "is_role_moving"
+0005    KSHORT   1   0
+0006    TSETS    1   0   2  ; "cur_role_grid_x"
+0007    KSHORT   1   0
+0008    TSETS    1   0   3  ; "cur_role_grid_y"
+0009    KSHORT   1   1
+0010    TSETS    1   0   4  ; "role_cur_board_index"
+0011    TNEW     1   0
+0012    TSETS    1   0   5  ; "role_move_grid_cache"
+0013    TNEW     1   0
+0014    TSETS    1   0   6  ; "all_grid_item_list"
+0015    TNEW     1   0
+0016    TSETS    1   0   7  ; "board_grid_data"
+0017    TNEW     1   0
+0018    TSETS    1   0   8  ; "progress_boss_list"
+0019    TNEW     1   0
+0020    TSETS    1   0   9  ; "route_effect_list"
+0021    TNEW     1   0
+0022    TSETS    1   0  10  ; "buff_icon_list"
+0023    GGET     1  12      ; "SCREEN_WIDTH"
+0024    GGET     2  13      ; "MonopolyConst"
+0025    TGETS    2   2  14  ; "Board_Width"
+0026    SUBVV    1   1   2
+0027    TSETS    1   0  11  ; "board_min_pos_x"
+0028    KSHORT   1   0
+0029    TSETS    1   0  15  ; "board_max_pos_x"
+0030    GGET     1  17      ; "display"
+0031    TGETS    1   1  18  ; "height"
+0032    GGET     2  13      ; "MonopolyConst"
+0033    TGETS    2   2  19  ; "Board_Height"
+0034    SUBVV    1   1   2
+0035    TSETS    1   0  16  ; "board_min_pos_y"
+0036    KSHORT   1   0
+0037    TSETS    1   0  20  ; "board_max_pos_y"
+0038    KSHORT   1   0
+0039    TSETS    1   0  21  ; "dice_item_bid"
+0040    KSTR     1  23      ; ""
+0041    TSETS    1   0  22  ; "dice_item_name"
+0042    GGET     1  24      ; "Config"
+0043    TGETS    1   1  25  ; "MonopolyMapsData"
+0044    TGETS    1   1  26  ; "data_const"
+0045    TGETS    1   1  27  ; "monopoly_dice_id"
+0046    ISF          1
+0047    JMP      2 => 0050
+0048    TGETS    2   1  28  ; "val"
+0049    TSETS    2   0  21  ; "dice_item_bid"
+0050 => GGET     2  24      ; "Config"
+0051    TGETS    2   2  29  ; "ItemData"
+0052    TGETS    2   2  30  ; "data_get_data"
+0053    TGETS    4   0  21  ; "dice_item_bid"
+0054    CALL     2   2   2
+0055    ISF          2
+0056    JMP      3 => 0059
+0057    TGETS    3   2  31  ; "name"
+0058    TSETS    3   0  22  ; "dice_item_name"
+0059 => KSHORT   3   0
+0060    TSETS    3   0  32  ; "secret_item_bid"
+0061    KSHORT   3   0
+0062    TSETS    3   0  33  ; "secret_item_name"
+0063    GGET     3  24      ; "Config"
+0064    TGETS    3   3  25  ; "MonopolyMapsData"
+0065    TGETS    3   3  26  ; "data_const"
+0066    TGETS    3   3  34  ; "monopoly_secret_id"
+0067    ISF          3
+0068    JMP      4 => 0071
+0069    TGETS    4   3  28  ; "val"
+0070    TSETS    4   0  32  ; "secret_item_bid"
+0071 => GGET     4  24      ; "Config"
+0072    TGETS    4   4  29  ; "ItemData"
+0073    TGETS    4   4  30  ; "data_get_data"
+0074    TGETS    6   0  32  ; "secret_item_bid"
+0075    CALL     4   2   2
+0076    ISF          4
+0077    JMP      5 => 0080
+0078    TGETS    5   4  31  ; "name"
+0079    TSETS    5   0  33  ; "secret_item_name"
+0080 => GGET     5  36      ; "RoleController"
+0081    MOV      7   5
+0082    TGETS    5   5  37  ; "getInstance"
+0083    CALL     5   2   2
+0084    MOV      7   5
+0085    TGETS    5   5  38  ; "getRoleVo"
+0086    CALL     5   2   2
+0087    TSETS    5   0  35  ; "role_vo"
+0088    GGET     5  39      ; "MonopolyTile"
+0089    TGETS    5   5  40  ; "init"
+0090    GGET     7  13      ; "MonopolyConst"
+0091    TGETS    7   7  41  ; "Tile_Width"
+0092    MULVN    7   7   0  ; 0.5
+0093    GGET     8  13      ; "MonopolyConst"
+0094    TGETS    8   8  42  ; "Tile_Height"
+0095    MULVN    8   8   0  ; 0.5
+0096    GGET     9  13      ; "MonopolyConst"
+0097    TGETS    9   9  14  ; "Board_Width"
+0098    GGET    10  13      ; "MonopolyConst"
+0099    TGETS   10  10  19  ; "Board_Height"
+0100    CALL     5   1   5
+0101    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   1  ; "root_wnd"
+0002    MOV      3   1
+0003    TGETS    1   1   2  ; "getChildByName"
+0004    KSTR     4   0      ; "background"
+0005    CALL     1   2   3
+0006    TSETS    1   0   0  ; "background"
+0007    TGETS    1   0   0  ; "background"
+0008    MOV      3   1
+0009    TGETS    1   1   3  ; "loadTexture"
+0010    GGET     4   4      ; "PathTool"
+0011    TGETS    4   4   5  ; "getPlistImgForDownLoad"
+0012    KSTR     6   6      ; "monopoly"
+0013    KSTR     7   7      ; "dim_bg"
+0014    KPRI     8   2
+0015    CALL     4   2   4
+0016    GGET     5   8      ; "LOADTEXT_TYPE"
+0017    CALL     1   1   4
+0018    TGETS    1   0   0  ; "background"
+0019    MOV      3   1
+0020    TGETS    1   1   9  ; "setScale"
+0021    GGET     4  10      ; "display"
+0022    TGETS    4   4  11  ; "getMaxScale"
+0023    CALL     4   0   1
+0024    CALLM    1   1   1
+0025    TGETS    1   0   1  ; "root_wnd"
+0026    MOV      3   1
+0027    TGETS    1   1   2  ; "getChildByName"
+0028    KSTR     4  12      ; "touch_slayer"
+0029    CALL     1   2   3
+0030    TSETS    1   0  12  ; "touch_slayer"
+0031    TGETS    1   0  12  ; "touch_slayer"
+0032    MOV      3   1
+0033    TGETS    1   1   9  ; "setScale"
+0034    GGET     4  10      ; "display"
+0035    TGETS    4   4  11  ; "getMaxScale"
+0036    CALL     4   0   1
+0037    CALLM    1   1   1
+0038    TGETS    1   0   1  ; "root_wnd"
+0039    MOV      3   1
+0040    TGETS    1   1   2  ; "getChildByName"
+0041    KSTR     4  13      ; "board_container"
+0042    CALL     1   2   3
+0043    TSETS    1   0  13  ; "board_container"
+0044    TGETS    1   0  13  ; "board_container"
+0045    MOV      3   1
+0046    TGETS    1   1   2  ; "getChildByName"
+0047    KSTR     4  14      ; "board_slayer"
+0048    CALL     1   2   3
+0049    TSETS    1   0  14  ; "board_slayer"
+0050    TGETS    1   0  13  ; "board_container"
+0051    MOV      3   1
+0052    TGETS    1   1   2  ; "getChildByName"
+0053    KSTR     4  15      ; "role_slayer"
+0054    CALL     1   2   3
+0055    TSETS    1   0  15  ; "role_slayer"
+0056    TGETS    1   0   1  ; "root_wnd"
+0057    MOV      3   1
+0058    TGETS    1   1   2  ; "getChildByName"
+0059    KSTR     4  16      ; "ui_container"
+0060    CALL     1   2   3
+0061    TSETS    1   0  16  ; "ui_container"
+0062    TGETS    1   0  16  ; "ui_container"
+0063    MOV      3   1
+0064    TGETS    1   1   2  ; "getChildByName"
+0065    KSTR     4  17      ; "top_panel"
+0066    CALL     1   2   3
+0067    TSETS    1   0  17  ; "top_panel"
+0068    MOV      4   1
+0069    TGETS    2   1   2  ; "getChildByName"
+0070    KSTR     5  18      ; "probe_title"
+0071    CALL     2   2   3
+0072    MOV      4   2
+0073    TGETS    2   2  19  ; "setString"
+0074    GGET     5  20      ; "TI18N"
+0075    KSTR     7  21      ; "探索值"
+0076    CALL     5   0   2
+0077    CALLM    2   1   1
+0078    MOV      4   1
+0079    TGETS    2   1   2  ; "getChildByName"
+0080    KSTR     5  22      ; "btn_rule"
+0081    CALL     2   2   3
+0082    TSETS    2   0  22  ; "btn_rule"
+0083    MOV      4   1
+0084    TGETS    2   1   2  ; "getChildByName"
+0085    KSTR     5  24      ; "progress"
+0086    CALL     2   2   3
+0087    TSETS    2   0  23  ; "probe_progress"
+0088    TGETS    2   0  23  ; "probe_progress"
+0089    MOV      4   2
+0090    TGETS    2   2  25  ; "setScale9Enabled"
+0091    KPRI     5   2
+0092    CALL     2   1   3
+0093    TGETS    2   0  23  ; "probe_progress"
+0094    MOV      4   2
+0095    TGETS    2   2  26  ; "setPercent"
+0096    KSHORT   5   0
+0097    CALL     2   1   3
+0098    MOV      4   1
+0099    TGETS    2   1   2  ; "getChildByName"
+0100    KSTR     5  27      ; "probe_txt"
+0101    CALL     2   2   3
+0102    TSETS    2   0  27  ; "probe_txt"
+0103    MOV      4   1
+0104    TGETS    2   1   2  ; "getChildByName"
+0105    KSTR     5  28      ; "atk_txt"
+0106    CALL     2   2   3
+0107    TSETS    2   0  28  ; "atk_txt"
+0108    MOV      4   1
+0109    TGETS    2   1   2  ; "getChildByName"
+0110    KSTR     5  29      ; "hp_txt"
+0111    CALL     2   2   3
+0112    TSETS    2   0  29  ; "hp_txt"
+0113    MOV      4   1
+0114    TGETS    2   1   2  ; "getChildByName"
+0115    KSTR     5  30      ; "candy_txt"
+0116    CALL     2   2   3
+0117    TSETS    2   0  30  ; "candy_txt"
+0118    MOV      4   1
+0119    TGETS    2   1   2  ; "getChildByName"
+0120    KSTR     5  31      ; "map_name_txt"
+0121    CALL     2   2   3
+0122    TSETS    2   0  31  ; "map_name_txt"
+0123    MOV      4   1
+0124    TGETS    2   1   2  ; "getChildByName"
+0125    KSTR     5  32      ; "candy_sp"
+0126    CALL     2   2   3
+0127    TSETS    2   0  32  ; "candy_sp"
+0128    TGETS    2   0  32  ; "candy_sp"
+0129    MOV      4   2
+0130    TGETS    2   2   9  ; "setScale"
+0131    KNUM     5   0      ; 0.5
+0132    CALL     2   1   3
+0133    TGETS    2   0  16  ; "ui_container"
+0134    MOV      4   2
+0135    TGETS    2   2   2  ; "getChildByName"
+0136    KSTR     5  33      ; "buff_panel"
+0137    CALL     2   2   3
+0138    TSETS    2   0  33  ; "buff_panel"
+0139    KSHORT   2   0
+0140    TSETS    2   0  34  ; "gold_item_bid"
+0141    KSTR     2  36      ; ""
+0142    TSETS    2   0  35  ; "gold_item_name"
+0143    GGET     2  37      ; "Config"
+0144    TGETS    2   2  38  ; "MonopolyMapsData"
+0145    TGETS    2   2  39  ; "data_const"
+0146    TGETS    2   2  40  ; "monopoly_gold_id"
+0147    ISF          2
+0148    JMP      3 => 0151
+0149    TGETS    3   2  41  ; "val"
+0150    TSETS    3   0  34  ; "gold_item_bid"
+0151 => GGET     3  37      ; "Config"
+0152    TGETS    3   3  42  ; "ItemData"
+0153    TGETS    3   3  43  ; "data_get_data"
+0154    TGETS    5   0  34  ; "gold_item_bid"
+0155    CALL     3   2   2
+0156    ISF          3
+0157    JMP      4 => 0169
+0158    TGETS    4   3  44  ; "name"
+0159    TSETS    4   0  35  ; "gold_item_name"
+0160    GGET     4   4      ; "PathTool"
+0161    TGETS    4   4  45  ; "getItemRes"
+0162    TGETS    6   3  46  ; "icon"
+0163    CALL     4   2   2
+0164    GGET     5  47      ; "loadSpriteTexture"
+0165    TGETS    7   0  32  ; "candy_sp"
+0166    MOV      8   4
+0167    GGET     9   8      ; "LOADTEXT_TYPE"
+0168    CALL     5   1   4
+0169 => TGETS    4   0  16  ; "ui_container"
+0170    MOV      6   4
+0171    TGETS    4   4   2  ; "getChildByName"
+0172    KSTR     7  48      ; "bottom_panel"
+0173    CALL     4   2   3
+0174    MOV      7   4
+0175    TGETS    5   4   2  ; "getChildByName"
+0176    KSTR     8  49      ; "close_btn"
+0177    CALL     5   2   3
+0178    TSETS    5   0  49  ; "close_btn"
+0179    MOV      7   4
+0180    TGETS    5   4   2  ; "getChildByName"
+0181    KSTR     8  50      ; "pumpkin_btn"
+0182    CALL     5   2   3
+0183    TSETS    5   0  50  ; "pumpkin_btn"
+0184    TGETS    5   0  50  ; "pumpkin_btn"
+0185    MOV      7   5
+0186    TGETS    5   5   2  ; "getChildByName"
+0187    KSTR     8  52      ; "label"
+0188    CALL     5   2   3
+0189    TSETS    5   0  51  ; "pumpkin_btn_label"
+0190    TGETS    5   0  51  ; "pumpkin_btn_label"
+0191    MOV      7   5
+0192    TGETS    5   5  19  ; "setString"
+0193    TGETS    8   0  53  ; "dice_item_name"
+0194    CALL     5   1   3
+0195    MOV      7   4
+0196    TGETS    5   4   2  ; "getChildByName"
+0197    KSTR     8  54      ; "book_btn"
+0198    CALL     5   2   3
+0199    TSETS    5   0  54  ; "book_btn"
+0200    TGETS    5   0  54  ; "book_btn"
+0201    MOV      7   5
+0202    TGETS    5   5   2  ; "getChildByName"
+0203    KSTR     8  52      ; "label"
+0204    CALL     5   2   3
+0205    TSETS    5   0  55  ; "book_btn_label"
+0206    TGETS    5   0  55  ; "book_btn_label"
+0207    MOV      7   5
+0208    TGETS    5   5  19  ; "setString"
+0209    TGETS    8   0  56  ; "secret_item_name"
+0210    CALL     5   1   3
+0211    TGETS    5   0  54  ; "book_btn"
+0212    MOV      7   5
+0213    TGETS    5   5  57  ; "getContentSize"
+0214    CALL     5   2   2
+0215    GGET     6  59      ; "CommonNum"
+0216    TGETS    6   6  60  ; "new"
+0217    KSHORT   8  18
+0218    TGETS    9   0  50  ; "pumpkin_btn"
+0219    KSHORT  10   0
+0220    KSHORT  11  -3
+0221    CALL     6   2   5
+0222    TSETS    6   0  58  ; "pumpkin_num"
+0223    TGETS    6   0  58  ; "pumpkin_num"
+0224    MOV      8   6
+0225    TGETS    6   6  61  ; "setPosition"
+0226    TGETS    9   5  62  ; "width"
+0227    SUBVN    9   9   1  ; 15
+0228    TGETS   10   5  63  ; "height"
+0229    CALL     6   1   4
+0230    GGET     6  59      ; "CommonNum"
+0231    TGETS    6   6  60  ; "new"
+0232    KSHORT   8  18
+0233    TGETS    9   0  54  ; "book_btn"
+0234    KSHORT  10   0
+0235    KSHORT  11  -3
+0236    CALL     6   2   5
+0237    TSETS    6   0  64  ; "secret_num"
+0238    TGETS    6   0  64  ; "secret_num"
+0239    MOV      8   6
+0240    TGETS    6   6  61  ; "setPosition"
+0241    TGETS    9   5  62  ; "width"
+0242    SUBVN    9   9   1  ; 15
+0243    TGETS   10   5  63  ; "height"
+0244    CALL     6   1   4
+0245    MOV      8   0
+0246    TGETS    6   0  65  ; "updateItemNum"
+0247    CALL     6   1   2
+0248    GGET     6  10      ; "display"
+0249    TGETS    6   6  66  ; "getTop"
+0250    GGET     8  67      ; "main_container"
+0251    CALL     6   2   2
+0252    GGET     7  10      ; "display"
+0253    TGETS    7   7  68  ; "getBottom"
+0254    GGET     9  67      ; "main_container"
+0255    CALL     7   2   2
+0256    MOV     10   1
+0257    TGETS    8   1  69  ; "setPositionY"
+0258    SUBVN   11   6   2  ; 158
+0259    CALL     8   1   3
+0260    TGETS    8   0  33  ; "buff_panel"
+0261    MOV     10   8
+0262    TGETS    8   8  69  ; "setPositionY"
+0263    SUBVN   11   6   3  ; 215
+0264    CALL     8   1   3
+0265    MOV     10   4
+0266    TGETS    8   4  69  ; "setPositionY"
+0267    MOV     11   7
+0268    CALL     8   1   3
+0269    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TSETS    1   0   0  ; "cur_monopoly_id"
+0002    UGET     2   0      ; 
+0003    MOV      4   2
+0004    TGETS    2   2   1  ; "setCurMonopolyMapId"
+0005    MOV      5   1
+0006    CALL     2   1   3
+0007    UGET     2   1      ; 
+0008    MOV      4   2
+0009    TGETS    2   2   2  ; "sender27401"
+0010    MOV      5   1
+0011    CALL     2   1   3
+0012    UGET     2   1      ; 
+0013    MOV      4   2
+0014    TGETS    2   2   3  ; "sender27504"
+0015    CALL     2   1   2
+0016    UGET     2   1      ; 
+0017    MOV      4   2
+0018    TGETS    2   2   4  ; "sender27500"
+0019    MOV      5   1
+0020    CALL     2   1   3
+0021    UGET     2   1      ; 
+0022    MOV      4   2
+0023    TGETS    2   2   5  ; "sender27408"
+0024    MOV      5   1
+0025    CALL     2   1   3
+0026    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     2   0      ; 
+0002    TGETS    2   2   0  ; "is_role_moving"
+0003    ISF          2
+0004    JMP      3 => 0006
+0005    RET0     0   1
+0006 => GGET     2   1      ; "ccui"
+0007    TGETS    2   2   2  ; "TouchEventType"
+0008    TGETS    2   2   3  ; "began"
+0009    ISNEV    1   2
+0010    JMP      2 => 0017
+0011    UGET     2   0      ; 
+0012    MOV      5   0
+0013    TGETS    3   0   5  ; "getTouchBeganPosition"
+0014    CALL     3   2   2
+0015    TSETS    3   2   4  ; "last_pos"
+0016    JMP      2 => 0047
+0017 => GGET     2   1      ; "ccui"
+0018    TGETS    2   2   2  ; "TouchEventType"
+0019    TGETS    2   2   6  ; "moved"
+0020    ISNEV    1   2
+0021    JMP      2 => 0047
+0022    MOV      4   0
+0023    TGETS    2   0   7  ; "getTouchMovePosition"
+0024    CALL     2   2   2
+0025    UGET     3   0      ; 
+0026    TGETS    3   3   4  ; "last_pos"
+0027    ISF          3
+0028    JMP      4 => 0047
+0029    TGETS    3   2   8  ; "x"
+0030    UGET     4   0      ; 
+0031    TGETS    4   4   4  ; "last_pos"
+0032    TGETS    4   4   8  ; "x"
+0033    SUBVV    3   3   4
+0034    TGETS    4   2   9  ; "y"
+0035    UGET     5   0      ; 
+0036    TGETS    5   5   4  ; "last_pos"
+0037    TGETS    5   5   9  ; "y"
+0038    SUBVV    4   4   5
+0039    UGET     5   0      ; 
+0040    TSETS    2   5   4  ; "last_pos"
+0041    UGET     5   0      ; 
+0042    MOV      7   5
+0043    TGETS    5   5  10  ; "onTouchMoveBoard"
+0044    MOV      8   3
+0045    MOV      9   4
+0046    CALL     5   1   4
+0047 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "setData"
+0004    CALL     0   1   2
+0005    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     2   0      ; 
+0002    TGETS    2   2   0  ; "cur_monopoly_id"
+0003    ISF          2
+0004    JMP      3 => 0013
+0005    UGET     2   0      ; 
+0006    UGET     3   1      ; 
+0007    MOV      5   3
+0008    TGETS    3   3   2  ; "getMonopolyMapDataById"
+0009    UGET     6   0      ; 
+0010    TGETS    6   6   0  ; "cur_monopoly_id"
+0011    CALL     3   2   3
+0012    TSETS    3   2   1  ; "map_data"
+0013 => ISF          1
+0014    JMP      2 => 0025
+0015    ISF          0
+0016    JMP      2 => 0025
+0017    KSHORT   2   0
+0018    ISGE     2   0
+0019    JMP      2 => 0025
+0020    UGET     2   0      ; 
+0021    MOV      4   2
+0022    TGETS    2   2   3  ; "MoveRoleByNum"
+0023    MOV      5   0
+0024    CALL     2   1   3
+0025 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     1   0      ; 
+0002    TGETS    1   1   0  ; "cur_monopoly_id"
+0003    ISF          1
+0004    JMP      2 => 0020
+0005    UGET     1   0      ; 
+0006    TGETS    1   1   0  ; "cur_monopoly_id"
+0007    ISNEV    1   0
+0008    JMP      1 => 0020
+0009    UGET     1   0      ; 
+0010    UGET     2   1      ; 
+0011    MOV      4   2
+0012    TGETS    2   2   2  ; "getMonopolyMapDataById"
+0013    UGET     5   0      ; 
+0014    TGETS    5   5   0  ; "cur_monopoly_id"
+0015    CALL     2   2   3
+0016    TSETS    2   1   1  ; "map_data"
+0017    UGET     1   0      ; 
+0018    KPRI     2   1
+0019    TSETS    2   1   3  ; "is_proceed_evt"
+0020 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "MoveRoleByNum"
+0004    MOV      4   0
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    ISF          0
+0002    JMP      2 => 0020
+0003    UGET     2   0      ; 
+0004    TGETS    2   2   0  ; "dice_item_bid"
+0005    ISEQV    0   2
+0006    JMP      2 => 0011
+0007    UGET     2   0      ; 
+0008    TGETS    2   2   1  ; "secret_item_bid"
+0009    ISNEV    0   2
+0010    JMP      2 => 0020
+0011 => UGET     2   0      ; 
+0012    TGETS    2   2   2  ; "role_vo"
+0013    ISF          2
+0014    JMP      3 => 0020
+0015    UGET     2   0      ; 
+0016    MOV      4   2
+0017    TGETS    2   2   3  ; "updateItemNum"
+0018    CALL     2   1   2
+0019    JMP      2 => 0034
+0020 => ISF          0
+0021    JMP      2 => 0034
+0022    UGET     2   0      ; 
+0023    TGETS    2   2   4  ; "gold_item_bid"
+0024    ISNEV    0   2
+0025    JMP      2 => 0034
+0026    UGET     2   0      ; 
+0027    TGETS    2   2   2  ; "role_vo"
+0028    ISF          2
+0029    JMP      3 => 0034
+0030    UGET     2   0      ; 
+0031    MOV      4   2
+0032    TGETS    2   2   5  ; "updateBuffData"
+0033    CALL     2   1   2
+0034 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "updateBuffData"
+0004    CALL     0   1   2
+0005    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    ISF          0
+0002    JMP      1 => 0013
+0003    TGETS    1   0   0  ; "id"
+0004    UGET     2   0      ; 
+0005    TGETS    2   2   1  ; "cur_monopoly_id"
+0006    ISNEV    1   2
+0007    JMP      1 => 0013
+0008    UGET     1   0      ; 
+0009    MOV      3   1
+0010    TGETS    1   1   2  ; "updateBossIconList"
+0011    TGETS    4   0   3  ; "boss_list"
+0012    CALL     1   1   3
+0013 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "updateBossProgress"
+0004    CALL     0   1   2
+0005    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "id"
+0002    UGET     2   0      ; 
+0003    TGETS    2   2   1  ; "cur_monopoly_id"
+0004    ISNEV    1   2
+0005    JMP      1 => 0011
+0006    UGET     1   0      ; 
+0007    MOV      3   1
+0008    TGETS    1   1   2  ; "updateMonopolyBuffs"
+0009    TGETS    4   0   3  ; "buffs"
+0010    CALL     1   1   3
+0011 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "checkShowTips"
+0004    CALL     0   1   2
+0005    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     1   0      ; "registerButtonEventListener"
+0002    TGETS    3   0   1  ; "close_btn"
+0003    GGET     4   2      ; "handler"
+0004    MOV      6   0
+0005    TGETS    7   0   3  ; "onClickCloseBtn"
+0006    CALL     4   2   3
+0007    KPRI     5   2
+0008    KSHORT   6   2
+0009    CALL     1   1   5
+0010    GGET     1   0      ; "registerButtonEventListener"
+0011    TGETS    3   0   4  ; "pumpkin_btn"
+0012    GGET     4   2      ; "handler"
+0013    MOV      6   0
+0014    TGETS    7   0   5  ; "onClickPumpkinBtn"
+0015    CALL     4   2   3
+0016    KPRI     5   2
+0017    KNIL     6   8
+0018    KNUM     9   0      ; 0.5
+0019    CALL     1   1   8
+0020    GGET     1   0      ; "registerButtonEventListener"
+0021    TGETS    3   0   6  ; "book_btn"
+0022    GGET     4   2      ; "handler"
+0023    MOV      6   0
+0024    TGETS    7   0   7  ; "onClickBookBtn"
+0025    CALL     4   2   3
+0026    KPRI     5   2
+0027    KNIL     6   8
+0028    KNUM     9   0      ; 0.5
+0029    CALL     1   1   8
+0030    GGET     1   0      ; "registerButtonEventListener"
+0031    TGETS    3   0   8  ; "btn_rule"
+0032    GGET     4   2      ; "handler"
+0033    MOV      6   0
+0034    TGETS    7   0   9  ; "onClickRuleBtn"
+0035    CALL     4   2   3
+0036    KPRI     5   2
+0037    CALL     1   1   4
+0038    TGETS    1   0  10  ; "touch_slayer"
+0039    MOV      3   1
+0040    TGETS    1   1  11  ; "addTouchEventListener"
+0041    FNEW     4  12      ; 2FF1BAB2177CD2AD.luac:0
+0042    CALL     1   1   3
+0043    MOV      3   0
+0044    TGETS    1   0  13  ; "addGlobalEvent"
+0045    GGET     4  14      ; "MonopolyEvent"
+0046    TGETS    4   4  15  ; "Update_Monopoly_Map_Data_Event"
+0047    FNEW     5  16      ; 2FF1BAB2177CD2AD.luac:0
+0048    CALL     1   1   4
+0049    MOV      3   0
+0050    TGETS    1   0  13  ; "addGlobalEvent"
+0051    GGET     4  14      ; "MonopolyEvent"
+0052    TGETS    4   4  17  ; "Get_Dice_Result_Event"
+0053    FNEW     5  18      ; 2FF1BAB2177CD2AD.luac:0
+0054    CALL     1   1   4
+0055    MOV      3   0
+0056    TGETS    1   0  13  ; "addGlobalEvent"
+0057    GGET     4  14      ; "MonopolyEvent"
+0058    TGETS    4   4  19  ; "Update_Now_Evt_Type_Event"
+0059    FNEW     5  20      ; 2FF1BAB2177CD2AD.luac:0
+0060    CALL     1   1   4
+0061    MOV      3   0
+0062    TGETS    1   0  13  ; "addGlobalEvent"
+0063    GGET     4  14      ; "MonopolyEvent"
+0064    TGETS    4   4  21  ; "Get_Role_Move_Event"
+0065    FNEW     5  22      ; 2FF1BAB2177CD2AD.luac:0
+0066    CALL     1   1   4
+0067    TGETS    1   0  23  ; "role_assets_event"
+0068    IST          1
+0069    JMP      1 => 0081
+0070    TGETS    1   0  24  ; "role_vo"
+0071    ISF          1
+0072    JMP      2 => 0081
+0073    TGETS    1   0  24  ; "role_vo"
+0074    MOV      3   1
+0075    TGETS    1   1  25  ; "Bind"
+0076    GGET     4  26      ; "RoleEvent"
+0077    TGETS    4   4  27  ; "UPDATE_ROLE_ACTION_ASSETS"
+0078    FNEW     5  28      ; 2FF1BAB2177CD2AD.luac:0
+0079    CALL     1   2   4
+0080    TSETS    1   0  23  ; "role_assets_event"
+0081 => MOV      3   0
+0082    TGETS    1   0  13  ; "addGlobalEvent"
+0083    GGET     4  14      ; "MonopolyEvent"
+0084    TGETS    4   4  29  ; "Update_Buff_Data_Event"
+0085    FNEW     5  30      ; 2FF1BAB2177CD2AD.luac:0
+0086    CALL     1   1   4
+0087    MOV      3   0
+0088    TGETS    1   0  13  ; "addGlobalEvent"
+0089    GGET     4  14      ; "MonopolyEvent"
+0090    TGETS    4   4  31  ; "Get_Boss_Data_Event"
+0091    FNEW     5  32      ; 2FF1BAB2177CD2AD.luac:0
+0092    CALL     1   1   4
+0093    MOV      3   0
+0094    TGETS    1   0  13  ; "addGlobalEvent"
+0095    GGET     4  14      ; "MonopolyEvent"
+0096    TGETS    4   4  33  ; "Update_Guild_Dev_Val_Event"
+0097    FNEW     5  34      ; 2FF1BAB2177CD2AD.luac:0
+0098    CALL     1   1   4
+0099    MOV      3   0
+0100    TGETS    1   0  13  ; "addGlobalEvent"
+0101    GGET     4  14      ; "MonopolyEvent"
+0102    TGETS    4   4  35  ; "Update_Monopoly_Buff_Event"
+0103    FNEW     5  36      ; 2FF1BAB2177CD2AD.luac:0
+0104    CALL     1   1   4
+0105    MOV      3   0
+0106    TGETS    1   0  13  ; "addGlobalEvent"
+0107    GGET     4  14      ; "MonopolyEvent"
+0108    TGETS    4   4  37  ; "Get_Show_Tips_Event"
+0109    FNEW     5  38      ; 2FF1BAB2177CD2AD.luac:0
+0110    CALL     1   1   4
+0111    UCLO     0 => 0112
+0112 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "openMonopolyItemShowWindow"
+0004    KPRI     4   2
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "role_vo"
+0002    MOV      3   1
+0003    TGETS    1   1   1  ; "getActionAssetsNumByBid"
+0004    TGETS    4   0   2  ; "dice_item_bid"
+0005    CALL     1   2   3
+0006    TGETS    2   0   3  ; "pumpkin_num"
+0007    MOV      4   2
+0008    TGETS    2   2   4  ; "setNum"
+0009    MOV      5   1
+0010    CALL     2   1   3
+0011    TGETS    2   0   0  ; "role_vo"
+0012    MOV      4   2
+0013    TGETS    2   2   1  ; "getActionAssetsNumByBid"
+0014    TGETS    5   0   5  ; "secret_item_bid"
+0015    CALL     2   2   3
+0016    MOV      1   2
+0017    TGETS    2   0   6  ; "secret_num"
+0018    MOV      4   2
+0019    TGETS    2   2   4  ; "setNum"
+0020    MOV      5   1
+0021    CALL     2   1   3
+0022    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "getMonopolyBuffData"
+0004    CALL     1   2   2
+0005    KSHORT   2   0
+0006    KSHORT   3   0
+0007    GGET     4   1      ; "pairs"
+0008    MOV      6   1
+0009    CALL     4   4   2
+0010    ISNEXT   7 => 0020
+0011 => TGETS    9   8   2  ; "buff_id"
+0012    ISNEN    9   0      ; 1
+0013    JMP      9 => 0016
+0014    TGETS    2   8   3  ; "val"
+0015    JMP      9 => 0020
+0016 => TGETS    9   8   2  ; "buff_id"
+0017    ISNEN    9   1      ; 2
+0018    JMP      9 => 0020
+0019    TGETS    3   8   3  ; "val"
+0020 => ITERN    7   3   3
+0021    ITERL    7 => 0011
+0022    TGETS    4   0   4  ; "atk_txt"
+0023    MOV      6   4
+0024    TGETS    4   4   5  ; "setString"
+0025    UGET     7   1      ; 
+0026    GGET     9   6      ; "TI18N"
+0027    KSTR    11   7      ; "攻击+%d"
+0028    CALL     9   2   2
+0029    MOV     10   2
+0030    CALL     7   0   3
+0031    CALLM    4   1   1
+0032    TGETS    4   0   8  ; "hp_txt"
+0033    MOV      6   4
+0034    TGETS    4   4   5  ; "setString"
+0035    UGET     7   1      ; 
+0036    GGET     9   6      ; "TI18N"
+0037    KSTR    11   9      ; "血量+%d"
+0038    CALL     9   2   2
+0039    MOV     10   3
+0040    CALL     7   0   3
+0041    CALLM    4   1   1
+0042    TGETS    4   0  10  ; "role_vo"
+0043    MOV      6   4
+0044    TGETS    4   4  11  ; "getActionAssetsNumByBid"
+0045    TGETS    7   0  12  ; "gold_item_bid"
+0046    CALL     4   2   3
+0047    TGETS    5   0  13  ; "candy_txt"
+0048    MOV      7   5
+0049    TGETS    5   5   5  ; "setString"
+0050    UGET     8   1      ; 
+0051    GGET    10   6      ; "TI18N"
+0052    KSTR    12  14      ; "%s:%d"
+0053    CALL    10   2   2
+0054    TGETS   11   0  15  ; "gold_item_name"
+0055    MOV     12   4
+0056    CALL     8   0   4
+0057    CALLM    5   1   1
+0058    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "is_proceed_evt"
+0002    ISF          1
+0003    JMP      2 => 0010
+0004    GGET     1   1      ; "message"
+0005    GGET     3   2      ; "TI18N"
+0006    KSTR     5   3      ; "当前有未完成的事件"
+0007    CALL     3   0   2
+0008    CALLM    1   1   0
+0009    RET0     0   1
+0010 => TGETS    1   0   4  ; "is_role_moving"
+0011    ISF          1
+0012    JMP      2 => 0019
+0013    GGET     1   1      ; "message"
+0014    GGET     3   2      ; "TI18N"
+0015    KSTR     5   5      ; "角色正在行走中"
+0016    CALL     3   0   2
+0017    CALLM    1   1   0
+0018    RET0     0   1
+0019 => TGETS    1   0   6  ; "role_vo"
+0020    IST          1
+0021    JMP      1 => 0023
+0022    RET0     0   1
+0023 => TGETS    1   0   6  ; "role_vo"
+0024    MOV      3   1
+0025    TGETS    1   1   7  ; "getActionAssetsNumByBid"
+0026    TGETS    4   0   8  ; "dice_item_bid"
+0027    CALL     1   2   3
+0028    KSHORT   2   0
+0029    ISGT     1   2
+0030    JMP      2 => 0040
+0031    GGET     2   1      ; "message"
+0032    UGET     4   0      ; 
+0033    GGET     6   2      ; "TI18N"
+0034    KSTR     8   9      ; "没有%s啦，请去活动中获取更�"~
+0035    CALL     6   2   2
+0036    TGETS    7   0  10  ; "dice_item_name"
+0037    CALL     4   0   3
+0038    CALLM    2   1   0
+0039    JMP      2 => 0045
+0040 => UGET     2   1      ; 
+0041    MOV      4   2
+0042    TGETS    2   2  11  ; "openMonopolyPumpkinWindow"
+0043    KPRI     5   2
+0044    CALL     2   1   3
+0045 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "is_proceed_evt"
+0002    ISF          1
+0003    JMP      2 => 0010
+0004    GGET     1   1      ; "message"
+0005    GGET     3   2      ; "TI18N"
+0006    KSTR     5   3      ; "当前有未完成的事件"
+0007    CALL     3   0   2
+0008    CALLM    1   1   0
+0009    RET0     0   1
+0010 => TGETS    1   0   4  ; "is_role_moving"
+0011    ISF          1
+0012    JMP      2 => 0019
+0013    GGET     1   1      ; "message"
+0014    GGET     3   2      ; "TI18N"
+0015    KSTR     5   5      ; "角色正在行走中"
+0016    CALL     3   0   2
+0017    CALLM    1   1   0
+0018    RET0     0   1
+0019 => TGETS    1   0   6  ; "role_vo"
+0020    IST          1
+0021    JMP      1 => 0023
+0022    RET0     0   1
+0023 => TGETS    1   0   6  ; "role_vo"
+0024    MOV      3   1
+0025    TGETS    1   1   7  ; "getActionAssetsNumByBid"
+0026    TGETS    4   0   8  ; "secret_item_bid"
+0027    CALL     1   2   3
+0028    KSHORT   2   0
+0029    ISGT     1   2
+0030    JMP      2 => 0040
+0031    GGET     2   1      ; "message"
+0032    UGET     4   0      ; 
+0033    GGET     6   2      ; "TI18N"
+0034    KSTR     8   9      ; "没有%s啦，请去活动中获取更�"~
+0035    CALL     6   2   2
+0036    TGETS    7   0  10  ; "secret_item_name"
+0037    CALL     4   0   3
+0038    CALLM    2   1   0
+0039    JMP      2 => 0045
+0040 => UGET     2   1      ; 
+0041    MOV      4   2
+0042    TGETS    2   2  11  ; "openMonopolyChoseStepWindow"
+0043    KPRI     5   2
+0044    CALL     2   1   3
+0045 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "openMonopolyMianScene"
+0004    KPRI     4   1
+0005    CALL     1   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    TGETS    0   0   0  ; "all_grid_item_list"
+0003    UGET     1   1      ; 
+0004    TGETV    0   0   1
+0005    IST          0
+0006    JMP      1 => 0021
+0007    GGET     1   1      ; "MonopolyGridItem"
+0008    TGETS    1   1   2  ; "new"
+0009    CALL     1   2   1
+0010    MOV      0   1
+0011    UGET     1   0      ; 
+0012    TGETS    1   1   3  ; "board_slayer"
+0013    MOV      3   1
+0014    TGETS    1   1   4  ; "addChild"
+0015    MOV      4   0
+0016    CALL     1   1   3
+0017    UGET     1   0      ; 
+0018    TGETS    1   1   0  ; "all_grid_item_list"
+0019    UGET     2   1      ; 
+0020    TSETV    0   1   2
+0021 => MOV      3   0
+0022    TGETS    1   0   5  ; "setVisible"
+0023    KPRI     4   2
+0024    CALL     1   1   3
+0025    MOV      3   0
+0026    TGETS    1   0   6  ; "setData"
+0027    UGET     4   2      ; 
+0028    CALL     1   1   3
+0029    UGET     1   1      ; 
+0030    UGET     2   3      ; 
+0031    ISNEV    1   2
+0032    JMP      1 => 0037
+0033    UGET     1   0      ; 
+0034    MOV      3   1
+0035    TGETS    1   1   7  ; "updateGridListZorder"
+0036    CALL     1   1   2
+0037 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     1   0      ; "pairs"
+0002    TGETS    3   0   1  ; "all_grid_item_list"
+0003    CALL     1   4   2
+0004    ISNEXT   4 => 0009
+0005 => MOV      8   5
+0006    TGETS    6   5   2  ; "setVisible"
+0007    KPRI     9   1
+0008    CALL     6   1   3
+0009 => ITERN    4   3   3
+0010    ITERL    4 => 0005
+0011    TGETS    1   0   3  ; "board_grid_data"
+0012    LEN      1   1
+0013    GGET     2   0      ; "pairs"
+0014    TGETS    4   0   3  ; "board_grid_data"
+0015    CALL     2   4   2
+0016    ISNEXT   5 => 0025
+0017 => GGET     7   4      ; "delayRun"
+0018    TGETS    9   0   5  ; "board_slayer"
+0019    GGET    10   6      ; "display"
+0020    TGETS   10  10   7  ; "DEFAULT_FPS"
+0021    DIVNV   10  10   0  ; 1
+0022    FNEW    11   8      ; 2FF1BAB2177CD2AD.luac:0
+0023    CALL     7   1   4
+0024    UCLO     5 => 0025
+0025 => ITERN    5   3   3
+0026    ITERL    5 => 0017
+0027    UCLO     0 => 0028
+0028 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    3   0   0  ; "board_container"
+0002    IST          3
+0003    JMP      3 => 0005
+0004    RET0     0   1
+0005 => TGETS    3   0   0  ; "board_container"
+0006    MOV      5   3
+0007    TGETS    3   3   1  ; "getPosition"
+0008    CALL     3   3   2
+0009    ADDVV    5   3   1
+0010    ADDVV    6   4   2
+0011    MOV      9   0
+0012    TGETS    7   0   2  ; "checkBoardPos"
+0013    MOV     10   5
+0014    MOV     11   6
+0015    CALL     7   3   4
+0016    MOV      6   8
+0017    MOV      5   7
+0018    TGETS    7   0   0  ; "board_container"
+0019    MOV      9   7
+0020    TGETS    7   7   3  ; "setPosition"
+0021    GGET    10   4      ; "cc"
+0022    TGETS   10  10   5  ; "p"
+0023    MOV     12   5
+0024    MOV     13   6
+0025    CALL    10   0   3
+0026    CALLM    7   1   1
+0027    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    3   0   0  ; "board_max_pos_x"
+0002    ISGE     3   1
+0003    JMP      3 => 0006
+0004    TGETS    1   0   0  ; "board_max_pos_x"
+0005    JMP      3 => 0010
+0006 => TGETS    3   0   1  ; "board_min_pos_x"
+0007    ISGE     1   3
+0008    JMP      3 => 0010
+0009    TGETS    1   0   1  ; "board_min_pos_x"
+0010 => TGETS    3   0   2  ; "board_max_pos_y"
+0011    ISGE     3   2
+0012    JMP      3 => 0015
+0013    TGETS    2   0   2  ; "board_max_pos_y"
+0014    JMP      3 => 0019
+0015 => TGETS    3   0   3  ; "board_min_pos_y"
+0016    ISGE     2   3
+0017    JMP      3 => 0019
+0018    TGETS    2   0   3  ; "board_min_pos_y"
+0019 => MOV      3   1
+0020    MOV      4   2
+0021    RET      3   3
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     0   0      ; "loadSpriteTexture"
+0002    UGET     2   0      ; 
+0003    TGETS    2   2   1  ; "board_bg_1"
+0004    UGET     3   1      ; 
+0005    KSTR     5   2      ; "resource/monopoly/background/%d/%d.png"
+0006    UGET     6   0      ; 
+0007    TGETS    6   6   3  ; "cur_board_bg_id"
+0008    KSHORT   7   1
+0009    CALL     3   2   4
+0010    GGET     4   4      ; "LOADTEXT_TYPE"
+0011    CALL     0   1   4
+0012    GGET     0   0      ; "loadSpriteTexture"
+0013    UGET     2   0      ; 
+0014    TGETS    2   2   5  ; "board_bg_2"
+0015    UGET     3   1      ; 
+0016    KSTR     5   2      ; "resource/monopoly/background/%d/%d.png"
+0017    UGET     6   0      ; 
+0018    TGETS    6   6   3  ; "cur_board_bg_id"
+0019    KSHORT   7   2
+0020    CALL     3   2   4
+0021    GGET     4   4      ; "LOADTEXT_TYPE"
+0022    CALL     0   1   4
+0023    GGET     0   0      ; "loadSpriteTexture"
+0024    UGET     2   0      ; 
+0025    TGETS    2   2   6  ; "board_bg_3"
+0026    UGET     3   1      ; 
+0027    KSTR     5   2      ; "resource/monopoly/background/%d/%d.png"
+0028    UGET     6   0      ; 
+0029    TGETS    6   6   3  ; "cur_board_bg_id"
+0030    KSHORT   7   3
+0031    CALL     3   2   4
+0032    GGET     4   4      ; "LOADTEXT_TYPE"
+0033    CALL     0   1   4
+0034    GGET     0   0      ; "loadSpriteTexture"
+0035    UGET     2   0      ; 
+0036    TGETS    2   2   7  ; "board_bg_4"
+0037    UGET     3   1      ; 
+0038    KSTR     5   2      ; "resource/monopoly/background/%d/%d.png"
+0039    UGET     6   0      ; 
+0040    TGETS    6   6   3  ; "cur_board_bg_id"
+0041    KSHORT   7   4
+0042    CALL     3   2   4
+0043    GGET     4   4      ; "LOADTEXT_TYPE"
+0044    CALL     0   1   4
+0045    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    2   0   0  ; "cur_board_bg_id"
+0002    ISF          2
+0003    JMP      2 => 0007
+0004    TGETS    2   0   0  ; "cur_board_bg_id"
+0005    ISEQV    2   1
+0006    JMP      2 => 0122
+0007 => TSETS    1   0   0  ; "cur_board_bg_id"
+0008    TGETS    2   0   1  ; "board_bg_1"
+0009    IST          2
+0010    JMP      2 => 0025
+0011    GGET     2   2      ; "createSprite"
+0012    KPRI     4   0
+0013    KSHORT   5 932
+0014    GGET     6   3      ; "MonopolyConst"
+0015    TGETS    6   6   4  ; "Board_Height"
+0016    TGETS    7   0   5  ; "board_slayer"
+0017    GGET     8   6      ; "cc"
+0018    TGETS    8   8   7  ; "p"
+0019    KSHORT  10   0
+0020    KSHORT  11   1
+0021    CALL     8   2   3
+0022    GGET     9   8      ; "LOADTEXT_TYPE"
+0023    CALL     2   2   7
+0024    TSETS    2   0   1  ; "board_bg_1"
+0025 => TGETS    2   0   9  ; "board_bg_2"
+0026    IST          2
+0027    JMP      2 => 0044
+0028    GGET     2   2      ; "createSprite"
+0029    KPRI     4   0
+0030    KSHORT   5   0
+0031    GGET     6   3      ; "MonopolyConst"
+0032    TGETS    6   6   4  ; "Board_Height"
+0033    MULVN    6   6   0  ; 0.5
+0034    SUBVN    6   6   1  ; 28
+0035    TGETS    7   0   5  ; "board_slayer"
+0036    GGET     8   6      ; "cc"
+0037    TGETS    8   8   7  ; "p"
+0038    KSHORT  10   0
+0039    KNUM    11   0      ; 0.5
+0040    CALL     8   2   3
+0041    GGET     9   8      ; "LOADTEXT_TYPE"
+0042    CALL     2   2   7
+0043    TSETS    2   0   9  ; "board_bg_2"
+0044 => TGETS    2   0  10  ; "board_bg_3"
+0045    IST          2
+0046    JMP      2 => 0060
+0047    GGET     2   2      ; "createSprite"
+0048    KPRI     4   0
+0049    KSHORT   5 911
+0050    KSHORT   6   0
+0051    TGETS    7   0   5  ; "board_slayer"
+0052    GGET     8   6      ; "cc"
+0053    TGETS    8   8   7  ; "p"
+0054    KSHORT  10   0
+0055    KSHORT  11   0
+0056    CALL     8   2   3
+0057    GGET     9   8      ; "LOADTEXT_TYPE"
+0058    CALL     2   2   7
+0059    TSETS    2   0  10  ; "board_bg_3"
+0060 => TGETS    2   0  11  ; "board_bg_4"
+0061    IST          2
+0062    JMP      2 => 0080
+0063    GGET     2   2      ; "createSprite"
+0064    KPRI     4   0
+0065    GGET     5   3      ; "MonopolyConst"
+0066    TGETS    5   5  12  ; "Board_Width"
+0067    GGET     6   3      ; "MonopolyConst"
+0068    TGETS    6   6   4  ; "Board_Height"
+0069    MULVN    6   6   0  ; 0.5
+0070    SUBVN    6   6   2  ; 20
+0071    TGETS    7   0   5  ; "board_slayer"
+0072    GGET     8   6      ; "cc"
+0073    TGETS    8   8   7  ; "p"
+0074    KSHORT  10   1
+0075    KNUM    11   0      ; 0.5
+0076    CALL     8   2   3
+0077    GGET     9   8      ; "LOADTEXT_TYPE"
+0078    CALL     2   2   7
+0079    TSETS    2   0  11  ; "board_bg_4"
+0080 => TNEW     2   0
+0081    KSHORT   3   1
+0082    KSHORT   4   4
+0083    KSHORT   5   1
+0084    FORI     3 => 0102
+0085 => GGET     7  13      ; "PathTool"
+0086    TGETS    7   7  14  ; "getPlistImgForDownLoad"
+0087    UGET     9   0      ; 
+0088    KSTR    11  15      ; "monopoly/background/%d"
+0089    TGETS   12   0   0  ; "cur_board_bg_id"
+0090    CALL     9   2   3
+0091    MOV     10   6
+0092    CALL     7   2   3
+0093    UGET     8   1      ; 
+0094    MOV     10   2
+0095    TDUP    11  16
+0096    TSETS    7  11  17  ; "path"
+0097    GGET    12  18      ; "ResourcesType"
+0098    TGETS   12  12  19  ; "single"
+0099    TSETS   12  11  20  ; "type"
+0100    CALL     8   1   3
+0101    FORL     3 => 0085
+0102 => TGETS    3   0  21  ; "board_bg_load"
+0103    ISF          3
+0104    JMP      4 => 0111
+0105    TGETS    3   0  21  ; "board_bg_load"
+0106    MOV      5   3
+0107    TGETS    3   3  22  ; "DeleteMe"
+0108    CALL     3   1   2
+0109    KPRI     3   0
+0110    TSETS    3   0  21  ; "board_bg_load"
+0111 => GGET     3  23      ; "ResourcesLoad"
+0112    TGETS    3   3  24  ; "New"
+0113    KPRI     5   2
+0114    CALL     3   2   2
+0115    TSETS    3   0  21  ; "board_bg_load"
+0116    TGETS    3   0  21  ; "board_bg_load"
+0117    MOV      5   3
+0118    TGETS    3   3  25  ; "addAllList"
+0119    MOV      6   2
+0120    FNEW     7  26      ; 2FF1BAB2177CD2AD.luac:0
+0121    CALL     3   1   4
+0122 => UCLO     0 => 0123
+0123 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "board_role"
+0002    ISF          1
+0003    JMP      2 => 0014
+0004    TGETS    1   0   0  ; "board_role"
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "clearTracks"
+0007    CALL     1   1   2
+0008    TGETS    1   0   0  ; "board_role"
+0009    MOV      3   1
+0010    TGETS    1   1   2  ; "removeFromParent"
+0011    CALL     1   1   2
+0012    KPRI     1   0
+0013    TSETS    1   0   0  ; "board_role"
+0014 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    2   0   0  ; "role_cur_board_index"
+0002    ADDVV    2   2   1
+0003    TGETS    3   0   1  ; "board_grid_data"
+0004    TGETV    3   3   2
+0005    ISF          3
+0006    JMP      4 => 0020
+0007    TGETS    4   3   2  ; "grid_index"
+0008    ISF          4
+0009    JMP      5 => 0020
+0010    GGET     4   3      ; "MonopolyTile"
+0011    TGETS    4   4   4  ; "indexPixel"
+0012    TGETS    6   3   2  ; "grid_index"
+0013    CALL     4   3   2
+0014    MOV      8   0
+0015    TGETS    6   0   5  ; "handlerTargetEffect"
+0016    KPRI     9   2
+0017    MOV     10   4
+0018    ADDVN   11   5   0  ; 6
+0019    CALL     6   1   5
+0020 => TNEW     4   0
+0021    KSHORT   5   1
+0022    SUBVN    6   1   1  ; 1
+0023    KSHORT   7   1
+0024    FORI     5 => 0092
+0025 => TGETS    9   0   0  ; "role_cur_board_index"
+0026    ADDVV    9   9   8
+0027    TGETS   10   0   1  ; "board_grid_data"
+0028    LEN     10  10
+0029    ISGT     9  10
+0030    JMP     10 => 0091
+0031    TGETS   10   0   1  ; "board_grid_data"
+0032    TGETV   10  10   9
+0033    ISF         10
+0034    JMP     11 => 0091
+0035    TGETS   11  10   2  ; "grid_index"
+0036    ISF         11
+0037    JMP     12 => 0091
+0038    TNEW    11   0
+0039    KSHORT  12   1
+0040    TSETS   12  11   6  ; "dir"
+0041    GGET    12   3      ; "MonopolyTile"
+0042    TGETS   12  12   4  ; "indexPixel"
+0043    TGETS   14  10   2  ; "grid_index"
+0044    CALL    12   3   2
+0045    TGETS   14   0   1  ; "board_grid_data"
+0046    ADDVN   15   9   1  ; 1
+0047    TGETV   14  14  15
+0048    ISF         14
+0049    JMP     15 => 0081
+0050    GGET    15   3      ; "MonopolyTile"
+0051    TGETS   15  15   4  ; "indexPixel"
+0052    TGETS   17  14   2  ; "grid_index"
+0053    CALL    15   3   2
+0054    ISGE    12  15
+0055    JMP     17 => 0061
+0056    ISGE    13  16
+0057    JMP     17 => 0061
+0058    KSHORT  17   1
+0059    TSETS   17  11   6  ; "dir"
+0060    JMP     17 => 0081
+0061 => ISGE    12  15
+0062    JMP     17 => 0068
+0063    ISGE    16  13
+0064    JMP     17 => 0068
+0065    KSHORT  17   2
+0066    TSETS   17  11   6  ; "dir"
+0067    JMP     17 => 0081
+0068 => ISGE    15  12
+0069    JMP     17 => 0075
+0070    ISGE    16  13
+0071    JMP     17 => 0075
+0072    KSHORT  17   3
+0073    TSETS   17  11   6  ; "dir"
+0074    JMP     17 => 0081
+0075 => ISGE    15  12
+0076    JMP     17 => 0081
+0077    ISGE    13  16
+0078    JMP     17 => 0081
+0079    KSHORT  17   4
+0080    TSETS   17  11   6  ; "dir"
+0081 => ADDVN   15  12   2  ; 4
+0082    TSETS   15  11   7  ; "pos_x"
+0083    ADDVN   15  13   3  ; 10
+0084    TSETS   15  11   8  ; "pos_y"
+0085    TGETS   15  10   2  ; "grid_index"
+0086    TSETS   15  11   2  ; "grid_index"
+0087    UGET    15   0      ; 
+0088    MOV     17   4
+0089    MOV     18  11
+0090    CALL    15   1   3
+0091 => FORL     5 => 0025
+0092 => GGET     5   9      ; "pairs"
+0093    TGETS    7   0  10  ; "route_effect_list"
+0094    CALL     5   4   2
+0095    ISNEXT   8 => 0104
+0096 => TGETS   10   9  11  ; "effect"
+0097    ISF         10
+0098    JMP     11 => 0104
+0099    TGETS   10   9  11  ; "effect"
+0100    MOV     12  10
+0101    TGETS   10  10  12  ; "setVisible"
+0102    KPRI    13   1
+0103    CALL    10   1   3
+0104 => ITERN    8   3   3
+0105    ITERL    8 => 0096
+0106    GGET     5  13      ; "ipairs"
+0107    MOV      7   4
+0108    CALL     5   4   2
+0109    JMP      8 => 0215
+0110 => TGETS   10   0  10  ; "route_effect_list"
+0111    TGETV   10  10   8
+0112    ISF         10
+0113    JMP     11 => 0119
+0114    GGET    11  14      ; "next"
+0115    MOV     13  10
+0116    CALL    11   2   2
+0117    ISNEP   11   0
+0118    JMP     11 => 0150
+0119 => TNEW    10   0
+0120    GGET    11  15      ; "createEffectSpine"
+0121    GGET    13  16      ; "Config"
+0122    TGETS   13  13  17  ; "EffectData"
+0123    TGETS   13  13  18  ; "data_effect_info"
+0124    KSHORT  14 1505
+0125    TGETV   13  13  14
+0126    GGET    14  19      ; "cc"
+0127    TGETS   14  14  20  ; "p"
+0128    TGETS   16   9   7  ; "pos_x"
+0129    TGETS   17   9   8  ; "pos_y"
+0130    CALL    14   2   3
+0131    GGET    15  19      ; "cc"
+0132    TGETS   15  15  20  ; "p"
+0133    KNUM    17   4      ; 0.5
+0134    KNUM    18   4      ; 0.5
+0135    CALL    15   2   3
+0136    KPRI    16   2
+0137    GGET    17  21      ; "PlayerAction"
+0138    TGETS   17  17  22  ; "action"
+0139    CALL    11   2   6
+0140    TSETS   11  10  11  ; "effect"
+0141    TGETS   11   0  23  ; "board_slayer"
+0142    MOV     13  11
+0143    TGETS   11  11  24  ; "addChild"
+0144    TGETS   14  10  11  ; "effect"
+0145    KSHORT  15  99
+0146    CALL    11   1   4
+0147    TGETS   11   0  10  ; "route_effect_list"
+0148    TSETV   10  11   8
+0149    JMP     11 => 0168
+0150 => TGETS   11  10  11  ; "effect"
+0151    MOV     13  11
+0152    TGETS   11  11  25  ; "setToSetupPose"
+0153    CALL    11   1   2
+0154    TGETS   11  10  11  ; "effect"
+0155    MOV     13  11
+0156    TGETS   11  11  26  ; "setPosition"
+0157    TGETS   14   9   7  ; "pos_x"
+0158    TGETS   15   9   8  ; "pos_y"
+0159    CALL    11   1   4
+0160    TGETS   11  10  11  ; "effect"
+0161    MOV     13  11
+0162    TGETS   11  11  27  ; "setAnimation"
+0163    KSHORT  14   0
+0164    GGET    15  21      ; "PlayerAction"
+0165    TGETS   15  15  22  ; "action"
+0166    KPRI    16   2
+0167    CALL    11   1   5
+0168 => TGETS   11  10  11  ; "effect"
+0169    MOV     13  11
+0170    TGETS   11  11  12  ; "setVisible"
+0171    KPRI    14   2
+0172    CALL    11   1   3
+0173    TGETS   11  10  11  ; "effect"
+0174    MOV     13  11
+0175    TGETS   11  11  28  ; "setScale"
+0176    KSHORT  14   1
+0177    CALL    11   1   3
+0178    TGETS   11   9   6  ; "dir"
+0179    ISNEN   11   1      ; 1
+0180    JMP     11 => 0187
+0181    TGETS   11  10  11  ; "effect"
+0182    MOV     13  11
+0183    TGETS   11  11  28  ; "setScale"
+0184    KSHORT  14  -1
+0185    CALL    11   1   3
+0186    JMP     11 => 0213
+0187 => TGETS   11   9   6  ; "dir"
+0188    ISNEN   11   5      ; 2
+0189    JMP     11 => 0196
+0190    TGETS   11  10  11  ; "effect"
+0191    MOV     13  11
+0192    TGETS   11  11  29  ; "setScaleX"
+0193    KSHORT  14  -1
+0194    CALL    11   1   3
+0195    JMP     11 => 0213
+0196 => TGETS   11   9   6  ; "dir"
+0197    ISNEN   11   6      ; 3
+0198    JMP     11 => 0205
+0199    TGETS   11  10  11  ; "effect"
+0200    MOV     13  11
+0201    TGETS   11  11  28  ; "setScale"
+0202    KSHORT  14   1
+0203    CALL    11   1   3
+0204    JMP     11 => 0213
+0205 => TGETS   11   9   6  ; "dir"
+0206    ISNEN   11   2      ; 4
+0207    JMP     11 => 0213
+0208    TGETS   11  10  11  ; "effect"
+0209    MOV     13  11
+0210    TGETS   11  11  30  ; "setScaleY"
+0211    KSHORT  14  -1
+0212    CALL    11   1   3
+0213 => TGETS   11   9   2  ; "grid_index"
+0214    TSETS   11  10   2  ; "grid_index"
+0215 => ITERC    8   3   3
+0216    ITERL    8 => 0110
+0217    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      4 => 0062
+0003    GGET     4   0      ; "tolua"
+0004    TGETS    4   4   1  ; "isnull"
+0005    TGETS    6   0   2  ; "board_slayer"
+0006    CALL     4   2   2
+0007    IST          4
+0008    JMP      4 => 0040
+0009    TGETS    4   0   3  ; "target_effect"
+0010    ISNEP    4   0
+0011    JMP      4 => 0040
+0012    GGET     4   4      ; "createEffectSpine"
+0013    GGET     6   5      ; "Config"
+0014    TGETS    6   6   6  ; "EffectData"
+0015    TGETS    6   6   7  ; "data_effect_info"
+0016    KSHORT   7 1504
+0017    TGETV    6   6   7
+0018    GGET     7   8      ; "cc"
+0019    TGETS    7   7   9  ; "p"
+0020    MOV      9   2
+0021    MOV     10   3
+0022    CALL     7   2   3
+0023    GGET     8   8      ; "cc"
+0024    TGETS    8   8   9  ; "p"
+0025    KNUM    10   0      ; 0.5
+0026    KNUM    11   0      ; 0.5
+0027    CALL     8   2   3
+0028    KPRI     9   2
+0029    GGET    10  10      ; "PlayerAction"
+0030    TGETS   10  10  11  ; "action_2"
+0031    CALL     4   2   6
+0032    TSETS    4   0   3  ; "target_effect"
+0033    TGETS    4   0   2  ; "board_slayer"
+0034    MOV      6   4
+0035    TGETS    4   4  12  ; "addChild"
+0036    TGETS    7   0   3  ; "target_effect"
+0037    KSHORT   8  99
+0038    CALL     4   1   4
+0039    JMP      4 => 0075
+0040 => TGETS    4   0   3  ; "target_effect"
+0041    ISF          4
+0042    JMP      5 => 0075
+0043    TGETS    4   0   3  ; "target_effect"
+0044    MOV      6   4
+0045    TGETS    4   4  13  ; "setToSetupPose"
+0046    CALL     4   1   2
+0047    TGETS    4   0   3  ; "target_effect"
+0048    MOV      6   4
+0049    TGETS    4   4  14  ; "setPosition"
+0050    MOV      7   2
+0051    MOV      8   3
+0052    CALL     4   1   4
+0053    TGETS    4   0   3  ; "target_effect"
+0054    MOV      6   4
+0055    TGETS    4   4  15  ; "setAnimation"
+0056    KSHORT   7   0
+0057    GGET     8  10      ; "PlayerAction"
+0058    TGETS    8   8  11  ; "action_2"
+0059    KPRI     9   2
+0060    CALL     4   1   5
+0061    JMP      4 => 0075
+0062 => TGETS    4   0   3  ; "target_effect"
+0063    ISF          4
+0064    JMP      5 => 0075
+0065    TGETS    4   0   3  ; "target_effect"
+0066    MOV      6   4
+0067    TGETS    4   4  16  ; "clearTracks"
+0068    CALL     4   1   2
+0069    TGETS    4   0   3  ; "target_effect"
+0070    MOV      6   4
+0071    TGETS    4   4  17  ; "removeFromParent"
+0072    CALL     4   1   2
+0073    KPRI     4   0
+0074    TSETS    4   0   3  ; "target_effect"
+0075 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    KPRI     1   1
+0003    TSETS    1   0   0  ; "is_role_moving"
+0004    UGET     0   0      ; 
+0005    TGETS    0   0   1  ; "move_tips_bg"
+0006    MOV      2   0
+0007    TGETS    0   0   2  ; "setVisible"
+0008    KPRI     3   1
+0009    CALL     0   1   3
+0010    KSHORT   0   1
+0011    UGET     1   1      ; 
+0012    KSHORT   2   1
+0013    FORI     0 => 0041
+0014 => UGET     4   0      ; 
+0015    TGETS    4   4   3  ; "role_cur_board_index"
+0016    ADDVV    4   4   3
+0017    UGET     5   0      ; 
+0018    TGETS    5   5   4  ; "board_grid_data"
+0019    LEN      5   5
+0020    ISGT     4   5
+0021    JMP      5 => 0040
+0022    UGET     5   0      ; 
+0023    TGETS    5   5   4  ; "board_grid_data"
+0024    TGETV    5   5   4
+0025    ISF          5
+0026    JMP      6 => 0040
+0027    TGETS    6   5   5  ; "grid_index"
+0028    ISF          6
+0029    JMP      7 => 0040
+0030    GGET     6   6      ; "MonopolyTile"
+0031    TGETS    6   6   7  ; "indexTile"
+0032    TGETS    8   5   5  ; "grid_index"
+0033    CALL     6   3   2
+0034    UGET     8   0      ; 
+0035    MOV     10   8
+0036    TGETS    8   8   8  ; "moveRoleByGrid"
+0037    MOV     11   6
+0038    MOV     12   7
+0039    CALL     8   1   4
+0040 => FORL     0 => 0014
+0041 => UGET     0   0      ; 
+0042    TGETS    0   0   3  ; "role_cur_board_index"
+0043    UGET     1   1      ; 
+0044    ADDVV    0   0   1
+0045    UGET     1   0      ; 
+0046    TGETS    1   1   4  ; "board_grid_data"
+0047    LEN      1   1
+0048    ISGE     1   0
+0049    JMP      0 => 0056
+0050    UGET     0   0      ; 
+0051    UGET     1   0      ; 
+0052    TGETS    1   1   4  ; "board_grid_data"
+0053    LEN      1   1
+0054    TSETS    1   0   3  ; "role_cur_board_index"
+0055    JMP      0 => 0062
+0056 => UGET     0   0      ; 
+0057    UGET     1   0      ; 
+0058    TGETS    1   1   3  ; "role_cur_board_index"
+0059    UGET     2   1      ; 
+0060    ADDVV    1   1   2
+0061    TSETS    1   0   3  ; "role_cur_board_index"
+0062 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    2   0   0  ; "is_role_moving"
+0002    ISF          2
+0003    JMP      3 => 0005
+0004    UCLO     0 => 0129
+0005 => MOV      4   0
+0006    TGETS    2   0   1  ; "showMoveRoute"
+0007    MOV      5   1
+0008    CALL     2   1   3
+0009    FNEW     2   2      ; 2FF1BAB2177CD2AD.luac:0
+0010    TGETS    3   0   3  ; "move_tips_bg"
+0011    IST          3
+0012    JMP      3 => 0050
+0013    TGETS    3   0   4  ; "ui_container"
+0014    MOV      5   3
+0015    TGETS    3   3   5  ; "getContentSize"
+0016    CALL     3   2   2
+0017    GGET     4   6      ; "createImage"
+0018    TGETS    6   0   4  ; "ui_container"
+0019    GGET     7   7      ; "PathTool"
+0020    TGETS    7   7   8  ; "getResFrame"
+0021    KSTR     9   9      ; "monopoly"
+0022    KSTR    10  10      ; "monopolyboard_1017"
+0023    KPRI    11   1
+0024    KSTR    12  11      ; "monopolyboard"
+0025    CALL     7   2   5
+0026    TGETS    8   3  12  ; "width"
+0027    MULVN    8   8   0  ; 0.5
+0028    TGETS    9   3  13  ; "height"
+0029    MULVN    9   9   0  ; 0.5
+0030    ADDVN    9   9   1  ; 100
+0031    GGET    10  14      ; "cc"
+0032    TGETS   10  10  15  ; "p"
+0033    KNUM    12   0      ; 0.5
+0034    KNUM    13   0      ; 0.5
+0035    CALL    10   2   3
+0036    KPRI    11   2
+0037    KSHORT  12  99
+0038    KPRI    13   2
+0039    CALL     4   2   9
+0040    TSETS    4   0   3  ; "move_tips_bg"
+0041    TGETS    4   0   3  ; "move_tips_bg"
+0042    MOV      6   4
+0043    TGETS    4   4  16  ; "setContentSize"
+0044    GGET     7  14      ; "cc"
+0045    TGETS    7   7  17  ; "size"
+0046    KSHORT   9 720
+0047    KSHORT  10 108
+0048    CALL     7   0   3
+0049    CALLM    4   1   1
+0050 => TGETS    3   0  18  ; "move_num"
+0051    IST          3
+0052    JMP      3 => 0066
+0053    GGET     3  19      ; "CommonNum"
+0054    TGETS    3   3  20  ; "new"
+0055    KSHORT   5  32
+0056    TGETS    6   0   3  ; "move_tips_bg"
+0057    KSHORT   7   0
+0058    CALL     3   2   4
+0059    TSETS    3   0  18  ; "move_num"
+0060    TGETS    3   0  18  ; "move_num"
+0061    MOV      5   3
+0062    TGETS    3   3  21  ; "setPosition"
+0063    KSHORT   6 360
+0064    KSHORT   7  82
+0065    CALL     3   1   4
+0066 => KSTR     3  22      ; "g"
+0067    MOV      4   1
+0068    KSTR     5  23      ; "s"
+0069    CAT      3   3   5
+0070    TGETS    4   0  18  ; "move_num"
+0071    MOV      6   4
+0072    TGETS    4   4  24  ; "setNum"
+0073    MOV      7   3
+0074    CALL     4   1   3
+0075    TGETS    4   0   3  ; "move_tips_bg"
+0076    MOV      6   4
+0077    TGETS    4   4  25  ; "setVisible"
+0078    KPRI     7   2
+0079    CALL     4   1   3
+0080    KPRI     4   2
+0081    TSETS    4   0   0  ; "is_role_moving"
+0082    TGETS    4   0  26  ; "move_tips_sound"
+0083    ISEQP    4   0
+0084    JMP      4 => 0093
+0085    GGET     4  27      ; "AudioManager"
+0086    MOV      6   4
+0087    TGETS    4   4  28  ; "getInstance"
+0088    CALL     4   2   2
+0089    MOV      6   4
+0090    TGETS    4   4  29  ; "removeEffectByData"
+0091    TGETS    7   0  26  ; "move_tips_sound"
+0092    CALL     4   1   3
+0093 => GGET     4  27      ; "AudioManager"
+0094    MOV      6   4
+0095    TGETS    4   4  28  ; "getInstance"
+0096    CALL     4   2   2
+0097    MOV      6   4
+0098    TGETS    4   4  30  ; "playEffect"
+0099    GGET     7  27      ; "AudioManager"
+0100    TGETS    7   7  31  ; "AUDIO_TYPE"
+0101    TGETS    7   7  32  ; "COMMON"
+0102    KSTR     8  33      ; "c_arenasettlement"
+0103    KPRI     9   1
+0104    CALL     4   2   5
+0105    TSETS    4   0  26  ; "move_tips_sound"
+0106    TGETS    4   0   3  ; "move_tips_bg"
+0107    MOV      6   4
+0108    TGETS    4   4  34  ; "runAction"
+0109    GGET     7  14      ; "cc"
+0110    TGETS    7   7  35  ; "Sequence"
+0111    MOV      9   7
+0112    TGETS    7   7  36  ; "create"
+0113    GGET    10  14      ; "cc"
+0114    TGETS   10  10  37  ; "DelayTime"
+0115    MOV     12  10
+0116    TGETS   10  10  36  ; "create"
+0117    KSHORT  13   1
+0118    CALL    10   2   3
+0119    GGET    11  14      ; "cc"
+0120    TGETS   11  11  38  ; "CallFunc"
+0121    MOV     13  11
+0122    TGETS   11  11  36  ; "create"
+0123    MOV     14   2
+0124    CALL    11   0   3
+0125    CALLM    7   0   2
+0126    CALLM    4   1   1
+0127    UCLO     0 => 0128
+0128 => RET0     0   1
+0129 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     0   0      ; "next"
+0002    UGET     2   0      ; 
+0003    TGETS    2   2   1  ; "role_move_grid_cache"
+0004    CALL     0   2   2
+0005    ISNEP    0   0
+0006    JMP      0 => 0012
+0007    UGET     0   0      ; 
+0008    MOV      2   0
+0009    TGETS    0   0   2  ; "doRoleStopMove"
+0010    CALL     0   1   2
+0011    JMP      0 => 0044
+0012 => GGET     0   3      ; "MonopolyTile"
+0013    TGETS    0   0   4  ; "tileIndex"
+0014    UGET     2   0      ; 
+0015    TGETS    2   2   5  ; "cur_role_grid_x"
+0016    UGET     3   0      ; 
+0017    TGETS    3   3   6  ; "cur_role_grid_y"
+0018    CALL     0   2   3
+0019    GGET     1   7      ; "pairs"
+0020    UGET     3   0      ; 
+0021    TGETS    3   3   8  ; "route_effect_list"
+0022    CALL     1   4   2
+0023    ISNEXT   4 => 0036
+0024 => TGETS    6   5   9  ; "grid_index"
+0025    ISNEV    6   0
+0026    JMP      6 => 0036
+0027    TGETS    6   5  10  ; "effect"
+0028    ISF          6
+0029    JMP      7 => 0038
+0030    TGETS    6   5  10  ; "effect"
+0031    MOV      8   6
+0032    TGETS    6   6  11  ; "setVisible"
+0033    KPRI     9   1
+0034    CALL     6   1   3
+0035    JMP      1 => 0038
+0036 => ITERN    4   3   3
+0037    ITERL    4 => 0024
+0038 => UGET     1   0      ; 
+0039    MOV      3   1
+0040    TGETS    1   1  12  ; "moveRoleByGrid"
+0041    KNIL     4   5
+0042    KPRI     6   2
+0043    CALL     1   1   5
+0044 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    4   0   0  ; "board_role"
+0002    IST          4
+0003    JMP      4 => 0005
+0004    UCLO     0 => 0229
+0005 => ISF          1
+0006    JMP      4 => 0015
+0007    ISF          2
+0008    JMP      4 => 0015
+0009    UGET     4   0      ; 
+0010    TGETS    6   0   1  ; "role_move_grid_cache"
+0011    TNEW     7   3
+0012    TSETB    1   7   1
+0013    TSETB    2   7   2
+0014    CALL     4   1   3
+0015 => TGETS    4   0   2  ; "is_role_moving"
+0016    ISNEP    4   2
+0017    JMP      4 => 0021
+0018    IST          3
+0019    JMP      4 => 0021
+0020    UCLO     0 => 0230
+0021 => UGET     4   1      ; 
+0022    TGETS    6   0   1  ; "role_move_grid_cache"
+0023    KSHORT   7   1
+0024    CALL     4   2   3
+0025    ISF          4
+0026    JMP      5 => 0032
+0027    GGET     5   3      ; "next"
+0028    MOV      7   4
+0029    CALL     5   2   2
+0030    ISNEP    5   0
+0031    JMP      5 => 0036
+0032 => MOV      7   0
+0033    TGETS    5   0   4  ; "doRoleStopMove"
+0034    CALL     5   1   2
+0035    UCLO     0 => 0231
+0036 => TGETB    5   4   1
+0037    TGETB    6   4   2
+0038    MOV      9   0
+0039    TGETS    7   0   5  ; "openBoardMoveTimer"
+0040    KPRI    10   1
+0041    CALL     7   1   3
+0042    ISF          1
+0043    JMP      7 => 0049
+0044    ISF          2
+0045    JMP      7 => 0049
+0046    MOV      9   0
+0047    TGETS    7   0   6  ; "moveBoardToRoleCenter"
+0048    CALL     7   1   2
+0049 => KPRI     7   2
+0050    TSETS    7   0   2  ; "is_role_moving"
+0051    MOV      7   5
+0052    TSETS    6   0   8  ; "cur_role_grid_y"
+0053    TSETS    7   0   7  ; "cur_role_grid_x"
+0054    TGETS    7   0   0  ; "board_role"
+0055    MOV      9   7
+0056    TGETS    7   7   9  ; "getPosition"
+0057    CALL     7   3   2
+0058    GGET     9  10      ; "MonopolyTile"
+0059    TGETS    9   9  11  ; "toPixel"
+0060    MOV     11   5
+0061    MOV     12   6
+0062    CALL     9   3   3
+0063    TSETS    9   0  12  ; "move_target_pos_x"
+0064    TSETS   10   0  13  ; "move_target_pos_y"
+0065    ISGE     7   9
+0066    JMP     11 => 0073
+0067    TGETS   11   0   0  ; "board_role"
+0068    MOV     13  11
+0069    TGETS   11  11  14  ; "setScaleX"
+0070    KNUM    14   0      ; 0.65
+0071    CALL    11   1   3
+0072    JMP     11 => 0078
+0073 => TGETS   11   0   0  ; "board_role"
+0074    MOV     13  11
+0075    TGETS   11  11  14  ; "setScaleX"
+0076    KNUM    14   1      ; -0.65
+0077    CALL    11   1   3
+0078 => GGET    11  15      ; "math"
+0079    TGETS   11  11  16  ; "sqrt"
+0080    GGET    13  15      ; "math"
+0081    TGETS   13  13  17  ; "pow"
+0082    SUBVV   15   9   7
+0083    KSHORT  16   2
+0084    CALL    13   2   3
+0085    GGET    14  15      ; "math"
+0086    TGETS   14  14  17  ; "pow"
+0087    SUBVV   16  10   8
+0088    KSHORT  17   2
+0089    CALL    14   2   3
+0090    ADDVV   13  13  14
+0091    CALL    11   2   2
+0092    GGET    12  18      ; "MonopolyConst"
+0093    TGETS   12  12  19  ; "Move_Speed"
+0094    DIVVV   12  11  12
+0095    TGETS   13   0  20  ; "cur_role_action"
+0096    ISF         13
+0097    JMP     13 => 0103
+0098    TGETS   13   0  20  ; "cur_role_action"
+0099    GGET    14  21      ; "PlayerAction"
+0100    TGETS   14  14  22  ; "move"
+0101    ISEQV   13  14
+0102    JMP     13 => 0118
+0103 => GGET    13  21      ; "PlayerAction"
+0104    TGETS   13  13  22  ; "move"
+0105    TSETS   13   0  20  ; "cur_role_action"
+0106    TGETS   13   0   0  ; "board_role"
+0107    MOV     15  13
+0108    TGETS   13  13  23  ; "setToSetupPose"
+0109    CALL    13   1   2
+0110    TGETS   13   0   0  ; "board_role"
+0111    MOV     15  13
+0112    TGETS   13  13  24  ; "setAnimation"
+0113    KSHORT  16   0
+0114    GGET    17  21      ; "PlayerAction"
+0115    TGETS   17  17  22  ; "move"
+0116    KPRI    18   2
+0117    CALL    13   1   5
+0118 => TGETS   13   0   0  ; "board_role"
+0119    MOV     15  13
+0120    TGETS   13  13  25  ; "setTimeScale"
+0121    KNUM    16   2      ; 1.4
+0122    CALL    13   1   3
+0123    TGETS   13   0   0  ; "board_role"
+0124    MOV     15  13
+0125    TGETS   13  13  26  ; "runAction"
+0126    GGET    16  27      ; "cc"
+0127    TGETS   16  16  28  ; "Sequence"
+0128    MOV     18  16
+0129    TGETS   16  16  29  ; "create"
+0130    GGET    19  27      ; "cc"
+0131    TGETS   19  19  30  ; "MoveTo"
+0132    MOV     21  19
+0133    TGETS   19  19  29  ; "create"
+0134    MOV     22  12
+0135    GGET    23  27      ; "cc"
+0136    TGETS   23  23  31  ; "p"
+0137    MOV     25   9
+0138    MOV     26  10
+0139    CALL    23   0   3
+0140    CALLM   19   2   2
+0141    GGET    20  27      ; "cc"
+0142    TGETS   20  20  32  ; "CallFunc"
+0143    MOV     22  20
+0144    TGETS   20  20  29  ; "create"
+0145    FNEW    23  33      ; 2FF1BAB2177CD2AD.luac:0
+0146    CALL    20   0   3
+0147    CALLM   16   0   2
+0148    CALLM   13   1   1
+0149    TGETS   13   0  34  ; "board_container"
+0150    MOV     15  13
+0151    TGETS   13  13   9  ; "getPosition"
+0152    CALL    13   3   2
+0153    SUBVV   15   9   7
+0154    SUBVV   15  13  15
+0155    SUBVV   16  10   8
+0156    SUBVV   16  14  16
+0157    MOV     19   0
+0158    TGETS   17   0  36  ; "checkBoardIsCanMove"
+0159    CALL    17   2   2
+0160    TSETS   17   0  35  ; "board_move_state"
+0161    TGETS   17   0  35  ; "board_move_state"
+0162    ISEQN   17   3      ; 0
+0163    JMP     17 => 0220
+0164    MOV     19   0
+0165    TGETS   17   0  37  ; "checkBoardPos"
+0166    MOV     20  15
+0167    MOV     21  16
+0168    CALL    17   3   4
+0169    MOV     16  18
+0170    MOV     15  17
+0171    TGETS   17   0  35  ; "board_move_state"
+0172    ISNEN   17   4      ; 1
+0173    JMP     17 => 0180
+0174    MOV     16  14
+0175    MOV     19   0
+0176    TGETS   17   0   5  ; "openBoardMoveTimer"
+0177    KPRI    20   2
+0178    CALL    17   1   3
+0179    JMP     17 => 0188
+0180 => TGETS   17   0  35  ; "board_move_state"
+0181    ISNEN   17   5      ; 2
+0182    JMP     17 => 0188
+0183    MOV     15  13
+0184    MOV     19   0
+0185    TGETS   17   0   5  ; "openBoardMoveTimer"
+0186    KPRI    20   2
+0187    CALL    17   1   3
+0188 => GGET    17  15      ; "math"
+0189    TGETS   17  17  16  ; "sqrt"
+0190    GGET    19  15      ; "math"
+0191    TGETS   19  19  17  ; "pow"
+0192    SUBVV   21  15  13
+0193    KSHORT  22   2
+0194    CALL    19   2   3
+0195    GGET    20  15      ; "math"
+0196    TGETS   20  20  17  ; "pow"
+0197    SUBVV   22  16  14
+0198    KSHORT  23   2
+0199    CALL    20   2   3
+0200    ADDVV   19  19  20
+0201    CALL    17   2   2
+0202    GGET    18  18      ; "MonopolyConst"
+0203    TGETS   18  18  19  ; "Move_Speed"
+0204    DIVVV   18  17  18
+0205    TGETS   19   0  34  ; "board_container"
+0206    MOV     21  19
+0207    TGETS   19  19  26  ; "runAction"
+0208    GGET    22  27      ; "cc"
+0209    TGETS   22  22  30  ; "MoveTo"
+0210    MOV     24  22
+0211    TGETS   22  22  29  ; "create"
+0212    MOV     25  18
+0213    GGET    26  27      ; "cc"
+0214    TGETS   26  26  31  ; "p"
+0215    MOV     28  15
+0216    MOV     29  16
+0217    CALL    26   0   3
+0218    CALLM   22   0   2
+0219    CALLM   19   1   1
+0220 => TGETS   17   0  35  ; "board_move_state"
+0221    ISEQN   17   6      ; 3
+0222    JMP     17 => 0227
+0223    MOV     19   0
+0224    TGETS   17   0   5  ; "openBoardMoveTimer"
+0225    KPRI    20   2
+0226    CALL    17   1   3
+0227 => UCLO     0 => 0228
+0228 => RET0     0   1
+0229 => RET0     0   1
+0230 => RET0     0   1
+0231 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "handlerTargetEffect"
+0003    KPRI     4   1
+0004    CALL     1   1   3
+0005    GGET     1   1      ; "pairs"
+0006    TGETS    3   0   2  ; "route_effect_list"
+0007    CALL     1   4   2
+0008    ISNEXT   4 => 0017
+0009 => TGETS    6   5   3  ; "effect"
+0010    ISF          6
+0011    JMP      7 => 0017
+0012    TGETS    6   5   3  ; "effect"
+0013    MOV      8   6
+0014    TGETS    6   6   4  ; "setVisible"
+0015    KPRI     9   1
+0016    CALL     6   1   3
+0017 => ITERN    4   3   3
+0018    ITERL    4 => 0009
+0019    TGETS    1   0   5  ; "board_role"
+0020    MOV      3   1
+0021    TGETS    1   1   6  ; "setToSetupPose"
+0022    CALL     1   1   2
+0023    TGETS    1   0   5  ; "board_role"
+0024    MOV      3   1
+0025    TGETS    1   1   7  ; "setAnimation"
+0026    KSHORT   4   0
+0027    GGET     5   8      ; "PlayerAction"
+0028    TGETS    5   5   9  ; "idle"
+0029    KPRI     6   2
+0030    CALL     1   1   5
+0031    GGET     1   8      ; "PlayerAction"
+0032    TGETS    1   1   9  ; "idle"
+0033    TSETS    1   0  10  ; "cur_role_action"
+0034    KPRI     1   0
+0035    TSETS    1   0  11  ; "move_target_pos_x"
+0036    KPRI     1   0
+0037    TSETS    1   0  12  ; "move_target_pos_y"
+0038    TGETS    1   0   5  ; "board_role"
+0039    MOV      3   1
+0040    TGETS    1   1  13  ; "stopAllActions"
+0041    CALL     1   1   2
+0042    TGETS    1   0  14  ; "board_container"
+0043    MOV      3   1
+0044    TGETS    1   1  13  ; "stopAllActions"
+0045    CALL     1   1   2
+0046    MOV      3   0
+0047    TGETS    1   0  15  ; "openBoardMoveTimer"
+0048    KPRI     4   1
+0049    CALL     1   1   3
+0050    KPRI     1   1
+0051    TSETS    1   0  16  ; "is_role_moving"
+0052    MOV      3   0
+0053    TGETS    1   0  17  ; "checkProceedGridEvt"
+0054    CALL     1   1   2
+0055    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    KSHORT   1   0
+0002    TGETS    2   0   0  ; "board_role"
+0003    IST          2
+0004    JMP      2 => 0006
+0005    RET1     1   2
+0006 => TGETS    2   0   0  ; "board_role"
+0007    MOV      4   2
+0008    TGETS    2   2   1  ; "getPosition"
+0009    CALL     2   3   2
+0010    GGET     4   2      ; "SCREEN_WIDTH"
+0011    MULVN    4   4   0  ; 0.5
+0012    ISGT     4   2
+0013    JMP      4 => 0022
+0014    GGET     4   3      ; "MonopolyConst"
+0015    TGETS    4   4   4  ; "Board_Width"
+0016    GGET     5   2      ; "SCREEN_WIDTH"
+0017    MULVN    5   5   0  ; 0.5
+0018    SUBVV    4   4   5
+0019    ISGT     2   4
+0020    JMP      4 => 0022
+0021    KSHORT   1   1
+0022 => GGET     4   5      ; "display"
+0023    TGETS    4   4   6  ; "height"
+0024    MULVN    4   4   0  ; 0.5
+0025    ISGT     4   3
+0026    JMP      4 => 0041
+0027    GGET     4   3      ; "MonopolyConst"
+0028    TGETS    4   4   7  ; "Board_Height"
+0029    GGET     5   5      ; "display"
+0030    TGETS    5   5   6  ; "height"
+0031    MULVN    5   5   0  ; 0.5
+0032    SUBVV    4   4   5
+0033    ISGT     3   4
+0034    JMP      4 => 0041
+0035    KSHORT   4   0
+0036    ISGE     4   1
+0037    JMP      4 => 0040
+0038    KSHORT   1   3
+0039    JMP      4 => 0041
+0040 => KSHORT   1   2
+0041 => RET1     1   2
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "checkBoardIsCanMove"
+0004    CALL     0   2   2
+0005    UGET     1   0      ; 
+0006    TGETS    1   1   1  ; "board_move_state"
+0007    ISEQV    0   1
+0008    JMP      1 => 0085
+0009    UGET     1   0      ; 
+0010    TSETS    0   1   1  ; "board_move_state"
+0011    UGET     1   0      ; 
+0012    TGETS    1   1   2  ; "move_target_pos_x"
+0013    ISF          1
+0014    JMP      2 => 0085
+0015    UGET     1   0      ; 
+0016    TGETS    1   1   3  ; "move_target_pos_y"
+0017    ISF          1
+0018    JMP      2 => 0085
+0019    UGET     1   0      ; 
+0020    TGETS    1   1   4  ; "board_role"
+0021    MOV      3   1
+0022    TGETS    1   1   5  ; "getPosition"
+0023    CALL     1   3   2
+0024    UGET     3   0      ; 
+0025    TGETS    3   3   6  ; "board_container"
+0026    MOV      5   3
+0027    TGETS    3   3   5  ; "getPosition"
+0028    CALL     3   3   2
+0029    UGET     5   0      ; 
+0030    TGETS    5   5   2  ; "move_target_pos_x"
+0031    SUBVV    5   5   1
+0032    SUBVV    5   3   5
+0033    UGET     6   0      ; 
+0034    TGETS    6   6   3  ; "move_target_pos_y"
+0035    SUBVV    6   6   2
+0036    SUBVV    6   4   6
+0037    UGET     7   0      ; 
+0038    MOV      9   7
+0039    TGETS    7   7   7  ; "checkBoardPos"
+0040    MOV     10   5
+0041    MOV     11   6
+0042    CALL     7   3   4
+0043    MOV      6   8
+0044    MOV      5   7
+0045    ISNEN    0   0      ; 1
+0046    JMP      7 => 0049
+0047    MOV      6   4
+0048    JMP      7 => 0052
+0049 => ISNEN    0   1      ; 2
+0050    JMP      7 => 0052
+0051    MOV      5   3
+0052 => GGET     7   8      ; "math"
+0053    TGETS    7   7   9  ; "sqrt"
+0054    GGET     9   8      ; "math"
+0055    TGETS    9   9  10  ; "pow"
+0056    SUBVV   11   5   3
+0057    KSHORT  12   2
+0058    CALL     9   2   3
+0059    GGET    10   8      ; "math"
+0060    TGETS   10  10  10  ; "pow"
+0061    SUBVV   12   6   4
+0062    KSHORT  13   2
+0063    CALL    10   2   3
+0064    ADDVV    9   9  10
+0065    CALL     7   2   2
+0066    GGET     8  11      ; "MonopolyConst"
+0067    TGETS    8   8  12  ; "Move_Speed"
+0068    DIVVV    8   7   8
+0069    UGET     9   0      ; 
+0070    TGETS    9   9   6  ; "board_container"
+0071    MOV     11   9
+0072    TGETS    9   9  13  ; "runAction"
+0073    GGET    12  14      ; "cc"
+0074    TGETS   12  12  15  ; "MoveTo"
+0075    MOV     14  12
+0076    TGETS   12  12  16  ; "create"
+0077    MOV     15   8
+0078    GGET    16  14      ; "cc"
+0079    TGETS   16  16  17  ; "p"
+0080    MOV     18   5
+0081    MOV     19   6
+0082    CALL    16   0   3
+0083    CALLM   12   0   2
+0084    CALLM    9   1   1
+0085 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0017
+0003    TGETS    2   0   0  ; "board_move_timer"
+0004    IST          2
+0005    JMP      2 => 0030
+0006    GGET     2   1      ; "GlobalTimeTicket"
+0007    MOV      4   2
+0008    TGETS    2   2   2  ; "getInstance"
+0009    CALL     2   2   2
+0010    MOV      4   2
+0011    TGETS    2   2   3  ; "add"
+0012    FNEW     5   4      ; 2FF1BAB2177CD2AD.luac:0
+0013    KNUM     6   0      ; 0.1
+0014    CALL     2   2   4
+0015    TSETS    2   0   0  ; "board_move_timer"
+0016    JMP      2 => 0030
+0017 => TGETS    2   0   0  ; "board_move_timer"
+0018    ISEQP    2   0
+0019    JMP      2 => 0030
+0020    GGET     2   1      ; "GlobalTimeTicket"
+0021    MOV      4   2
+0022    TGETS    2   2   2  ; "getInstance"
+0023    CALL     2   2   2
+0024    MOV      4   2
+0025    TGETS    2   2   5  ; "remove"
+0026    TGETS    5   0   0  ; "board_move_timer"
+0027    CALL     2   1   3
+0028    KPRI     2   0
+0029    TSETS    2   0   0  ; "board_move_timer"
+0030 => UCLO     0 => 0031
+0031 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "cur_monopoly_id"
+0002    IST          1
+0003    JMP      1 => 0005
+0004    RET0     0   1
+0005 => UGET     1   0      ; 
+0006    MOV      3   1
+0007    TGETS    1   1   2  ; "getMonopolyMapDataById"
+0008    TGETS    4   0   0  ; "cur_monopoly_id"
+0009    CALL     1   2   3
+0010    TSETS    1   0   1  ; "map_data"
+0011    TGETS    1   0   1  ; "map_data"
+0012    IST          1
+0013    JMP      1 => 0015
+0014    RET0     0   1
+0015 => GGET     1   4      ; "Config"
+0016    TGETS    1   1   5  ; "MonopolyMapsData"
+0017    TGETS    1   1   6  ; "data_map_info"
+0018    TGETS    2   0   1  ; "map_data"
+0019    TGETS    2   2   7  ; "map_id"
+0020    TGETV    1   1   2
+0021    TSETS    1   0   3  ; "map_cfg_data"
+0022    TGETS    1   0   3  ; "map_cfg_data"
+0023    IST          1
+0024    JMP      1 => 0026
+0025    RET0     0   1
+0026 => MOV      3   0
+0027    TGETS    1   0   8  ; "playCloudEffect"
+0028    KPRI     4   2
+0029    CALL     1   1   3
+0030    TNEW     1   0
+0031    TSETS    1   0   9  ; "board_grid_data"
+0032    GGET     1  10      ; "ipairs"
+0033    TGETS    3   0   3  ; "map_cfg_data"
+0034    TGETS    3   3  11  ; "grid_pos_list"
+0035    IST          3
+0036    JMP      4 => 0038
+0037    TNEW     3   0
+0038 => CALL     1   4   2
+0039    JMP      4 => 0065
+0040 => GGET     6  12      ; "MonopolyGridVo"
+0041    TGETS    6   6  13  ; "New"
+0042    CALL     6   2   1
+0043    TNEW     7   0
+0044    TSETS    4   7  14  ; "index"
+0045    TSETS    5   7  15  ; "grid_index"
+0046    TGETS    8   0   1  ; "map_data"
+0047    TGETS    8   8  17  ; "id"
+0048    TSETS    8   7  16  ; "step_id"
+0049    TGETS    8   0   1  ; "map_data"
+0050    TGETS    8   8   7  ; "map_id"
+0051    TSETS    8   7   7  ; "map_id"
+0052    MOV     10   0
+0053    TGETS    8   0  19  ; "getGridEventTypeByIndex"
+0054    MOV     11   4
+0055    CALL     8   2   3
+0056    TSETS    8   7  18  ; "evt_type"
+0057    MOV     10   6
+0058    TGETS    8   6  20  ; "updateData"
+0059    MOV     11   7
+0060    CALL     8   1   3
+0061    UGET     8   1      ; 
+0062    TGETS   10   0   9  ; "board_grid_data"
+0063    MOV     11   6
+0064    CALL     8   1   3
+0065 => ITERC    4   3   3
+0066    ITERL    4 => 0040
+0067    GGET     1   4      ; "Config"
+0068    TGETS    1   1   5  ; "MonopolyMapsData"
+0069    TGETS    1   1  21  ; "data_customs"
+0070    TGETS    2   0   0  ; "cur_monopoly_id"
+0071    TGETV    1   1   2
+0072    ISF          1
+0073    JMP      2 => 0079
+0074    TGETS    2   0  22  ; "map_name_txt"
+0075    MOV      4   2
+0076    TGETS    2   2  23  ; "setString"
+0077    TGETS    5   1  24  ; "name"
+0078    CALL     2   1   3
+0079 => MOV      4   0
+0080    TGETS    2   0  25  ; "updateBoardBgById"
+0081    TGETS    5   0   3  ; "map_cfg_data"
+0082    TGETS    5   5  26  ; "res_id"
+0083    CALL     2   1   3
+0084    MOV      4   0
+0085    TGETS    2   0  27  ; "updateBoardGridList"
+0086    CALL     2   1   2
+0087    MOV      4   0
+0088    TGETS    2   0  28  ; "updateBossProgress"
+0089    CALL     2   1   2
+0090    TGETS    2   0  29  ; "board_role"
+0091    IST          2
+0092    JMP      2 => 0132
+0093    UGET     2   0      ; 
+0094    MOV      4   2
+0095    TGETS    2   2  30  ; "getHomeLookId"
+0096    CALL     2   2   2
+0097    GGET     3   4      ; "Config"
+0098    TGETS    3   3  31  ; "HomeData"
+0099    TGETS    3   3  32  ; "data_figure"
+0100    TGETV    3   3   2
+0101    KSTR     4  33      ; "H60001"
+0102    ISF          3
+0103    JMP      5 => 0105
+0104    TGETS    4   3  34  ; "look_id"
+0105 => GGET     5  35      ; "createEffectSpine"
+0106    MOV      7   4
+0107    GGET     8  36      ; "cc"
+0108    TGETS    8   8  37  ; "p"
+0109    KSHORT  10   0
+0110    KSHORT  11   0
+0111    CALL     8   2   3
+0112    GGET     9  36      ; "cc"
+0113    TGETS    9   9  37  ; "p"
+0114    KNUM    11   0      ; 0.5
+0115    KSHORT  12   0
+0116    CALL     9   2   3
+0117    KPRI    10   2
+0118    GGET    11  38      ; "PlayerAction"
+0119    TGETS   11  11  39  ; "idle"
+0120    CALL     5   2   6
+0121    TSETS    5   0  29  ; "board_role"
+0122    TGETS    5   0  29  ; "board_role"
+0123    MOV      7   5
+0124    TGETS    5   5  40  ; "setScale"
+0125    KSHORT   8   1
+0126    CALL     5   1   3
+0127    TGETS    5   0  41  ; "role_slayer"
+0128    MOV      7   5
+0129    TGETS    5   5  42  ; "addChild"
+0130    TGETS    8   0  29  ; "board_role"
+0131    CALL     5   1   3
+0132 => TGETS    2   0   1  ; "map_data"
+0133    TGETS    2   2  44  ; "pos"
+0134    IST          2
+0135    JMP      3 => 0137
+0136    KSHORT   2   1
+0137 => TSETS    2   0  43  ; "role_cur_board_index"
+0138    TGETS    2   0   9  ; "board_grid_data"
+0139    TGETS    3   0  43  ; "role_cur_board_index"
+0140    TGETV    2   2   3
+0141    ISF          2
+0142    JMP      3 => 0182
+0143    GGET     3  47      ; "MonopolyTile"
+0144    TGETS    3   3  48  ; "indexTile"
+0145    TGETS    5   2  15  ; "grid_index"
+0146    CALL     3   3   2
+0147    TSETS    4   0  46  ; "cur_role_grid_y"
+0148    TSETS    3   0  45  ; "cur_role_grid_x"
+0149    GGET     3  47      ; "MonopolyTile"
+0150    TGETS    3   3  49  ; "indexPixel"
+0151    TGETS    5   2  15  ; "grid_index"
+0152    CALL     3   3   2
+0153    TGETS    5   0  29  ; "board_role"
+0154    MOV      7   5
+0155    TGETS    5   5  50  ; "setPosition"
+0156    MOV      8   3
+0157    MOV      9   4
+0158    CALL     5   1   4
+0159    TGETS    5   0   9  ; "board_grid_data"
+0160    TGETS    6   0  43  ; "role_cur_board_index"
+0161    ADDVN    6   6   1  ; 1
+0162    TGETV    5   5   6
+0163    ISF          5
+0164    JMP      6 => 0182
+0165    GGET     6  47      ; "MonopolyTile"
+0166    TGETS    6   6  49  ; "indexPixel"
+0167    TGETS    8   5  15  ; "grid_index"
+0168    CALL     6   3   2
+0169    ISGE     6   3
+0170    JMP      8 => 0177
+0171    TGETS    8   0  29  ; "board_role"
+0172    MOV     10   8
+0173    TGETS    8   8  51  ; "setScaleX"
+0174    KNUM    11   2      ; -0.65
+0175    CALL     8   1   3
+0176    JMP      8 => 0182
+0177 => TGETS    8   0  29  ; "board_role"
+0178    MOV     10   8
+0179    TGETS    8   8  51  ; "setScaleX"
+0180    KNUM    11   3      ; 0.65
+0181    CALL     8   1   3
+0182 => MOV      5   0
+0183    TGETS    3   0  52  ; "moveBoardToRoleCenter"
+0184    KNUM     6   4      ; 0.01
+0185    CALL     3   1   3
+0186    MOV      5   0
+0187    TGETS    3   0  53  ; "checkProceedGridEvt"
+0188    CALL     3   1   2
+0189    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "map_data"
+0002    TGETS    1   1   1  ; "now_type"
+0003    ISF          1
+0004    JMP      2 => 0018
+0005    TGETS    1   0   0  ; "map_data"
+0006    TGETS    1   1   1  ; "now_type"
+0007    ISEQN    1   0      ; 0
+0008    JMP      1 => 0018
+0009    KPRI     1   2
+0010    TSETS    1   0   2  ; "is_proceed_evt"
+0011    UGET     1   0      ; 
+0012    MOV      3   1
+0013    TGETS    1   1   3  ; "triggerGridEvtByType"
+0014    TGETS    4   0   0  ; "map_data"
+0015    TGETS    4   4   1  ; "now_type"
+0016    TGETS    5   0   4  ; "cur_monopoly_id"
+0017    CALL     1   1   4
+0018 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     2   0      ; "MonopolyConst"
+0002    TGETS    2   2   1  ; "Event_Type"
+0003    TGETS    2   2   2  ; "Normal"
+0004    TGETS    3   0   3  ; "map_data"
+0005    IST          3
+0006    JMP      3 => 0008
+0007    RET1     2   2
+0008 => GGET     3   4      ; "pairs"
+0009    TGETS    5   0   3  ; "map_data"
+0010    TGETS    5   5   5  ; "events"
+0011    IST          5
+0012    JMP      6 => 0014
+0013    TNEW     5   0
+0014 => CALL     3   4   2
+0015    ISNEXT   6 => 0021
+0016 => TGETS    8   7   6  ; "pos"
+0017    ISNEV    8   1
+0018    JMP      8 => 0021
+0019    TGETS    2   7   7  ; "type"
+0020    JMP      3 => 0023
+0021 => ITERN    6   3   3
+0022    ITERL    6 => 0016
+0023 => RET1     2   2
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    KNUM     1   0      ; 0.3
+0004 => MOV      4   0
+0005    TGETS    2   0   0  ; "getBoardPosOfRoleCenter"
+0006    CALL     2   3   2
+0007    TGETS    4   0   1  ; "board_container"
+0008    MOV      6   4
+0009    TGETS    4   4   2  ; "runAction"
+0010    GGET     7   3      ; "cc"
+0011    TGETS    7   7   4  ; "MoveTo"
+0012    MOV      9   7
+0013    TGETS    7   7   5  ; "create"
+0014    MOV     10   1
+0015    GGET    11   3      ; "cc"
+0016    TGETS   11  11   6  ; "p"
+0017    MOV     13   2
+0018    MOV     14   3
+0019    CALL    11   0   3
+0020    CALLM    7   0   2
+0021    CALLM    4   1   1
+0022    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    KSHORT   1   0
+0002    KSHORT   2   0
+0003    TGETS    3   0   0  ; "board_role"
+0004    ISF          3
+0005    JMP      4 => 0030
+0006    TGETS    3   0   0  ; "board_role"
+0007    MOV      5   3
+0008    TGETS    3   3   1  ; "getPosition"
+0009    CALL     3   3   2
+0010    GGET     5   2      ; "SCREEN_WIDTH"
+0011    MULVN    5   5   0  ; 0.5
+0012    ISGT     3   5
+0013    JMP      5 => 0016
+0014    KSHORT   1   0
+0015    JMP      5 => 0019
+0016 => GGET     5   2      ; "SCREEN_WIDTH"
+0017    MULVN    5   5   0  ; 0.5
+0018    SUBVV    1   5   3
+0019 => GGET     5   3      ; "display"
+0020    TGETS    5   5   4  ; "height"
+0021    MULVN    5   5   0  ; 0.5
+0022    ISGT     4   5
+0023    JMP      5 => 0026
+0024    KSHORT   2   0
+0025    JMP      5 => 0030
+0026 => GGET     5   3      ; "display"
+0027    TGETS    5   5   4  ; "height"
+0028    MULVN    5   5   0  ; 0.5
+0029    SUBVV    2   5   4
+0030 => MOV      5   0
+0031    TGETS    3   0   5  ; "checkBoardPos"
+0032    MOV      6   1
+0033    MOV      7   2
+0034    CALLT    3   4
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    MOV      4   0
+0002    TGETS    2   0   0  ; "getCurGridPos"
+0003    CALL     2   3   2
+0004    MOV      6   1
+0005    TGETS    4   1   0  ; "getCurGridPos"
+0006    CALL     4   3   2
+0007    ISNEV    3   5
+0008    JMP      6 => 0016
+0009    ISLT     2   4
+0010    JMP      6 => 0013
+0011    KPRI     6   1
+0012    JMP      7 => 0014
+0013 => KPRI     6   2
+0014 => RET1     6   2
+0015    JMP      6 => 0022
+0016 => ISLT     5   3
+0017    JMP      6 => 0020
+0018    KPRI     6   1
+0019    JMP      7 => 0021
+0020 => KPRI     6   2
+0021 => RET1     6   2
+0022 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    FNEW     1   0      ; 2FF1BAB2177CD2AD.luac:0
+0002    UGET     2   0      ; 
+0003    TGETS    4   0   1  ; "all_grid_item_list"
+0004    MOV      5   1
+0005    CALL     2   1   3
+0006    KSHORT   2   1
+0007    GGET     3   2      ; "ipairs"
+0008    TGETS    5   0   1  ; "all_grid_item_list"
+0009    CALL     3   4   2
+0010    JMP      6 => 0016
+0011 => ADDVN    2   2   0  ; 1
+0012    MOV     10   7
+0013    TGETS    8   7   3  ; "setItemLocalZOrder"
+0014    MOV     11   2
+0015    CALL     8   1   3
+0016 => ITERC    6   3   3
+0017    ITERL    6 => 0011
+0018    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    1   0   0  ; "cur_monopoly_id"
+0002    IST          1
+0003    JMP      1 => 0005
+0004    RET0     0   1
+0005 => UGET     1   0      ; 
+0006    MOV      3   1
+0007    TGETS    1   1   1  ; "getGuildDevelopValById"
+0008    TGETS    4   0   0  ; "cur_monopoly_id"
+0009    CALL     1   2   3
+0010    IST          1
+0011    JMP      2 => 0013
+0012    KSHORT   1   0
+0013 => GGET     2   2      ; "Config"
+0014    TGETS    2   2   3  ; "MonopolyMapsData"
+0015    TGETS    2   2   4  ; "data_customs"
+0016    TGETS    3   0   0  ; "cur_monopoly_id"
+0017    TGETV    2   2   3
+0018    ISF          2
+0019    JMP      3 => 0039
+0020    TGETS    3   2   5  ; "max_develop"
+0021    IST          3
+0022    JMP      4 => 0024
+0023    KSHORT   3   1
+0024 => DIVVV    4   1   3
+0025    MULVN    4   4   0  ; 100
+0026    TGETS    5   0   6  ; "probe_txt"
+0027    MOV      7   5
+0028    TGETS    5   5   7  ; "setString"
+0029    MOV      8   1
+0030    KSTR     9   8      ; "/"
+0031    MOV     10   3
+0032    CAT      8   8  10
+0033    CALL     5   1   3
+0034    TGETS    5   0   9  ; "probe_progress"
+0035    MOV      7   5
+0036    TGETS    5   5  10  ; "setPercent"
+0037    MOV      8   4
+0038    CALL     5   1   3
+0039 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     1   0      ; "pairs"
+0002    UGET     3   0      ; 
+0003    CALL     1   4   2
+0004    ISNEXT   4 => 0009
+0005 => TGETS    6   5   1  ; "boss_id"
+0006    ISNEV    6   0
+0007    JMP      6 => 0009
+0008    RET1     5   2
+0009 => ITERN    4   3   3
+0010    ITERL    4 => 0005
+0011    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     0   0      ; "MainuiController"
+0002    MOV      2   0
+0003    TGETS    0   0   1  ; "getInstance"
+0004    CALL     0   2   2
+0005    MOV      2   0
+0006    TGETS    0   0   2  ; "requestOpenBattleRelevanceWindow"
+0007    GGET     3   3      ; "BattleConst"
+0008    TGETS    3   3   4  ; "Fight_Type"
+0009    TGETS    3   3   5  ; "MonopolyBoss"
+0010    UGET     4   0      ; 
+0011    TGETS    4   4   6  ; "cur_monopoly_id"
+0012    CALL     0   1   4
+0013    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    TNEW     1   0
+0004 => FNEW     2   0      ; 2FF1BAB2177CD2AD.luac:0
+0005    GGET     3   1      ; "Config"
+0006    TGETS    3   3   2  ; "MonopolyDungeonsData"
+0007    TGETS    3   3   3  ; "data_boss_info"
+0008    TGETS    4   0   4  ; "cur_monopoly_id"
+0009    TGETV    3   3   4
+0010    ISF          3
+0011    JMP      4 => 0166
+0012    KSHORT   4 390
+0013    GGET     5   5      ; "ipairs"
+0014    MOV      7   3
+0015    CALL     5   4   2
+0016    JMP      8 => 0164
+0017 => TGETS   10   0   6  ; "progress_boss_list"
+0018    TGETV   10  10   8
+0019    IST         10
+0020    JMP     11 => 0082
+0021    GGET    11   7      ; "PlayerHead"
+0022    TGETS   11  11   8  ; "new"
+0023    GGET    13   7      ; "PlayerHead"
+0024    TGETS   13  13   9  ; "type"
+0025    TGETS   13  13  10  ; "circle"
+0026    CALL    11   2   2
+0027    MOV     10  11
+0028    MOV     13  10
+0029    TGETS   11  10  11  ; "addCallBack"
+0030    FNEW    14  12      ; 2FF1BAB2177CD2AD.luac:0
+0031    CALL    11   1   3
+0032    MOV     13  10
+0033    TGETS   11  10  13  ; "setScale"
+0034    KNUM    14   0      ; 0.6
+0035    CALL    11   1   3
+0036    TGETS   11   0  14  ; "top_panel"
+0037    MOV     13  11
+0038    TGETS   11  11  15  ; "addChild"
+0039    MOV     14  10
+0040    CALL    11   1   3
+0041    GGET    11  17      ; "createLabel"
+0042    KSHORT  13  20
+0043    GGET    14  18      ; "cc"
+0044    TGETS   14  14  19  ; "c4b"
+0045    KSHORT  16 255
+0046    KSHORT  17 248
+0047    KSHORT  18 191
+0048    CALL    14   2   4
+0049    KSHORT  15   2
+0050    KSHORT  16  50
+0051    KSHORT  17   5
+0052    TGETS   18   9  20  ; "develop"
+0053    MOV     19  10
+0054    KSHORT  20   2
+0055    GGET    21  18      ; "cc"
+0056    TGETS   21  21  21  ; "p"
+0057    KNUM    23   1      ; 0.5
+0058    KSHORT  24   1
+0059    CALL    21   0   3
+0060    CALLM   11   2   8
+0061    TSETS   11  10  16  ; "num_txt"
+0062    TGETS   11  10  16  ; "num_txt"
+0063    MOV     13  11
+0064    TGETS   11  11  13  ; "setScale"
+0065    KNUM    14   2      ; 1.67
+0066    CALL    11   1   3
+0067    MOV     13  10
+0068    TGETS   11  10  22  ; "setHeadRes"
+0069    TGETS   14   9  23  ; "head_id"
+0070    CALL    11   1   3
+0071    MOV     13  10
+0072    TGETS   11  10  24  ; "setPosition"
+0073    SUBVN   14   8   3  ; 1
+0074    MULVN   14  14   4  ; 97
+0075    ADDVV   14   4  14
+0076    KSHORT  15  22
+0077    CALL    11   1   4
+0078    KSHORT  11   0
+0079    TSETS   11  10  25  ; "status"
+0080    TGETS   11   0   6  ; "progress_boss_list"
+0081    TSETV   10  11   8
+0082 => MOV     11   2
+0083    TGETS   13   9  26  ; "boss_id"
+0084    CALL    11   2   2
+0085    TGETS   12  10  27  ; "pass_sp"
+0086    IST         12
+0087    JMP     12 => 0109
+0088    GGET    12  28      ; "createSprite"
+0089    GGET    14  29      ; "PathTool"
+0090    TGETS   14  14  30  ; "getResFrame"
+0091    KSTR    16  31      ; "common"
+0092    KSTR    17  32      ; "common_1000"
+0093    CALL    14   2   3
+0094    KSHORT  15  54
+0095    KSHORT  16  54
+0096    MOV     17  10
+0097    GGET    18  18      ; "cc"
+0098    TGETS   18  18  21  ; "p"
+0099    KNUM    20   1      ; 0.5
+0100    KNUM    21   1      ; 0.5
+0101    CALL    18   0   3
+0102    CALLM   12   2   4
+0103    TSETS   12  10  27  ; "pass_sp"
+0104    TGETS   12  10  27  ; "pass_sp"
+0105    MOV     14  12
+0106    TGETS   12  12  33  ; "setVisible"
+0107    KPRI    15   1
+0108    CALL    12   1   3
+0109 => ISF         11
+0110    JMP     12 => 0153
+0111    TGETS   12  10  25  ; "status"
+0112    TGETS   13  11  25  ; "status"
+0113    ISEQV   12  13
+0114    JMP     12 => 0153
+0115    TGETS   12  11  25  ; "status"
+0116    TSETS   12  10  25  ; "status"
+0117    TGETS   12  11  25  ; "status"
+0118    ISNEN   12   3      ; 1
+0119    JMP     12 => 0130
+0120    TGETS   12  10  27  ; "pass_sp"
+0121    MOV     14  12
+0122    TGETS   12  12  33  ; "setVisible"
+0123    KPRI    15   1
+0124    CALL    12   1   3
+0125    GGET    12  34      ; "setChildUnEnabled"
+0126    KPRI    14   2
+0127    MOV     15  10
+0128    CALL    12   1   3
+0129    JMP     12 => 0164
+0130 => TGETS   12  11  25  ; "status"
+0131    ISNEN   12   5      ; 2
+0132    JMP     12 => 0143
+0133    TGETS   12  10  27  ; "pass_sp"
+0134    MOV     14  12
+0135    TGETS   12  12  33  ; "setVisible"
+0136    KPRI    15   1
+0137    CALL    12   1   3
+0138    GGET    12  34      ; "setChildUnEnabled"
+0139    KPRI    14   1
+0140    MOV     15  10
+0141    CALL    12   1   3
+0142    JMP     12 => 0164
+0143 => TGETS   12  10  27  ; "pass_sp"
+0144    MOV     14  12
+0145    TGETS   12  12  33  ; "setVisible"
+0146    KPRI    15   2
+0147    CALL    12   1   3
+0148    GGET    12  34      ; "setChildUnEnabled"
+0149    KPRI    14   2
+0150    MOV     15  10
+0151    CALL    12   1   3
+0152    JMP     12 => 0164
+0153 => IST         11
+0154    JMP     12 => 0164
+0155    TGETS   12  10  27  ; "pass_sp"
+0156    MOV     14  12
+0157    TGETS   12  12  33  ; "setVisible"
+0158    KPRI    15   1
+0159    CALL    12   1   3
+0160    GGET    12  34      ; "setChildUnEnabled"
+0161    KPRI    14   2
+0162    MOV     15  10
+0163    CALL    12   1   3
+0164 => ITERC    8   3   3
+0165    ITERL    8 => 0017
+0166 => UCLO     0 => 0167
+0167 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "onClickBuffIcon"
+0004    UGET     3   1      ; 
+0005    CALL     0   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    ISTC     2   1
+0002    JMP      2 => 0004
+0003    TNEW     2   0
+0004 => TSETS    2   0   0  ; "monopoly_buff_data"
+0005    GGET     2   1      ; "pairs"
+0006    TGETS    4   0   2  ; "buff_icon_list"
+0007    CALL     2   4   2
+0008    ISNEXT   5 => 0013
+0009 => MOV      9   6
+0010    TGETS    7   6   3  ; "setVisible"
+0011    KPRI    10   1
+0012    CALL     7   1   3
+0013 => ITERN    5   3   3
+0014    ITERL    5 => 0009
+0015    GGET     2   4      ; "table"
+0016    TGETS    2   2   5  ; "sort"
+0017    TGETS    4   0   0  ; "monopoly_buff_data"
+0018    GGET     5   6      ; "SortTools"
+0019    TGETS    5   5   7  ; "KeyLowerSorter"
+0020    KSTR     7   8      ; "type"
+0021    CALL     5   0   2
+0022    CALLM    2   1   1
+0023    GGET     2   9      ; "ipairs"
+0024    TGETS    4   0   0  ; "monopoly_buff_data"
+0025    CALL     2   4   2
+0026    JMP      5 => 0081
+0027 => TGETS    7   0   2  ; "buff_icon_list"
+0028    TGETV    7   7   5
+0029    IST          7
+0030    JMP      8 => 0042
+0031    MOV     10   0
+0032    TGETS    8   0  10  ; "createBuffIcon"
+0033    CALL     8   2   2
+0034    MOV      7   8
+0035    GGET     8  11      ; "registerButtonEventListener"
+0036    MOV     10   7
+0037    FNEW    11  12      ; 2FF1BAB2177CD2AD.luac:0
+0038    KPRI    12   2
+0039    CALL     8   1   4
+0040    TGETS    8   0   2  ; "buff_icon_list"
+0041    TSETV    7   8   5
+0042 => GGET     8  13      ; "MonopolyConst"
+0043    TGETS    8   8  14  ; "Buff_Info"
+0044    TGETS    9   6   8  ; "type"
+0045    TGETV    8   8   9
+0046    ISF          8
+0047    JMP      9 => 0070
+0048    MOV     11   7
+0049    TGETS    9   7  15  ; "loadTexture"
+0050    GGET    12  16      ; "PathTool"
+0051    TGETS   12  12  17  ; "getResFrame"
+0052    KSTR    14  18      ; "monopoly"
+0053    TGETB   15   8   1
+0054    KPRI    16   1
+0055    KSTR    17  19      ; "monopolyboard"
+0056    CALL    12   2   5
+0057    GGET    13  20      ; "LOADTEXT_TYPE_PLIST"
+0058    CALL     9   1   4
+0059    TGETS    9   6  21  ; "num"
+0060    IST          9
+0061    JMP     10 => 0063
+0062    KSHORT   9   0
+0063 => TGETS   10   7  22  ; "num_txt"
+0064    MOV     12  10
+0065    TGETS   10  10  23  ; "setString"
+0066    KSTR    13  24      ; "X"
+0067    MOV     14   9
+0068    CAT     13  13  14
+0069    CALL    10   1   3
+0070 => MOV     11   7
+0071    TGETS    9   7   3  ; "setVisible"
+0072    KPRI    12   2
+0073    CALL     9   1   3
+0074    MOV     11   7
+0075    TGETS    9   7  25  ; "setPositionY"
+0076    SUBVN   12   5   0  ; 1
+0077    MULVN   12  12   1  ; 94
+0078    SUBNV   12  12   2  ; 183
+0079    CALL     9   1   3
+0080    UCLO     5 => 0081
+0081 => ITERC    5   3   3
+0082    ITERL    5 => 0027
+0083    UCLO     0 => 0084
+0084 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     2   0      ; "ccui"
+0002    TGETS    2   2   1  ; "TouchEventType"
+0003    TGETS    2   2   2  ; "ended"
+0004    ISNEV    1   2
+0005    JMP      2 => 0018
+0006    UGET     2   0      ; 
+0007    TGETS    2   2   3  ; "buff_desc_bg"
+0008    MOV      4   2
+0009    TGETS    2   2   4  ; "setVisible"
+0010    KPRI     5   1
+0011    CALL     2   1   3
+0012    UGET     2   0      ; 
+0013    TGETS    2   2   5  ; "buff_mask"
+0014    MOV      4   2
+0015    TGETS    2   2   4  ; "setVisible"
+0016    KPRI     5   1
+0017    CALL     2   1   3
+0018 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    TGETS    2   0   0  ; "monopoly_buff_data"
+0002    IST          2
+0003    JMP      2 => 0005
+0004    UCLO     0 => 0186
+0005 => TGETS    2   0   0  ; "monopoly_buff_data"
+0006    TGETV    2   2   1
+0007    IST          2
+0008    JMP      3 => 0010
+0009    UCLO     0 => 0187
+0010 => GGET     3   1      ; "MonopolyConst"
+0011    TGETS    3   3   2  ; "Buff_Info"
+0012    TGETS    4   2   3  ; "type"
+0013    TGETV    3   3   4
+0014    IST          3
+0015    JMP      4 => 0017
+0016    UCLO     0 => 0188
+0017 => TGETS    4   0   4  ; "buff_desc_bg"
+0018    IST          4
+0019    JMP      4 => 0080
+0020    GGET     4   5      ; "createImage"
+0021    TGETS    6   0   6  ; "buff_panel"
+0022    GGET     7   7      ; "PathTool"
+0023    TGETS    7   7   8  ; "getResFrame"
+0024    KSTR     9   9      ; "monopoly"
+0025    KSTR    10  10      ; "monopolyboard_1019"
+0026    KPRI    11   1
+0027    KSTR    12  11      ; "monopolyboard"
+0028    CALL     7   2   5
+0029    KSHORT   8 105
+0030    KSHORT   9   0
+0031    GGET    10  12      ; "cc"
+0032    TGETS   10  10  13  ; "p"
+0033    KSHORT  12   0
+0034    KNUM    13   0      ; 0.5
+0035    CALL    10   2   3
+0036    KPRI    11   2
+0037    KPRI    12   0
+0038    KPRI    13   2
+0039    CALL     4   2   9
+0040    TSETS    4   0   4  ; "buff_desc_bg"
+0041    TGETS    4   0   4  ; "buff_desc_bg"
+0042    MOV      6   4
+0043    TGETS    4   4  14  ; "setCapInsets"
+0044    GGET     7  12      ; "cc"
+0045    TGETS    7   7  15  ; "rect"
+0046    KSHORT   9  28
+0047    KSHORT  10  30
+0048    KSHORT  11   1
+0049    KSHORT  12   1
+0050    CALL     7   0   5
+0051    CALLM    4   1   1
+0052    GGET     4  17      ; "createRichLabel"
+0053    KSHORT   6  20
+0054    GGET     7  12      ; "cc"
+0055    TGETS    7   7  18  ; "c4b"
+0056    KSHORT   9 142
+0057    KSHORT  10 129
+0058    KSHORT  11 119
+0059    KSHORT  12 255
+0060    CALL     7   2   5
+0061    GGET     8  12      ; "cc"
+0062    TGETS    8   8  13  ; "p"
+0063    KNUM    10   0      ; 0.5
+0064    KNUM    11   0      ; 0.5
+0065    CALL     8   2   3
+0066    GGET     9  12      ; "cc"
+0067    TGETS    9   9  13  ; "p"
+0068    KSHORT  11   0
+0069    KSHORT  12   0
+0070    CALL     9   2   3
+0071    KNIL    10  11
+0072    KSHORT  12 500
+0073    CALL     4   2   8
+0074    TSETS    4   0  16  ; "buff_desc_txt"
+0075    TGETS    4   0   4  ; "buff_desc_bg"
+0076    MOV      6   4
+0077    TGETS    4   4  19  ; "addChild"
+0078    TGETS    7   0  16  ; "buff_desc_txt"
+0079    CALL     4   1   3
+0080 => GGET     4  20      ; "Config"
+0081    TGETS    4   4  21  ; "MonopolyMapsData"
+0082    TGETS    4   4  22  ; "data_item_show"
+0083    TGETB    5   3   2
+0084    TGETV    4   4   5
+0085    ISF          4
+0086    JMP      5 => 0184
+0087    TGETS    5   0  16  ; "buff_desc_txt"
+0088    MOV      7   5
+0089    TGETS    5   5  23  ; "setString"
+0090    TGETS    8   4  24  ; "desc"
+0091    CALL     5   1   3
+0092    TGETS    5   0  16  ; "buff_desc_txt"
+0093    MOV      7   5
+0094    TGETS    5   5  25  ; "getContentSize"
+0095    CALL     5   2   2
+0096    TGETS    6   0   4  ; "buff_desc_bg"
+0097    MOV      8   6
+0098    TGETS    6   6  26  ; "setContentSize"
+0099    GGET     9  12      ; "cc"
+0100    TGETS    9   9  27  ; "size"
+0101    TGETS   11   5  28  ; "width"
+0102    ADDVN   11  11   1  ; 45
+0103    TGETS   12   5  29  ; "height"
+0104    ADDVN   12  12   2  ; 20
+0105    CALL     9   0   3
+0106    CALLM    6   1   1
+0107    TGETS    6   0  16  ; "buff_desc_txt"
+0108    MOV      8   6
+0109    TGETS    6   6  30  ; "setPosition"
+0110    TGETS    9   5  28  ; "width"
+0111    ADDVN    9   9   3  ; 50
+0112    MULVN    9   9   0  ; 0.5
+0113    ADDVN    9   9   4  ; 15
+0114    TGETS   10   5  29  ; "height"
+0115    ADDVN   10  10   2  ; 20
+0116    MULVN   10  10   0  ; 0.5
+0117    CALL     6   1   4
+0118    TGETS    6   0   4  ; "buff_desc_bg"
+0119    MOV      8   6
+0120    TGETS    6   6  31  ; "setVisible"
+0121    KPRI     9   2
+0122    CALL     6   1   3
+0123    TGETS    6   0  32  ; "buff_icon_list"
+0124    TGETV    6   6   1
+0125    ISF          6
+0126    JMP      7 => 0134
+0127    TGETS    7   0   4  ; "buff_desc_bg"
+0128    MOV      9   7
+0129    TGETS    7   7  33  ; "setPositionY"
+0130    MOV     12   6
+0131    TGETS   10   6  34  ; "getPositionY"
+0132    CALL    10   0   2
+0133    CALLM    7   1   1
+0134 => TGETS    7   0  35  ; "buff_mask"
+0135    IST          7
+0136    JMP      7 => 0179
+0137    GGET     7  36      ; "ccui"
+0138    TGETS    7   7  37  ; "Layout"
+0139    MOV      9   7
+0140    TGETS    7   7  38  ; "create"
+0141    CALL     7   2   2
+0142    TSETS    7   0  35  ; "buff_mask"
+0143    TGETS    7   0  35  ; "buff_mask"
+0144    MOV      9   7
+0145    TGETS    7   7  26  ; "setContentSize"
+0146    GGET    10  39      ; "SCREEN_WIDTH"
+0147    GGET    11  40      ; "display"
+0148    TGETS   11  11  29  ; "height"
+0149    CALL     7   1   4
+0150    TGETS    7   0  35  ; "buff_mask"
+0151    MOV      9   7
+0152    TGETS    7   7  33  ; "setPositionY"
+0153    GGET    10  40      ; "display"
+0154    TGETS   10  10  41  ; "getBottom"
+0155    TGETS   12   0  42  ; "ui_container"
+0156    CALL    10   0   2
+0157    CALLM    7   1   1
+0158    TGETS    7   0  35  ; "buff_mask"
+0159    MOV      9   7
+0160    TGETS    7   7  43  ; "setTouchEnabled"
+0161    KPRI    10   2
+0162    CALL     7   1   3
+0163    TGETS    7   0  42  ; "ui_container"
+0164    MOV      9   7
+0165    TGETS    7   7  19  ; "addChild"
+0166    TGETS   10   0  35  ; "buff_mask"
+0167    CALL     7   1   3
+0168    TGETS    7   0  35  ; "buff_mask"
+0169    MOV      9   7
+0170    TGETS    7   7  44  ; "setSwallowTouches"
+0171    KPRI    10   1
+0172    CALL     7   1   3
+0173    TGETS    7   0  35  ; "buff_mask"
+0174    MOV      9   7
+0175    TGETS    7   7  45  ; "addTouchEventListener"
+0176    FNEW    10  46      ; 2FF1BAB2177CD2AD.luac:0
+0177    CALL     7   1   3
+0178    JMP      7 => 0184
+0179 => TGETS    7   0  35  ; "buff_mask"
+0180    MOV      9   7
+0181    TGETS    7   7  31  ; "setVisible"
+0182    KPRI    10   2
+0183    CALL     7   1   3
+0184 => UCLO     0 => 0185
+0185 => RET0     0   1
+0186 => RET0     0   1
+0187 => RET0     0   1
+0188 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     1   0      ; "createImage"
+0002    TGETS    3   0   1  ; "buff_panel"
+0003    KPRI     4   0
+0004    KSHORT   5  60
+0005    KSHORT   6   0
+0006    GGET     7   2      ; "cc"
+0007    TGETS    7   7   3  ; "p"
+0008    KNUM     9   0      ; 0.5
+0009    KNUM    10   0      ; 0.5
+0010    CALL     7   2   3
+0011    KPRI     8   2
+0012    CALL     1   2   7
+0013    MOV      4   1
+0014    TGETS    2   1   4  ; "setTouchEnabled"
+0015    KPRI     5   2
+0016    CALL     2   1   3
+0017    GGET     2   5      ; "createSprite"
+0018    GGET     4   6      ; "PathTool"
+0019    TGETS    4   4   7  ; "getResFrame"
+0020    KSTR     6   8      ; "monopoly"
+0021    KSTR     7   9      ; "monopolyboard_1018"
+0022    KPRI     8   1
+0023    KSTR     9  10      ; "monopolyboard"
+0024    CALL     4   2   5
+0025    KSHORT   5  37
+0026    KSHORT   6   0
+0027    MOV      7   1
+0028    GGET     8   2      ; "cc"
+0029    TGETS    8   8   3  ; "p"
+0030    KNUM    10   0      ; 0.5
+0031    KNUM    11   0      ; 0.5
+0032    CALL     8   0   3
+0033    CALLM    2   2   4
+0034    GGET     3  12      ; "createLabel"
+0035    KSHORT   5  20
+0036    GGET     6   2      ; "cc"
+0037    TGETS    6   6  13  ; "c4b"
+0038    KSHORT   8 255
+0039    KSHORT   9 248
+0040    KSHORT  10 191
+0041    KSHORT  11 255
+0042    CALL     6   2   5
+0043    GGET     7   2      ; "cc"
+0044    TGETS    7   7  13  ; "c4b"
+0045    KSHORT   9  22
+0046    KSHORT  10   5
+0047    KSHORT  11   0
+0048    KSHORT  12 255
+0049    CALL     7   2   5
+0050    KSHORT   8  37
+0051    KSHORT   9   0
+0052    KSTR    10  14      ; ""
+0053    MOV     11   1
+0054    KSHORT  12   2
+0055    GGET    13   2      ; "cc"
+0056    TGETS   13  13   3  ; "p"
+0057    KNUM    15   0      ; 0.5
+0058    KNUM    16   0      ; 0.5
+0059    CALL    13   0   3
+0060    CALLM    3   2   8
+0061    TSETS    3   1  11  ; "num_txt"
+0062    RET1     1   2
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0064
+0003    GGET     2   0      ; "tolua"
+0004    TGETS    2   2   1  ; "isnull"
+0005    TGETS    4   0   2  ; "root_wnd"
+0006    CALL     2   2   2
+0007    IST          2
+0008    JMP      2 => 0048
+0009    TGETS    2   0   3  ; "cloud_effect"
+0010    ISNEP    2   0
+0011    JMP      2 => 0048
+0012    GGET     2   4      ; "createEffectSpine"
+0013    GGET     4   5      ; "Config"
+0014    TGETS    4   4   6  ; "EffectData"
+0015    TGETS    4   4   7  ; "data_effect_info"
+0016    TGETB    4   4 157
+0017    GGET     5   8      ; "cc"
+0018    TGETS    5   5   9  ; "p"
+0019    GGET     7  10      ; "SCREEN_WIDTH"
+0020    MULVN    7   7   0  ; 0.5
+0021    GGET     8  11      ; "SCREEN_HEIGHT"
+0022    MULVN    8   8   0  ; 0.5
+0023    CALL     5   2   3
+0024    GGET     6   8      ; "cc"
+0025    TGETS    6   6   9  ; "p"
+0026    KNUM     8   0      ; 0.5
+0027    KNUM     9   0      ; 0.5
+0028    CALL     6   2   3
+0029    KPRI     7   1
+0030    GGET     8  12      ; "PlayerAction"
+0031    TGETS    8   8  13  ; "action_1"
+0032    CALL     2   2   6
+0033    TSETS    2   0   3  ; "cloud_effect"
+0034    TGETS    2   0   3  ; "cloud_effect"
+0035    MOV      4   2
+0036    TGETS    2   2  14  ; "setScale"
+0037    GGET     5  15      ; "display"
+0038    TGETS    5   5  16  ; "getMaxScale"
+0039    CALL     5   0   1
+0040    CALLM    2   1   1
+0041    TGETS    2   0   2  ; "root_wnd"
+0042    MOV      4   2
+0043    TGETS    2   2  17  ; "addChild"
+0044    TGETS    5   0   3  ; "cloud_effect"
+0045    KSHORT   6  99
+0046    CALL     2   1   4
+0047    JMP      2 => 0077
+0048 => TGETS    2   0   3  ; "cloud_effect"
+0049    ISF          2
+0050    JMP      3 => 0077
+0051    TGETS    2   0   3  ; "cloud_effect"
+0052    MOV      4   2
+0053    TGETS    2   2  18  ; "setToSetupPose"
+0054    CALL     2   1   2
+0055    TGETS    2   0   3  ; "cloud_effect"
+0056    MOV      4   2
+0057    TGETS    2   2  19  ; "setAnimation"
+0058    KSHORT   5   0
+0059    GGET     6  12      ; "PlayerAction"
+0060    TGETS    6   6  13  ; "action_1"
+0061    KPRI     7   1
+0062    CALL     2   1   5
+0063    JMP      2 => 0077
+0064 => TGETS    2   0   3  ; "cloud_effect"
+0065    ISF          2
+0066    JMP      3 => 0077
+0067    TGETS    2   0   3  ; "cloud_effect"
+0068    MOV      4   2
+0069    TGETS    2   2  20  ; "clearTracks"
+0070    CALL     2   1   2
+0071    TGETS    2   0   3  ; "cloud_effect"
+0072    MOV      4   2
+0073    TGETS    2   2  21  ; "removeFromParent"
+0074    CALL     2   1   2
+0075    KPRI     2   0
+0076    TSETS    2   0   3  ; "cloud_effect"
+0077 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     0   0      ; 
+0002    TGETS    0   0   0  ; "wait_tips_bg"
+0003    MOV      2   0
+0004    TGETS    0   0   1  ; "setVisible"
+0005    KPRI     3   1
+0006    CALL     0   1   3
+0007    UGET     0   1      ; 
+0008    MOV      2   0
+0009    TGETS    0   0   2  ; "checkShowWaitAward"
+0010    CALL     0   1   2
+0011    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "getWaitShowTipsData"
+0004    CALL     1   2   2
+0005    ISF          1
+0006    JMP      2 => 0129
+0007    TGETB    2   1   1
+0008    ISF          2
+0009    JMP      3 => 0129
+0010    TGETS    2   0   1  ; "wait_tips_bg"
+0011    IST          2
+0012    JMP      2 => 0079
+0013    TGETS    2   0   2  ; "ui_container"
+0014    MOV      4   2
+0015    TGETS    2   2   3  ; "getContentSize"
+0016    CALL     2   2   2
+0017    GGET     3   4      ; "createImage"
+0018    TGETS    5   0   2  ; "ui_container"
+0019    GGET     6   5      ; "PathTool"
+0020    TGETS    6   6   6  ; "getResFrame"
+0021    KSTR     8   7      ; "monopoly"
+0022    KSTR     9   8      ; "monopolyboard_1017"
+0023    KPRI    10   1
+0024    KSTR    11   9      ; "monopolyboard"
+0025    CALL     6   2   5
+0026    TGETS    7   2  10  ; "width"
+0027    MULVN    7   7   0  ; 0.5
+0028    TGETS    8   2  11  ; "height"
+0029    MULVN    8   8   0  ; 0.5
+0030    ADDVN    8   8   1  ; 100
+0031    GGET     9  12      ; "cc"
+0032    TGETS    9   9  13  ; "p"
+0033    KNUM    11   0      ; 0.5
+0034    KNUM    12   0      ; 0.5
+0035    CALL     9   2   3
+0036    KPRI    10   2
+0037    KSHORT  11  99
+0038    KPRI    12   2
+0039    CALL     3   2   9
+0040    TSETS    3   0   1  ; "wait_tips_bg"
+0041    TGETS    3   0   1  ; "wait_tips_bg"
+0042    MOV      5   3
+0043    TGETS    3   3  14  ; "setContentSize"
+0044    GGET     6  12      ; "cc"
+0045    TGETS    6   6  15  ; "size"
+0046    KSHORT   8 720
+0047    KSHORT   9 108
+0048    CALL     6   0   3
+0049    CALLM    3   1   1
+0050    GGET     3  17      ; "createLabel"
+0051    KSHORT   5  40
+0052    GGET     6  12      ; "cc"
+0053    TGETS    6   6  18  ; "c4b"
+0054    KSHORT   8 255
+0055    KSHORT   9 253
+0056    KSHORT  10 217
+0057    KSHORT  11 255
+0058    CALL     6   2   5
+0059    GGET     7  12      ; "cc"
+0060    TGETS    7   7  18  ; "c4b"
+0061    KSHORT   9 167
+0062    KSHORT  10  80
+0063    KSHORT  11   3
+0064    KSHORT  12 255
+0065    CALL     7   2   5
+0066    KSHORT   8 360
+0067    KSHORT   9  54
+0068    KSTR    10  19      ; ""
+0069    TGETS   11   0   1  ; "wait_tips_bg"
+0070    KSHORT  12   2
+0071    GGET    13  12      ; "cc"
+0072    TGETS   13  13  13  ; "p"
+0073    KNUM    15   0      ; 0.5
+0074    KNUM    16   0      ; 0.5
+0075    CALL    13   2   3
+0076    KSTR    14  20      ; "fonts/title.ttf"
+0077    CALL     3   2  11
+0078    TSETS    3   0  16  ; "wait_tips_txt"
+0079 => GGET     2  21      ; "Config"
+0080    TGETS    2   2  22  ; "MonopolyMapsData"
+0081    TGETS    2   2  23  ; "data_buff_tips"
+0082    TGETB    3   1   1
+0083    TGETS    3   3  24  ; "type"
+0084    TGETV    2   2   3
+0085    ISF          2
+0086    JMP      3 => 0124
+0087    TGETS    3   0   1  ; "wait_tips_bg"
+0088    MOV      5   3
+0089    TGETS    3   3  25  ; "setVisible"
+0090    KPRI     6   2
+0091    CALL     3   1   3
+0092    TGETS    3   0  16  ; "wait_tips_txt"
+0093    MOV      5   3
+0094    TGETS    3   3  26  ; "setString"
+0095    TGETS    6   2  27  ; "desc"
+0096    CALL     3   1   3
+0097    FNEW     3  28      ; 2FF1BAB2177CD2AD.luac:0
+0098    TGETS    4   0   1  ; "wait_tips_bg"
+0099    MOV      6   4
+0100    TGETS    4   4  29  ; "runAction"
+0101    GGET     7  12      ; "cc"
+0102    TGETS    7   7  30  ; "Sequence"
+0103    MOV      9   7
+0104    TGETS    7   7  31  ; "create"
+0105    GGET    10  12      ; "cc"
+0106    TGETS   10  10  32  ; "DelayTime"
+0107    MOV     12  10
+0108    TGETS   10  10  31  ; "create"
+0109    KSHORT  13   1
+0110    CALL    10   2   3
+0111    GGET    11  12      ; "cc"
+0112    TGETS   11  11  33  ; "CallFunc"
+0113    MOV     13  11
+0114    TGETS   11  11  31  ; "create"
+0115    MOV     14   3
+0116    CALL    11   0   3
+0117    CALLM    7   0   2
+0118    CALLM    4   1   1
+0119    UGET     4   0      ; 
+0120    MOV      6   4
+0121    TGETS    4   4  34  ; "clearWaitShowTipsData"
+0122    CALL     4   1   2
+0123    JMP      3 => 0133
+0124 => UGET     3   1      ; 
+0125    MOV      5   3
+0126    TGETS    3   3  35  ; "checkShowWaitAward"
+0127    CALL     3   1   2
+0128    JMP      2 => 0133
+0129 => UGET     2   1      ; 
+0130    MOV      4   2
+0131    TGETS    2   2  35  ; "checkShowWaitAward"
+0132    CALL     2   1   2
+0133 => UCLO     0 => 0134
+0134 => RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "playCloudEffect"
+0003    KPRI     4   1
+0004    CALL     1   1   3
+0005    MOV      3   0
+0006    TGETS    1   0   1  ; "handlerTargetEffect"
+0007    KPRI     4   1
+0008    CALL     1   1   3
+0009    GGET     1   2      ; "pairs"
+0010    TGETS    3   0   3  ; "route_effect_list"
+0011    CALL     1   4   2
+0012    ISNEXT   4 => 0026
+0013 => TGETS    6   5   4  ; "effect"
+0014    ISF          6
+0015    JMP      7 => 0026
+0016    TGETS    6   5   4  ; "effect"
+0017    MOV      8   6
+0018    TGETS    6   6   5  ; "clearTracks"
+0019    CALL     6   1   2
+0020    TGETS    6   5   4  ; "effect"
+0021    MOV      8   6
+0022    TGETS    6   6   6  ; "removeFromParent"
+0023    CALL     6   1   2
+0024    KPRI     6   0
+0025    TSETS    6   5   4  ; "effect"
+0026 => ITERN    4   3   3
+0027    ITERL    4 => 0013
+0028    TGETS    1   0   7  ; "role_assets_event"
+0029    ISF          1
+0030    JMP      2 => 0041
+0031    TGETS    1   0   8  ; "role_vo"
+0032    ISF          1
+0033    JMP      2 => 0041
+0034    TGETS    1   0   8  ; "role_vo"
+0035    MOV      3   1
+0036    TGETS    1   1   9  ; "UnBind"
+0037    TGETS    4   0   7  ; "role_assets_event"
+0038    CALL     1   1   3
+0039    KPRI     1   0
+0040    TSETS    1   0   7  ; "role_assets_event"
+0041 => MOV      3   0
+0042    TGETS    1   0  10  ; "openBoardMoveTimer"
+0043    KPRI     4   1
+0044    CALL     1   1   3
+0045    TGETS    1   0  11  ; "board_bg_load"
+0046    ISF          1
+0047    JMP      2 => 0054
+0048    TGETS    1   0  11  ; "board_bg_load"
+0049    MOV      3   1
+0050    TGETS    1   1  12  ; "DeleteMe"
+0051    CALL     1   1   2
+0052    KPRI     1   0
+0053    TSETS    1   0  11  ; "board_bg_load"
+0054 => MOV      3   0
+0055    TGETS    1   0  13  ; "removeBoardRole"
+0056    CALL     1   1   2
+0057    GGET     1   2      ; "pairs"
+0058    TGETS    3   0  14  ; "all_grid_item_list"
+0059    CALL     1   4   2
+0060    ISNEXT   4 => 0065
+0061 => MOV      8   5
+0062    TGETS    6   5  12  ; "DeleteMe"
+0063    CALL     6   1   2
+0064    KPRI     5   0
+0065 => ITERN    4   3   3
+0066    ITERL    4 => 0061
+0067    TGETS    1   0  15  ; "pumpkin_num"
+0068    ISF          1
+0069    JMP      2 => 0076
+0070    TGETS    1   0  15  ; "pumpkin_num"
+0071    MOV      3   1
+0072    TGETS    1   1  12  ; "DeleteMe"
+0073    CALL     1   1   2
+0074    KPRI     1   0
+0075    TSETS    1   0  15  ; "pumpkin_num"
+0076 => TGETS    1   0  16  ; "secret_num"
+0077    ISF          1
+0078    JMP      2 => 0085
+0079    TGETS    1   0  16  ; "secret_num"
+0080    MOV      3   1
+0081    TGETS    1   1  12  ; "DeleteMe"
+0082    CALL     1   1   2
+0083    KPRI     1   0
+0084    TSETS    1   0  16  ; "secret_num"
+0085 => GGET     1   2      ; "pairs"
+0086    TGETS    3   0  17  ; "progress_boss_list"
+0087    CALL     1   4   2
+0088    ISNEXT   4 => 0093
+0089 => MOV      8   5
+0090    TGETS    6   5  12  ; "DeleteMe"
+0091    CALL     6   1   2
+0092    KPRI     5   0
+0093 => ITERN    4   3   3
+0094    ITERL    4 => 0089
+0095    UGET     1   0      ; 
+0096    MOV      3   1
+0097    TGETS    1   1  18  ; "setCurMonopolyMapId"
+0098    KSHORT   4   0
+0099    CALL     1   1   3
+0100    UGET     1   1      ; 
+0101    MOV      3   1
+0102    TGETS    1   1  19  ; "openMonopolyMianScene"
+0103    KPRI     4   1
+0104    CALL     1   1   3
+0105    RET0     0   1
+
+-- BYTECODE -- 2FF1BAB2177CD2AD.luac:0-0
+0001    GGET     0   0      ; "MonopolyController"
+0002    MOV      2   0
+0003    TGETS    0   0   1  ; "getInstance"
+0004    CALL     0   2   2
+0005    MOV      3   0
+0006    TGETS    1   0   2  ; "getModel"
+0007    CALL     1   2   2
+0008    GGET     2   3      ; "string"
+0009    TGETS    2   2   4  ; "format"
+0010    GGET     3   5      ; "table"
+0011    TGETS    3   3   6  ; "insert"
+0012    GGET     4   5      ; "table"
+0013    TGETS    4   4   7  ; "remove"
+0014    GGET     5   5      ; "table"
+0015    TGETS    5   5   8  ; "sort"
+0016    GGET     6   9      ; "MonopolyMainScene"
+0017    IST          6
+0018    JMP      7 => 0022
+0019    GGET     6  10      ; "BaseClass"
+0020    GGET     8  11      ; "BaseView"
+0021    CALL     6   2   2
+0022 => GSET     6   9      ; "MonopolyMainScene"
+0023    GGET     6   9      ; "MonopolyMainScene"
+0024    FNEW     7  13      ; 2FF1BAB2177CD2AD.luac:0
+0025    TSETS    7   6  12  ; "__init"
+0026    GGET     6   9      ; "MonopolyMainScene"
+0027    FNEW     7  15      ; 2FF1BAB2177CD2AD.luac:0
+0028    TSETS    7   6  14  ; "initConfig"
+0029    GGET     6   9      ; "MonopolyMainScene"
+0030    FNEW     7  17      ; 2FF1BAB2177CD2AD.luac:0
+0031    TSETS    7   6  16  ; "open_callback"
+0032    GGET     6   9      ; "MonopolyMainScene"
+0033    FNEW     7  19      ; 2FF1BAB2177CD2AD.luac:0
+0034    TSETS    7   6  18  ; "openRootWnd"
+0035    GGET     6   9      ; "MonopolyMainScene"
+0036    FNEW     7  21      ; 2FF1BAB2177CD2AD.luac:0
+0037    TSETS    7   6  20  ; "register_event"
+0038    GGET     6   9      ; "MonopolyMainScene"
+0039    FNEW     7  23      ; 2FF1BAB2177CD2AD.luac:0
+0040    TSETS    7   6  22  ; "onClickRuleBtn"
+0041    GGET     6   9      ; "MonopolyMainScene"
+0042    FNEW     7  25      ; 2FF1BAB2177CD2AD.luac:0
+0043    TSETS    7   6  24  ; "updateItemNum"
+0044    GGET     6   9      ; "MonopolyMainScene"
+0045    FNEW     7  27      ; 2FF1BAB2177CD2AD.luac:0
+0046    TSETS    7   6  26  ; "updateBuffData"
+0047    GGET     6   9      ; "MonopolyMainScene"
+0048    FNEW     7  29      ; 2FF1BAB2177CD2AD.luac:0
+0049    TSETS    7   6  28  ; "onClickPumpkinBtn"
+0050    GGET     6   9      ; "MonopolyMainScene"
+0051    FNEW     7  31      ; 2FF1BAB2177CD2AD.luac:0
+0052    TSETS    7   6  30  ; "onClickBookBtn"
+0053    GGET     6   9      ; "MonopolyMainScene"
+0054    FNEW     7  33      ; 2FF1BAB2177CD2AD.luac:0
+0055    TSETS    7   6  32  ; "onClickCloseBtn"
+0056    GGET     6   9      ; "MonopolyMainScene"
+0057    FNEW     7  35      ; 2FF1BAB2177CD2AD.luac:0
+0058    TSETS    7   6  34  ; "updateBoardGridList"
+0059    GGET     6   9      ; "MonopolyMainScene"
+0060    FNEW     7  37      ; 2FF1BAB2177CD2AD.luac:0
+0061    TSETS    7   6  36  ; "onTouchMoveBoard"
+0062    GGET     6   9      ; "MonopolyMainScene"
+0063    FNEW     7  39      ; 2FF1BAB2177CD2AD.luac:0
+0064    TSETS    7   6  38  ; "checkBoardPos"
+0065    GGET     6   9      ; "MonopolyMainScene"
+0066    FNEW     7  41      ; 2FF1BAB2177CD2AD.luac:0
+0067    TSETS    7   6  40  ; "updateBoardBgById"
+0068    GGET     6   9      ; "MonopolyMainScene"
+0069    FNEW     7  43      ; 2FF1BAB2177CD2AD.luac:0
+0070    TSETS    7   6  42  ; "removeBoardRole"
+0071    GGET     6   9      ; "MonopolyMainScene"
+0072    FNEW     7  45      ; 2FF1BAB2177CD2AD.luac:0
+0073    TSETS    7   6  44  ; "showMoveRoute"
+0074    GGET     6   9      ; "MonopolyMainScene"
+0075    FNEW     7  47      ; 2FF1BAB2177CD2AD.luac:0
+0076    TSETS    7   6  46  ; "handlerTargetEffect"
+0077    GGET     6   9      ; "MonopolyMainScene"
+0078    FNEW     7  49      ; 2FF1BAB2177CD2AD.luac:0
+0079    TSETS    7   6  48  ; "MoveRoleByNum"
+0080    GGET     6   9      ; "MonopolyMainScene"
+0081    FNEW     7  51      ; 2FF1BAB2177CD2AD.luac:0
+0082    TSETS    7   6  50  ; "moveRoleByGrid"
+0083    GGET     6   9      ; "MonopolyMainScene"
+0084    FNEW     7  53      ; 2FF1BAB2177CD2AD.luac:0
+0085    TSETS    7   6  52  ; "doRoleStopMove"
+0086    GGET     6   9      ; "MonopolyMainScene"
+0087    FNEW     7  55      ; 2FF1BAB2177CD2AD.luac:0
+0088    TSETS    7   6  54  ; "checkBoardIsCanMove"
+0089    GGET     6   9      ; "MonopolyMainScene"
+0090    FNEW     7  57      ; 2FF1BAB2177CD2AD.luac:0
+0091    TSETS    7   6  56  ; "openBoardMoveTimer"
+0092    GGET     6   9      ; "MonopolyMainScene"
+0093    FNEW     7  59      ; 2FF1BAB2177CD2AD.luac:0
+0094    TSETS    7   6  58  ; "setData"
+0095    GGET     6   9      ; "MonopolyMainScene"
+0096    FNEW     7  61      ; 2FF1BAB2177CD2AD.luac:0
+0097    TSETS    7   6  60  ; "checkProceedGridEvt"
+0098    GGET     6   9      ; "MonopolyMainScene"
+0099    FNEW     7  63      ; 2FF1BAB2177CD2AD.luac:0
+0100    TSETS    7   6  62  ; "getGridEventTypeByIndex"
+0101    GGET     6   9      ; "MonopolyMainScene"
+0102    FNEW     7  65      ; 2FF1BAB2177CD2AD.luac:0
+0103    TSETS    7   6  64  ; "moveBoardToRoleCenter"
+0104    GGET     6   9      ; "MonopolyMainScene"
+0105    FNEW     7  67      ; 2FF1BAB2177CD2AD.luac:0
+0106    TSETS    7   6  66  ; "getBoardPosOfRoleCenter"
+0107    GGET     6   9      ; "MonopolyMainScene"
+0108    FNEW     7  69      ; 2FF1BAB2177CD2AD.luac:0
+0109    TSETS    7   6  68  ; "updateGridListZorder"
+0110    GGET     6   9      ; "MonopolyMainScene"
+0111    FNEW     7  71      ; 2FF1BAB2177CD2AD.luac:0
+0112    TSETS    7   6  70  ; "updateBossProgress"
+0113    GGET     6   9      ; "MonopolyMainScene"
+0114    FNEW     7  73      ; 2FF1BAB2177CD2AD.luac:0
+0115    TSETS    7   6  72  ; "updateBossIconList"
+0116    GGET     6   9      ; "MonopolyMainScene"
+0117    FNEW     7  75      ; 2FF1BAB2177CD2AD.luac:0
+0118    TSETS    7   6  74  ; "updateMonopolyBuffs"
+0119    GGET     6   9      ; "MonopolyMainScene"
+0120    FNEW     7  77      ; 2FF1BAB2177CD2AD.luac:0
+0121    TSETS    7   6  76  ; "onClickBuffIcon"
+0122    GGET     6   9      ; "MonopolyMainScene"
+0123    FNEW     7  79      ; 2FF1BAB2177CD2AD.luac:0
+0124    TSETS    7   6  78  ; "createBuffIcon"
+0125    GGET     6   9      ; "MonopolyMainScene"
+0126    FNEW     7  81      ; 2FF1BAB2177CD2AD.luac:0
+0127    TSETS    7   6  80  ; "playCloudEffect"
+0128    GGET     6   9      ; "MonopolyMainScene"
+0129    FNEW     7  83      ; 2FF1BAB2177CD2AD.luac:0
+0130    TSETS    7   6  82  ; "checkShowTips"
+0131    GGET     6   9      ; "MonopolyMainScene"
+0132    FNEW     7  85      ; 2FF1BAB2177CD2AD.luac:0
+0133    TSETS    7   6  84  ; "close_callback"
+0134    UCLO     0 => 0135
+0135 => RET0     0   1
+

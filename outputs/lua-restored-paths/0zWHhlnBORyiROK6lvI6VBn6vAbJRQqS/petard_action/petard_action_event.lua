@@ -1,0 +1,5 @@
+PetardActionEvent = PetardActionEvent or {}
+PetardActionEvent.Get_Base_Info_Event = "PetardActionEvent.Get_Base_Info_Event"
+PetardActionEvent.Get_Redbag_Data_Event = "PetardActionEvent.Get_Redbag_Data_Event"
+PetardActionEvent.Get_Redbag_Msg_Data_Event = "PetardActionEvent.Get_Redbag_Msg_Data_Event"
+PetardActionEvent.Update_Petard_Main_Redbag_Event = "PetardActionEvent.Update_Petard_Main_Redbag_Event"

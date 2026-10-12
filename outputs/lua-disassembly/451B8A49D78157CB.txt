@@ -1,0 +1,1271 @@
+;
+; Disassemble of outputs/lua-bytecode/451B8A49D78157CB.luac
+;
+; Source file: N/A
+;
+; Flags:
+;	Stripped: Yes
+;	Endianness: Little
+;	FFI: Not present
+;
+
+main N/A:0-0: 0+ args, 0 upvalues, 4 slots
+	;;;; constant tables ;;;;
+	;;;; instructions ;;;;
+[36 00 00 00]	  1	[  0]	GGET 	  0		73	; slot0 = _env["FruitTreasureModel"]
+[0E 00 00 00]	  2	[  0]	IST  	   		0	; if FruitTreasureModel
+[58 01 02 80]	  3	[  0]	JMP  	  1		2	; 	goto 6
+[36 00 01 00]	  4	[  0]	GGET 	  0		72	; slot0 = _env["BaseClass"]
+[42 00 01 02]	  5	[  0]	CALL 	  0	2	1	; slot0 = BaseClass()
+[37 00 00 00]	  6	[  0]	GSET 	  0		73	; _env["FruitTreasureModel"] = slot0
+[36 00 02 00]	  7	[  0]	GGET 	  0		71	; slot0 = _env["string"]
+[39 00 03 00]	  8	[  0]	TGETS	  0	0	70	; slot0 = string.format
+[36 01 04 00]	  9	[  0]	GGET 	  1		69	; slot1 = _env["table"]
+[39 01 05 01]	 10	[  0]	TGETS	  1	1	68	; slot1 = table.insert
+[36 02 00 00]	 11	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 12	[  0]	FNEW 	  3		66	; N/A:0-0: 2 args, 0 upvalues, 5 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[3D 01 00 00]		  1	[  0]	TSETS	  1	0	1	; slot0.ctrl = slot1
+[12 04 00 00]		  2	[  0]	MOV  	  4		0	; slot4 = slot0
+[39 02 01 00]		  3	[  0]	TGETS	  2	0	0	; slot2 = slot0.config
+[42 02 02 01]		  4	[  0]	CALL 	  2	1	2	;  = <unknown table>.config(slot3)
+[4B 00 01 00]		  5	[  0]	RET0 	  0		1	; return
+[3D 03 06 02]	 13	[  0]	TSETS	  3	2	67	; FruitTreasureModel.__init = slot3
+[36 02 00 00]	 14	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 15	[  0]	FNEW 	  3		64	; N/A:0-0: 1 args, 0 upvalues, 5 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[34 01 05 00]		  1	[  0]	TNEW 	  1		5	; slot1 = new table( array: 5, dict: 1)
+[34 02 00 00]		  2	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[3E 02 01 01]		  3	[  0]	TSETB	  2	1	1	; slot1[1] = slot2
+[34 02 00 00]		  4	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[3E 02 02 01]		  5	[  0]	TSETB	  2	1	2	; slot1[2] = slot2
+[34 02 00 00]		  6	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[3E 02 03 01]		  7	[  0]	TSETB	  2	1	3	; slot1[3] = slot2
+[34 02 00 00]		  8	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[3E 02 04 01]		  9	[  0]	TSETB	  2	1	4	; slot1[4] = slot2
+[3D 01 00 00]		 10	[  0]	TSETS	  1	0	13	; slot0.list = slot1
+[39 01 00 00]		 11	[  0]	TGETS	  1	0	13	; slot1 = slot0.list
+[36 02 01 00]		 12	[  0]	GGET 	  2		12	; slot2 = _env["FruitTreasureConst"]
+[39 02 02 02]		 13	[  0]	TGETS	  2	2	11	; slot2 = FruitTreasureConst.Type
+[39 02 03 02]		 14	[  0]	TGETS	  2	2	10	; slot2 = FruitTreasureConst.Type.Tian
+[34 03 00 00]		 15	[  0]	TNEW 	  3		0	; slot3 = new table( array: 0, dict: 1)
+[3C 03 02 01]		 16	[  0]	TSETV	  3	1	2	; <unknown table>.list[FruitTreasureConst.Type.Tian] = slot3
+[39 01 00 00]		 17	[  0]	TGETS	  1	0	13	; slot1 = slot0.list
+[36 02 01 00]		 18	[  0]	GGET 	  2		12	; slot2 = _env["FruitTreasureConst"]
+[39 02 02 02]		 19	[  0]	TGETS	  2	2	11	; slot2 = FruitTreasureConst.Type
+[39 02 04 02]		 20	[  0]	TGETS	  2	2	9	; slot2 = FruitTreasureConst.Type.Di
+[34 03 00 00]		 21	[  0]	TNEW 	  3		0	; slot3 = new table( array: 0, dict: 1)
+[3C 03 02 01]		 22	[  0]	TSETV	  3	1	2	; <unknown table>.list[FruitTreasureConst.Type.Di] = slot3
+[39 01 00 00]		 23	[  0]	TGETS	  1	0	13	; slot1 = slot0.list
+[36 02 01 00]		 24	[  0]	GGET 	  2		12	; slot2 = _env["FruitTreasureConst"]
+[39 02 02 02]		 25	[  0]	TGETS	  2	2	11	; slot2 = FruitTreasureConst.Type
+[39 02 05 02]		 26	[  0]	TGETS	  2	2	8	; slot2 = FruitTreasureConst.Type.Xuan
+[34 03 00 00]		 27	[  0]	TNEW 	  3		0	; slot3 = new table( array: 0, dict: 1)
+[3C 03 02 01]		 28	[  0]	TSETV	  3	1	2	; <unknown table>.list[FruitTreasureConst.Type.Xuan] = slot3
+[39 01 00 00]		 29	[  0]	TGETS	  1	0	13	; slot1 = slot0.list
+[36 02 01 00]		 30	[  0]	GGET 	  2		12	; slot2 = _env["FruitTreasureConst"]
+[39 02 02 02]		 31	[  0]	TGETS	  2	2	11	; slot2 = FruitTreasureConst.Type
+[39 02 06 02]		 32	[  0]	TGETS	  2	2	7	; slot2 = FruitTreasureConst.Type.Huang
+[34 03 00 00]		 33	[  0]	TNEW 	  3		0	; slot3 = new table( array: 0, dict: 1)
+[3C 03 02 01]		 34	[  0]	TSETV	  3	1	2	; <unknown table>.list[FruitTreasureConst.Type.Huang] = slot3
+[34 01 00 00]		 35	[  0]	TNEW 	  1		0	; slot1 = new table( array: 0, dict: 1)
+[3D 01 07 00]		 36	[  0]	TSETS	  1	0	6	; slot0.allinfo = slot1
+[34 01 00 00]		 37	[  0]	TNEW 	  1		0	; slot1 = new table( array: 0, dict: 1)
+[3D 01 08 00]		 38	[  0]	TSETS	  1	0	5	; slot0.fruittreasure_red_list = slot1
+[34 01 00 00]		 39	[  0]	TNEW 	  1		0	; slot1 = new table( array: 0, dict: 1)
+[3D 01 09 00]		 40	[  0]	TSETS	  1	0	4	; slot0.otherlist = slot1
+[12 03 00 00]		 41	[  0]	MOV  	  3		0	; slot3 = slot0
+[39 01 0A 00]		 42	[  0]	TGETS	  1	0	3	; slot1 = slot0.initAllList
+[36 04 0B 00]		 43	[  0]	GGET 	  4		2	; slot4 = _env["Config"]
+[39 04 0C 04]		 44	[  0]	TGETS	  4	4	1	; slot4 = Config.BlastiaData
+[39 04 0D 04]		 45	[  0]	TGETS	  4	4	0	; slot4 = Config.BlastiaData.data_get_blastia
+[42 01 03 01]		 46	[  0]	CALL 	  1	1	3	;  = <unknown table>.initAllList(FruitTreasureConst.Type.Huang, slot3)
+[4B 00 01 00]		 47	[  0]	RET0 	  0		1	; return
+[3D 03 08 02]	 16	[  0]	TSETS	  3	2	65	; FruitTreasureModel.config = slot3
+[36 02 00 00]	 17	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 18	[  0]	FNEW 	  3		62	; N/A:0-0: 2 args, 0 upvalues, 13 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[34 02 00 00]		  1	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[3D 02 00 00]		  2	[  0]	TSETS	  2	0	11	; slot0.otherlist = slot2
+[36 02 01 00]		  3	[  0]	GGET 	  2		10	; slot2 = _env["Config"]
+[39 02 02 02]		  4	[  0]	TGETS	  2	2	9	; slot2 = Config.BlastiaData
+[39 02 03 02]		  5	[  0]	TGETS	  2	2	8	; slot2 = Config.BlastiaData.data_get_blastia
+[36 03 04 00]		  6	[  0]	GGET 	  3		7	; slot3 = _env["pairs"]
+[12 05 01 00]		  7	[  0]	MOV  	  5		1	; slot5 = slot1
+[42 03 02 04]		  8	[  0]	CALL 	  3	4	2	; slot3, slot4, slot5 = pairs(slot4)
+[48 06 11 80]		  9	[  0]	ISNEXT	  6		17	; Verify ITERN at 27; goto 27
+[36 08 05 00]		 10	[  0]	GGET 	  8		6	; slot8 = _env["FruitTreasureVo"]
+[39 08 06 08]		 11	[  0]	TGETS	  8	8	5	; slot8 = FruitTreasureVo.New
+[42 08 01 02]		 12	[  0]	CALL 	  8	2	1	; slot8 = FruitTreasureVo.New()
+[12 0B 08 00]		 13	[  0]	MOV  	 11		8	; slot11 = FruitTreasureVo.New
+[39 09 07 08]		 14	[  0]	TGETS	  9	8	4	; slot9 = FruitTreasureVo.New.setData
+[39 0C 08 07]		 15	[  0]	TGETS	 12	7	3	; slot12 = slot7.id
+[38 0C 0C 02]		 16	[  0]	TGETV	 12	2	12	; slot12 = Config.BlastiaData.data_get_blastia[<unknown table>.id]
+[42 09 03 01]		 17	[  0]	CALL 	  9	1	3	;  = FruitTreasureVo.New.setData(slot10, FruitTreasureVo.New)
+[12 0B 08 00]		 18	[  0]	MOV  	 11		8	; slot11 = FruitTreasureVo.New
+[39 09 09 08]		 19	[  0]	TGETS	  9	8	2	; slot9 = FruitTreasureVo.New.updateList
+[12 0C 07 00]		 20	[  0]	MOV  	 12		7	; slot12 = slot7
+[42 09 03 01]		 21	[  0]	CALL 	  9	1	3	;  = FruitTreasureVo.New.updateList(slot10, FruitTreasureVo.New)
+[36 09 0A 00]		 22	[  0]	GGET 	  9		1	; slot9 = _env["table"]
+[39 09 0B 09]		 23	[  0]	TGETS	  9	9	0	; slot9 = table.insert
+[39 0B 00 00]		 24	[  0]	TGETS	 11	0	11	; slot11 = slot0.otherlist
+[12 0C 08 00]		 25	[  0]	MOV  	 12		8	; slot12 = FruitTreasureVo.New
+[42 09 03 01]		 26	[  0]	CALL 	  9	1	3	;  = table.insert(slot10, <unknown table>.otherlist)
+[46 06 03 03]		 27	[  0]	ITERN	  6	3	3	; slot6, slot7, slot8 = pairs, slot4, slot5; slot6, slot7 = pairs(slot4, slot5)
+[52 06 ED 7F]		 28	[  0]	ITERL	  6		-19	; slot5 = slot6; if slot6 != nil goto 10
+[4B 00 01 00]		 29	[  0]	RET0 	  0		1	; return
+[3D 03 0A 02]	 19	[  0]	TSETS	  3	2	63	; FruitTreasureModel.initOtherList = slot3
+[36 02 00 00]	 20	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 21	[  0]	FNEW 	  3		60	; N/A:0-0: 2 args, 0 upvalues, 11 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 00 00]		  1	[  0]	GGET 	  2		5	; slot2 = _env["pairs"]
+[12 04 01 00]		  2	[  0]	MOV  	  4		1	; slot4 = slot1
+[42 02 02 04]		  3	[  0]	CALL 	  2	4	2	; slot2, slot3, slot4 = pairs(slot3)
+[48 05 07 80]		  4	[  0]	ISNEXT	  5		7	; Verify ITERN at 12; goto 12
+[36 07 01 00]		  5	[  0]	GGET 	  7		4	; slot7 = _env["table"]
+[39 07 02 07]		  6	[  0]	TGETS	  7	7	3	; slot7 = table.insert
+[39 09 03 00]		  7	[  0]	TGETS	  9	0	2	; slot9 = slot0.list
+[39 0A 04 06]		  8	[  0]	TGETS	 10	6	1	; slot10 = slot6.type
+[38 09 0A 09]		  9	[  0]	TGETV	  9	9	10	; slot9 = <unknown table>.list[<unknown table>.type]
+[12 0A 06 00]		 10	[  0]	MOV  	 10		6	; slot10 = slot6
+[42 07 03 01]		 11	[  0]	CALL 	  7	1	3	;  = table.insert(slot8, slot9)
+[46 05 03 03]		 12	[  0]	ITERN	  5	3	3	; slot5, slot6, slot7 = slot2, slot3, slot4; slot5, slot6 = slot2(slot3, slot4)
+[52 05 F7 7F]		 13	[  0]	ITERL	  5		-9	; slot4 = slot5; if slot5 != nil goto 5
+[12 04 00 00]		 14	[  0]	MOV  	  4		0	; slot4 = slot0
+[39 02 05 00]		 15	[  0]	TGETS	  2	0	0	; slot2 = slot0.initList
+[42 02 02 01]		 16	[  0]	CALL 	  2	1	2	;  = <unknown table>.initList(slot3)
+[4B 00 01 00]		 17	[  0]	RET0 	  0		1	; return
+[3D 03 0C 02]	 22	[  0]	TSETS	  3	2	61	; FruitTreasureModel.initAllList = slot3
+[36 02 00 00]	 23	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 24	[  0]	FNEW 	  3		58	; N/A:0-0: 1 args, 0 upvalues, 19 slots
+		
+		;;;; constant tables ;;;;
+		ktable#6 = [
+			]
+		
+		
+		;;;; instructions ;;;;
+[34 01 00 00]		  1	[  0]	TNEW 	  1		0	; slot1 = new table( array: 0, dict: 1)
+[3D 01 00 00]		  2	[  0]	TSETS	  1	0	12	; slot0.alllist = slot1
+[36 01 01 00]		  3	[  0]	GGET 	  1		11	; slot1 = _env["FruitTreasureConst"]
+[39 01 02 01]		  4	[  0]	TGETS	  1	1	10	; slot1 = FruitTreasureConst.Type
+[39 01 03 01]		  5	[  0]	TGETS	  1	1	9	; slot1 = FruitTreasureConst.Type.Tian
+[29 02 05 00]		  6	[  0]	KSHORT	  2		5	; slot2 = 5
+[29 03 01 00]		  7	[  0]	KSHORT	  3		1	; slot3 = 1
+[29 04 04 00]		  8	[  0]	KSHORT	  4		4	; slot4 = 4
+[29 05 01 00]		  9	[  0]	KSHORT	  5		1	; slot5 = 1
+[29 06 FF FF]		 10	[  0]	KSHORT	  6		65535	; slot6 = 65535
+[4D 04 2A 80]		 11	[  0]	FORI 	  4		42	; for slot7 = slot4,slot5,slot6 else goto 54
+[36 08 04 00]		 12	[  0]	GGET 	  8		8	; slot8 = _env["pairs"]
+[39 0A 05 00]		 13	[  0]	TGETS	 10	0	7	; slot10 = slot0.list
+[38 0A 07 0A]		 14	[  0]	TGETV	 10	10	7	; slot10 = <unknown table>.list[slot7]
+[42 08 02 04]		 15	[  0]	CALL 	  8	4	2	; slot8, slot9, slot10 = pairs(slot9)
+[48 0B 1D 80]		 16	[  0]	ISNEXT	 11		29	; Verify ITERN at 46; goto 46
+[35 0D 06 00]		 17	[  0]	TDUP 	 13		6	; slot13 = copy table#k6
+[3D 07 07 0D]		 18	[  0]	TSETS	  7	13	5	; slot13.type = slot7
+[34 0E 00 00]		 19	[  0]	TNEW 	 14		0	; slot14 = new table( array: 0, dict: 1)
+[3D 0E 05 0D]		 20	[  0]	TSETS	 14	13	7	; slot13.list = slot14
+[39 0E 00 00]		 21	[  0]	TGETS	 14	0	12	; slot14 = slot0.alllist
+[38 0E 03 0E]		 22	[  0]	TGETV	 14	14	3	; slot14 = <unknown table>.alllist[slot3]
+[0F 00 0E 00]		 23	[  0]	ISF  	   		14	; if not slot14
+[58 0F 02 80]		 24	[  0]	JMP  	 15		2	; 	goto 27
+[39 0E 00 00]		 25	[  0]	TGETS	 14	0	12	; slot14 = slot0.alllist
+[38 0D 03 0E]		 26	[  0]	TGETV	 13	14	3	; slot13 = <unknown table>.alllist[slot3]
+[36 0E 08 00]		 27	[  0]	GGET 	 14		4	; slot14 = _env["FruitTreasureVo"]
+[39 0E 09 0E]		 28	[  0]	TGETS	 14	14	3	; slot14 = FruitTreasureVo.New
+[42 0E 01 02]		 29	[  0]	CALL 	 14	2	1	; slot14 = FruitTreasureVo.New()
+[12 11 0E 00]		 30	[  0]	MOV  	 17		14	; slot17 = FruitTreasureVo.New
+[39 0F 0A 0E]		 31	[  0]	TGETS	 15	14	2	; slot15 = FruitTreasureVo.New.setData
+[12 12 0C 00]		 32	[  0]	MOV  	 18		12	; slot18 = slot12
+[42 0F 03 01]		 33	[  0]	CALL 	 15	1	3	;  = FruitTreasureVo.New.setData(slot16, FruitTreasureVo.New)
+[36 0F 0B 00]		 34	[  0]	GGET 	 15		1	; slot15 = _env["table"]
+[39 0F 0C 0F]		 35	[  0]	TGETS	 15	15	0	; slot15 = table.insert
+[39 11 05 0D]		 36	[  0]	TGETS	 17	13	7	; slot17 = slot13.list
+[12 12 0E 00]		 37	[  0]	MOV  	 18		14	; slot18 = FruitTreasureVo.New
+[42 0F 03 01]		 38	[  0]	CALL 	 15	1	3	;  = table.insert(slot16, <unknown table>.list)
+[39 0F 00 00]		 39	[  0]	TGETS	 15	0	12	; slot15 = slot0.alllist
+[3C 0D 03 0F]		 40	[  0]	TSETV	 13	15	3	; <unknown table>.alllist[slot3] = slot13
+[39 0F 05 0D]		 41	[  0]	TGETS	 15	13	7	; slot15 = slot13.list
+[15 0F 0F 00]		 42	[  0]	LEN  	 15		15	; slot15 = #<unknown table>.list
+[03 02 0F 00]		 43	[  0]	ISGT 	  2		15	; if slot2 > slot15
+[58 0F 01 80]		 44	[  0]	JMP  	 15		1	; 	goto 46
+[16 03 00 03]		 45	[  0]	ADDVN	  3	3	0	; slot3 = slot3 + 1
+[46 0B 03 03]		 46	[  0]	ITERN	 11	3	3	; slot11, slot12, slot13 = pairs, slot9, slot10; slot11, slot12 = pairs(slot9, slot10)
+[52 0B E1 7F]		 47	[  0]	ITERL	 11		-31	; slot10 = slot11; if slot11 != nil goto 17
+[39 08 00 00]		 48	[  0]	TGETS	  8	0	12	; slot8 = slot0.alllist
+[38 08 03 08]		 49	[  0]	TGETV	  8	8	3	; slot8 = <unknown table>.alllist[slot3]
+[0F 00 08 00]		 50	[  0]	ISF  	   		8	; if not slot8
+[58 09 01 80]		 51	[  0]	JMP  	  9		1	; 	goto 53
+[16 03 00 03]		 52	[  0]	ADDVN	  3	3	0	; slot3 = slot3 + 1
+[4F 04 D6 7F]		 53	[  0]	FORL 	  4		-42	; slot7 = slot7 + slot6; if cmp(slot7, sign slot6,  slot5) goto 12
+[4B 00 01 00]		 54	[  0]	RET0 	  0		1	; return
+[3D 03 0E 02]	 25	[  0]	TSETS	  3	2	59	; FruitTreasureModel.initList = slot3
+[36 02 00 00]	 26	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 27	[  0]	FNEW 	  3		56	; N/A:0-0: 2 args, 0 upvalues, 8 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 00 00]		  1	[  0]	GGET 	  2		8	; slot2 = _env["Config"]
+[39 02 01 02]		  2	[  0]	TGETS	  2	2	7	; slot2 = Config.BlastiaData
+[39 02 02 02]		  3	[  0]	TGETS	  2	2	6	; slot2 = Config.BlastiaData.data_get_blastia
+[38 02 01 02]		  4	[  0]	TGETV	  2	2	1	; slot2 = Config.BlastiaData.data_get_blastia[slot1]
+[39 02 03 02]		  5	[  0]	TGETS	  2	2	5	; slot2 = slot2.piece_num
+[36 03 00 00]		  6	[  0]	GGET 	  3		8	; slot3 = _env["Config"]
+[39 03 01 03]		  7	[  0]	TGETS	  3	3	7	; slot3 = Config.BlastiaData
+[39 03 02 03]		  8	[  0]	TGETS	  3	3	6	; slot3 = Config.BlastiaData.data_get_blastia
+[38 03 01 03]		  9	[  0]	TGETV	  3	3	1	; slot3 = Config.BlastiaData.data_get_blastia[slot1]
+[39 03 04 03]		 10	[  0]	TGETS	  3	3	4	; slot3 = slot3.piece_id
+[36 04 05 00]		 11	[  0]	GGET 	  4		3	; slot4 = _env["BackpackController"]
+[12 06 04 00]		 12	[  0]	MOV  	  6		4	; slot6 = BackpackController
+[39 04 06 04]		 13	[  0]	TGETS	  4	4	2	; slot4 = BackpackController.getInstance
+[42 04 02 02]		 14	[  0]	CALL 	  4	2	2	; slot4 = BackpackController.getInstance(slot5)
+[12 06 04 00]		 15	[  0]	MOV  	  6		4	; slot6 = BackpackController.getInstance
+[39 04 07 04]		 16	[  0]	TGETS	  4	4	1	; slot4 = BackpackController.getInstance.getModel
+[42 04 02 02]		 17	[  0]	CALL 	  4	2	2	; slot4 = BackpackController.getInstance.getModel(slot5)
+[12 06 04 00]		 18	[  0]	MOV  	  6		4	; slot6 = BackpackController.getInstance.getModel
+[39 04 08 04]		 19	[  0]	TGETS	  4	4	0	; slot4 = BackpackController.getInstance.getModel.getItemNumByBid
+[12 07 03 00]		 20	[  0]	MOV  	  7		3	; slot7 = <unknown table>.piece_id
+[42 04 03 02]		 21	[  0]	CALL 	  4	2	3	; slot4 = BackpackController.getInstance.getModel.getItemNumByBid(slot5, BackpackController.getInstance.getModel)
+[02 02 04 00]		 22	[  0]	ISLE 	  2		4	; if <unknown table>.piece_num <= BackpackController.getInstance.getModel.getItemNumByBid
+[58 05 02 80]		 23	[  0]	JMP  	  5		2	; 	goto 26
+[2B 05 01 00]		 24	[  0]	KPRI 	  5		1	; slot5 = false
+[58 06 01 80]		 25	[  0]	JMP  	  6		1	; 	goto 27
+[2B 05 02 00]		 26	[  0]	KPRI 	  5		2	; slot5 = true
+[4C 05 02 00]		 27	[  0]	RET1 	  5		2	; return slot5
+[3D 03 10 02]	 28	[  0]	TSETS	  3	2	57	; FruitTreasureModel.checkCanActive = slot3
+[36 02 00 00]	 29	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 30	[  0]	FNEW 	  3		54	; N/A:0-0: 2 args, 0 upvalues, 17 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[2B 02 01 00]		  1	[  0]	KPRI 	  2		1	; slot2 = false
+[29 03 00 00]		  2	[  0]	KSHORT	  3		0	; slot3 = 0
+[12 06 00 00]		  3	[  0]	MOV  	  6		0	; slot6 = slot0
+[39 04 00 00]		  4	[  0]	TGETS	  4	0	10	; slot4 = slot0.getMaxLvByStar
+[39 07 01 01]		  5	[  0]	TGETS	  7	1	9	; slot7 = slot1.type
+[39 08 02 01]		  6	[  0]	TGETS	  8	1	8	; slot8 = slot1.star
+[42 04 04 02]		  7	[  0]	CALL 	  4	2	4	; slot4 = <unknown table>.getMaxLvByStar(slot5, slot6, <unknown table>.type)
+[39 05 03 01]		  8	[  0]	TGETS	  5	1	7	; slot5 = slot1.lev
+[03 04 05 00]		  9	[  0]	ISGT 	  4		5	; if slot4 > <unknown table>.lev
+[58 05 02 80]		 10	[  0]	JMP  	  5		2	; 	goto 13
+[2B 05 01 00]		 11	[  0]	KPRI 	  5		1	; slot5 = false
+[4C 05 02 00]		 12	[  0]	RET1 	  5		2	; return slot5
+[12 07 00 00]		 13	[  0]	MOV  	  7		0	; slot7 = slot0
+[39 05 04 00]		 14	[  0]	TGETS	  5	0	6	; slot5 = slot0.getLvUpCost
+[39 08 01 01]		 15	[  0]	TGETS	  8	1	9	; slot8 = slot1.type
+[39 09 03 01]		 16	[  0]	TGETS	  9	1	7	; slot9 = slot1.lev
+[42 05 04 02]		 17	[  0]	CALL 	  5	2	4	; slot5 = <unknown table>.getLvUpCost(slot6, slot7, <unknown table>.type)
+[0F 00 05 00]		 18	[  0]	ISF  	   		5	; if not <unknown table>.getLvUpCost
+[58 06 1D 80]		 19	[  0]	JMP  	  6		29	; 	goto 49
+[39 06 05 05]		 20	[  0]	TGETS	  6	5	5	; slot6 = <unknown table>.getLvUpCost.expend
+[0F 00 06 00]		 21	[  0]	ISF  	   		6	; if not <unknown table>.getLvUpCost.expend
+[58 07 1A 80]		 22	[  0]	JMP  	  7		26	; 	goto 49
+[36 06 06 00]		 23	[  0]	GGET 	  6		4	; slot6 = _env["pairs"]
+[39 08 05 05]		 24	[  0]	TGETS	  8	5	5	; slot8 = <unknown table>.getLvUpCost.expend
+[42 06 02 04]		 25	[  0]	CALL 	  6	4	2	; slot6, slot7, slot8 = pairs(slot7)
+[48 09 10 80]		 26	[  0]	ISNEXT	  9		16	; Verify ITERN at 43; goto 43
+[3A 0B 01 0A]		 27	[  0]	TGETB	 11	10	1	; slot11 = slot10[1]
+[3A 0C 02 0A]		 28	[  0]	TGETB	 12	10	2	; slot12 = slot10[2]
+[36 0D 07 00]		 29	[  0]	GGET 	 13		3	; slot13 = _env["BackpackController"]
+[12 0F 0D 00]		 30	[  0]	MOV  	 15		13	; slot15 = BackpackController
+[39 0D 08 0D]		 31	[  0]	TGETS	 13	13	2	; slot13 = BackpackController.getInstance
+[42 0D 02 02]		 32	[  0]	CALL 	 13	2	2	; slot13 = BackpackController.getInstance(slot14)
+[12 0F 0D 00]		 33	[  0]	MOV  	 15		13	; slot15 = BackpackController.getInstance
+[39 0D 09 0D]		 34	[  0]	TGETS	 13	13	1	; slot13 = BackpackController.getInstance.getModel
+[42 0D 02 02]		 35	[  0]	CALL 	 13	2	2	; slot13 = BackpackController.getInstance.getModel(slot14)
+[12 0F 0D 00]		 36	[  0]	MOV  	 15		13	; slot15 = BackpackController.getInstance.getModel
+[39 0D 0A 0D]		 37	[  0]	TGETS	 13	13	0	; slot13 = BackpackController.getInstance.getModel.getItemNumByBid
+[12 10 0B 00]		 38	[  0]	MOV  	 16		11	; slot16 = slot11
+[42 0D 03 02]		 39	[  0]	CALL 	 13	2	3	; slot13 = BackpackController.getInstance.getModel.getItemNumByBid(slot14, BackpackController.getInstance.getModel)
+[03 0C 0D 00]		 40	[  0]	ISGT 	 12		13	; if slot12 > BackpackController.getInstance.getModel.getItemNumByBid
+[58 0E 01 80]		 41	[  0]	JMP  	 14		1	; 	goto 43
+[16 03 00 03]		 42	[  0]	ADDVN	  3	3	0	; slot3 = slot3 + 1
+[46 09 03 03]		 43	[  0]	ITERN	  9	3	3	; slot9, slot10, slot11 = pairs, slot7, <unknown table>.getLvUpCost.expend; slot9, slot10 = pairs(slot7, <unknown table>.getLvUpCost.expend)
+[52 09 EE 7F]		 44	[  0]	ITERL	  9		-18	; <unknown table>.getLvUpCost.expend = slot9; if slot9 != nil goto 27
+[29 06 02 00]		 45	[  0]	KSHORT	  6		2	; slot6 = 2
+[03 06 03 00]		 46	[  0]	ISGT 	  6		3	; if slot6 > slot3
+[58 06 01 80]		 47	[  0]	JMP  	  6		1	; 	goto 49
+[2B 02 02 00]		 48	[  0]	KPRI 	  2		2	; slot2 = true
+[4C 02 02 00]		 49	[  0]	RET1 	  2		2	; return slot2
+[3D 03 12 02]	 31	[  0]	TSETS	  3	2	55	; FruitTreasureModel.checkCanLvUp = slot3
+[36 02 00 00]	 32	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 33	[  0]	FNEW 	  3		52	; N/A:0-0: 2 args, 1 upvalues, 33 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[2B 02 01 00]		  1	[  0]	KPRI 	  2		1	; slot2 = false
+[29 03 00 00]		  2	[  0]	KSHORT	  3		0	; slot3 = 0
+[12 06 00 00]		  3	[  0]	MOV  	  6		0	; slot6 = slot0
+[39 04 00 00]		  4	[  0]	TGETS	  4	0	23	; slot4 = slot0.getStarUpCost
+[39 07 01 01]		  5	[  0]	TGETS	  7	1	22	; slot7 = slot1.type
+[39 08 02 01]		  6	[  0]	TGETS	  8	1	21	; slot8 = slot1.star
+[42 04 04 02]		  7	[  0]	CALL 	  4	2	4	; slot4 = <unknown table>.getStarUpCost(slot5, slot6, <unknown table>.type)
+[0F 00 04 00]		  8	[  0]	ISF  	   		4	; if not slot4
+[58 05 86 80]		  9	[  0]	JMP  	  5		134	; 	goto 144
+[39 05 03 04]		 10	[  0]	TGETS	  5	4	20	; slot5 = slot4.cost_hero
+[0F 00 05 00]		 11	[  0]	ISF  	   		5	; if not <unknown table>.cost_hero
+[58 06 83 80]		 12	[  0]	JMP  	  6		131	; 	goto 144
+[39 05 04 01]		 13	[  0]	TGETS	  5	1	19	; slot5 = slot1.piece_id
+[39 06 05 04]		 14	[  0]	TGETS	  6	4	18	; slot6 = slot4.cost_piece
+[36 07 06 00]		 15	[  0]	GGET 	  7		17	; slot7 = _env["BackpackController"]
+[12 09 07 00]		 16	[  0]	MOV  	  9		7	; slot9 = BackpackController
+[39 07 07 07]		 17	[  0]	TGETS	  7	7	16	; slot7 = BackpackController.getInstance
+[42 07 02 02]		 18	[  0]	CALL 	  7	2	2	; slot7 = BackpackController.getInstance(<unknown table>.star)
+[12 09 07 00]		 19	[  0]	MOV  	  9		7	; slot9 = BackpackController.getInstance
+[39 07 08 07]		 20	[  0]	TGETS	  7	7	15	; slot7 = BackpackController.getInstance.getModel
+[42 07 02 02]		 21	[  0]	CALL 	  7	2	2	; slot7 = BackpackController.getInstance.getModel(<unknown table>.star)
+[12 09 07 00]		 22	[  0]	MOV  	  9		7	; slot9 = BackpackController.getInstance.getModel
+[39 07 09 07]		 23	[  0]	TGETS	  7	7	14	; slot7 = BackpackController.getInstance.getModel.getItemNumByBid
+[12 0A 05 00]		 24	[  0]	MOV  	 10		5	; slot10 = <unknown table>.piece_id
+[42 07 03 02]		 25	[  0]	CALL 	  7	2	3	; slot7 = BackpackController.getInstance.getModel.getItemNumByBid(<unknown table>.star, BackpackController.getInstance.getModel)
+[03 06 07 00]		 26	[  0]	ISGT 	  6		7	; if <unknown table>.cost_piece > BackpackController.getInstance.getModel.getItemNumByBid
+[58 08 01 80]		 27	[  0]	JMP  	  8		1	; 	goto 29
+[16 03 00 03]		 28	[  0]	ADDVN	  3	3	0	; slot3 = slot3 + 1
+[34 08 00 00]		 29	[  0]	TNEW 	  8		0	; slot8 = new table( array: 0, dict: 1)
+[34 09 00 00]		 30	[  0]	TNEW 	  9		0	; slot9 = new table( array: 0, dict: 1)
+[12 0C 00 00]		 31	[  0]	MOV  	 12		0	; slot12 = slot0
+[39 0A 0A 00]		 32	[  0]	TGETS	 10	0	13	; slot10 = slot0.getHeroData
+[2B 0D 00 00]		 33	[  0]	KPRI 	 13		0	; slot13 = nil
+[39 0E 03 04]		 34	[  0]	TGETS	 14	4	20	; slot14 = slot4.cost_hero
+[3A 0E 01 0E]		 35	[  0]	TGETB	 14	14	1	; slot14 = <unknown table>.cost_hero[1]
+[39 0F 03 04]		 36	[  0]	TGETS	 15	4	20	; slot15 = slot4.cost_hero
+[3A 0F 02 0F]		 37	[  0]	TGETB	 15	15	2	; slot15 = <unknown table>.cost_hero[2]
+[29 10 00 00]		 38	[  0]	KSHORT	 16		0	; slot16 = 0
+[42 0A 06 02]		 39	[  0]	CALL 	 10	2	6	; slot10 = <unknown table>.getHeroData(slot11, slot12, slot13, slot14, slot15)
+[3E 0A 01 09]		 40	[  0]	TSETB	 10	9	1	; slot9[1] = <unknown table>.getHeroData
+[36 0A 0B 00]		 41	[  0]	GGET 	 10		12	; slot10 = _env["HeroController"]
+[12 0C 0A 00]		 42	[  0]	MOV  	 12		10	; slot12 = HeroController
+[39 0A 07 0A]		 43	[  0]	TGETS	 10	10	16	; slot10 = HeroController.getInstance
+[42 0A 02 02]		 44	[  0]	CALL 	 10	2	2	; slot10 = HeroController.getInstance(slot11)
+[12 0C 0A 00]		 45	[  0]	MOV  	 12		10	; slot12 = HeroController.getInstance
+[39 0A 08 0A]		 46	[  0]	TGETS	 10	10	15	; slot10 = HeroController.getInstance.getModel
+[42 0A 02 02]		 47	[  0]	CALL 	 10	2	2	; slot10 = HeroController.getInstance.getModel(slot11)
+[12 0C 0A 00]		 48	[  0]	MOV  	 12		10	; slot12 = HeroController.getInstance.getModel
+[39 0A 0C 0A]		 49	[  0]	TGETS	 10	10	11	; slot10 = HeroController.getInstance.getModel.getHeroList
+[42 0A 02 02]		 50	[  0]	CALL 	 10	2	2	; slot10 = HeroController.getInstance.getModel.getHeroList(slot11)
+[36 0B 0D 00]		 51	[  0]	GGET 	 11		10	; slot11 = _env["pairs"]
+[12 0D 0A 00]		 52	[  0]	MOV  	 13		10	; slot13 = HeroController.getInstance.getModel.getHeroList
+[42 0B 02 04]		 53	[  0]	CALL 	 11	4	2	; slot11, slot12, slot13 = pairs(HeroController.getInstance.getModel)
+[48 0E 13 80]		 54	[  0]	ISNEXT	 14		19	; Verify ITERN at 74; goto 74
+[36 10 0E 00]		 55	[  0]	GGET 	 16		9	; slot16 = _env["ipairs"]
+[12 12 09 00]		 56	[  0]	MOV  	 18		9	; slot18 = slot9
+[42 10 02 04]		 57	[  0]	CALL 	 16	4	2	; slot16, slot17, slot18 = ipairs(slot17)
+[58 13 0D 80]		 58	[  0]	JMP  	 19		13	; 	goto 72
+[38 15 13 08]		 59	[  0]	TGETV	 21	8	19	; slot21 = slot8[slot19]
+[0B 15 00 00]		 60	[  0]	ISNEP	 21		0	; if slot21 ~= nil
+[58 15 02 80]		 61	[  0]	JMP  	 21		2	; 	goto 64
+[34 15 00 00]		 62	[  0]	TNEW 	 21		0	; slot21 = new table( array: 0, dict: 1)
+[3C 15 13 08]		 63	[  0]	TSETV	 21	8	19	; slot8[slot19] = slot21
+[39 15 02 14]		 64	[  0]	TGETS	 21	20	21	; slot21 = slot20.star
+[39 16 02 0F]		 65	[  0]	TGETS	 22	15	21	; slot22 = slot15.star
+[05 15 16 00]		 66	[  0]	ISNEV	 21		22	; if <unknown table>.star ~= <unknown table>.star
+[58 15 04 80]		 67	[  0]	JMP  	 21		4	; 	goto 72
+[2D 15 00 00]		 68	[  0]	UGET 	 21		0	; slot21 = uv0"unknwon"
+[38 17 13 08]		 69	[  0]	TGETV	 23	8	19	; slot23 = slot8[slot19]
+[12 18 0F 00]		 70	[  0]	MOV  	 24		15	; slot24 = slot15
+[42 15 03 01]		 71	[  0]	CALL 	 21	1	3	;  = uv0"unknown"(<unknown table>.star, slot23)
+[45 13 03 03]		 72	[  0]	ITERC	 19	3	3	; slot19, slot20, slot21 = ipairs, slot17, slot18; slot19, slot20 = ipairs(slot17, slot18)
+[52 13 F1 7F]		 73	[  0]	ITERL	 19		-15	; slot18 = slot19; if slot19 != nil goto 59
+[46 0E 03 03]		 74	[  0]	ITERN	 14	3	3	; slot14, slot15, slot16 = pairs, HeroController.getInstance.getModel, HeroController.getInstance.getModel.getHeroList; slot14, slot15 = pairs(HeroController.getInstance.getModel, HeroController.getInstance.getModel.getHeroList)
+[52 0E EB 7F]		 75	[  0]	ITERL	 14		-21	; HeroController.getInstance.getModel.getHeroList = slot14; if slot14 != nil goto 55
+[36 0B 06 00]		 76	[  0]	GGET 	 11		17	; slot11 = _env["BackpackController"]
+[12 0D 0B 00]		 77	[  0]	MOV  	 13		11	; slot13 = BackpackController
+[39 0B 07 0B]		 78	[  0]	TGETS	 11	11	16	; slot11 = BackpackController.getInstance
+[42 0B 02 02]		 79	[  0]	CALL 	 11	2	2	; slot11 = BackpackController.getInstance(HeroController.getInstance.getModel)
+[12 0D 0B 00]		 80	[  0]	MOV  	 13		11	; slot13 = BackpackController.getInstance
+[39 0B 08 0B]		 81	[  0]	TGETS	 11	11	15	; slot11 = BackpackController.getInstance.getModel
+[42 0B 02 02]		 82	[  0]	CALL 	 11	2	2	; slot11 = BackpackController.getInstance.getModel(HeroController.getInstance.getModel)
+[12 0D 0B 00]		 83	[  0]	MOV  	 13		11	; slot13 = BackpackController.getInstance.getModel
+[39 0B 0F 0B]		 84	[  0]	TGETS	 11	11	8	; slot11 = BackpackController.getInstance.getModel.getHeroHunList
+[42 0B 02 02]		 85	[  0]	CALL 	 11	2	2	; slot11 = BackpackController.getInstance.getModel.getHeroHunList(HeroController.getInstance.getModel)
+[36 0C 0D 00]		 86	[  0]	GGET 	 12		10	; slot12 = _env["pairs"]
+[12 0E 0B 00]		 87	[  0]	MOV  	 14		11	; slot14 = BackpackController.getInstance.getModel.getHeroHunList
+[42 0C 02 04]		 88	[  0]	CALL 	 12	4	2	; slot12, slot13, slot14 = pairs(BackpackController.getInstance.getModel)
+[48 0F 2A 80]		 89	[  0]	ISNEXT	 15		42	; Verify ITERN at 132; goto 132
+[39 11 10 10]		 90	[  0]	TGETS	 17	16	7	; slot17 = slot16.config
+[0F 00 11 00]		 91	[  0]	ISF  	   		17	; if not <unknown table>.config
+[58 12 27 80]		 92	[  0]	JMP  	 18		39	; 	goto 132
+[36 11 0E 00]		 93	[  0]	GGET 	 17		9	; slot17 = _env["ipairs"]
+[12 13 09 00]		 94	[  0]	MOV  	 19		9	; slot19 = slot9
+[42 11 02 04]		 95	[  0]	CALL 	 17	4	2	; slot17, slot18, slot19 = ipairs(slot18)
+[58 14 21 80]		 96	[  0]	JMP  	 20		33	; 	goto 130
+[38 16 14 08]		 97	[  0]	TGETV	 22	8	20	; slot22 = slot8[slot20]
+[0B 16 00 00]		 98	[  0]	ISNEP	 22		0	; if slot22 ~= nil
+[58 16 02 80]		 99	[  0]	JMP  	 22		2	; 	goto 102
+[34 16 00 00]		100	[  0]	TNEW 	 22		0	; slot22 = new table( array: 0, dict: 1)
+[3C 16 14 08]		101	[  0]	TSETV	 22	8	20	; slot8[slot20] = slot22
+[38 16 14 09]		102	[  0]	TGETV	 22	9	20	; slot22 = slot9[slot20]
+[39 16 11 16]		103	[  0]	TGETS	 22	22	6	; slot22 = slot22.bid
+[09 16 01 00]		104	[  0]	ISNEN	 22		1	; if <unknown table>.bid ~= 0
+[58 16 18 80]		105	[  0]	JMP  	 22		24	; 	goto 130
+[39 16 10 10]		106	[  0]	TGETS	 22	16	7	; slot22 = slot16.config
+[39 16 12 16]		107	[  0]	TGETS	 22	22	5	; slot22 = <unknown table>.config.camp_type
+[39 17 10 10]		108	[  0]	TGETS	 23	16	7	; slot23 = slot16.config
+[39 17 13 17]		109	[  0]	TGETS	 23	23	4	; slot23 = <unknown table>.config.eqm_jie
+[39 18 02 15]		110	[  0]	TGETS	 24	21	21	; slot24 = slot21.star
+[05 18 17 00]		111	[  0]	ISNEV	 24		23	; if <unknown table>.star ~= <unknown table>.config.eqm_jie
+[58 18 11 80]		112	[  0]	JMP  	 24		17	; 	goto 130
+[29 18 01 00]		113	[  0]	KSHORT	 24		1	; slot24 = 1
+[39 19 14 10]		114	[  0]	TGETS	 25	16	3	; slot25 = slot16.quantity
+[29 1A 01 00]		115	[  0]	KSHORT	 26		1	; slot26 = 1
+[4D 18 0D 80]		116	[  0]	FORI 	 24		13	; for slot27 = slot24,slot25,slot26 else goto 130
+[34 1C 00 00]		117	[  0]	TNEW 	 28		0	; slot28 = new table( array: 0, dict: 1)
+[18 1D 02 16]		118	[  0]	MULVN	 29	22	2	; slot29 = <unknown table>.config.camp_type * 10
+[20 1D 1D 1B]		119	[  0]	ADDVV	 29	27	29	; slot29 = slot27 + slot29
+[14 1D 1D 00]		120	[  0]	UNM  	 29		29	; slot29 = -slot29
+[3D 1D 15 1C]		121	[  0]	TSETS	 29	28	2	; slot28.id = slot29
+[39 1D 15 1C]		122	[  0]	TGETS	 29	28	2	; slot29 = slot28.id
+[3D 1D 16 1C]		123	[  0]	TSETS	 29	28	1	; slot28.partner_id = <unknown table>.id
+[3D 10 17 1C]		124	[  0]	TSETS	 16	28	0	; slot28.good_vo = slot16
+[2D 1D 00 00]		125	[  0]	UGET 	 29		0	; slot29 = uv0"unknwon"
+[38 1F 14 08]		126	[  0]	TGETV	 31	8	20	; slot31 = slot8[slot20]
+[12 20 1C 00]		127	[  0]	MOV  	 32		28	; slot32 = slot28
+[42 1D 03 01]		128	[  0]	CALL 	 29	1	3	;  = uv0"unknown"(slot30, slot31)
+[4F 18 F3 7F]		129	[  0]	FORL 	 24		-13	; slot27 = slot27 + slot26; if cmp(slot27, sign slot26,  <unknown table>.quantity) goto 117
+[45 14 03 03]		130	[  0]	ITERC	 20	3	3	; slot20, slot21, slot22 = ipairs, slot18, slot19; slot20, slot21 = ipairs(slot18, slot19)
+[52 14 DD 7F]		131	[  0]	ITERL	 20		-35	; slot19 = slot20; if slot20 != nil goto 97
+[46 0F 03 03]		132	[  0]	ITERN	 15	3	3	; slot15, slot16, slot17 = pairs, BackpackController.getInstance.getModel, BackpackController.getInstance.getModel.getHeroHunList; slot15, slot16 = pairs(BackpackController.getInstance.getModel, BackpackController.getInstance.getModel.getHeroHunList)
+[52 0F D4 7F]		133	[  0]	ITERL	 15		-44	; BackpackController.getInstance.getModel.getHeroHunList = slot15; if slot15 != nil goto 90
+[15 0C 08 00]		134	[  0]	LEN  	 12		8	; slot12 = #slot8
+[39 0D 03 04]		135	[  0]	TGETS	 13	4	20	; slot13 = slot4.cost_hero
+[3A 0D 02 0D]		136	[  0]	TGETB	 13	13	2	; slot13 = <unknown table>.cost_hero[2]
+[03 0C 0D 00]		137	[  0]	ISGT 	 12		13	; if slot12 > slot13
+[58 0C 01 80]		138	[  0]	JMP  	 12		1	; 	goto 140
+[16 03 00 03]		139	[  0]	ADDVN	  3	3	0	; slot3 = slot3 + 1
+[29 0C 02 00]		140	[  0]	KSHORT	 12		2	; slot12 = 2
+[03 0C 03 00]		141	[  0]	ISGT 	 12		3	; if slot12 > slot3
+[58 0C 01 80]		142	[  0]	JMP  	 12		1	; 	goto 144
+[2B 02 02 00]		143	[  0]	KPRI 	  2		2	; slot2 = true
+[4C 02 02 00]		144	[  0]	RET1 	  2		2	; return slot2
+[3D 03 14 02]	 34	[  0]	TSETS	  3	2	53	; FruitTreasureModel.checkCanStarUp = slot3
+[36 02 00 00]	 35	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 36	[  0]	FNEW 	  3		50	; N/A:0-0: 2 args, 0 upvalues, 8 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 00 00]		  1	[  0]	GGET 	  2		12	; slot2 = _env["type"]
+[12 04 01 00]		  2	[  0]	MOV  	  4		1	; slot4 = slot1
+[42 02 02 02]		  3	[  0]	CALL 	  2	2	2	; slot2 = type(slot3)
+[06 02 01 00]		  4	[  0]	ISEQS	  2		11	; if slot2 == "number"
+[58 02 04 80]		  5	[  0]	JMP  	  2		4	; 	goto 10
+[36 02 02 00]		  6	[  0]	GGET 	  2		10	; slot2 = _env["tonumber"]
+[12 04 01 00]		  7	[  0]	MOV  	  4		1	; slot4 = slot1
+[42 02 02 02]		  8	[  0]	CALL 	  2	2	2	; slot2 = tonumber(slot3)
+[12 01 02 00]		  9	[  0]	MOV  	  1		2	; slot1 = slot2
+[36 02 03 00]		 10	[  0]	GGET 	  2		9	; slot2 = _env["Config"]
+[39 02 04 02]		 11	[  0]	TGETS	  2	2	8	; slot2 = Config.BlastiaData
+[39 02 05 02]		 12	[  0]	TGETS	  2	2	7	; slot2 = Config.BlastiaData.data_get_blastia
+[38 02 01 02]		 13	[  0]	TGETV	  2	2	1	; slot2 = Config.BlastiaData.data_get_blastia[slot1]
+[39 02 06 02]		 14	[  0]	TGETS	  2	2	6	; slot2 = slot2.piece_num
+[36 03 03 00]		 15	[  0]	GGET 	  3		9	; slot3 = _env["Config"]
+[39 03 04 03]		 16	[  0]	TGETS	  3	3	8	; slot3 = Config.BlastiaData
+[39 03 05 03]		 17	[  0]	TGETS	  3	3	7	; slot3 = Config.BlastiaData.data_get_blastia
+[38 03 01 03]		 18	[  0]	TGETV	  3	3	1	; slot3 = Config.BlastiaData.data_get_blastia[slot1]
+[39 03 07 03]		 19	[  0]	TGETS	  3	3	5	; slot3 = slot3.piece_id
+[36 04 08 00]		 20	[  0]	GGET 	  4		4	; slot4 = _env["BackpackController"]
+[12 06 04 00]		 21	[  0]	MOV  	  6		4	; slot6 = BackpackController
+[39 04 09 04]		 22	[  0]	TGETS	  4	4	3	; slot4 = BackpackController.getInstance
+[42 04 02 02]		 23	[  0]	CALL 	  4	2	2	; slot4 = BackpackController.getInstance(slot5)
+[12 06 04 00]		 24	[  0]	MOV  	  6		4	; slot6 = BackpackController.getInstance
+[39 04 0A 04]		 25	[  0]	TGETS	  4	4	2	; slot4 = BackpackController.getInstance.getModel
+[42 04 02 02]		 26	[  0]	CALL 	  4	2	2	; slot4 = BackpackController.getInstance.getModel(slot5)
+[12 06 04 00]		 27	[  0]	MOV  	  6		4	; slot6 = BackpackController.getInstance.getModel
+[39 04 0B 04]		 28	[  0]	TGETS	  4	4	1	; slot4 = BackpackController.getInstance.getModel.getItemNumByBid
+[12 07 03 00]		 29	[  0]	MOV  	  7		3	; slot7 = <unknown table>.piece_id
+[42 04 03 02]		 30	[  0]	CALL 	  4	2	3	; slot4 = BackpackController.getInstance.getModel.getItemNumByBid(slot5, BackpackController.getInstance.getModel)
+[12 05 04 00]		 31	[  0]	MOV  	  5		4	; slot5 = BackpackController.getInstance.getModel.getItemNumByBid
+[27 06 0C 00]		 32	[  0]	KSTR 	  6		0	; slot6 = "/"
+[12 07 02 00]		 33	[  0]	MOV  	  7		2	; slot7 = <unknown table>.piece_num
+[26 05 07 05]		 34	[  0]	CAT  	  5	5	7	; slot5 = BackpackController.getInstance.getModel.getItemNumByBid .. slot6 .. <unknown table>.piece_num
+[4C 05 02 00]		 35	[  0]	RET1 	  5		2	; return slot5
+[3D 03 16 02]	 37	[  0]	TSETS	  3	2	51	; FruitTreasureModel.getActive = slot3
+[36 02 00 00]	 38	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 39	[  0]	FNEW 	  3		48	; N/A:0-0: 5 args, 1 upvalues, 11 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[34 05 00 00]		  1	[  0]	TNEW 	  5		0	; slot5 = new table( array: 0, dict: 1)
+[0C 06 02 00]		  2	[  0]	ISTC 	  6		2	; slot6 = slot2; if slot2
+[58 06 01 80]		  3	[  0]	JMP  	  6		1	; 	goto 5
+[29 06 00 00]		  4	[  0]	KSHORT	  6		0	; slot6 = 0
+[3D 06 00 05]		  5	[  0]	TSETS	  6	5	10	; slot5.star = slot6
+[0C 06 03 00]		  6	[  0]	ISTC 	  6		3	; slot6 = slot3; if slot3
+[58 06 01 80]		  7	[  0]	JMP  	  6		1	; 	goto 9
+[29 06 00 00]		  8	[  0]	KSHORT	  6		0	; slot6 = 0
+[3D 06 01 05]		  9	[  0]	TSETS	  6	5	9	; slot5.count = slot6
+[2D 06 00 00]		 10	[  0]	UGET 	  6		0	; slot6 = uv0"unknwon"
+[27 08 03 00]		 11	[  0]	KSTR 	  8		7	; slot8 = "%s/%s"
+[29 09 00 00]		 12	[  0]	KSHORT	  9		0	; slot9 = 0
+[12 0A 03 00]		 13	[  0]	MOV  	 10		3	; slot10 = slot3
+[42 06 04 02]		 14	[  0]	CALL 	  6	2	4	; slot6 = uv0"unknown"(slot7, slot8, slot9)
+[3D 06 02 05]		 15	[  0]	TSETS	  6	5	8	; slot5.lev = uv0"unknown"
+[0B 01 00 00]		 16	[  0]	ISNEP	  1		0	; if slot1 ~= nil
+[58 06 04 80]		 17	[  0]	JMP  	  6		4	; 	goto 22
+[29 06 00 00]		 18	[  0]	KSHORT	  6		0	; slot6 = 0
+[3D 06 04 05]		 19	[  0]	TSETS	  6	5	6	; slot5.bid = slot6
+[3D 04 05 05]		 20	[  0]	TSETS	  4	5	5	; slot5.camp_type = slot4
+[58 06 0E 80]		 21	[  0]	JMP  	  6		14	; 	goto 36
+[36 06 06 00]		 22	[  0]	GGET 	  6		4	; slot6 = _env["Config"]
+[39 06 07 06]		 23	[  0]	TGETS	  6	6	3	; slot6 = Config.PartnerData
+[39 06 08 06]		 24	[  0]	TGETS	  6	6	2	; slot6 = Config.PartnerData.data_partner_base
+[38 06 01 06]		 25	[  0]	TGETV	  6	6	1	; slot6 = Config.PartnerData.data_partner_base[slot1]
+[0F 00 06 00]		 26	[  0]	ISF  	   		6	; if not slot6
+[58 07 06 80]		 27	[  0]	JMP  	  7		6	; 	goto 34
+[3D 01 04 05]		 28	[  0]	TSETS	  1	5	6	; slot5.bid = slot1
+[39 07 05 06]		 29	[  0]	TGETS	  7	6	5	; slot7 = slot6.camp_type
+[3D 07 05 05]		 30	[  0]	TSETS	  7	5	5	; slot5.camp_type = <unknown table>.camp_type
+[39 07 09 06]		 31	[  0]	TGETS	  7	6	1	; slot7 = slot6.name
+[3D 07 09 05]		 32	[  0]	TSETS	  7	5	1	; slot5.name = <unknown table>.name
+[58 07 02 80]		 33	[  0]	JMP  	  7		2	; 	goto 36
+[2B 07 00 00]		 34	[  0]	KPRI 	  7		0	; slot7 = nil
+[4C 07 02 00]		 35	[  0]	RET1 	  7		2	; return slot7
+[34 06 00 00]		 36	[  0]	TNEW 	  6		0	; slot6 = new table( array: 0, dict: 1)
+[3D 06 0A 05]		 37	[  0]	TSETS	  6	5	0	; slot5.dic_select_list = slot6
+[4C 05 02 00]		 38	[  0]	RET1 	  5		2	; return slot5
+[3D 03 18 02]	 40	[  0]	TSETS	  3	2	49	; FruitTreasureModel.getHeroData = slot3
+[36 02 00 00]	 41	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 42	[  0]	FNEW 	  3		46	; N/A:0-0: 4 args, 0 upvalues, 17 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[0C 04 01 00]		  1	[  0]	ISTC 	  4		1	; slot4 = slot1; if slot1
+[58 04 01 80]		  2	[  0]	JMP  	  4		1	; 	goto 4
+[29 04 00 00]		  3	[  0]	KSHORT	  4		0	; slot4 = 0
+[34 05 00 00]		  4	[  0]	TNEW 	  5		0	; slot5 = new table( array: 0, dict: 1)
+[39 06 00 05]		  5	[  0]	TGETS	  6	5	9	; slot6 = slot5.star_list
+[0B 06 00 00]		  6	[  0]	ISNEP	  6		0	; if <unknown table>.star_list ~= nil
+[58 06 02 80]		  7	[  0]	JMP  	  6		2	; 	goto 10
+[34 06 00 00]		  8	[  0]	TNEW 	  6		0	; slot6 = new table( array: 0, dict: 1)
+[3D 06 00 05]		  9	[  0]	TSETS	  6	5	9	; slot5.star_list = slot6
+[39 06 01 05]		 10	[  0]	TGETS	  6	5	8	; slot6 = slot5.star_list2
+[0B 06 00 00]		 11	[  0]	ISNEP	  6		0	; if <unknown table>.star_list2 ~= nil
+[58 06 02 80]		 12	[  0]	JMP  	  6		2	; 	goto 15
+[34 06 00 00]		 13	[  0]	TNEW 	  6		0	; slot6 = new table( array: 0, dict: 1)
+[3D 06 01 05]		 14	[  0]	TSETS	  6	5	8	; slot5.star_list2 = slot6
+[36 06 02 00]		 15	[  0]	GGET 	  6		7	; slot6 = _env["pairs"]
+[39 08 00 05]		 16	[  0]	TGETS	  8	5	9	; slot8 = slot5.star_list
+[42 06 02 04]		 17	[  0]	CALL 	  6	4	2	; slot6, slot7, slot8 = pairs(slot7)
+[48 09 04 80]		 18	[  0]	ISNEXT	  9		4	; Verify ITERN at 23; goto 23
+[12 0D 0A 00]		 19	[  0]	MOV  	 13		10	; slot13 = slot10
+[39 0B 03 0A]		 20	[  0]	TGETS	 11	10	6	; slot11 = slot10.setVisible
+[2B 0E 01 00]		 21	[  0]	KPRI 	 14		1	; slot14 = false
+[42 0B 03 01]		 22	[  0]	CALL 	 11	1	3	;  = <unknown table>.setVisible(slot12, slot13)
+[46 09 03 03]		 23	[  0]	ITERN	  9	3	3	; slot9, slot10, slot11 = pairs, slot7, <unknown table>.star_list; slot9, slot10 = pairs(slot7, <unknown table>.star_list)
+[52 09 FA 7F]		 24	[  0]	ITERL	  9		-6	; <unknown table>.star_list = slot9; if slot9 != nil goto 19
+[36 06 02 00]		 25	[  0]	GGET 	  6		7	; slot6 = _env["pairs"]
+[39 08 01 05]		 26	[  0]	TGETS	  8	5	8	; slot8 = slot5.star_list2
+[42 06 02 04]		 27	[  0]	CALL 	  6	4	2	; slot6, slot7, slot8 = pairs(slot7)
+[48 09 04 80]		 28	[  0]	ISNEXT	  9		4	; Verify ITERN at 33; goto 33
+[12 0D 0A 00]		 29	[  0]	MOV  	 13		10	; slot13 = slot10
+[39 0B 03 0A]		 30	[  0]	TGETS	 11	10	6	; slot11 = slot10.setVisible
+[2B 0E 01 00]		 31	[  0]	KPRI 	 14		1	; slot14 = false
+[42 0B 03 01]		 32	[  0]	CALL 	 11	1	3	;  = <unknown table>.setVisible(slot12, slot13)
+[46 09 03 03]		 33	[  0]	ITERN	  9	3	3	; slot9, slot10, slot11 = pairs, slot7, <unknown table>.star_list2; slot9, slot10 = pairs(slot7, <unknown table>.star_list2)
+[52 09 FA 7F]		 34	[  0]	ITERL	  9		-6	; <unknown table>.star_list2 = slot9; if slot9 != nil goto 29
+		 35	[  0]	FNEW 	  6		5	; N/A:0-0: 3 args, 1 upvalues, 19 slots
+			
+			;;;; constant tables ;;;;
+			;;;; instructions ;;;;
+[29 03 11 00]			  1	[  0]	KSHORT	  3		17	; slot3 = 17
+[14 04 00 00]			  2	[  0]	UNM  	  4		0	; slot4 = -slot0
+[22 04 03 04]			  3	[  0]	MULVV	  4	4	3	; slot4 = slot4 * slot3
+[18 04 00 04]			  4	[  0]	MULVN	  4	4	0	; slot4 = slot4 * 0.5
+[18 05 00 03]			  5	[  0]	MULVN	  5	3	0	; slot5 = slot3 * 0.5
+[20 04 05 04]			  6	[  0]	ADDVV	  4	4	5	; slot4 = slot4 + slot5
+[29 05 01 00]			  7	[  0]	KSHORT	  5		1	; slot5 = 1
+[12 06 00 00]			  8	[  0]	MOV  	  6		0	; slot6 = slot0
+[29 07 01 00]			  9	[  0]	KSHORT	  7		1	; slot7 = 1
+[4D 05 24 80]			 10	[  0]	FORI 	  5		36	; for slot8 = slot5,slot6,slot7 else goto 47
+[38 09 08 02]			 11	[  0]	TGETV	  9	2	8	; slot9 = slot2[slot8]
+[0E 00 09 00]			 12	[  0]	IST  	   		9	; if slot9
+[58 09 13 80]			 13	[  0]	JMP  	  9		19	; 	goto 33
+[36 09 00 00]			 14	[  0]	GGET 	  9		5	; slot9 = _env["createImage"]
+[2D 0B 00 00]			 15	[  0]	UGET 	 11		0	; slot11 = uv0"unknwon"
+[12 0C 01 00]			 16	[  0]	MOV  	 12		1	; slot12 = slot1
+[29 0D 00 00]			 17	[  0]	KSHORT	 13		0	; slot13 = 0
+[29 0E 0A 00]			 18	[  0]	KSHORT	 14		10	; slot14 = 10
+[36 0F 01 00]			 19	[  0]	GGET 	 15		4	; slot15 = _env["cc"]
+[39 0F 02 0F]			 20	[  0]	TGETS	 15	15	3	; slot15 = cc.p
+[2A 11 00 00]			 21	[  0]	KNUM 	 17		0	; slot17 = 0.5
+[2A 12 00 00]			 22	[  0]	KNUM 	 18		0	; slot18 = 0.5
+[42 0F 03 02]			 23	[  0]	CALL 	 15	2	3	; slot15 = cc.p(slot16, slot17)
+[2B 10 02 00]			 24	[  0]	KPRI 	 16		2	; slot16 = true
+[29 11 00 00]			 25	[  0]	KSHORT	 17		0	; slot17 = 0
+[2B 12 01 00]			 26	[  0]	KPRI 	 18		1	; slot18 = false
+[42 09 09 02]			 27	[  0]	CALL 	  9	2	9	; slot9 = createImage(slot10, uv0"unknown", slot12, slot13, slot14, cc.p, slot16, slot17)
+[12 0C 09 00]			 28	[  0]	MOV  	 12		9	; slot12 = slot9
+[39 0A 03 09]			 29	[  0]	TGETS	 10	9	2	; slot10 = slot9.setScale
+[2A 0D 01 00]			 30	[  0]	KNUM 	 13		1	; slot13 = 1.5
+[42 0A 03 01]			 31	[  0]	CALL 	 10	1	3	;  = <unknown table>.setScale(uv0"unknown", slot12)
+[3C 09 08 02]			 32	[  0]	TSETV	  9	2	8	; slot2[slot8] = slot9
+[38 09 08 02]			 33	[  0]	TGETV	  9	2	8	; slot9 = slot2[slot8]
+[12 0B 09 00]			 34	[  0]	MOV  	 11		9	; slot11 = slot9
+[39 09 04 09]			 35	[  0]	TGETS	  9	9	1	; slot9 = slot9.setVisible
+[2B 0C 02 00]			 36	[  0]	KPRI 	 12		2	; slot12 = true
+[42 09 03 01]			 37	[  0]	CALL 	  9	1	3	;  = <unknown table>.setVisible(<unknown table>.setScale, slot11)
+[38 09 08 02]			 38	[  0]	TGETV	  9	2	8	; slot9 = slot2[slot8]
+[12 0B 09 00]			 39	[  0]	MOV  	 11		9	; slot11 = slot9
+[39 09 05 09]			 40	[  0]	TGETS	  9	9	0	; slot9 = slot9.setPositionX
+[17 0C 02 08]			 41	[  0]	SUBVN	 12	8	2	; slot12 = slot8 - 1
+[22 0C 03 0C]			 42	[  0]	MULVV	 12	12	3	; slot12 = slot12 * slot3
+[20 0C 0C 04]			 43	[  0]	ADDVV	 12	4	12	; slot12 = slot4 + slot12
+[16 0C 03 0C]			 44	[  0]	ADDVN	 12	12	3	; slot12 = slot12 + 60
+[42 09 03 01]			 45	[  0]	CALL 	  9	1	3	;  = <unknown table>.setPositionX(<unknown table>.setScale, slot11)
+[4F 05 DC 7F]			 46	[  0]	FORL 	  5		-36	; slot8 = slot8 + slot7; if cmp(slot8, sign slot7,  slot6) goto 11
+[4B 00 01 00]			 47	[  0]	RET0 	  0		1	; return
+[36 07 05 00]		 36	[  0]	GGET 	  7		4	; slot7 = _env["PathTool"]
+[39 07 06 07]		 37	[  0]	TGETS	  7	7	3	; slot7 = PathTool.getResFrame
+[27 09 07 00]		 38	[  0]	KSTR 	  9		2	; slot9 = "yanfubaoshu"
+[27 0A 08 00]		 39	[  0]	KSTR 	 10		1	; slot10 = "star"
+[42 07 03 02]		 40	[  0]	CALL 	  7	2	3	; slot7 = PathTool.getResFrame(<unknown table>.star_list2, slot9)
+[36 08 05 00]		 41	[  0]	GGET 	  8		4	; slot8 = _env["PathTool"]
+[39 08 06 08]		 42	[  0]	TGETS	  8	8	3	; slot8 = PathTool.getResFrame
+[27 0A 07 00]		 43	[  0]	KSTR 	 10		2	; slot10 = "yanfubaoshu"
+[27 0B 09 00]		 44	[  0]	KSTR 	 11		0	; slot11 = "starbg"
+[42 08 03 02]		 45	[  0]	CALL 	  8	2	3	; slot8 = PathTool.getResFrame(slot9, slot10)
+[12 09 06 00]		 46	[  0]	MOV  	  9		6	; slot9 = slot6
+[12 0B 03 00]		 47	[  0]	MOV  	 11		3	; slot11 = slot3
+[12 0C 08 00]		 48	[  0]	MOV  	 12		8	; slot12 = PathTool.getResFrame
+[39 0D 01 05]		 49	[  0]	TGETS	 13	5	8	; slot13 = slot5.star_list2
+[42 09 04 01]		 50	[  0]	CALL 	  9	1	4	;  = slot9(slot10, slot11, PathTool.getResFrame)
+[12 09 06 00]		 51	[  0]	MOV  	  9		6	; slot9 = slot6
+[12 0B 03 00]		 52	[  0]	MOV  	 11		3	; slot11 = slot3
+[12 0C 07 00]		 53	[  0]	MOV  	 12		7	; slot12 = PathTool.getResFrame
+[39 0D 00 05]		 54	[  0]	TGETS	 13	5	9	; slot13 = slot5.star_list
+[42 09 04 01]		 55	[  0]	CALL 	  9	1	4	;  = slot9(slot10, slot11, PathTool.getResFrame)
+[29 09 01 00]		 56	[  0]	KSHORT	  9		1	; slot9 = 1
+[12 0A 03 00]		 57	[  0]	MOV  	 10		3	; slot10 = slot3
+[29 0B 01 00]		 58	[  0]	KSHORT	 11		1	; slot11 = 1
+[4D 09 09 80]		 59	[  0]	FORI 	  9		9	; for PathTool.getResFrame = slot9,slot10,slot11 else goto 69
+[01 04 0C 00]		 60	[  0]	ISGE 	  4		12	; if slot4 >= PathTool.getResFrame
+[58 0D 06 80]		 61	[  0]	JMP  	 13		6	; 	goto 68
+[39 0D 00 05]		 62	[  0]	TGETS	 13	5	9	; slot13 = slot5.star_list
+[38 0D 0C 0D]		 63	[  0]	TGETV	 13	13	12	; slot13 = <unknown table>.star_list[PathTool.getResFrame]
+[12 0F 0D 00]		 64	[  0]	MOV  	 15		13	; slot15 = slot13
+[39 0D 03 0D]		 65	[  0]	TGETS	 13	13	6	; slot13 = slot13.setVisible
+[2B 10 01 00]		 66	[  0]	KPRI 	 16		1	; slot16 = false
+[42 0D 03 01]		 67	[  0]	CALL 	 13	1	3	;  = <unknown table>.setVisible(slot14, slot15)
+[4F 09 F7 7F]		 68	[  0]	FORL 	  9		-9	; PathTool.getResFrame = PathTool.getResFrame + slot11; if cmp(PathTool.getResFrame, sign slot11,  slot10) goto 60
+[32 00 00 80]		 69	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 70
+[4C 05 02 00]		 70	[  0]	RET1 	  5		2	; return slot5
+[3D 03 1A 02]	 43	[  0]	TSETS	  3	2	47	; FruitTreasureModel.createStar = slot3
+[36 02 00 00]	 44	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 45	[  0]	FNEW 	  3		44	; N/A:0-0: 2 args, 0 upvalues, 3 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[29 02 00 00]		  1	[  0]	KSHORT	  2		0	; slot2 = 0
+[09 01 00 00]		  2	[  0]	ISNEN	  1		0	; if slot1 ~= 1
+[58 03 02 80]		  3	[  0]	JMP  	  3		2	; 	goto 6
+[29 02 06 00]		  4	[  0]	KSHORT	  2		6	; slot2 = 6
+[58 03 0B 80]		  5	[  0]	JMP  	  3		11	; 	goto 17
+[09 01 01 00]		  6	[  0]	ISNEN	  1		1	; if slot1 ~= 2
+[58 03 02 80]		  7	[  0]	JMP  	  3		2	; 	goto 10
+[29 02 05 00]		  8	[  0]	KSHORT	  2		5	; slot2 = 5
+[58 03 07 80]		  9	[  0]	JMP  	  3		7	; 	goto 17
+[09 01 02 00]		 10	[  0]	ISNEN	  1		2	; if slot1 ~= 3
+[58 03 02 80]		 11	[  0]	JMP  	  3		2	; 	goto 14
+[29 02 04 00]		 12	[  0]	KSHORT	  2		4	; slot2 = 4
+[58 03 03 80]		 13	[  0]	JMP  	  3		3	; 	goto 17
+[09 01 03 00]		 14	[  0]	ISNEN	  1		3	; if slot1 ~= 4
+[58 03 01 80]		 15	[  0]	JMP  	  3		1	; 	goto 17
+[29 02 03 00]		 16	[  0]	KSHORT	  2		3	; slot2 = 3
+[4C 02 02 00]		 17	[  0]	RET1 	  2		2	; return slot2
+[3D 03 1C 02]	 46	[  0]	TSETS	  3	2	45	; FruitTreasureModel.getStarMax = slot3
+[36 02 00 00]	 47	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 48	[  0]	FNEW 	  3		42	; N/A:0-0: 2 args, 0 upvalues, 3 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[29 02 00 00]		  1	[  0]	KSHORT	  2		0	; slot2 = 0
+[09 01 00 00]		  2	[  0]	ISNEN	  1		0	; if slot1 ~= 1
+[58 03 02 80]		  3	[  0]	JMP  	  3		2	; 	goto 6
+[29 02 50 00]		  4	[  0]	KSHORT	  2		80	; slot2 = 80
+[58 03 0B 80]		  5	[  0]	JMP  	  3		11	; 	goto 17
+[09 01 01 00]		  6	[  0]	ISNEN	  1		1	; if slot1 ~= 2
+[58 03 02 80]		  7	[  0]	JMP  	  3		2	; 	goto 10
+[29 02 46 00]		  8	[  0]	KSHORT	  2		70	; slot2 = 70
+[58 03 07 80]		  9	[  0]	JMP  	  3		7	; 	goto 17
+[09 01 02 00]		 10	[  0]	ISNEN	  1		2	; if slot1 ~= 3
+[58 03 02 80]		 11	[  0]	JMP  	  3		2	; 	goto 14
+[29 02 28 00]		 12	[  0]	KSHORT	  2		40	; slot2 = 40
+[58 03 03 80]		 13	[  0]	JMP  	  3		3	; 	goto 17
+[09 01 03 00]		 14	[  0]	ISNEN	  1		3	; if slot1 ~= 4
+[58 03 01 80]		 15	[  0]	JMP  	  3		1	; 	goto 17
+[29 02 1E 00]		 16	[  0]	KSHORT	  2		30	; slot2 = 30
+[4C 02 02 00]		 17	[  0]	RET1 	  2		2	; return slot2
+[3D 03 1E 02]	 49	[  0]	TSETS	  3	2	43	; FruitTreasureModel.getLvMax = slot3
+[36 02 00 00]	 50	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 51	[  0]	FNEW 	  3		40	; N/A:0-0: 2 args, 0 upvalues, 16 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[0F 00 01 00]		  1	[  0]	ISF  	   		1	; if not slot1
+[58 02 19 80]		  2	[  0]	JMP  	  2		25	; 	goto 28
+[36 02 00 00]		  3	[  0]	GGET 	  2		5	; slot2 = _env["pairs"]
+[39 04 01 00]		  4	[  0]	TGETS	  4	0	4	; slot4 = slot0.alllist
+[42 02 02 04]		  5	[  0]	CALL 	  2	4	2	; slot2, slot3, slot4 = pairs(slot3)
+[48 05 13 80]		  6	[  0]	ISNEXT	  5		19	; Verify ITERN at 26; goto 26
+[36 07 00 00]		  7	[  0]	GGET 	  7		5	; slot7 = _env["pairs"]
+[39 09 02 06]		  8	[  0]	TGETS	  9	6	3	; slot9 = slot6.list
+[42 07 02 04]		  9	[  0]	CALL 	  7	4	2	; slot7, slot8, slot9 = pairs(slot8)
+[48 0A 0D 80]		 10	[  0]	ISNEXT	 10		13	; Verify ITERN at 24; goto 24
+[39 0C 03 0B]		 11	[  0]	TGETS	 12	11	2	; slot12 = slot11.id
+[39 0D 03 01]		 12	[  0]	TGETS	 13	1	2	; slot13 = slot1.id
+[05 0C 0D 00]		 13	[  0]	ISNEV	 12		13	; if <unknown table>.id ~= <unknown table>.id
+[58 0C 09 80]		 14	[  0]	JMP  	 12		9	; 	goto 24
+[12 0E 0B 00]		 15	[  0]	MOV  	 14		11	; slot14 = slot11
+[39 0C 04 0B]		 16	[  0]	TGETS	 12	11	1	; slot12 = slot11.updateList
+[12 0F 01 00]		 17	[  0]	MOV  	 15		1	; slot15 = slot1
+[42 0C 03 01]		 18	[  0]	CALL 	 12	1	3	;  = <unknown table>.updateList(<unknown table>.id, slot14)
+[12 0E 00 00]		 19	[  0]	MOV  	 14		0	; slot14 = slot0
+[39 0C 05 00]		 20	[  0]	TGETS	 12	0	0	; slot12 = slot0.checkFruitTreasureRedSingle
+[12 0F 0B 00]		 21	[  0]	MOV  	 15		11	; slot15 = slot11
+[42 0C 03 01]		 22	[  0]	CALL 	 12	1	3	;  = <unknown table>.checkFruitTreasureRedSingle(<unknown table>.id, slot14)
+[58 07 02 80]		 23	[  0]	JMP  	  7		2	; 	goto 26
+[46 0A 03 03]		 24	[  0]	ITERN	 10	3	3	; slot10, slot11, slot12 = pairs, slot8, <unknown table>.list; slot10, slot11 = pairs(slot8, <unknown table>.list)
+[52 0A F1 7F]		 25	[  0]	ITERL	 10		-15	; <unknown table>.list = slot10; if slot10 != nil goto 11
+[46 05 03 03]		 26	[  0]	ITERN	  5	3	3	; slot5, slot6, slot7 = slot2, slot3, <unknown table>.alllist; slot5, slot6 = slot2(slot3, <unknown table>.alllist)
+[52 05 EB 7F]		 27	[  0]	ITERL	  5		-21	; <unknown table>.alllist = slot5; if slot5 != nil goto 7
+[4B 00 01 00]		 28	[  0]	RET0 	  0		1	; return
+[3D 03 20 02]	 52	[  0]	TSETS	  3	2	41	; FruitTreasureModel.setItemInfo = slot3
+[36 02 00 00]	 53	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 54	[  0]	FNEW 	  3		38	; N/A:0-0: 2 args, 0 upvalues, 14 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[0F 00 01 00]		  1	[  0]	ISF  	   		1	; if not slot1
+[58 02 10 80]		  2	[  0]	JMP  	  2		16	; 	goto 19
+[36 02 00 00]		  3	[  0]	GGET 	  2		3	; slot2 = _env["pairs"]
+[39 04 01 00]		  4	[  0]	TGETS	  4	0	2	; slot4 = slot0.alllist
+[42 02 02 04]		  5	[  0]	CALL 	  2	4	2	; slot2, slot3, slot4 = pairs(slot3)
+[48 05 0A 80]		  6	[  0]	ISNEXT	  5		10	; Verify ITERN at 17; goto 17
+[36 07 00 00]		  7	[  0]	GGET 	  7		3	; slot7 = _env["pairs"]
+[39 09 02 06]		  8	[  0]	TGETS	  9	6	1	; slot9 = slot6.list
+[42 07 02 04]		  9	[  0]	CALL 	  7	4	2	; slot7, slot8, slot9 = pairs(slot8)
+[48 0A 04 80]		 10	[  0]	ISNEXT	 10		4	; Verify ITERN at 15; goto 15
+[39 0C 03 0B]		 11	[  0]	TGETS	 12	11	0	; slot12 = slot11.id
+[05 0C 01 00]		 12	[  0]	ISNEV	 12		1	; if <unknown table>.id ~= slot1
+[58 0C 01 80]		 13	[  0]	JMP  	 12		1	; 	goto 15
+[4C 0B 02 00]		 14	[  0]	RET1 	 11		2	; return slot11
+[46 0A 03 03]		 15	[  0]	ITERN	 10	3	3	; slot10, slot11, slot12 = pairs, slot8, <unknown table>.list; slot10, slot11 = pairs(slot8, <unknown table>.list)
+[52 0A FA 7F]		 16	[  0]	ITERL	 10		-6	; <unknown table>.list = slot10; if slot10 != nil goto 11
+[46 05 03 03]		 17	[  0]	ITERN	  5	3	3	; slot5, slot6, slot7 = slot2, slot3, <unknown table>.alllist; slot5, slot6 = slot2(slot3, <unknown table>.alllist)
+[52 05 F4 7F]		 18	[  0]	ITERL	  5		-12	; <unknown table>.alllist = slot5; if slot5 != nil goto 7
+[4B 00 01 00]		 19	[  0]	RET0 	  0		1	; return
+[3D 03 22 02]	 55	[  0]	TSETS	  3	2	39	; FruitTreasureModel.getItemInfo = slot3
+[36 02 00 00]	 56	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 57	[  0]	FNEW 	  3		36	; N/A:0-0: 3 args, 0 upvalues, 6 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[12 03 01 00]		  1	[  0]	MOV  	  3		1	; slot3 = slot1
+[27 04 00 00]		  2	[  0]	KSTR 	  4		4	; slot4 = "_"
+[12 05 02 00]		  3	[  0]	MOV  	  5		2	; slot5 = slot2
+[26 03 05 03]		  4	[  0]	CAT  	  3	3	5	; slot3 = slot3 .. slot4 .. slot5
+[36 04 01 00]		  5	[  0]	GGET 	  4		3	; slot4 = _env["Config"]
+[39 04 02 04]		  6	[  0]	TGETS	  4	4	2	; slot4 = Config.BlastiaData
+[39 04 03 04]		  7	[  0]	TGETS	  4	4	1	; slot4 = Config.BlastiaData.data_upgrade_star
+[38 04 03 04]		  8	[  0]	TGETV	  4	4	3	; slot4 = Config.BlastiaData.data_upgrade_star[slot3]
+[39 04 04 04]		  9	[  0]	TGETS	  4	4	0	; slot4 = slot4.limit_lev
+[4C 04 02 00]		 10	[  0]	RET1 	  4		2	; return <unknown table>.limit_lev
+[3D 03 24 02]	 58	[  0]	TSETS	  3	2	37	; FruitTreasureModel.getMaxLvByStar = slot3
+[36 02 00 00]	 59	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 60	[  0]	FNEW 	  3		34	; N/A:0-0: 3 args, 0 upvalues, 6 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[12 03 01 00]		  1	[  0]	MOV  	  3		1	; slot3 = slot1
+[27 04 00 00]		  2	[  0]	KSTR 	  4		3	; slot4 = "_"
+[16 05 00 02]		  3	[  0]	ADDVN	  5	2	0	; slot5 = slot2 + 1
+[26 03 05 03]		  4	[  0]	CAT  	  3	3	5	; slot3 = slot3 .. slot4 .. slot5
+[36 04 01 00]		  5	[  0]	GGET 	  4		2	; slot4 = _env["Config"]
+[39 04 02 04]		  6	[  0]	TGETS	  4	4	1	; slot4 = Config.BlastiaData
+[39 04 03 04]		  7	[  0]	TGETS	  4	4	0	; slot4 = Config.BlastiaData.data_upgrade_level
+[38 04 03 04]		  8	[  0]	TGETV	  4	4	3	; slot4 = Config.BlastiaData.data_upgrade_level[slot3]
+[4C 04 02 00]		  9	[  0]	RET1 	  4		2	; return slot4
+[3D 03 26 02]	 61	[  0]	TSETS	  3	2	35	; FruitTreasureModel.getLvUpCost = slot3
+[36 02 00 00]	 62	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 63	[  0]	FNEW 	  3		32	; N/A:0-0: 3 args, 0 upvalues, 6 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[12 03 01 00]		  1	[  0]	MOV  	  3		1	; slot3 = slot1
+[27 04 00 00]		  2	[  0]	KSTR 	  4		3	; slot4 = "_"
+[16 05 00 02]		  3	[  0]	ADDVN	  5	2	0	; slot5 = slot2 + 1
+[26 03 05 03]		  4	[  0]	CAT  	  3	3	5	; slot3 = slot3 .. slot4 .. slot5
+[36 04 01 00]		  5	[  0]	GGET 	  4		2	; slot4 = _env["Config"]
+[39 04 02 04]		  6	[  0]	TGETS	  4	4	1	; slot4 = Config.BlastiaData
+[39 04 03 04]		  7	[  0]	TGETS	  4	4	0	; slot4 = Config.BlastiaData.data_upgrade_star
+[38 04 03 04]		  8	[  0]	TGETV	  4	4	3	; slot4 = Config.BlastiaData.data_upgrade_star[slot3]
+[4C 04 02 00]		  9	[  0]	RET1 	  4		2	; return slot4
+[3D 03 28 02]	 64	[  0]	TSETS	  3	2	33	; FruitTreasureModel.getStarUpCost = slot3
+[36 02 00 00]	 65	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 66	[  0]	FNEW 	  3		30	; N/A:0-0: 2 args, 0 upvalues, 13 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 00 00]		  1	[  0]	GGET 	  2		6	; slot2 = _env["Config"]
+[39 02 01 02]		  2	[  0]	TGETS	  2	2	5	; slot2 = Config.BlastiaData
+[39 02 02 02]		  3	[  0]	TGETS	  2	2	4	; slot2 = Config.BlastiaData.data_node_increase
+[34 03 00 00]		  4	[  0]	TNEW 	  3		0	; slot3 = new table( array: 0, dict: 1)
+[36 04 03 00]		  5	[  0]	GGET 	  4		3	; slot4 = _env["pairs"]
+[12 06 02 00]		  6	[  0]	MOV  	  6		2	; slot6 = Config.BlastiaData.data_node_increase
+[42 04 02 04]		  7	[  0]	CALL 	  4	4	2	; slot4, slot5, slot6 = pairs(slot5)
+[48 07 08 80]		  8	[  0]	ISNEXT	  7		8	; Verify ITERN at 17; goto 17
+[39 09 04 08]		  9	[  0]	TGETS	  9	8	2	; slot9 = slot8.type
+[05 09 01 00]		 10	[  0]	ISNEV	  9		1	; if <unknown table>.type ~= slot1
+[58 09 05 80]		 11	[  0]	JMP  	  9		5	; 	goto 17
+[36 09 05 00]		 12	[  0]	GGET 	  9		1	; slot9 = _env["table"]
+[39 09 06 09]		 13	[  0]	TGETS	  9	9	0	; slot9 = table.insert
+[12 0B 03 00]		 14	[  0]	MOV  	 11		3	; slot11 = slot3
+[12 0C 08 00]		 15	[  0]	MOV  	 12		8	; slot12 = slot8
+[42 09 03 01]		 16	[  0]	CALL 	  9	1	3	;  = table.insert(slot10, slot11)
+[46 07 03 03]		 17	[  0]	ITERN	  7	3	3	; slot7, slot8, slot9 = pairs, slot5, Config.BlastiaData.data_node_increase; slot7, slot8 = pairs(slot5, Config.BlastiaData.data_node_increase)
+[52 07 F6 7F]		 18	[  0]	ITERL	  7		-10	; Config.BlastiaData.data_node_increase = slot7; if slot7 != nil goto 9
+[4C 03 02 00]		 19	[  0]	RET1 	  3		2	; return slot3
+[3D 03 2A 02]	 67	[  0]	TSETS	  3	2	31	; FruitTreasureModel.getNodeList = slot3
+[36 02 00 00]	 68	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 69	[  0]	FNEW 	  3		28	; N/A:0-0: 3 args, 0 upvalues, 12 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[29 03 00 00]		  1	[  0]	KSHORT	  3		0	; slot3 = 0
+[36 04 00 00]		  2	[  0]	GGET 	  4		5	; slot4 = _env["Config"]
+[39 04 01 04]		  3	[  0]	TGETS	  4	4	4	; slot4 = Config.AttrData
+[39 04 02 04]		  4	[  0]	TGETS	  4	4	3	; slot4 = Config.AttrData.data_key_to_id
+[38 04 01 04]		  5	[  0]	TGETV	  4	4	1	; slot4 = Config.AttrData.data_key_to_id[slot1]
+[36 05 03 00]		  6	[  0]	GGET 	  5		2	; slot5 = _env["pairs"]
+[12 07 02 00]		  7	[  0]	MOV  	  7		2	; slot7 = slot2
+[42 05 02 04]		  8	[  0]	CALL 	  5	4	2	; slot5, slot6, slot7 = pairs(slot6)
+[48 08 04 80]		  9	[  0]	ISNEXT	  8		4	; Verify ITERN at 14; goto 14
+[39 0A 04 09]		 10	[  0]	TGETS	 10	9	1	; slot10 = slot9.attr_id
+[05 0A 04 00]		 11	[  0]	ISNEV	 10		4	; if <unknown table>.attr_id ~= slot4
+[58 0A 01 80]		 12	[  0]	JMP  	 10		1	; 	goto 14
+[39 03 05 09]		 13	[  0]	TGETS	  3	9	0	; slot3 = slot9.attr_val
+[46 08 03 03]		 14	[  0]	ITERN	  8	3	3	; slot8, slot9, slot10 = pairs, slot6, slot7; slot8, slot9 = pairs(slot6, slot7)
+[52 08 FA 7F]		 15	[  0]	ITERL	  8		-6	; slot7 = slot8; if slot8 != nil goto 10
+[4C 03 02 00]		 16	[  0]	RET1 	  3		2	; return <unknown table>.attr_val
+[3D 03 2C 02]	 70	[  0]	TSETS	  3	2	29	; FruitTreasureModel.getAttrByKey = slot3
+[36 02 00 00]	 71	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 72	[  0]	FNEW 	  3		26	; N/A:0-0: 3 args, 0 upvalues, 6 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 03 00 00]		  1	[  0]	GGET 	  3		6	; slot3 = _env["Config"]
+[39 03 01 03]		  2	[  0]	TGETS	  3	3	5	; slot3 = Config.BlastiaData
+[39 03 02 03]		  3	[  0]	TGETS	  3	3	4	; slot3 = Config.BlastiaData.data_get_blastia
+[38 03 01 03]		  4	[  0]	TGETV	  3	3	1	; slot3 = Config.BlastiaData.data_get_blastia[slot1]
+[39 03 03 03]		  5	[  0]	TGETS	  3	3	3	; slot3 = slot3.exclusive
+[38 04 02 03]		  6	[  0]	TGETV	  4	3	2	; slot4 = <unknown table>.exclusive[slot2]
+[3A 04 02 04]		  7	[  0]	TGETB	  4	4	2	; slot4 = slot4[2]
+[36 05 00 00]		  8	[  0]	GGET 	  5		6	; slot5 = _env["Config"]
+[39 05 01 05]		  9	[  0]	TGETS	  5	5	5	; slot5 = Config.BlastiaData
+[39 05 04 05]		 10	[  0]	TGETS	  5	5	2	; slot5 = Config.BlastiaData.data_effect
+[38 05 04 05]		 11	[  0]	TGETV	  5	5	4	; slot5 = Config.BlastiaData.data_effect[slot4]
+[39 05 05 05]		 12	[  0]	TGETS	  5	5	1	; slot5 = slot5.desc_effect
+[0E 00 05 00]		 13	[  0]	IST  	   		5	; if <unknown table>.desc_effect
+[58 06 01 80]		 14	[  0]	JMP  	  6		1	; 	goto 16
+[27 05 06 00]		 15	[  0]	KSTR 	  5		0	; slot5 = ""
+[4C 05 02 00]		 16	[  0]	RET1 	  5		2	; return slot5
+[3D 03 2E 02]	 73	[  0]	TSETS	  3	2	27	; FruitTreasureModel.getExStr = slot3
+[36 02 00 00]	 74	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 75	[  0]	FNEW 	  3		24	; N/A:0-0: 2 args, 0 upvalues, 16 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 00 00]		  1	[  0]	GGET 	  2		9	; slot2 = _env["Config"]
+[39 02 01 02]		  2	[  0]	TGETS	  2	2	8	; slot2 = Config.BlastiaData
+[39 02 02 02]		  3	[  0]	TGETS	  2	2	7	; slot2 = Config.BlastiaData.data_get_blastia
+[38 02 01 02]		  4	[  0]	TGETV	  2	2	1	; slot2 = Config.BlastiaData.data_get_blastia[slot1]
+[39 02 03 02]		  5	[  0]	TGETS	  2	2	6	; slot2 = slot2.exclusive
+[36 03 04 00]		  6	[  0]	GGET 	  3		5	; slot3 = _env["star"]
+[38 03 03 02]		  7	[  0]	TGETV	  3	2	3	; slot3 = <unknown table>.exclusive[star]
+[34 04 00 00]		  8	[  0]	TNEW 	  4		0	; slot4 = new table( array: 0, dict: 1)
+[36 05 05 00]		  9	[  0]	GGET 	  5		4	; slot5 = _env["pairs"]
+[12 07 02 00]		 10	[  0]	MOV  	  7		2	; slot7 = <unknown table>.exclusive
+[42 05 02 04]		 11	[  0]	CALL 	  5	4	2	; slot5, slot6, slot7 = pairs(slot6)
+[48 08 0B 80]		 12	[  0]	ISNEXT	  8		11	; Verify ITERN at 24; goto 24
+[3A 0A 02 09]		 13	[  0]	TGETB	 10	9	2	; slot10 = slot9[2]
+[36 0B 00 00]		 14	[  0]	GGET 	 11		9	; slot11 = _env["Config"]
+[39 0B 01 0B]		 15	[  0]	TGETS	 11	11	8	; slot11 = Config.BlastiaData
+[39 0B 06 0B]		 16	[  0]	TGETS	 11	11	3	; slot11 = Config.BlastiaData.data_effect
+[38 0B 0A 0B]		 17	[  0]	TGETV	 11	11	10	; slot11 = Config.BlastiaData.data_effect[slot10]
+[39 0B 07 0B]		 18	[  0]	TGETS	 11	11	2	; slot11 = slot11.desc_effect
+[36 0C 08 00]		 19	[  0]	GGET 	 12		1	; slot12 = _env["table"]
+[39 0C 09 0C]		 20	[  0]	TGETS	 12	12	0	; slot12 = table.insert
+[12 0E 04 00]		 21	[  0]	MOV  	 14		4	; slot14 = slot4
+[12 0F 0B 00]		 22	[  0]	MOV  	 15		11	; slot15 = <unknown table>.desc_effect
+[42 0C 03 01]		 23	[  0]	CALL 	 12	1	3	;  = table.insert(slot13, slot14)
+[46 08 03 03]		 24	[  0]	ITERN	  8	3	3	; slot8, slot9, slot10 = pairs, slot6, <unknown table>.exclusive; slot8, slot9 = pairs(slot6, <unknown table>.exclusive)
+[52 08 F3 7F]		 25	[  0]	ITERL	  8		-13	; <unknown table>.exclusive = slot8; if slot8 != nil goto 13
+[4C 04 02 00]		 26	[  0]	RET1 	  4		2	; return slot4
+[3D 03 30 02]	 76	[  0]	TSETS	  3	2	25	; FruitTreasureModel.getExStrlist = slot3
+[36 02 00 00]	 77	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 78	[  0]	FNEW 	  3		22	; N/A:0-0: 2 args, 0 upvalues, 14 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 00 00]		  1	[  0]	GGET 	  2		3	; slot2 = _env["pairs"]
+[39 04 01 00]		  2	[  0]	TGETS	  4	0	2	; slot4 = slot0.alllist
+[42 02 02 04]		  3	[  0]	CALL 	  2	4	2	; slot2, slot3, slot4 = pairs(slot3)
+[48 05 0A 80]		  4	[  0]	ISNEXT	  5		10	; Verify ITERN at 15; goto 15
+[36 07 00 00]		  5	[  0]	GGET 	  7		3	; slot7 = _env["pairs"]
+[39 09 02 06]		  6	[  0]	TGETS	  9	6	1	; slot9 = slot6.list
+[42 07 02 04]		  7	[  0]	CALL 	  7	4	2	; slot7, slot8, slot9 = pairs(slot8)
+[48 0A 04 80]		  8	[  0]	ISNEXT	 10		4	; Verify ITERN at 13; goto 13
+[39 0C 03 0B]		  9	[  0]	TGETS	 12	11	0	; slot12 = slot11.piece_id
+[05 0C 01 00]		 10	[  0]	ISNEV	 12		1	; if <unknown table>.piece_id ~= slot1
+[58 0C 01 80]		 11	[  0]	JMP  	 12		1	; 	goto 13
+[4C 0B 02 00]		 12	[  0]	RET1 	 11		2	; return slot11
+[46 0A 03 03]		 13	[  0]	ITERN	 10	3	3	; slot10, slot11, slot12 = pairs, slot8, <unknown table>.list; slot10, slot11 = pairs(slot8, <unknown table>.list)
+[52 0A FA 7F]		 14	[  0]	ITERL	 10		-6	; <unknown table>.list = slot10; if slot10 != nil goto 9
+[46 05 03 03]		 15	[  0]	ITERN	  5	3	3	; slot5, slot6, slot7 = slot2, slot3, <unknown table>.alllist; slot5, slot6 = slot2(slot3, <unknown table>.alllist)
+[52 05 F4 7F]		 16	[  0]	ITERL	  5		-12	; <unknown table>.alllist = slot5; if slot5 != nil goto 5
+[4B 00 01 00]		 17	[  0]	RET0 	  0		1	; return
+[3D 03 32 02]	 79	[  0]	TSETS	  3	2	23	; FruitTreasureModel.getInfoBychip = slot3
+[36 02 00 00]	 80	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 81	[  0]	FNEW 	  3		20	; N/A:0-0: 1 args, 0 upvalues, 15 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 01 00 00]		  1	[  0]	GGET 	  1		3	; slot1 = _env["pairs"]
+[39 03 01 00]		  2	[  0]	TGETS	  3	0	2	; slot3 = slot0.alllist
+[42 01 02 04]		  3	[  0]	CALL 	  1	4	2	; slot1, slot2, slot3 = pairs(slot2)
+[48 04 0A 80]		  4	[  0]	ISNEXT	  4		10	; Verify ITERN at 15; goto 15
+[36 06 00 00]		  5	[  0]	GGET 	  6		3	; slot6 = _env["pairs"]
+[39 08 02 05]		  6	[  0]	TGETS	  8	5	1	; slot8 = slot5.list
+[42 06 02 04]		  7	[  0]	CALL 	  6	4	2	; slot6, slot7, slot8 = pairs(slot7)
+[48 09 04 80]		  8	[  0]	ISNEXT	  9		4	; Verify ITERN at 13; goto 13
+[12 0D 00 00]		  9	[  0]	MOV  	 13		0	; slot13 = slot0
+[39 0B 03 00]		 10	[  0]	TGETS	 11	0	0	; slot11 = slot0.checkFruitTreasureRedSingle
+[12 0E 0A 00]		 11	[  0]	MOV  	 14		10	; slot14 = slot10
+[42 0B 03 01]		 12	[  0]	CALL 	 11	1	3	;  = <unknown table>.checkFruitTreasureRedSingle(slot12, slot13)
+[46 09 03 03]		 13	[  0]	ITERN	  9	3	3	; slot9, slot10, slot11 = pairs, slot7, <unknown table>.list; slot9, slot10 = pairs(slot7, <unknown table>.list)
+[52 09 FA 7F]		 14	[  0]	ITERL	  9		-6	; <unknown table>.list = slot9; if slot9 != nil goto 9
+[46 04 03 03]		 15	[  0]	ITERN	  4	3	3	; slot4, slot5, slot6 = slot1, slot2, <unknown table>.alllist; slot4, slot5 = slot1(slot2, <unknown table>.alllist)
+[52 04 F4 7F]		 16	[  0]	ITERL	  4		-12	; <unknown table>.alllist = slot4; if slot4 != nil goto 5
+[4B 00 01 00]		 17	[  0]	RET0 	  0		1	; return
+[3D 03 34 02]	 82	[  0]	TSETS	  3	2	21	; FruitTreasureModel.checkFruitTreasureRedStatus = slot3
+[36 02 00 00]	 83	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 84	[  0]	FNEW 	  3		18	; N/A:0-0: 2 args, 0 upvalues, 11 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[2B 02 01 00]		  1	[  0]	KPRI 	  2		1	; slot2 = false
+[39 03 00 01]		  2	[  0]	TGETS	  3	1	10	; slot3 = slot1.isActive
+[0E 00 03 00]		  3	[  0]	IST  	   		3	; if <unknown table>.isActive
+[58 03 0A 80]		  4	[  0]	JMP  	  3		10	; 	goto 15
+[12 05 00 00]		  5	[  0]	MOV  	  5		0	; slot5 = slot0
+[39 03 01 00]		  6	[  0]	TGETS	  3	0	9	; slot3 = slot0.checkCanActive
+[39 06 02 01]		  7	[  0]	TGETS	  6	1	8	; slot6 = slot1.id
+[42 03 03 02]		  8	[  0]	CALL 	  3	2	3	; slot3 = <unknown table>.checkCanActive(slot4, slot5)
+[0F 00 03 00]		  9	[  0]	ISF  	   		3	; if not slot3
+[58 04 02 80]		 10	[  0]	JMP  	  4		2	; 	goto 13
+[2B 02 02 00]		 11	[  0]	KPRI 	  2		2	; slot2 = true
+[58 03 03 80]		 12	[  0]	JMP  	  3		3	; 	goto 16
+[2B 02 01 00]		 13	[  0]	KPRI 	  2		1	; slot2 = false
+[58 03 01 80]		 14	[  0]	JMP  	  3		1	; 	goto 16
+[2B 02 01 00]		 15	[  0]	KPRI 	  2		1	; slot2 = false
+[2B 03 01 00]		 16	[  0]	KPRI 	  3		1	; slot3 = false
+[12 06 00 00]		 17	[  0]	MOV  	  6		0	; slot6 = slot0
+[39 04 03 00]		 18	[  0]	TGETS	  4	0	7	; slot4 = slot0.checkCanLvUp
+[12 07 01 00]		 19	[  0]	MOV  	  7		1	; slot7 = slot1
+[42 04 03 02]		 20	[  0]	CALL 	  4	2	3	; slot4 = <unknown table>.checkCanLvUp(slot5, slot6)
+[0F 00 04 00]		 21	[  0]	ISF  	   		4	; if not <unknown table>.checkCanLvUp
+[58 05 05 80]		 22	[  0]	JMP  	  5		5	; 	goto 28
+[39 04 00 01]		 23	[  0]	TGETS	  4	1	10	; slot4 = slot1.isActive
+[0F 00 04 00]		 24	[  0]	ISF  	   		4	; if not <unknown table>.isActive
+[58 05 02 80]		 25	[  0]	JMP  	  5		2	; 	goto 28
+[2B 03 02 00]		 26	[  0]	KPRI 	  3		2	; slot3 = true
+[58 04 01 80]		 27	[  0]	JMP  	  4		1	; 	goto 29
+[2B 03 01 00]		 28	[  0]	KPRI 	  3		1	; slot3 = false
+[2B 04 01 00]		 29	[  0]	KPRI 	  4		1	; slot4 = false
+[12 07 00 00]		 30	[  0]	MOV  	  7		0	; slot7 = slot0
+[39 05 04 00]		 31	[  0]	TGETS	  5	0	6	; slot5 = slot0.checkCanStarUp
+[12 08 01 00]		 32	[  0]	MOV  	  8		1	; slot8 = slot1
+[42 05 03 02]		 33	[  0]	CALL 	  5	2	3	; slot5 = <unknown table>.checkCanStarUp(slot6, slot7)
+[0F 00 05 00]		 34	[  0]	ISF  	   		5	; if not <unknown table>.checkCanStarUp
+[58 06 05 80]		 35	[  0]	JMP  	  6		5	; 	goto 41
+[39 05 00 01]		 36	[  0]	TGETS	  5	1	10	; slot5 = slot1.isActive
+[0F 00 05 00]		 37	[  0]	ISF  	   		5	; if not <unknown table>.isActive
+[58 06 02 80]		 38	[  0]	JMP  	  6		2	; 	goto 41
+[2B 04 02 00]		 39	[  0]	KPRI 	  4		2	; slot4 = true
+[58 05 01 80]		 40	[  0]	JMP  	  5		1	; 	goto 42
+[2B 04 01 00]		 41	[  0]	KPRI 	  4		1	; slot4 = false
+[34 05 00 00]		 42	[  0]	TNEW 	  5		0	; slot5 = new table( array: 0, dict: 1)
+[36 06 05 00]		 43	[  0]	GGET 	  6		5	; slot6 = _env["FruitTreasureConst"]
+[39 06 06 06]		 44	[  0]	TGETS	  6	6	4	; slot6 = FruitTreasureConst.RedType
+[39 06 07 06]		 45	[  0]	TGETS	  6	6	3	; slot6 = FruitTreasureConst.RedType.Lv
+[3C 03 06 05]		 46	[  0]	TSETV	  3	5	6	; slot5[FruitTreasureConst.RedType.Lv] = slot3
+[36 06 05 00]		 47	[  0]	GGET 	  6		5	; slot6 = _env["FruitTreasureConst"]
+[39 06 06 06]		 48	[  0]	TGETS	  6	6	4	; slot6 = FruitTreasureConst.RedType
+[39 06 08 06]		 49	[  0]	TGETS	  6	6	2	; slot6 = FruitTreasureConst.RedType.Star
+[3C 04 06 05]		 50	[  0]	TSETV	  4	5	6	; slot5[FruitTreasureConst.RedType.Star] = slot4
+[36 06 05 00]		 51	[  0]	GGET 	  6		5	; slot6 = _env["FruitTreasureConst"]
+[39 06 06 06]		 52	[  0]	TGETS	  6	6	4	; slot6 = FruitTreasureConst.RedType
+[39 06 09 06]		 53	[  0]	TGETS	  6	6	1	; slot6 = FruitTreasureConst.RedType.Active
+[3C 02 06 05]		 54	[  0]	TSETV	  2	5	6	; slot5[FruitTreasureConst.RedType.Active] = slot2
+[12 08 00 00]		 55	[  0]	MOV  	  8		0	; slot8 = slot0
+[39 06 0A 00]		 56	[  0]	TGETS	  6	0	0	; slot6 = slot0.updateFruitTreasureRedStatus
+[39 09 02 01]		 57	[  0]	TGETS	  9	1	8	; slot9 = slot1.id
+[12 0A 05 00]		 58	[  0]	MOV  	 10		5	; slot10 = slot5
+[42 06 04 01]		 59	[  0]	CALL 	  6	1	4	;  = <unknown table>.updateFruitTreasureRedStatus(slot7, slot8, <unknown table>.id)
+[4B 00 01 00]		 60	[  0]	RET0 	  0		1	; return
+[3D 03 36 02]	 85	[  0]	TSETS	  3	2	19	; FruitTreasureModel.checkFruitTreasureRedSingle = slot3
+[36 02 00 00]	 86	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 87	[  0]	FNEW 	  3		16	; N/A:0-0: 3 args, 0 upvalues, 10 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[39 03 00 00]		  1	[  0]	TGETS	  3	0	6	; slot3 = slot0.fruittreasure_red_list
+[38 03 01 03]		  2	[  0]	TGETV	  3	3	1	; slot3 = <unknown table>.fruittreasure_red_list[slot1]
+[05 03 02 00]		  3	[  0]	ISNEV	  3		2	; if slot3 ~= slot2
+[58 04 01 80]		  4	[  0]	JMP  	  4		1	; 	goto 6
+[4B 00 01 00]		  5	[  0]	RET0 	  0		1	; return
+[39 04 00 00]		  6	[  0]	TGETS	  4	0	6	; slot4 = slot0.fruittreasure_red_list
+[3C 02 01 04]		  7	[  0]	TSETV	  2	4	1	; <unknown table>.fruittreasure_red_list[slot1] = slot2
+[36 04 01 00]		  8	[  0]	GGET 	  4		5	; slot4 = _env["GlobalEvent"]
+[12 06 04 00]		  9	[  0]	MOV  	  6		4	; slot6 = GlobalEvent
+[39 04 02 04]		 10	[  0]	TGETS	  4	4	4	; slot4 = GlobalEvent.getInstance
+[42 04 02 02]		 11	[  0]	CALL 	  4	2	2	; slot4 = GlobalEvent.getInstance(slot5)
+[12 06 04 00]		 12	[  0]	MOV  	  6		4	; slot6 = GlobalEvent.getInstance
+[39 04 03 04]		 13	[  0]	TGETS	  4	4	3	; slot4 = GlobalEvent.getInstance.Fire
+[36 07 04 00]		 14	[  0]	GGET 	  7		2	; slot7 = _env["FruitTreasureEvent"]
+[39 07 05 07]		 15	[  0]	TGETS	  7	7	1	; slot7 = FruitTreasureEvent.UpdateFruitTreasureRed
+[12 08 01 00]		 16	[  0]	MOV  	  8		1	; slot8 = slot1
+[12 09 02 00]		 17	[  0]	MOV  	  9		2	; slot9 = slot2
+[42 04 05 01]		 18	[  0]	CALL 	  4	1	5	;  = GlobalEvent.getInstance.Fire(slot5, GlobalEvent.getInstance, FruitTreasureEvent.UpdateFruitTreasureRed, slot8)
+[12 06 00 00]		 19	[  0]	MOV  	  6		0	; slot6 = slot0
+[39 04 06 00]		 20	[  0]	TGETS	  4	0	0	; slot4 = slot0.checkMainRed
+[42 04 02 01]		 21	[  0]	CALL 	  4	1	2	;  = <unknown table>.checkMainRed(slot5)
+[4B 00 01 00]		 22	[  0]	RET0 	  0		1	; return
+[3D 03 38 02]	 88	[  0]	TSETS	  3	2	17	; FruitTreasureModel.updateFruitTreasureRedStatus = slot3
+[36 02 00 00]	 89	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 90	[  0]	FNEW 	  3		14	; N/A:0-0: 3 args, 0 upvalues, 5 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[39 03 00 00]		  1	[  0]	TGETS	  3	0	0	; slot3 = slot0.fruittreasure_red_list
+[38 03 01 03]		  2	[  0]	TGETV	  3	3	1	; slot3 = <unknown table>.fruittreasure_red_list[slot1]
+[38 04 02 03]		  3	[  0]	TGETV	  4	3	2	; slot4 = slot3[slot2]
+[4C 04 02 00]		  4	[  0]	RET1 	  4		2	; return slot4
+[3D 03 3A 02]	 91	[  0]	TSETS	  3	2	15	; FruitTreasureModel.getFruitTreasureRedStatus = slot3
+[36 02 00 00]	 92	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 93	[  0]	FNEW 	  3		12	; N/A:0-0: 1 args, 0 upvalues, 9 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[2B 01 01 00]		  1	[  0]	KPRI 	  1		1	; slot1 = false
+[36 02 00 00]		  2	[  0]	GGET 	  2		11	; slot2 = _env["pairs"]
+[39 04 01 00]		  3	[  0]	TGETS	  4	0	10	; slot4 = slot0.fruittreasure_red_list
+[42 02 02 04]		  4	[  0]	CALL 	  2	4	2	; slot2, slot3, slot4 = pairs(slot3)
+[48 05 14 80]		  5	[  0]	ISNEXT	  5		20	; Verify ITERN at 26; goto 26
+[36 07 02 00]		  6	[  0]	GGET 	  7		9	; slot7 = _env["FruitTreasureConst"]
+[39 07 03 07]		  7	[  0]	TGETS	  7	7	8	; slot7 = FruitTreasureConst.RedType
+[39 07 04 07]		  8	[  0]	TGETS	  7	7	7	; slot7 = FruitTreasureConst.RedType.Lv
+[38 07 07 06]		  9	[  0]	TGETV	  7	6	7	; slot7 = slot6[FruitTreasureConst.RedType.Lv]
+[0E 00 07 00]		 10	[  0]	IST  	   		7	; if slot7
+[58 08 0C 80]		 11	[  0]	JMP  	  8		12	; 	goto 24
+[36 07 02 00]		 12	[  0]	GGET 	  7		9	; slot7 = _env["FruitTreasureConst"]
+[39 07 03 07]		 13	[  0]	TGETS	  7	7	8	; slot7 = FruitTreasureConst.RedType
+[39 07 05 07]		 14	[  0]	TGETS	  7	7	6	; slot7 = FruitTreasureConst.RedType.Star
+[38 07 07 06]		 15	[  0]	TGETV	  7	6	7	; slot7 = slot6[FruitTreasureConst.RedType.Star]
+[0E 00 07 00]		 16	[  0]	IST  	   		7	; if slot7
+[58 08 06 80]		 17	[  0]	JMP  	  8		6	; 	goto 24
+[36 07 02 00]		 18	[  0]	GGET 	  7		9	; slot7 = _env["FruitTreasureConst"]
+[39 07 03 07]		 19	[  0]	TGETS	  7	7	8	; slot7 = FruitTreasureConst.RedType
+[39 07 06 07]		 20	[  0]	TGETS	  7	7	5	; slot7 = FruitTreasureConst.RedType.Active
+[38 07 07 06]		 21	[  0]	TGETV	  7	6	7	; slot7 = slot6[FruitTreasureConst.RedType.Active]
+[0F 00 07 00]		 22	[  0]	ISF  	   		7	; if not slot7
+[58 08 02 80]		 23	[  0]	JMP  	  8		2	; 	goto 26
+[2B 01 02 00]		 24	[  0]	KPRI 	  1		2	; slot1 = true
+[58 02 02 80]		 25	[  0]	JMP  	  2		2	; 	goto 28
+[46 05 03 03]		 26	[  0]	ITERN	  5	3	3	; slot5, slot6, slot7 = slot2, slot3, <unknown table>.fruittreasure_red_list; slot5, slot6 = slot2(slot3, <unknown table>.fruittreasure_red_list)
+[52 05 EA 7F]		 27	[  0]	ITERL	  5		-22	; <unknown table>.fruittreasure_red_list = slot5; if slot5 != nil goto 6
+[36 02 07 00]		 28	[  0]	GGET 	  2		4	; slot2 = _env["MainSceneController"]
+[12 04 02 00]		 29	[  0]	MOV  	  4		2	; slot4 = MainSceneController
+[39 02 08 02]		 30	[  0]	TGETS	  2	2	3	; slot2 = MainSceneController.getInstance
+[42 02 02 02]		 31	[  0]	CALL 	  2	2	2	; slot2 = MainSceneController.getInstance(slot3)
+[12 04 02 00]		 32	[  0]	MOV  	  4		2	; slot4 = slot2
+[39 02 09 02]		 33	[  0]	TGETS	  2	2	2	; slot2 = slot2.setBuildRedStatus
+[36 05 0A 00]		 34	[  0]	GGET 	  5		1	; slot5 = _env["CenterSceneBuild"]
+[39 05 0B 05]		 35	[  0]	TGETS	  5	5	0	; slot5 = CenterSceneBuild.fruit
+[12 06 01 00]		 36	[  0]	MOV  	  6		1	; slot6 = slot1
+[42 02 04 01]		 37	[  0]	CALL 	  2	1	4	;  = <unknown table>.setBuildRedStatus(slot3, slot4, CenterSceneBuild.fruit)
+[4B 00 01 00]		 38	[  0]	RET0 	  0		1	; return
+[3D 03 3C 02]	 94	[  0]	TSETS	  3	2	13	; FruitTreasureModel.checkMainRed = slot3
+[36 02 00 00]	 95	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 96	[  0]	FNEW 	  3		10	; N/A:0-0: 2 args, 0 upvalues, 2 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[3D 01 00 00]		  1	[  0]	TSETS	  1	0	0	; slot0._battle_pass_info = slot1
+[4B 00 01 00]		  2	[  0]	RET0 	  0		1	; return
+[3D 03 3E 02]	 97	[  0]	TSETS	  3	2	11	; FruitTreasureModel.SetBattlePassInfo = slot3
+[36 02 00 00]	 98	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	 99	[  0]	FNEW 	  3		8	; N/A:0-0: 1 args, 0 upvalues, 2 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[39 01 00 00]		  1	[  0]	TGETS	  1	0	0	; slot1 = slot0._battle_pass_info
+[4C 01 02 00]		  2	[  0]	RET1 	  1		2	; return <unknown table>._battle_pass_info
+[3D 03 40 02]	100	[  0]	TSETS	  3	2	9	; FruitTreasureModel.GetBattlePassInfo = slot3
+[36 02 00 00]	101	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	102	[  0]	FNEW 	  3		6	; N/A:0-0: 2 args, 0 upvalues, 3 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[39 02 00 00]		  1	[  0]	TGETS	  2	0	0	; slot2 = slot0._battle_pass_info
+[0E 00 02 00]		  2	[  0]	IST  	   		2	; if <unknown table>._battle_pass_info
+[58 03 01 80]		  3	[  0]	JMP  	  3		1	; 	goto 5
+[34 02 00 00]		  4	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[38 02 01 02]		  5	[  0]	TGETV	  2	2	1	; slot2 = slot2[slot1]
+[4C 02 02 00]		  6	[  0]	RET1 	  2		2	; return slot2
+[3D 03 42 02]	103	[  0]	TSETS	  3	2	7	; FruitTreasureModel.GetBattlePassInfoByKey = slot3
+[36 02 00 00]	104	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	105	[  0]	FNEW 	  3		4	; N/A:0-0: 1 args, 0 upvalues, 21 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[2B 01 01 00]		  1	[  0]	KPRI 	  1		1	; slot1 = false
+[12 04 00 00]		  2	[  0]	MOV  	  4		0	; slot4 = slot0
+[39 02 00 00]		  3	[  0]	TGETS	  2	0	14	; slot2 = slot0.GetBattlePassInfo
+[42 02 02 02]		  4	[  0]	CALL 	  2	2	2	; slot2 = <unknown table>.GetBattlePassInfo(slot3)
+[0E 00 02 00]		  5	[  0]	IST  	   		2	; if slot2
+[58 03 01 80]		  6	[  0]	JMP  	  3		1	; 	goto 8
+[34 02 00 00]		  7	[  0]	TNEW 	  2		0	; slot2 = new table( array: 0, dict: 1)
+[39 03 01 02]		  8	[  0]	TGETS	  3	2	13	; slot3 = slot2.end_time
+[0E 00 03 00]		  9	[  0]	IST  	   		3	; if <unknown table>.end_time
+[58 04 01 80]		 10	[  0]	JMP  	  4		1	; 	goto 12
+[29 03 00 00]		 11	[  0]	KSHORT	  3		0	; slot3 = 0
+[29 04 00 00]		 12	[  0]	KSHORT	  4		0	; slot4 = 0
+[03 03 04 00]		 13	[  0]	ISGT 	  3		4	; if slot3 > slot4
+[58 03 01 80]		 14	[  0]	JMP  	  3		1	; 	goto 16
+[4B 00 01 00]		 15	[  0]	RET0 	  0		1	; return
+[39 03 02 02]		 16	[  0]	TGETS	  3	2	12	; slot3 = slot2.reward_list
+[39 04 03 02]		 17	[  0]	TGETS	  4	2	11	; slot4 = slot2.junior_status
+[36 05 04 00]		 18	[  0]	GGET 	  5		10	; slot5 = _env["TRUE"]
+[04 04 05 00]		 19	[  0]	ISEQV	  4		5	; if <unknown table>.junior_status == TRUE
+[58 04 02 80]		 20	[  0]	JMP  	  4		2	; 	goto 23
+[2B 04 01 00]		 21	[  0]	KPRI 	  4		1	; slot4 = false
+[58 05 01 80]		 22	[  0]	JMP  	  5		1	; 	goto 24
+[2B 04 02 00]		 23	[  0]	KPRI 	  4		2	; slot4 = true
+[39 05 05 02]		 24	[  0]	TGETS	  5	2	9	; slot5 = slot2.senior_status
+[36 06 04 00]		 25	[  0]	GGET 	  6		10	; slot6 = _env["TRUE"]
+[04 05 06 00]		 26	[  0]	ISEQV	  5		6	; if <unknown table>.senior_status == TRUE
+[58 05 02 80]		 27	[  0]	JMP  	  5		2	; 	goto 30
+[2B 05 01 00]		 28	[  0]	KPRI 	  5		1	; slot5 = false
+[58 06 01 80]		 29	[  0]	JMP  	  6		1	; 	goto 31
+[2B 05 02 00]		 30	[  0]	KPRI 	  5		2	; slot5 = true
+[39 06 06 02]		 31	[  0]	TGETS	  6	2	8	; slot6 = slot2.activity
+[36 07 07 00]		 32	[  0]	GGET 	  7		7	; slot7 = _env["tableLen"]
+[12 09 03 00]		 33	[  0]	MOV  	  9		3	; slot9 = <unknown table>.reward_list
+[42 07 02 02]		 34	[  0]	CALL 	  7	2	2	; slot7 = tableLen(slot8)
+[36 08 08 00]		 35	[  0]	GGET 	  8		6	; slot8 = _env["Config"]
+[39 08 09 08]		 36	[  0]	TGETS	  8	8	5	; slot8 = Config.BlastiaActivityOrderData
+[39 08 0A 08]		 37	[  0]	TGETS	  8	8	4	; slot8 = Config.BlastiaActivityOrderData.data_reward_list
+[0E 00 08 00]		 38	[  0]	IST  	   		8	; if Config.BlastiaActivityOrderData.data_reward_list
+[58 09 01 80]		 39	[  0]	JMP  	  9		1	; 	goto 41
+[4B 00 01 00]		 40	[  0]	RET0 	  0		1	; return
+[15 09 08 00]		 41	[  0]	LEN  	  9		8	; slot9 = #Config.BlastiaActivityOrderData.data_reward_list
+[03 07 09 00]		 42	[  0]	ISGT 	  7		9	; if tableLen > slot9
+[58 09 37 80]		 43	[  0]	JMP  	  9		55	; 	goto 99
+[29 09 00 00]		 44	[  0]	KSHORT	  9		0	; slot9 = 0
+[29 0A 00 00]		 45	[  0]	KSHORT	 10		0	; slot10 = 0
+[29 0B 00 00]		 46	[  0]	KSHORT	 11		0	; slot11 = 0
+[36 0C 0B 00]		 47	[  0]	GGET 	 12		3	; slot12 = _env["ipairs"]
+[12 0E 08 00]		 48	[  0]	MOV  	 14		8	; slot14 = Config.BlastiaActivityOrderData.data_reward_list
+[42 0C 02 04]		 49	[  0]	CALL 	 12	4	2	; slot12, slot13, slot14 = ipairs(slot13)
+[58 0F 1C 80]		 50	[  0]	JMP  	 15		28	; 	goto 79
+[38 11 0F 03]		 51	[  0]	TGETV	 17	3	15	; slot17 = <unknown table>.reward_list[slot15]
+[39 12 06 10]		 52	[  0]	TGETS	 18	16	8	; slot18 = slot16.activity
+[02 12 06 00]		 53	[  0]	ISLE 	 18		6	; if <unknown table>.activity <= <unknown table>.activity
+[58 12 02 80]		 54	[  0]	JMP  	 18		2	; 	goto 57
+[2B 12 01 00]		 55	[  0]	KPRI 	 18		1	; slot18 = false
+[58 13 01 80]		 56	[  0]	JMP  	 19		1	; 	goto 58
+[2B 12 02 00]		 57	[  0]	KPRI 	 18		2	; slot18 = true
+[0F 00 12 00]		 58	[  0]	ISF  	   		18	; if not slot18
+[58 13 03 80]		 59	[  0]	JMP  	 19		3	; 	goto 63
+[16 13 00 09]		 60	[  0]	ADDVN	 19	9	0	; slot19 = slot9 + 1
+[0C 09 13 00]		 61	[  0]	ISTC 	  9		19	; slot9 = slot19; if slot19
+[58 14 00 80]		 62	[  0]	JMP  	 20		0	; 	goto 63
+[0F 00 11 00]		 63	[  0]	ISF  	   		17	; if not slot17
+[58 13 0E 80]		 64	[  0]	JMP  	 19		14	; 	goto 79
+[39 13 0C 11]		 65	[  0]	TGETS	 19	17	2	; slot19 = slot17.status1
+[36 14 04 00]		 66	[  0]	GGET 	 20		10	; slot20 = _env["TRUE"]
+[05 13 14 00]		 67	[  0]	ISNEV	 19		20	; if <unknown table>.status1 ~= TRUE
+[58 13 03 80]		 68	[  0]	JMP  	 19		3	; 	goto 72
+[16 13 00 0A]		 69	[  0]	ADDVN	 19	10	0	; slot19 = slot10 + 1
+[0C 0A 13 00]		 70	[  0]	ISTC 	 10		19	; slot10 = slot19; if slot19
+[58 14 00 80]		 71	[  0]	JMP  	 20		0	; 	goto 72
+[39 13 0D 11]		 72	[  0]	TGETS	 19	17	1	; slot19 = slot17.status2
+[36 14 04 00]		 73	[  0]	GGET 	 20		10	; slot20 = _env["TRUE"]
+[05 13 14 00]		 74	[  0]	ISNEV	 19		20	; if <unknown table>.status2 ~= TRUE
+[58 13 03 80]		 75	[  0]	JMP  	 19		3	; 	goto 79
+[16 13 00 0B]		 76	[  0]	ADDVN	 19	11	0	; slot19 = slot11 + 1
+[0C 0B 13 00]		 77	[  0]	ISTC 	 11		19	; slot11 = slot19; if slot19
+[58 14 00 80]		 78	[  0]	JMP  	 20		0	; 	goto 79
+[45 0F 03 03]		 79	[  0]	ITERC	 15	3	3	; slot15, slot16, slot17 = ipairs, slot13, Config.BlastiaActivityOrderData.data_reward_list; slot15, slot16 = ipairs(slot13, Config.BlastiaActivityOrderData.data_reward_list)
+[52 0F E2 7F]		 80	[  0]	ITERL	 15		-30	; Config.BlastiaActivityOrderData.data_reward_list = slot15; if slot15 != nil goto 51
+[01 0A 09 00]		 81	[  0]	ISGE 	 10		9	; if slot10 >= slot9
+[58 0C 02 80]		 82	[  0]	JMP  	 12		2	; 	goto 85
+[0E 00 04 00]		 83	[  0]	IST  	   		4	; if slot4
+[58 0C 04 80]		 84	[  0]	JMP  	 12		4	; 	goto 89
+[01 0B 09 00]		 85	[  0]	ISGE 	 11		9	; if slot11 >= slot9
+[58 0C 03 80]		 86	[  0]	JMP  	 12		3	; 	goto 90
+[0F 00 05 00]		 87	[  0]	ISF  	   		5	; if not slot5
+[58 0C 01 80]		 88	[  0]	JMP  	 12		1	; 	goto 90
+[2B 01 02 00]		 89	[  0]	KPRI 	  1		2	; slot1 = true
+[39 0C 0E 00]		 90	[  0]	TGETS	 12	0	0	; slot12 = slot0._flag_first
+[0F 00 0C 00]		 91	[  0]	ISF  	   		12	; if not <unknown table>._flag_first
+[58 0D 04 80]		 92	[  0]	JMP  	 13		4	; 	goto 97
+[15 0C 08 00]		 93	[  0]	LEN  	 12		8	; slot12 = #Config.BlastiaActivityOrderData.data_reward_list
+[01 09 0C 00]		 94	[  0]	ISGE 	  9		12	; if slot9 >= slot12
+[58 0C 01 80]		 95	[  0]	JMP  	 12		1	; 	goto 97
+[2B 01 02 00]		 96	[  0]	KPRI 	  1		2	; slot1 = true
+[2B 0C 01 00]		 97	[  0]	KPRI 	 12		1	; slot12 = false
+[3D 0C 0E 00]		 98	[  0]	TSETS	 12	0	0	; slot0._flag_first = slot12
+[4C 01 02 00]		 99	[  0]	RET1 	  1		2	; return slot1
+[3D 03 44 02]	106	[  0]	TSETS	  3	2	5	; FruitTreasureModel.CheckBattlePassRedState = slot3
+[36 02 00 00]	107	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	108	[  0]	FNEW 	  3		2	; N/A:0-0: 2 args, 0 upvalues, 4 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[36 02 00 00]		  1	[  0]	GGET 	  2		3	; slot2 = _env["Config"]
+[39 02 01 02]		  2	[  0]	TGETS	  2	2	2	; slot2 = Config.BlastiaActivityOrderData
+[39 02 02 02]		  3	[  0]	TGETS	  2	2	1	; slot2 = Config.BlastiaActivityOrderData.data_constant
+[0E 00 02 00]		  4	[  0]	IST  	   		2	; if Config.BlastiaActivityOrderData.data_constant
+[58 03 01 80]		  5	[  0]	JMP  	  3		1	; 	goto 7
+[4B 00 01 00]		  6	[  0]	RET0 	  0		1	; return
+[38 03 01 02]		  7	[  0]	TGETV	  3	2	1	; slot3 = Config.BlastiaActivityOrderData.data_constant[slot1]
+[0F 00 03 00]		  8	[  0]	ISF  	   		3	; if not slot3
+[58 04 07 80]		  9	[  0]	JMP  	  4		7	; 	goto 17
+[38 03 01 02]		 10	[  0]	TGETV	  3	2	1	; slot3 = Config.BlastiaActivityOrderData.data_constant[slot1]
+[39 03 03 03]		 11	[  0]	TGETS	  3	3	0	; slot3 = slot3.val
+[0F 00 03 00]		 12	[  0]	ISF  	   		3	; if not <unknown table>.val
+[58 04 03 80]		 13	[  0]	JMP  	  4		3	; 	goto 17
+[38 03 01 02]		 14	[  0]	TGETV	  3	2	1	; slot3 = Config.BlastiaActivityOrderData.data_constant[slot1]
+[39 03 03 03]		 15	[  0]	TGETS	  3	3	0	; slot3 = slot3.val
+[4C 03 02 00]		 16	[  0]	RET1 	  3		2	; return <unknown table>.val
+[4B 00 01 00]		 17	[  0]	RET0 	  0		1	; return
+[3D 03 46 02]	109	[  0]	TSETS	  3	2	3	; FruitTreasureModel.GetPassConfigByKey = slot3
+[36 02 00 00]	110	[  0]	GGET 	  2		73	; slot2 = _env["FruitTreasureModel"]
+	111	[  0]	FNEW 	  3		0	; N/A:0-0: 1 args, 0 upvalues, 1 slots
+		
+		;;;; constant tables ;;;;
+		;;;; instructions ;;;;
+[4B 00 01 00]		  1	[  0]	RET0 	  0		1	; return
+[3D 03 48 02]	112	[  0]	TSETS	  3	2	1	; FruitTreasureModel.__delete = slot3
+[32 00 00 80]	113	[  0]	UCLO 	  0		0	; nil uvs >= r0; goto 114
+[4B 00 01 00]	114	[  0]	RET0 	  0		1	; return
+	

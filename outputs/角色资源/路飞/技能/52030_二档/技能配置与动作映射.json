@@ -1,0 +1,378 @@
+{
+  "levels": [
+    {
+      "bid": 520301,
+      "name": "二档",
+      "owner": "路飞",
+      "group": 52030,
+      "next_id": 520302,
+      "level": 1,
+      "is_normal_skill": 0,
+      "cd": 0,
+      "type": "passive_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 5,
+      "count": 1,
+      "effect_list": [
+        5203001,
+        5203011
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "路飞在生命值低于60%时触发二档，二档时驱散身上的异常状态，并提升自身15%攻击力、5%暴击率；二档状态下免疫所有控制技能，【Jet.枪】技能伤害提升至180%且无冷却时间，二档持续4回合,一场战斗只能触发1次",
+      "open_desc": "激活条件：英雄到达<div fontcolor=45a536>3阶</div>自动激活",
+      "skill_desc": "升级条件：英雄到达<div fontcolor=45a536>6星</div>自动升级",
+      "icon": "22973",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [
+        [
+          16401,
+          19802
+        ]
+      ],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 0,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 5176,
+        "raw": "[520301.0] = \"{520301, \\\"二档\\\", \\\"路飞\\\", 52030, 520302, 1, 0, 0, \\\"passive_skill\\\", 0, 0, 5, 1, {5203001,5203011}, {}, 0, \\\"路飞在生命值低于60%时触发二档，二档时驱散身上的异常状态，并提升自身15%攻击力、5%暴击率；二档状态下免疫所有控制技能，【Jet.枪】技能伤害提升至180%且无冷却时间，二档持续4回合,一场战斗只能触发1次\\\", \\\"激活条件：英雄到达<div fontcolor=45a536>3阶</div>自动激活\\\", \\\"升级条件：英雄到达<div fontcolor=45a536>6星</div>自动升级\\\", \\\"22973\\\", 0, 1, 1, {{16401,19802}}, 0, 0, 0, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5203001,
+          "group": 52030,
+          "target_type": 4,
+          "effect_type": 10,
+          "action_list": [
+            [
+              20001
+            ]
+          ],
+          "anime_res": "",
+          "anime_user_atk": "",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3776,
+            "raw": "[5203001.0] = \"{5203001, 52030, 4, 10, {{20001}}, \\\"\\\", \\\"\\\", {}, {}, {}, {}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          }
+        },
+        {
+          "bid": 5203011,
+          "group": 52030,
+          "target_type": 4,
+          "effect_type": 2,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action9",
+          "anime_user_atk": "action9",
+          "bact_effect_list": [
+            15611
+          ],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "b_skill_sprint",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "no-hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 1706,
+            "raw": "[5203011.0] = \"{5203011, 52030, 4, 2, {{10003,10026}}, \\\"action9\\\", \\\"action9\\\", {15611}, {}, {}, {}, {}, {}, 0, \\\"b_skill_sprint\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"no-hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          },
+          "organized_action_path": "../../动作/06_二档_action9",
+          "device_verified": false
+        }
+      ]
+    },
+    {
+      "bid": 520302,
+      "name": "二档",
+      "owner": "路飞",
+      "group": 52030,
+      "next_id": 520303,
+      "level": 2,
+      "is_normal_skill": 0,
+      "cd": 0,
+      "type": "passive_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 5,
+      "count": 1,
+      "effect_list": [
+        5203002,
+        5203012
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "路飞在生命值低于60%时触发二档，二档时驱散身上的异常状态，并提升自身30%攻击力、10%暴击率；二档状态下免疫所有控制技能，【Jet.枪】技能伤害提升至231%且无冷却时间，二档持续4回合,一场战斗只能触发1次",
+      "open_desc": "激活条件：英雄到达<div fontcolor=45a536>3阶</div>自动激活",
+      "skill_desc": "升级条件：英雄到达<div fontcolor=45a536>9星</div>自动升级",
+      "icon": "22973",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [
+        [
+          16402,
+          19802
+        ]
+      ],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 0,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 5184,
+        "raw": "[520302.0] = \"{520302, \\\"二档\\\", \\\"路飞\\\", 52030, 520303, 2, 0, 0, \\\"passive_skill\\\", 0, 0, 5, 1, {5203002,5203012}, {}, 0, \\\"路飞在生命值低于60%时触发二档，二档时驱散身上的异常状态，并提升自身30%攻击力、10%暴击率；二档状态下免疫所有控制技能，【Jet.枪】技能伤害提升至231%且无冷却时间，二档持续4回合,一场战斗只能触发1次\\\", \\\"激活条件：英雄到达<div fontcolor=45a536>3阶</div>自动激活\\\", \\\"升级条件：英雄到达<div fontcolor=45a536>9星</div>自动升级\\\", \\\"22973\\\", 0, 1, 1, {{16402,19802}}, 0, 0, 0, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5203002,
+          "group": 52030,
+          "target_type": 4,
+          "effect_type": 10,
+          "action_list": [
+            [
+              20001
+            ]
+          ],
+          "anime_res": "",
+          "anime_user_atk": "",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 4696,
+            "raw": "[5203002.0] = \"{5203002, 52030, 4, 10, {{20001}}, \\\"\\\", \\\"\\\", {}, {}, {}, {}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          }
+        },
+        {
+          "bid": 5203012,
+          "group": 52030,
+          "target_type": 4,
+          "effect_type": 2,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action9",
+          "anime_user_atk": "action9",
+          "bact_effect_list": [
+            15611
+          ],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "b_skill_sprint",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "no-hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 159,
+            "raw": "[5203012.0] = \"{5203012, 52030, 4, 2, {{10003,10026}}, \\\"action9\\\", \\\"action9\\\", {15611}, {}, {}, {}, {}, {}, 0, \\\"b_skill_sprint\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"no-hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          },
+          "organized_action_path": "../../动作/06_二档_action9",
+          "device_verified": false
+        }
+      ]
+    },
+    {
+      "bid": 520303,
+      "name": "二档",
+      "owner": "路飞",
+      "group": 52030,
+      "next_id": 0,
+      "level": 3,
+      "is_normal_skill": 0,
+      "cd": 0,
+      "type": "passive_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 5,
+      "count": 1,
+      "effect_list": [
+        5203003,
+        5203013
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "路飞在生命值低于60%时触发二档，二档时驱散身上的异常状态，并提升自身30%攻击力、10%暴击率、20%暴击伤害；二档状态下免疫所有控制技能，【Jet.枪】技能伤害提升至281%且无冷却时间，二档持续4回合,一场战斗只能触发1次",
+      "open_desc": "激活条件：英雄到达<div fontcolor=45a536>3阶</div>自动激活",
+      "skill_desc": "",
+      "icon": "22973",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [
+        [
+          16403,
+          19802
+        ]
+      ],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 0,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 5192,
+        "raw": "[520303.0] = \"{520303, \\\"二档\\\", \\\"路飞\\\", 52030, 0, 3, 0, 0, \\\"passive_skill\\\", 0, 0, 5, 1, {5203003,5203013}, {}, 0, \\\"路飞在生命值低于60%时触发二档，二档时驱散身上的异常状态，并提升自身30%攻击力、10%暴击率、20%暴击伤害；二档状态下免疫所有控制技能，【Jet.枪】技能伤害提升至281%且无冷却时间，二档持续4回合,一场战斗只能触发1次\\\", \\\"激活条件：英雄到达<div fontcolor=45a536>3阶</div>自动激活\\\", \\\"\\\", \\\"22973\\\", 0, 1, 1, {{16403,19802}}, 0, 0, 0, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5203003,
+          "group": 52030,
+          "target_type": 4,
+          "effect_type": 10,
+          "action_list": [
+            [
+              20001
+            ]
+          ],
+          "anime_res": "",
+          "anime_user_atk": "",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 1703,
+            "raw": "[5203003.0] = \"{5203003, 52030, 4, 10, {{20001}}, \\\"\\\", \\\"\\\", {}, {}, {}, {}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          }
+        },
+        {
+          "bid": 5203013,
+          "group": 52030,
+          "target_type": 4,
+          "effect_type": 2,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action9",
+          "anime_user_atk": "action9",
+          "bact_effect_list": [
+            15611
+          ],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "b_skill_sprint",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "no-hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 937,
+            "raw": "[5203013.0] = \"{5203013, 52030, 4, 2, {{10003,10026}}, \\\"action9\\\", \\\"action9\\\", {15611}, {}, {}, {}, {}, {}, 0, \\\"b_skill_sprint\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"no-hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          },
+          "organized_action_path": "../../动作/06_二档_action9",
+          "device_verified": false
+        }
+      ]
+    }
+  ],
+  "status": "config_extracted_skill_orchestration_pending",
+  "warning": "Config descriptions are not evidence that combat rules, damage or effects have been implemented."
+}

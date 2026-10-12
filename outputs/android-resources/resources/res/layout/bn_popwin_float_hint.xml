@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bn_float_hide_prompt_bg"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <RelativeLayout
+        android:id="@+id/bn_rl_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/bn_iv_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bn_float_hide_prompt_01"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="关闭"/>
+        <TextView
+            android:textColor="@color/yh_white"
+            android:id="@+id/yh_tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拖到此处隐藏"
+            android:layout_below="@+id/bn_iv_content"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

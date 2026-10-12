@@ -1,0 +1,9 @@
+StoryEvent = StoryEvent or {}
+StoryEvent.SHOW_BLACK_SCREEN = "StoryEvent.SHOW_BLACK_SCREEN"
+StoryEvent.READ_CONFIG_COMPLETE = "StoryEvent.READ_CONFIG_COMPLETE"
+StoryEvent.STORY_OVER = "StoryEvent.STORY_OVER"
+StoryEvent.PLAY_NEXT_ACT = "StoryEvent.PLAY_NEXT_ACT"
+StoryEvent.SKIP_STORY = "storyevent.skip_story"
+StoryEvent.UNIT_MORPH = "storyevent.unit_morph"
+StoryEvent.BATTLE_RESULT_OVER = "StoryEvent.BATTLE_RESULT_OVER"
+StoryEvent.PREPARE_PLAY_PLOT = "StoryEvent.PREPARE_PLAY_PLOT"

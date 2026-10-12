@@ -1,0 +1,32 @@
+[
+  {
+    "action": "stand2",
+    "frames": 12,
+    "distinct_actor_frames": 12,
+    "pixels_changed_above_25": 7983
+  },
+  {
+    "action": "action1",
+    "frames": 12,
+    "distinct_actor_frames": 12,
+    "pixels_changed_above_25": 34254
+  },
+  {
+    "action": "action2",
+    "frames": 12,
+    "distinct_actor_frames": 12,
+    "pixels_changed_above_25": 66186
+  },
+  {
+    "action": "hurt",
+    "frames": 12,
+    "distinct_actor_frames": 12,
+    "pixels_changed_above_25": 12106
+  },
+  {
+    "action": "run",
+    "frames": 12,
+    "distinct_actor_frames": 12,
+    "pixels_changed_above_25": 28868
+  }
+]

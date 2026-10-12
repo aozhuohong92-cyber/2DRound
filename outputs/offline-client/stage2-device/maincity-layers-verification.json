@@ -1,0 +1,12 @@
+{
+  "apk_sha256": "dfd36c81568274208e94d56b864d7a2f33bc071e05d41488697d4778b5804cba",
+  "device": "10AF5J1JP1004SU",
+  "city_layers": 4,
+  "boot_ready": true,
+  "errors": [],
+  "limitations": [
+    "Camera uses centered crop, not yet original camera_default_x_pos=-505/parallax.",
+    "Building entries, avatar and tutorial panels not implemented.",
+    "Header still displays original CSB fixture text."
+  ]
+}

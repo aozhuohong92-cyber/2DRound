@@ -1,0 +1,6 @@
+AnimateActionEvent = AnimateActionEvent or {}
+AnimateActionEvent.YuanZhenFestval_Linght = "AnimateActionEvent.YuanZhenFestval_Linght"
+AnimateActionEvent.YuanZhenFestval_Lottery = "AnimateActionEvent.YuanZhenFestval_Lottery"
+AnimateActionEvent.YuanZhenFestval_Kitchen = "AnimateActionEvent.YuanZhenFestval_Kitchen"
+AnimateActionEvent.YuanZhenFestval_Kitchen_Lev = "AnimateActionEvent.YuanZhenFestval_Kitchen_Lev"
+AnimateActionEvent.YuanZhenFestval_Buy_Challage = "AnimateActionEvent.YuanZhenFestval_Buy_Challage"

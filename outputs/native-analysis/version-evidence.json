@@ -1,0 +1,30 @@
+[
+  {
+    "term": "cocos2d-x-3.13.1",
+    "file_offset_hex": "0xcbe140"
+  },
+  {
+    "term": "LuaJIT 2.1.0-beta3",
+    "file_offset_hex": "0xc58a08"
+  },
+  {
+    "term": "Lua 5.1",
+    "file_offset_hex": "0xc57c5b"
+  },
+  {
+    "term": "SmartSocket",
+    "file_offset_hex": "0x1974ef"
+  },
+  {
+    "term": "FlatBuffers",
+    "file_offset_hex": "0x1188f5"
+  },
+  {
+    "term": "OpenGL ES",
+    "file_offset_hex": null
+  },
+  {
+    "term": "CCGameMain",
+    "file_offset_hex": "0xd5dae"
+  }
+]

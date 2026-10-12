@@ -1,0 +1,215 @@
+--------- beginning of main
+10-11 18:36:05.832  1793  1793 I nepiece.offline: Late-enabling -Xcheck:jni
+10-11 18:36:05.853  1793  1793 I nepiece.offline: Using CollectorTypeCC GC.
+10-11 18:36:05.865  1793  1793 E nepiece.offline: BBinder_init Processname  org.local.onepiece.offline  
+10-11 18:36:05.865  1793  1793 E nepiece.offline: BBinder_init hasGetProcessName  org.local.onepiece.offline
+10-11 18:36:05.900  1793  1816 I nepiece.offline: vart_impl, update 109051904, state=109051904
+10-11 18:36:05.902  1793  1793 I nepiece.offline: AssetManager2(0x743921c778) locale list changing from [] to [zh-CN]
+10-11 18:36:05.905  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 1
+10-11 18:36:05.905  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 0
+--------- beginning of system
+10-11 18:36:05.938  1793  1839 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+10-11 18:36:05.938  1793  1839 I GameManager: __progname=org.local.onepiece.offline
+10-11 18:36:05.939  1793  1793 I nepiece.offline: AssetManager2(0x7439216698) locale list changing from [] to [zh-CN]
+10-11 18:36:05.942  1793  1839 W HidlServiceManagement: hwservicemanager is not supported on the device.
+10-11 18:36:05.942  1793  1839 I HidlServiceManagement: Trying to get transport of android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default without hwservicemanager
+10-11 18:36:05.943  1793  1839 I MMUD    : [MEMPROF] Memory instrumentation via debugfs (Experimental) enabled 0
+10-11 18:36:05.972  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 1
+10-11 18:36:05.972  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 0
+10-11 18:36:06.018  1793  1793 W SoundPool: Use of stream types is deprecated for operations other than volume control
+10-11 18:36:06.018  1793  1793 W SoundPool: See the documentation of SoundPool() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+10-11 18:36:06.026  1793  1793 W HWUI    : Image decoding logging dropped!
+10-11 18:36:06.027  1793  1793 W HWUI    : Image decoding logging dropped!
+10-11 18:36:06.027  1793  1793 W HWUI    : Image decoding logging dropped!
+10-11 18:36:06.028  1793  1793 W HWUI    : Image decoding logging dropped!
+10-11 18:36:06.054  1793  1793 W libc    : Access denied finding property "persist.vivo.ltw.enabled"
+10-11 18:36:06.067  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 1
+10-11 18:36:06.067  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 0
+10-11 18:36:06.084  1793  1793 E nepiece.offline: [perfctl] 1793 1793 FPSGO ver:7
+10-11 18:36:06.084  1793  1793 E nepiece.offline: [perfctl] 1 1 1 0
+10-11 18:36:06.104  1793  2053 I libEGL  : skip_priority_level=0, isWorkaroundEnable=1
+10-11 18:36:06.110  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 1
+10-11 18:36:06.110  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 0
+10-11 18:36:06.116  1793  1839 I GrallocExtra: gralloc_extra_query:is_SW3D 0
+10-11 18:36:06.132  1793  2053 I CrashReporter: [cocos2d-x] start init.
+10-11 18:36:06.132  1793  2053 I CrashReporter: [cocos2d-x] try get org.cocos2dx.lib.Cocos2dxActivity
+10-11 18:36:06.132  1793  2053 I CrashReporter: [cocos2d-x] init by bugly.jar
+10-11 18:36:06.136  1793  1839 I GrallocExtra: gralloc_extra_query:is_SW3D 0
+10-11 18:36:06.136  1793  1839 E MEMCWrapper: MEMC_POST_PROCESSING_ENABLE_PROPERTY false.
+10-11 18:36:06.145  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 1
+10-11 18:36:06.145  1793  1793 W VSPA    : Jni_setThreadSpeed write data pid = 1793, tid = 0, start = 0
+10-11 18:36:06.164  1793  1793 W System.err: java.lang.SecurityException: ConnectivityService: Neither user 10636 nor current process has android.permission.ACCESS_NETWORK_STATE.
+10-11 18:36:06.164  1793  1793 W System.err: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3353)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.os.Parcel.createException(Parcel.java:3337)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.os.Parcel.readException(Parcel.java:3320)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.os.Parcel.readException(Parcel.java:3262)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.net.IConnectivityManager$Stub$Proxy.getActiveNetworkInfo(IConnectivityManager.java:1939)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.net.ConnectivityManager.getActiveNetworkInfo(ConnectivityManager.java:1548)
+10-11 18:36:06.165  1793  1793 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.e(BUGLY:450)
+10-11 18:36:06.165  1793  1793 W System.err: 	at com.tencent.bugly.crashreport.crash.BuglyBroadcastRecevier.a(BUGLY:108)
+10-11 18:36:06.165  1793  1793 W System.err: 	at com.tencent.bugly.crashreport.crash.BuglyBroadcastRecevier.onReceive(BUGLY:92)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1893)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.app.LoadedApk$ReceiverDispatcher$Args.$r8$lambda$mcNAAl1SQ4MyJPyDg8TJ2x2h0Rk(Unknown Source:0)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.os.Handler.handleCallback(Handler.java:1051)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.os.Looper.loopOnce(Looper.java:266)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.os.Looper.loop(Looper.java:361)
+10-11 18:36:06.165  1793  1793 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:10340)
+10-11 18:36:06.165  1793  1793 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+10-11 18:36:06.166  1793  1793 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:675)
+10-11 18:36:06.166  1793  1793 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1002)
+10-11 18:36:06.166  1793  1793 W System.err: Caused by: android.os.RemoteException: Remote stack trace:
+10-11 18:36:06.166  1793  1793 W System.err: 	at android.app.ContextImpl.enforce(ContextImpl.java:2507)
+10-11 18:36:06.166  1793  1793 W System.err: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:2535)
+10-11 18:36:06.166  1793  1793 W System.err: 	at android.net.connectivity.com.android.server.ConnectivityService.enforceAccessPermission(ConnectivityService.java:4288)
+10-11 18:36:06.166  1793  1793 W System.err: 	at android.net.connectivity.com.android.server.ConnectivityService.getActiveNetworkInfo(ConnectivityService.java:2836)
+10-11 18:36:06.166  1793  1793 W System.err: 	at android.net.IConnectivityManager$Stub.onTransact(IConnectivityManager.java:887)
+10-11 18:36:06.180  1793  1793 I ImeTracker: org.local.onepiece.offline:3d3bc1fc: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-11 18:36:06.182  1793  2104 W System.err: java.io.FileNotFoundException: /system/build.prop: open failed: EACCES (Permission denied)
+10-11 18:36:06.182  1793  2104 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:133)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.io.FileReader.<init>(FileReader.java:60)
+10-11 18:36:06.182  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.p(BUGLY:177)
+10-11 18:36:06.182  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.d(BUGLY:226)
+10-11 18:36:06.182  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.common.info.a.q(BUGLY:343)
+10-11 18:36:06.182  1793  2104 W System.err: 	at com.tencent.bugly.proguard.a.a(BUGLY:147)
+10-11 18:36:06.182  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.biz.a.b(BUGLY:232)
+10-11 18:36:06.182  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.biz.a$a.run(BUGLY:135)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-11 18:36:06.182  1793  2104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-11 18:36:06.183  1793  2104 W System.err: 	at java.lang.Thread.run(Thread.java:1149)
+10-11 18:36:06.183  1793  2104 W System.err: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+10-11 18:36:06.183  1793  2104 W System.err: 	at libcore.io.Linux.open(Native Method)
+10-11 18:36:06.183  1793  2104 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+10-11 18:36:06.183  1793  2104 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-11 18:36:06.183  1793  2104 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:568)
+10-11 18:36:06.183  1793  2104 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:10194)
+10-11 18:36:06.183  1793  2104 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+10-11 18:36:06.183  1793  2104 W System.err: 	... 15 more
+10-11 18:36:06.199  1793  2104 W System.err: java.lang.SecurityException: ConnectivityService: Neither user 10636 nor current process has android.permission.ACCESS_NETWORK_STATE.
+10-11 18:36:06.199  1793  2104 W System.err: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3353)
+10-11 18:36:06.199  1793  2104 W System.err: 	at android.os.Parcel.createException(Parcel.java:3337)
+10-11 18:36:06.199  1793  2104 W System.err: 	at android.os.Parcel.readException(Parcel.java:3320)
+10-11 18:36:06.199  1793  2104 W System.err: 	at android.os.Parcel.readException(Parcel.java:3262)
+10-11 18:36:06.199  1793  2104 W System.err: 	at android.net.IConnectivityManager$Stub$Proxy.getActiveNetworkInfo(IConnectivityManager.java:1939)
+10-11 18:36:06.200  1793  2104 W System.err: 	at android.net.ConnectivityManager.getActiveNetworkInfo(ConnectivityManager.java:1548)
+10-11 18:36:06.200  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.e(BUGLY:450)
+10-11 18:36:06.200  1793  2104 W System.err: 	at com.tencent.bugly.proguard.a.a(BUGLY:247)
+10-11 18:36:06.200  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.biz.a.b(BUGLY:244)
+10-11 18:36:06.200  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.biz.a$a.run(BUGLY:135)
+10-11 18:36:06.200  1793  2104 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+10-11 18:36:06.200  1793  2104 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-11 18:36:06.200  1793  2104 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+10-11 18:36:06.200  1793  2104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-11 18:36:06.200  1793  2104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-11 18:36:06.200  1793  2104 W System.err: 	at java.lang.Thread.run(Thread.java:1149)
+10-11 18:36:06.202  1793  2104 W System.err: java.lang.SecurityException: WifiService: Neither user 10636 nor current process has android.permission.ACCESS_WIFI_STATE.
+10-11 18:36:06.202  1793  2104 W System.err: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3353)
+10-11 18:36:06.202  1793  2104 W System.err: 	at android.os.Parcel.createException(Parcel.java:3337)
+10-11 18:36:06.202  1793  2104 W System.err: 	at android.os.Parcel.readException(Parcel.java:3320)
+10-11 18:36:06.203  1793  2104 W System.err: 	at android.os.Parcel.readException(Parcel.java:3262)
+10-11 18:36:06.203  1793  2104 W System.err: 	at android.net.wifi.IWifiManager$Stub$Proxy.getConnectionInfo(IWifiManager.java:6104)
+10-11 18:36:06.203  1793  2104 W System.err: 	at android.net.wifi.WifiManager.getConnectionInfo(WifiManager.java:4572)
+10-11 18:36:06.203  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.d(BUGLY:146)
+10-11 18:36:06.203  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.common.info.a.k(BUGLY:293)
+10-11 18:36:06.203  1793  2104 W System.err: 	at com.tencent.bugly.proguard.a.a(BUGLY:252)
+10-11 18:36:06.203  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.biz.a.b(BUGLY:244)
+10-11 18:36:06.203  1793  2104 W System.err: 	at com.tencent.bugly.crashreport.biz.a$a.run(BUGLY:135)
+10-11 18:36:06.203  1793  2104 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+10-11 18:36:06.203  1793  2104 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-11 18:36:06.203  1793  2104 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+10-11 18:36:06.203  1793  2104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-11 18:36:06.204  1793  2104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-11 18:36:06.204  1793  2104 W System.err: 	at java.lang.Thread.run(Thread.java:1149)
+10-11 18:36:06.295  1793  2167 W System.err: java.lang.SecurityException: ConnectivityService: Neither user 10636 nor current process has android.permission.ACCESS_NETWORK_STATE.
+10-11 18:36:06.295  1793  2167 W System.err: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3353)
+10-11 18:36:06.295  1793  2167 W System.err: 	at android.os.Parcel.createException(Parcel.java:3337)
+10-11 18:36:06.295  1793  2167 W System.err: 	at android.os.Parcel.readException(Parcel.java:3320)
+10-11 18:36:06.296  1793  2167 W System.err: 	at android.os.Parcel.readException(Parcel.java:3262)
+10-11 18:36:06.296  1793  2167 W System.err: 	at android.net.IConnectivityManager$Stub$Proxy.getActiveNetworkInfo(IConnectivityManager.java:1939)
+10-11 18:36:06.296  1793  2167 W System.err: 	at android.net.ConnectivityManager.getActiveNetworkInfo(ConnectivityManager.java:1548)
+10-11 18:36:06.296  1793  2167 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.e(BUGLY:450)
+10-11 18:36:06.296  1793  2167 W System.err: 	at com.tencent.bugly.proguard.u.run(BUGLY:277)
+10-11 18:36:06.296  1793  2167 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+10-11 18:36:06.296  1793  2167 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-11 18:36:06.296  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-11 18:36:06.296  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-11 18:36:06.296  1793  2167 W System.err: 	at java.lang.Thread.run(Thread.java:1149)
+10-11 18:36:06.314  1793  2167 W System.err: java.lang.SecurityException: ConnectivityService: Neither user 10636 nor current process has android.permission.ACCESS_NETWORK_STATE.
+10-11 18:36:06.314  1793  2167 W System.err: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3353)
+10-11 18:36:06.314  1793  2167 W System.err: 	at android.os.Parcel.createException(Parcel.java:3337)
+10-11 18:36:06.314  1793  2167 W System.err: 	at android.os.Parcel.readException(Parcel.java:3320)
+10-11 18:36:06.314  1793  2167 W System.err: 	at android.os.Parcel.readException(Parcel.java:3262)
+10-11 18:36:06.314  1793  2167 W System.err: 	at android.net.IConnectivityManager$Stub$Proxy.getActiveNetworkInfo(IConnectivityManager.java:1939)
+10-11 18:36:06.314  1793  2167 W System.err: 	at android.net.ConnectivityManager.getActiveNetworkInfo(ConnectivityManager.java:1548)
+10-11 18:36:06.314  1793  2167 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.e(BUGLY:450)
+10-11 18:36:06.314  1793  2167 W System.err: 	at com.tencent.bugly.proguard.r.a(BUGLY:94)
+10-11 18:36:06.314  1793  2167 W System.err: 	at com.tencent.bugly.proguard.u.run(BUGLY:375)
+10-11 18:36:06.314  1793  2167 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+10-11 18:36:06.314  1793  2167 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-11 18:36:06.314  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-11 18:36:06.314  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-11 18:36:06.314  1793  2167 W System.err: 	at java.lang.Thread.run(Thread.java:1149)
+10-11 18:36:06.315  1793  2167 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+10-11 18:36:06.315  1793  2167 W System  : ClassLoader referenced unknown path: /system/framework/tcmiface.jar
+10-11 18:36:06.318  1793  2167 W System.err: java.lang.SecurityException: ConnectivityService: Neither user 10636 nor current process has android.permission.ACCESS_NETWORK_STATE.
+10-11 18:36:06.319  1793  2167 W System.err: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3353)
+10-11 18:36:06.319  1793  2167 W System.err: 	at android.os.Parcel.createException(Parcel.java:3337)
+10-11 18:36:06.319  1793  2167 W System.err: 	at android.os.Parcel.readException(Parcel.java:3320)
+10-11 18:36:06.319  1793  2167 W System.err: 	at android.os.Parcel.readException(Parcel.java:3262)
+10-11 18:36:06.319  1793  2167 W System.err: 	at android.net.IConnectivityManager$Stub$Proxy.getActiveNetworkInfo(IConnectivityManager.java:1939)
+10-11 18:36:06.319  1793  2167 W System.err: 	at android.net.ConnectivityManager.getActiveNetworkInfo(ConnectivityManager.java:1548)
+10-11 18:36:06.319  1793  2167 W System.err: 	at com.tencent.bugly.crashreport.common.info.b.e(BUGLY:450)
+10-11 18:36:06.319  1793  2167 W System.err: 	at com.tencent.bugly.proguard.r.a(BUGLY:244)
+10-11 18:36:06.319  1793  2167 W System.err: 	at com.tencent.bugly.proguard.r.a(BUGLY:102)
+10-11 18:36:06.319  1793  2167 W System.err: 	at com.tencent.bugly.proguard.u.run(BUGLY:375)
+10-11 18:36:06.319  1793  2167 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+10-11 18:36:06.319  1793  2167 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-11 18:36:06.319  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-11 18:36:06.319  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-11 18:36:06.319  1793  2167 W System.err: 	at java.lang.Thread.run(Thread.java:1149)
+10-11 18:36:06.322  1793  2167 W System.err: java.lang.SecurityException: Permission denied (missing INTERNET permission?)
+10-11 18:36:06.322  1793  2167 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:150)
+10-11 18:36:06.322  1793  2167 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+10-11 18:36:06.322  1793  2167 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.tencent.bugly.proguard.r.a(BUGLY:247)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.tencent.bugly.proguard.r.a(BUGLY:102)
+10-11 18:36:06.322  1793  2167 W System.err: 	at com.tencent.bugly.proguard.u.run(BUGLY:375)
+10-11 18:36:06.322  1793  2167 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+10-11 18:36:06.322  1793  2167 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10-11 18:36:06.322  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+10-11 18:36:06.322  1793  2167 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+10-11 18:36:06.323  1793  2167 W System.err: 	at java.lang.Thread.run(Thread.java:1149)
+10-11 18:36:06.323  1793  2167 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+10-11 18:36:06.323  1793  2167 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+10-11 18:36:06.323  1793  2167 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+10-11 18:36:06.323  1793  2167 W System.err: 	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+10-11 18:36:06.323  1793  2167 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+10-11 18:36:06.323  1793  2167 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+10-11 18:36:06.323  1793  2167 W System.err: 	... 21 more
+10-11 18:36:06.323  1793  2167 W System.err: Caused by: android.system.ErrnoException: android_getaddrinfo failed: EPERM (Operation not permitted)
+10-11 18:36:06.323  1793  2167 W System.err: 	... 26 more
+10-11 18:36:06.411  1793  2105 I ANDR-VIVO-PERF: vivo inside perf_lock_rel of client
+10-11 18:36:06.412  1793  2105 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=org.local.onepiece.offline
+10-11 18:36:06.676  1793  1803 I nepiece.offline: Compiler allocated 7216KB to compile void android.view.ViewRootImpl.performTraversals()
+10-11 18:36:08.214  1793  1816 E BLASTBufferQueue: [f4cba1 SurfaceView[org.local.onepiece.offline/org.cocos2dx.lua.AppActivity]#1](f:0,a:4) Faking releaseBufferCallback from transactionCompleteCallback 110
+10-11 18:36:11.129  1793  2379 W libc    : Access denied finding property "ro.vendor.vivo.software.ai.llm.disable"
+10-11 18:36:17.499  1793  1804 I nepiece.offline: vart_dgc, 8192KB,32MB,0.5
+10-11 18:36:17.499  1793  1804 I nepiece.offline: NativeAlloc concurrent copying GC freed 2491KB AllocSpace bytes, 31(840KB) LOS objects, 91% free, 2283KB(1680KB_36KB)/26MB, 2Fd, itvl 11.618s, cpu 26.606ms, paused 83us,16us total 27.749ms
+10-11 18:36:17.499  1793  1804 I nepiece.offline: vart_bigdata, last_report_time=1791714977499

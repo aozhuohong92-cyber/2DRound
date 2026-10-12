@@ -1,0 +1,612 @@
+{
+  "status": "dependencies_resolved_runtime_pending",
+  "resources": {
+    "resource/bigbg/battle_bg/10032/b_bg.jpg": {
+      "source": "outputs/apk-extracted/assets/HASH/F/F79CD1E28104FE60.jpg",
+      "archive": "assets/HASH/F/F79CD1E28104FE60.jpg",
+      "bytes": 70406,
+      "sha256": "567f14b2923087b96adb7a1c1cd35c3fed9c40725fac9813916df94ca4f3a6a0",
+      "dependencies": []
+    },
+    "fonts/mini.ttf": {
+      "source": "outputs/apk-extracted/assets/HASH/9/9AA9297BB02E30D4.ttf",
+      "archive": "assets/HASH/9/9AA9297BB02E30D4.ttf",
+      "bytes": 8012356,
+      "sha256": "7f680346a281b079095d8a25077201f510842617589e4c6dd85cfa614e512869",
+      "dependencies": []
+    },
+    "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_boss_hp_progress.csb": {
+      "source": "outputs/apk-extracted/assets/HASH/6/639D9362515FBEE6.csb",
+      "archive": "assets/HASH/6/639D9362515FBEE6.csb",
+      "bytes": 5268,
+      "sha256": "3fa98f1e01d26c0fdafe903928a4617963a014476191126bd18adeb016092ae3",
+      "dependencies": [
+        "fonts/mini.ttf",
+        "resource/actionwhitedaymonster/actionwhitedaymonster.plist",
+        "resource/actionyearmonster/actionyearmonster_result.plist"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/9/99EE59A1C1C19694.skel",
+      "archive": "assets/HASH/9/99EE59A1C1C19694.skel",
+      "bytes": 1051,
+      "sha256": "d31499403f294d28e60833258033189cc002641bab70db352fe36a287cca8d15",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/8/88565BD1DCE7CDFA.atlas",
+      "archive": "assets/HASH/8/88565BD1DCE7CDFA.atlas",
+      "bytes": 1440,
+      "sha256": "6f0d84f8a8b0861d959b734a095e30062dbdbf331ac7feec157c8f9b3c3203d4",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/B/B51719F801082960.skel",
+      "archive": "assets/HASH/B/B51719F801082960.skel",
+      "bytes": 1905,
+      "sha256": "97525be80e7c342f0b20d52c34cff6b8b9a9b2681cbc55f9bfcfc9934d7c354d",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/D/DDD4DFD1DECD3692.atlas",
+      "archive": "assets/HASH/D/DDD4DFD1DECD3692.atlas",
+      "bytes": 2608,
+      "sha256": "a17009583c733a345d40efb17b597a808abcc0dd7bc98c2fc294de6822d66efd",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/B/B740E262C0C45F75.skel",
+      "archive": "assets/HASH/B/B740E262C0C45F75.skel",
+      "bytes": 3338,
+      "sha256": "0a25112feeb6fbeacbdb06af9fac77d5eff674dd6394f75959a27f3420bf538f",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/5/51948AD0F161B394.atlas",
+      "archive": "assets/HASH/5/51948AD0F161B394.atlas",
+      "bytes": 4736,
+      "sha256": "4c6e6dacd575c6528979a6c80b13457ffa8a35d787c2f3cbd8f98e0bcc1e0214",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/E/E90B7F02F753BA70.skel",
+      "archive": "assets/HASH/E/E90B7F02F753BA70.skel",
+      "bytes": 748,
+      "sha256": "9112354f7ab9757e795257d6878ca86c45cc764b94f504f5e5eafa0b310bcd0a",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/D/DAADFC564ADDB504.atlas",
+      "archive": "assets/HASH/D/DAADFC564ADDB504.atlas",
+      "bytes": 751,
+      "sha256": "04c92cdd1e8097a911bc6014bc9b5dbfdddb739bd74f58fa48444c99ae21e378",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/4/4081F3CA8D987B6D.skel",
+      "archive": "assets/HASH/4/4081F3CA8D987B6D.skel",
+      "bytes": 1430,
+      "sha256": "898a117ceac73ec2384262f2a8ebbc6fb5dce3538c3c62dde6d0fb0ad9a35706",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/B/BBC56C4AA7DB5E6B.atlas",
+      "archive": "assets/HASH/B/BBC56C4AA7DB5E6B.atlas",
+      "bytes": 1495,
+      "sha256": "8f63a9fbfe826f25753921ffc6f66329546ef79c29fef315a277a5aca52a0798",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/A/AE84B9E80AE75638.skel",
+      "archive": "assets/HASH/A/AE84B9E80AE75638.skel",
+      "bytes": 720,
+      "sha256": "c75220c70cd19981984f28ce5488ad61934ddb65110d8e33f401acde9bbcefc2",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/D/DC11F25905BFEBF2.atlas",
+      "archive": "assets/HASH/D/DC11F25905BFEBF2.atlas",
+      "bytes": 752,
+      "sha256": "f365fe6ffc01c0beb13b1f03b1bf862e64cc64122ec54c3c870797e2a113a262",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.png"
+      ]
+    },
+    "sound/battle/b_dirk1.mp3": {
+      "source": "outputs/apk-extracted/assets/HASH/A/A8C48A79A81D5169.mp3",
+      "archive": "assets/HASH/A/A8C48A79A81D5169.mp3",
+      "bytes": 20804,
+      "sha256": "5393efb5dbe3c18e7ccef557022db568b01b2eb0b78fc43bcfbed6e8599293ed",
+      "dependencies": []
+    },
+    "sound/battle/b_effect_cut01.mp3": {
+      "source": "outputs/apk-extracted/assets/HASH/C/C33E7CA103C00166.mp3",
+      "archive": "assets/HASH/C/C33E7CA103C00166.mp3",
+      "bytes": 12610,
+      "sha256": "347eedf351a5482b9f6c9a33393fc0a11a6089080c8b6f35b862442075aff752",
+      "dependencies": []
+    },
+    "sound/battle/b_effect_cut02.mp3": {
+      "source": "outputs/apk-extracted/assets/HASH/0/02036842C48FCD99.mp3",
+      "archive": "assets/HASH/0/02036842C48FCD99.mp3",
+      "bytes": 17626,
+      "sha256": "deff66b13d57d1de9afa3623bd699e472109600d2c2da0f6064328418b9e7aa3",
+      "dependencies": []
+    },
+    "sound/battle/b_baoqi1.mp3": {
+      "source": "outputs/apk-extracted/assets/HASH/D/D0251AFEE334A9AF.mp3",
+      "archive": "assets/HASH/D/D0251AFEE334A9AF.mp3",
+      "bytes": 14136,
+      "sha256": "ce5368220e9d0e86f69440aedb2324280a9c286006abf60e6b9fbb7b0ed94487",
+      "dependencies": []
+    },
+    "sound/battle/b_skill_sprint.mp3": {
+      "source": "outputs/apk-extracted/assets/HASH/0/014F48B64CE484F5.mp3",
+      "archive": "assets/HASH/0/014F48B64CE484F5.mp3",
+      "bytes": 44352,
+      "sha256": "1ac8d1875bb31c1bd059103cb67fe47989969c38cb39bb81bc71cdae22d77b60",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/F/F1DFA96C66B46FC4.skel",
+      "archive": "assets/HASH/F/F1DFA96C66B46FC4.skel",
+      "bytes": 457,
+      "sha256": "7a9390f5d59baf75399da1a9186d40f6209c7e07a7f38245a5a3e87ee7beb645",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/B/BC61659E4A736C41.atlas",
+      "archive": "assets/HASH/B/BC61659E4A736C41.atlas",
+      "bytes": 631,
+      "sha256": "3759de3ee457ec9c5e720bdd5729aac61e2034dfdd9ddb44cffee7d2d39de1ce",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/B/B806183278756546.skel",
+      "archive": "assets/HASH/B/B806183278756546.skel",
+      "bytes": 2640,
+      "sha256": "b8d814679fadc59f4ab2738c84ca18ebcfb9921cd5b0823def5d8d863a9e1feb",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/2/2C233E3C21262CF7.atlas",
+      "archive": "assets/HASH/2/2C233E3C21262CF7.atlas",
+      "bytes": 416,
+      "sha256": "bb4670dfd50b7915969bea2516963c3f9030d37afbdbc729313d97bc4c573333",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/A/A0F101AFBE9C0A64.skel",
+      "archive": "assets/HASH/A/A0F101AFBE9C0A64.skel",
+      "bytes": 4500,
+      "sha256": "c5e35eda23ad3beecaaab7d82228c991c8f45cac9613922b645d914d76f13543",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/C/CFF4FD7B8741D3CE.atlas",
+      "archive": "assets/HASH/C/CFF4FD7B8741D3CE.atlas",
+      "bytes": 3741,
+      "sha256": "b233f8f67b57b7951f22f35d8189b84a78754fe436b32c8627c8e3dc1ab1ae6f",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.png",
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action2.png"
+      ]
+    },
+    "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb": {
+      "source": "outputs/apk-extracted/assets/HASH/5/55588DD081BA8E99.csb",
+      "archive": "assets/HASH/5/55588DD081BA8E99.csb",
+      "bytes": 36676,
+      "sha256": "2238a1966642c5b2aff6496746dca9654c3888ee508eb48caf569dc31e63b136",
+      "dependencies": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "fonts/mini.ttf",
+        "resource/common/common.plist",
+        "resource/item/2.png",
+        "resource/item/3.png",
+        "resource/item/41.png",
+        "resource/mainui/mainui.plist"
+      ]
+    },
+    "resource/mainui/mainui.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/8/8417B8AD5F4C2F40.plist",
+      "archive": "assets/HASH/8/8417B8AD5F4C2F40.plist",
+      "bytes": 44874,
+      "sha256": "d13332e4497172a0360e23d3c3a499e7e44e8cc75021e6e82a3a12e302d1f95b",
+      "dependencies": [
+        "resource/mainui/mainui.png"
+      ]
+    },
+    "resource/common/common.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/A/AC4DDFACAF618118.plist",
+      "archive": "assets/HASH/A/AC4DDFACAF618118.plist",
+      "bytes": 130832,
+      "sha256": "558007cffdf4bc6685ef65f9ea254fb9ee30d6c772efe1ba765163e705612005",
+      "dependencies": [
+        "resource/common/common.png"
+      ]
+    },
+    "resource/centerscene/centerscene.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/1/14DB545CBFF36DD3.plist",
+      "archive": "assets/HASH/1/14DB545CBFF36DD3.plist",
+      "bytes": 9512,
+      "sha256": "aea0d37e122e280262359edf8f60066aeee1051b458fe23c547665c521075e75",
+      "dependencies": [
+        "resource/centerscene/centerscene.png"
+      ]
+    },
+    "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/roleinfo/role_setname_view.csb": {
+      "source": "outputs/apk-extracted/assets/HASH/9/9FC44CB3FE5BDBA5.csb",
+      "archive": "assets/HASH/9/9FC44CB3FE5BDBA5.csb",
+      "bytes": 4636,
+      "sha256": "1a66ed95029083aeba5874f80dc61bbf17165ddb631a49bf8507e3f3d282eb0c",
+      "dependencies": [
+        "Default/CheckBoxNode_Disable.png",
+        "Default/CheckBox_Disable.png",
+        "Default/CheckBox_Press.png",
+        "fonts/mini.ttf",
+        "resource/common/common.plist",
+        "resource/face/face.plist"
+      ]
+    },
+    "resource/face/face.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/8/8042F526095CD479.plist",
+      "archive": "assets/HASH/8/8042F526095CD479.plist",
+      "bytes": 4605,
+      "sha256": "771ef582ea17a88a1688608a09f8d7b91a3afd0100fb5ea3b321f35fd7fc84fd",
+      "dependencies": [
+        "resource/face/face.png"
+      ]
+    },
+    "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/recruithero/recruit_hero_window.csb": {
+      "source": "outputs/apk-extracted/assets/HASH/8/8755A6EECD56F7AD.csb",
+      "archive": "assets/HASH/8/8755A6EECD56F7AD.csb",
+      "bytes": 15188,
+      "sha256": "aca879ccf0244d84b3dafb7839787226926c13f6951b5d30357d0c7a56c57125",
+      "dependencies": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "fonts/mini.ttf",
+        "resource/bigbg/action/action_bigbg_3.png",
+        "resource/common/common.plist",
+        "resource/recruithero/recruithero.plist"
+      ]
+    },
+    "resource/recruithero/recruithero.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/4/4E2E8D00D7EB7C3F.plist",
+      "archive": "assets/HASH/4/4E2E8D00D7EB7C3F.plist",
+      "bytes": 3661,
+      "sha256": "93424eb66df9788cc014950a6a011e97b538cc8d57b3253711fc170a8ee14800",
+      "dependencies": [
+        "resource/recruithero/recruithero.png"
+      ]
+    },
+    "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/hero/formation_select_panel.csb": {
+      "source": "outputs/apk-extracted/assets/HASH/F/FDE7A573D765F57E.csb",
+      "archive": "assets/HASH/F/FDE7A573D765F57E.csb",
+      "bytes": 4600,
+      "sha256": "de6fc1d72059d40483c755029b9e332c5307e98cc647b420c617cc64b054c6bd",
+      "dependencies": [
+        "fonts/mini.ttf",
+        "resource/common/common.plist"
+      ]
+    },
+    "resource/form/form.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/C/C4AB79B61AC61A90.plist",
+      "archive": "assets/HASH/C/C4AB79B61AC61A90.plist",
+      "bytes": 5160,
+      "sha256": "ecccb62dd58c12eb66fd816b4c7494d2bf147911ecab5e16955da55a152d7510",
+      "dependencies": [
+        "resource/form/form.png"
+      ]
+    },
+    "resource/centerscene/centercity/1/1.png": {
+      "source": "outputs/apk-extracted/assets/HASH/9/98B88855C55558DC.png",
+      "archive": "assets/HASH/9/98B88855C55558DC.png",
+      "bytes": 566,
+      "sha256": "570283f3d966e0108d3df77b6bbe278168355860f9ea5750a459db660bfd42c2",
+      "dependencies": []
+    },
+    "resource/centerscene/centercity/1/2.png": {
+      "source": "outputs/apk-extracted/assets/HASH/A/A83364384D2120CF.png",
+      "archive": "assets/HASH/A/A83364384D2120CF.png",
+      "bytes": 237590,
+      "sha256": "367ac7ec13835499f00e2187aff6bae3c44045135b2cce79487685978fa53ad7",
+      "dependencies": []
+    },
+    "resource/centerscene/centercity/1/3.png": {
+      "source": "outputs/apk-extracted/assets/HASH/8/8E10224ED8828B23.png",
+      "archive": "assets/HASH/8/8E10224ED8828B23.png",
+      "bytes": 114698,
+      "sha256": "1414e6ab0225dc41762bfbaefa5bc5d68cbf56120bef8fedfc3c43ccc8ac10b0",
+      "dependencies": []
+    },
+    "resource/centerscene/centercity/1/4.jpg": {
+      "source": "outputs/apk-extracted/assets/HASH/E/EE5CCCC1B5AFA1EF.jpg",
+      "archive": "assets/HASH/E/EE5CCCC1B5AFA1EF.jpg",
+      "bytes": 71358,
+      "sha256": "2b71843c83333a4e0b143abc9348e1295e9daedf141c676fc73f1bc6fe84c0fd",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.skel": {
+      "source": "outputs/apk-extracted/assets/HASH/3/3C9AA8B61D96FE27.skel",
+      "archive": "assets/HASH/3/3C9AA8B61D96FE27.skel",
+      "bytes": 3855,
+      "sha256": "388011820a92e97a4205d2d970f768eccdb36e2573e3da3ebff8dca8a5967a7c",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.atlas": {
+      "source": "outputs/apk-extracted/assets/HASH/D/DBB6632517A82B87.atlas",
+      "archive": "assets/HASH/D/DBB6632517A82B87.atlas",
+      "bytes": 811,
+      "sha256": "151803f1ace02bfdfa205953f8e170cc4074bdca7f37e4864d36b59c8963de15",
+      "dependencies": [
+        "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.png"
+      ]
+    },
+    "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb": {
+      "source": "outputs/apk-extracted/assets/HASH/7/7757BCD0D2745B3D.csb",
+      "archive": "assets/HASH/7/7757BCD0D2745B3D.csb",
+      "bytes": 15012,
+      "sha256": "9aebefffe1392953edbf09809a0af39cf6bafdca4fc8ab356835ff530c9e262e",
+      "dependencies": [
+        "Default/Button_Disable.png",
+        "Default/ImageFile.png",
+        "fonts/mini.ttf",
+        "resource/battledrama/battledrama.plist",
+        "resource/mainui/mainui.plist"
+      ]
+    },
+    "resource/battle/battle.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/1/1A93DAAD9C2B2074.plist",
+      "archive": "assets/HASH/1/1A93DAAD9C2B2074.plist",
+      "bytes": 27918,
+      "sha256": "615ca77f392914f176ee1f38b00ab7833cc30bdc6f508e73b42da2f8353863cd",
+      "dependencies": [
+        "resource/battle/battle.png"
+      ]
+    },
+    "resource/battledrama/battledrama.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/4/47D39DBA487E3573.plist",
+      "archive": "assets/HASH/4/47D39DBA487E3573.plist",
+      "bytes": 22676,
+      "sha256": "c4d70fcf76d7aa8b64c2ac719533ceac1153ea0f2eafb028f273c24621f454bc",
+      "dependencies": [
+        "resource/battledrama/battledrama.png"
+      ]
+    },
+    "resource/bigbg/pattern/pattern_3.png": {
+      "source": "outputs/apk-extracted/assets/HASH/0/09B09D318F61F6B6.png",
+      "archive": "assets/HASH/0/09B09D318F61F6B6.png",
+      "bytes": 7122,
+      "sha256": "8970a1a512b7ac17277382da3b3ce535a61123e172f6235d02804d13c0e80be3",
+      "dependencies": []
+    },
+    "resource/bigbg/battle_bg/10008/m_bg.jpg": {
+      "source": "outputs/apk-extracted/assets/HASH/A/A98DEE231B74A394.jpg",
+      "archive": "assets/HASH/A/A98DEE231B74A394.jpg",
+      "bytes": 64426,
+      "sha256": "27da71f0c99bb6b581fffbcb8c509a6ac8d28e2d4762f158dee1da3aeaec05bd",
+      "dependencies": []
+    },
+    "resource/bigbg/battle_bg/10008/map_bg.png": {
+      "source": "outputs/apk-extracted/assets/HASH/5/5FABF1DC0814E50D.png",
+      "archive": "assets/HASH/5/5FABF1DC0814E50D.png",
+      "bytes": 53502,
+      "sha256": "11a3c8863e0d0c9699281cda0b20503e1780522b099f7022b132a383b909f539",
+      "dependencies": []
+    },
+    "resource/actionwhitedaymonster/actionwhitedaymonster.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/8/8C10DA73F3C03F4C.plist",
+      "archive": "assets/HASH/8/8C10DA73F3C03F4C.plist",
+      "bytes": 1775,
+      "sha256": "afe5bff1347a7b7b4e8870ce2e52563d239fd157d952bc4247ed6b389ff4a176",
+      "dependencies": [
+        "resource/actionwhitedaymonster/actionwhitedaymonster.png"
+      ]
+    },
+    "resource/actionyearmonster/actionyearmonster_result.plist": {
+      "source": "outputs/apk-extracted/assets/HASH/8/8A5137CBD5C15050.plist",
+      "archive": "assets/HASH/8/8A5137CBD5C15050.plist",
+      "bytes": 4261,
+      "sha256": "99042a11bc794987238a3a73bfaa90c3d682301e2c0225135f395fe59bf0bbeb",
+      "dependencies": [
+        "resource/actionyearmonster/actionyearmonster_result.png"
+      ]
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.png": {
+      "source": "outputs/apk-extracted/assets/HASH/6/61A90643EAAD47CB.png",
+      "archive": "assets/HASH/6/61A90643EAAD47CB.png",
+      "bytes": 52682,
+      "sha256": "2a735aad21fc11c4cfadcb79e4117a9ddd65fb17114a52d298d4167899c190a3",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.png": {
+      "source": "outputs/apk-extracted/assets/HASH/3/357F67757C4BCB3D.png",
+      "archive": "assets/HASH/3/357F67757C4BCB3D.png",
+      "bytes": 133526,
+      "sha256": "f24053ced4218dfe46850e6664e7f03fe7354664b99d5edd250d7ea20d750b8b",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action2.png": {
+      "source": "outputs/apk-extracted/assets/HASH/6/626700088DC8DA18.png",
+      "archive": "assets/HASH/6/626700088DC8DA18.png",
+      "bytes": 544934,
+      "sha256": "3a0e05510a1282a4d77b6c5447d8ebc9cb2af7f9f28b5949755a7e3111d5c11e",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.png": {
+      "source": "outputs/apk-extracted/assets/HASH/6/67260D390AB0288C.png",
+      "archive": "assets/HASH/6/67260D390AB0288C.png",
+      "bytes": 29286,
+      "sha256": "e575c18830716823186a2ba308c3fb7563313cd55de53ec497b67db52ed3041d",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/run.png": {
+      "source": "outputs/apk-extracted/assets/HASH/6/6CD17B8C590237C0.png",
+      "archive": "assets/HASH/6/6CD17B8C590237C0.png",
+      "bytes": 52654,
+      "sha256": "174551b5d18d786074e726d27bd41b83ca0b2409b6ba420fd058f7dd59870d80",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action9.png": {
+      "source": "outputs/apk-extracted/assets/HASH/1/1EDBBB1D4639ACA5.png",
+      "archive": "assets/HASH/1/1EDBBB1D4639ACA5.png",
+      "bytes": 28214,
+      "sha256": "4878b563b5618c1c653d370244361e5a88a430fbe4f9b076c74249de7a31d478",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80008/action.png": {
+      "source": "outputs/apk-extracted/assets/HASH/F/F959330DEB1DAD26.png",
+      "archive": "assets/HASH/F/F959330DEB1DAD26.png",
+      "bytes": 82042,
+      "sha256": "42160cc25a32013118925d78a52a78f8d142307c4dd00dab091a374691a27d43",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E80009/action.png": {
+      "source": "outputs/apk-extracted/assets/HASH/1/1483A1D95EA725BE.png",
+      "archive": "assets/HASH/1/1483A1D95EA725BE.png",
+      "bytes": 70790,
+      "sha256": "89e015245061b4881017081ccd3ee602229aaad58eb2d3a0d7016f2e33bd36aa",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action.png": {
+      "source": "outputs/apk-extracted/assets/HASH/1/19127A9BA6D83E8F.png",
+      "archive": "assets/HASH/1/19127A9BA6D83E8F.png",
+      "bytes": 296106,
+      "sha256": "4bf54178ae258ff775deac09f563ac70273eee55ead5ad5fcb94c2e0fc1b0b86",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E54320/action2.png": {
+      "source": "outputs/apk-extracted/assets/HASH/9/98782BE3432CACC3.png",
+      "archive": "assets/HASH/9/98782BE3432CACC3.png",
+      "bytes": 151386,
+      "sha256": "4520ce1bd83920d11026faa86028d2512e6ab0e01994c5dffe0fa38874172f3a",
+      "dependencies": []
+    },
+    "resource/item/2.png": {
+      "source": "outputs/apk-extracted/assets/HASH/4/493C04BD3EC75FFB.png",
+      "archive": "assets/HASH/4/493C04BD3EC75FFB.png",
+      "bytes": 4114,
+      "sha256": "9d691f241ff1eaef76d939aab6c05a9a65f5162d732c05780e5981f2ec0196f9",
+      "dependencies": []
+    },
+    "resource/item/3.png": {
+      "source": "outputs/apk-extracted/assets/HASH/7/7A18FA19AEF80D27.png",
+      "archive": "assets/HASH/7/7A18FA19AEF80D27.png",
+      "bytes": 3538,
+      "sha256": "638decf5021d84a9212e34e9863fc3a89d42544dda15d7677f4e2a601f8f5653",
+      "dependencies": []
+    },
+    "resource/item/41.png": {
+      "source": "outputs/apk-extracted/assets/HASH/9/993B1BA140E723DD.png",
+      "archive": "assets/HASH/9/993B1BA140E723DD.png",
+      "bytes": 3246,
+      "sha256": "9ede466d3f37cf6540fff1b5a32f1de95481098b169297082b7c7485b3471832",
+      "dependencies": []
+    },
+    "resource/mainui/mainui.png": {
+      "source": "outputs/apk-extracted/assets/HASH/C/C1C0B3151C790BA7.png",
+      "archive": "assets/HASH/C/C1C0B3151C790BA7.png",
+      "bytes": 171014,
+      "sha256": "21679f7d688cb336b0e09d620c9d35726145848d03af1917a177f507bd0a0d81",
+      "dependencies": []
+    },
+    "resource/common/common.png": {
+      "source": "outputs/apk-extracted/assets/HASH/4/457F310E570B4D9E.png",
+      "archive": "assets/HASH/4/457F310E570B4D9E.png",
+      "bytes": 1173798,
+      "sha256": "e1ec1ebaf8e432dcf1afc7f0b1ba2f629aa873bd003762cc4cbef3d3f2f7914c",
+      "dependencies": []
+    },
+    "resource/centerscene/centerscene.png": {
+      "source": "outputs/apk-extracted/assets/HASH/A/A96F1A940AF266E2.png",
+      "archive": "assets/HASH/A/A96F1A940AF266E2.png",
+      "bytes": 173238,
+      "sha256": "88fdfbf450dd4b8e62c8004c71c9aa294e1b13779a3899e3225e5e82cc9034ce",
+      "dependencies": []
+    },
+    "resource/face/face.png": {
+      "source": "outputs/apk-extracted/assets/HASH/D/DD367172CCC13F81.png",
+      "archive": "assets/HASH/D/DD367172CCC13F81.png",
+      "bytes": 16206,
+      "sha256": "c429e4f6f1d05ea2b2c9b83b3d7b67538e687fd440cb3ee589c8c821f12e8b60",
+      "dependencies": []
+    },
+    "resource/recruithero/recruithero.png": {
+      "source": "outputs/apk-extracted/assets/HASH/C/CD416FA4AABAC16E.png",
+      "archive": "assets/HASH/C/CD416FA4AABAC16E.png",
+      "bytes": 14150,
+      "sha256": "0717da53ca15ed7148c7ffb009b3c9a7ab3874ea8bf716bfb45fe68b6c5ce671",
+      "dependencies": []
+    },
+    "resource/form/form.png": {
+      "source": "outputs/apk-extracted/assets/HASH/1/126E77072544DBCD.png",
+      "archive": "assets/HASH/1/126E77072544DBCD.png",
+      "bytes": 79562,
+      "sha256": "fdf798909d8689a29c97145898ca7ca95afc20bb7a2a584082e9790958a49b0e",
+      "dependencies": []
+    },
+    "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.png": {
+      "source": "outputs/apk-extracted/assets/HASH/A/A2DE96F001518BD3.png",
+      "archive": "assets/HASH/A/A2DE96F001518BD3.png",
+      "bytes": 10734,
+      "sha256": "25b551d1cefa1cee06ae8f65d340d4f0e467fcad0efcc2e8ad9295626d7a46f1",
+      "dependencies": []
+    },
+    "resource/battle/battle.png": {
+      "source": "outputs/apk-extracted/assets/HASH/E/E9A66599D482D347.png",
+      "archive": "assets/HASH/E/E9A66599D482D347.png",
+      "bytes": 88450,
+      "sha256": "2de32ad31c5eb24ec358ba746104ee9f673cfc85fea88648f41ce912296740de",
+      "dependencies": []
+    },
+    "resource/battledrama/battledrama.png": {
+      "source": "outputs/apk-extracted/assets/HASH/8/8F38A6BA04FD7328.png",
+      "archive": "assets/HASH/8/8F38A6BA04FD7328.png",
+      "bytes": 125830,
+      "sha256": "7af6152efc55939726378d1f69e8ef6d5f60eade71870201c41ad148f8df7274",
+      "dependencies": []
+    },
+    "resource/actionwhitedaymonster/actionwhitedaymonster.png": {
+      "source": "outputs/apk-extracted/assets/HASH/F/F7977581538D9B3F.png",
+      "archive": "assets/HASH/F/F7977581538D9B3F.png",
+      "bytes": 1074,
+      "sha256": "49fd90c9651d4705c1237127d9902092d829e75829754e35d017f2680d616c73",
+      "dependencies": []
+    },
+    "resource/actionyearmonster/actionyearmonster_result.png": {
+      "source": "outputs/apk-extracted/assets/HASH/3/35395F2DFF8CD812.png",
+      "archive": "assets/HASH/3/35395F2DFF8CD812.png",
+      "bytes": 10926,
+      "sha256": "a88c45b036e3bfe2d0a7420d13e956504c28b6358a4026c7ade93029a90d891e",
+      "dependencies": []
+    }
+  },
+  "unresolved_dependencies": [
+    "Default/Button_Disable.png",
+    "Default/Button_Press.png",
+    "Default/CheckBoxNode_Disable.png",
+    "Default/CheckBox_Disable.png",
+    "Default/CheckBox_Press.png",
+    "Default/ImageFile.png",
+    "resource/bigbg/action/action_bigbg_3.png"
+  ],
+  "model": "H30104",
+  "partner_id": 20510,
+  "notes": "Original partner_data 20510_5 maps to H30104. Runtime rendering remains unverified."
+}

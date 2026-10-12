@@ -1,0 +1,231 @@
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    TGETS    1   0   0  ; "super"
+0002    ISF          1
+0003    JMP      2 => 0008
+0004    UGET     1   0      ; 
+0005    TGETS    3   0   0  ; "super"
+0006    VARG     4   0   1
+0007    CALLM    1   1   1
+0008 => TGETS    1   0   1  ; "__init"
+0009    ISF          1
+0010    JMP      2 => 0015
+0011    TGETS    1   0   1  ; "__init"
+0012    UGET     3   1      ; 
+0013    VARG     4   0   1
+0014    CALLM    1   1   1
+0015 => RET0     0   1
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    TGETS    1   0   0  ; "_class_type"
+0002 => ISEQP    1   0
+0003    JMP      2 => 0013
+0004    LOOP     2 => 0013
+0005    TGETS    2   1   1  ; "__delete"
+0006    ISF          2
+0007    JMP      3 => 0011
+0008    TGETS    2   1   1  ; "__delete"
+0009    MOV      4   0
+0010    CALL     2   1   2
+0011 => TGETS    1   1   2  ; "super"
+0012    JMP      2 => 0002
+0013 => RET0     0   1
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    TNEW     0   0
+0002    UGET     1   0      ; 
+0003    TSETS    1   0   0  ; "_class_type"
+0004    GGET     1   1      ; "setmetatable"
+0005    MOV      3   0
+0006    TDUP     4   2
+0007    UGET     5   1      ; 
+0008    UGET     6   0      ; 
+0009    TGETV    5   5   6
+0010    TSETS    5   4   3  ; "__index"
+0011    CALL     1   1   3
+0012    KPRI     1   0
+0013    FNEW     1   4      ; 7C79ABF989E0DBF5.luac:0
+0014    MOV      2   1
+0015    UGET     4   0      ; 
+0016    VARG     5   0   0
+0017    CALLM    2   1   1
+0018    UCLO     1 => 0019
+0019 => FNEW     1   6      ; 7C79ABF989E0DBF5.luac:0
+0020    TSETS    1   0   5  ; "DeleteMe"
+0021    UCLO     0 => 0022
+0022 => RET1     0   2
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    UGET     3   0      ; 
+0002    TSETV    2   3   1
+0003    RET0     0   1
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    UGET     2   0      ; 
+0002    UGET     3   1      ; 
+0003    TGETV    2   2   3
+0004    ISEQP    2   0
+0005    JMP      2 => 0008
+0006    ISNEP    1   0
+0007    JMP      2 => 0010
+0008 => TNEW     2   0
+0009    RET1     2   2
+0010 => UGET     2   0      ; 
+0011    UGET     3   1      ; 
+0012    TGETV    2   2   3
+0013    TGETV    2   2   1
+0014    RET1     2   2
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    TNEW     1   0
+0002    KPRI     2   1
+0003    TSETS    2   1   0  ; "__init"
+0004    KPRI     2   1
+0005    TSETS    2   1   1  ; "__delete"
+0006    TSETS    0   1   2  ; "super"
+0007    FNEW     2   4      ; 7C79ABF989E0DBF5.luac:0
+0008    TSETS    2   1   3  ; "New"
+0009    TNEW     2   0
+0010    UGET     3   0      ; 
+0011    TSETV    2   3   1
+0012    GGET     3   5      ; "setmetatable"
+0013    MOV      5   1
+0014    TDUP     6   7
+0015    FNEW     7   6      ; 7C79ABF989E0DBF5.luac:0
+0016    TSETS    7   6   8  ; "__newindex"
+0017    TSETS    2   6   9  ; "__index"
+0018    CALL     3   1   3
+0019    ISF          0
+0020    JMP      3 => 0027
+0021    GGET     3   5      ; "setmetatable"
+0022    MOV      5   2
+0023    TDUP     6  11
+0024    FNEW     7  10      ; 7C79ABF989E0DBF5.luac:0
+0025    TSETS    7   6   9  ; "__index"
+0026    CALL     3   1   3
+0027 => UCLO     0 => 0028
+0028 => RET1     1   2
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    UGET     2   0      ; 
+0002    TGETV    2   2   1
+0003    ISF          2
+0004    JMP      3 => 0028
+0005    UGET     3   1      ; 
+0006    TGETV    3   3   2
+0007    IST          3
+0008    JMP      3 => 0028
+0009    UGET     3   0      ; 
+0010    KPRI     4   0
+0011    TSETV    4   3   1
+0012    UGET     3   1      ; 
+0013    KPRI     4   2
+0014    TSETV    4   3   2
+0015    GGET     3   0      ; "require"
+0016    MOV      5   2
+0017    CALL     3   2   2
+0018    GGET     4   1      ; "type"
+0019    MOV      6   3
+0020    CALL     4   2   2
+0021    ISNES    4   2      ; "boolean"
+0022    JMP      4 => 0027
+0023    GGET     4   3      ; "_G"
+0024    TGETV    4   4   1
+0025    RET1     4   2
+0026    JMP      4 => 0028
+0027 => RET1     3   2
+0028 => RET0     0   1
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => KSTR     2   0      ; "Config_"
+0005    MOV      3   1
+0006    CAT      2   2   3
+0007    UGET     3   0      ; 
+0008    TGETV    3   3   2
+0009    ISF          3
+0010    JMP      4 => 0035
+0011    UGET     4   1      ; 
+0012    TGETV    4   4   3
+0013    IST          4
+0014    JMP      4 => 0035
+0015    UGET     4   0      ; 
+0016    KPRI     5   0
+0017    TSETV    5   4   2
+0018    UGET     4   1      ; 
+0019    KPRI     5   2
+0020    TSETV    5   4   3
+0021    GGET     4   1      ; "require"
+0022    MOV      6   3
+0023    CALL     4   2   2
+0024    GGET     5   2      ; "type"
+0025    MOV      7   4
+0026    CALL     5   2   2
+0027    ISNES    5   3      ; "boolean"
+0028    JMP      5 => 0034
+0029    GGET     5   4      ; "_G"
+0030    TGETS    5   5   5  ; "Config"
+0031    TGETV    5   5   1
+0032    RET1     5   2
+0033    JMP      5 => 0035
+0034 => RET1     4   2
+0035 => RET0     0   1
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    TNEW     0   0
+0002    USETV    0   0      ; 
+0003    TNEW     0   0
+0004    USETV    1   0      ; 
+0005    TNEW     0   0
+0006    USETV    2   0      ; 
+0007    TNEW     0   0
+0008    USETV    3   0      ; 
+0009    TNEW     0   0
+0010    USETV    4   0      ; 
+0011    TNEW     0   0
+0012    USETV    5   0      ; 
+0013    RET0     0   1
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    UGET     1   0      ; 
+0002    TGETV    1   1   0
+0003    RET1     1   2
+
+-- BYTECODE -- 7C79ABF989E0DBF5.luac:0-0
+0001    TNEW     0   0
+0002    FNEW     1   0      ; 7C79ABF989E0DBF5.luac:0
+0003    GSET     1   1      ; "BaseClass"
+0004    TNEW     1   0
+0005    GGET     2   2      ; "NewModelFile"
+0006    IST          2
+0007    JMP      3 => 0009
+0008    TNEW     2   0
+0009 => TNEW     3   0
+0010    GGET     4   3      ; "setmetatable"
+0011    GGET     6   4      ; "_G"
+0012    MOV      7   1
+0013    CALL     4   1   3
+0014    FNEW     4   6      ; 7C79ABF989E0DBF5.luac:0
+0015    TSETS    4   1   5  ; "__index"
+0016    TNEW     4   0
+0017    TNEW     5   0
+0018    GGET     6   7      ; "Config"
+0019    IST          6
+0020    JMP      7 => 0022
+0021    TNEW     6   0
+0022 => GSET     6   7      ; "Config"
+0023    GGET     6   3      ; "setmetatable"
+0024    GGET     8   4      ; "_G"
+0025    TGETS    8   8   7  ; "Config"
+0026    MOV      9   4
+0027    CALL     6   1   3
+0028    FNEW     6   8      ; 7C79ABF989E0DBF5.luac:0
+0029    TSETS    6   4   5  ; "__index"
+0030    FNEW     6   9      ; 7C79ABF989E0DBF5.luac:0
+0031    GSET     6  10      ; "clearSuperClass"
+0032    FNEW     6  11      ; 7C79ABF989E0DBF5.luac:0
+0033    GSET     6  12      ; "getSuperClass"
+0034    UCLO     0 => 0035
+0035 => RET0     0   1
+

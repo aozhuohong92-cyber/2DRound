@@ -1,0 +1,11 @@
+HeroExpeditEvent = HeroExpeditEvent or {}
+HeroExpeditEvent.Employ_Help_Me = "HeroExpeditEvent.Employ_Help_Me"
+HeroExpeditEvent.Employ_Me_Help_Choose = "HeroExpeditEvent.Employ_Me_Help_Choose"
+HeroExpeditEvent.Employ_Me_Help = "HeroExpeditEvent.Employ_Me_Help"
+HeroExpeditEvent.MeHelp_RedPoint_Event = "HeroExpeditEvent.MeHelp_RedPoint_Event"
+HeroExpeditEvent.levelMessageEvent = "HeroExpeditEvent.levelMessageEvent"
+HeroExpeditEvent.HeroExpeditViewEvent = "HeroExpeditEvent.HeroExpeditViewEvent"
+HeroExpeditEvent.Get_Box_Event = "HeroExpeditEvent.Get_Box_Event"
+HeroExpeditEvent.Expedit_RedPoint_Event = "HeroExpeditEvent.Expedit_RedPoint_Event"
+HeroExpeditEvent.Expedit_Clear_Event = "HeroExpeditEvent.Expedit_Clear_Event"
+HeroExpeditEvent.Expedit_Video_Event = "HeroExpeditEvent.Expedit_Video_Event"

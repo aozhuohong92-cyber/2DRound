@@ -1,0 +1,95 @@
+package it.sauronsoftware.base64;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+/* loaded from: /Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/apk-extracted/classes.dex */
+public class Base64InputStream extends InputStream {
+    private int[] buffer;
+    private int bufferCounter = 0;
+    private boolean eof = false;
+    private InputStream inputStream;
+
+    public Base64InputStream(InputStream inputStream) {
+        this.inputStream = inputStream;
+    }
+
+    private void acquire() throws IOException {
+        int i = 1;
+        char[] cArr = new char[4];
+        int i2 = 0;
+        do {
+            int i3 = this.inputStream.read();
+            if (i3 == -1) {
+                if (i2 != 0) {
+                    throw new IOException("Bad base64 stream");
+                }
+                this.buffer = new int[0];
+                this.eof = true;
+                return;
+            }
+            char c = (char) i3;
+            if (Shared.chars.indexOf(c) != -1 || c == Shared.pad) {
+                cArr[i2] = c;
+                i2++;
+            } else if (c != '\r' && c != '\n') {
+                throw new IOException("Bad base64 stream");
+            }
+        } while (i2 < 4);
+        boolean z = false;
+        for (int i4 = 0; i4 < 4; i4++) {
+            if (cArr[i4] != Shared.pad) {
+                if (z) {
+                    throw new IOException("Bad base64 stream");
+                }
+            } else if (!z) {
+                z = true;
+            }
+        }
+        if (cArr[3] != Shared.pad) {
+            i = 3;
+        } else {
+            if (this.inputStream.read() != -1) {
+                throw new IOException("Bad base64 stream");
+            }
+            this.eof = true;
+            if (cArr[2] != Shared.pad) {
+                i = 2;
+            }
+        }
+        int iIndexOf = 0;
+        for (int i5 = 0; i5 < 4; i5++) {
+            if (cArr[i5] != Shared.pad) {
+                iIndexOf |= Shared.chars.indexOf(cArr[i5]) << ((3 - i5) * 6);
+            }
+        }
+        this.buffer = new int[i];
+        for (int i6 = 0; i6 < i; i6++) {
+            this.buffer[i6] = (iIndexOf >>> ((2 - i6) * 8)) & 255;
+        }
+    }
+
+    @Override // java.io.InputStream, java.io.Closeable, java.lang.AutoCloseable
+    public void close() throws IOException {
+        this.inputStream.close();
+    }
+
+    @Override // java.io.InputStream
+    public int read() throws IOException {
+        if (this.buffer == null || this.bufferCounter == this.buffer.length) {
+            if (this.eof) {
+                return -1;
+            }
+            acquire();
+            if (this.buffer.length == 0) {
+                this.buffer = null;
+                return -1;
+            }
+            this.bufferCounter = 0;
+        }
+        int[] iArr = this.buffer;
+        int i = this.bufferCounter;
+        this.bufferCounter = i + 1;
+        return iArr[i];
+    }
+}

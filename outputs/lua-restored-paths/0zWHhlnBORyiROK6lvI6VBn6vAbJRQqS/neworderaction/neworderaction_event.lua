@@ -1,0 +1,7 @@
+NeworderactionEvent = NeworderactionEvent or {}
+NeworderactionEvent.OrderAction_Init_Event = "NeworderactionEvent.OrderAction_Init_Event"
+NeworderactionEvent.OrderAction_TaskGet_Event = "NeworderactionEvent.OrderAction_TaskGet_Event"
+NeworderactionEvent.OrderAction_LevReward_Event = "NeworderactionEvent.OrderAction_LevReward_Event"
+NeworderactionEvent.OrderAction_Updata_LevExp_Event = "NeworderactionEvent.OrderAction_Updata_LevExp_Event"
+NeworderactionEvent.OrderAction_BuyGiftCard_Event = "NeworderactionEvent.OrderAction_BuyGiftCard_Event"
+NeworderactionEvent.OrderAction_IsPopWarn_Event = "NeworderactionEvent.OrderAction_IsPopWarn_Event"

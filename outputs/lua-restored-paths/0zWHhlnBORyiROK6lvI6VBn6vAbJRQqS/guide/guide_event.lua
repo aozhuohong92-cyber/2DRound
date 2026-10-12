@@ -1,0 +1,23 @@
+GuideEvent = GuideEvent or {}
+GuideEvent.Update_Guide_Status_Event = "GuideEvent.Update_Guide_Status_Event"
+GuideEvent.Update_Guide_Open_Event = "GuideEvent.Update_Guide_Open_Event"
+GuideConst = GuideConst or {}
+GuideConst.special_id = {
+	quick_guide = 10120,
+	elfin = 10382,
+	home_guide_3 = 10350,
+	resonate = 10422,
+	home_guide_2 = 10340,
+	planes = 10372,
+	holy_dial = 10400,
+	heaven_tips = 10412,
+	seerpalace = 10222,
+	shop = 10199,
+	hook_guide = 10165,
+	guild = 10212,
+	market = 10510,
+	stronger = 10174,
+	home_guide_1 = 10330
+}
+GuideConst.Finger_Speed = 1500
+GuideConst.Finger_Min_Time = 0.2

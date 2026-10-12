@@ -1,0 +1,11 @@
+EmoguoshiEvent = EmoguoshiEvent or {}
+EmoguoshiEvent.ONE_INFO = "EmoguoshiEvent.ONE_INFO"
+EmoguoshiEvent.All_INFO = "EmoguoshiEvent.All_INFO"
+EmoguoshiEvent.EFFECT_CHANGE = "EmoguoshiEvent.EFFECT_CHANGE"
+EmoguoshiEvent.ONE_SHOP_INFO = "EmoguoshiEvent.ONE_SHOP_INFO"
+EmoguoshiEvent.SHOP_JIFEN = "EmoguoshiEvent.SHOP_JIFEN"
+EmoguoshiEvent.ZHANLING_ALL_INFO = "EmoguoshiEvent.ZHANLING_ALL_INFO"
+EmoguoshiEvent.ZHANLING_HUOYUEDU = "EmoguoshiEvent.ZHANLING_HUOYUEDU"
+EmoguoshiEvent.CHOUJIANG_TIMES = "EmoguoshiEvent.CHOUJIANG_TIMES"
+EmoguoshiEvent.CHOUJIANG_RET = "EmoguoshiEvent.CHOUJIANG_RET"
+EmoguoshiEvent.CHOUJIANG_CHANGE_TAG = "EmoguoshiEvent.CHOUJIANG_CHANGE_TAG"

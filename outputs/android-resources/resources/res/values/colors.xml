@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yh_white">#ffffff</color>
+    <color name="yh_blue">#29b6eb</color>
+    <color name="yh_blue_click">#aa29b6eb</color>
+    <color name="yh_black">#000</color>
+    <color name="yh_transparent">#00000000</color>
+    <color name="yh_back_gray">#eaebec</color>
+    <color name="yh_gainsboro">#dcdcdc</color>
+    <color name="yh_text_gray">#acacac</color>
+    <color name="yh_hint_gray_20">#f2808080</color>
+    <color name="yh_btn_gray">#c1c8d7</color>
+    <color name="yh_btn_gray_click">#aac1c8d7</color>
+    <color name="yh_light_black">#424242</color>
+    <color name="yh_background_gray">#e6e6e6</color>
+    <color name="bn_float_hint_orange">#fd8700</color>
+    <color name="bn_hint_red">#ff0000</color>
+</resources>

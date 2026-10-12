@@ -1,0 +1,29 @@
+{
+  "modules": [
+    "offline.atlas_frames",
+    "offline.atlas_viewer",
+    "offline.class",
+    "offline.codec",
+    "offline.device_checks",
+    "offline.drama_catalog",
+    "offline.drama_challenge",
+    "offline.drama_fixture",
+    "offline.drama_preview",
+    "offline.drama_resources",
+    "offline.drama_scene",
+    "offline.events",
+    "offline.luffy_skills",
+    "offline.main_city",
+    "offline.presentation",
+    "offline.resources",
+    "offline.route",
+    "offline.skill_player",
+    "offline.state",
+    "offline.store"
+  ],
+  "resources": 74,
+  "signature_verified": true,
+  "audio_uncompressed": 5,
+  "device_tested": false,
+  "stage": 1
+}

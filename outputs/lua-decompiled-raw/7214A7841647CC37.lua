@@ -1,0 +1,1 @@
+SuitShopEvent = SuitShopEvent or {}

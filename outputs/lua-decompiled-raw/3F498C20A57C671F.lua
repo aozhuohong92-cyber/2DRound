@@ -1,0 +1,4 @@
+LimitExerciseEvent = LimitExerciseEvent or {}
+LimitExerciseEvent.LimitExercise_Message_Event = "LimitExerciseEvent.LimitExercise_Message_Event"
+LimitExerciseEvent.LimitExercise_GetBox_Event = "LimitExerciseEvent.LimitExercise_GetBox_Event"
+LimitExerciseEvent.LimitExercise_BuyCount_Event = "LimitExerciseEvent.LimitExercise_BuyCount_Event"

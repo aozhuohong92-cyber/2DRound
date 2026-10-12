@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "scope": "B/P0 preview, challenge notice, five navigation cycles",
+  "device": "emulator-5554",
+  "android": "11",
+  "resolution": "1080x2280",
+  "workaround": "-gpu swiftshader -no-snapshot",
+  "root_cause": "Renderer/snapshot compatibility suspected; individual trigger not isolated",
+  "apk_unchanged": true,
+  "apk_sha256": "2425fd21c5d55d644f0cee2599a12894b4d4b05618ddd8a30e200fc4db29da36",
+  "counts": {
+    "entered": 5,
+    "returned": 5,
+    "challenge_feedback": 1,
+    "lua_ui_errors": 0
+  },
+  "opengl_errors": 0,
+  "normal_save_files_created": false,
+  "evidence": {
+    "software-main-city.png": "456a0b0149212751d0625f979603dffffb51b8bf569213f63d932bca464a40d4",
+    "preview.png": "82cfa6f29b1674800737255d50379104cddf322bbec02f3d8ca18e23e16686d6",
+    "challenge.png": "a2fd688239e17ed8f1cae188cc06c239821174c5dfe750253988bffe41a1fbed",
+    "returned-main-city.png": "15c1e3ef71501d2809ef7a93f0654529ff4b52e82e30a95ff54235a7ae11cf88",
+    "navigation-clean.log": "bc54323903cbb293a7d9f55851a501a56d8d642f736dd5755f95c55638898da5",
+    "software-app-logcat.log": "5f2796bee29a1db67d4f61f195d02e88baf130ce3a2606bb84eb4bdfa59a294c",
+    "software-files-after.txt": "f25b67ffbd84d86f5c2ad02838475d629d49800a537439a8068898eea9ec1783"
+  }
+}

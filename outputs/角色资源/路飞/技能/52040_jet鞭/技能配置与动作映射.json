@@ -1,0 +1,234 @@
+{
+  "levels": [
+    {
+      "bid": 520401,
+      "name": "jet.鞭",
+      "owner": "路飞",
+      "group": 52040,
+      "next_id": 520402,
+      "level": 1,
+      "is_normal_skill": 0,
+      "cd": 0,
+      "type": "passive_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 5,
+      "count": 1,
+      "effect_list": [
+        5204011
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "我方所有单位造成的【出血】和【大出血】伤害被提升，提升值为路飞攻击力的5%",
+      "open_desc": "激活条件：英雄到达<div fontcolor=45a536>5阶</div>自动激活",
+      "skill_desc": "升级条件：英雄到达<div fontcolor=45a536>6星</div>自动升级",
+      "icon": "22974",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 0,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 4927,
+        "raw": "[520401.0] = \"{520401, \\\"jet.鞭\\\", \\\"路飞\\\", 52040, 520402, 1, 0, 0, \\\"passive_skill\\\", 0, 0, 5, 1, {5204011}, {}, 0, \\\"我方所有单位造成的【出血】和【大出血】伤害被提升，提升值为路飞攻击力的5%\\\", \\\"激活条件：英雄到达<div fontcolor=45a536>5阶</div>自动激活\\\", \\\"升级条件：英雄到达<div fontcolor=45a536>6星</div>自动升级\\\", \\\"22974\\\", 0, 1, 1, {}, 0, 0, 0, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5204011,
+          "group": 52040,
+          "target_type": 2,
+          "effect_type": 2,
+          "action_list": [
+            [
+              20001
+            ]
+          ],
+          "anime_res": "",
+          "anime_user_atk": "",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "no-hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 1167,
+            "raw": "[5204011.0] = \"{5204011, 52040, 2, 2, {{20001}}, \\\"\\\", \\\"\\\", {}, {}, {}, {}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"no-hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          }
+        }
+      ]
+    },
+    {
+      "bid": 520402,
+      "name": "jet.鞭",
+      "owner": "路飞",
+      "group": 52040,
+      "next_id": 520403,
+      "level": 2,
+      "is_normal_skill": 0,
+      "cd": 0,
+      "type": "passive_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 5,
+      "count": 1,
+      "effect_list": [
+        5204012
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "我方所有单位造成的【出血】和【大出血】伤害被提升，提升值为路飞攻击力的10%",
+      "open_desc": "激活条件：英雄到达<div fontcolor=45a536>5阶</div>自动激活",
+      "skill_desc": "升级条件：英雄到达<div fontcolor=45a536>10星</div>自动升级",
+      "icon": "22974",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 0,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 7499,
+        "raw": "[520402.0] = \"{520402, \\\"jet.鞭\\\", \\\"路飞\\\", 52040, 520403, 2, 0, 0, \\\"passive_skill\\\", 0, 0, 5, 1, {5204012}, {}, 0, \\\"我方所有单位造成的【出血】和【大出血】伤害被提升，提升值为路飞攻击力的10%\\\", \\\"激活条件：英雄到达<div fontcolor=45a536>5阶</div>自动激活\\\", \\\"升级条件：英雄到达<div fontcolor=45a536>10星</div>自动升级\\\", \\\"22974\\\", 0, 1, 1, {}, 0, 0, 0, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5204012,
+          "group": 52040,
+          "target_type": 2,
+          "effect_type": 2,
+          "action_list": [
+            [
+              20001
+            ]
+          ],
+          "anime_res": "",
+          "anime_user_atk": "",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "no-hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 146,
+            "raw": "[5204012.0] = \"{5204012, 52040, 2, 2, {{20001}}, \\\"\\\", \\\"\\\", {}, {}, {}, {}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"no-hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          }
+        }
+      ]
+    },
+    {
+      "bid": 520403,
+      "name": "jet.鞭",
+      "owner": "路飞",
+      "group": 52040,
+      "next_id": 0,
+      "level": 3,
+      "is_normal_skill": 0,
+      "cd": 0,
+      "type": "passive_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 5,
+      "count": 1,
+      "effect_list": [
+        5204013
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "我方所有单位造成的【出血】和【大出血】伤害被提升，提升值为路飞攻击力的15%",
+      "open_desc": "激活条件：英雄到达<div fontcolor=45a536>5阶</div>自动激活",
+      "skill_desc": "",
+      "icon": "22974",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 0,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 7501,
+        "raw": "[520403.0] = \"{520403, \\\"jet.鞭\\\", \\\"路飞\\\", 52040, 0, 3, 0, 0, \\\"passive_skill\\\", 0, 0, 5, 1, {5204013}, {}, 0, \\\"我方所有单位造成的【出血】和【大出血】伤害被提升，提升值为路飞攻击力的15%\\\", \\\"激活条件：英雄到达<div fontcolor=45a536>5阶</div>自动激活\\\", \\\"\\\", \\\"22974\\\", 0, 1, 1, {}, 0, 0, 0, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5204013,
+          "group": 52040,
+          "target_type": 2,
+          "effect_type": 2,
+          "action_list": [
+            [
+              20001
+            ]
+          ],
+          "anime_res": "",
+          "anime_user_atk": "",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "no-hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3538,
+            "raw": "[5204013.0] = \"{5204013, 52040, 2, 2, {{20001}}, \\\"\\\", \\\"\\\", {}, {}, {}, {}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"no-hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          }
+        }
+      ]
+    }
+  ],
+  "status": "config_extracted_skill_orchestration_pending",
+  "warning": "Config descriptions are not evidence that combat rules, damage or effects have been implemented."
+}

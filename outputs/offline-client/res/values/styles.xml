@@ -1,0 +1,6 @@
+<resources>
+    <style name="OfflineFullscreen" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#122032</item>
+    </style>
+</resources>

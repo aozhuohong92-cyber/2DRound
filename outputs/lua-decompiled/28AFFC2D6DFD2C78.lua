@@ -1,0 +1,5 @@
+TimesummonEvent = TimesummonEvent or {}
+TimesummonEvent.Update_Summon_Data_Event = "TimesummonEvent.Update_Summon_Data_Event"
+TimesummonEvent.Update_Elfin_Summon_Data_Event = "TimesummonEvent.Update_Elfin_Summon_Data_Event"
+TimesummonEvent.Update_Elfin_Summon_Rewards_Data_Event = "TimesummonEvent.Update_Elfin_Summon_Rewards_Data_Event"
+TimesummonEvent.Update_Elfin_Item_Event = "TimesummonEvent.Update_Elfin_Item_Event"

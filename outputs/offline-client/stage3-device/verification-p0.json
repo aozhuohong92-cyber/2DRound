@@ -1,0 +1,72 @@
+{
+  "stage": "B stage preview cleanup",
+  "date": "2026-10-12",
+  "device": {
+    "model": "vivo V2405A",
+    "serial": "10AF5J1JP1004SU"
+  },
+  "apk": "outputs/offline-client/offline-client.apk",
+  "apk_sha256": "2425fd21c5d55d644f0cee2599a12894b4d4b05618ddd8a30e200fc4db29da36",
+  "evidence": {
+    "preview_screenshot": {
+      "path": "stage3-device/drama-entry-preview-p0.png",
+      "sha256": "3715ce1409575ebfec71f9f5d625068284921e9694448825e709ca100bb6ad2c"
+    },
+    "challenge_toast_screenshot": {
+      "path": "stage3-device/drama-entry-preview-challenge-toast.png",
+      "sha256": "6fb3f7add5947c0922366fe37215d7922561aac8122269af6894f0b9d6c4c8c0"
+    },
+    "clean_cycle_log": {
+      "path": "stage3-device/navigation-cycle-p0-clean.log",
+      "sha256": "bd27ab71ae8cbe73fdff6f2dd2add81c69c97a4498cd693e48fbec8e6feef7b0"
+    }
+  },
+  "clean_cycle": {
+    "entered_drama": 5,
+    "returned_main_city": 5,
+    "nav_tap_4": 5,
+    "nav_tap_1": 5,
+    "lua_or_ui_errors": 0,
+    "challenge_blocked_feedback": 1
+  },
+  "preview_behavior": {
+    "title": "伟大航路1",
+    "banner": "离线预览 · 挑战、奖励与进度尚未开放",
+    "challenge_notice": "离线预览：挑战尚未开放",
+    "hidden_nodes": [
+      "image_bg",
+      "image_bg_8_0",
+      "image_boss",
+      "reward_layout",
+      "item_scrollview",
+      "title_reward",
+      "desc_panel",
+      "detail_btn",
+      "guidesign_battle_quick_btn",
+      "encounter_btn",
+      "next_battle_time"
+    ],
+    "normal_state_files_created": []
+  },
+  "layering": {
+    "background_z": 1,
+    "battle_button_list_z": 5,
+    "mainui_bottom_nav_z": 10
+  },
+  "local_verification": {
+    "syntax": "PASS",
+    "core_tests": 14,
+    "skill_test_groups": 5,
+    "encoding_roundtrips": 21,
+    "resources": 74,
+    "csb_frames_resolved": 62,
+    "audio_uncompressed": 5
+  },
+  "limitations": [
+    "C/D not started",
+    "challenge does not enter battle",
+    "chapter map popup and exit button not implemented",
+    "top info bar omitted",
+    "no reward or progression writes"
+  ]
+}

@@ -1,0 +1,2747 @@
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     1   1      ; "BackpackModel"
+0002    TGETS    1   1   2  ; "New"
+0003    MOV      3   0
+0004    CALL     1   2   2
+0005    TSETS    1   0   0  ; "model"
+0006    GGET     1   4      ; "GlobalEvent"
+0007    MOV      3   1
+0008    TGETS    1   1   5  ; "getInstance"
+0009    CALL     1   2   2
+0010    TSETS    1   0   3  ; "dispather"
+0011    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "model"
+0002    RET1     1   2
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "RegisterProtocal"
+0003    KSHORT   4 10500
+0004    KSTR     5   1      ; "handle10500"
+0005    CALL     1   1   4
+0006    MOV      3   0
+0007    TGETS    1   0   0  ; "RegisterProtocal"
+0008    KSHORT   4 10501
+0009    KSTR     5   2      ; "handle10501"
+0010    CALL     1   1   4
+0011    MOV      3   0
+0012    TGETS    1   0   0  ; "RegisterProtocal"
+0013    KSHORT   4 10502
+0014    KSTR     5   3      ; "handle10502"
+0015    CALL     1   1   4
+0016    MOV      3   0
+0017    TGETS    1   0   0  ; "RegisterProtocal"
+0018    KSHORT   4 10503
+0019    KSTR     5   4      ; "handle10503"
+0020    CALL     1   1   4
+0021    MOV      3   0
+0022    TGETS    1   0   0  ; "RegisterProtocal"
+0023    KSHORT   4 10510
+0024    KSTR     5   5      ; "handle10510"
+0025    CALL     1   1   4
+0026    MOV      3   0
+0027    TGETS    1   0   0  ; "RegisterProtocal"
+0028    KSHORT   4 10511
+0029    KSTR     5   6      ; "handle10511"
+0030    CALL     1   1   4
+0031    MOV      3   0
+0032    TGETS    1   0   0  ; "RegisterProtocal"
+0033    KSHORT   4 10512
+0034    KSTR     5   7      ; "handle10512"
+0035    CALL     1   1   4
+0036    MOV      3   0
+0037    TGETS    1   0   0  ; "RegisterProtocal"
+0038    KSHORT   4 10515
+0039    KSTR     5   8      ; "handle10515"
+0040    CALL     1   1   4
+0041    MOV      3   0
+0042    TGETS    1   0   0  ; "RegisterProtocal"
+0043    KSHORT   4 10520
+0044    KSTR     5   9      ; "handle10520"
+0045    CALL     1   1   4
+0046    MOV      3   0
+0047    TGETS    1   0   0  ; "RegisterProtocal"
+0048    KSHORT   4 10521
+0049    KSTR     5  10      ; "handle10521"
+0050    CALL     1   1   4
+0051    MOV      3   0
+0052    TGETS    1   0   0  ; "RegisterProtocal"
+0053    KSHORT   4 10522
+0054    KSTR     5  11      ; "handle10522"
+0055    CALL     1   1   4
+0056    MOV      3   0
+0057    TGETS    1   0   0  ; "RegisterProtocal"
+0058    KSHORT   4 10523
+0059    KSTR     5  12      ; "handle10523"
+0060    CALL     1   1   4
+0061    MOV      3   0
+0062    TGETS    1   0   0  ; "RegisterProtocal"
+0063    KSHORT   4 10526
+0064    KSTR     5  13      ; "handle10526"
+0065    CALL     1   1   4
+0066    MOV      3   0
+0067    TGETS    1   0   0  ; "RegisterProtocal"
+0068    KSHORT   4 10528
+0069    KSTR     5  14      ; "handle10528"
+0070    CALL     1   1   4
+0071    MOV      3   0
+0072    TGETS    1   0   0  ; "RegisterProtocal"
+0073    KSHORT   4 10530
+0074    KSTR     5  15      ; "handle10530"
+0075    CALL     1   1   4
+0076    MOV      3   0
+0077    TGETS    1   0   0  ; "RegisterProtocal"
+0078    KSHORT   4 11008
+0079    KSTR     5  16      ; "handle11008"
+0080    CALL     1   1   4
+0081    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "SendProtocal"
+0003    KSHORT   4 10500
+0004    TNEW     5   0
+0005    CALL     1   1   4
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "SendProtocal"
+0003    KSHORT   4 10501
+0004    TNEW     5   0
+0005    CALL     1   1   4
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => GGET     2   1      ; "BackPackConst"
+0005    TGETS    2   2   2  ; "Bag_Code"
+0006    TGETS    2   2   3  ; "BACKPACK"
+0007    TSETS    2   1   0  ; "bag_code"
+0008    TGETS    2   0   4  ; "model"
+0009    MOV      4   2
+0010    TGETS    2   2   5  ; "initItemList"
+0011    MOV      5   1
+0012    CALL     2   1   3
+0013    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => GGET     2   1      ; "BackPackConst"
+0005    TGETS    2   2   2  ; "Bag_Code"
+0006    TGETS    2   2   3  ; "EQUIPS"
+0007    TSETS    2   1   0  ; "bag_code"
+0008    TGETS    2   0   4  ; "model"
+0009    MOV      4   2
+0010    TGETS    2   2   5  ; "initItemList"
+0011    MOV      5   1
+0012    CALL     2   1   3
+0013    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => GGET     2   1      ; "BackPackConst"
+0005    TGETS    2   2   2  ; "Bag_Code"
+0006    TGETS    2   2   3  ; "PETBACKPACK"
+0007    TSETS    2   1   0  ; "bag_code"
+0008    TGETS    2   0   4  ; "model"
+0009    MOV      4   2
+0010    TGETS    2   2   5  ; "initItemList"
+0011    MOV      5   1
+0012    CALL     2   1   3
+0013    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "SendProtocal"
+0003    KSHORT   4 10502
+0004    TNEW     5   0
+0005    CALL     1   1   4
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => GGET     2   1      ; "BackPackConst"
+0005    TGETS    2   2   2  ; "Bag_Code"
+0006    TGETS    2   2   3  ; "HOME"
+0007    TSETS    2   1   0  ; "bag_code"
+0008    TGETS    2   0   4  ; "model"
+0009    MOV      4   2
+0010    TGETS    2   2   5  ; "initItemList"
+0011    MOV      5   1
+0012    CALL     2   1   3
+0013    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   0   0  ; "model"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "addItemInBagCode"
+0004    MOV      5   1
+0005    CALL     2   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   0   0  ; "model"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "deleteBagItems"
+0004    MOV      5   1
+0005    CALL     2   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   0   0  ; "model"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "updateBagItemsNum"
+0004    MOV      5   1
+0005    CALL     2   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TNEW     4   0
+0002    TSETS    1   4   0  ; "id"
+0003    TSETS    2   4   1  ; "quantity"
+0004    ISTC     5   3
+0005    JMP      5 => 0007
+0006    TNEW     5   0
+0007 => TSETS    5   4   2  ; "args"
+0008    GGET     5   3      ; "Debug"
+0009    TGETS    5   5   4  ; "info"
+0010    MOV      7   3
+0011    CALL     5   1   2
+0012    MOV      7   0
+0013    TGETS    5   0   5  ; "SendProtocal"
+0014    KSHORT   8 10515
+0015    MOV      9   4
+0016    CALL     5   1   4
+0017    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     2   0      ; "message"
+0002    TGETS    4   1   1  ; "msg"
+0003    CALL     2   1   2
+0004    TGETS    2   1   2  ; "flag"
+0005    GGET     3   3      ; "TRUE"
+0006    ISNEV    2   3
+0007    JMP      2 => 0025
+0008    MOV      4   0
+0009    TGETS    2   0   4  ; "openBatchUseItemView"
+0010    KPRI     5   1
+0011    CALL     2   1   3
+0012    MOV      4   0
+0013    TGETS    2   0   5  ; "closeGiftSelectPanel"
+0014    CALL     2   1   2
+0015    GGET     2   6      ; "GlobalEvent"
+0016    MOV      4   2
+0017    TGETS    2   2   7  ; "getInstance"
+0018    CALL     2   2   2
+0019    MOV      4   2
+0020    TGETS    2   2   8  ; "Fire"
+0021    GGET     5   9      ; "BackpackEvent"
+0022    TGETS    5   5  10  ; "BACKPACK_USE_ITEM_EVENT"
+0023    MOV      6   1
+0024    CALL     2   1   4
+0025 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TNEW     3   0
+0002    TSETS    1   3   0  ; "id"
+0003    TSETS    2   3   1  ; "storage"
+0004    MOV      6   0
+0005    TGETS    4   0   2  ; "SendProtocal"
+0006    KSHORT   7 10520
+0007    MOV      8   3
+0008    CALL     4   1   4
+0009    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     2   0      ; "message"
+0002    TGETS    4   1   1  ; "msg"
+0003    CALL     2   1   2
+0004    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TNEW     3   0
+0002    TSETS    1   3   0  ; "storage"
+0003    TSETS    2   3   1  ; "args"
+0004    MOV      6   0
+0005    TGETS    4   0   2  ; "SendProtocal"
+0006    KSHORT   7 10521
+0007    MOV      8   3
+0008    CALL     4   1   4
+0009    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   1   0  ; "items"
+0002    ISF          2
+0003    JMP      3 => 0014
+0004    GGET     2   1      ; "GlobalEvent"
+0005    MOV      4   2
+0006    TGETS    2   2   2  ; "getInstance"
+0007    CALL     2   2   2
+0008    MOV      4   2
+0009    TGETS    2   2   3  ; "Fire"
+0010    GGET     5   4      ; "BackpackEvent"
+0011    TGETS    5   5   5  ; "BACKPACK_SELL_CONFIRM"
+0012    MOV      6   1
+0013    CALL     2   1   4
+0014 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TNEW     3   0
+0002    TSETS    1   3   0  ; "storage"
+0003    TSETS    2   3   1  ; "args"
+0004    MOV      6   0
+0005    TGETS    4   0   2  ; "SendProtocal"
+0006    KSHORT   7 10522
+0007    MOV      8   3
+0008    CALL     4   1   4
+0009    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     2   0      ; "showAssetsMsg"
+0002    TGETS    4   1   1  ; "msg"
+0003    CALL     2   1   2
+0004    TGETS    2   1   2  ; "flag"
+0005    GGET     3   3      ; "TRUE"
+0006    ISNEV    2   3
+0007    JMP      2 => 0034
+0008    TGETS    2   0   4  ; "batch_use"
+0009    ISF          2
+0010    JMP      3 => 0015
+0011    MOV      4   0
+0012    TGETS    2   0   5  ; "openBatchUseItemView"
+0013    KPRI     5   1
+0014    CALL     2   1   3
+0015 => TGETS    2   0   6  ; "sell_window"
+0016    ISF          2
+0017    JMP      3 => 0022
+0018    MOV      4   0
+0019    TGETS    2   0   7  ; "openSellWindow"
+0020    KPRI     5   1
+0021    CALL     2   1   3
+0022 => MOV      4   0
+0023    TGETS    2   0   8  ; "closeGiftSelectPanel"
+0024    CALL     2   1   2
+0025    GGET     2   9      ; "GlobalEvent"
+0026    MOV      4   2
+0027    TGETS    2   2  10  ; "getInstance"
+0028    CALL     2   2   2
+0029    MOV      4   2
+0030    TGETS    2   2  11  ; "Fire"
+0031    GGET     5  12      ; "BackpackEvent"
+0032    TGETS    5   5  13  ; "Sell_Goods_Success"
+0033    CALL     2   1   3
+0034 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TNEW     3   0
+0002    TSETS    1   3   0  ; "id"
+0003    TSETS    2   3   1  ; "num"
+0004    MOV      6   0
+0005    TGETS    4   0   2  ; "SendProtocal"
+0006    KSHORT   7 10523
+0007    MOV      8   3
+0008    CALL     4   1   4
+0009    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     2   0      ; "message"
+0002    TGETS    4   1   1  ; "msg"
+0003    CALL     2   1   2
+0004    TGETS    2   1   2  ; "flag"
+0005    ISNEN    2   0      ; 1
+0006    JMP      2 => 0024
+0007    GGET     2   3      ; "GlobalEvent"
+0008    MOV      4   2
+0009    TGETS    2   2   4  ; "getInstance"
+0010    CALL     2   2   2
+0011    MOV      4   2
+0012    TGETS    2   2   5  ; "Fire"
+0013    GGET     5   6      ; "BackpackEvent"
+0014    TGETS    5   5   7  ; "Compose_Goods_Success"
+0015    CALL     2   1   3
+0016    GGET     2   8      ; "TipsManager"
+0017    MOV      4   2
+0018    TGETS    2   2   4  ; "getInstance"
+0019    CALL     2   2   2
+0020    MOV      4   2
+0021    TGETS    2   2   9  ; "showBackPackCompTips"
+0022    KPRI     5   1
+0023    CALL     2   1   3
+0024 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TNEW     2   0
+0002    TSETS    1   2   0  ; "type"
+0003    MOV      5   0
+0004    TGETS    3   0   1  ; "SendProtocal"
+0005    KSHORT   6 10526
+0006    MOV      7   2
+0007    CALL     3   1   4
+0008    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   0   0  ; "model"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "updateExpansionInfo"
+0004    MOV      5   1
+0005    CALL     2   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    MOV      3   0
+0002    TGETS    1   0   0  ; "SendProtocal"
+0003    KSHORT   4 10528
+0004    TNEW     5   0
+0005    CALL     1   1   4
+0006    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   0   0  ; "model"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "setEquipsOutput"
+0004    TGETS    5   1   2  ; "time"
+0005    CALL     2   1   3
+0006    TGETS    2   0   0  ; "model"
+0007    MOV      4   2
+0008    TGETS    2   2   3  ; "setExpOutput"
+0009    TGETS    5   1   4  ; "minu_exp"
+0010    CALL     2   1   3
+0011    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     0   0      ; "MainuiController"
+0002    MOV      2   0
+0003    TGETS    0   0   1  ; "getInstance"
+0004    CALL     0   2   2
+0005    MOV      2   0
+0006    TGETS    0   0   2  ; "changeMainUIStatus"
+0007    GGET     3   3      ; "MainuiConst"
+0008    TGETS    3   3   4  ; "btn_index"
+0009    TGETS    3   3   5  ; "backpack"
+0010    GGET     4   6      ; "BackPackConst"
+0011    TGETS    4   4   7  ; "item_tab_type"
+0012    TGETS    4   4   8  ; "EQUIPS"
+0013    CALL     0   1   4
+0014    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     2   0      ; "TI18N"
+0002    KSTR     4   1      ; "背包已满，战斗将无法获得掉�"~
+0003    CALL     2   2   2
+0004    FNEW     3   2      ; B102639FA70CE273.luac:0
+0005    GGET     4   3      ; "CommonAlert"
+0006    TGETS    4   4   4  ; "show"
+0007    MOV      6   2
+0008    GGET     7   0      ; "TI18N"
+0009    KSTR     9   5      ; "确认"
+0010    CALL     7   2   2
+0011    MOV      8   3
+0012    GGET     9   0      ; "TI18N"
+0013    KSTR    11   6      ; "取消"
+0014    CALL     9   2   2
+0015    KPRI    10   0
+0016    GGET    11   3      ; "CommonAlert"
+0017    TGETS   11  11   7  ; "type"
+0018    TGETS   11  11   8  ; "rich"
+0019    KNIL    12  14
+0020    KPRI    15   2
+0021    CALL     4   1  11
+0022    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TNEW     3   0
+0002    TSETS    1   3   0  ; "bid"
+0003    TSETS    2   3   1  ; "num"
+0004    MOV      6   0
+0005    TGETS    4   0   2  ; "SendProtocal"
+0006    KSHORT   7 11008
+0007    MOV      8   3
+0008    CALL     4   1   4
+0009    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     2   0      ; "GlobalEvent"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "getInstance"
+0004    CALL     2   2   2
+0005    MOV      4   2
+0006    TGETS    2   2   2  ; "Fire"
+0007    GGET     5   3      ; "BackpackEvent"
+0008    TGETS    5   5   4  ; "Compose_BackPack_Success"
+0009    CALL     2   1   3
+0010    GGET     2   5      ; "message"
+0011    TGETS    4   1   6  ; "msg"
+0012    CALL     2   1   2
+0013    GGET     2   7      ; "TipsManager"
+0014    MOV      4   2
+0015    TGETS    2   2   1  ; "getInstance"
+0016    CALL     2   2   2
+0017    MOV      4   2
+0018    TGETS    2   2   8  ; "showBackPackCompTips"
+0019    KPRI     5   1
+0020    CALL     2   1   3
+0021    GGET     2   7      ; "TipsManager"
+0022    MOV      4   2
+0023    TGETS    2   2   1  ; "getInstance"
+0024    CALL     2   2   2
+0025    MOV      4   2
+0026    TGETS    2   2   9  ; "showCompChooseTips"
+0027    KPRI     5   1
+0028    CALL     2   1   3
+0029    TGETS    2   1  10  ; "result"
+0030    ISNEN    2   0      ; 1
+0031    JMP      2 => 0070
+0032    TNEW     2   0
+0033    GGET     3  11      ; "pairs"
+0034    TGETS    5   1  12  ; "partners"
+0035    CALL     3   4   2
+0036    ISNEXT   6 => 0058
+0037 => GGET     8  13      ; "Config"
+0038    TGETS    8   8  14  ; "PartnerData"
+0039    TGETS    8   8  15  ; "data_partner_base"
+0040    TGETS    9   7  16  ; "partner_bid"
+0041    TGETV    8   8   9
+0042    TNEW     9   0
+0043    TSETV    9   2   6
+0044    TGETV    9   2   6
+0045    TGETS   10   7  16  ; "partner_bid"
+0046    TSETS   10   9  17  ; "bid"
+0047    TGETV    9   2   6
+0048    TGETS   10   8  19  ; "init_star"
+0049    TSETS   10   9  18  ; "star"
+0050    TGETV    9   2   6
+0051    TGETS   10   8  20  ; "camp_type"
+0052    TSETS   10   9  20  ; "camp_type"
+0053    TGETV    9   2   6
+0054    GGET    10  22      ; "MainuiConst"
+0055    TGETS   10  10  23  ; "item_exhibition_type"
+0056    TGETS   10  10  24  ; "partner_type"
+0057    TSETS   10   9  21  ; "show_type"
+0058 => ITERN    6   3   3
+0059    ITERL    6 => 0037
+0060    GGET     3  25      ; "MainuiController"
+0061    MOV      5   3
+0062    TGETS    3   3   1  ; "getInstance"
+0063    CALL     3   2   2
+0064    MOV      5   3
+0065    TGETS    3   3  26  ; "openGetItemView"
+0066    KPRI     6   2
+0067    MOV      7   2
+0068    KSHORT   8   0
+0069    CALL     3   1   5
+0070 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   1
+0002    JMP      3 => 0014
+0003    TGETS    3   0   0  ; "back_pack"
+0004    ISEQP    3   0
+0005    JMP      3 => 0012
+0006    TGETS    3   0   0  ; "back_pack"
+0007    MOV      5   3
+0008    TGETS    3   3   1  ; "close"
+0009    CALL     3   1   2
+0010    KPRI     3   0
+0011    TSETS    3   0   0  ; "back_pack"
+0012 => TSETS    2   0   2  ; "back_pack_open_type"
+0013    JMP      3 => 0040
+0014 => IST          2
+0015    JMP      3 => 0019
+0016    GGET     3   3      ; "BackPackConst"
+0017    TGETS    3   3   4  ; "item_tab_type"
+0018    TGETS    2   3   5  ; "PROPS"
+0019 => TGETS    3   0   0  ; "back_pack"
+0020    ISNEP    3   0
+0021    JMP      3 => 0027
+0022    GGET     3   6      ; "BackPackWindow"
+0023    TGETS    3   3   7  ; "New"
+0024    MOV      5   2
+0025    CALL     3   2   2
+0026    TSETS    3   0   0  ; "back_pack"
+0027 => TGETS    3   0   0  ; "back_pack"
+0028    ISF          3
+0029    JMP      4 => 0040
+0030    TGETS    3   0   0  ; "back_pack"
+0031    MOV      5   3
+0032    TGETS    3   3   8  ; "isOpen"
+0033    CALL     3   2   2
+0034    ISNEP    3   1
+0035    JMP      3 => 0040
+0036    TGETS    3   0   0  ; "back_pack"
+0037    MOV      5   3
+0038    TGETS    3   3   9  ; "open"
+0039    CALL     3   1   2
+0040 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   0   0  ; "back_pack"
+0002    ISF          2
+0003    JMP      3 => 0009
+0004    TGETS    2   0   0  ; "back_pack"
+0005    MOV      4   2
+0006    TGETS    2   2   1  ; "setEquipRedStatus"
+0007    MOV      5   1
+0008    CALL     2   1   3
+0009 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "back_pack"
+0002    ISF          1
+0003    JMP      2 => 0007
+0004    TGETS    1   0   0  ; "back_pack"
+0005    TGETS    1   1   1  ; "root_wnd"
+0006    RET1     1   2
+0007 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "sell_window"
+0002    ISF          1
+0003    JMP      2 => 0007
+0004    TGETS    1   0   0  ; "sell_window"
+0005    TGETS    1   1   1  ; "root_wnd"
+0006    RET1     1   2
+0007 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   1
+0002    JMP      4 => 0013
+0003    TGETS    4   0   0  ; "sell_window"
+0004    ISEQP    4   0
+0005    JMP      4 => 0045
+0006    TGETS    4   0   0  ; "sell_window"
+0007    MOV      6   4
+0008    TGETS    4   4   1  ; "close"
+0009    CALL     4   1   2
+0010    KPRI     4   0
+0011    TSETS    4   0   0  ; "sell_window"
+0012    JMP      4 => 0045
+0013 => IST          2
+0014    JMP      4 => 0018
+0015    GGET     4   2      ; "BackPackConst"
+0016    TGETS    4   4   3  ; "Bag_Code"
+0017    TGETS    2   4   4  ; "BACKPACK"
+0018 => ISEQP    3   0
+0019    JMP      4 => 0025
+0020    GGET     4   5      ; "next"
+0021    MOV      6   3
+0022    CALL     4   2   2
+0023    ISNEP    4   0
+0024    JMP      4 => 0026
+0025 => RET0     0   1
+0026 => TGETS    4   0   0  ; "sell_window"
+0027    ISNEP    4   0
+0028    JMP      4 => 0033
+0029    GGET     4   6      ; "BackPackSellWindow"
+0030    TGETS    4   4   7  ; "New"
+0031    CALL     4   2   1
+0032    TSETS    4   0   0  ; "sell_window"
+0033 => TGETS    4   0   0  ; "sell_window"
+0034    MOV      6   4
+0035    TGETS    4   4   8  ; "isOpen"
+0036    CALL     4   2   2
+0037    ISNEP    4   1
+0038    JMP      4 => 0045
+0039    TGETS    4   0   0  ; "sell_window"
+0040    MOV      6   4
+0041    TGETS    4   4   9  ; "open"
+0042    MOV      7   2
+0043    MOV      8   3
+0044    CALL     4   1   4
+0045 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   1
+0002    JMP      6 => 0013
+0003    TGETS    6   0   0  ; "item_sell_panel"
+0004    ISEQP    6   0
+0005    JMP      6 => 0042
+0006    TGETS    6   0   0  ; "item_sell_panel"
+0007    MOV      8   6
+0008    TGETS    6   6   1  ; "close"
+0009    CALL     6   1   2
+0010    KPRI     6   0
+0011    TSETS    6   0   0  ; "item_sell_panel"
+0012    JMP      6 => 0042
+0013 => ISTC     6   3
+0014    JMP      6 => 0018
+0015    GGET     6   2      ; "BackPackConst"
+0016    TGETS    6   6   3  ; "Bag_Code"
+0017    TGETS    6   6   4  ; "BACKPACK"
+0018 => ISTC     7   4
+0019    JMP      7 => 0021
+0020    KSHORT   7   1
+0021 => TGETS    8   0   0  ; "item_sell_panel"
+0022    ISNEP    8   0
+0023    JMP      8 => 0028
+0024    GGET     8   5      ; "ItemSellPanel"
+0025    TGETS    8   8   6  ; "New"
+0026    CALL     8   2   1
+0027    TSETS    8   0   0  ; "item_sell_panel"
+0028 => TGETS    8   0   0  ; "item_sell_panel"
+0029    MOV     10   8
+0030    TGETS    8   8   7  ; "isOpen"
+0031    CALL     8   2   2
+0032    ISNEP    8   1
+0033    JMP      8 => 0042
+0034    TGETS    8   0   0  ; "item_sell_panel"
+0035    MOV     10   8
+0036    TGETS    8   8   8  ; "open"
+0037    MOV     11   2
+0038    MOV     12   6
+0039    MOV     13   7
+0040    MOV     14   5
+0041    CALL     8   1   6
+0042 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0021
+0003    TGETS    2   0   0  ; "sell_holy_wnd"
+0004    IST          2
+0005    JMP      2 => 0010
+0006    GGET     2   1      ; "BackPackSellHolyWindow"
+0007    TGETS    2   2   2  ; "New"
+0008    CALL     2   2   1
+0009    TSETS    2   0   0  ; "sell_holy_wnd"
+0010 => TGETS    2   0   0  ; "sell_holy_wnd"
+0011    MOV      4   2
+0012    TGETS    2   2   3  ; "isOpen"
+0013    CALL     2   2   2
+0014    ISNEP    2   1
+0015    JMP      2 => 0030
+0016    TGETS    2   0   0  ; "sell_holy_wnd"
+0017    MOV      4   2
+0018    TGETS    2   2   4  ; "open"
+0019    CALL     2   1   2
+0020    JMP      2 => 0030
+0021 => TGETS    2   0   0  ; "sell_holy_wnd"
+0022    ISF          2
+0023    JMP      3 => 0030
+0024    TGETS    2   0   0  ; "sell_holy_wnd"
+0025    MOV      4   2
+0026    TGETS    2   2   5  ; "close"
+0027    CALL     2   1   2
+0028    KPRI     2   0
+0029    TSETS    2   0   0  ; "sell_holy_wnd"
+0030 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0021
+0003    TGETS    2   0   0  ; "break_special_window"
+0004    IST          2
+0005    JMP      2 => 0010
+0006    GGET     2   1      ; "HeroSpecialBreakWindow"
+0007    TGETS    2   2   2  ; "New"
+0008    CALL     2   2   1
+0009    TSETS    2   0   0  ; "break_special_window"
+0010 => TGETS    2   0   0  ; "break_special_window"
+0011    MOV      4   2
+0012    TGETS    2   2   3  ; "isOpen"
+0013    CALL     2   2   2
+0014    ISNEP    2   1
+0015    JMP      2 => 0030
+0016    TGETS    2   0   0  ; "break_special_window"
+0017    MOV      4   2
+0018    TGETS    2   2   4  ; "open"
+0019    CALL     2   1   2
+0020    JMP      2 => 0030
+0021 => TGETS    2   0   0  ; "break_special_window"
+0022    ISF          2
+0023    JMP      3 => 0030
+0024    TGETS    2   0   0  ; "break_special_window"
+0025    MOV      4   2
+0026    TGETS    2   2   5  ; "close"
+0027    CALL     2   1   2
+0028    KPRI     2   0
+0029    TSETS    2   0   0  ; "break_special_window"
+0030 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0021
+0003    TGETS    2   0   0  ; "add_holy_wnd"
+0004    IST          2
+0005    JMP      2 => 0010
+0006    GGET     2   1      ; "BackPackAddHolyWindow"
+0007    TGETS    2   2   2  ; "New"
+0008    CALL     2   2   1
+0009    TSETS    2   0   0  ; "add_holy_wnd"
+0010 => TGETS    2   0   0  ; "add_holy_wnd"
+0011    MOV      4   2
+0012    TGETS    2   2   3  ; "isOpen"
+0013    CALL     2   2   2
+0014    ISNEP    2   1
+0015    JMP      2 => 0030
+0016    TGETS    2   0   0  ; "add_holy_wnd"
+0017    MOV      4   2
+0018    TGETS    2   2   4  ; "open"
+0019    CALL     2   1   2
+0020    JMP      2 => 0030
+0021 => TGETS    2   0   0  ; "add_holy_wnd"
+0022    ISF          2
+0023    JMP      3 => 0030
+0024    TGETS    2   0   0  ; "add_holy_wnd"
+0025    MOV      4   2
+0026    TGETS    2   2   5  ; "close"
+0027    CALL     2   1   2
+0028    KPRI     2   0
+0029    TSETS    2   0   0  ; "add_holy_wnd"
+0030 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   2
+0002    JMP      2 => 0021
+0003    TGETS    2   0   0  ; "sell_equip_wnd"
+0004    IST          2
+0005    JMP      2 => 0010
+0006    GGET     2   1      ; "BackPackSellEquipWindow"
+0007    TGETS    2   2   2  ; "New"
+0008    CALL     2   2   1
+0009    TSETS    2   0   0  ; "sell_equip_wnd"
+0010 => TGETS    2   0   0  ; "sell_equip_wnd"
+0011    MOV      4   2
+0012    TGETS    2   2   3  ; "isOpen"
+0013    CALL     2   2   2
+0014    ISNEP    2   1
+0015    JMP      2 => 0030
+0016    TGETS    2   0   0  ; "sell_equip_wnd"
+0017    MOV      4   2
+0018    TGETS    2   2   4  ; "open"
+0019    CALL     2   1   2
+0020    JMP      2 => 0030
+0021 => TGETS    2   0   0  ; "sell_equip_wnd"
+0022    ISF          2
+0023    JMP      3 => 0030
+0024    TGETS    2   0   0  ; "sell_equip_wnd"
+0025    MOV      4   2
+0026    TGETS    2   2   5  ; "close"
+0027    CALL     2   1   2
+0028    KPRI     2   0
+0029    TSETS    2   0   0  ; "sell_equip_wnd"
+0030 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   1
+0002    JMP      6 => 0013
+0003    TGETS    6   0   0  ; "sell_confirm_window"
+0004    ISEQP    6   0
+0005    JMP      6 => 0039
+0006    TGETS    6   0   0  ; "sell_confirm_window"
+0007    MOV      8   6
+0008    TGETS    6   6   1  ; "close"
+0009    CALL     6   1   2
+0010    KPRI     6   0
+0011    TSETS    6   0   0  ; "sell_confirm_window"
+0012    JMP      6 => 0039
+0013 => IST          3
+0014    JMP      6 => 0018
+0015    GGET     6   2      ; "BackPackConst"
+0016    TGETS    6   6   3  ; "Bag_Code"
+0017    TGETS    3   6   4  ; "EQUIPS"
+0018 => TGETS    6   0   0  ; "sell_confirm_window"
+0019    ISNEP    6   0
+0020    JMP      6 => 0025
+0021    GGET     6   5      ; "BackPackSellConfirmWindow"
+0022    TGETS    6   6   6  ; "New"
+0023    CALL     6   2   1
+0024    TSETS    6   0   0  ; "sell_confirm_window"
+0025 => TGETS    6   0   0  ; "sell_confirm_window"
+0026    MOV      8   6
+0027    TGETS    6   6   7  ; "isOpen"
+0028    CALL     6   2   2
+0029    ISNEP    6   1
+0030    JMP      6 => 0039
+0031    TGETS    6   0   0  ; "sell_confirm_window"
+0032    MOV      8   6
+0033    TGETS    6   6   8  ; "open"
+0034    MOV      9   2
+0035    MOV     10   3
+0036    MOV     11   4
+0037    MOV     12   5
+0038    CALL     6   1   6
+0039 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   1
+0002    JMP      4 => 0013
+0003    TGETS    4   0   0  ; "intercept_window"
+0004    ISEQP    4   0
+0005    JMP      4 => 0042
+0006    TGETS    4   0   0  ; "intercept_window"
+0007    MOV      6   4
+0008    TGETS    4   4   1  ; "close"
+0009    CALL     4   1   2
+0010    KPRI     4   0
+0011    TSETS    4   0   0  ; "intercept_window"
+0012    JMP      4 => 0042
+0013 => ISEQP    3   0
+0014    JMP      4 => 0020
+0015    GGET     4   2      ; "next"
+0016    MOV      6   3
+0017    CALL     4   2   2
+0018    ISNEP    4   0
+0019    JMP      4 => 0029
+0020 => MOV      6   0
+0021    TGETS    4   0   3  ; "openSellWindow"
+0022    KPRI     7   2
+0023    GGET     8   4      ; "BackPackConst"
+0024    TGETS    8   8   5  ; "Bag_Code"
+0025    TGETS    8   8   6  ; "EQUIPS"
+0026    MOV      9   2
+0027    CALL     4   1   5
+0028    RET0     0   1
+0029 => TGETS    4   0   0  ; "intercept_window"
+0030    ISNEP    4   0
+0031    JMP      4 => 0036
+0032    GGET     4   7      ; "BackPackEquipInterceptWindow"
+0033    TGETS    4   4   8  ; "New"
+0034    CALL     4   2   1
+0035    TSETS    4   0   0  ; "intercept_window"
+0036 => TGETS    4   0   0  ; "intercept_window"
+0037    MOV      6   4
+0038    TGETS    4   4   9  ; "open"
+0039    MOV      7   2
+0040    MOV      8   3
+0041    CALL     4   1   4
+0042 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "model"
+0002    RET1     1   2
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   1   0  ; "evt_type"
+0002    GGET     3   1      ; "BackPackConst"
+0003    TGETS    3   3   2  ; "item_source_type"
+0004    TGETS    3   3   3  ; "evt_partner_call"
+0005    ISNEV    2   3
+0006    JMP      2 => 0010
+0007    KPRI     2   2
+0008    RET1     2   2
+0009    JMP      2 => 0060
+0010 => TGETS    2   1   0  ; "evt_type"
+0011    GGET     3   1      ; "BackPackConst"
+0012    TGETS    3   3   2  ; "item_source_type"
+0013    TGETS    3   3   4  ; "evt_mall_buy"
+0014    ISNEV    2   3
+0015    JMP      2 => 0022
+0016    MOV      4   0
+0017    TGETS    2   0   5  ; "checkShopIsOpen"
+0018    TGETS    5   1   6  ; "extend"
+0019    TGETB    5   5   1
+0020    CALLT    2   3
+0021    JMP      2 => 0060
+0022 => TGETS    2   1   0  ; "evt_type"
+0023    GGET     3   1      ; "BackPackConst"
+0024    TGETS    3   3   2  ; "item_source_type"
+0025    TGETS    3   3   7  ; "evt_activity"
+0026    ISNEV    2   3
+0027    JMP      2 => 0034
+0028    MOV      4   0
+0029    TGETS    2   0   8  ; "checkActivityIsOpen"
+0030    TGETS    5   1   6  ; "extend"
+0031    TGETB    5   5   1
+0032    CALLT    2   3
+0033    JMP      2 => 0060
+0034 => TGETS    2   1   0  ; "evt_type"
+0035    GGET     3   1      ; "BackPackConst"
+0036    TGETS    3   3   2  ; "item_source_type"
+0037    TGETS    3   3   9  ; "evt_dun_chapter"
+0038    ISNEV    2   3
+0039    JMP      2 => 0058
+0040    TGETS    2   1   6  ; "extend"
+0041    TGETB    2   2   1
+0042    ISNEN    2   0      ; 0
+0043    JMP      2 => 0050
+0044    TGETS    2   1   6  ; "extend"
+0045    TGETB    2   2   2
+0046    ISNEN    2   0      ; 0
+0047    JMP      2 => 0050
+0048    KPRI     2   2
+0049    RET1     2   2
+0050 => MOV      4   0
+0051    TGETS    2   0  10  ; "checkDungeonChapterIsOpen"
+0052    TGETS    5   1   6  ; "extend"
+0053    TGETB    5   5   1
+0054    TGETS    6   1   6  ; "extend"
+0055    TGETB    6   6   2
+0056    CALLT    2   4
+0057    JMP      2 => 0060
+0058 => KPRI     2   2
+0059    RET1     2   2
+0060 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    KPRI     2   2
+0002    RET1     2   2
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    KPRI     2   2
+0002    RET1     2   2
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     3   0      ; "DungeonController"
+0002    MOV      5   3
+0003    TGETS    3   3   1  ; "getInstance"
+0004    CALL     3   2   2
+0005    MOV      5   3
+0006    TGETS    3   3   2  ; "getModel"
+0007    CALL     3   2   2
+0008    MOV      6   3
+0009    TGETS    4   3   3  ; "getChapterWithId"
+0010    MOV      7   1
+0011    CALL     4   2   3
+0012    ISNEP    4   0
+0013    JMP      5 => 0017
+0014    KPRI     5   1
+0015    RET1     5   2
+0016    JMP      5 => 0047
+0017 => ISNEN    2   0      ; 0
+0018    JMP      5 => 0030
+0019    TGETS    5   4   4  ; "status"
+0020    GGET     6   5      ; "DUNGEON_CHAPTER_STATUS"
+0021    TGETS    6   6   6  ; "LOCK"
+0022    ISNEV    5   6
+0023    JMP      5 => 0027
+0024    KPRI     5   1
+0025    RET1     5   2
+0026    JMP      5 => 0047
+0027 => KPRI     5   2
+0028    RET1     5   2
+0029    JMP      5 => 0047
+0030 => TGETS    5   4   7  ; "dun_list"
+0031    ISEQP    5   0
+0032    JMP      5 => 0042
+0033    TGETS    5   4   7  ; "dun_list"
+0034    TGETV    5   5   2
+0035    ISEQP    5   0
+0036    JMP      5 => 0042
+0037    TGETS    5   4   7  ; "dun_list"
+0038    TGETV    5   5   2
+0039    TGETS    5   5   4  ; "status"
+0040    ISNEP    5   0
+0041    JMP      5 => 0045
+0042 => KPRI     5   1
+0043    RET1     5   2
+0044    JMP      5 => 0047
+0045 => KPRI     5   2
+0046    RET1     5   2
+0047 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     3   0      ; "DungeonController"
+0002    MOV      5   3
+0003    TGETS    3   3   1  ; "getInstance"
+0004    CALL     3   2   2
+0005    MOV      5   3
+0006    TGETS    3   3   2  ; "getModel"
+0007    CALL     3   2   2
+0008    MOV      6   3
+0009    TGETS    4   3   3  ; "getChapterWithId"
+0010    MOV      7   1
+0011    CALL     4   2   3
+0012    ISNEP    4   0
+0013    JMP      5 => 0017
+0014    KPRI     5   1
+0015    RET1     5   2
+0016    JMP      5 => 0066
+0017 => ISNEN    2   0      ; 0
+0018    JMP      5 => 0044
+0019    TGETS    5   4   4  ; "status"
+0020    GGET     6   5      ; "DUNGEON_CHAPTER_STATUS"
+0021    TGETS    6   6   6  ; "LOCK"
+0022    ISNEV    5   6
+0023    JMP      5 => 0027
+0024    KPRI     5   1
+0025    RET1     5   2
+0026    JMP      5 => 0066
+0027 => GGET     5   7      ; "pairs"
+0028    TGETS    7   4   8  ; "dun_list"
+0029    IST          7
+0030    JMP      8 => 0032
+0031    TNEW     7   0
+0032 => CALL     5   4   2
+0033    ISNEXT   8 => 0039
+0034 => TGETS   10   9   4  ; "status"
+0035    ISNEN   10   0      ; 0
+0036    JMP     10 => 0039
+0037    KPRI    10   2
+0038    RET1    10   2
+0039 => ITERN    8   3   3
+0040    ITERL    8 => 0034
+0041    KPRI     5   1
+0042    RET1     5   2
+0043    JMP      5 => 0066
+0044 => TGETS    5   4   8  ; "dun_list"
+0045    ISEQP    5   0
+0046    JMP      5 => 0061
+0047    TGETS    5   4   8  ; "dun_list"
+0048    TGETV    5   5   2
+0049    ISEQP    5   0
+0050    JMP      5 => 0061
+0051    TGETS    5   4   8  ; "dun_list"
+0052    TGETV    5   5   2
+0053    TGETS    5   5   4  ; "status"
+0054    ISEQP    5   0
+0055    JMP      5 => 0061
+0056    TGETS    5   4   8  ; "dun_list"
+0057    TGETV    5   5   2
+0058    TGETS    5   5   4  ; "status"
+0059    ISNEN    5   1      ; 1
+0060    JMP      5 => 0064
+0061 => KPRI     5   1
+0062    RET1     5   2
+0063    JMP      5 => 0066
+0064 => KPRI     5   2
+0065    RET1     5   2
+0066 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     2   0      ; "Config"
+0002    TGETS    2   2   1  ; "ItemData"
+0003    TGETS    2   2   2  ; "data_get_data"
+0004    MOV      4   1
+0005    CALL     2   2   2
+0006    ISEQP    2   0
+0007    JMP      3 => 0016
+0008    TGETS    3   2   3  ; "source"
+0009    ISEQP    3   0
+0010    JMP      3 => 0016
+0011    GGET     3   4      ; "next"
+0012    TGETS    5   2   3  ; "source"
+0013    CALL     3   2   2
+0014    ISNEP    3   0
+0015    JMP      3 => 0019
+0016 => KPRI     3   1
+0017    RET1     3   2
+0018    JMP      3 => 0039
+0019 => GGET     3   5      ; "ipairs"
+0020    TGETS    5   2   3  ; "source"
+0021    CALL     3   4   2
+0022    JMP      6 => 0035
+0023 => GGET     8   0      ; "Config"
+0024    TGETS    8   8   6  ; "SourceData"
+0025    TGETS    8   8   7  ; "data_source_data"
+0026    TGETV    8   8   7
+0027    MOV     11   0
+0028    TGETS    9   0   8  ; "checkItemSoureIsOpenByConfig"
+0029    MOV     12   8
+0030    CALL     9   2   3
+0031    ISNEP    9   2
+0032    JMP      9 => 0035
+0033    KPRI     9   2
+0034    RET1     9   2
+0035 => ITERC    6   3   3
+0036    ITERL    6 => 0023
+0037    KPRI     3   1
+0038    RET1     3   2
+0039 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    2   0   0  ; "gift_panel"
+0002    ISNEP    2   0
+0003    JMP      2 => 0008
+0004    GGET     2   1      ; "GiftSelectPanel"
+0005    TGETS    2   2   2  ; "New"
+0006    CALL     2   2   1
+0007    TSETS    2   0   0  ; "gift_panel"
+0008 => TGETS    2   0   0  ; "gift_panel"
+0009    ISF          2
+0010    JMP      3 => 0022
+0011    TGETS    2   0   0  ; "gift_panel"
+0012    MOV      4   2
+0013    TGETS    2   2   3  ; "isOpen"
+0014    CALL     2   2   2
+0015    ISNEP    2   1
+0016    JMP      2 => 0022
+0017    TGETS    2   0   0  ; "gift_panel"
+0018    MOV      4   2
+0019    TGETS    2   2   4  ; "open"
+0020    MOV      5   1
+0021    CALL     2   1   3
+0022 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "gift_panel"
+0002    ISEQP    1   0
+0003    JMP      1 => 0010
+0004    TGETS    1   0   0  ; "gift_panel"
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "close"
+0007    CALL     1   1   2
+0008    KPRI     1   0
+0009    TSETS    1   0   0  ; "gift_panel"
+0010 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "source_view"
+0002    ISF          1
+0003    JMP      2 => 0007
+0004    TGETS    1   0   0  ; "source_view"
+0005    TGETS    1   1   1  ; "root_wnd"
+0006    RET1     1   2
+0007 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    IST          1
+0002    JMP      5 => 0004
+0003    RET0     0   1
+0004 => TGETS    5   1   0  ; "evt_type"
+0005    GGET     6   1      ; "BackPackConst"
+0006    TGETS    6   6   2  ; "item_source_type"
+0007    TGETS    6   6   3  ; "evt_dun_chapter"
+0008    ISEQV    5   6
+0009    JMP      5 => 0011
+0010    RET0     0   1
+0011 => TGETS    5   1   4  ; "extend"
+0012    LEN      5   5
+0013    KSHORT   6   2
+0014    ISGE     5   6
+0015    JMP      5 => 0017
+0016    RET0     0   1
+0017 => KSHORT   5   1
+0018    KSHORT   6   1
+0019    ISGE     6   4
+0020    JMP      6 => 0030
+0021    MOV      8   0
+0022    TGETS    6   0   5  ; "getModel"
+0023    CALL     6   2   2
+0024    MOV      8   6
+0025    TGETS    6   6   6  ; "getBackPackItemNumByBid"
+0026    MOV      9   2
+0027    CALL     6   2   3
+0028    SUBVV    5   3   6
+0029    JMP      6 => 0030
+0030 => TGETS    6   1   4  ; "extend"
+0031    TGETB    6   6   2
+0032    ISEQN    6   0      ; 0
+0033    JMP      7 => 0061
+0034    KSHORT   7   1
+0035    ISGE     7   4
+0036    JMP      7 => 0049
+0037    GGET     7   7      ; "DungeonController"
+0038    MOV      9   7
+0039    TGETS    7   7   8  ; "getInstance"
+0040    CALL     7   2   2
+0041    MOV      9   7
+0042    TGETS    7   7   9  ; "requestQuickSwap"
+0043    MOV     10   6
+0044    MOV     11   5
+0045    MOV     12   2
+0046    MOV     13   3
+0047    CALL     7   1   6
+0048    JMP      7 => 0076
+0049 => GGET     7   7      ; "DungeonController"
+0050    MOV      9   7
+0051    TGETS    7   7   8  ; "getInstance"
+0052    CALL     7   2   2
+0053    MOV      9   7
+0054    TGETS    7   7  10  ; "requestSwapDungeon"
+0055    MOV     10   6
+0056    KSHORT  11   1
+0057    MOV     12   2
+0058    MOV     13   3
+0059    CALL     7   1   6
+0060    JMP      7 => 0076
+0061 => TGETS    7   1   4  ; "extend"
+0062    TGETB    7   7   1
+0063    ISF          7
+0064    JMP      8 => 0076
+0065    GGET     8   7      ; "DungeonController"
+0066    MOV     10   8
+0067    TGETS    8   8   8  ; "getInstance"
+0068    CALL     8   2   2
+0069    MOV     10   8
+0070    TGETS    8   8   9  ; "requestQuickSwap"
+0071    MOV     11   7
+0072    MOV     12   5
+0073    MOV     13   2
+0074    MOV     14   3
+0075    CALL     8   1   6
+0076 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   1
+0002    JMP      5 => 0013
+0003    TGETS    5   0   0  ; "batch_use"
+0004    ISEQP    5   0
+0005    JMP      5 => 0046
+0006    TGETS    5   0   0  ; "batch_use"
+0007    MOV      7   5
+0008    TGETS    5   5   1  ; "close"
+0009    CALL     5   1   2
+0010    KPRI     5   0
+0011    TSETS    5   0   0  ; "batch_use"
+0012    JMP      5 => 0046
+0013 => ISEQP    2   0
+0014    JMP      5 => 0018
+0015    TGETS    5   2   2  ; "config"
+0016    ISNEP    5   0
+0017    JMP      5 => 0019
+0018 => RET0     0   1
+0019 => TGETS    5   0   0  ; "batch_use"
+0020    ISNEP    5   0
+0021    JMP      5 => 0030
+0022    GGET     5   3      ; "BackPackBatchView"
+0023    TGETS    5   5   4  ; "New"
+0024    GGET     7   5      ; "BackpackController"
+0025    MOV      9   7
+0026    TGETS    7   7   6  ; "getInstance"
+0027    CALL     7   0   2
+0028    CALLM    5   2   0
+0029    TSETS    5   0   0  ; "batch_use"
+0030 => TGETS    5   0   0  ; "batch_use"
+0031    ISF          5
+0032    JMP      6 => 0046
+0033    TGETS    5   0   0  ; "batch_use"
+0034    MOV      7   5
+0035    TGETS    5   5   7  ; "isOpen"
+0036    CALL     5   2   2
+0037    ISNEP    5   1
+0038    JMP      5 => 0046
+0039    TGETS    5   0   0  ; "batch_use"
+0040    MOV      7   5
+0041    TGETS    5   5   8  ; "open"
+0042    MOV      8   2
+0043    MOV      9   3
+0044    MOV     10   4
+0045    CALL     5   1   5
+0046 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISNEP    1   1
+0002    JMP      3 => 0013
+0003    TGETS    3   0   0  ; "compose_window"
+0004    ISEQP    3   0
+0005    JMP      3 => 0034
+0006    TGETS    3   0   0  ; "compose_window"
+0007    MOV      5   3
+0008    TGETS    3   3   1  ; "close"
+0009    CALL     3   1   2
+0010    KPRI     3   0
+0011    TSETS    3   0   0  ; "compose_window"
+0012    JMP      3 => 0034
+0013 => TGETS    3   0   0  ; "compose_window"
+0014    ISNEP    3   0
+0015    JMP      3 => 0021
+0016    GGET     3   2      ; "BackPackComposeWindow"
+0017    TGETS    3   3   3  ; "New"
+0018    MOV      5   2
+0019    CALL     3   2   2
+0020    TSETS    3   0   0  ; "compose_window"
+0021 => TGETS    3   0   0  ; "compose_window"
+0022    ISF          3
+0023    JMP      4 => 0034
+0024    TGETS    3   0   0  ; "compose_window"
+0025    MOV      5   3
+0026    TGETS    3   3   4  ; "isOpen"
+0027    CALL     3   2   2
+0028    ISNEP    3   1
+0029    JMP      3 => 0034
+0030    TGETS    3   0   0  ; "compose_window"
+0031    MOV      5   3
+0032    TGETS    3   3   5  ; "open"
+0033    CALL     3   1   2
+0034 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISF          1
+0002    JMP      5 => 0042
+0003    GGET     5   0      ; "GuideController"
+0004    MOV      7   5
+0005    TGETS    5   5   1  ; "getInstance"
+0006    CALL     5   2   2
+0007    MOV      7   5
+0008    TGETS    5   5   2  ; "getGuideConfig"
+0009    CALL     5   2   2
+0010    GGET     6   3      ; "type"
+0011    MOV      8   2
+0012    CALL     6   2   2
+0013    ISNES    6   4      ; "number"
+0014    JMP      6 => 0021
+0015    GGET     6   5      ; "Config"
+0016    TGETS    6   6   6  ; "ItemData"
+0017    TGETS    6   6   7  ; "data_get_data"
+0018    MOV      8   2
+0019    CALL     6   2   2
+0020    MOV      2   6
+0021 => ISNEP    2   0
+0022    JMP      6 => 0024
+0023    RET0     0   1
+0024 => IST          3
+0025    JMP      6 => 0027
+0026    TNEW     3   0
+0027 => TGETS    6   0   8  ; "tips_source"
+0028    IST          6
+0029    JMP      6 => 0034
+0030    GGET     6   9      ; "TipsSource"
+0031    TGETS    6   6  10  ; "New"
+0032    CALL     6   2   1
+0033    TSETS    6   0   8  ; "tips_source"
+0034 => TGETS    6   0   8  ; "tips_source"
+0035    MOV      8   6
+0036    TGETS    6   6  11  ; "open"
+0037    MOV      9   2
+0038    MOV     10   3
+0039    MOV     11   4
+0040    CALL     6   1   5
+0041    JMP      5 => 0051
+0042 => TGETS    5   0   8  ; "tips_source"
+0043    ISF          5
+0044    JMP      6 => 0051
+0045    TGETS    5   0   8  ; "tips_source"
+0046    MOV      7   5
+0047    TGETS    5   5  12  ; "close"
+0048    CALL     5   1   2
+0049    KPRI     5   0
+0050    TSETS    5   0   8  ; "tips_source"
+0051 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISF          1
+0002    JMP      5 => 0024
+0003    ISNEP    2   0
+0004    JMP      5 => 0006
+0005    RET0     0   1
+0006 => IST          3
+0007    JMP      5 => 0009
+0008    TNEW     3   0
+0009 => TGETS    5   0   0  ; "tips_only_source"
+0010    IST          5
+0011    JMP      5 => 0016
+0012    GGET     5   1      ; "TipsOnlySource"
+0013    TGETS    5   5   2  ; "New"
+0014    CALL     5   2   1
+0015    TSETS    5   0   0  ; "tips_only_source"
+0016 => TGETS    5   0   0  ; "tips_only_source"
+0017    MOV      7   5
+0018    TGETS    5   5   3  ; "open"
+0019    MOV      8   2
+0020    MOV      9   3
+0021    MOV     10   4
+0022    CALL     5   1   5
+0023    JMP      5 => 0033
+0024 => TGETS    5   0   0  ; "tips_only_source"
+0025    ISF          5
+0026    JMP      6 => 0033
+0027    TGETS    5   0   0  ; "tips_only_source"
+0028    MOV      7   5
+0029    TGETS    5   5   4  ; "close"
+0030    CALL     5   1   2
+0031    KPRI     5   0
+0032    TSETS    5   0   0  ; "tips_only_source"
+0033 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "tips_source"
+0002    ISF          1
+0003    JMP      2 => 0007
+0004    TGETS    1   0   0  ; "tips_source"
+0005    TGETS    1   1   1  ; "root_wnd"
+0006    RET1     1   2
+0007 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    ISEQP    1   0
+0002    JMP      5 => 0005
+0003    ISNEP    2   0
+0004    JMP      5 => 0006
+0005 => RET0     0   1
+0006 => ISNES    1   0      ; "evt_partner_call"
+0007    JMP      5 => 0017
+0008    GGET     5   1      ; "JumpController"
+0009    MOV      7   5
+0010    TGETS    5   5   2  ; "getInstance"
+0011    CALL     5   2   2
+0012    MOV      7   5
+0013    TGETS    5   5   3  ; "jumpViewByEvtData"
+0014    TDUP     8   4
+0015    CALL     5   1   3
+0016    JMP      5 => 1076
+0017 => ISNES    1   5      ; "evt_mall_buy"
+0018    JMP      5 => 0034
+0019    TGETB    5   2   1
+0020    ISF          5
+0021    JMP      6 => 1076
+0022    GGET     5   1      ; "JumpController"
+0023    MOV      7   5
+0024    TGETS    5   5   2  ; "getInstance"
+0025    CALL     5   2   2
+0026    MOV      7   5
+0027    TGETS    5   5   3  ; "jumpViewByEvtData"
+0028    TDUP     8   6
+0029    TGETB    9   2   1
+0030    TSETB    9   8   2
+0031    TSETB    3   8   3
+0032    CALL     5   1   3
+0033    JMP      5 => 1076
+0034 => ISNES    1   7      ; "evt_vip"
+0035    JMP      5 => 0050
+0036    GGET     5   1      ; "JumpController"
+0037    MOV      7   5
+0038    TGETS    5   5   2  ; "getInstance"
+0039    CALL     5   2   2
+0040    MOV      7   5
+0041    TGETS    5   5   3  ; "jumpViewByEvtData"
+0042    TDUP     8   8
+0043    GGET     9   9      ; "VIPTABCONST"
+0044    TGETS    9   9  10  ; "VIP"
+0045    TSETB    9   8   2
+0046    TGETB    9   2   1
+0047    TSETB    9   8   3
+0048    CALL     5   1   3
+0049    JMP      5 => 1076
+0050 => ISNES    1  11      ; "evt_boss"
+0051    JMP      5 => 0053
+0052    JMP      5 => 1076
+0053 => ISNES    1  12      ; "evt_world_boss"
+0054    JMP      5 => 0056
+0055    JMP      5 => 1076
+0056 => ISNES    1  13      ; "evt_tower"
+0057    JMP      5 => 0067
+0058    GGET     5   1      ; "JumpController"
+0059    MOV      7   5
+0060    TGETS    5   5   2  ; "getInstance"
+0061    CALL     5   2   2
+0062    MOV      7   5
+0063    TGETS    5   5   3  ; "jumpViewByEvtData"
+0064    TDUP     8  14
+0065    CALL     5   1   3
+0066    JMP      5 => 1076
+0067 => ISNES    1  15      ; "evt_divination"
+0068    JMP      5 => 0078
+0069    GGET     5  16      ; "AuguryController"
+0070    MOV      7   5
+0071    TGETS    5   5   2  ; "getInstance"
+0072    CALL     5   2   2
+0073    MOV      7   5
+0074    TGETS    5   5  17  ; "openMainView"
+0075    KPRI     8   2
+0076    CALL     5   1   3
+0077    JMP      5 => 1076
+0078 => ISNES    1  18      ; "evt_dun_chapter"
+0079    JMP      5 => 0089
+0080    GGET     5   1      ; "JumpController"
+0081    MOV      7   5
+0082    TGETS    5   5   2  ; "getInstance"
+0083    CALL     5   2   2
+0084    MOV      7   5
+0085    TGETS    5   5   3  ; "jumpViewByEvtData"
+0086    TDUP     8  19
+0087    CALL     5   1   3
+0088    JMP      5 => 1076
+0089 => ISNES    1  20      ; "evt_gold_market"
+0090    JMP      5 => 0092
+0091    JMP      5 => 1076
+0092 => ISNES    1  21      ; "evt_silver_market"
+0093    JMP      5 => 0095
+0094    JMP      5 => 1076
+0095 => ISNES    1  22      ; "evt_arena"
+0096    JMP      5 => 0106
+0097    GGET     5   1      ; "JumpController"
+0098    MOV      7   5
+0099    TGETS    5   5   2  ; "getInstance"
+0100    CALL     5   2   2
+0101    MOV      7   5
+0102    TGETS    5   5   3  ; "jumpViewByEvtData"
+0103    TDUP     8  23
+0104    CALL     5   1   3
+0105    JMP      5 => 1076
+0106 => ISNES    1  24      ; "evt_arena_box"
+0107    JMP      5 => 0117
+0108    GGET     5   1      ; "JumpController"
+0109    MOV      7   5
+0110    TGETS    5   5   2  ; "getInstance"
+0111    CALL     5   2   2
+0112    MOV      7   5
+0113    TGETS    5   5   3  ; "jumpViewByEvtData"
+0114    TDUP     8  25
+0115    CALL     5   1   3
+0116    JMP      5 => 1076
+0117 => ISNES    1  26      ; "evt_bag_eqm"
+0118    JMP      5 => 0132
+0119    GGET     5   1      ; "JumpController"
+0120    MOV      7   5
+0121    TGETS    5   5   2  ; "getInstance"
+0122    CALL     5   2   2
+0123    MOV      7   5
+0124    TGETS    5   5   3  ; "jumpViewByEvtData"
+0125    TDUP     8  27
+0126    GGET     9  28      ; "BackPackConst"
+0127    TGETS    9   9  29  ; "item_tab_type"
+0128    TGETS    9   9  30  ; "EQUIPS"
+0129    TSETB    9   8   2
+0130    CALL     5   1   3
+0131    JMP      5 => 1076
+0132 => ISNES    1  31      ; "evt_bag_partner"
+0133    JMP      5 => 0147
+0134    GGET     5   1      ; "JumpController"
+0135    MOV      7   5
+0136    TGETS    5   5   2  ; "getInstance"
+0137    CALL     5   2   2
+0138    MOV      7   5
+0139    TGETS    5   5   3  ; "jumpViewByEvtData"
+0140    TDUP     8  32
+0141    GGET     9  28      ; "BackPackConst"
+0142    TGETS    9   9  29  ; "item_tab_type"
+0143    TGETS    9   9  33  ; "HERO"
+0144    TSETB    9   8   2
+0145    CALL     5   1   3
+0146    JMP      5 => 1076
+0147 => ISNES    1  34      ; "evt_dun_stone"
+0148    JMP      5 => 0158
+0149    GGET     5   1      ; "JumpController"
+0150    MOV      7   5
+0151    TGETS    5   5   2  ; "getInstance"
+0152    CALL     5   2   2
+0153    MOV      7   5
+0154    TGETS    5   5   3  ; "jumpViewByEvtData"
+0155    TDUP     8  35
+0156    CALL     5   1   3
+0157    JMP      5 => 1076
+0158 => ISNES    1  36      ; "evt_bag_star_life"
+0159    JMP      5 => 0173
+0160    GGET     5   1      ; "JumpController"
+0161    MOV      7   5
+0162    TGETS    5   5   2  ; "getInstance"
+0163    CALL     5   2   2
+0164    MOV      7   5
+0165    TGETS    5   5   3  ; "jumpViewByEvtData"
+0166    TDUP     8  37
+0167    GGET     9  28      ; "BackPackConst"
+0168    TGETS    9   9  29  ; "item_tab_type"
+0169    TGETS    9   9  38  ; "SPECIAL"
+0170    TSETB    9   8   2
+0171    CALL     5   1   3
+0172    JMP      5 => 1076
+0173 => ISNES    1  39      ; "evt_friend"
+0174    JMP      5 => 0184
+0175    GGET     5   1      ; "JumpController"
+0176    MOV      7   5
+0177    TGETS    5   5   2  ; "getInstance"
+0178    CALL     5   2   2
+0179    MOV      7   5
+0180    TGETS    5   5   3  ; "jumpViewByEvtData"
+0181    TDUP     8  40
+0182    CALL     5   1   3
+0183    JMP      5 => 1076
+0184 => ISNES    1  41      ; "evt_league"
+0185    JMP      5 => 0195
+0186    GGET     5   1      ; "JumpController"
+0187    MOV      7   5
+0188    TGETS    5   5   2  ; "getInstance"
+0189    CALL     5   2   2
+0190    MOV      7   5
+0191    TGETS    5   5   3  ; "jumpViewByEvtData"
+0192    TDUP     8  42
+0193    CALL     5   1   3
+0194    JMP      5 => 1076
+0195 => ISNES    1  43      ; "evt_league_dungeon"
+0196    JMP      5 => 0206
+0197    GGET     5   1      ; "JumpController"
+0198    MOV      7   5
+0199    TGETS    5   5   2  ; "getInstance"
+0200    CALL     5   2   2
+0201    MOV      7   5
+0202    TGETS    5   5   3  ; "jumpViewByEvtData"
+0203    TDUP     8  44
+0204    CALL     5   1   3
+0205    JMP      5 => 1076
+0206 => ISNES    1  45      ; "evt_league_donate"
+0207    JMP      5 => 0217
+0208    GGET     5   1      ; "JumpController"
+0209    MOV      7   5
+0210    TGETS    5   5   2  ; "getInstance"
+0211    CALL     5   2   2
+0212    MOV      7   5
+0213    TGETS    5   5   3  ; "jumpViewByEvtData"
+0214    TDUP     8  46
+0215    CALL     5   1   3
+0216    JMP      5 => 1076
+0217 => ISNES    1  47      ; "evt_league_sail"
+0218    JMP      5 => 0228
+0219    GGET     5   1      ; "JumpController"
+0220    MOV      7   5
+0221    TGETS    5   5   2  ; "getInstance"
+0222    CALL     5   2   2
+0223    MOV      7   5
+0224    TGETS    5   5   3  ; "jumpViewByEvtData"
+0225    TDUP     8  48
+0226    CALL     5   1   3
+0227    JMP      5 => 1076
+0228 => ISNES    1  49      ; "evt_league_skill"
+0229    JMP      5 => 0239
+0230    GGET     5   1      ; "JumpController"
+0231    MOV      7   5
+0232    TGETS    5   5   2  ; "getInstance"
+0233    CALL     5   2   2
+0234    MOV      7   5
+0235    TGETS    5   5   3  ; "jumpViewByEvtData"
+0236    TDUP     8  50
+0237    CALL     5   1   3
+0238    JMP      5 => 1076
+0239 => ISNES    1  51      ; "evt_league_shop"
+0240    JMP      5 => 0254
+0241    GGET     5   1      ; "JumpController"
+0242    MOV      7   5
+0243    TGETS    5   5   2  ; "getInstance"
+0244    CALL     5   2   2
+0245    MOV      7   5
+0246    TGETS    5   5   3  ; "jumpViewByEvtData"
+0247    TDUP     8  52
+0248    GGET     9  53      ; "MallConst"
+0249    TGETS    9   9  54  ; "MallType"
+0250    TGETS    9   9  55  ; "UnionShop"
+0251    TSETB    9   8   2
+0252    CALL     5   1   3
+0253    JMP      5 => 1076
+0254 => ISNES    1  56      ; "evt_league_redpacket"
+0255    JMP      5 => 0265
+0256    GGET     5   1      ; "JumpController"
+0257    MOV      7   5
+0258    TGETS    5   5   2  ; "getInstance"
+0259    CALL     5   2   2
+0260    MOV      7   5
+0261    TGETS    5   5   3  ; "jumpViewByEvtData"
+0262    TDUP     8  57
+0263    CALL     5   1   3
+0264    JMP      5 => 1076
+0265 => ISNES    1  58      ; "evt_league_war"
+0266    JMP      5 => 0276
+0267    GGET     5   1      ; "JumpController"
+0268    MOV      7   5
+0269    TGETS    5   5   2  ; "getInstance"
+0270    CALL     5   2   2
+0271    MOV      7   5
+0272    TGETS    5   5   3  ; "jumpViewByEvtData"
+0273    TDUP     8  59
+0274    CALL     5   1   3
+0275    JMP      5 => 1076
+0276 => ISNES    1  60      ; "evt_god_world"
+0277    JMP      5 => 0287
+0278    GGET     5   1      ; "JumpController"
+0279    MOV      7   5
+0280    TGETS    5   5   2  ; "getInstance"
+0281    CALL     5   2   2
+0282    MOV      7   5
+0283    TGETS    5   5   3  ; "jumpViewByEvtData"
+0284    TDUP     8  61
+0285    CALL     5   1   3
+0286    JMP      5 => 1076
+0287 => ISNES    1  62      ; "evt_league_help"
+0288    JMP      5 => 0290
+0289    JMP      5 => 1076
+0290 => ISNES    1  63      ; "evt_exchange"
+0291    JMP      5 => 0301
+0292    GGET     5   1      ; "JumpController"
+0293    MOV      7   5
+0294    TGETS    5   5   2  ; "getInstance"
+0295    CALL     5   2   2
+0296    MOV      7   5
+0297    TGETS    5   5   3  ; "jumpViewByEvtData"
+0298    TDUP     8  64
+0299    CALL     5   1   3
+0300    JMP      5 => 1076
+0301 => ISNES    1  65      ; "evt_arena_champion"
+0302    JMP      5 => 0312
+0303    GGET     5   1      ; "JumpController"
+0304    MOV      7   5
+0305    TGETS    5   5   2  ; "getInstance"
+0306    CALL     5   2   2
+0307    MOV      7   5
+0308    TGETS    5   5   3  ; "jumpViewByEvtData"
+0309    TDUP     8  66
+0310    CALL     5   1   3
+0311    JMP      5 => 1076
+0312 => ISNES    1  67      ; "evt_endless"
+0313    JMP      5 => 0323
+0314    GGET     5   1      ; "JumpController"
+0315    MOV      7   5
+0316    TGETS    5   5   2  ; "getInstance"
+0317    CALL     5   2   2
+0318    MOV      7   5
+0319    TGETS    5   5   3  ; "jumpViewByEvtData"
+0320    TDUP     8  68
+0321    CALL     5   1   3
+0322    JMP      5 => 1076
+0323 => ISNES    1  69      ; "evt_partner_power"
+0324    JMP      5 => 0334
+0325    GGET     5  70      ; "PartnersummonController"
+0326    MOV      7   5
+0327    TGETS    5   5   2  ; "getInstance"
+0328    CALL     5   2   2
+0329    MOV      7   5
+0330    TGETS    5   5  71  ; "openGodPartnerSummonView"
+0331    KPRI     8   2
+0332    CALL     5   1   3
+0333    JMP      5 => 1076
+0334 => ISNES    1  72      ; "evt_hero"
+0335    JMP      5 => 0337
+0336    JMP      5 => 1076
+0337 => ISNES    1  73      ; "evt_pet"
+0338    JMP      5 => 0350
+0339    GGET     5  74      ; "MainuiController"
+0340    MOV      7   5
+0341    TGETS    5   5   2  ; "getInstance"
+0342    CALL     5   2   2
+0343    MOV      7   5
+0344    TGETS    5   5  75  ; "requestOpenBattleRelevanceWindow"
+0345    GGET     8  76      ; "BattleConst"
+0346    TGETS    8   8  77  ; "Fight_Type"
+0347    TGETS    8   8  78  ; "Escort"
+0348    CALL     5   1   3
+0349    JMP      5 => 1076
+0350 => ISNES    1  79      ; "evt_shengqi"
+0351    JMP      5 => 0361
+0352    GGET     5   1      ; "JumpController"
+0353    MOV      7   5
+0354    TGETS    5   5   2  ; "getInstance"
+0355    CALL     5   2   2
+0356    MOV      7   5
+0357    TGETS    5   5   3  ; "jumpViewByEvtData"
+0358    TDUP     8  80
+0359    CALL     5   1   3
+0360    JMP      5 => 1076
+0361 => ISNES    1  81      ; "evt_xingming"
+0362    JMP      5 => 0372
+0363    GGET     5   1      ; "JumpController"
+0364    MOV      7   5
+0365    TGETS    5   5   2  ; "getInstance"
+0366    CALL     5   2   2
+0367    MOV      7   5
+0368    TGETS    5   5   3  ; "jumpViewByEvtData"
+0369    TDUP     8  82
+0370    CALL     5   1   3
+0371    JMP      5 => 1076
+0372 => ISNES    1  83      ; "evt_primus"
+0373    JMP      5 => 0383
+0374    GGET     5  84      ; "PrimusController"
+0375    MOV      7   5
+0376    TGETS    5   5   2  ; "getInstance"
+0377    CALL     5   2   2
+0378    MOV      7   5
+0379    TGETS    5   5  85  ; "openPrimusMainWindow"
+0380    KPRI     8   2
+0381    CALL     5   1   3
+0382    JMP      5 => 1076
+0383 => ISNES    1  86      ; "evt_skyladder"
+0384    JMP      5 => 0394
+0385    GGET     5   1      ; "JumpController"
+0386    MOV      7   5
+0387    TGETS    5   5   2  ; "getInstance"
+0388    CALL     5   2   2
+0389    MOV      7   5
+0390    TGETS    5   5   3  ; "jumpViewByEvtData"
+0391    TDUP     8  87
+0392    CALL     5   1   3
+0393    JMP      5 => 1076
+0394 => ISNES    1  88      ; "evt_skyshop"
+0395    JMP      5 => 0405
+0396    GGET     5   1      ; "JumpController"
+0397    MOV      7   5
+0398    TGETS    5   5   2  ; "getInstance"
+0399    CALL     5   2   2
+0400    MOV      7   5
+0401    TGETS    5   5   3  ; "jumpViewByEvtData"
+0402    TDUP     8  89
+0403    CALL     5   1   3
+0404    JMP      5 => 1076
+0405 => ISNES    1  90      ; "evt_change"
+0406    JMP      5 => 0416
+0407    GGET     5   1      ; "JumpController"
+0408    MOV      7   5
+0409    TGETS    5   5   2  ; "getInstance"
+0410    CALL     5   2   2
+0411    MOV      7   5
+0412    TGETS    5   5   3  ; "jumpViewByEvtData"
+0413    TDUP     8  91
+0414    CALL     5   1   3
+0415    JMP      5 => 1076
+0416 => ISNES    1  92      ; "evt_yueke"
+0417    JMP      5 => 0419
+0418    JMP      5 => 1076
+0419 => ISNES    1  93      ; "evt_invest"
+0420    JMP      5 => 0430
+0421    GGET     5   1      ; "JumpController"
+0422    MOV      7   5
+0423    TGETS    5   5   2  ; "getInstance"
+0424    CALL     5   2   2
+0425    MOV      7   5
+0426    TGETS    5   5   3  ; "jumpViewByEvtData"
+0427    TDUP     8  94
+0428    CALL     5   1   3
+0429    JMP      5 => 1076
+0430 => ISNES    1  95      ; "evt_growfund"
+0431    JMP      5 => 0441
+0432    GGET     5   1      ; "JumpController"
+0433    MOV      7   5
+0434    TGETS    5   5   2  ; "getInstance"
+0435    CALL     5   2   2
+0436    MOV      7   5
+0437    TGETS    5   5   3  ; "jumpViewByEvtData"
+0438    TDUP     8  96
+0439    CALL     5   1   3
+0440    JMP      5 => 1076
+0441 => ISNES    1  97      ; "evt_partner"
+0442    JMP      5 => 0452
+0443    GGET     5   1      ; "JumpController"
+0444    MOV      7   5
+0445    TGETS    5   5   2  ; "getInstance"
+0446    CALL     5   2   2
+0447    MOV      7   5
+0448    TGETS    5   5   3  ; "jumpViewByEvtData"
+0449    TDUP     8  98
+0450    CALL     5   1   3
+0451    JMP      5 => 1076
+0452 => ISNES    1  99      ; "evt_partner_gemstone"
+0453    JMP      5 => 0455
+0454    JMP      5 => 1076
+0455 => ISEQS    1 100      ; "evt_lucky_treasure"
+0456    JMP      5 => 0459
+0457    ISNES    1 101      ; "evt_treasure"
+0458    JMP      5 => 0468
+0459 => GGET     5   1      ; "JumpController"
+0460    MOV      7   5
+0461    TGETS    5   5   2  ; "getInstance"
+0462    CALL     5   2   2
+0463    MOV      7   5
+0464    TGETS    5   5   3  ; "jumpViewByEvtData"
+0465    TDUP     8 102
+0466    CALL     5   1   3
+0467    JMP      5 => 1076
+0468 => ISNES    1 103      ; "evt_recruit_high"
+0469    JMP      5 => 0483
+0470    GGET     5   1      ; "JumpController"
+0471    MOV      7   5
+0472    TGETS    5   5   2  ; "getInstance"
+0473    CALL     5   2   2
+0474    MOV      7   5
+0475    TGETS    5   5   3  ; "jumpViewByEvtData"
+0476    TDUP     8 104
+0477    GGET     9 105      ; "SeerpalaceConst"
+0478    TGETS    9   9 106  ; "Tab_Index"
+0479    TGETS    9   9 107  ; "Summon"
+0480    TSETB    9   8   2
+0481    CALL     5   1   3
+0482    JMP      5 => 1076
+0483 => ISNES    1 108      ; "evt_hero_conversion"
+0484    JMP      5 => 0498
+0485    GGET     5   1      ; "JumpController"
+0486    MOV      7   5
+0487    TGETS    5   5   2  ; "getInstance"
+0488    CALL     5   2   2
+0489    MOV      7   5
+0490    TGETS    5   5   3  ; "jumpViewByEvtData"
+0491    TDUP     8 109
+0492    GGET     9 105      ; "SeerpalaceConst"
+0493    TGETS    9   9 106  ; "Tab_Index"
+0494    TGETS    9   9 110  ; "Change"
+0495    TSETB    9   8   2
+0496    CALL     5   1   3
+0497    JMP      5 => 1076
+0498 => ISNES    1 111      ; "evt_partner_synthesis"
+0499    JMP      5 => 0509
+0500    GGET     5   1      ; "JumpController"
+0501    MOV      7   5
+0502    TGETS    5   5   2  ; "getInstance"
+0503    CALL     5   2   2
+0504    MOV      7   5
+0505    TGETS    5   5   3  ; "jumpViewByEvtData"
+0506    TDUP     8 112
+0507    CALL     5   1   3
+0508    JMP      5 => 1076
+0509 => ISNES    1 113      ; "evt_partner_decompose"
+0510    JMP      5 => 0520
+0511    GGET     5   1      ; "JumpController"
+0512    MOV      7   5
+0513    TGETS    5   5   2  ; "getInstance"
+0514    CALL     5   2   2
+0515    MOV      7   5
+0516    TGETS    5   5   3  ; "jumpViewByEvtData"
+0517    TDUP     8 114
+0518    CALL     5   1   3
+0519    JMP      5 => 1076
+0520 => ISNES    1 115      ; "evt_partner_eqm_synthesis"
+0521    JMP      5 => 0531
+0522    GGET     5   1      ; "JumpController"
+0523    MOV      7   5
+0524    TGETS    5   5   2  ; "getInstance"
+0525    CALL     5   2   2
+0526    MOV      7   5
+0527    TGETS    5   5   3  ; "jumpViewByEvtData"
+0528    TDUP     8 116
+0529    CALL     5   1   3
+0530    JMP      5 => 1076
+0531 => ISNES    1 117      ; "evt_expedition"
+0532    JMP      5 => 0542
+0533    GGET     5   1      ; "JumpController"
+0534    MOV      7   5
+0535    TGETS    5   5   2  ; "getInstance"
+0536    CALL     5   2   2
+0537    MOV      7   5
+0538    TGETS    5   5   3  ; "jumpViewByEvtData"
+0539    TDUP     8 118
+0540    CALL     5   1   3
+0541    JMP      5 => 1076
+0542 => ISNES    1 119      ; "evt_grocery_store"
+0543    JMP      5 => 0553
+0544    GGET     5   1      ; "JumpController"
+0545    MOV      7   5
+0546    TGETS    5   5   2  ; "getInstance"
+0547    CALL     5   2   2
+0548    MOV      7   5
+0549    TGETS    5   5   3  ; "jumpViewByEvtData"
+0550    TDUP     8 120
+0551    CALL     5   1   3
+0552    JMP      5 => 1076
+0553 => ISNES    1 121      ; "evt_daily_quest"
+0554    JMP      5 => 0564
+0555    GGET     5   1      ; "JumpController"
+0556    MOV      7   5
+0557    TGETS    5   5   2  ; "getInstance"
+0558    CALL     5   2   2
+0559    MOV      7   5
+0560    TGETS    5   5   3  ; "jumpViewByEvtData"
+0561    TDUP     8 122
+0562    CALL     5   1   3
+0563    JMP      5 => 1076
+0564 => ISNES    1 123      ; "evt_achievement"
+0565    JMP      5 => 0579
+0566    GGET     5   1      ; "JumpController"
+0567    MOV      7   5
+0568    TGETS    5   5   2  ; "getInstance"
+0569    CALL     5   2   2
+0570    MOV      7   5
+0571    TGETS    5   5   3  ; "jumpViewByEvtData"
+0572    TDUP     8 124
+0573    GGET     9 125      ; "TaskConst"
+0574    TGETS    9   9 126  ; "type"
+0575    TGETS    9   9 127  ; "feat"
+0576    TSETB    9   8   2
+0577    CALL     5   1   3
+0578    JMP      5 => 1076
+0579 => ISNES    1 128      ; "evt_rune_synthesis"
+0580    JMP      5 => 0594
+0581    GGET     5   1      ; "JumpController"
+0582    MOV      7   5
+0583    TGETS    5   5   2  ; "getInstance"
+0584    CALL     5   2   2
+0585    MOV      7   5
+0586    TGETS    5   5   3  ; "jumpViewByEvtData"
+0587    TDUP     8 129
+0588    GGET     9 130      ; "ForgeHouseConst"
+0589    TGETS    9   9 106  ; "Tab_Index"
+0590    TGETS    9   9 131  ; "Artifact"
+0591    TSETB    9   8   2
+0592    CALL     5   1   3
+0593    JMP      5 => 1076
+0594 => ISNES    1 132      ; "evt_skillshop"
+0595    JMP      5 => 0609
+0596    GGET     5   1      ; "JumpController"
+0597    MOV      7   5
+0598    TGETS    5   5   2  ; "getInstance"
+0599    CALL     5   2   2
+0600    MOV      7   5
+0601    TGETS    5   5   3  ; "jumpViewByEvtData"
+0602    TDUP     8 133
+0603    GGET     9  53      ; "MallConst"
+0604    TGETS    9   9  54  ; "MallType"
+0605    TGETS    9   9 134  ; "SkillShop"
+0606    TSETB    9   8   2
+0607    CALL     5   1   3
+0608    JMP      5 => 1076
+0609 => ISNES    1 135      ; "evt_eliteshop"
+0610    JMP      5 => 0624
+0611    GGET     5   1      ; "JumpController"
+0612    MOV      7   5
+0613    TGETS    5   5   2  ; "getInstance"
+0614    CALL     5   2   2
+0615    MOV      7   5
+0616    TGETS    5   5   3  ; "jumpViewByEvtData"
+0617    TDUP     8 136
+0618    GGET     9  53      ; "MallConst"
+0619    TGETS    9   9  54  ; "MallType"
+0620    TGETS    9   9 137  ; "EliteShop"
+0621    TSETB    9   8   2
+0622    CALL     5   1   3
+0623    JMP      5 => 1076
+0624 => ISNES    1 138      ; "evt_elitematch"
+0625    JMP      5 => 0635
+0626    GGET     5   1      ; "JumpController"
+0627    MOV      7   5
+0628    TGETS    5   5   2  ; "getInstance"
+0629    CALL     5   2   2
+0630    MOV      7   5
+0631    TGETS    5   5   3  ; "jumpViewByEvtData"
+0632    TDUP     8 139
+0633    CALL     5   1   3
+0634    JMP      5 => 1076
+0635 => ISNES    1 140      ; "evt_element_temple"
+0636    JMP      5 => 0646
+0637    GGET     5   1      ; "JumpController"
+0638    MOV      7   5
+0639    TGETS    5   5   2  ; "getInstance"
+0640    CALL     5   2   2
+0641    MOV      7   5
+0642    TGETS    5   5   3  ; "jumpViewByEvtData"
+0643    TDUP     8 141
+0644    CALL     5   1   3
+0645    JMP      5 => 1076
+0646 => ISNES    1 142      ; "evt_dungeon_heaven"
+0647    JMP      5 => 0657
+0648    GGET     5   1      ; "JumpController"
+0649    MOV      7   5
+0650    TGETS    5   5   2  ; "getInstance"
+0651    CALL     5   2   2
+0652    MOV      7   5
+0653    TGETS    5   5   3  ; "jumpViewByEvtData"
+0654    TDUP     8 143
+0655    CALL     5   1   3
+0656    JMP      5 => 1076
+0657 => ISNES    1 144      ; "evt_dungeon_heaven_inside"
+0658    JMP      5 => 0679
+0659    GGET     5 145      ; "HeavenController"
+0660    MOV      7   5
+0661    TGETS    5   5   2  ; "getInstance"
+0662    CALL     5   2   2
+0663    MOV      7   5
+0664    TGETS    5   5 146  ; "getModel"
+0665    CALL     5   2   2
+0666    MOV      7   5
+0667    TGETS    5   5 147  ; "getOpenMaxChapterId"
+0668    CALL     5   2   2
+0669    GGET     6   1      ; "JumpController"
+0670    MOV      8   6
+0671    TGETS    6   6   2  ; "getInstance"
+0672    CALL     6   2   2
+0673    MOV      8   6
+0674    TGETS    6   6   3  ; "jumpViewByEvtData"
+0675    TDUP     9 148
+0676    TSETB    5   9   2
+0677    CALL     6   1   3
+0678    JMP      5 => 1076
+0679 => ISNES    1 149      ; "evt_arena_cluster"
+0680    JMP      5 => 0690
+0681    GGET     5   1      ; "JumpController"
+0682    MOV      7   5
+0683    TGETS    5   5   2  ; "getInstance"
+0684    CALL     5   2   2
+0685    MOV      7   5
+0686    TGETS    5   5   3  ; "jumpViewByEvtData"
+0687    TDUP     8 150
+0688    CALL     5   1   3
+0689    JMP      5 => 1076
+0690 => ISNES    1 151      ; "evt_mall_competition"
+0691    JMP      5 => 0701
+0692    GGET     5   1      ; "JumpController"
+0693    MOV      7   5
+0694    TGETS    5   5   2  ; "getInstance"
+0695    CALL     5   2   2
+0696    MOV      7   5
+0697    TGETS    5   5   3  ; "jumpViewByEvtData"
+0698    TDUP     8 152
+0699    CALL     5   1   3
+0700    JMP      5 => 1076
+0701 => ISNES    1 153      ; "evt_home"
+0702    JMP      5 => 0712
+0703    GGET     5   1      ; "JumpController"
+0704    MOV      7   5
+0705    TGETS    5   5   2  ; "getInstance"
+0706    CALL     5   2   2
+0707    MOV      7   5
+0708    TGETS    5   5   3  ; "jumpViewByEvtData"
+0709    TDUP     8 154
+0710    CALL     5   1   3
+0711    JMP      5 => 1076
+0712 => ISNES    1 155      ; "evt_veins_competition"
+0713    JMP      5 => 0723
+0714    GGET     5   1      ; "JumpController"
+0715    MOV      7   5
+0716    TGETS    5   5   2  ; "getInstance"
+0717    CALL     5   2   2
+0718    MOV      7   5
+0719    TGETS    5   5   3  ; "jumpViewByEvtData"
+0720    TDUP     8 156
+0721    CALL     5   1   3
+0722    JMP      5 => 1076
+0723 => ISNES    1 157      ; "evt_cluster_champion"
+0724    JMP      5 => 0734
+0725    GGET     5   1      ; "JumpController"
+0726    MOV      7   5
+0727    TGETS    5   5   2  ; "getInstance"
+0728    CALL     5   2   2
+0729    MOV      7   5
+0730    TGETS    5   5   3  ; "jumpViewByEvtData"
+0731    TDUP     8 158
+0732    CALL     5   1   3
+0733    JMP      5 => 1076
+0734 => ISNES    1 159      ; "evt_experience_alchemy"
+0735    JMP      5 => 0745
+0736    GGET     5   1      ; "JumpController"
+0737    MOV      7   5
+0738    TGETS    5   5   2  ; "getInstance"
+0739    CALL     5   2   2
+0740    MOV      7   5
+0741    TGETS    5   5   3  ; "jumpViewByEvtData"
+0742    TDUP     8 160
+0743    CALL     5   1   3
+0744    JMP      5 => 1076
+0745 => ISNES    1 161      ; "evt_resonate"
+0746    JMP      5 => 0756
+0747    GGET     5   1      ; "JumpController"
+0748    MOV      7   5
+0749    TGETS    5   5   2  ; "getInstance"
+0750    CALL     5   2   2
+0751    MOV      7   5
+0752    TGETS    5   5   3  ; "jumpViewByEvtData"
+0753    TDUP     8 162
+0754    CALL     5   1   3
+0755    JMP      5 => 1076
+0756 => ISNES    1 163      ; "evt_gift_feather"
+0757    JMP      5 => 0767
+0758    GGET     5   1      ; "JumpController"
+0759    MOV      7   5
+0760    TGETS    5   5   2  ; "getInstance"
+0761    CALL     5   2   2
+0762    MOV      7   5
+0763    TGETS    5   5   3  ; "jumpViewByEvtData"
+0764    TDUP     8 164
+0765    CALL     5   1   3
+0766    JMP      5 => 1076
+0767 => ISNES    1 165      ; "evt_festival_feather"
+0768    JMP      5 => 0778
+0769    GGET     5   1      ; "JumpController"
+0770    MOV      7   5
+0771    TGETS    5   5   2  ; "getInstance"
+0772    CALL     5   2   2
+0773    MOV      7   5
+0774    TGETS    5   5   3  ; "jumpViewByEvtData"
+0775    TDUP     8 166
+0776    CALL     5   1   3
+0777    JMP      5 => 1076
+0778 => ISNES    1 167      ; "evt_summon_feather"
+0779    JMP      5 => 0789
+0780    GGET     5   1      ; "JumpController"
+0781    MOV      7   5
+0782    TGETS    5   5   2  ; "getInstance"
+0783    CALL     5   2   2
+0784    MOV      7   5
+0785    TGETS    5   5   3  ; "jumpViewByEvtData"
+0786    TDUP     8 168
+0787    CALL     5   1   3
+0788    JMP      5 => 1076
+0789 => ISNES    1 169      ; "evt_mall_cluster_champion"
+0790    JMP      5 => 0800
+0791    GGET     5   1      ; "JumpController"
+0792    MOV      7   5
+0793    TGETS    5   5   2  ; "getInstance"
+0794    CALL     5   2   2
+0795    MOV      7   5
+0796    TGETS    5   5   3  ; "jumpViewByEvtData"
+0797    TDUP     8 170
+0798    CALL     5   1   3
+0799    JMP      5 => 1076
+0800 => ISNES    1 171      ; "evt_elfin"
+0801    JMP      5 => 0811
+0802    GGET     5   1      ; "JumpController"
+0803    MOV      7   5
+0804    TGETS    5   5   2  ; "getInstance"
+0805    CALL     5   2   2
+0806    MOV      7   5
+0807    TGETS    5   5   3  ; "jumpViewByEvtData"
+0808    TDUP     8 172
+0809    CALL     5   1   3
+0810    JMP      5 => 1076
+0811 => ISNES    1 173      ; "evt_bag_elfin"
+0812    JMP      5 => 0826
+0813    GGET     5   1      ; "JumpController"
+0814    MOV      7   5
+0815    TGETS    5   5   2  ; "getInstance"
+0816    CALL     5   2   2
+0817    MOV      7   5
+0818    TGETS    5   5   3  ; "jumpViewByEvtData"
+0819    TDUP     8 174
+0820    GGET     9  28      ; "BackPackConst"
+0821    TGETS    9   9  29  ; "item_tab_type"
+0822    TGETS    9   9 175  ; "ELFIN"
+0823    TSETB    9   8   2
+0824    CALL     5   1   3
+0825    JMP      5 => 1076
+0826 => ISNES    1 176      ; "evt_privilege"
+0827    JMP      5 => 0840
+0828    GGET     5   1      ; "JumpController"
+0829    MOV      7   5
+0830    TGETS    5   5   2  ; "getInstance"
+0831    CALL     5   2   2
+0832    MOV      7   5
+0833    TGETS    5   5   3  ; "jumpViewByEvtData"
+0834    TDUP     8 177
+0835    GGET     9   9      ; "VIPTABCONST"
+0836    TGETS    9   9 178  ; "PRIVILEGE"
+0837    TSETB    9   8   2
+0838    CALL     5   1   3
+0839    JMP      5 => 1076
+0840 => ISNES    1 179      ; "evt_dialy_gift"
+0841    JMP      5 => 0854
+0842    GGET     5   1      ; "JumpController"
+0843    MOV      7   5
+0844    TGETS    5   5   2  ; "getInstance"
+0845    CALL     5   2   2
+0846    MOV      7   5
+0847    TGETS    5   5   3  ; "jumpViewByEvtData"
+0848    TDUP     8 180
+0849    GGET     9   9      ; "VIPTABCONST"
+0850    TGETS    9   9 181  ; "DAILY_GIFT"
+0851    TSETB    9   8   2
+0852    CALL     5   1   3
+0853    JMP      5 => 1076
+0854 => ISNES    1 182      ; "evt_weekly_gift"
+0855    JMP      5 => 0865
+0856    GGET     5   1      ; "JumpController"
+0857    MOV      7   5
+0858    TGETS    5   5   2  ; "getInstance"
+0859    CALL     5   2   2
+0860    MOV      7   5
+0861    TGETS    5   5   3  ; "jumpViewByEvtData"
+0862    TDUP     8 183
+0863    CALL     5   1   3
+0864    JMP      5 => 1076
+0865 => ISNES    1 184      ; "evt_home_shop_random"
+0866    JMP      5 => 0876
+0867    GGET     5   1      ; "JumpController"
+0868    MOV      7   5
+0869    TGETS    5   5   2  ; "getInstance"
+0870    CALL     5   2   2
+0871    MOV      7   5
+0872    TGETS    5   5   3  ; "jumpViewByEvtData"
+0873    TDUP     8 185
+0874    CALL     5   1   3
+0875    JMP      5 => 1076
+0876 => ISNES    1 186      ; "evt_home_shop_travel"
+0877    JMP      5 => 0887
+0878    GGET     5   1      ; "JumpController"
+0879    MOV      7   5
+0880    TGETS    5   5   2  ; "getInstance"
+0881    CALL     5   2   2
+0882    MOV      7   5
+0883    TGETS    5   5   3  ; "jumpViewByEvtData"
+0884    TDUP     8 187
+0885    CALL     5   1   3
+0886    JMP      5 => 1076
+0887 => ISNES    1 188      ; "evt_home_shop_furniture"
+0888    JMP      5 => 0898
+0889    GGET     5   1      ; "JumpController"
+0890    MOV      7   5
+0891    TGETS    5   5   2  ; "getInstance"
+0892    CALL     5   2   2
+0893    MOV      7   5
+0894    TGETS    5   5   3  ; "jumpViewByEvtData"
+0895    TDUP     8 189
+0896    CALL     5   1   3
+0897    JMP      5 => 1076
+0898 => ISNES    1 190      ; "evt_league_secret_area"
+0899    JMP      5 => 0909
+0900    GGET     5   1      ; "JumpController"
+0901    MOV      7   5
+0902    TGETS    5   5   2  ; "getInstance"
+0903    CALL     5   2   2
+0904    MOV      7   5
+0905    TGETS    5   5   3  ; "jumpViewByEvtData"
+0906    TDUP     8 191
+0907    CALL     5   1   3
+0908    JMP      5 => 1076
+0909 => ISNES    1 192      ; "evt_league_marketplace"
+0910    JMP      5 => 0920
+0911    GGET     5   1      ; "JumpController"
+0912    MOV      7   5
+0913    TGETS    5   5   2  ; "getInstance"
+0914    CALL     5   2   2
+0915    MOV      7   5
+0916    TGETS    5   5   3  ; "jumpViewByEvtData"
+0917    TDUP     8 193
+0918    CALL     5   1   3
+0919    JMP      5 => 1076
+0920 => ISNES    1 194      ; "evt_arena_team"
+0921    JMP      5 => 0931
+0922    GGET     5   1      ; "JumpController"
+0923    MOV      7   5
+0924    TGETS    5   5   2  ; "getInstance"
+0925    CALL     5   2   2
+0926    MOV      7   5
+0927    TGETS    5   5   3  ; "jumpViewByEvtData"
+0928    TDUP     8 195
+0929    CALL     5   1   3
+0930    JMP      5 => 1076
+0931 => ISNES    1 196      ; "evt_arena_peak_champion"
+0932    JMP      5 => 0942
+0933    GGET     5   1      ; "JumpController"
+0934    MOV      7   5
+0935    TGETS    5   5   2  ; "getInstance"
+0936    CALL     5   2   2
+0937    MOV      7   5
+0938    TGETS    5   5   3  ; "jumpViewByEvtData"
+0939    TDUP     8 197
+0940    CALL     5   1   3
+0941    JMP      5 => 1076
+0942 => ISNES    1 198      ; "evt_monopoly"
+0943    JMP      5 => 0953
+0944    GGET     5   1      ; "JumpController"
+0945    MOV      7   5
+0946    TGETS    5   5   2  ; "getInstance"
+0947    CALL     5   2   2
+0948    MOV      7   5
+0949    TGETS    5   5   3  ; "jumpViewByEvtData"
+0950    TDUP     8 199
+0951    CALL     5   1   3
+0952    JMP      5 => 1076
+0953 => ISNES    1 200      ; "evt_monopoly_boss"
+0954    JMP      5 => 0968
+0955    GGET     5   1      ; "JumpController"
+0956    MOV      7   5
+0957    TGETS    5   5   2  ; "getInstance"
+0958    CALL     5   2   2
+0959    MOV      7   5
+0960    TGETS    5   5   3  ; "jumpViewByEvtData"
+0961    TDUP     8 201
+0962    GGET     9 202      ; "MonopolyConst"
+0963    TGETS    9   9 203  ; "Sub_Type"
+0964    TGETS    9   9 204  ; "Boss"
+0965    TSETB    9   8   2
+0966    CALL     5   1   3
+0967    JMP      5 => 1076
+0968 => ISNES    1 205      ; "evt_monopoly_1"
+0969    JMP      5 => 0983
+0970    GGET     5   1      ; "JumpController"
+0971    MOV      7   5
+0972    TGETS    5   5   2  ; "getInstance"
+0973    CALL     5   2   2
+0974    MOV      7   5
+0975    TGETS    5   5   3  ; "jumpViewByEvtData"
+0976    TDUP     8 206
+0977    GGET     9 202      ; "MonopolyConst"
+0978    TGETS    9   9 203  ; "Sub_Type"
+0979    TGETS    9   9 207  ; "Step_1"
+0980    TSETB    9   8   2
+0981    CALL     5   1   3
+0982    JMP      5 => 1076
+0983 => ISNES    1 208      ; "evt_monopoly_2"
+0984    JMP      5 => 0998
+0985    GGET     5   1      ; "JumpController"
+0986    MOV      7   5
+0987    TGETS    5   5   2  ; "getInstance"
+0988    CALL     5   2   2
+0989    MOV      7   5
+0990    TGETS    5   5   3  ; "jumpViewByEvtData"
+0991    TDUP     8 209
+0992    GGET     9 202      ; "MonopolyConst"
+0993    TGETS    9   9 203  ; "Sub_Type"
+0994    TGETS    9   9 210  ; "Step_2"
+0995    TSETB    9   8   2
+0996    CALL     5   1   3
+0997    JMP      5 => 1076
+0998 => ISNES    1 211      ; "evt_monopoly_3"
+0999    JMP      5 => 1013
+1000    GGET     5   1      ; "JumpController"
+1001    MOV      7   5
+1002    TGETS    5   5   2  ; "getInstance"
+1003    CALL     5   2   2
+1004    MOV      7   5
+1005    TGETS    5   5   3  ; "jumpViewByEvtData"
+1006    TDUP     8 212
+1007    GGET     9 202      ; "MonopolyConst"
+1008    TGETS    9   9 203  ; "Sub_Type"
+1009    TGETS    9   9 213  ; "Step_3"
+1010    TSETB    9   8   2
+1011    CALL     5   1   3
+1012    JMP      5 => 1076
+1013 => ISNES    1 214      ; "evt_monopoly_4"
+1014    JMP      5 => 1028
+1015    GGET     5   1      ; "JumpController"
+1016    MOV      7   5
+1017    TGETS    5   5   2  ; "getInstance"
+1018    CALL     5   2   2
+1019    MOV      7   5
+1020    TGETS    5   5   3  ; "jumpViewByEvtData"
+1021    TDUP     8 215
+1022    GGET     9 202      ; "MonopolyConst"
+1023    TGETS    9   9 203  ; "Sub_Type"
+1024    TGETS    9   9 216  ; "Step_4"
+1025    TSETB    9   8   2
+1026    CALL     5   1   3
+1027    JMP      5 => 1076
+1028 => ISNES    1 217      ; "evt_grow_gift"
+1029    JMP      5 => 1039
+1030    GGET     5   1      ; "JumpController"
+1031    MOV      7   5
+1032    TGETS    5   5   2  ; "getInstance"
+1033    CALL     5   2   2
+1034    MOV      7   5
+1035    TGETS    5   5   3  ; "jumpViewByEvtData"
+1036    TDUP     8 218
+1037    CALL     5   1   3
+1038    JMP      5 => 1076
+1039 => ISNES    1 219      ; "evt_subscribe"
+1040    JMP      5 => 1050
+1041    GGET     5   1      ; "JumpController"
+1042    MOV      7   5
+1043    TGETS    5   5   2  ; "getInstance"
+1044    CALL     5   2   2
+1045    MOV      7   5
+1046    TGETS    5   5   3  ; "jumpViewByEvtData"
+1047    TDUP     8 220
+1048    CALL     5   1   3
+1049    JMP      5 => 1076
+1050 => ISNES    1 221      ; "evt_peak_mall_buy"
+1051    JMP      5 => 1061
+1052    GGET     5   1      ; "JumpController"
+1053    MOV      7   5
+1054    TGETS    5   5   2  ; "getInstance"
+1055    CALL     5   2   2
+1056    MOV      7   5
+1057    TGETS    5   5   3  ; "jumpViewByEvtData"
+1058    TDUP     8 222
+1059    CALL     5   1   3
+1060    JMP      5 => 1076
+1061 => ISNES    1 223      ; "evt_emoguoshi_zhaohuan_source"
+1062    JMP      5 => 1072
+1063    GGET     5   1      ; "JumpController"
+1064    MOV      7   5
+1065    TGETS    5   5   2  ; "getInstance"
+1066    CALL     5   2   2
+1067    MOV      7   5
+1068    TGETS    5   5   3  ; "jumpViewByEvtData"
+1069    TDUP     8 224
+1070    CALL     5   1   3
+1071    JMP      5 => 1076
+1072 => GGET     5 225      ; "print"
+1073    KSTR     7 226      ; "error_source_evt_type===>>"
+1074    MOV      8   1
+1075    CALL     5   1   3
+1076 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    TGETS    1   0   0  ; "model"
+0002    ISEQP    1   0
+0003    JMP      1 => 0010
+0004    TGETS    1   0   0  ; "model"
+0005    MOV      3   1
+0006    TGETS    1   1   1  ; "DeleteMe"
+0007    CALL     1   1   2
+0008    KPRI     1   0
+0009    TSETS    1   0   0  ; "model"
+0010 => RET0     0   1
+
+-- BYTECODE -- B102639FA70CE273.luac:0-0
+0001    GGET     0   0      ; "BackpackController"
+0002    IST          0
+0003    JMP      1 => 0007
+0004    GGET     0   1      ; "BaseClass"
+0005    GGET     2   2      ; "BaseController"
+0006    CALL     0   2   2
+0007 => GSET     0   0      ; "BackpackController"
+0008    GGET     0   0      ; "BackpackController"
+0009    FNEW     1   4      ; B102639FA70CE273.luac:0
+0010    TSETS    1   0   3  ; "config"
+0011    GGET     0   0      ; "BackpackController"
+0012    FNEW     1   6      ; B102639FA70CE273.luac:0
+0013    TSETS    1   0   5  ; "getModel"
+0014    GGET     0   0      ; "BackpackController"
+0015    FNEW     1   8      ; B102639FA70CE273.luac:0
+0016    TSETS    1   0   7  ; "registerEvents"
+0017    GGET     0   0      ; "BackpackController"
+0018    FNEW     1  10      ; B102639FA70CE273.luac:0
+0019    TSETS    1   0   9  ; "registerProtocals"
+0020    GGET     0   0      ; "BackpackController"
+0021    FNEW     1  12      ; B102639FA70CE273.luac:0
+0022    TSETS    1   0  11  ; "sender10500"
+0023    GGET     0   0      ; "BackpackController"
+0024    FNEW     1  14      ; B102639FA70CE273.luac:0
+0025    TSETS    1   0  13  ; "sender10501"
+0026    GGET     0   0      ; "BackpackController"
+0027    FNEW     1  16      ; B102639FA70CE273.luac:0
+0028    TSETS    1   0  15  ; "handle10500"
+0029    GGET     0   0      ; "BackpackController"
+0030    FNEW     1  18      ; B102639FA70CE273.luac:0
+0031    TSETS    1   0  17  ; "handle10501"
+0032    GGET     0   0      ; "BackpackController"
+0033    FNEW     1  20      ; B102639FA70CE273.luac:0
+0034    TSETS    1   0  19  ; "handle10503"
+0035    GGET     0   0      ; "BackpackController"
+0036    FNEW     1  22      ; B102639FA70CE273.luac:0
+0037    TSETS    1   0  21  ; "sender10502"
+0038    GGET     0   0      ; "BackpackController"
+0039    FNEW     1  24      ; B102639FA70CE273.luac:0
+0040    TSETS    1   0  23  ; "handle10502"
+0041    GGET     0   0      ; "BackpackController"
+0042    FNEW     1  26      ; B102639FA70CE273.luac:0
+0043    TSETS    1   0  25  ; "handle10510"
+0044    GGET     0   0      ; "BackpackController"
+0045    FNEW     1  28      ; B102639FA70CE273.luac:0
+0046    TSETS    1   0  27  ; "handle10511"
+0047    GGET     0   0      ; "BackpackController"
+0048    FNEW     1  30      ; B102639FA70CE273.luac:0
+0049    TSETS    1   0  29  ; "handle10512"
+0050    GGET     0   0      ; "BackpackController"
+0051    FNEW     1  32      ; B102639FA70CE273.luac:0
+0052    TSETS    1   0  31  ; "sender10515"
+0053    GGET     0   0      ; "BackpackController"
+0054    FNEW     1  34      ; B102639FA70CE273.luac:0
+0055    TSETS    1   0  33  ; "handle10515"
+0056    GGET     0   0      ; "BackpackController"
+0057    FNEW     1  36      ; B102639FA70CE273.luac:0
+0058    TSETS    1   0  35  ; "sender10520"
+0059    GGET     0   0      ; "BackpackController"
+0060    FNEW     1  38      ; B102639FA70CE273.luac:0
+0061    TSETS    1   0  37  ; "handle10520"
+0062    GGET     0   0      ; "BackpackController"
+0063    FNEW     1  40      ; B102639FA70CE273.luac:0
+0064    TSETS    1   0  39  ; "sender10521"
+0065    GGET     0   0      ; "BackpackController"
+0066    FNEW     1  42      ; B102639FA70CE273.luac:0
+0067    TSETS    1   0  41  ; "handle10521"
+0068    GGET     0   0      ; "BackpackController"
+0069    FNEW     1  44      ; B102639FA70CE273.luac:0
+0070    TSETS    1   0  43  ; "sender10522"
+0071    GGET     0   0      ; "BackpackController"
+0072    FNEW     1  46      ; B102639FA70CE273.luac:0
+0073    TSETS    1   0  45  ; "handle10522"
+0074    GGET     0   0      ; "BackpackController"
+0075    FNEW     1  48      ; B102639FA70CE273.luac:0
+0076    TSETS    1   0  47  ; "sender10523"
+0077    GGET     0   0      ; "BackpackController"
+0078    FNEW     1  50      ; B102639FA70CE273.luac:0
+0079    TSETS    1   0  49  ; "handle10523"
+0080    GGET     0   0      ; "BackpackController"
+0081    FNEW     1  52      ; B102639FA70CE273.luac:0
+0082    TSETS    1   0  51  ; "sender10526"
+0083    GGET     0   0      ; "BackpackController"
+0084    FNEW     1  54      ; B102639FA70CE273.luac:0
+0085    TSETS    1   0  53  ; "handle10526"
+0086    GGET     0   0      ; "BackpackController"
+0087    FNEW     1  56      ; B102639FA70CE273.luac:0
+0088    TSETS    1   0  55  ; "sender10528"
+0089    GGET     0   0      ; "BackpackController"
+0090    FNEW     1  58      ; B102639FA70CE273.luac:0
+0091    TSETS    1   0  57  ; "handle10528"
+0092    GGET     0   0      ; "BackpackController"
+0093    FNEW     1  60      ; B102639FA70CE273.luac:0
+0094    TSETS    1   0  59  ; "handle10530"
+0095    GGET     0   0      ; "BackpackController"
+0096    FNEW     1  62      ; B102639FA70CE273.luac:0
+0097    TSETS    1   0  61  ; "sender11008"
+0098    GGET     0   0      ; "BackpackController"
+0099    FNEW     1  64      ; B102639FA70CE273.luac:0
+0100    TSETS    1   0  63  ; "handle11008"
+0101    GGET     0   0      ; "BackpackController"
+0102    FNEW     1  66      ; B102639FA70CE273.luac:0
+0103    TSETS    1   0  65  ; "openMainView"
+0104    GGET     0   0      ; "BackpackController"
+0105    FNEW     1  68      ; B102639FA70CE273.luac:0
+0106    TSETS    1   0  67  ; "setEquipBackPackStatus"
+0107    GGET     0   0      ; "BackpackController"
+0108    FNEW     1  70      ; B102639FA70CE273.luac:0
+0109    TSETS    1   0  69  ; "getBackpackRoot"
+0110    GGET     0   0      ; "BackpackController"
+0111    FNEW     1  72      ; B102639FA70CE273.luac:0
+0112    TSETS    1   0  71  ; "getBackpackSellRoot"
+0113    GGET     0   0      ; "BackpackController"
+0114    FNEW     1  74      ; B102639FA70CE273.luac:0
+0115    TSETS    1   0  73  ; "openSellWindow"
+0116    GGET     0   0      ; "BackpackController"
+0117    FNEW     1  76      ; B102639FA70CE273.luac:0
+0118    TSETS    1   0  75  ; "openItemSellPanel"
+0119    GGET     0   0      ; "BackpackController"
+0120    FNEW     1  78      ; B102639FA70CE273.luac:0
+0121    TSETS    1   0  77  ; "openQuickSellHolyWindow"
+0122    GGET     0   0      ; "BackpackController"
+0123    FNEW     1  80      ; B102639FA70CE273.luac:0
+0124    TSETS    1   0  79  ; "openHeroSpecialBreakWindow"
+0125    GGET     0   0      ; "BackpackController"
+0126    FNEW     1  82      ; B102639FA70CE273.luac:0
+0127    TSETS    1   0  81  ; "openQuickAddHolyWindow"
+0128    GGET     0   0      ; "BackpackController"
+0129    FNEW     1  84      ; B102639FA70CE273.luac:0
+0130    TSETS    1   0  83  ; "openQuickSellEquipWindow"
+0131    GGET     0   0      ; "BackpackController"
+0132    FNEW     1  86      ; B102639FA70CE273.luac:0
+0133    TSETS    1   0  85  ; "openSellConfirmWindow"
+0134    GGET     0   0      ; "BackpackController"
+0135    FNEW     1  88      ; B102639FA70CE273.luac:0
+0136    TSETS    1   0  87  ; "openBackPackEquipInterceptWindow"
+0137    GGET     0   0      ; "BackpackController"
+0138    FNEW     1  90      ; B102639FA70CE273.luac:0
+0139    TSETS    1   0  89  ; "getData"
+0140    GGET     0   0      ; "BackpackController"
+0141    FNEW     1  92      ; B102639FA70CE273.luac:0
+0142    TSETS    1   0  91  ; "checkItemSoureIsOpenByConfig"
+0143    GGET     0   0      ; "BackpackController"
+0144    FNEW     1  94      ; B102639FA70CE273.luac:0
+0145    TSETS    1   0  93  ; "checkShopIsOpen"
+0146    GGET     0   0      ; "BackpackController"
+0147    FNEW     1  96      ; B102639FA70CE273.luac:0
+0148    TSETS    1   0  95  ; "checkActivityIsOpen"
+0149    GGET     0   0      ; "BackpackController"
+0150    FNEW     1  98      ; B102639FA70CE273.luac:0
+0151    TSETS    1   0  97  ; "checkDungeonChapterIsOpen"
+0152    GGET     0   0      ; "BackpackController"
+0153    FNEW     1 100      ; B102639FA70CE273.luac:0
+0154    TSETS    1   0  99  ; "checkDungeonChapterIsPass"
+0155    GGET     0   0      ; "BackpackController"
+0156    FNEW     1 102      ; B102639FA70CE273.luac:0
+0157    TSETS    1   0 101  ; "checkItemSoureIsOpen"
+0158    GGET     0   0      ; "BackpackController"
+0159    FNEW     1 104      ; B102639FA70CE273.luac:0
+0160    TSETS    1   0 103  ; "openGiftSelectPanel"
+0161    GGET     0   0      ; "BackpackController"
+0162    FNEW     1 106      ; B102639FA70CE273.luac:0
+0163    TSETS    1   0 105  ; "closeGiftSelectPanel"
+0164    GGET     0   0      ; "BackpackController"
+0165    FNEW     1 108      ; B102639FA70CE273.luac:0
+0166    TSETS    1   0 107  ; "getItemSourceRoot"
+0167    GGET     0   0      ; "BackpackController"
+0168    FNEW     1 110      ; B102639FA70CE273.luac:0
+0169    TSETS    1   0 109  ; "gotoItemSourceTarget"
+0170    GGET     0   0      ; "BackpackController"
+0171    FNEW     1 112      ; B102639FA70CE273.luac:0
+0172    TSETS    1   0 111  ; "directorySwap"
+0173    GGET     0   0      ; "BackpackController"
+0174    FNEW     1 114      ; B102639FA70CE273.luac:0
+0175    TSETS    1   0 113  ; "openBatchUseItemView"
+0176    GGET     0   0      ; "BackpackController"
+0177    FNEW     1 116      ; B102639FA70CE273.luac:0
+0178    TSETS    1   0 115  ; "openBackPackComposeWindow"
+0179    GGET     0   0      ; "BackpackController"
+0180    FNEW     1 118      ; B102639FA70CE273.luac:0
+0181    TSETS    1   0 117  ; "openTipsSource"
+0182    GGET     0   0      ; "BackpackController"
+0183    FNEW     1 120      ; B102639FA70CE273.luac:0
+0184    TSETS    1   0 119  ; "openTipsOnlySource"
+0185    GGET     0   0      ; "BackpackController"
+0186    FNEW     1 122      ; B102639FA70CE273.luac:0
+0187    TSETS    1   0 121  ; "getItemTipsSourceRoot"
+0188    GGET     0   0      ; "BackpackController"
+0189    FNEW     1 124      ; B102639FA70CE273.luac:0
+0190    TSETS    1   0 123  ; "gotoItemSources"
+0191    GGET     0   0      ; "BackpackController"
+0192    FNEW     1 126      ; B102639FA70CE273.luac:0
+0193    TSETS    1   0 125  ; "__delete"
+0194    RET0     0   1
+

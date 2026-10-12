@@ -1,0 +1,62 @@
+--- original/ljd/lua/writer.py
++++ fixed/ljd/lua/writer.py
+@@ -102,6 +102,9 @@
+ 
+     def _end_statement(self, statement):
+         assert statement == self._state().current_statement
++        # A following parenthesized callee must not bind to this statement.
++        if statement in (STATEMENT_ASSIGNMENT, STATEMENT_FUNCTION_CALL):
++            self._write(";")
+         self._state().current_statement = STATEMENT_NONE
+         self.print_queue.append((CMD_END_STATEMENT, statement))
+ 
+@@ -593,11 +596,13 @@
+         if not node.contents:
+             return
+ 
+-        for subnode in node.contents[:-1]:
++        # Each list position must emit text, even when an immutable AST
++        # expression (e.g. KNIL-expanded nil) is shared by several positions.
++        for index, subnode in enumerate(node.contents):
++            if index:
++                self._write(", ")
++            self._visited_nodes[-1].discard(subnode)
+             self._visit(subnode)
+-            self._write(", ")
+-
+-        self._visit(node.contents[-1])
+ 
+     visit_identifiers_list = _visit_comma_separated_list
+ 
+@@ -717,7 +722,12 @@
+ 
+             self._skip(node.arguments)
+         else:
++            wrap_callee = isinstance(node.function, (nodes.FunctionDefinition, nodes.TableConstructor) + OPERATOR_TYPES)
++            if wrap_callee:
++                self._write("(")
+             self._visit(node.function)
++            if wrap_callee:
++                self._write(")")
+ 
+             self._write("(")
+             self._visit(node.arguments)
+@@ -861,12 +871,15 @@
+     def visit_return(self, node):
+         self._start_statement(STATEMENT_RETURN)
+ 
++        # Retain decoded dead instructions after early returns without
++        # violating Lua 5.1's rule that return ends its lexical block.
+         if len(node.returns.contents) > 0:
+-            self._write("return ")
+-        else:
+-            self._write("return")
++            self._write("do return ")
++        else:
++            self._write("do return")
+ 
+         self._visit(node.returns)
++        self._write(" end")
+ 
+         self._end_statement(STATEMENT_RETURN)
+ 

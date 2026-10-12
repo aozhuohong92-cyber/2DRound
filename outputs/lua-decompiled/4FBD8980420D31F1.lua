@@ -1,0 +1,6 @@
+FestivalActionEvent = FestivalActionEvent or {}
+FestivalActionEvent.TreasureMessage = "FestivalActionEvent.TreasureMessage"
+FestivalActionEvent.Treasure_MyServer_Event = "FestivalActionEvent.Treasure_MyServer_Event"
+FestivalActionEvent.Treasure_AllServer_Event = "FestivalActionEvent.Treasure_AllServer_Event"
+FestivalActionEvent.Treasure_OpenStatus_Event = "FestivalActionEvent.Treasure_OpenStatus_Event"
+FestivalActionEvent.Personal_Gift_Event = "FestivalActionEvent.Personal_Gift_Event"

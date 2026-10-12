@@ -1,0 +1,36 @@
+BattleEvent = BattleEvent or {}
+BattleEvent.MapDirection = {
+	horizontal = 0,
+	vertical = 1
+}
+BattleEvent.BattleFightType = {
+	real_battle = 1,
+	brocast_battle = 2,
+	no_battle = 0
+}
+BattleEvent.BATTLE_NEXT_TRIALTOWER = "BattleEvent.BATTLE_NEXT_TRIALTOWER"
+BattleEvent.BATTLE_EXIT_MAIN = "BattleEvent.BATTLE_EXIT_MAIN"
+BattleEvent.BATTLE_GET_EQUIP = "BattleEvent.BATTLE_GET_EQUIP"
+BattleEvent.BATTLE_DEBUG = "BattleEvent.BATTLE_DEBUG"
+BattleEvent.ENTERBACKGROUND = "BattleEvent.ENTERBACKGROUND"
+BattleEvent.ENTERFOREGROUND = "BattleEvent.ENTERFOREGROUND"
+BattleEvent.VIPVIEW = "BattleEvent.VIPVIEW"
+BattleEvent.DISCONNECTVIEW = "BattleEvent.DISCONNECTVIEW"
+BattleEvent.CLOSE_RESULT_VIEW = "BattleEvent.CLOSE_RESULT_VIEW"
+BattleEvent.NEXT_SHOW_RESULT_VIEW = "BattleEvent.NEXT_SHOW_RESULT_VIEW"
+BattleEvent.DUNGEON_SELECT_CARD = "BattleEvent.DUNGEON_SELECT_CARD"
+BattleEvent.UPDATE_SELECT_CARD = "BattleEvent.UPDATE_SELECT_CARD"
+BattleEvent.MAP_LOAD_SUM_NUM = 2
+BattleEvent.UPDATE_PVP_FORM_UP_DATA = "BattleEvent.UPDATE_PVP_FORM_UP_DATA"
+BattleEvent.UPDATE_PVP_FORM_DOWN_DATA = "BattleEvent.UPDATE_PVP_FORM_DOWN_DATA"
+BattleEvent.UPDATE_PVP_FORM_RIGHT_DATA = "BattleEvent.UPDATE_PVP_FORM_RIGHT_DATA"
+BattleEvent.UPDATE_PVP_RIGHT_READY_DATA = "BattleEvent.UPDATE_PVP_RIGHT_READY_DATA"
+BattleEvent.UPDATE_PVP_LEFT_READY_DATA = "BattleEvent.UPDATE_PVP_LEFT_READY_DATA"
+BattleEvent.UPDATE_SELECT_CARD_EQUIP = "BattleEvent.UPDATE_SELECT_CARD_EQUIP"
+BattleEvent.UPDATE_SELECT_CARD_TEAM = "BattleEvent.UPDATE_SELECT_CARD_TEAM"
+BattleEvent.COMBAT_TYPE_BACK = "BattleEvent.COMBAT_TYPE_BACK"
+BattleEvent.MOVE_DRAMA_EVENT = "BattleEvent.MOVE_DRAMA_EVENT"
+BattleEvent.UPDATE_WORLDBOSS_INFO = "BattleEvent.UPDATE_WORLDBOSS_INFO"
+BattleEvent.UPDATE_WORLDBOSS_BUFF = "BattleEvent.UPDATE_WORLDBOSS_BUFF"
+BattleEvent.UPDATE_ROUND_NUM = "UPDATE_ROUND_NUM"
+BattleEvent.Battle_Boss_Hp_Event = "Battle_Boss_Hp_Event"

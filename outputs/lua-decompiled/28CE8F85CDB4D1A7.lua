@@ -1,0 +1,10 @@
+LadderEvent = LadderEvent or {}
+LadderEvent.UpdateLadderMyBaseInfo = "LadderEvent.UpdateLadderMyBaseInfo"
+LadderEvent.UpdateAllLadderEnemyList = "LadderEvent.UpdateAllLadderEnemyList"
+LadderEvent.GetLadderEnemyData = "LadderEvent.GetLadderEnemyData"
+LadderEvent.UpdateLadderTopThreeRoleData = "LadderEvent.UpdateLadderTopThreeRoleData"
+LadderEvent.UpdateLadderRankData = "LadderEvent.UpdateLadderRankData"
+LadderEvent.UpdateLadderMyLogData = "LadderEvent.UpdateLadderMyLogData"
+LadderEvent.UpdateLadderGodLogData = "LadderEvent.UpdateLadderGodLogData"
+LadderEvent.UpdateLadderOpenStatus = "LadderEvent.UpdateLadderOpenStatus"
+LadderEvent.UpdateLadderRedStatus = "LadderEvent.UpdateLadderRedStatus"

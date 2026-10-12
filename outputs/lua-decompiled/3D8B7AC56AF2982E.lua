@@ -1,0 +1,10 @@
+VipEvent = VipEvent or {}
+VipEvent.UPDATE_GET_LIST = "VipEvent.UPDATE_GET_LIST"
+VipEvent.UPDATE_CHARGE_LIST = "VipEvent.UPDATE_CHARGE_LIST"
+VipEvent.THREE_RECHARGE = "VipEvent.THREE_RECHARGE"
+VipEvent.ACC_RECHARGE_INFO = "VipEvent.ACC_RECHARGE_INFO"
+VipEvent.DAILY_GIFT_INFO = "VipEvent.DAILY_GIFT_INFO"
+VipEvent.PRIVILEGE_INFO = "VipEvent.PRIVILEGE_INFO"
+VipEvent.SUPRE_CARD_GET = "VipEvent.SUPRE_CARD_GET"
+VipEvent.UPDATA_ITEM_REDPOINT = "VipEvent.UPDATA_ITEM_REDPOINT"
+VipEvent.Update_Gift_Red_state = "VipEvent.Update_Gift_Red_state"

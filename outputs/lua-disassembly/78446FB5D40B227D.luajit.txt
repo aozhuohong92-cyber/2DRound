@@ -1,0 +1,3370 @@
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    KPRI     2   2
+0002    GSET     2   0      ; "GM_UI_DEBUG"
+0003    GGET     2   1      ; "DebugUIHelper"
+0004    TSETS    0   2   2  ; "Instance"
+0005    TSETS    1   0   3  ; "obj"
+0006    MOV      4   0
+0007    TGETS    2   0   4  ; "initUI"
+0008    CALL     2   1   2
+0009    MOV      4   0
+0010    TGETS    2   0   5  ; "registerEvents"
+0011    CALL     2   1   2
+0012    MOV      4   0
+0013    TGETS    2   0   6  ; "updateInfo"
+0014    CALL     2   1   2
+0015    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    GGET     2   0      ; "DebugUIHelper"
+0002    TGETS    2   2   1  ; "Instance"
+0003    ISNEP    2   0
+0004    JMP      2 => 0009
+0005    GGET     2   0      ; "DebugUIHelper"
+0006    TGETS    2   2   2  ; "New"
+0007    MOV      4   1
+0008    CALL     2   1   2
+0009 => GGET     2   0      ; "DebugUIHelper"
+0010    TGETS    2   2   1  ; "Instance"
+0011    RET1     2   2
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    GGET     1   1      ; "ccui"
+0002    TGETS    1   1   2  ; "Layout"
+0003    MOV      3   1
+0004    TGETS    1   1   3  ; "create"
+0005    CALL     1   2   2
+0006    TSETS    1   0   0  ; "root"
+0007    GGET     1   4      ; "ViewManager"
+0008    MOV      3   1
+0009    TGETS    1   1   5  ; "addToLayerByTag"
+0010    TGETS    4   0   0  ; "root"
+0011    GGET     5   6      ; "ViewMgrTag"
+0012    TGETS    5   5   7  ; "DEBUG_TAG"
+0013    KSHORT   6 100
+0014    CALL     1   1   5
+0015    TGETS    1   0   0  ; "root"
+0016    MOV      3   1
+0017    TGETS    1   1   8  ; "setContentSize"
+0018    GGET     4   9      ; "cc"
+0019    TGETS    4   4  10  ; "size"
+0020    GGET     6  11      ; "SCREEN_WIDTH"
+0021    ADDVN    6   6   0  ; 200
+0022    GGET     7  12      ; "SCREEN_HEIGHT"
+0023    ADDVN    7   7   0  ; 200
+0024    CALL     4   0   3
+0025    CALLM    1   1   1
+0026    GGET     1   9      ; "cc"
+0027    TGETS    1   1  10  ; "size"
+0028    KSHORT   3 320
+0029    KSHORT   4 460
+0030    CALL     1   2   3
+0031    GGET     2   1      ; "ccui"
+0032    TGETS    2   2   2  ; "Layout"
+0033    MOV      4   2
+0034    TGETS    2   2   3  ; "create"
+0035    CALL     2   2   2
+0036    TSETS    2   0  13  ; "container"
+0037    TGETS    2   0   0  ; "root"
+0038    MOV      4   2
+0039    TGETS    2   2  14  ; "addChild"
+0040    TGETS    5   0  13  ; "container"
+0041    KSHORT   6  20
+0042    CALL     2   1   4
+0043    TGETS    2   0  13  ; "container"
+0044    MOV      4   2
+0045    TGETS    2   2  15  ; "setBackGroundColor"
+0046    GGET     5   9      ; "cc"
+0047    TGETS    5   5  16  ; "c3b"
+0048    KSHORT   7 255
+0049    KSHORT   8 255
+0050    KSHORT   9 255
+0051    CALL     5   0   4
+0052    CALLM    2   1   1
+0053    TGETS    2   0  13  ; "container"
+0054    MOV      4   2
+0055    TGETS    2   2  17  ; "setBackGroundColorOpacity"
+0056    KSHORT   5 255
+0057    CALL     2   1   3
+0058    TGETS    2   0  13  ; "container"
+0059    MOV      4   2
+0060    TGETS    2   2  18  ; "setBackGroundColorType"
+0061    KSHORT   5   1
+0062    CALL     2   1   3
+0063    TGETS    2   0  13  ; "container"
+0064    MOV      4   2
+0065    TGETS    2   2   8  ; "setContentSize"
+0066    MOV      5   1
+0067    CALL     2   1   3
+0068    TGETS    2   0  13  ; "container"
+0069    MOV      4   2
+0070    TGETS    2   2  19  ; "setAnchorPoint"
+0071    KNUM     5   1      ; 0.5
+0072    KNUM     6   1      ; 0.5
+0073    CALL     2   1   4
+0074    TGETS    2   0  13  ; "container"
+0075    MOV      4   2
+0076    TGETS    2   2  20  ; "setPosition"
+0077    GGET     5  11      ; "SCREEN_WIDTH"
+0078    DIVVN    5   5   2  ; 2
+0079    GGET     6  12      ; "SCREEN_HEIGHT"
+0080    DIVVN    6   6   2  ; 2
+0081    CALL     2   1   4
+0082    GGET     2  22      ; "CustomButton"
+0083    TGETS    2   2  23  ; "New"
+0084    TGETS    4   0  13  ; "container"
+0085    GGET     5  24      ; "PathTool"
+0086    TGETS    5   5  25  ; "getResFrame"
+0087    KSTR     7  26      ; "common"
+0088    KSTR     8  27      ; "common_1028"
+0089    CALL     5   2   3
+0090    KNIL     6   7
+0091    GGET     8  28      ; "LOADTEXT_TYPE_PLIST"
+0092    CALL     2   2   6
+0093    TSETS    2   0  21  ; "close_btn"
+0094    TGETS    2   0  21  ; "close_btn"
+0095    MOV      4   2
+0096    TGETS    2   2  19  ; "setAnchorPoint"
+0097    GGET     5   9      ; "cc"
+0098    TGETS    5   5  29  ; "p"
+0099    KSHORT   7   1
+0100    KSHORT   8   1
+0101    CALL     5   0   3
+0102    CALLM    2   1   1
+0103    TGETS    2   0  21  ; "close_btn"
+0104    MOV      4   2
+0105    TGETS    2   2  20  ; "setPosition"
+0106    TGETS    5   1  30  ; "width"
+0107    SUBVN    5   5   2  ; 2
+0108    TGETS    6   1  31  ; "height"
+0109    SUBVN    6   6   2  ; 2
+0110    CALL     2   1   4
+0111    TGETS    2   1  31  ; "height"
+0112    SUBVN    2   2   3  ; 30
+0113    KSHORT   3 100
+0114    KSHORT   4  30
+0115    KSHORT   5  22
+0116    GGET     6   1      ; "ccui"
+0117    TGETS    6   6  33  ; "Button"
+0118    MOV      8   6
+0119    TGETS    6   6   3  ; "create"
+0120    CALL     6   2   2
+0121    TSETS    6   0  32  ; "showVo"
+0122    TGETS    6   0  13  ; "container"
+0123    MOV      8   6
+0124    TGETS    6   6  14  ; "addChild"
+0125    TGETS    9   0  32  ; "showVo"
+0126    CALL     6   1   3
+0127    TGETS    6   0  32  ; "showVo"
+0128    MOV      8   6
+0129    TGETS    6   6  34  ; "setTitleColor"
+0130    GGET     9   9      ; "cc"
+0131    TGETS    9   9  16  ; "c3b"
+0132    KSHORT  11   0
+0133    KSHORT  12   0
+0134    KSHORT  13   0
+0135    CALL     9   0   4
+0136    CALLM    6   1   1
+0137    TGETS    6   0  32  ; "showVo"
+0138    MOV      8   6
+0139    TGETS    6   6   8  ; "setContentSize"
+0140    GGET     9   9      ; "cc"
+0141    TGETS    9   9  10  ; "size"
+0142    KSHORT  11  30
+0143    KSHORT  12  25
+0144    CALL     9   0   3
+0145    CALLM    6   1   1
+0146    TGETS    6   0  32  ; "showVo"
+0147    MOV      8   6
+0148    TGETS    6   6  19  ; "setAnchorPoint"
+0149    KSHORT   9   0
+0150    KSHORT  10   0
+0151    CALL     6   1   4
+0152    TGETS    6   0  32  ; "showVo"
+0153    MOV      8   6
+0154    TGETS    6   6  20  ; "setPosition"
+0155    MOV      9   3
+0156    MOV     10   2
+0157    CALL     6   1   4
+0158    TGETS    6   0  32  ; "showVo"
+0159    MOV      8   6
+0160    TGETS    6   6  35  ; "setTitleFontSize"
+0161    MOV      9   5
+0162    CALL     6   1   3
+0163    TGETS    6   0  32  ; "showVo"
+0164    MOV      8   6
+0165    TGETS    6   6  36  ; "setTitleText"
+0166    KSTR     9  37      ; "VO"
+0167    CALL     6   1   3
+0168    TGETS    6   0  32  ; "showVo"
+0169    MOV      8   6
+0170    TGETS    6   6  38  ; "setVisible"
+0171    KPRI     9   1
+0172    CALL     6   1   3
+0173    GGET     6   1      ; "ccui"
+0174    TGETS    6   6  33  ; "Button"
+0175    MOV      8   6
+0176    TGETS    6   6   3  ; "create"
+0177    CALL     6   2   2
+0178    TSETS    6   0  39  ; "parent"
+0179    TGETS    6   0  13  ; "container"
+0180    MOV      8   6
+0181    TGETS    6   6  14  ; "addChild"
+0182    TGETS    9   0  39  ; "parent"
+0183    CALL     6   1   3
+0184    TGETS    6   0  39  ; "parent"
+0185    MOV      8   6
+0186    TGETS    6   6  34  ; "setTitleColor"
+0187    GGET     9   9      ; "cc"
+0188    TGETS    9   9  16  ; "c3b"
+0189    KSHORT  11   0
+0190    KSHORT  12   0
+0191    KSHORT  13   0
+0192    CALL     9   0   4
+0193    CALLM    6   1   1
+0194    TGETS    6   0  39  ; "parent"
+0195    MOV      8   6
+0196    TGETS    6   6   8  ; "setContentSize"
+0197    GGET     9   9      ; "cc"
+0198    TGETS    9   9  10  ; "size"
+0199    KSHORT  11  30
+0200    KSHORT  12  25
+0201    CALL     9   0   3
+0202    CALLM    6   1   1
+0203    TGETS    6   0  39  ; "parent"
+0204    MOV      8   6
+0205    TGETS    6   6  19  ; "setAnchorPoint"
+0206    KSHORT   9   0
+0207    KSHORT  10   0
+0208    CALL     6   1   4
+0209    TGETS    6   0  39  ; "parent"
+0210    MOV      8   6
+0211    TGETS    6   6  20  ; "setPosition"
+0212    ADDVN    9   3   4  ; 50
+0213    MOV     10   2
+0214    CALL     6   1   4
+0215    TGETS    6   0  39  ; "parent"
+0216    MOV      8   6
+0217    TGETS    6   6  35  ; "setTitleFontSize"
+0218    MOV      9   5
+0219    CALL     6   1   3
+0220    TGETS    6   0  39  ; "parent"
+0221    MOV      8   6
+0222    TGETS    6   6  36  ; "setTitleText"
+0223    KSTR     9  40      ; "父层"
+0224    CALL     6   1   3
+0225    GGET     6   1      ; "ccui"
+0226    TGETS    6   6  33  ; "Button"
+0227    MOV      8   6
+0228    TGETS    6   6   3  ; "create"
+0229    CALL     6   2   2
+0230    TSETS    6   0  41  ; "back"
+0231    TGETS    6   0  13  ; "container"
+0232    MOV      8   6
+0233    TGETS    6   6  14  ; "addChild"
+0234    TGETS    9   0  41  ; "back"
+0235    CALL     6   1   3
+0236    TGETS    6   0  41  ; "back"
+0237    MOV      8   6
+0238    TGETS    6   6  34  ; "setTitleColor"
+0239    GGET     9   9      ; "cc"
+0240    TGETS    9   9  16  ; "c3b"
+0241    KSHORT  11   0
+0242    KSHORT  12   0
+0243    KSHORT  13   0
+0244    CALL     9   0   4
+0245    CALLM    6   1   1
+0246    TGETS    6   0  41  ; "back"
+0247    MOV      8   6
+0248    TGETS    6   6   8  ; "setContentSize"
+0249    GGET     9   9      ; "cc"
+0250    TGETS    9   9  10  ; "size"
+0251    KSHORT  11  30
+0252    KSHORT  12  25
+0253    CALL     9   0   3
+0254    CALLM    6   1   1
+0255    TGETS    6   0  41  ; "back"
+0256    MOV      8   6
+0257    TGETS    6   6  19  ; "setAnchorPoint"
+0258    KSHORT   9   0
+0259    KSHORT  10   0
+0260    CALL     6   1   4
+0261    TGETS    6   0  41  ; "back"
+0262    MOV      8   6
+0263    TGETS    6   6  20  ; "setPosition"
+0264    ADDVN    9   3   5  ; 100
+0265    MOV     10   2
+0266    CALL     6   1   4
+0267    TGETS    6   0  41  ; "back"
+0268    MOV      8   6
+0269    TGETS    6   6  35  ; "setTitleFontSize"
+0270    MOV      9   5
+0271    CALL     6   1   3
+0272    TGETS    6   0  41  ; "back"
+0273    MOV      8   6
+0274    TGETS    6   6  36  ; "setTitleText"
+0275    KSTR     9  42      ; "返回"
+0276    CALL     6   1   3
+0277    GGET     6   1      ; "ccui"
+0278    TGETS    6   6  33  ; "Button"
+0279    MOV      8   6
+0280    TGETS    6   6   3  ; "create"
+0281    CALL     6   2   2
+0282    TSETS    6   0  43  ; "showHide"
+0283    TGETS    6   0  13  ; "container"
+0284    MOV      8   6
+0285    TGETS    6   6  14  ; "addChild"
+0286    TGETS    9   0  43  ; "showHide"
+0287    CALL     6   1   3
+0288    TGETS    6   0  43  ; "showHide"
+0289    MOV      8   6
+0290    TGETS    6   6  34  ; "setTitleColor"
+0291    GGET     9   9      ; "cc"
+0292    TGETS    9   9  16  ; "c3b"
+0293    KSHORT  11   0
+0294    KSHORT  12   0
+0295    KSHORT  13   0
+0296    CALL     9   0   4
+0297    CALLM    6   1   1
+0298    TGETS    6   0  43  ; "showHide"
+0299    MOV      8   6
+0300    TGETS    6   6   8  ; "setContentSize"
+0301    GGET     9   9      ; "cc"
+0302    TGETS    9   9  10  ; "size"
+0303    KSHORT  11  30
+0304    KSHORT  12  25
+0305    CALL     9   0   3
+0306    CALLM    6   1   1
+0307    TGETS    6   0  43  ; "showHide"
+0308    MOV      8   6
+0309    TGETS    6   6  19  ; "setAnchorPoint"
+0310    KSHORT   9   0
+0311    KSHORT  10   0
+0312    CALL     6   1   4
+0313    TGETS    6   0  43  ; "showHide"
+0314    MOV      8   6
+0315    TGETS    6   6  20  ; "setPosition"
+0316    ADDVN    9   3   6  ; 150
+0317    MOV     10   2
+0318    CALL     6   1   4
+0319    TGETS    6   0  43  ; "showHide"
+0320    MOV      8   6
+0321    TGETS    6   6  35  ; "setTitleFontSize"
+0322    MOV      9   5
+0323    CALL     6   1   3
+0324    TGETS    6   0  43  ; "showHide"
+0325    MOV      8   6
+0326    TGETS    6   6  36  ; "setTitleText"
+0327    KSTR     9  44      ; "隐"
+0328    CALL     6   1   3
+0329    SUBVV    2   2   4
+0330    GGET     6   9      ; "cc"
+0331    TGETS    6   6  45  ; "Label"
+0332    MOV      8   6
+0333    TGETS    6   6  46  ; "createWithTTF"
+0334    KSTR     9  47      ; "TAG:"
+0335    GGET    10  48      ; "DEFAULT_FONT"
+0336    MOV     11   5
+0337    CALL     6   2   5
+0338    MOV      9   6
+0339    TGETS    7   6  49  ; "setTextColor"
+0340    GGET    10   9      ; "cc"
+0341    TGETS   10  10  50  ; "c4b"
+0342    KSHORT  12   0
+0343    KSHORT  13   0
+0344    KSHORT  14   0
+0345    KSHORT  15 255
+0346    CALL    10   0   5
+0347    CALLM    7   1   1
+0348    MOV      9   6
+0349    TGETS    7   6  19  ; "setAnchorPoint"
+0350    KSHORT  10   1
+0351    KSHORT  11   0
+0352    CALL     7   1   4
+0353    TGETS    7   0  13  ; "container"
+0354    MOV      9   7
+0355    TGETS    7   7  14  ; "addChild"
+0356    MOV     10   6
+0357    CALL     7   1   3
+0358    MOV      9   6
+0359    TGETS    7   6  20  ; "setPosition"
+0360    SUBVN   10   3   2  ; 2
+0361    MOV     11   2
+0362    CALL     7   1   4
+0363    GGET     7   9      ; "cc"
+0364    TGETS    7   7  45  ; "Label"
+0365    MOV      9   7
+0366    TGETS    7   7  46  ; "createWithTTF"
+0367    KSTR    10  51      ; ""
+0368    GGET    11  48      ; "DEFAULT_FONT"
+0369    MOV     12   5
+0370    CALL     7   2   5
+0371    MOV      6   7
+0372    MOV      9   6
+0373    TGETS    7   6  49  ; "setTextColor"
+0374    GGET    10   9      ; "cc"
+0375    TGETS   10  10  50  ; "c4b"
+0376    KSHORT  12   0
+0377    KSHORT  13   0
+0378    KSHORT  14 255
+0379    KSHORT  15 255
+0380    CALL    10   0   5
+0381    CALLM    7   1   1
+0382    MOV      9   6
+0383    TGETS    7   6  19  ; "setAnchorPoint"
+0384    KSHORT  10   0
+0385    KSHORT  11   0
+0386    CALL     7   1   4
+0387    TGETS    7   0  13  ; "container"
+0388    MOV      9   7
+0389    TGETS    7   7  14  ; "addChild"
+0390    MOV     10   6
+0391    CALL     7   1   3
+0392    MOV      9   6
+0393    TGETS    7   6  20  ; "setPosition"
+0394    ADDVN   10   3   2  ; 2
+0395    MOV     11   2
+0396    CALL     7   1   4
+0397    TSETS    6   0  52  ; "tag"
+0398    SUBVV    2   2   4
+0399    GGET     7   9      ; "cc"
+0400    TGETS    7   7  45  ; "Label"
+0401    MOV      9   7
+0402    TGETS    7   7  46  ; "createWithTTF"
+0403    KSTR    10  53      ; "Name:"
+0404    GGET    11  48      ; "DEFAULT_FONT"
+0405    MOV     12   5
+0406    CALL     7   2   5
+0407    MOV      6   7
+0408    MOV      9   6
+0409    TGETS    7   6  49  ; "setTextColor"
+0410    GGET    10   9      ; "cc"
+0411    TGETS   10  10  50  ; "c4b"
+0412    KSHORT  12   0
+0413    KSHORT  13   0
+0414    KSHORT  14   0
+0415    KSHORT  15 255
+0416    CALL    10   0   5
+0417    CALLM    7   1   1
+0418    MOV      9   6
+0419    TGETS    7   6  19  ; "setAnchorPoint"
+0420    KSHORT  10   1
+0421    KSHORT  11   0
+0422    CALL     7   1   4
+0423    TGETS    7   0  13  ; "container"
+0424    MOV      9   7
+0425    TGETS    7   7  14  ; "addChild"
+0426    MOV     10   6
+0427    CALL     7   1   3
+0428    MOV      9   6
+0429    TGETS    7   6  20  ; "setPosition"
+0430    SUBVN   10   3   2  ; 2
+0431    MOV     11   2
+0432    CALL     7   1   4
+0433    GGET     7   9      ; "cc"
+0434    TGETS    7   7  45  ; "Label"
+0435    MOV      9   7
+0436    TGETS    7   7  46  ; "createWithTTF"
+0437    KSTR    10  51      ; ""
+0438    GGET    11  48      ; "DEFAULT_FONT"
+0439    MOV     12   5
+0440    CALL     7   2   5
+0441    MOV      6   7
+0442    MOV      9   6
+0443    TGETS    7   6  49  ; "setTextColor"
+0444    GGET    10   9      ; "cc"
+0445    TGETS   10  10  50  ; "c4b"
+0446    KSHORT  12   0
+0447    KSHORT  13   0
+0448    KSHORT  14 255
+0449    KSHORT  15 255
+0450    CALL    10   0   5
+0451    CALLM    7   1   1
+0452    MOV      9   6
+0453    TGETS    7   6  19  ; "setAnchorPoint"
+0454    KSHORT  10   0
+0455    KSHORT  11   0
+0456    CALL     7   1   4
+0457    TGETS    7   0  13  ; "container"
+0458    MOV      9   7
+0459    TGETS    7   7  14  ; "addChild"
+0460    MOV     10   6
+0461    CALL     7   1   3
+0462    MOV      9   6
+0463    TGETS    7   6  20  ; "setPosition"
+0464    ADDVN   10   3   2  ; 2
+0465    MOV     11   2
+0466    CALL     7   1   4
+0467    TSETS    6   0  54  ; "name"
+0468    GGET     7   1      ; "ccui"
+0469    TGETS    7   7  33  ; "Button"
+0470    MOV      9   7
+0471    TGETS    7   7   3  ; "create"
+0472    CALL     7   2   2
+0473    TSETS    7   0  55  ; "showSub"
+0474    TGETS    7   0  13  ; "container"
+0475    MOV      9   7
+0476    TGETS    7   7  14  ; "addChild"
+0477    TGETS   10   0  55  ; "showSub"
+0478    CALL     7   1   3
+0479    TGETS    7   0  55  ; "showSub"
+0480    MOV      9   7
+0481    TGETS    7   7  34  ; "setTitleColor"
+0482    GGET    10   9      ; "cc"
+0483    TGETS   10  10  16  ; "c3b"
+0484    KSHORT  12   0
+0485    KSHORT  13   0
+0486    KSHORT  14   0
+0487    CALL    10   0   4
+0488    CALLM    7   1   1
+0489    TGETS    7   0  55  ; "showSub"
+0490    MOV      9   7
+0491    TGETS    7   7   8  ; "setContentSize"
+0492    GGET    10   9      ; "cc"
+0493    TGETS   10  10  10  ; "size"
+0494    KSHORT  12  30
+0495    KSHORT  13  25
+0496    CALL    10   0   3
+0497    CALLM    7   1   1
+0498    TGETS    7   0  55  ; "showSub"
+0499    MOV      9   7
+0500    TGETS    7   7  19  ; "setAnchorPoint"
+0501    KSHORT  10   0
+0502    KSHORT  11   0
+0503    CALL     7   1   4
+0504    TGETS    7   0  55  ; "showSub"
+0505    MOV      9   7
+0506    TGETS    7   7  20  ; "setPosition"
+0507    TGETS   10   1  30  ; "width"
+0508    SUBVN   10  10   7  ; 20
+0509    MOV     11   2
+0510    CALL     7   1   4
+0511    TGETS    7   0  55  ; "showSub"
+0512    MOV      9   7
+0513    TGETS    7   7  36  ; "setTitleText"
+0514    KSTR    10  56      ; "子"
+0515    CALL     7   1   3
+0516    TGETS    7   0  55  ; "showSub"
+0517    MOV      9   7
+0518    TGETS    7   7  35  ; "setTitleFontSize"
+0519    MOV     10   5
+0520    CALL     7   1   3
+0521    TGETS    7   0  55  ; "showSub"
+0522    KSHORT   8   1
+0523    TSETS    8   7  57  ; "type"
+0524    SUBVV    2   2   4
+0525    GGET     7   9      ; "cc"
+0526    TGETS    7   7  45  ; "Label"
+0527    MOV      9   7
+0528    TGETS    7   7  46  ; "createWithTTF"
+0529    KSTR    10  58      ; "Type:"
+0530    GGET    11  48      ; "DEFAULT_FONT"
+0531    MOV     12   5
+0532    CALL     7   2   5
+0533    MOV      6   7
+0534    MOV      9   6
+0535    TGETS    7   6  49  ; "setTextColor"
+0536    GGET    10   9      ; "cc"
+0537    TGETS   10  10  50  ; "c4b"
+0538    KSHORT  12   0
+0539    KSHORT  13   0
+0540    KSHORT  14   0
+0541    KSHORT  15 255
+0542    CALL    10   0   5
+0543    CALLM    7   1   1
+0544    MOV      9   6
+0545    TGETS    7   6  19  ; "setAnchorPoint"
+0546    KSHORT  10   1
+0547    KSHORT  11   0
+0548    CALL     7   1   4
+0549    TGETS    7   0  13  ; "container"
+0550    MOV      9   7
+0551    TGETS    7   7  14  ; "addChild"
+0552    MOV     10   6
+0553    CALL     7   1   3
+0554    MOV      9   6
+0555    TGETS    7   6  20  ; "setPosition"
+0556    SUBVN   10   3   2  ; 2
+0557    MOV     11   2
+0558    CALL     7   1   4
+0559    GGET     7   9      ; "cc"
+0560    TGETS    7   7  45  ; "Label"
+0561    MOV      9   7
+0562    TGETS    7   7  46  ; "createWithTTF"
+0563    KSTR    10  51      ; ""
+0564    GGET    11  48      ; "DEFAULT_FONT"
+0565    MOV     12   5
+0566    CALL     7   2   5
+0567    MOV      6   7
+0568    MOV      9   6
+0569    TGETS    7   6  49  ; "setTextColor"
+0570    GGET    10   9      ; "cc"
+0571    TGETS   10  10  50  ; "c4b"
+0572    KSHORT  12   0
+0573    KSHORT  13   0
+0574    KSHORT  14 255
+0575    KSHORT  15 255
+0576    CALL    10   0   5
+0577    CALLM    7   1   1
+0578    MOV      9   6
+0579    TGETS    7   6  19  ; "setAnchorPoint"
+0580    KSHORT  10   0
+0581    KSHORT  11   0
+0582    CALL     7   1   4
+0583    TGETS    7   0  13  ; "container"
+0584    MOV      9   7
+0585    TGETS    7   7  14  ; "addChild"
+0586    MOV     10   6
+0587    CALL     7   1   3
+0588    MOV      9   6
+0589    TGETS    7   6  20  ; "setPosition"
+0590    ADDVN   10   3   2  ; 2
+0591    MOV     11   2
+0592    CALL     7   1   4
+0593    TSETS    6   0  57  ; "type"
+0594    SUBVV    2   2   4
+0595    GGET     7   9      ; "cc"
+0596    TGETS    7   7  45  ; "Label"
+0597    MOV      9   7
+0598    TGETS    7   7  46  ; "createWithTTF"
+0599    KSTR    10  59      ; "宽(W):"
+0600    GGET    11  48      ; "DEFAULT_FONT"
+0601    MOV     12   5
+0602    CALL     7   2   5
+0603    MOV      6   7
+0604    MOV      9   6
+0605    TGETS    7   6  19  ; "setAnchorPoint"
+0606    KSHORT  10   1
+0607    KSHORT  11   0
+0608    CALL     7   1   4
+0609    MOV      9   6
+0610    TGETS    7   6  49  ; "setTextColor"
+0611    GGET    10   9      ; "cc"
+0612    TGETS   10  10  50  ; "c4b"
+0613    KSHORT  12   0
+0614    KSHORT  13   0
+0615    KSHORT  14   0
+0616    KSHORT  15 255
+0617    CALL    10   0   5
+0618    CALLM    7   1   1
+0619    TGETS    7   0  13  ; "container"
+0620    MOV      9   7
+0621    TGETS    7   7  14  ; "addChild"
+0622    MOV     10   6
+0623    CALL     7   1   3
+0624    MOV      9   6
+0625    TGETS    7   6  20  ; "setPosition"
+0626    SUBVN   10   3   2  ; 2
+0627    MOV     11   2
+0628    CALL     7   1   4
+0629    GGET     7   1      ; "ccui"
+0630    TGETS    7   7  60  ; "EditBox"
+0631    MOV      9   7
+0632    TGETS    7   7   3  ; "create"
+0633    GGET    10   9      ; "cc"
+0634    TGETS   10  10  10  ; "size"
+0635    KSHORT  12 150
+0636    KSHORT  13  30
+0637    CALL    10   2   3
+0638    GGET    11   1      ; "ccui"
+0639    TGETS   11  11  61  ; "Scale9Sprite"
+0640    MOV     13  11
+0641    TGETS   11  11   3  ; "create"
+0642    CALL    11   0   2
+0643    CALLM    7   2   2
+0644    TSETS    7   0  30  ; "width"
+0645    TGETS    7   0  30  ; "width"
+0646    MOV      9   7
+0647    TGETS    7   7  19  ; "setAnchorPoint"
+0648    KSHORT  10   0
+0649    KSHORT  11   0
+0650    CALL     7   1   4
+0651    TGETS    7   0  13  ; "container"
+0652    MOV      9   7
+0653    TGETS    7   7  14  ; "addChild"
+0654    TGETS   10   0  30  ; "width"
+0655    CALL     7   1   3
+0656    TGETS    7   0  30  ; "width"
+0657    MOV      9   7
+0658    TGETS    7   7  20  ; "setPosition"
+0659    ADDVN   10   3   8  ; 5
+0660    SUBVN   11   2   8  ; 5
+0661    CALL     7   1   4
+0662    TGETS    7   0  30  ; "width"
+0663    MOV      9   7
+0664    TGETS    7   7  62  ; "setFontColor"
+0665    GGET    10   9      ; "cc"
+0666    TGETS   10  10  16  ; "c3b"
+0667    KSHORT  12   0
+0668    KSHORT  13   0
+0669    KSHORT  14 255
+0670    CALL    10   0   4
+0671    CALLM    7   1   1
+0672    SUBVV    2   2   4
+0673    GGET     7   9      ; "cc"
+0674    TGETS    7   7  45  ; "Label"
+0675    MOV      9   7
+0676    TGETS    7   7  46  ; "createWithTTF"
+0677    KSTR    10  63      ; "高(H):"
+0678    GGET    11  48      ; "DEFAULT_FONT"
+0679    MOV     12   5
+0680    CALL     7   2   5
+0681    MOV      6   7
+0682    MOV      9   6
+0683    TGETS    7   6  49  ; "setTextColor"
+0684    GGET    10   9      ; "cc"
+0685    TGETS   10  10  50  ; "c4b"
+0686    KSHORT  12   0
+0687    KSHORT  13   0
+0688    KSHORT  14   0
+0689    KSHORT  15 255
+0690    CALL    10   0   5
+0691    CALLM    7   1   1
+0692    MOV      9   6
+0693    TGETS    7   6  19  ; "setAnchorPoint"
+0694    KSHORT  10   1
+0695    KSHORT  11   0
+0696    CALL     7   1   4
+0697    TGETS    7   0  13  ; "container"
+0698    MOV      9   7
+0699    TGETS    7   7  14  ; "addChild"
+0700    MOV     10   6
+0701    CALL     7   1   3
+0702    MOV      9   6
+0703    TGETS    7   6  20  ; "setPosition"
+0704    SUBVN   10   3   2  ; 2
+0705    MOV     11   2
+0706    CALL     7   1   4
+0707    GGET     7   1      ; "ccui"
+0708    TGETS    7   7  60  ; "EditBox"
+0709    MOV      9   7
+0710    TGETS    7   7   3  ; "create"
+0711    GGET    10   9      ; "cc"
+0712    TGETS   10  10  10  ; "size"
+0713    KSHORT  12 150
+0714    KSHORT  13  30
+0715    CALL    10   2   3
+0716    GGET    11   1      ; "ccui"
+0717    TGETS   11  11  61  ; "Scale9Sprite"
+0718    MOV     13  11
+0719    TGETS   11  11   3  ; "create"
+0720    CALL    11   0   2
+0721    CALLM    7   2   2
+0722    TSETS    7   0  31  ; "height"
+0723    TGETS    7   0  31  ; "height"
+0724    MOV      9   7
+0725    TGETS    7   7  19  ; "setAnchorPoint"
+0726    KSHORT  10   0
+0727    KSHORT  11   0
+0728    CALL     7   1   4
+0729    TGETS    7   0  13  ; "container"
+0730    MOV      9   7
+0731    TGETS    7   7  14  ; "addChild"
+0732    TGETS   10   0  31  ; "height"
+0733    CALL     7   1   3
+0734    TGETS    7   0  31  ; "height"
+0735    MOV      9   7
+0736    TGETS    7   7  20  ; "setPosition"
+0737    ADDVN   10   3   8  ; 5
+0738    SUBVN   11   2   8  ; 5
+0739    CALL     7   1   4
+0740    TGETS    7   0  31  ; "height"
+0741    MOV      9   7
+0742    TGETS    7   7  62  ; "setFontColor"
+0743    GGET    10   9      ; "cc"
+0744    TGETS   10  10  16  ; "c3b"
+0745    KSHORT  12   0
+0746    KSHORT  13   0
+0747    KSHORT  14 255
+0748    CALL    10   0   4
+0749    CALLM    7   1   1
+0750    SUBVV    2   2   4
+0751    GGET     7   9      ; "cc"
+0752    TGETS    7   7  45  ; "Label"
+0753    MOV      9   7
+0754    TGETS    7   7  46  ; "createWithTTF"
+0755    KSTR    10  64      ; "缩放(X):"
+0756    GGET    11  48      ; "DEFAULT_FONT"
+0757    MOV     12   5
+0758    CALL     7   2   5
+0759    MOV      6   7
+0760    MOV      9   6
+0761    TGETS    7   6  19  ; "setAnchorPoint"
+0762    KSHORT  10   1
+0763    KSHORT  11   0
+0764    CALL     7   1   4
+0765    MOV      9   6
+0766    TGETS    7   6  49  ; "setTextColor"
+0767    GGET    10   9      ; "cc"
+0768    TGETS   10  10  50  ; "c4b"
+0769    KSHORT  12   0
+0770    KSHORT  13   0
+0771    KSHORT  14   0
+0772    KSHORT  15 255
+0773    CALL    10   0   5
+0774    CALLM    7   1   1
+0775    TGETS    7   0  13  ; "container"
+0776    MOV      9   7
+0777    TGETS    7   7  14  ; "addChild"
+0778    MOV     10   6
+0779    CALL     7   1   3
+0780    MOV      9   6
+0781    TGETS    7   6  20  ; "setPosition"
+0782    SUBVN   10   3   2  ; 2
+0783    MOV     11   2
+0784    CALL     7   1   4
+0785    GGET     7   1      ; "ccui"
+0786    TGETS    7   7  60  ; "EditBox"
+0787    MOV      9   7
+0788    TGETS    7   7   3  ; "create"
+0789    GGET    10   9      ; "cc"
+0790    TGETS   10  10  10  ; "size"
+0791    KSHORT  12 150
+0792    KSHORT  13  30
+0793    CALL    10   2   3
+0794    GGET    11   1      ; "ccui"
+0795    TGETS   11  11  61  ; "Scale9Sprite"
+0796    MOV     13  11
+0797    TGETS   11  11   3  ; "create"
+0798    CALL    11   0   2
+0799    CALLM    7   2   2
+0800    TSETS    7   0  65  ; "scaleX"
+0801    TGETS    7   0  65  ; "scaleX"
+0802    MOV      9   7
+0803    TGETS    7   7  19  ; "setAnchorPoint"
+0804    KSHORT  10   0
+0805    KSHORT  11   0
+0806    CALL     7   1   4
+0807    TGETS    7   0  13  ; "container"
+0808    MOV      9   7
+0809    TGETS    7   7  14  ; "addChild"
+0810    TGETS   10   0  65  ; "scaleX"
+0811    CALL     7   1   3
+0812    TGETS    7   0  65  ; "scaleX"
+0813    MOV      9   7
+0814    TGETS    7   7  20  ; "setPosition"
+0815    ADDVN   10   3   8  ; 5
+0816    SUBVN   11   2   8  ; 5
+0817    CALL     7   1   4
+0818    TGETS    7   0  65  ; "scaleX"
+0819    MOV      9   7
+0820    TGETS    7   7  62  ; "setFontColor"
+0821    GGET    10   9      ; "cc"
+0822    TGETS   10  10  16  ; "c3b"
+0823    KSHORT  12   0
+0824    KSHORT  13   0
+0825    KSHORT  14 255
+0826    CALL    10   0   4
+0827    CALLM    7   1   1
+0828    SUBVV    2   2   4
+0829    GGET     7   9      ; "cc"
+0830    TGETS    7   7  45  ; "Label"
+0831    MOV      9   7
+0832    TGETS    7   7  46  ; "createWithTTF"
+0833    KSTR    10  66      ; "缩放(Y):"
+0834    GGET    11  48      ; "DEFAULT_FONT"
+0835    MOV     12   5
+0836    CALL     7   2   5
+0837    MOV      6   7
+0838    MOV      9   6
+0839    TGETS    7   6  49  ; "setTextColor"
+0840    GGET    10   9      ; "cc"
+0841    TGETS   10  10  50  ; "c4b"
+0842    KSHORT  12   0
+0843    KSHORT  13   0
+0844    KSHORT  14   0
+0845    KSHORT  15 255
+0846    CALL    10   0   5
+0847    CALLM    7   1   1
+0848    MOV      9   6
+0849    TGETS    7   6  19  ; "setAnchorPoint"
+0850    KSHORT  10   1
+0851    KSHORT  11   0
+0852    CALL     7   1   4
+0853    TGETS    7   0  13  ; "container"
+0854    MOV      9   7
+0855    TGETS    7   7  14  ; "addChild"
+0856    MOV     10   6
+0857    CALL     7   1   3
+0858    MOV      9   6
+0859    TGETS    7   6  20  ; "setPosition"
+0860    SUBVN   10   3   2  ; 2
+0861    MOV     11   2
+0862    CALL     7   1   4
+0863    GGET     7   1      ; "ccui"
+0864    TGETS    7   7  60  ; "EditBox"
+0865    MOV      9   7
+0866    TGETS    7   7   3  ; "create"
+0867    GGET    10   9      ; "cc"
+0868    TGETS   10  10  10  ; "size"
+0869    KSHORT  12 150
+0870    KSHORT  13  30
+0871    CALL    10   2   3
+0872    GGET    11   1      ; "ccui"
+0873    TGETS   11  11  61  ; "Scale9Sprite"
+0874    MOV     13  11
+0875    TGETS   11  11   3  ; "create"
+0876    CALL    11   0   2
+0877    CALLM    7   2   2
+0878    TSETS    7   0  67  ; "scaleY"
+0879    TGETS    7   0  67  ; "scaleY"
+0880    MOV      9   7
+0881    TGETS    7   7  19  ; "setAnchorPoint"
+0882    KSHORT  10   0
+0883    KSHORT  11   0
+0884    CALL     7   1   4
+0885    TGETS    7   0  13  ; "container"
+0886    MOV      9   7
+0887    TGETS    7   7  14  ; "addChild"
+0888    TGETS   10   0  67  ; "scaleY"
+0889    CALL     7   1   3
+0890    TGETS    7   0  67  ; "scaleY"
+0891    MOV      9   7
+0892    TGETS    7   7  20  ; "setPosition"
+0893    ADDVN   10   3   8  ; 5
+0894    SUBVN   11   2   8  ; 5
+0895    CALL     7   1   4
+0896    TGETS    7   0  67  ; "scaleY"
+0897    MOV      9   7
+0898    TGETS    7   7  62  ; "setFontColor"
+0899    GGET    10   9      ; "cc"
+0900    TGETS   10  10  16  ; "c3b"
+0901    KSHORT  12   0
+0902    KSHORT  13   0
+0903    KSHORT  14 255
+0904    CALL    10   0   4
+0905    CALLM    7   1   1
+0906    SUBVV    2   2   4
+0907    GGET     7   9      ; "cc"
+0908    TGETS    7   7  45  ; "Label"
+0909    MOV      9   7
+0910    TGETS    7   7  46  ; "createWithTTF"
+0911    KSTR    10  68      ; "锚点(X):"
+0912    GGET    11  48      ; "DEFAULT_FONT"
+0913    MOV     12   5
+0914    CALL     7   2   5
+0915    MOV      6   7
+0916    MOV      9   6
+0917    TGETS    7   6  49  ; "setTextColor"
+0918    GGET    10   9      ; "cc"
+0919    TGETS   10  10  50  ; "c4b"
+0920    KSHORT  12   0
+0921    KSHORT  13   0
+0922    KSHORT  14   0
+0923    KSHORT  15 255
+0924    CALL    10   0   5
+0925    CALLM    7   1   1
+0926    MOV      9   6
+0927    TGETS    7   6  19  ; "setAnchorPoint"
+0928    KSHORT  10   1
+0929    KSHORT  11   0
+0930    CALL     7   1   4
+0931    TGETS    7   0  13  ; "container"
+0932    MOV      9   7
+0933    TGETS    7   7  14  ; "addChild"
+0934    MOV     10   6
+0935    CALL     7   1   3
+0936    MOV      9   6
+0937    TGETS    7   6  20  ; "setPosition"
+0938    SUBVN   10   3   2  ; 2
+0939    MOV     11   2
+0940    CALL     7   1   4
+0941    GGET     7   1      ; "ccui"
+0942    TGETS    7   7  60  ; "EditBox"
+0943    MOV      9   7
+0944    TGETS    7   7   3  ; "create"
+0945    GGET    10   9      ; "cc"
+0946    TGETS   10  10  10  ; "size"
+0947    KSHORT  12 150
+0948    KSHORT  13  30
+0949    CALL    10   2   3
+0950    GGET    11   1      ; "ccui"
+0951    TGETS   11  11  61  ; "Scale9Sprite"
+0952    MOV     13  11
+0953    TGETS   11  11   3  ; "create"
+0954    CALL    11   0   2
+0955    CALLM    7   2   2
+0956    TSETS    7   0  69  ; "ui_ax"
+0957    TGETS    7   0  69  ; "ui_ax"
+0958    MOV      9   7
+0959    TGETS    7   7  19  ; "setAnchorPoint"
+0960    KSHORT  10   0
+0961    KSHORT  11   0
+0962    CALL     7   1   4
+0963    TGETS    7   0  13  ; "container"
+0964    MOV      9   7
+0965    TGETS    7   7  14  ; "addChild"
+0966    TGETS   10   0  69  ; "ui_ax"
+0967    CALL     7   1   3
+0968    TGETS    7   0  69  ; "ui_ax"
+0969    MOV      9   7
+0970    TGETS    7   7  20  ; "setPosition"
+0971    ADDVN   10   3   8  ; 5
+0972    SUBVN   11   2   8  ; 5
+0973    CALL     7   1   4
+0974    TGETS    7   0  69  ; "ui_ax"
+0975    MOV      9   7
+0976    TGETS    7   7  62  ; "setFontColor"
+0977    GGET    10   9      ; "cc"
+0978    TGETS   10  10  16  ; "c3b"
+0979    KSHORT  12   0
+0980    KSHORT  13   0
+0981    KSHORT  14 255
+0982    CALL    10   0   4
+0983    CALLM    7   1   1
+0984    SUBVV    2   2   4
+0985    GGET     7   9      ; "cc"
+0986    TGETS    7   7  45  ; "Label"
+0987    MOV      9   7
+0988    TGETS    7   7  46  ; "createWithTTF"
+0989    KSTR    10  70      ; "锚点(Y):"
+0990    GGET    11  48      ; "DEFAULT_FONT"
+0991    MOV     12   5
+0992    CALL     7   2   5
+0993    MOV      6   7
+0994    MOV      9   6
+0995    TGETS    7   6  49  ; "setTextColor"
+0996    GGET    10   9      ; "cc"
+0997    TGETS   10  10  50  ; "c4b"
+0998    KSHORT  12   0
+0999    KSHORT  13   0
+1000    KSHORT  14   0
+1001    KSHORT  15 255
+1002    CALL    10   0   5
+1003    CALLM    7   1   1
+1004    MOV      9   6
+1005    TGETS    7   6  19  ; "setAnchorPoint"
+1006    KSHORT  10   1
+1007    KSHORT  11   0
+1008    CALL     7   1   4
+1009    TGETS    7   0  13  ; "container"
+1010    MOV      9   7
+1011    TGETS    7   7  14  ; "addChild"
+1012    MOV     10   6
+1013    CALL     7   1   3
+1014    MOV      9   6
+1015    TGETS    7   6  20  ; "setPosition"
+1016    SUBVN   10   3   2  ; 2
+1017    MOV     11   2
+1018    CALL     7   1   4
+1019    GGET     7   1      ; "ccui"
+1020    TGETS    7   7  60  ; "EditBox"
+1021    MOV      9   7
+1022    TGETS    7   7   3  ; "create"
+1023    GGET    10   9      ; "cc"
+1024    TGETS   10  10  10  ; "size"
+1025    KSHORT  12 150
+1026    KSHORT  13  30
+1027    CALL    10   2   3
+1028    GGET    11   1      ; "ccui"
+1029    TGETS   11  11  61  ; "Scale9Sprite"
+1030    MOV     13  11
+1031    TGETS   11  11   3  ; "create"
+1032    CALL    11   0   2
+1033    CALLM    7   2   2
+1034    TSETS    7   0  71  ; "ui_ay"
+1035    TGETS    7   0  71  ; "ui_ay"
+1036    MOV      9   7
+1037    TGETS    7   7  19  ; "setAnchorPoint"
+1038    KSHORT  10   0
+1039    KSHORT  11   0
+1040    CALL     7   1   4
+1041    TGETS    7   0  13  ; "container"
+1042    MOV      9   7
+1043    TGETS    7   7  14  ; "addChild"
+1044    TGETS   10   0  71  ; "ui_ay"
+1045    CALL     7   1   3
+1046    TGETS    7   0  71  ; "ui_ay"
+1047    MOV      9   7
+1048    TGETS    7   7  20  ; "setPosition"
+1049    ADDVN   10   3   8  ; 5
+1050    SUBVN   11   2   8  ; 5
+1051    CALL     7   1   4
+1052    TGETS    7   0  71  ; "ui_ay"
+1053    MOV      9   7
+1054    TGETS    7   7  62  ; "setFontColor"
+1055    GGET    10   9      ; "cc"
+1056    TGETS   10  10  16  ; "c3b"
+1057    KSHORT  12   0
+1058    KSHORT  13   0
+1059    KSHORT  14 255
+1060    CALL    10   0   4
+1061    CALLM    7   1   1
+1062    SUBVV    2   2   4
+1063    GGET     7   9      ; "cc"
+1064    TGETS    7   7  45  ; "Label"
+1065    MOV      9   7
+1066    TGETS    7   7  46  ; "createWithTTF"
+1067    KSTR    10  72      ; "世界坐标(X):"
+1068    GGET    11  48      ; "DEFAULT_FONT"
+1069    MOV     12   5
+1070    CALL     7   2   5
+1071    MOV      6   7
+1072    MOV      9   6
+1073    TGETS    7   6  19  ; "setAnchorPoint"
+1074    KSHORT  10   1
+1075    KSHORT  11   0
+1076    CALL     7   1   4
+1077    MOV      9   6
+1078    TGETS    7   6  49  ; "setTextColor"
+1079    GGET    10   9      ; "cc"
+1080    TGETS   10  10  50  ; "c4b"
+1081    KSHORT  12   0
+1082    KSHORT  13   0
+1083    KSHORT  14   0
+1084    KSHORT  15 255
+1085    CALL    10   0   5
+1086    CALLM    7   1   1
+1087    TGETS    7   0  13  ; "container"
+1088    MOV      9   7
+1089    TGETS    7   7  14  ; "addChild"
+1090    MOV     10   6
+1091    CALL     7   1   3
+1092    MOV      9   6
+1093    TGETS    7   6  20  ; "setPosition"
+1094    SUBVN   10   3   2  ; 2
+1095    MOV     11   2
+1096    CALL     7   1   4
+1097    GGET     7   9      ; "cc"
+1098    TGETS    7   7  45  ; "Label"
+1099    MOV      9   7
+1100    TGETS    7   7  46  ; "createWithTTF"
+1101    KSTR    10  51      ; ""
+1102    GGET    11  48      ; "DEFAULT_FONT"
+1103    MOV     12   5
+1104    CALL     7   2   5
+1105    MOV      6   7
+1106    MOV      9   6
+1107    TGETS    7   6  49  ; "setTextColor"
+1108    GGET    10   9      ; "cc"
+1109    TGETS   10  10  50  ; "c4b"
+1110    KSHORT  12   0
+1111    KSHORT  13   0
+1112    KSHORT  14 255
+1113    KSHORT  15 255
+1114    CALL    10   0   5
+1115    CALLM    7   1   1
+1116    MOV      9   6
+1117    TGETS    7   6  19  ; "setAnchorPoint"
+1118    KSHORT  10   0
+1119    KSHORT  11   0
+1120    CALL     7   1   4
+1121    TGETS    7   0  13  ; "container"
+1122    MOV      9   7
+1123    TGETS    7   7  14  ; "addChild"
+1124    MOV     10   6
+1125    CALL     7   1   3
+1126    MOV      9   6
+1127    TGETS    7   6  20  ; "setPosition"
+1128    ADDVN   10   3   2  ; 2
+1129    MOV     11   2
+1130    CALL     7   1   4
+1131    TSETS    6   0  73  ; "world_x"
+1132    SUBVV    2   2   4
+1133    GGET     7   9      ; "cc"
+1134    TGETS    7   7  45  ; "Label"
+1135    MOV      9   7
+1136    TGETS    7   7  46  ; "createWithTTF"
+1137    KSTR    10  74      ; "世界坐标(Y):"
+1138    GGET    11  48      ; "DEFAULT_FONT"
+1139    MOV     12   5
+1140    CALL     7   2   5
+1141    MOV      6   7
+1142    MOV      9   6
+1143    TGETS    7   6  49  ; "setTextColor"
+1144    GGET    10   9      ; "cc"
+1145    TGETS   10  10  50  ; "c4b"
+1146    KSHORT  12   0
+1147    KSHORT  13   0
+1148    KSHORT  14   0
+1149    KSHORT  15 255
+1150    CALL    10   0   5
+1151    CALLM    7   1   1
+1152    MOV      9   6
+1153    TGETS    7   6  19  ; "setAnchorPoint"
+1154    KSHORT  10   1
+1155    KSHORT  11   0
+1156    CALL     7   1   4
+1157    TGETS    7   0  13  ; "container"
+1158    MOV      9   7
+1159    TGETS    7   7  14  ; "addChild"
+1160    MOV     10   6
+1161    CALL     7   1   3
+1162    MOV      9   6
+1163    TGETS    7   6  20  ; "setPosition"
+1164    SUBVN   10   3   2  ; 2
+1165    MOV     11   2
+1166    CALL     7   1   4
+1167    GGET     7   9      ; "cc"
+1168    TGETS    7   7  45  ; "Label"
+1169    MOV      9   7
+1170    TGETS    7   7  46  ; "createWithTTF"
+1171    KSTR    10  51      ; ""
+1172    GGET    11  48      ; "DEFAULT_FONT"
+1173    MOV     12   5
+1174    CALL     7   2   5
+1175    MOV      6   7
+1176    MOV      9   6
+1177    TGETS    7   6  49  ; "setTextColor"
+1178    GGET    10   9      ; "cc"
+1179    TGETS   10  10  50  ; "c4b"
+1180    KSHORT  12   0
+1181    KSHORT  13   0
+1182    KSHORT  14 255
+1183    KSHORT  15 255
+1184    CALL    10   0   5
+1185    CALLM    7   1   1
+1186    MOV      9   6
+1187    TGETS    7   6  19  ; "setAnchorPoint"
+1188    KSHORT  10   0
+1189    KSHORT  11   0
+1190    CALL     7   1   4
+1191    TGETS    7   0  13  ; "container"
+1192    MOV      9   7
+1193    TGETS    7   7  14  ; "addChild"
+1194    MOV     10   6
+1195    CALL     7   1   3
+1196    MOV      9   6
+1197    TGETS    7   6  20  ; "setPosition"
+1198    ADDVN   10   3   2  ; 2
+1199    MOV     11   2
+1200    CALL     7   1   4
+1201    TSETS    6   0  75  ; "world_y"
+1202    SUBVV    2   2   4
+1203    GGET     7   9      ; "cc"
+1204    TGETS    7   7  45  ; "Label"
+1205    MOV      9   7
+1206    TGETS    7   7  46  ; "createWithTTF"
+1207    KSTR    10  76      ; "UI坐标(X):"
+1208    GGET    11  48      ; "DEFAULT_FONT"
+1209    MOV     12   5
+1210    CALL     7   2   5
+1211    MOV      6   7
+1212    MOV      9   6
+1213    TGETS    7   6  49  ; "setTextColor"
+1214    GGET    10   9      ; "cc"
+1215    TGETS   10  10  50  ; "c4b"
+1216    KSHORT  12   0
+1217    KSHORT  13   0
+1218    KSHORT  14   0
+1219    KSHORT  15 255
+1220    CALL    10   0   5
+1221    CALLM    7   1   1
+1222    MOV      9   6
+1223    TGETS    7   6  19  ; "setAnchorPoint"
+1224    KSHORT  10   1
+1225    KSHORT  11   0
+1226    CALL     7   1   4
+1227    TGETS    7   0  13  ; "container"
+1228    MOV      9   7
+1229    TGETS    7   7  14  ; "addChild"
+1230    MOV     10   6
+1231    CALL     7   1   3
+1232    MOV      9   6
+1233    TGETS    7   6  20  ; "setPosition"
+1234    SUBVN   10   3   2  ; 2
+1235    MOV     11   2
+1236    CALL     7   1   4
+1237    GGET     7   1      ; "ccui"
+1238    TGETS    7   7  60  ; "EditBox"
+1239    MOV      9   7
+1240    TGETS    7   7   3  ; "create"
+1241    GGET    10   9      ; "cc"
+1242    TGETS   10  10  10  ; "size"
+1243    KSHORT  12 150
+1244    KSHORT  13  30
+1245    CALL    10   2   3
+1246    GGET    11   1      ; "ccui"
+1247    TGETS   11  11  61  ; "Scale9Sprite"
+1248    MOV     13  11
+1249    TGETS   11  11   3  ; "create"
+1250    CALL    11   0   2
+1251    CALLM    7   2   2
+1252    TSETS    7   0  77  ; "ui_x"
+1253    TGETS    7   0  77  ; "ui_x"
+1254    MOV      9   7
+1255    TGETS    7   7  19  ; "setAnchorPoint"
+1256    KSHORT  10   0
+1257    KSHORT  11   0
+1258    CALL     7   1   4
+1259    TGETS    7   0  13  ; "container"
+1260    MOV      9   7
+1261    TGETS    7   7  14  ; "addChild"
+1262    TGETS   10   0  77  ; "ui_x"
+1263    CALL     7   1   3
+1264    TGETS    7   0  77  ; "ui_x"
+1265    MOV      9   7
+1266    TGETS    7   7  20  ; "setPosition"
+1267    ADDVN   10   3   8  ; 5
+1268    SUBVN   11   2   8  ; 5
+1269    CALL     7   1   4
+1270    TGETS    7   0  77  ; "ui_x"
+1271    MOV      9   7
+1272    TGETS    7   7  62  ; "setFontColor"
+1273    GGET    10   9      ; "cc"
+1274    TGETS   10  10  16  ; "c3b"
+1275    KSHORT  12   0
+1276    KSHORT  13   0
+1277    KSHORT  14 255
+1278    CALL    10   0   4
+1279    CALLM    7   1   1
+1280    SUBVV    2   2   4
+1281    GGET     7   9      ; "cc"
+1282    TGETS    7   7  45  ; "Label"
+1283    MOV      9   7
+1284    TGETS    7   7  46  ; "createWithTTF"
+1285    KSTR    10  78      ; "UI坐标(Y):"
+1286    GGET    11  48      ; "DEFAULT_FONT"
+1287    MOV     12   5
+1288    CALL     7   2   5
+1289    MOV      6   7
+1290    MOV      9   6
+1291    TGETS    7   6  49  ; "setTextColor"
+1292    GGET    10   9      ; "cc"
+1293    TGETS   10  10  50  ; "c4b"
+1294    KSHORT  12   0
+1295    KSHORT  13   0
+1296    KSHORT  14   0
+1297    KSHORT  15 255
+1298    CALL    10   0   5
+1299    CALLM    7   1   1
+1300    MOV      9   6
+1301    TGETS    7   6  19  ; "setAnchorPoint"
+1302    KSHORT  10   1
+1303    KSHORT  11   0
+1304    CALL     7   1   4
+1305    TGETS    7   0  13  ; "container"
+1306    MOV      9   7
+1307    TGETS    7   7  14  ; "addChild"
+1308    MOV     10   6
+1309    CALL     7   1   3
+1310    MOV      9   6
+1311    TGETS    7   6  20  ; "setPosition"
+1312    SUBVN   10   3   2  ; 2
+1313    MOV     11   2
+1314    CALL     7   1   4
+1315    GGET     7   1      ; "ccui"
+1316    TGETS    7   7  60  ; "EditBox"
+1317    MOV      9   7
+1318    TGETS    7   7   3  ; "create"
+1319    GGET    10   9      ; "cc"
+1320    TGETS   10  10  10  ; "size"
+1321    KSHORT  12 150
+1322    KSHORT  13  30
+1323    CALL    10   2   3
+1324    GGET    11   1      ; "ccui"
+1325    TGETS   11  11  61  ; "Scale9Sprite"
+1326    MOV     13  11
+1327    TGETS   11  11   3  ; "create"
+1328    CALL    11   0   2
+1329    CALLM    7   2   2
+1330    TSETS    7   0  79  ; "ui_y"
+1331    TGETS    7   0  79  ; "ui_y"
+1332    MOV      9   7
+1333    TGETS    7   7  19  ; "setAnchorPoint"
+1334    KSHORT  10   0
+1335    KSHORT  11   0
+1336    CALL     7   1   4
+1337    TGETS    7   0  13  ; "container"
+1338    MOV      9   7
+1339    TGETS    7   7  14  ; "addChild"
+1340    TGETS   10   0  79  ; "ui_y"
+1341    CALL     7   1   3
+1342    TGETS    7   0  79  ; "ui_y"
+1343    MOV      9   7
+1344    TGETS    7   7  20  ; "setPosition"
+1345    ADDVN   10   3   8  ; 5
+1346    SUBVN   11   2   8  ; 5
+1347    CALL     7   1   4
+1348    TGETS    7   0  79  ; "ui_y"
+1349    MOV      9   7
+1350    TGETS    7   7  62  ; "setFontColor"
+1351    GGET    10   9      ; "cc"
+1352    TGETS   10  10  16  ; "c3b"
+1353    KSHORT  12   0
+1354    KSHORT  13   0
+1355    KSHORT  14 255
+1356    CALL    10   0   4
+1357    CALLM    7   1   1
+1358    SUBVV    2   2   4
+1359    GGET     7   9      ; "cc"
+1360    TGETS    7   7  45  ; "Label"
+1361    MOV      9   7
+1362    TGETS    7   7  46  ; "createWithTTF"
+1363    KSTR    10  80      ; "字体颜色:"
+1364    GGET    11  48      ; "DEFAULT_FONT"
+1365    MOV     12   5
+1366    CALL     7   2   5
+1367    MOV      6   7
+1368    MOV      9   6
+1369    TGETS    7   6  49  ; "setTextColor"
+1370    GGET    10   9      ; "cc"
+1371    TGETS   10  10  50  ; "c4b"
+1372    KSHORT  12   0
+1373    KSHORT  13   0
+1374    KSHORT  14   0
+1375    KSHORT  15 255
+1376    CALL    10   0   5
+1377    CALLM    7   1   1
+1378    MOV      9   6
+1379    TGETS    7   6  19  ; "setAnchorPoint"
+1380    KSHORT  10   1
+1381    KSHORT  11   0
+1382    CALL     7   1   4
+1383    TGETS    7   0  13  ; "container"
+1384    MOV      9   7
+1385    TGETS    7   7  14  ; "addChild"
+1386    MOV     10   6
+1387    CALL     7   1   3
+1388    MOV      9   6
+1389    TGETS    7   6  20  ; "setPosition"
+1390    SUBVN   10   3   2  ; 2
+1391    MOV     11   2
+1392    CALL     7   1   4
+1393    GGET     7   1      ; "ccui"
+1394    TGETS    7   7  60  ; "EditBox"
+1395    MOV      9   7
+1396    TGETS    7   7   3  ; "create"
+1397    GGET    10   9      ; "cc"
+1398    TGETS   10  10  10  ; "size"
+1399    KSHORT  12  50
+1400    KSHORT  13  30
+1401    CALL    10   2   3
+1402    GGET    11   1      ; "ccui"
+1403    TGETS   11  11  61  ; "Scale9Sprite"
+1404    MOV     13  11
+1405    TGETS   11  11   3  ; "create"
+1406    CALL    11   0   2
+1407    CALLM    7   2   2
+1408    TSETS    7   0  81  ; "color_r"
+1409    TGETS    7   0  81  ; "color_r"
+1410    MOV      9   7
+1411    TGETS    7   7  19  ; "setAnchorPoint"
+1412    KSHORT  10   0
+1413    KSHORT  11   0
+1414    CALL     7   1   4
+1415    TGETS    7   0  81  ; "color_r"
+1416    MOV      9   7
+1417    TGETS    7   7  82  ; "setFontSize"
+1418    KSHORT  10  15
+1419    CALL     7   1   3
+1420    TGETS    7   0  13  ; "container"
+1421    MOV      9   7
+1422    TGETS    7   7  14  ; "addChild"
+1423    TGETS   10   0  81  ; "color_r"
+1424    CALL     7   1   3
+1425    TGETS    7   0  81  ; "color_r"
+1426    MOV      9   7
+1427    TGETS    7   7  20  ; "setPosition"
+1428    ADDVN   10   3   8  ; 5
+1429    SUBVN   11   2   8  ; 5
+1430    CALL     7   1   4
+1431    TGETS    7   0  81  ; "color_r"
+1432    MOV      9   7
+1433    TGETS    7   7  62  ; "setFontColor"
+1434    GGET    10   9      ; "cc"
+1435    TGETS   10  10  16  ; "c3b"
+1436    KSHORT  12   0
+1437    KSHORT  13   0
+1438    KSHORT  14 255
+1439    CALL    10   0   4
+1440    CALLM    7   1   1
+1441    GGET     7   1      ; "ccui"
+1442    TGETS    7   7  60  ; "EditBox"
+1443    MOV      9   7
+1444    TGETS    7   7   3  ; "create"
+1445    GGET    10   9      ; "cc"
+1446    TGETS   10  10  10  ; "size"
+1447    KSHORT  12  50
+1448    KSHORT  13  30
+1449    CALL    10   2   3
+1450    GGET    11   1      ; "ccui"
+1451    TGETS   11  11  61  ; "Scale9Sprite"
+1452    MOV     13  11
+1453    TGETS   11  11   3  ; "create"
+1454    CALL    11   0   2
+1455    CALLM    7   2   2
+1456    TSETS    7   0  83  ; "color_g"
+1457    TGETS    7   0  83  ; "color_g"
+1458    MOV      9   7
+1459    TGETS    7   7  19  ; "setAnchorPoint"
+1460    KSHORT  10   0
+1461    KSHORT  11   0
+1462    CALL     7   1   4
+1463    TGETS    7   0  13  ; "container"
+1464    MOV      9   7
+1465    TGETS    7   7  14  ; "addChild"
+1466    TGETS   10   0  83  ; "color_g"
+1467    CALL     7   1   3
+1468    TGETS    7   0  83  ; "color_g"
+1469    MOV      9   7
+1470    TGETS    7   7  20  ; "setPosition"
+1471    ADDVN   10   3   9  ; 55
+1472    SUBVN   11   2   8  ; 5
+1473    CALL     7   1   4
+1474    TGETS    7   0  83  ; "color_g"
+1475    MOV      9   7
+1476    TGETS    7   7  82  ; "setFontSize"
+1477    KSHORT  10  15
+1478    CALL     7   1   3
+1479    TGETS    7   0  83  ; "color_g"
+1480    MOV      9   7
+1481    TGETS    7   7  62  ; "setFontColor"
+1482    GGET    10   9      ; "cc"
+1483    TGETS   10  10  16  ; "c3b"
+1484    KSHORT  12   0
+1485    KSHORT  13   0
+1486    KSHORT  14 255
+1487    CALL    10   0   4
+1488    CALLM    7   1   1
+1489    GGET     7   1      ; "ccui"
+1490    TGETS    7   7  60  ; "EditBox"
+1491    MOV      9   7
+1492    TGETS    7   7   3  ; "create"
+1493    GGET    10   9      ; "cc"
+1494    TGETS   10  10  10  ; "size"
+1495    KSHORT  12  50
+1496    KSHORT  13  30
+1497    CALL    10   2   3
+1498    GGET    11   1      ; "ccui"
+1499    TGETS   11  11  61  ; "Scale9Sprite"
+1500    MOV     13  11
+1501    TGETS   11  11   3  ; "create"
+1502    CALL    11   0   2
+1503    CALLM    7   2   2
+1504    TSETS    7   0  84  ; "color_b"
+1505    TGETS    7   0  84  ; "color_b"
+1506    MOV      9   7
+1507    TGETS    7   7  19  ; "setAnchorPoint"
+1508    KSHORT  10   0
+1509    KSHORT  11   0
+1510    CALL     7   1   4
+1511    TGETS    7   0  13  ; "container"
+1512    MOV      9   7
+1513    TGETS    7   7  14  ; "addChild"
+1514    TGETS   10   0  84  ; "color_b"
+1515    CALL     7   1   3
+1516    TGETS    7   0  84  ; "color_b"
+1517    MOV      9   7
+1518    TGETS    7   7  20  ; "setPosition"
+1519    ADDVN   10   3  10  ; 105
+1520    SUBVN   11   2   8  ; 5
+1521    CALL     7   1   4
+1522    TGETS    7   0  84  ; "color_b"
+1523    MOV      9   7
+1524    TGETS    7   7  82  ; "setFontSize"
+1525    KSHORT  10  15
+1526    CALL     7   1   3
+1527    TGETS    7   0  84  ; "color_b"
+1528    MOV      9   7
+1529    TGETS    7   7  62  ; "setFontColor"
+1530    GGET    10   9      ; "cc"
+1531    TGETS   10  10  16  ; "c3b"
+1532    KSHORT  12   0
+1533    KSHORT  13   0
+1534    KSHORT  14 255
+1535    CALL    10   0   4
+1536    CALLM    7   1   1
+1537    GGET     7   1      ; "ccui"
+1538    TGETS    7   7  60  ; "EditBox"
+1539    MOV      9   7
+1540    TGETS    7   7   3  ; "create"
+1541    GGET    10   9      ; "cc"
+1542    TGETS   10  10  10  ; "size"
+1543    KSHORT  12  50
+1544    KSHORT  13  30
+1545    CALL    10   2   3
+1546    GGET    11   1      ; "ccui"
+1547    TGETS   11  11  61  ; "Scale9Sprite"
+1548    MOV     13  11
+1549    TGETS   11  11   3  ; "create"
+1550    CALL    11   0   2
+1551    CALLM    7   2   2
+1552    TSETS    7   0  85  ; "color_a"
+1553    TGETS    7   0  85  ; "color_a"
+1554    MOV      9   7
+1555    TGETS    7   7  19  ; "setAnchorPoint"
+1556    KSHORT  10   0
+1557    KSHORT  11   0
+1558    CALL     7   1   4
+1559    TGETS    7   0  13  ; "container"
+1560    MOV      9   7
+1561    TGETS    7   7  14  ; "addChild"
+1562    TGETS   10   0  85  ; "color_a"
+1563    CALL     7   1   3
+1564    TGETS    7   0  85  ; "color_a"
+1565    MOV      9   7
+1566    TGETS    7   7  20  ; "setPosition"
+1567    ADDVN   10   3  11  ; 155
+1568    SUBVN   11   2   8  ; 5
+1569    CALL     7   1   4
+1570    TGETS    7   0  85  ; "color_a"
+1571    MOV      9   7
+1572    TGETS    7   7  82  ; "setFontSize"
+1573    KSHORT  10  15
+1574    CALL     7   1   3
+1575    TGETS    7   0  85  ; "color_a"
+1576    MOV      9   7
+1577    TGETS    7   7  62  ; "setFontColor"
+1578    GGET    10   9      ; "cc"
+1579    TGETS   10  10  16  ; "c3b"
+1580    KSHORT  12   0
+1581    KSHORT  13   0
+1582    KSHORT  14 255
+1583    CALL    10   0   4
+1584    CALLM    7   1   1
+1585    SUBVV    2   2   4
+1586    GGET     7   9      ; "cc"
+1587    TGETS    7   7  45  ; "Label"
+1588    MOV      9   7
+1589    TGETS    7   7  46  ; "createWithTTF"
+1590    KSTR    10  86      ; "字体大小(Y):"
+1591    GGET    11  48      ; "DEFAULT_FONT"
+1592    MOV     12   5
+1593    CALL     7   2   5
+1594    MOV      6   7
+1595    MOV      9   6
+1596    TGETS    7   6  49  ; "setTextColor"
+1597    GGET    10   9      ; "cc"
+1598    TGETS   10  10  50  ; "c4b"
+1599    KSHORT  12   0
+1600    KSHORT  13   0
+1601    KSHORT  14   0
+1602    KSHORT  15 255
+1603    CALL    10   0   5
+1604    CALLM    7   1   1
+1605    MOV      9   6
+1606    TGETS    7   6  19  ; "setAnchorPoint"
+1607    KSHORT  10   1
+1608    KSHORT  11   0
+1609    CALL     7   1   4
+1610    TGETS    7   0  13  ; "container"
+1611    MOV      9   7
+1612    TGETS    7   7  14  ; "addChild"
+1613    MOV     10   6
+1614    CALL     7   1   3
+1615    MOV      9   6
+1616    TGETS    7   6  20  ; "setPosition"
+1617    SUBVN   10   3   2  ; 2
+1618    MOV     11   2
+1619    CALL     7   1   4
+1620    GGET     7   1      ; "ccui"
+1621    TGETS    7   7  60  ; "EditBox"
+1622    MOV      9   7
+1623    TGETS    7   7   3  ; "create"
+1624    GGET    10   9      ; "cc"
+1625    TGETS   10  10  10  ; "size"
+1626    KSHORT  12 150
+1627    KSHORT  13  30
+1628    CALL    10   2   3
+1629    GGET    11   1      ; "ccui"
+1630    TGETS   11  11  61  ; "Scale9Sprite"
+1631    MOV     13  11
+1632    TGETS   11  11   3  ; "create"
+1633    CALL    11   0   2
+1634    CALLM    7   2   2
+1635    TSETS    7   0  87  ; "fontsize"
+1636    TGETS    7   0  87  ; "fontsize"
+1637    MOV      9   7
+1638    TGETS    7   7  19  ; "setAnchorPoint"
+1639    KSHORT  10   0
+1640    KSHORT  11   0
+1641    CALL     7   1   4
+1642    TGETS    7   0  13  ; "container"
+1643    MOV      9   7
+1644    TGETS    7   7  14  ; "addChild"
+1645    TGETS   10   0  87  ; "fontsize"
+1646    CALL     7   1   3
+1647    TGETS    7   0  87  ; "fontsize"
+1648    MOV      9   7
+1649    TGETS    7   7  20  ; "setPosition"
+1650    ADDVN   10   3   8  ; 5
+1651    SUBVN   11   2   8  ; 5
+1652    CALL     7   1   4
+1653    TGETS    7   0  87  ; "fontsize"
+1654    MOV      9   7
+1655    TGETS    7   7  62  ; "setFontColor"
+1656    GGET    10   9      ; "cc"
+1657    TGETS   10  10  16  ; "c3b"
+1658    KSHORT  12   0
+1659    KSHORT  13   0
+1660    KSHORT  14 255
+1661    CALL    10   0   4
+1662    CALLM    7   1   1
+1663    GGET     7   1      ; "ccui"
+1664    TGETS    7   7  89  ; "ScrollView"
+1665    MOV      9   7
+1666    TGETS    7   7   3  ; "create"
+1667    CALL     7   2   2
+1668    TSETS    7   0  88  ; "layer"
+1669    TGETS    7   0  13  ; "container"
+1670    MOV      9   7
+1671    TGETS    7   7  14  ; "addChild"
+1672    TGETS   10   0  88  ; "layer"
+1673    CALL     7   1   3
+1674    TGETS    7   0  88  ; "layer"
+1675    MOV      9   7
+1676    TGETS    7   7   8  ; "setContentSize"
+1677    KSHORT  10 145
+1678    KSHORT  11 300
+1679    CALL     7   1   4
+1680    TGETS    7   0  88  ; "layer"
+1681    MOV      9   7
+1682    TGETS    7   7  90  ; "setInnerContainerSize"
+1683    TGETS   10   0  88  ; "layer"
+1684    MOV     12  10
+1685    TGETS   10  10  91  ; "getContentSize"
+1686    CALL    10   0   2
+1687    CALLM    7   1   1
+1688    TGETS    7   0  88  ; "layer"
+1689    MOV      9   7
+1690    TGETS    7   7  19  ; "setAnchorPoint"
+1691    KSHORT  10   0
+1692    KSHORT  11   0
+1693    CALL     7   1   4
+1694    TGETS    7   0  88  ; "layer"
+1695    MOV      9   7
+1696    TGETS    7   7  20  ; "setPosition"
+1697    TGETS   10   1  30  ; "width"
+1698    SUBVN   10  10  12  ; 148
+1699    KSHORT  11  65
+1700    CALL     7   1   4
+1701    TGETS    7   0  88  ; "layer"
+1702    MOV      9   7
+1703    TGETS    7   7  92  ; "setSwallowTouches"
+1704    KPRI    10   2
+1705    CALL     7   1   3
+1706    TGETS    7   0  88  ; "layer"
+1707    MOV      9   7
+1708    TGETS    7   7  93  ; "setBounceEnabled"
+1709    KPRI    10   2
+1710    CALL     7   1   3
+1711    TGETS    7   0  88  ; "layer"
+1712    MOV      9   7
+1713    TGETS    7   7  94  ; "setClippingEnabled"
+1714    KPRI    10   2
+1715    CALL     7   1   3
+1716    TGETS    7   0  88  ; "layer"
+1717    MOV      9   7
+1718    TGETS    7   7  95  ; "setScrollBarEnabled"
+1719    KPRI    10   1
+1720    CALL     7   1   3
+1721    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "close"
+0004    CALL     0   1   2
+0005    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    GGET     0   0      ; "require"
+0002    KSTR     2   1      ; "common/debug_ui_var"
+0003    CALL     0   1   2
+0004    GGET     0   2      ; "DebugUIVar"
+0005    MOV      2   0
+0006    TGETS    0   0   3  ; "getInstance"
+0007    CALL     0   2   2
+0008    MOV      2   0
+0009    TGETS    0   0   4  ; "open"
+0010    UGET     3   0      ; 
+0011    TGETS    3   3   5  ; "obj"
+0012    TGETS    3   3   6  ; "vo"
+0013    CALL     0   1   3
+0014    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "setNewObj"
+0004    UGET     3   0      ; 
+0005    TGETS    3   3   1  ; "obj"
+0006    MOV      5   3
+0007    TGETS    3   3   2  ; "getParent"
+0008    CALL     3   0   2
+0009    CALLM    0   1   1
+0010    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "setNewObj"
+0004    UGET     3   0      ; 
+0005    TGETS    3   3   1  ; "obj_bak"
+0006    CALL     0   1   3
+0007    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    TGETS    0   0   0  ; "obj"
+0003    MOV      2   0
+0004    TGETS    0   0   1  ; "isVisible"
+0005    CALL     0   2   2
+0006    ISF          0
+0007    JMP      1 => 0021
+0008    UGET     0   0      ; 
+0009    TGETS    0   0   0  ; "obj"
+0010    MOV      2   0
+0011    TGETS    0   0   2  ; "setVisible"
+0012    KPRI     3   1
+0013    CALL     0   1   3
+0014    UGET     0   0      ; 
+0015    TGETS    0   0   3  ; "showHide"
+0016    MOV      2   0
+0017    TGETS    0   0   4  ; "setTitleText"
+0018    KSTR     3   5      ; "显"
+0019    CALL     0   1   3
+0020    JMP      0 => 0033
+0021 => UGET     0   0      ; 
+0022    TGETS    0   0   0  ; "obj"
+0023    MOV      2   0
+0024    TGETS    0   0   2  ; "setVisible"
+0025    KPRI     3   2
+0026    CALL     0   1   3
+0027    UGET     0   0      ; 
+0028    TGETS    0   0   3  ; "showHide"
+0029    MOV      2   0
+0030    TGETS    0   0   4  ; "setTitleText"
+0031    KSTR     3   6      ; "隐"
+0032    CALL     0   1   3
+0033 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    TGETS    0   0   0  ; "showSub"
+0003    TGETS    0   0   1  ; "type"
+0004    ISNEN    0   0      ; 1
+0005    JMP      0 => 0017
+0006    UGET     0   0      ; 
+0007    TGETS    0   0   0  ; "showSub"
+0008    KSHORT   1   0
+0009    TSETS    1   0   1  ; "type"
+0010    UGET     0   0      ; 
+0011    TGETS    0   0   0  ; "showSub"
+0012    MOV      2   0
+0013    TGETS    0   0   2  ; "setTitleText"
+0014    KSTR     3   3      ; "父"
+0015    CALL     0   1   3
+0016    JMP      0 => 0027
+0017 => UGET     0   0      ; 
+0018    TGETS    0   0   0  ; "showSub"
+0019    KSHORT   1   1
+0020    TSETS    1   0   1  ; "type"
+0021    UGET     0   0      ; 
+0022    TGETS    0   0   0  ; "showSub"
+0023    MOV      2   0
+0024    TGETS    0   0   2  ; "setTitleText"
+0025    KSTR     3   4      ; "子"
+0026    CALL     0   1   3
+0027 => UGET     0   0      ; 
+0028    MOV      2   0
+0029    TGETS    0   0   5  ; "updateObjChild"
+0030    CALL     0   1   2
+0031    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    GGET     2   0      ; "ccui"
+0002    TGETS    2   2   1  ; "TouchEventType"
+0003    TGETS    2   2   2  ; "moved"
+0004    ISNEV    1   2
+0005    JMP      2 => 0021
+0006    MOV      4   0
+0007    TGETS    2   0   3  ; "getTouchMovePosition"
+0008    CALL     2   2   2
+0009    MOV      5   0
+0010    TGETS    3   0   4  ; "getParent"
+0011    CALL     3   2   2
+0012    MOV      5   3
+0013    TGETS    3   3   5  ; "convertToNodeSpaceAR"
+0014    MOV      6   2
+0015    CALL     3   2   3
+0016    MOV      2   3
+0017    MOV      5   0
+0018    TGETS    3   0   6  ; "setPosition"
+0019    MOV      6   2
+0020    CALL     3   1   3
+0021 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    ISNES    0   0      ; "began"
+0002    JMP      2 => 0010
+0003    MOV      4   1
+0004    TGETS    2   1   2  ; "getText"
+0005    CALL     2   2   2
+0006    TSETS    2   1   1  ; "_text_"
+0007    KPRI     2   1
+0008    RET1     2   2
+0009    JMP      2 => 0020
+0010 => ISNES    0   3      ; "return"
+0011    JMP      2 => 0020
+0012    TGETS    2   1   1  ; "_text_"
+0013    MOV      5   1
+0014    TGETS    3   1   2  ; "getText"
+0015    CALL     3   2   2
+0016    ISEQV    2   3
+0017    JMP      2 => 0020
+0018    KPRI     2   2
+0019    RET1     2   2
+0020 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0030
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setContentSize"
+0011    GGET     5   2      ; "cc"
+0012    TGETS    5   5   3  ; "size"
+0013    GGET     7   4      ; "tonumber"
+0014    MOV     11   1
+0015    TGETS    9   1   5  ; "getText"
+0016    CALL     9   0   2
+0017    CALLM    7   2   0
+0018    UGET     8   1      ; 
+0019    TGETS    8   8   0  ; "obj"
+0020    MOV     10   8
+0021    TGETS    8   8   6  ; "getContentSize"
+0022    CALL     8   2   2
+0023    TGETS    8   8   7  ; "height"
+0024    CALL     5   0   3
+0025    CALLM    2   1   1
+0026    UGET     2   1      ; 
+0027    MOV      4   2
+0028    TGETS    2   2   8  ; "updateObjBorder"
+0029    CALL     2   1   2
+0030 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0030
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setContentSize"
+0011    GGET     5   2      ; "cc"
+0012    TGETS    5   5   3  ; "size"
+0013    UGET     7   1      ; 
+0014    TGETS    7   7   0  ; "obj"
+0015    MOV      9   7
+0016    TGETS    7   7   4  ; "getContentSize"
+0017    CALL     7   2   2
+0018    TGETS    7   7   5  ; "width"
+0019    GGET     8   6      ; "tonumber"
+0020    MOV     12   1
+0021    TGETS   10   1   7  ; "getText"
+0022    CALL    10   0   2
+0023    CALLM    8   0   0
+0024    CALLM    5   0   1
+0025    CALLM    2   1   1
+0026    UGET     2   1      ; 
+0027    MOV      4   2
+0028    TGETS    2   2   8  ; "updateObjBorder"
+0029    CALL     2   1   2
+0030 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0030
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setAnchorPoint"
+0011    GGET     5   2      ; "cc"
+0012    TGETS    5   5   3  ; "p"
+0013    GGET     7   4      ; "tonumber"
+0014    MOV     11   1
+0015    TGETS    9   1   5  ; "getText"
+0016    CALL     9   0   2
+0017    CALLM    7   2   0
+0018    UGET     8   1      ; 
+0019    TGETS    8   8   0  ; "obj"
+0020    MOV     10   8
+0021    TGETS    8   8   6  ; "getAnchorPoint"
+0022    CALL     8   2   2
+0023    TGETS    8   8   7  ; "y"
+0024    CALL     5   0   3
+0025    CALLM    2   1   1
+0026    UGET     2   1      ; 
+0027    MOV      4   2
+0028    TGETS    2   2   8  ; "updateObjBorder"
+0029    CALL     2   1   2
+0030 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0030
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setAnchorPoint"
+0011    GGET     5   2      ; "cc"
+0012    TGETS    5   5   3  ; "p"
+0013    UGET     7   1      ; 
+0014    TGETS    7   7   0  ; "obj"
+0015    MOV      9   7
+0016    TGETS    7   7   4  ; "getAnchorPoint"
+0017    CALL     7   2   2
+0018    TGETS    7   7   5  ; "x"
+0019    GGET     8   6      ; "tonumber"
+0020    MOV     12   1
+0021    TGETS   10   1   7  ; "getText"
+0022    CALL    10   0   2
+0023    CALLM    8   0   0
+0024    CALLM    5   0   1
+0025    CALLM    2   1   1
+0026    UGET     2   1      ; 
+0027    MOV      4   2
+0028    TGETS    2   2   8  ; "updateObjBorder"
+0029    CALL     2   1   2
+0030 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0021
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setPositionX"
+0011    GGET     5   2      ; "tonumber"
+0012    MOV      9   1
+0013    TGETS    7   1   3  ; "getText"
+0014    CALL     7   0   2
+0015    CALLM    5   0   0
+0016    CALLM    2   1   1
+0017    UGET     2   1      ; 
+0018    MOV      4   2
+0019    TGETS    2   2   4  ; "updateObjBorder"
+0020    CALL     2   1   2
+0021 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0021
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setPositionY"
+0011    GGET     5   2      ; "tonumber"
+0012    MOV      9   1
+0013    TGETS    7   1   3  ; "getText"
+0014    CALL     7   0   2
+0015    CALLM    5   0   0
+0016    CALLM    2   1   1
+0017    UGET     2   1      ; 
+0018    MOV      4   2
+0019    TGETS    2   2   4  ; "updateObjBorder"
+0020    CALL     2   1   2
+0021 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0021
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setScaleX"
+0011    GGET     5   2      ; "tonumber"
+0012    MOV      9   1
+0013    TGETS    7   1   3  ; "getText"
+0014    CALL     7   0   2
+0015    CALLM    5   0   0
+0016    CALLM    2   1   1
+0017    UGET     2   1      ; 
+0018    MOV      4   2
+0019    TGETS    2   2   4  ; "updateObjBorder"
+0020    CALL     2   1   2
+0021 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0021
+0007    UGET     2   1      ; 
+0008    TGETS    2   2   0  ; "obj"
+0009    MOV      4   2
+0010    TGETS    2   2   1  ; "setScaleY"
+0011    GGET     5   2      ; "tonumber"
+0012    MOV      9   1
+0013    TGETS    7   1   3  ; "getText"
+0014    CALL     7   0   2
+0015    CALLM    5   0   0
+0016    CALLM    2   1   1
+0017    UGET     2   1      ; 
+0018    MOV      4   2
+0019    TGETS    2   2   4  ; "updateObjBorder"
+0020    CALL     2   1   2
+0021 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     4   0      ; 
+0002    MOV      6   4
+0003    TGETS    4   4   0  ; "getObjColor"
+0004    CALL     4   2   2
+0005    ISF          4
+0006    JMP      5 => 0033
+0007    TGETS    5   4   1  ; "a"
+0008    ISF          5
+0009    JMP      6 => 0033
+0010    UGET     5   0      ; 
+0011    TGETS    5   5   2  ; "obj"
+0012    TGETS    6   4   3  ; "set"
+0013    TGETV    5   5   6
+0014    UGET     7   0      ; 
+0015    TGETS    7   7   2  ; "obj"
+0016    GGET     8   4      ; "cc"
+0017    TGETS    8   8   5  ; "c4b"
+0018    ISTC    10   0
+0019    JMP     10 => 0021
+0020    TGETS   10   4   6  ; "r"
+0021 => ISTC    11   1
+0022    JMP     11 => 0024
+0023    TGETS   11   4   7  ; "g"
+0024 => ISTC    12   2
+0025    JMP     12 => 0027
+0026    TGETS   12   4   8  ; "b"
+0027 => ISTC    13   3
+0028    JMP     13 => 0030
+0029    TGETS   13   4   1  ; "a"
+0030 => CALL     8   0   5
+0031    CALLM    5   1   1
+0032    JMP      5 => 0054
+0033 => ISF          4
+0034    JMP      5 => 0054
+0035    UGET     5   0      ; 
+0036    TGETS    5   5   2  ; "obj"
+0037    TGETS    6   4   3  ; "set"
+0038    TGETV    5   5   6
+0039    UGET     7   0      ; 
+0040    TGETS    7   7   2  ; "obj"
+0041    GGET     8   4      ; "cc"
+0042    TGETS    8   8   9  ; "c3b"
+0043    ISTC    10   0
+0044    JMP     10 => 0046
+0045    TGETS   10   4   6  ; "r"
+0046 => ISTC    11   1
+0047    JMP     11 => 0049
+0048    TGETS   11   4   7  ; "g"
+0049 => ISTC    12   2
+0050    JMP     12 => 0052
+0051    TGETS   12   4   8  ; "b"
+0052 => CALL     8   0   4
+0053    CALLM    5   1   1
+0054 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0014
+0007    UGET     2   1      ; 
+0008    GGET     4   0      ; "tonumber"
+0009    MOV      8   1
+0010    TGETS    6   1   1  ; "getText"
+0011    CALL     6   0   2
+0012    CALLM    4   0   0
+0013    CALLM    2   1   0
+0014 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0015
+0007    UGET     2   1      ; 
+0008    KPRI     4   0
+0009    GGET     5   0      ; "tonumber"
+0010    MOV      9   1
+0011    TGETS    7   1   1  ; "getText"
+0012    CALL     7   0   2
+0013    CALLM    5   0   0
+0014    CALLM    2   1   1
+0015 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0015
+0007    UGET     2   1      ; 
+0008    KNIL     4   5
+0009    GGET     6   0      ; "tonumber"
+0010    MOV     10   1
+0011    TGETS    8   1   1  ; "getText"
+0012    CALL     8   0   2
+0013    CALLM    6   0   0
+0014    CALLM    2   1   2
+0015 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0015
+0007    UGET     2   1      ; 
+0008    KNIL     4   6
+0009    GGET     7   0      ; "tonumber"
+0010    MOV     11   1
+0011    TGETS    9   1   1  ; "getText"
+0012    CALL     9   0   2
+0013    CALLM    7   0   0
+0014    CALLM    2   1   3
+0015 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     1   0      ; 
+0002    MOV      3   1
+0003    TGETS    1   1   0  ; "getObjFont"
+0004    CALL     1   2   2
+0005    ISF          1
+0006    JMP      2 => 0015
+0007    UGET     2   0      ; 
+0008    TGETS    2   2   1  ; "obj"
+0009    TGETS    3   1   2  ; "set"
+0010    TGETV    2   2   3
+0011    UGET     4   0      ; 
+0012    TGETS    4   4   1  ; "obj"
+0013    MOV      5   0
+0014    CALL     2   1   3
+0015 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     2   0      ; 
+0002    MOV      4   0
+0003    MOV      5   1
+0004    CALL     2   2   3
+0005    ISF          2
+0006    JMP      3 => 0018
+0007    UGET     2   1      ; 
+0008    GGET     4   0      ; "tonumber"
+0009    MOV      8   1
+0010    TGETS    6   1   1  ; "getText"
+0011    CALL     6   0   2
+0012    CALLM    4   0   0
+0013    CALLM    2   1   0
+0014    UGET     2   2      ; 
+0015    MOV      4   2
+0016    TGETS    2   2   2  ; "updateObjBorder"
+0017    CALL     2   1   2
+0018 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    MOV      4   0
+0002    TGETS    2   0   0  ; "getLocation"
+0003    CALL     2   2   2
+0004    UGET     3   0      ; 
+0005    MOV      5   3
+0006    TGETS    3   3   1  ; "selectObj"
+0007    MOV      6   2
+0008    CALL     3   1   3
+0009    KPRI     3   2
+0010    RET1     3   2
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "updatePos"
+0004    KSHORT   3  -1
+0005    KSHORT   4   0
+0006    KSHORT   5 124
+0007    CALL     0   1   5
+0008    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "updatePos"
+0004    KSHORT   3   1
+0005    KSHORT   4   0
+0006    KSHORT   5 127
+0007    CALL     0   1   5
+0008    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "updatePos"
+0004    KSHORT   3   0
+0005    KSHORT   4   1
+0006    KSHORT   5 146
+0007    CALL     0   1   5
+0008    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "updatePos"
+0004    KSHORT   3   0
+0005    KSHORT   4  -1
+0006    KSHORT   5 142
+0007    CALL     0   1   5
+0008    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    GGET     1   0      ; "handleTouchEnded"
+0002    TGETS    3   0   1  ; "close_btn"
+0003    FNEW     4   2      ; 78446FB5D40B227D.luac:0
+0004    CALL     1   1   3
+0005    GGET     1   0      ; "handleTouchEnded"
+0006    TGETS    3   0   3  ; "showVo"
+0007    FNEW     4   4      ; 78446FB5D40B227D.luac:0
+0008    CALL     1   1   3
+0009    GGET     1   0      ; "handleTouchEnded"
+0010    TGETS    3   0   5  ; "parent"
+0011    FNEW     4   6      ; 78446FB5D40B227D.luac:0
+0012    CALL     1   1   3
+0013    GGET     1   0      ; "handleTouchEnded"
+0014    TGETS    3   0   7  ; "back"
+0015    FNEW     4   8      ; 78446FB5D40B227D.luac:0
+0016    CALL     1   1   3
+0017    GGET     1   0      ; "handleTouchEnded"
+0018    TGETS    3   0   9  ; "showHide"
+0019    FNEW     4  10      ; 78446FB5D40B227D.luac:0
+0020    CALL     1   1   3
+0021    GGET     1   0      ; "handleTouchEnded"
+0022    TGETS    3   0  11  ; "showSub"
+0023    FNEW     4  12      ; 78446FB5D40B227D.luac:0
+0024    CALL     1   1   3
+0025    TGETS    1   0  13  ; "container"
+0026    MOV      3   1
+0027    TGETS    1   1  14  ; "setTouchEnabled"
+0028    KPRI     4   2
+0029    CALL     1   1   3
+0030    TGETS    1   0  13  ; "container"
+0031    MOV      3   1
+0032    TGETS    1   1  15  ; "addTouchEventListener"
+0033    FNEW     4  16      ; 78446FB5D40B227D.luac:0
+0034    CALL     1   1   3
+0035    FNEW     1  17      ; 78446FB5D40B227D.luac:0
+0036    TGETS    2   0  18  ; "width"
+0037    MOV      4   2
+0038    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0039    FNEW     5  20      ; 78446FB5D40B227D.luac:0
+0040    CALL     2   1   3
+0041    TGETS    2   0  21  ; "height"
+0042    MOV      4   2
+0043    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0044    FNEW     5  22      ; 78446FB5D40B227D.luac:0
+0045    CALL     2   1   3
+0046    TGETS    2   0  23  ; "ui_ax"
+0047    MOV      4   2
+0048    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0049    FNEW     5  24      ; 78446FB5D40B227D.luac:0
+0050    CALL     2   1   3
+0051    TGETS    2   0  25  ; "ui_ay"
+0052    MOV      4   2
+0053    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0054    FNEW     5  26      ; 78446FB5D40B227D.luac:0
+0055    CALL     2   1   3
+0056    TGETS    2   0  27  ; "ui_x"
+0057    MOV      4   2
+0058    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0059    FNEW     5  28      ; 78446FB5D40B227D.luac:0
+0060    CALL     2   1   3
+0061    TGETS    2   0  29  ; "ui_y"
+0062    MOV      4   2
+0063    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0064    FNEW     5  30      ; 78446FB5D40B227D.luac:0
+0065    CALL     2   1   3
+0066    TGETS    2   0  31  ; "scaleX"
+0067    MOV      4   2
+0068    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0069    FNEW     5  32      ; 78446FB5D40B227D.luac:0
+0070    CALL     2   1   3
+0071    TGETS    2   0  33  ; "scaleY"
+0072    MOV      4   2
+0073    TGETS    2   2  19  ; "registerScriptEditBoxHandler"
+0074    FNEW     5  34      ; 78446FB5D40B227D.luac:0
+0075    CALL     2   1   3
+0076    FNEW     2  35      ; 78446FB5D40B227D.luac:0
+0077    TGETS    3   0  36  ; "color_r"
+0078    MOV      5   3
+0079    TGETS    3   3  19  ; "registerScriptEditBoxHandler"
+0080    FNEW     6  37      ; 78446FB5D40B227D.luac:0
+0081    CALL     3   1   3
+0082    TGETS    3   0  38  ; "color_g"
+0083    MOV      5   3
+0084    TGETS    3   3  19  ; "registerScriptEditBoxHandler"
+0085    FNEW     6  39      ; 78446FB5D40B227D.luac:0
+0086    CALL     3   1   3
+0087    TGETS    3   0  40  ; "color_b"
+0088    MOV      5   3
+0089    TGETS    3   3  19  ; "registerScriptEditBoxHandler"
+0090    FNEW     6  41      ; 78446FB5D40B227D.luac:0
+0091    CALL     3   1   3
+0092    TGETS    3   0  42  ; "color_a"
+0093    MOV      5   3
+0094    TGETS    3   3  19  ; "registerScriptEditBoxHandler"
+0095    FNEW     6  43      ; 78446FB5D40B227D.luac:0
+0096    CALL     3   1   3
+0097    FNEW     3  44      ; 78446FB5D40B227D.luac:0
+0098    TGETS    4   0  45  ; "fontsize"
+0099    MOV      6   4
+0100    TGETS    4   4  19  ; "registerScriptEditBoxHandler"
+0101    FNEW     7  46      ; 78446FB5D40B227D.luac:0
+0102    CALL     4   1   3
+0103    FNEW     4  47      ; 78446FB5D40B227D.luac:0
+0104    FNEW     5  48      ; 78446FB5D40B227D.luac:0
+0105    GGET     6  50      ; "cc"
+0106    TGETS    6   6  51  ; "EventListenerTouchOneByOne"
+0107    MOV      8   6
+0108    TGETS    6   6  52  ; "create"
+0109    CALL     6   2   2
+0110    TSETS    6   0  49  ; "touch_listener"
+0111    TGETS    6   0  49  ; "touch_listener"
+0112    MOV      8   6
+0113    TGETS    6   6  53  ; "registerScriptHandler"
+0114    MOV      9   4
+0115    GGET    10  50      ; "cc"
+0116    TGETS   10  10  54  ; "Handler"
+0117    TGETS   10  10  55  ; "EVENT_TOUCH_BEGAN"
+0118    CALL     6   1   4
+0119    TGETS    6   0  49  ; "touch_listener"
+0120    MOV      8   6
+0121    TGETS    6   6  53  ; "registerScriptHandler"
+0122    MOV      9   5
+0123    GGET    10  50      ; "cc"
+0124    TGETS   10  10  54  ; "Handler"
+0125    TGETS   10  10  56  ; "EVENT_TOUCH_ENDED"
+0126    CALL     6   1   4
+0127    TGETS    6   0  49  ; "touch_listener"
+0128    MOV      8   6
+0129    TGETS    6   6  57  ; "setSwallowTouches"
+0130    KPRI     9   2
+0131    CALL     6   1   3
+0132    TGETS    6   0  58  ; "root"
+0133    MOV      8   6
+0134    TGETS    6   6  59  ; "getEventDispatcher"
+0135    CALL     6   2   2
+0136    MOV      8   6
+0137    TGETS    6   6  60  ; "addEventListenerWithSceneGraphPriority"
+0138    TGETS    9   0  49  ; "touch_listener"
+0139    TGETS   10   0  58  ; "root"
+0140    CALL     6   1   4
+0141    GGET     6  62      ; "GlobalKeybordEvent"
+0142    MOV      8   6
+0143    TGETS    6   6  63  ; "getInstance"
+0144    CALL     6   2   2
+0145    TSETS    6   0  61  ; "keyevt"
+0146    TGETS    6   0  61  ; "keyevt"
+0147    MOV      8   6
+0148    TGETS    6   6  64  ; "add"
+0149    FNEW     9  65      ; 78446FB5D40B227D.luac:0
+0150    KPRI    10   0
+0151    KSHORT  11 124
+0152    KSHORT  12   0
+0153    CALL     6   1   6
+0154    TGETS    6   0  61  ; "keyevt"
+0155    MOV      8   6
+0156    TGETS    6   6  64  ; "add"
+0157    FNEW     9  66      ; 78446FB5D40B227D.luac:0
+0158    KPRI    10   0
+0159    KSHORT  11 127
+0160    KSHORT  12   0
+0161    CALL     6   1   6
+0162    TGETS    6   0  61  ; "keyevt"
+0163    MOV      8   6
+0164    TGETS    6   6  64  ; "add"
+0165    FNEW     9  67      ; 78446FB5D40B227D.luac:0
+0166    KPRI    10   0
+0167    KSHORT  11 146
+0168    KSHORT  12   0
+0169    CALL     6   1   6
+0170    TGETS    6   0  61  ; "keyevt"
+0171    MOV      8   6
+0172    TGETS    6   6  64  ; "add"
+0173    FNEW     9  68      ; 78446FB5D40B227D.luac:0
+0174    KPRI    10   0
+0175    KSHORT  11 142
+0176    KSHORT  12   0
+0177    CALL     6   1   6
+0178    UCLO     0 => 0179
+0179 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    1   0   0  ; "obj"
+0002    TGETS    1   1   1  ; "draw_border"
+0003    ISNEP    1   0
+0004    JMP      1 => 0022
+0005    TGETS    1   0   0  ; "obj"
+0006    GGET     2   2      ; "cc"
+0007    TGETS    2   2   3  ; "DrawNode"
+0008    MOV      4   2
+0009    TGETS    2   2   4  ; "create"
+0010    CALL     2   2   2
+0011    TSETS    2   1   1  ; "draw_border"
+0012    TGETS    1   0   0  ; "obj"
+0013    MOV      3   1
+0014    TGETS    1   1   5  ; "getParent"
+0015    CALL     1   2   2
+0016    MOV      3   1
+0017    TGETS    1   1   6  ; "addChild"
+0018    TGETS    4   0   0  ; "obj"
+0019    TGETS    4   4   1  ; "draw_border"
+0020    KNUM     5   0      ; 100000
+0021    CALL     1   1   4
+0022 => TGETS    1   0   0  ; "obj"
+0023    TGETS    1   1   1  ; "draw_border"
+0024    MOV      3   1
+0025    TGETS    1   1   7  ; "clear"
+0026    CALL     1   1   2
+0027    TGETS    1   0   0  ; "obj"
+0028    TGETS    1   1   1  ; "draw_border"
+0029    MOV      3   1
+0030    TGETS    1   1   8  ; "setContentSize"
+0031    TGETS    4   0   0  ; "obj"
+0032    MOV      6   4
+0033    TGETS    4   4   9  ; "getBoundingBox"
+0034    CALL     4   0   2
+0035    CALLM    1   1   1
+0036    TGETS    1   0   0  ; "obj"
+0037    TGETS    1   1   1  ; "draw_border"
+0038    MOV      3   1
+0039    TGETS    1   1  10  ; "setAnchorPoint"
+0040    TGETS    4   0   0  ; "obj"
+0041    MOV      6   4
+0042    TGETS    4   4  11  ; "getAnchorPoint"
+0043    CALL     4   0   2
+0044    CALLM    1   1   1
+0045    TGETS    1   0   0  ; "obj"
+0046    TGETS    1   1   1  ; "draw_border"
+0047    MOV      3   1
+0048    TGETS    1   1  12  ; "setPosition"
+0049    TGETS    4   0   0  ; "obj"
+0050    MOV      6   4
+0051    TGETS    4   4  13  ; "getPosition"
+0052    CALL     4   0   2
+0053    CALLM    1   1   1
+0054    TGETS    1   0   0  ; "obj"
+0055    TGETS    1   1   1  ; "draw_border"
+0056    MOV      3   1
+0057    TGETS    1   1  14  ; "drawRect"
+0058    GGET     4   2      ; "cc"
+0059    TGETS    4   4  15  ; "p"
+0060    KSHORT   6   0
+0061    KSHORT   7   0
+0062    CALL     4   2   3
+0063    GGET     5   2      ; "cc"
+0064    TGETS    5   5  15  ; "p"
+0065    TGETS    7   0   0  ; "obj"
+0066    MOV      9   7
+0067    TGETS    7   7   9  ; "getBoundingBox"
+0068    CALL     7   2   2
+0069    TGETS    7   7  16  ; "width"
+0070    TGETS    8   0   0  ; "obj"
+0071    MOV     10   8
+0072    TGETS    8   8   9  ; "getBoundingBox"
+0073    CALL     8   2   2
+0074    TGETS    8   8  17  ; "height"
+0075    CALL     5   2   3
+0076    GGET     6   2      ; "cc"
+0077    TGETS    6   6  18  ; "c4f"
+0078    KSHORT   8   0
+0079    KSHORT   9   1
+0080    KSHORT  10   0
+0081    KSHORT  11   1
+0082    CALL     6   0   5
+0083    CALLM    1   1   3
+0084    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    IST          1
+0002    JMP      2 => 0004
+0003    RET0     0   1
+0004 => GGET     2   0      ; "tolua"
+0005    TGETS    2   2   1  ; "type"
+0006    MOV      4   1
+0007    CALL     2   2   2
+0008    ISNES    2   2      ; "cc.Scene"
+0009    JMP      2 => 0011
+0010    RET0     0   1
+0011 => TGETS    2   0   3  ; "obj"
+0012    TGETS    2   2   4  ; "draw_border"
+0013    ISF          2
+0014    JMP      3 => 0022
+0015    GGET     2   5      ; "doRemoveFromParent"
+0016    TGETS    4   0   3  ; "obj"
+0017    TGETS    4   4   4  ; "draw_border"
+0018    CALL     2   1   2
+0019    TGETS    2   0   3  ; "obj"
+0020    KPRI     3   0
+0021    TSETS    3   2   4  ; "draw_border"
+0022 => TGETS    2   0   3  ; "obj"
+0023    TSETS    2   0   6  ; "obj_bak"
+0024    TSETS    1   0   3  ; "obj"
+0025    MOV      4   0
+0026    TGETS    2   0   7  ; "updateInfo"
+0027    CALL     2   1   2
+0028    TGETS    2   0   8  ; "showVo"
+0029    MOV      4   2
+0030    TGETS    2   2   9  ; "setVisible"
+0031    GGET     5   1      ; "type"
+0032    TGETS    7   1  10  ; "vo"
+0033    CALL     5   2   2
+0034    ISEQS    5  11      ; "table"
+0035    JMP      5 => 0038
+0036    KPRI     5   1
+0037    JMP      6 => 0039
+0038 => KPRI     5   2
+0039 => CALL     2   1   3
+0040    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    2   0   0  ; "root"
+0002    MOV      4   2
+0003    TGETS    2   2   1  ; "isVisible"
+0004    CALL     2   2   2
+0005    IST          2
+0006    JMP      2 => 0008
+0007    RET0     0   1
+0008 => MOV      4   0
+0009    TGETS    2   0   2  ; "matchObj"
+0010    GGET     5   3      ; "cc"
+0011    TGETS    5   5   4  ; "Director"
+0012    MOV      7   5
+0013    TGETS    5   5   5  ; "getInstance"
+0014    CALL     5   2   2
+0015    MOV      7   5
+0016    TGETS    5   5   6  ; "getRunningScene"
+0017    CALL     5   2   2
+0018    KSHORT   6   0
+0019    MOV      7   1
+0020    KPRI     8   0
+0021    CALL     2   2   6
+0022    MOV      5   0
+0023    TGETS    3   0   7  ; "setNewObj"
+0024    MOV      6   2
+0025    CALL     3   1   3
+0026    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    KSHORT   5  50
+0002    ISGE     5   2
+0003    JMP      5 => 0005
+0004    RET1     4   2
+0005 => MOV      7   1
+0006    TGETS    5   1   0  ; "getChildren"
+0007    CALL     5   2   2
+0008    GGET     6   1      ; "pairs"
+0009    MOV      8   5
+0010    CALL     6   4   2
+0011    ISNEXT   9 => 0041
+0012 => MOV     13  10
+0013    TGETS   11  10   2  ; "isVisible"
+0014    CALL    11   2   2
+0015    ISF         11
+0016    JMP     12 => 0041
+0017    KSHORT  11   2
+0018    ISGT    11   2
+0019    JMP     11 => 0033
+0020    MOV     13   0
+0021    TGETS   11   0   3  ; "hitObj"
+0022    MOV     14  10
+0023    MOV     15   3
+0024    CALL    11   2   4
+0025    ISF         11
+0026    JMP     12 => 0033
+0027    MOV     13   0
+0028    TGETS   11   0   4  ; "compObj"
+0029    MOV     14  10
+0030    MOV     15   4
+0031    CALL    11   2   4
+0032    MOV      4  11
+0033 => MOV     13   0
+0034    TGETS   11   0   5  ; "matchObj"
+0035    MOV     14  10
+0036    ADDVN   15   2   0  ; 1
+0037    MOV     16   3
+0038    MOV     17   4
+0039    CALL    11   2   6
+0040    MOV      4  11
+0041 => ITERN    9   3   3
+0042    ITERL    9 => 0012
+0043    RET1     4   2
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    MOV      5   1
+0002    TGETS    3   1   0  ; "getParent"
+0003    CALL     3   2   2
+0004    MOV      5   3
+0005    TGETS    3   3   1  ; "convertToNodeSpace"
+0006    MOV      6   2
+0007    CALL     3   2   3
+0008    MOV      6   1
+0009    TGETS    4   1   2  ; "getBoundingBox"
+0010    CALL     4   2   2
+0011    GGET     5   3      ; "cc"
+0012    TGETS    5   5   4  ; "rectContainsPoint"
+0013    MOV      7   4
+0014    MOV      8   3
+0015    CALLT    5   3
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    MOV      5   1
+0002    TGETS    3   1   0  ; "getBoundingBox"
+0003    CALL     3   2   2
+0004    TGETS    3   3   1  ; "width"
+0005    KSHORT   4   1
+0006    ISLT     3   4
+0007    JMP      3 => 0029
+0008    MOV      5   1
+0009    TGETS    3   1   0  ; "getBoundingBox"
+0010    CALL     3   2   2
+0011    TGETS    3   3   2  ; "height"
+0012    KSHORT   4   1
+0013    ISLT     3   4
+0014    JMP      3 => 0029
+0015    MOV      5   1
+0016    TGETS    3   1   0  ; "getBoundingBox"
+0017    CALL     3   2   2
+0018    TGETS    3   3   1  ; "width"
+0019    GGET     4   3      ; "SCREEN_WIDTH"
+0020    ISLE     4   3
+0021    JMP      3 => 0029
+0022    MOV      5   1
+0023    TGETS    3   1   0  ; "getBoundingBox"
+0024    CALL     3   2   2
+0025    TGETS    3   3   2  ; "height"
+0026    GGET     4   4      ; "SCREEN_HEIGHT"
+0027    ISGT     4   3
+0028    JMP      3 => 0031
+0029 => RET1     2   2
+0030    JMP      3 => 0068
+0031 => ISNEP    2   0
+0032    JMP      3 => 0035
+0033    RET1     1   2
+0034    JMP      3 => 0068
+0035 => MOV      5   1
+0036    TGETS    3   1   5  ; "getGlobalZOrder"
+0037    CALL     3   2   2
+0038    MOV      6   2
+0039    TGETS    4   2   5  ; "getGlobalZOrder"
+0040    CALL     4   2   2
+0041    ISGE     4   3
+0042    JMP      3 => 0045
+0043    RET1     1   2
+0044    JMP      3 => 0068
+0045 => MOV      5   1
+0046    TGETS    3   1   0  ; "getBoundingBox"
+0047    CALL     3   2   2
+0048    TGETS    3   3   1  ; "width"
+0049    MOV      6   2
+0050    TGETS    4   2   0  ; "getBoundingBox"
+0051    CALL     4   2   2
+0052    TGETS    4   4   1  ; "width"
+0053    ISGE     3   4
+0054    JMP      3 => 0057
+0055    RET1     1   2
+0056    JMP      3 => 0068
+0057 => MOV      5   1
+0058    TGETS    3   1   0  ; "getBoundingBox"
+0059    CALL     3   2   2
+0060    TGETS    3   3   2  ; "height"
+0061    MOV      6   2
+0062    TGETS    4   2   0  ; "getBoundingBox"
+0063    CALL     4   2   2
+0064    TGETS    4   4   2  ; "height"
+0065    ISGE     3   4
+0066    JMP      3 => 0068
+0067    RET1     1   2
+0068 => RET1     2   2
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    1   0   0  ; "type"
+0002    MOV      3   1
+0003    TGETS    1   1   1  ; "setString"
+0004    GGET     4   2      ; "tolua"
+0005    TGETS    4   4   0  ; "type"
+0006    TGETS    6   0   3  ; "obj"
+0007    CALL     4   0   2
+0008    CALLM    1   1   1
+0009    TGETS    1   0   4  ; "width"
+0010    MOV      3   1
+0011    TGETS    1   1   5  ; "setText"
+0012    TGETS    4   0   3  ; "obj"
+0013    MOV      6   4
+0014    TGETS    4   4   6  ; "getBoundingBox"
+0015    CALL     4   2   2
+0016    TGETS    4   4   4  ; "width"
+0017    CALL     1   1   3
+0018    TGETS    1   0   7  ; "height"
+0019    MOV      3   1
+0020    TGETS    1   1   5  ; "setText"
+0021    TGETS    4   0   3  ; "obj"
+0022    MOV      6   4
+0023    TGETS    4   4   6  ; "getBoundingBox"
+0024    CALL     4   2   2
+0025    TGETS    4   4   7  ; "height"
+0026    CALL     1   1   3
+0027    TGETS    1   0   8  ; "scaleX"
+0028    MOV      3   1
+0029    TGETS    1   1   5  ; "setText"
+0030    TGETS    4   0   3  ; "obj"
+0031    MOV      6   4
+0032    TGETS    4   4   9  ; "getScaleX"
+0033    CALL     4   0   2
+0034    CALLM    1   1   1
+0035    TGETS    1   0  10  ; "scaleY"
+0036    MOV      3   1
+0037    TGETS    1   1   5  ; "setText"
+0038    TGETS    4   0   3  ; "obj"
+0039    MOV      6   4
+0040    TGETS    4   4  11  ; "getScaleY"
+0041    CALL     4   0   2
+0042    CALLM    1   1   1
+0043    TGETS    1   0  12  ; "ui_ax"
+0044    MOV      3   1
+0045    TGETS    1   1   5  ; "setText"
+0046    TGETS    4   0   3  ; "obj"
+0047    MOV      6   4
+0048    TGETS    4   4  13  ; "getAnchorPoint"
+0049    CALL     4   2   2
+0050    TGETS    4   4  14  ; "x"
+0051    CALL     1   1   3
+0052    TGETS    1   0  15  ; "ui_ay"
+0053    MOV      3   1
+0054    TGETS    1   1   5  ; "setText"
+0055    TGETS    4   0   3  ; "obj"
+0056    MOV      6   4
+0057    TGETS    4   4  13  ; "getAnchorPoint"
+0058    CALL     4   2   2
+0059    TGETS    4   4  16  ; "y"
+0060    CALL     1   1   3
+0061    TGETS    1   0   3  ; "obj"
+0062    MOV      3   1
+0063    TGETS    1   1  17  ; "convertToWorldSpace"
+0064    GGET     4  18      ; "cc"
+0065    TGETS    4   4  19  ; "p"
+0066    KSHORT   6   0
+0067    KSHORT   7   0
+0068    CALL     4   0   3
+0069    CALLM    1   2   1
+0070    TGETS    2   0  20  ; "world_x"
+0071    MOV      4   2
+0072    TGETS    2   2   1  ; "setString"
+0073    GGET     5  21      ; "math"
+0074    TGETS    5   5  22  ; "ceil"
+0075    TGETS    7   1  14  ; "x"
+0076    CALL     5   0   2
+0077    CALLM    2   1   1
+0078    TGETS    2   0  23  ; "world_y"
+0079    MOV      4   2
+0080    TGETS    2   2   1  ; "setString"
+0081    GGET     5  21      ; "math"
+0082    TGETS    5   5  22  ; "ceil"
+0083    TGETS    7   1  16  ; "y"
+0084    CALL     5   0   2
+0085    CALLM    2   1   1
+0086    TGETS    2   0  24  ; "ui_x"
+0087    MOV      4   2
+0088    TGETS    2   2   5  ; "setText"
+0089    GGET     5  21      ; "math"
+0090    TGETS    5   5  22  ; "ceil"
+0091    TGETS    7   0   3  ; "obj"
+0092    MOV      9   7
+0093    TGETS    7   7  25  ; "getPositionX"
+0094    CALL     7   0   2
+0095    CALLM    5   0   0
+0096    CALLM    2   1   1
+0097    TGETS    2   0  26  ; "ui_y"
+0098    MOV      4   2
+0099    TGETS    2   2   5  ; "setText"
+0100    GGET     5  21      ; "math"
+0101    TGETS    5   5  22  ; "ceil"
+0102    TGETS    7   0   3  ; "obj"
+0103    MOV      9   7
+0104    TGETS    7   7  27  ; "getPositionY"
+0105    CALL     7   0   2
+0106    CALLM    5   0   0
+0107    CALLM    2   1   1
+0108    TGETS    2   0  28  ; "color_r"
+0109    MOV      4   2
+0110    TGETS    2   2   5  ; "setText"
+0111    KSTR     5  29      ; ""
+0112    CALL     2   1   3
+0113    TGETS    2   0  30  ; "color_g"
+0114    MOV      4   2
+0115    TGETS    2   2   5  ; "setText"
+0116    KSTR     5  29      ; ""
+0117    CALL     2   1   3
+0118    TGETS    2   0  31  ; "color_b"
+0119    MOV      4   2
+0120    TGETS    2   2   5  ; "setText"
+0121    KSTR     5  29      ; ""
+0122    CALL     2   1   3
+0123    TGETS    2   0  32  ; "color_a"
+0124    MOV      4   2
+0125    TGETS    2   2   5  ; "setText"
+0126    KSTR     5  29      ; ""
+0127    CALL     2   1   3
+0128    TGETS    2   0  33  ; "fontsize"
+0129    MOV      4   2
+0130    TGETS    2   2   5  ; "setText"
+0131    KSTR     5  29      ; ""
+0132    CALL     2   1   3
+0133    MOV      4   0
+0134    TGETS    2   0  34  ; "getObjColor"
+0135    CALL     2   2   2
+0136    ISF          2
+0137    JMP      3 => 0161
+0138    TGETS    3   0  28  ; "color_r"
+0139    MOV      5   3
+0140    TGETS    3   3   5  ; "setText"
+0141    TGETS    6   2  35  ; "r"
+0142    CALL     3   1   3
+0143    TGETS    3   0  30  ; "color_g"
+0144    MOV      5   3
+0145    TGETS    3   3   5  ; "setText"
+0146    TGETS    6   2  36  ; "g"
+0147    CALL     3   1   3
+0148    TGETS    3   0  31  ; "color_b"
+0149    MOV      5   3
+0150    TGETS    3   3   5  ; "setText"
+0151    TGETS    6   2  37  ; "b"
+0152    CALL     3   1   3
+0153    TGETS    3   0  32  ; "color_a"
+0154    MOV      5   3
+0155    TGETS    3   3   5  ; "setText"
+0156    TGETS    6   2  38  ; "a"
+0157    IST          6
+0158    JMP      7 => 0160
+0159    KSHORT   6 255
+0160 => CALL     3   1   3
+0161 => MOV      5   0
+0162    TGETS    3   0  39  ; "getObjFont"
+0163    CALL     3   2   2
+0164    ISF          3
+0165    JMP      4 => 0171
+0166    TGETS    4   0  33  ; "fontsize"
+0167    MOV      6   4
+0168    TGETS    4   4   5  ; "setText"
+0169    TGETS    7   3  40  ; "size"
+0170    CALL     4   1   3
+0171 => MOV      6   0
+0172    TGETS    4   0  41  ; "updateObjBorder"
+0173    CALL     4   1   2
+0174    MOV      6   0
+0175    TGETS    4   0  42  ; "updateObjChild"
+0176    CALL     4   1   2
+0177    TGETS    4   0   3  ; "obj"
+0178    MOV      6   4
+0179    TGETS    4   4  43  ; "getName"
+0180    CALL     4   2   2
+0181    IST          4
+0182    JMP      5 => 0184
+0183    KSTR     4  29      ; ""
+0184 => GGET     5   0      ; "type"
+0185    MOV      7   4
+0186    CALL     5   2   2
+0187    ISEQS    5  44      ; "string"
+0188    JMP      5 => 0195
+0189    GGET     5   0      ; "type"
+0190    MOV      7   4
+0191    CALL     5   2   2
+0192    ISEQS    5  45      ; "number"
+0193    JMP      5 => 0195
+0194    KSTR     4  29      ; ""
+0195 => TGETS    5   0  46  ; "name"
+0196    MOV      7   5
+0197    TGETS    5   5   1  ; "setString"
+0198    MOV      8   4
+0199    CALL     5   1   3
+0200    TGETS    5   0  47  ; "tag"
+0201    MOV      7   5
+0202    TGETS    5   5   1  ; "setString"
+0203    TGETS    8   0   3  ; "obj"
+0204    MOV     10   8
+0205    TGETS    8   8  48  ; "getTag"
+0206    CALL     8   0   2
+0207    CALLM    5   1   1
+0208    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    1   0   0  ; "obj"
+0002    KPRI     2   0
+0003    TDUP     3   1
+0004    TDUP     4   2
+0005    GGET     5   3      ; "ipairs"
+0006    MOV      7   3
+0007    CALL     5   4   2
+0008    JMP      8 => 0026
+0009 => TGETV   10   1   9
+0010    ISF         10
+0011    JMP     11 => 0026
+0012    ISEQP    2   0
+0013    JMP     10 => 0017
+0014    TGETS   10   2   4  ; "size"
+0015    ISNEN   10   0      ; 12
+0016    JMP     10 => 0026
+0017 => TDUP    10   5
+0018    TGETV   11   1   9
+0019    MOV     13   1
+0020    CALL    11   2   2
+0021    TSETS   11  10   4  ; "size"
+0022    TSETS    9  10   6  ; "get"
+0023    TGETV   11   4   8
+0024    TSETS   11  10   7  ; "set"
+0025    MOV      2  10
+0026 => ITERC    8   3   3
+0027    ITERL    8 => 0009
+0028    RET1     2   2
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    1   0   0  ; "obj"
+0002    KPRI     2   0
+0003    TDUP     3   1
+0004    TDUP     4   2
+0005    GGET     5   3      ; "ipairs"
+0006    MOV      7   3
+0007    CALL     5   4   2
+0008    JMP      8 => 0030
+0009 => TGETV   10   1   9
+0010    ISF         10
+0011    JMP     11 => 0030
+0012    ISEQP    2   0
+0013    JMP     10 => 0023
+0014    TGETS   10   2   4  ; "r"
+0015    ISNEN   10   0      ; 255
+0016    JMP     10 => 0030
+0017    TGETS   10   2   5  ; "g"
+0018    ISNEN   10   0      ; 255
+0019    JMP     10 => 0030
+0020    TGETS   10   2   6  ; "b"
+0021    ISNEN   10   0      ; 255
+0022    JMP     10 => 0030
+0023 => TGETV   10   1   9
+0024    MOV     12   1
+0025    CALL    10   2   2
+0026    MOV      2  10
+0027    TSETS    9   2   7  ; "get"
+0028    TGETV   10   4   8
+0029    TSETS   10   2   8  ; "set"
+0030 => ITERC    8   3   3
+0031    ITERL    8 => 0009
+0032    RET1     2   2
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "updatePos"
+0004    UGET     3   1      ; 
+0005    UGET     4   2      ; 
+0006    UGET     5   3      ; 
+0007    UGET     6   4      ; 
+0008    ADDVN    6   6   0  ; 1
+0009    CALL     0   1   6
+0010    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    5   0   0  ; "obj"
+0002    IST          5
+0003    JMP      5 => 0005
+0004    UCLO     0 => 0052
+0005 => ISF          4
+0006    JMP      5 => 0015
+0007    TGETS    5   0   1  ; "keyevt"
+0008    MOV      7   5
+0009    TGETS    5   5   2  ; "inKeyCode"
+0010    MOV      8   3
+0011    CALL     5   2   3
+0012    IST          5
+0013    JMP      5 => 0015
+0014    UCLO     0 => 0053
+0015 => IST          4
+0016    JMP      5 => 0018
+0017    KSHORT   4   0
+0018 => TGETS    5   0   0  ; "obj"
+0019    MOV      7   5
+0020    TGETS    5   5   3  ; "setPositionX"
+0021    TGETS    8   0   0  ; "obj"
+0022    MOV     10   8
+0023    TGETS    8   8   4  ; "getPositionX"
+0024    CALL     8   2   2
+0025    ADDVV    8   8   1
+0026    CALL     5   1   3
+0027    TGETS    5   0   0  ; "obj"
+0028    MOV      7   5
+0029    TGETS    5   5   5  ; "setPositionY"
+0030    TGETS    8   0   0  ; "obj"
+0031    MOV     10   8
+0032    TGETS    8   8   6  ; "getPositionY"
+0033    CALL     8   2   2
+0034    ADDVV    8   8   2
+0035    CALL     5   1   3
+0036    MOV      7   0
+0037    TGETS    5   0   7  ; "updateInfo"
+0038    CALL     5   1   2
+0039    GGET     5   8      ; "math"
+0040    TGETS    5   5   9  ; "max"
+0041    KNUM     7   0      ; 0.01
+0042    MULVN    8   4   1  ; 0.02
+0043    SUBNV    8   8   2  ; 0.2
+0044    CALL     5   2   3
+0045    GGET     6  10      ; "delayRun"
+0046    TGETS    8   0  11  ; "root"
+0047    MOV      9   5
+0048    FNEW    10  12      ; 78446FB5D40B227D.luac:0
+0049    CALL     6   1   4
+0050    UCLO     0 => 0051
+0051 => RET0     0   1
+0052 => RET0     0   1
+0053 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    UGET     0   0      ; 
+0002    MOV      2   0
+0003    TGETS    0   0   0  ; "setNewObj"
+0004    UGET     3   1      ; 
+0005    CALL     0   1   3
+0006    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    1   0   0  ; "layer"
+0002    MOV      3   1
+0003    TGETS    1   1   1  ; "removeAllChildren"
+0004    CALL     1   1   2
+0005    TGETS    1   0   0  ; "layer"
+0006    MOV      3   1
+0007    TGETS    1   1   2  ; "setInnerContainerSize"
+0008    TGETS    4   0   0  ; "layer"
+0009    MOV      6   4
+0010    TGETS    4   4   3  ; "getContentSize"
+0011    CALL     4   0   2
+0012    CALLM    1   1   1
+0013    TGETS    1   0   4  ; "obj"
+0014    MOV      3   1
+0015    TGETS    1   1   5  ; "getChildren"
+0016    CALL     1   2   2
+0017    TGETS    2   0   6  ; "showSub"
+0018    TGETS    2   2   7  ; "type"
+0019    ISNEN    2   0      ; 0
+0020    JMP      2 => 0029
+0021    TGETS    2   0   4  ; "obj"
+0022    MOV      4   2
+0023    TGETS    2   2   8  ; "getParent"
+0024    CALL     2   2   2
+0025    MOV      4   2
+0026    TGETS    2   2   5  ; "getChildren"
+0027    CALL     2   2   2
+0028    MOV      1   2
+0029 => KSHORT   2 145
+0030    KSHORT   3  20
+0031    LEN      4   1
+0032    MULVV    4   3   4
+0033    TGETS    5   0   0  ; "layer"
+0034    MOV      7   5
+0035    TGETS    5   5   2  ; "setInnerContainerSize"
+0036    GGET     8   9      ; "cc"
+0037    TGETS    8   8  10  ; "size"
+0038    TGETS   10   0   0  ; "layer"
+0039    MOV     12  10
+0040    TGETS   10  10   3  ; "getContentSize"
+0041    CALL    10   2   2
+0042    TGETS   10  10  11  ; "width"
+0043    GGET    11  12      ; "math"
+0044    TGETS   11  11  13  ; "max"
+0045    MOV     13   4
+0046    TGETS   14   0   0  ; "layer"
+0047    MOV     16  14
+0048    TGETS   14  14   3  ; "getContentSize"
+0049    CALL    14   2   2
+0050    TGETS   14  14  14  ; "height"
+0051    CALL    11   0   3
+0052    CALLM    8   0   1
+0053    CALLM    5   1   1
+0054    GGET     5  15      ; "pairs"
+0055    MOV      7   1
+0056    CALL     5   4   2
+0057    ISNEXT   8 => 0105
+0058 => SUBVV    4   4   3
+0059    GGET    10  16      ; "ccui"
+0060    TGETS   10  10  17  ; "Button"
+0061    MOV     12  10
+0062    TGETS   10  10  18  ; "create"
+0063    CALL    10   2   2
+0064    MOV     13  10
+0065    TGETS   11  10  19  ; "setContentSize"
+0066    SUBVN   14   2   1  ; 25
+0067    MOV     15   3
+0068    CALL    11   1   4
+0069    MOV     13  10
+0070    TGETS   11  10  20  ; "setAnchorPoint"
+0071    KSHORT  14   0
+0072    KSHORT  15   0
+0073    CALL    11   1   4
+0074    MOV     13  10
+0075    TGETS   11  10  21  ; "setPosition"
+0076    KSHORT  14   0
+0077    MOV     15   4
+0078    CALL    11   1   4
+0079    MOV     13  10
+0080    TGETS   11  10  22  ; "setTitleColor"
+0081    GGET    14   9      ; "cc"
+0082    TGETS   14  14  23  ; "c3b"
+0083    KSHORT  16   0
+0084    KSHORT  17   0
+0085    KSHORT  18   0
+0086    CALL    14   0   4
+0087    CALLM   11   1   1
+0088    MOV     13  10
+0089    TGETS   11  10  24  ; "setTitleText"
+0090    GGET    14  25      ; "tolua"
+0091    TGETS   14  14   7  ; "type"
+0092    MOV     16   9
+0093    CALL    14   0   2
+0094    CALLM   11   1   1
+0095    TGETS   11   0   0  ; "layer"
+0096    MOV     13  11
+0097    TGETS   11  11  26  ; "addChild"
+0098    MOV     14  10
+0099    CALL    11   1   3
+0100    GGET    11  27      ; "handleTouchEnded"
+0101    MOV     13  10
+0102    FNEW    14  28      ; 78446FB5D40B227D.luac:0
+0103    CALL    11   1   3
+0104    UCLO     8 => 0105
+0105 => ITERN    8   3   3
+0106    ITERL    8 => 0058
+0107    UCLO     0 => 0108
+0108 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    1   0   0  ; "root"
+0002    MOV      3   1
+0003    TGETS    1   1   1  ; "setVisible"
+0004    KPRI     4   2
+0005    CALL     1   1   3
+0006    TGETS    1   0   2  ; "touch_listener"
+0007    MOV      3   1
+0008    TGETS    1   1   3  ; "setSwallowTouches"
+0009    KPRI     4   2
+0010    CALL     1   1   3
+0011    RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    TGETS    1   0   0  ; "root"
+0002    MOV      3   1
+0003    TGETS    1   1   1  ; "setVisible"
+0004    KPRI     4   1
+0005    CALL     1   1   3
+0006    TGETS    1   0   2  ; "touch_listener"
+0007    MOV      3   1
+0008    TGETS    1   1   3  ; "setSwallowTouches"
+0009    KPRI     4   1
+0010    CALL     1   1   3
+0011    TGETS    1   0   4  ; "obj"
+0012    TGETS    1   1   5  ; "draw_border"
+0013    ISF          1
+0014    JMP      2 => 0022
+0015    GGET     1   6      ; "doRemoveFromParent"
+0016    TGETS    3   0   4  ; "obj"
+0017    TGETS    3   3   5  ; "draw_border"
+0018    CALL     1   1   2
+0019    TGETS    1   0   4  ; "obj"
+0020    KPRI     2   0
+0021    TSETS    2   1   5  ; "draw_border"
+0022 => RET0     0   1
+
+-- BYTECODE -- 78446FB5D40B227D.luac:0-0
+0001    GGET     0   0      ; "DebugUIHelper"
+0002    IST          0
+0003    JMP      1 => 0006
+0004    GGET     0   1      ; "BaseClass"
+0005    CALL     0   2   1
+0006 => GSET     0   0      ; "DebugUIHelper"
+0007    GGET     0   0      ; "DebugUIHelper"
+0008    FNEW     1   3      ; 78446FB5D40B227D.luac:0
+0009    TSETS    1   0   2  ; "__init"
+0010    GGET     0   0      ; "DebugUIHelper"
+0011    FNEW     1   5      ; 78446FB5D40B227D.luac:0
+0012    TSETS    1   0   4  ; "getInstance"
+0013    GGET     0   0      ; "DebugUIHelper"
+0014    FNEW     1   7      ; 78446FB5D40B227D.luac:0
+0015    TSETS    1   0   6  ; "initUI"
+0016    GGET     0   0      ; "DebugUIHelper"
+0017    FNEW     1   9      ; 78446FB5D40B227D.luac:0
+0018    TSETS    1   0   8  ; "registerEvents"
+0019    GGET     0   0      ; "DebugUIHelper"
+0020    FNEW     1  11      ; 78446FB5D40B227D.luac:0
+0021    TSETS    1   0  10  ; "updateObjBorder"
+0022    GGET     0   0      ; "DebugUIHelper"
+0023    FNEW     1  13      ; 78446FB5D40B227D.luac:0
+0024    TSETS    1   0  12  ; "setNewObj"
+0025    GGET     0   0      ; "DebugUIHelper"
+0026    FNEW     1  15      ; 78446FB5D40B227D.luac:0
+0027    TSETS    1   0  14  ; "selectObj"
+0028    GGET     0   0      ; "DebugUIHelper"
+0029    FNEW     1  17      ; 78446FB5D40B227D.luac:0
+0030    TSETS    1   0  16  ; "matchObj"
+0031    GGET     0   0      ; "DebugUIHelper"
+0032    FNEW     1  19      ; 78446FB5D40B227D.luac:0
+0033    TSETS    1   0  18  ; "hitObj"
+0034    GGET     0   0      ; "DebugUIHelper"
+0035    FNEW     1  21      ; 78446FB5D40B227D.luac:0
+0036    TSETS    1   0  20  ; "compObj"
+0037    GGET     0   0      ; "DebugUIHelper"
+0038    FNEW     1  23      ; 78446FB5D40B227D.luac:0
+0039    TSETS    1   0  22  ; "updateInfo"
+0040    GGET     0   0      ; "DebugUIHelper"
+0041    FNEW     1  25      ; 78446FB5D40B227D.luac:0
+0042    TSETS    1   0  24  ; "getObjFont"
+0043    GGET     0   0      ; "DebugUIHelper"
+0044    FNEW     1  27      ; 78446FB5D40B227D.luac:0
+0045    TSETS    1   0  26  ; "getObjColor"
+0046    GGET     0   0      ; "DebugUIHelper"
+0047    FNEW     1  29      ; 78446FB5D40B227D.luac:0
+0048    TSETS    1   0  28  ; "updatePos"
+0049    GGET     0   0      ; "DebugUIHelper"
+0050    FNEW     1  31      ; 78446FB5D40B227D.luac:0
+0051    TSETS    1   0  30  ; "updateObjChild"
+0052    GGET     0   0      ; "DebugUIHelper"
+0053    FNEW     1  33      ; 78446FB5D40B227D.luac:0
+0054    TSETS    1   0  32  ; "open"
+0055    GGET     0   0      ; "DebugUIHelper"
+0056    FNEW     1  35      ; 78446FB5D40B227D.luac:0
+0057    TSETS    1   0  34  ; "close"
+0058    RET0     0   1
+

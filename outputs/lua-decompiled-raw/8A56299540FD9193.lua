@@ -1,0 +1,12 @@
+ReturnActionEvent = ReturnActionEvent or {}
+ReturnActionEvent.Gift_Data_Event = "ReturnActionEvent.Gift_Data_Event"
+ReturnActionEvent.Summon_Data_Event = "ReturnActionEvent.Summon_Data_Event"
+ReturnActionEvent.Task_Event = "ReturnActionEvent.Task_Event"
+ReturnActionEvent.Task_Updata_Event = "ReturnActionEvent.Task_Updata_Event"
+ReturnActionEvent.Limin_Task_Event = "ReturnActionEvent.Limin_Task_Event"
+ReturnActionEvent.Sign_Event = "ReturnActionEvent.Sign_Event"
+ReturnActionEvent.Get_Redbag_Data_Event = "ReturnActionEvent.Get_Redbag_Data_Event"
+ReturnActionEvent.Update_Return_Main_Redbag_Event = "ReturnActionEvent.Update_Return_Main_Redbag_Event"
+ReturnActionEvent.Get_Redbag_Msg_Data_Event = "ReturnActionEvent.Get_Redbag_Msg_Data_Event"
+ReturnActionEvent.Shop_Event = "ReturnActionEvent.Shop_Event"
+ReturnActionEvent.RedPoint_Event = "ReturnActionEvent.RedPoint_Event"

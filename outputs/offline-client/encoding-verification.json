@@ -1,0 +1,6 @@
+{
+  "roundtrip_cases": 21,
+  "result": "PASS",
+  "decoder": "outputs/recovery-tools/decode.c",
+  "includes_current_main_lua": true
+}

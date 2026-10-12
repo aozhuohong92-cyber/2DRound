@@ -1,0 +1,13 @@
+HallowsEvent = HallowsEvent or {}
+HallowsEvent.HallowsActivityEvent = "HallowsEvent.HallowsActivityEvent"
+HallowsEvent.HallowsUpdateEvent = "HallowsEvent.HallowsUpdateEvent"
+HallowsEvent.HallowsAdvanceEvent = "HallowsEvent.HallowsAdvanceEvent"
+HallowsEvent.HallowsSkillUpgradeEvent = "HallowsEvent.HallowsSkillUpgradeEvent"
+HallowsEvent.HallowsEqupUpEvent = "HallowsEvent.HallowsEqupUpEvent"
+HallowsEvent.HallowsRedStatus = "HallowsEvent.HallowsRedStatus"
+HallowsEvent.UpdateHallowsTaskEvent = "HallowsEvent.UpdateHallowsTaskEvent"
+HallowsEvent.InitHallowsEvent = "HallowsEvent.InitHallowsEvent"
+HallowsEvent.UndateHallowsInfoEvent = "HallowsEvent.UndateHallowsInfoEvent"
+HallowsEvent.UpdateHallowsMagicDataEvent = "HallowsEvent.UpdateHallowsMagicDataEvent"
+HallowsEvent.UpdateHallowsMagicTaskEvent = "HallowsEvent.UpdateHallowsMagicTaskEvent"
+HallowsEvent.HallowsMagicActivityEvent = "HallowsEvent.HallowsMagicActivityEvent"

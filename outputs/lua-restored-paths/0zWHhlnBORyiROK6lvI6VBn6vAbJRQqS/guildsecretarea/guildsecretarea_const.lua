@@ -1,0 +1,1 @@
+GuildsecretareaConst = GuildsecretareaConst or {}

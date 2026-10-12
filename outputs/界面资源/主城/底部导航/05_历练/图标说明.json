@@ -1,0 +1,38 @@
+{
+  "slot": 5,
+  "name": "历练",
+  "node": "bottom_container/mainui_tab_5",
+  "position": {
+    "x": 470,
+    "y": 66
+  },
+  "source": "Original mainui_view.csb; positions retained unchanged.",
+  "shared_assets": "../共用原资源/",
+  "status": "真机外观已确认；不代表页面功能已实现",
+  "icon_frame": "txt_cn_mainui_2005.png",
+  "frame_metadata": {
+    "txt_cn_mainui_2005.png": {
+      "frame": "{{291,301},{95,102}}",
+      "offset": "{0,0}",
+      "rotated": false,
+      "sourceColorRect": "{{0,0},{95,102}}",
+      "sourceSize": "{95,102}"
+    },
+    "mainui_1022.png": {
+      "frame": "{{573,330},{76,43}}",
+      "offset": "{0,0}",
+      "rotated": false,
+      "sourceColorRect": "{{0,0},{76,43}}",
+      "sourceSize": "{76,43}"
+    },
+    "mainui_1023.png": {
+      "frame": "{{811,277},{76,43}}",
+      "offset": "{0,0}",
+      "rotated": false,
+      "sourceColorRect": "{{0,0},{76,43}}",
+      "sourceSize": "{76,43}"
+    }
+  },
+  "normal_frame": "mainui_1022.png",
+  "selected_frame": "mainui_1023.png"
+}

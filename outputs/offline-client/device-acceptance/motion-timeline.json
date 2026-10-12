@@ -1,0 +1,22 @@
+[
+  {
+    "action": "stand2",
+    "approx_video_time": 1.1090785419999998
+  },
+  {
+    "action": "action1",
+    "approx_video_time": 3.217162792
+  },
+  {
+    "action": "action2",
+    "approx_video_time": 5.3337502919999995
+  },
+  {
+    "action": "hurt",
+    "approx_video_time": 7.43753725
+  },
+  {
+    "action": "run",
+    "approx_video_time": 9.539042625
+  }
+]

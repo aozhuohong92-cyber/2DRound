@@ -1,0 +1,86 @@
+{
+  "levels": [
+    {
+      "bid": 520001,
+      "name": "普通攻击",
+      "owner": "路飞",
+      "group": 52000,
+      "next_id": 0,
+      "level": 1,
+      "is_normal_skill": 1,
+      "cd": 0,
+      "type": "active_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 1,
+      "count": 1,
+      "effect_list": [
+        5200001
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "对前方单体造成100%物理伤害",
+      "open_desc": "",
+      "skill_desc": "",
+      "icon": "20000",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 0,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 7490,
+        "raw": "[520001.0] = \"{520001, \\\"普通攻击\\\", \\\"路飞\\\", 52000, 0, 1, 1, 0, \\\"active_skill\\\", 0, 0, 1, 1, {5200001}, {}, 0, \\\"对前方单体造成100%物理伤害\\\", \\\"\\\", \\\"\\\", \\\"20000\\\", 0, 1, 1, {}, 0, 0, 0, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5200001,
+          "group": 52000,
+          "target_type": 43,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003
+            ]
+          ],
+          "anime_res": "action1",
+          "anime_user_atk": "action1",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20223
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "b_dirk1",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 4439,
+            "raw": "[5200001.0] = \"{5200001, 52000, 43, 1, {{10003}}, \\\"action1\\\", \\\"action1\\\", {}, {}, {}, {20223}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"b_dirk1\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          },
+          "organized_action_path": "../../动作/02_普攻_action1",
+          "device_verified": true
+        }
+      ]
+    }
+  ],
+  "status": "config_extracted_skill_orchestration_pending",
+  "warning": "Config descriptions are not evidence that combat rules, damage or effects have been implemented."
+}

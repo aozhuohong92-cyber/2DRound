@@ -1,0 +1,9 @@
+package cz.msebera.android.httpclient;
+
+import cz.msebera.android.httpclient.protocol.HttpContext;
+import java.io.IOException;
+
+/* loaded from: /Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/apk-extracted/classes.dex */
+public interface HttpRequestInterceptor {
+    void process(HttpRequest httpRequest, HttpContext httpContext) throws HttpException, IOException;
+}

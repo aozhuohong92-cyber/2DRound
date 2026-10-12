@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-12",
+  "device": "emulator-5554",
+  "model": "sdk_gphone_arm64",
+  "android": "11",
+  "resolution": "1080x2280",
+  "apk_sha256": "2425fd21c5d55d644f0cee2599a12894b4d4b05618ddd8a30e200fc4db29da36",
+  "result": "BLOCKED_BLACK_SCREEN",
+  "install": "PASS",
+  "lua_startup": "READY STAGE2 720x1520",
+  "visual": "Black at startup and after background/foreground",
+  "observed_error": "OpenGL error 0x0501: CCTexture2D.cpp initWithMipmaps 663",
+  "cause_confirmed": false,
+  "navigation_cycles_completed": 0,
+  "challenge_feedback_verified": false,
+  "normal_save_files_present": false,
+  "evidence": {
+    "probe-before.log": "dc865ce3fbe8bcf62fd27b61996ed6861a53359c701b96eef96d5751b6e594aa",
+    "app-logcat.log": "6df7e7f722c54d2db3e370cafd7e95cf39bd67718e646ec00565c5d772bdd187",
+    "files-after.txt": "6f47a10982bd7553fec7f21461a649fa26f8a4c0eb84e5041f5a02e6235f61dd",
+    "main-city.png": "a7d9743a93d85ec2ddfacf55e7b98d90b27151423a0ae0dc13b2de13badb8e68",
+    "resumed.png": "a7d9743a93d85ec2ddfacf55e7b98d90b27151423a0ae0dc13b2de13badb8e68"
+  }
+}

@@ -1,0 +1,5 @@
+TrainingcampEvent = TrainingcampEvent or {}
+TrainingcampEvent.Update_Trainingcamp_Data_Event = "TrainingcampEvent.Update_Trainingcamp_Data_Event"
+TrainingcampEvent.Update_Trainingcamp_Tips_Event = "TrainingcampEvent.Update_Trainingcamp_Tips_Event"
+TrainingcampEvent.Show_Close_Effect_Event = "TrainingcampEvent.Show_Close_Effect_Event"
+TrainingcampEvent.Is_Show_Formation_Event = "TrainingcampEvent.Is_Show_Formation_Event"

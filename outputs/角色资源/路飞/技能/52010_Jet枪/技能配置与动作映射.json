@@ -1,0 +1,815 @@
+{
+  "levels": [
+    {
+      "bid": 520101,
+      "name": "Jet.枪",
+      "owner": "路飞",
+      "group": 52010,
+      "next_id": 520102,
+      "level": 1,
+      "is_normal_skill": 0,
+      "cd": 2,
+      "type": "active_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 1,
+      "count": 1,
+      "effect_list": [
+        5201011,
+        5201021,
+        5201031,
+        5201041,
+        5201051
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "路飞发出猛烈的5连击，对最低血量敌方单体共造成150%物理伤害，每一段伤害有20%概率对单位叠加1层持续2回合的【出血】状态",
+      "open_desc": "初始激活",
+      "skill_desc": "升级条件：英雄到达<div fontcolor=45a536>6星</div>自动升级",
+      "icon": "22971",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [
+        [
+          21001
+        ]
+      ],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 1,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 6701,
+        "raw": "[520101.0] = \"{520101, \\\"Jet.枪\\\", \\\"路飞\\\", 52010, 520102, 1, 0, 2, \\\"active_skill\\\", 0, 0, 1, 1, {5201011,5201021,5201031,5201041,5201051}, {}, 0, \\\"路飞发出猛烈的5连击，对最低血量敌方单体共造成150%物理伤害，每一段伤害有20%概率对单位叠加1层持续2回合的【出血】状态\\\", \\\"初始激活\\\", \\\"升级条件：英雄到达<div fontcolor=45a536>6星</div>自动升级\\\", \\\"22971\\\", 0, 1, 1, {{21001}}, 0, 0, 1, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5201011,
+          "group": 52010,
+          "target_type": 43,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action1",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut01",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3261,
+            "raw": "[5201011.0] = \"{5201011, 52010, 43, 1, {{10003,10026}}, \\\"action2\\\", \\\"action1\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"b_effect_cut01\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201021,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action2",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 620,
+            "raw": "[5201021.0] = \"{5201021, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action2\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": true
+        },
+        {
+          "bid": 5201031,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action3",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut01",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3268,
+            "raw": "[5201031.0] = \"{5201031, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action3\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"b_effect_cut01\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201041,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action4",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 625,
+            "raw": "[5201041.0] = \"{5201041, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action4\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201051,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action5",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "b_baoqi1",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut02",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3273,
+            "raw": "[5201051.0] = \"{5201051, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action5\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"b_baoqi1\\\", \\\"\\\", \\\"b_effect_cut02\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        }
+      ]
+    },
+    {
+      "bid": 520102,
+      "name": "Jet.枪",
+      "owner": "路飞",
+      "group": 52010,
+      "next_id": 520103,
+      "level": 2,
+      "is_normal_skill": 0,
+      "cd": 2,
+      "type": "active_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 1,
+      "count": 1,
+      "effect_list": [
+        5201012,
+        5201022,
+        5201032,
+        5201042,
+        5201052
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "路飞发出猛烈的5连击，对最低血量敌方单体共造成191%物理伤害，每一段伤害有30%概率对单位叠加1层持续2回合的【出血】状态",
+      "open_desc": "初始激活",
+      "skill_desc": "升级条件：英雄到达<div fontcolor=45a536>7星</div>自动升级",
+      "icon": "22971",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [
+        [
+          21001
+        ]
+      ],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 1,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 6709,
+        "raw": "[520102.0] = \"{520102, \\\"Jet.枪\\\", \\\"路飞\\\", 52010, 520103, 2, 0, 2, \\\"active_skill\\\", 0, 0, 1, 1, {5201012,5201022,5201032,5201042,5201052}, {}, 0, \\\"路飞发出猛烈的5连击，对最低血量敌方单体共造成191%物理伤害，每一段伤害有30%概率对单位叠加1层持续2回合的【出血】状态\\\", \\\"初始激活\\\", \\\"升级条件：英雄到达<div fontcolor=45a536>7星</div>自动升级\\\", \\\"22971\\\", 0, 1, 1, {{21001}}, 0, 0, 1, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5201012,
+          "group": 52010,
+          "target_type": 43,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action1",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut01",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 4194,
+            "raw": "[5201012.0] = \"{5201012, 52010, 43, 1, {{10003,10026}}, \\\"action2\\\", \\\"action1\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"b_effect_cut01\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201022,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action2",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 2354,
+            "raw": "[5201022.0] = \"{5201022, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action2\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": true
+        },
+        {
+          "bid": 5201032,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action3",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut01",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 4196,
+            "raw": "[5201032.0] = \"{5201032, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action3\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"b_effect_cut01\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201042,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action4",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 158,
+            "raw": "[5201042.0] = \"{5201042, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action4\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201052,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action5",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "b_baoqi1",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut02",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 4207,
+            "raw": "[5201052.0] = \"{5201052, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action5\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"b_baoqi1\\\", \\\"\\\", \\\"b_effect_cut02\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        }
+      ]
+    },
+    {
+      "bid": 520103,
+      "name": "Jet.枪",
+      "owner": "路飞",
+      "group": 52010,
+      "next_id": 0,
+      "level": 3,
+      "is_normal_skill": 0,
+      "cd": 2,
+      "type": "active_skill",
+      "fit_combat_type": 0,
+      "best_target": 0,
+      "target": 1,
+      "count": 1,
+      "effect_list": [
+        5201013,
+        5201023,
+        5201033,
+        5201043,
+        5201053,
+        5201063
+      ],
+      "add_attr": [],
+      "hallows_atk": 0,
+      "des": "路飞发出猛烈的5连击，对最低血量敌方单体共造成231%物理伤害，每一段伤害有40%概率对单位叠加1层持续2回合的【出血】状态；该技能对辅助职业单位的伤害提升20%",
+      "open_desc": "初始激活",
+      "skill_desc": "",
+      "icon": "22971",
+      "is_play_sound": 0,
+      "skill_type": 1,
+      "passive_skill_show": 1,
+      "buff_des": [
+        [
+          21001
+        ]
+      ],
+      "power": 0,
+      "target_multi": 0,
+      "fire_cd": 1,
+      "client_lev": 0,
+      "source": {
+        "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+        "line": 6717,
+        "raw": "[520103.0] = \"{520103, \\\"Jet.枪\\\", \\\"路飞\\\", 52010, 0, 3, 0, 2, \\\"active_skill\\\", 0, 0, 1, 1, {5201013,5201023,5201033,5201043,5201053,5201063}, {}, 0, \\\"路飞发出猛烈的5连击，对最低血量敌方单体共造成231%物理伤害，每一段伤害有40%概率对单位叠加1层持续2回合的【出血】状态；该技能对辅助职业单位的伤害提升20%\\\", \\\"初始激活\\\", \\\"\\\", \\\"22971\\\", 0, 1, 1, {{21001}}, 0, 0, 1, 0}\","
+      },
+      "effects": [
+        {
+          "bid": 5201013,
+          "group": 52010,
+          "target_type": 43,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action1",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut01",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 616,
+            "raw": "[5201013.0] = \"{5201013, 52010, 43, 1, {{10003,10026}}, \\\"action2\\\", \\\"action1\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"b_effect_cut01\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201023,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action2",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3265,
+            "raw": "[5201023.0] = \"{5201023, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action2\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": true
+        },
+        {
+          "bid": 5201033,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action3",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut01",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 621,
+            "raw": "[5201033.0] = \"{5201033, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action3\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"b_effect_cut01\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201043,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action4",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 1,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 0,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3270,
+            "raw": "[5201043.0] = \"{5201043, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action4\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 1, \\\"\\\", 1, 0}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201053,
+          "group": 52010,
+          "target_type": 3,
+          "effect_type": 1,
+          "action_list": [
+            [
+              10003,
+              10026
+            ]
+          ],
+          "anime_res": "action2",
+          "anime_user_atk": "action5",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [
+            20224
+          ],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 13,
+          "ready_sound": "b_baoqi1",
+          "attack_sound": "",
+          "hit_sound": "b_effect_cut02",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 635,
+            "raw": "[5201053.0] = \"{5201053, 52010, 3, 1, {{10003,10026}}, \\\"action2\\\", \\\"action5\\\", {}, {}, {}, {20224}, {}, {}, 13, \\\"b_baoqi1\\\", \\\"\\\", \\\"b_effect_cut02\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          },
+          "organized_action_path": "../../动作/03_Jet枪分段_action2",
+          "device_verified": false
+        },
+        {
+          "bid": 5201063,
+          "group": 52010,
+          "target_type": 44,
+          "effect_type": 12,
+          "action_list": [
+            [
+              20001
+            ]
+          ],
+          "anime_res": "",
+          "anime_user_atk": "",
+          "bact_effect_list": [],
+          "act_effect_list": [],
+          "area_effect_list": [],
+          "hit_effect_list": [],
+          "hurt_effect_list": [],
+          "trc_effect_list": [],
+          "shake_id": 0,
+          "ready_sound": "",
+          "attack_sound": "",
+          "hit_sound": "",
+          "is_play_hit_sound": 0,
+          "effect_desc": "",
+          "hit_action": "hurt",
+          "act_hurt_type": 0,
+          "is_move_map": 0,
+          "is_must_die": 0,
+          "shout_trick": "",
+          "split_hurt": 1,
+          "play_stand": 1,
+          "source": {
+            "file": "outputs/lua-restored-paths/ePoCrKQkWA3vpiOwu2oNfOh02MOeNheW/skill_data1.lua",
+            "line": 3280,
+            "raw": "[5201063.0] = \"{5201063, 52010, 44, 12, {{20001}}, \\\"\\\", \\\"\\\", {}, {}, {}, {}, {}, {}, 0, \\\"\\\", \\\"\\\", \\\"\\\", 0, \\\"\\\", \\\"hurt\\\", 0, 0, 0, \\\"\\\", 1, 1}\","
+          }
+        }
+      ]
+    }
+  ],
+  "status": "config_extracted_skill_orchestration_pending",
+  "warning": "Config descriptions are not evidence that combat rules, damage or effects have been implemented."
+}

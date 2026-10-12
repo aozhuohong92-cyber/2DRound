@@ -1,0 +1,25 @@
+{
+  "lua": {
+    "files": 2136,
+    "loadfile_ok": 2136,
+    "loadfile_failed": 0
+  },
+  "bytecode": {
+    "files": 2146,
+    "loadfile_ok": 2146,
+    "loadfile_failed": 0
+  },
+  "states": {
+    "source_generated_syntax_passed": 2135,
+    "needs_manual_recovery": 10,
+    "empty_chunk_verified": 1
+  },
+  "restored_code_paths": 1808,
+  "resource_name_matches": 3619,
+  "csb_name_matches": 1054,
+  "java": {
+    "java_files": 2029,
+    "files_with_warning_markers": 59
+  },
+  "verification_limit": "Syntax/bytecode loading only. No game execution, server connection, or gameplay equivalence verified."
+}

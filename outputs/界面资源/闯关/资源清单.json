@@ -1,0 +1,127 @@
+{
+  "stage": "闯关第一版入口与返回",
+  "map_id": 10008,
+  "dungeon_id": 10010,
+  "resources": [
+    {
+      "logical_path": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb",
+      "category": "闯关主界面/复用底栏",
+      "source": "outputs/apk-extracted/assets/HASH/5/55588DD081BA8E99.csb",
+      "archive": "assets/HASH/5/55588DD081BA8E99.csb",
+      "bytes": 36676,
+      "sha256": "2238a1966642c5b2aff6496746dca9654c3888ee508eb48caf569dc31e63b136",
+      "dependencies": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "fonts/mini.ttf",
+        "resource/common/common.plist",
+        "resource/item/2.png",
+        "resource/item/3.png",
+        "resource/item/41.png",
+        "resource/mainui/mainui.plist"
+      ]
+    },
+    {
+      "logical_path": "resource/mainui/mainui.plist",
+      "category": "闯关主界面/复用底栏",
+      "source": "outputs/apk-extracted/assets/HASH/8/8417B8AD5F4C2F40.plist",
+      "archive": "assets/HASH/8/8417B8AD5F4C2F40.plist",
+      "bytes": 44874,
+      "sha256": "d13332e4497172a0360e23d3c3a499e7e44e8cc75021e6e82a3a12e302d1f95b",
+      "dependencies": [
+        "resource/mainui/mainui.png"
+      ]
+    },
+    {
+      "logical_path": "resource/mainui/mainui.png",
+      "category": "闯关主界面/复用底栏",
+      "source": "outputs/apk-extracted/assets/HASH/C/C1C0B3151C790BA7.png",
+      "archive": "assets/HASH/C/C1C0B3151C790BA7.png",
+      "bytes": 171014,
+      "sha256": "21679f7d688cb336b0e09d620c9d35726145848d03af1917a177f507bd0a0d81",
+      "dependencies": []
+    },
+    {
+      "logical_path": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/battle/battle_button_list.csb",
+      "category": "闯关主界面/关键按钮",
+      "source": "outputs/apk-extracted/assets/HASH/7/7757BCD0D2745B3D.csb",
+      "archive": "assets/HASH/7/7757BCD0D2745B3D.csb",
+      "bytes": 15012,
+      "sha256": "9aebefffe1392953edbf09809a0af39cf6bafdca4fc8ab356835ff530c9e262e",
+      "dependencies": [
+        "Default/Button_Disable.png",
+        "Default/ImageFile.png",
+        "fonts/mini.ttf",
+        "resource/battledrama/battledrama.plist",
+        "resource/mainui/mainui.plist"
+      ]
+    },
+    {
+      "logical_path": "resource/battledrama/battledrama.plist",
+      "category": "闯关主界面/关键按钮",
+      "source": "outputs/apk-extracted/assets/HASH/4/47D39DBA487E3573.plist",
+      "archive": "assets/HASH/4/47D39DBA487E3573.plist",
+      "bytes": 22676,
+      "sha256": "c4d70fcf76d7aa8b64c2ac719533ceac1153ea0f2eafb028f273c24621f454bc",
+      "dependencies": [
+        "resource/battledrama/battledrama.png"
+      ]
+    },
+    {
+      "logical_path": "resource/battledrama/battledrama.png",
+      "category": "闯关主界面/关键按钮",
+      "source": "outputs/apk-extracted/assets/HASH/8/8F38A6BA04FD7328.png",
+      "archive": "assets/HASH/8/8F38A6BA04FD7328.png",
+      "bytes": 125830,
+      "sha256": "7af6152efc55939726378d1f69e8ef6d5f60eade71870201c41ad148f8df7274",
+      "dependencies": []
+    },
+    {
+      "logical_path": "resource/battle/battle.plist",
+      "category": "闯关主界面/预留战斗UI",
+      "source": "outputs/apk-extracted/assets/HASH/1/1A93DAAD9C2B2074.plist",
+      "archive": "assets/HASH/1/1A93DAAD9C2B2074.plist",
+      "bytes": 27918,
+      "sha256": "615ca77f392914f176ee1f38b00ab7833cc30bdc6f508e73b42da2f8353863cd",
+      "dependencies": [
+        "resource/battle/battle.png"
+      ]
+    },
+    {
+      "logical_path": "resource/battle/battle.png",
+      "category": "闯关主界面/预留战斗UI",
+      "source": "outputs/apk-extracted/assets/HASH/E/E9A66599D482D347.png",
+      "archive": "assets/HASH/E/E9A66599D482D347.png",
+      "bytes": 88450,
+      "sha256": "2de32ad31c5eb24ec358ba746104ee9f673cfc85fea88648f41ce912296740de",
+      "dependencies": []
+    },
+    {
+      "logical_path": "resource/bigbg/battle_bg/10008/m_bg.jpg",
+      "category": "闯关主界面/背景",
+      "source": "outputs/apk-extracted/assets/HASH/A/A98DEE231B74A394.jpg",
+      "archive": "assets/HASH/A/A98DEE231B74A394.jpg",
+      "bytes": 64426,
+      "sha256": "27da71f0c99bb6b581fffbcb8c509a6ac8d28e2d4762f158dee1da3aeaec05bd",
+      "dependencies": []
+    },
+    {
+      "logical_path": "resource/bigbg/battle_bg/10008/map_bg.png",
+      "category": "闯关主界面/背景",
+      "source": "outputs/apk-extracted/assets/HASH/5/5FABF1DC0814E50D.png",
+      "archive": "assets/HASH/5/5FABF1DC0814E50D.png",
+      "bytes": 53502,
+      "sha256": "11a3c8863e0d0c9699281cda0b20503e1780522b099f7022b132a383b909f539",
+      "dependencies": []
+    },
+    {
+      "logical_path": "resource/bigbg/pattern/pattern_3.png",
+      "category": "闯关主界面/装饰背景",
+      "source": "outputs/apk-extracted/assets/HASH/0/09B09D318F61F6B6.png",
+      "archive": "assets/HASH/0/09B09D318F61F6B6.png",
+      "bytes": 7122,
+      "sha256": "8970a1a512b7ac17277382da3b3ce535a61123e172f6235d02804d13c0e80be3",
+      "dependencies": []
+    }
+  ]
+}

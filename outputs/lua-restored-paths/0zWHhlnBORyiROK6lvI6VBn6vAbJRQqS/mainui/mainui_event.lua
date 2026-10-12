@@ -1,0 +1,9 @@
+MainuiEvent = MainuiEvent or {}
+MainuiEvent.CHATPANEL_SIZE_CHANGE = "MainuiEvent.CHATPANEL_SIZE_CHANGE"
+MainuiEvent.SHOW_GOODS = "MainuiEvent.SHOW_GOODS"
+MainuiEvent.ADD_UPDATE_BUFF = "MainuiEvent.ADD_UPDATE_BUFF"
+MainuiEvent.UPDATE_BUFF = "MainuiEvent.UPDATE_BUFF"
+MainuiEvent.Partner_Red = "MainuiEvent.Partner_Red"
+MainuiEvent.CLOSE_ITEM_VIEW = "MainuiEvent.CLOSE_ITEM_VIEW"
+MainuiEvent.UPDATE_FUNCTION_STATUS = "MainuiEvent.UPDATE_FUNCTION_STATUS"
+MainuiEvent.HEAD_UPDATE_WEALTH_EVENT = "MainuiEvent.HEAD_UPDATE_WEALTH_EVENT"

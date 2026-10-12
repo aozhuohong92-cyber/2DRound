@@ -1,0 +1,9 @@
+GuildbossEvent = GuildbossEvent or {}
+GuildbossEvent.UpdateGuildDunBaseInfo = "GuildbossEvent.UpdateGuildDunBaseInfo"
+GuildbossEvent.UpdateGuildBossChallengeTimes = "GuildbossEvent.UpdateGuildBossChallengeTimes"
+GuildbossEvent.UpdateFirstPassReward = "GuildbossEvent.UpdateFirstPassReward"
+GuildbossEvent.MusterCoolTime = "GuildbossEvent.MusterCoolTime"
+GuildbossEvent.BossActivityDoubleTime = "GuildbossEvent.BossActivityDoubleTime"
+GuildbossEvent.UpdateGuildDunRank = "GuildbossEvent.UpdateGuildDunRank"
+GuildbossEvent.UpdateBoxRewardsStatus = "GuildbossEvent.UpdateBoxRewardsStatus"
+GuildbossEvent.UpdateChangeStatus = "GuildbossEvent.UpdateChangeStatus"

@@ -1,0 +1,171 @@
+{
+  "520001": {
+    "name": "普通攻击",
+    "steps": [
+      {
+        "effect_id": 5200001,
+        "resource": "action1",
+        "animation": "action1",
+        "hit": true,
+        "ready_sound": "",
+        "attack_sound": "",
+        "hit_sound": "b_dirk1",
+        "caster_effects": [],
+        "hit_effects": [
+          {
+            "id": 20223,
+            "model": "E80008",
+            "file": "action",
+            "animation": "action",
+            "x": 0,
+            "y": 50,
+            "scale": 1.0,
+            "source_line": 4014
+          }
+        ]
+      }
+    ]
+  },
+  "520101": {
+    "name": "Jet.枪",
+    "steps": [
+      {
+        "effect_id": 5201011,
+        "resource": "action2",
+        "animation": "action1",
+        "hit": true,
+        "ready_sound": "",
+        "attack_sound": "",
+        "hit_sound": "b_effect_cut01",
+        "caster_effects": [],
+        "hit_effects": [
+          {
+            "id": 20224,
+            "model": "E80009",
+            "file": "action",
+            "animation": "action",
+            "x": 0,
+            "y": 50,
+            "scale": 1.0,
+            "source_line": 4029
+          }
+        ]
+      },
+      {
+        "effect_id": 5201021,
+        "resource": "action2",
+        "animation": "action2",
+        "hit": true,
+        "ready_sound": "",
+        "attack_sound": "",
+        "hit_sound": "",
+        "caster_effects": [],
+        "hit_effects": [
+          {
+            "id": 20224,
+            "model": "E80009",
+            "file": "action",
+            "animation": "action",
+            "x": 0,
+            "y": 50,
+            "scale": 1.0,
+            "source_line": 4029
+          }
+        ]
+      },
+      {
+        "effect_id": 5201031,
+        "resource": "action2",
+        "animation": "action3",
+        "hit": true,
+        "ready_sound": "",
+        "attack_sound": "",
+        "hit_sound": "b_effect_cut01",
+        "caster_effects": [],
+        "hit_effects": [
+          {
+            "id": 20224,
+            "model": "E80009",
+            "file": "action",
+            "animation": "action",
+            "x": 0,
+            "y": 50,
+            "scale": 1.0,
+            "source_line": 4029
+          }
+        ]
+      },
+      {
+        "effect_id": 5201041,
+        "resource": "action2",
+        "animation": "action4",
+        "hit": true,
+        "ready_sound": "",
+        "attack_sound": "",
+        "hit_sound": "",
+        "caster_effects": [],
+        "hit_effects": [
+          {
+            "id": 20224,
+            "model": "E80009",
+            "file": "action",
+            "animation": "action",
+            "x": 0,
+            "y": 50,
+            "scale": 1.0,
+            "source_line": 4029
+          }
+        ]
+      },
+      {
+        "effect_id": 5201051,
+        "resource": "action2",
+        "animation": "action5",
+        "hit": true,
+        "ready_sound": "b_baoqi1",
+        "attack_sound": "",
+        "hit_sound": "b_effect_cut02",
+        "caster_effects": [],
+        "hit_effects": [
+          {
+            "id": 20224,
+            "model": "E80009",
+            "file": "action",
+            "animation": "action",
+            "x": 0,
+            "y": 50,
+            "scale": 1.0,
+            "source_line": 4029
+          }
+        ]
+      }
+    ]
+  },
+  "520301": {
+    "name": "二档",
+    "steps": [
+      {
+        "effect_id": 5203011,
+        "resource": "action9",
+        "animation": "action9",
+        "hit": false,
+        "ready_sound": "b_skill_sprint",
+        "attack_sound": "",
+        "hit_sound": "",
+        "caster_effects": [
+          {
+            "id": 15611,
+            "model": "E54320",
+            "file": "action",
+            "animation": "action1",
+            "x": 0,
+            "y": 1,
+            "scale": 1.0,
+            "source_line": 7344
+          }
+        ],
+        "hit_effects": []
+      }
+    ]
+  }
+}

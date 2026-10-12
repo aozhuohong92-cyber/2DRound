@@ -1,0 +1,19 @@
+package cz.msebera.android.httpclient.client;
+
+import cz.msebera.android.httpclient.annotation.Immutable;
+
+@Immutable
+/* loaded from: /Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/apk-extracted/classes.dex */
+public class HttpResponseException extends ClientProtocolException {
+    private static final long serialVersionUID = -7186627969477257933L;
+    private final int statusCode;
+
+    public HttpResponseException(int statusCode, String s) {
+        super(s);
+        this.statusCode = statusCode;
+    }
+
+    public int getStatusCode() {
+        return this.statusCode;
+    }
+}

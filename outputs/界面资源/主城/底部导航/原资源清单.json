@@ -1,0 +1,86 @@
+[
+  {
+    "file": "共用原资源/SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb",
+    "logical_path": "SI4YKjtXKGfkpPZhfeZcJEE6b4gGZbox/mainui/mainui_view.csb",
+    "original_file": "outputs/apk-extracted/assets/HASH/5/55588DD081BA8E99.csb",
+    "sha256": "2238a1966642c5b2aff6496746dca9654c3888ee508eb48caf569dc31e63b136",
+    "bytes": 36676
+  },
+  {
+    "file": "共用原资源/resource/mainui/mainui.plist",
+    "logical_path": "resource/mainui/mainui.plist",
+    "original_file": "outputs/apk-extracted/assets/HASH/8/8417B8AD5F4C2F40.plist",
+    "sha256": "d13332e4497172a0360e23d3c3a499e7e44e8cc75021e6e82a3a12e302d1f95b",
+    "bytes": 44874
+  },
+  {
+    "file": "共用原资源/resource/common/common.plist",
+    "logical_path": "resource/common/common.plist",
+    "original_file": "outputs/apk-extracted/assets/HASH/A/AC4DDFACAF618118.plist",
+    "sha256": "558007cffdf4bc6685ef65f9ea254fb9ee30d6c772efe1ba765163e705612005",
+    "bytes": 130832
+  },
+  {
+    "file": "共用原资源/fonts/mini.ttf",
+    "logical_path": "fonts/mini.ttf",
+    "original_file": "outputs/apk-extracted/assets/HASH/9/9AA9297BB02E30D4.ttf",
+    "sha256": "7f680346a281b079095d8a25077201f510842617589e4c6dd85cfa614e512869",
+    "bytes": 8012356
+  },
+  {
+    "file": "共用原资源/resource/item/2.png",
+    "logical_path": "resource/item/2.png",
+    "original_file": "outputs/apk-extracted/assets/HASH/4/493C04BD3EC75FFB.png",
+    "sha256": "9d691f241ff1eaef76d939aab6c05a9a65f5162d732c05780e5981f2ec0196f9",
+    "bytes": 4114
+  },
+  {
+    "file": "共用原资源/resource/item/3.png",
+    "logical_path": "resource/item/3.png",
+    "original_file": "outputs/apk-extracted/assets/HASH/7/7A18FA19AEF80D27.png",
+    "sha256": "638decf5021d84a9212e34e9863fc3a89d42544dda15d7677f4e2a601f8f5653",
+    "bytes": 3538
+  },
+  {
+    "file": "共用原资源/resource/item/41.png",
+    "logical_path": "resource/item/41.png",
+    "original_file": "outputs/apk-extracted/assets/HASH/9/993B1BA140E723DD.png",
+    "sha256": "9ede466d3f37cf6540fff1b5a32f1de95481098b169297082b7c7485b3471832",
+    "bytes": 3246
+  },
+  {
+    "file": "共用原资源/resource/mainui/mainui.png",
+    "logical_path": "resource/mainui/mainui.png",
+    "original_file": "outputs/apk-extracted/assets/HASH/C/C1C0B3151C790BA7.png",
+    "sha256": "21679f7d688cb336b0e09d620c9d35726145848d03af1917a177f507bd0a0d81",
+    "bytes": 171014
+  },
+  {
+    "file": "共用原资源/resource/common/common.png",
+    "logical_path": "resource/common/common.png",
+    "original_file": "outputs/apk-extracted/assets/HASH/4/457F310E570B4D9E.png",
+    "sha256": "e1ec1ebaf8e432dcf1afc7f0b1ba2f629aa873bd003762cc4cbef3d3f2f7914c",
+    "bytes": 1173798
+  },
+  {
+    "file": "04_中央草帽骷髅/原动画/action.skel",
+    "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.skel",
+    "original_file": "outputs/apk-extracted/assets/HASH/3/3C9AA8B61D96FE27.skel",
+    "sha256": "388011820a92e97a4205d2d970f768eccdb36e2573e3da3ebff8dca8a5967a7c",
+    "bytes": 3855
+  },
+  {
+    "file": "04_中央草帽骷髅/原动画/action.atlas",
+    "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.atlas",
+    "original_file": "outputs/apk-extracted/assets/HASH/D/DBB6632517A82B87.atlas",
+    "sha256": "151803f1ace02bfdfa205953f8e170cc4074bdca7f37e4864d36b59c8963de15",
+    "bytes": 811
+  },
+  {
+    "file": "04_中央草帽骷髅/原动画/action.png",
+    "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/E51130/action.png",
+    "original_file": "outputs/apk-extracted/assets/HASH/A/A2DE96F001518BD3.png",
+    "sha256": "25b551d1cefa1cee06ae8f65d340d4f0e467fcad0efcc2e8ad9295626d7a46f1",
+    "bytes": 10734
+  }
+]

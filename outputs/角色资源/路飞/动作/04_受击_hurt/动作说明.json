@@ -1,0 +1,31 @@
+{
+  "action_file": "hurt",
+  "folder": "outputs/角色资源/路飞/动作/04_受击_hurt",
+  "animation_names_from_config": [
+    "hurt"
+  ],
+  "device_verified_animation_names": [
+    "hurt"
+  ],
+  "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+  "assets": [
+    {
+      "file": "hurt.skel",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.skel",
+      "original_file": "outputs/apk-extracted/assets/HASH/E/E90B7F02F753BA70.skel",
+      "sha256": "9112354f7ab9757e795257d6878ca86c45cc764b94f504f5e5eafa0b310bcd0a"
+    },
+    {
+      "file": "hurt.atlas",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.atlas",
+      "original_file": "outputs/apk-extracted/assets/HASH/D/DAADFC564ADDB504.atlas",
+      "sha256": "04c92cdd1e8097a911bc6014bc9b5dbfdddb739bd74f58fa48444c99ae21e378"
+    },
+    {
+      "file": "hurt.png",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/hurt.png",
+      "original_file": "outputs/apk-extracted/assets/HASH/6/67260D390AB0288C.png",
+      "sha256": "e575c18830716823186a2ba308c3fb7563313cd55de53ec497b67db52ed3041d"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "action_file": "action1",
+  "folder": "outputs/角色资源/路飞/动作/02_普攻_action1",
+  "animation_names_from_config": [
+    "action1"
+  ],
+  "device_verified_animation_names": [
+    "action1"
+  ],
+  "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+  "assets": [
+    {
+      "file": "action1.skel",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.skel",
+      "original_file": "outputs/apk-extracted/assets/HASH/B/B51719F801082960.skel",
+      "sha256": "97525be80e7c342f0b20d52c34cff6b8b9a9b2681cbc55f9bfcfc9934d7c354d"
+    },
+    {
+      "file": "action1.atlas",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.atlas",
+      "original_file": "outputs/apk-extracted/assets/HASH/D/DDD4DFD1DECD3692.atlas",
+      "sha256": "a17009583c733a345d40efb17b597a808abcc0dd7bc98c2fc294de6822d66efd"
+    },
+    {
+      "file": "action1.png",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/action1.png",
+      "original_file": "outputs/apk-extracted/assets/HASH/3/357F67757C4BCB3D.png",
+      "sha256": "f24053ced4218dfe46850e6664e7f03fe7354664b99d5edd250d7ea20d750b8b"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "stage": "drama entry and return v1",
+  "device": {
+    "model": "vivo V2405A",
+    "serial": "10AF5J1JP1004SU"
+  },
+  "apk_sha256": "1b9c362a4003221e56dd2554efc3158b9ff14450a257fee927e7329ef081fabd",
+  "screenshot_sha256": "282713b4cd746004b58e86ca17219745310ab0b69345c886dde64b338a2ae5b1",
+  "cycle_log_sha256": "06d77a633c9ef20ef7968feeec854170727045df9a51c354b1265586856d3569",
+  "clean_cycle": {
+    "entered_drama": 5,
+    "returned_main_city": 5,
+    "nav_tap_4": 5,
+    "nav_tap_1": 5,
+    "lua_or_ui_errors": 0
+  },
+  "resource": {
+    "map_id": 10008,
+    "dun_id": 10010,
+    "next_id": 10020
+  },
+  "layering": {
+    "background_z": 1,
+    "battle_button_list_z": 5,
+    "mainui_bottom_nav_z": 10
+  },
+  "limitations": [
+    "top info bar omitted",
+    "challenge does not enter battle",
+    "chapter map popup not implemented",
+    "no reward or progression writes"
+  ]
+}

@@ -1,0 +1,1187 @@
+[
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/battle_controller.lua",
+    "protocols": [
+      [
+        "20027",
+        "scInitFightStart"
+      ],
+      [
+        "20002",
+        "scRoundFightStart"
+      ],
+      [
+        "20004",
+        "scUseSkillData"
+      ],
+      [
+        "20006",
+        "scFightEnd"
+      ],
+      [
+        "20008",
+        "scFightExit"
+      ],
+      [
+        "20009",
+        "scSkipFirstTeam"
+      ],
+      [
+        "20013",
+        "scReBattleFight"
+      ],
+      [
+        "20014",
+        "scBattlePk"
+      ],
+      [
+        "20015",
+        "scBattlePkRe"
+      ],
+      [
+        "20016",
+        "scBattlePkTwice"
+      ],
+      [
+        "20020",
+        "scRoundNextFight"
+      ],
+      [
+        "20022",
+        "scFightSpeed"
+      ],
+      [
+        "20033",
+        "handle20033"
+      ],
+      [
+        "20034",
+        "handle20034"
+      ],
+      [
+        "20036",
+        "handle20036"
+      ],
+      [
+        "20060",
+        "handle20060"
+      ],
+      [
+        "20061",
+        "handle20061"
+      ],
+      [
+        "20062",
+        "handle20062"
+      ],
+      [
+        "10957",
+        "handle10957"
+      ]
+    ],
+    "layouts": []
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_pk_result_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_pk_result_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_result_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_result_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_buff_list_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_buff_list_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_harm_info_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_harm_info_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_camp_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_camp_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_fail_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_fail_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_mvp_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_mvp_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_result_showinfo_window.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_result_showinfo"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle/new_view/battle_buff_info_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battle/battle_buff_info_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/guide/guide_controller.lua",
+    "protocols": [
+      [
+        "11120",
+        "handle_11120"
+      ],
+      [
+        "11121",
+        "handle_11121"
+      ],
+      [
+        "11123",
+        "handle_11123"
+      ]
+    ],
+    "layouts": []
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/battle_drama_controller.lua",
+    "protocols": [
+      [
+        "13000",
+        "handle13000"
+      ],
+      [
+        "13001",
+        "handle13001"
+      ],
+      [
+        "13002",
+        "handle13002"
+      ],
+      [
+        "13003",
+        "handle13003"
+      ],
+      [
+        "13004",
+        "handle13004"
+      ],
+      [
+        "13005",
+        "handle13005"
+      ],
+      [
+        "13006",
+        "handle13006"
+      ],
+      [
+        "13007",
+        "handle13007"
+      ],
+      [
+        "13008",
+        "handle13008"
+      ],
+      [
+        "13009",
+        "handle13009"
+      ],
+      [
+        "13010",
+        "handle13010"
+      ],
+      [
+        "13011",
+        "handle13011"
+      ],
+      [
+        "13015",
+        "handle13015"
+      ],
+      [
+        "13016",
+        "handle13016"
+      ],
+      [
+        "13017",
+        "handle13017"
+      ],
+      [
+        "13018",
+        "handle13018"
+      ],
+      [
+        "13019",
+        "handle13019"
+      ],
+      [
+        "13020",
+        "handle13020"
+      ]
+    ],
+    "layouts": []
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_auto_combat_windows.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_auto_combat"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_vedio_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_vedio_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_boos_info_window.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_darma_boos_info_windows"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_hook_reward_window.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_hook_reward_windows"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_world_lev_tips.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_world_lev_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_swap_reward_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_swap_reward_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_map_windows.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_map_windows"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_drop_windows.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_drop_windows"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_qingbao_tips_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_qingbao_tips_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_unlock_chapter_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_unlock_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_quick_battle_window.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_quick_battle_windows"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_world_windows.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_world_windows"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_unlock_window.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_unlock_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_func_windows.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_open_func_view"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/battle_drama/view/battle_drama_reward_view.lua",
+    "protocols": [],
+    "layouts": [
+      "battledrama/battle_drama_reward_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/hero_controller.lua",
+    "protocols": [
+      [
+        "11000",
+        "handle11000"
+      ],
+      [
+        "11025",
+        "handle11025"
+      ],
+      [
+        "11026",
+        "handle11026"
+      ],
+      [
+        "11001",
+        "handle11001"
+      ],
+      [
+        "11002",
+        "handle11002"
+      ],
+      [
+        "11007",
+        "handle11007"
+      ],
+      [
+        "11003",
+        "handle11003"
+      ],
+      [
+        "11004",
+        "handle11004"
+      ],
+      [
+        "11005",
+        "handle11005"
+      ],
+      [
+        "11006",
+        "handle11006"
+      ],
+      [
+        "11018",
+        "handle11018"
+      ],
+      [
+        "11009",
+        "handle11009"
+      ],
+      [
+        "11016",
+        "handle11016"
+      ],
+      [
+        "11017",
+        "handle11017"
+      ],
+      [
+        "11010",
+        "handle11010"
+      ],
+      [
+        "11011",
+        "handle11011"
+      ],
+      [
+        "11012",
+        "handle11012"
+      ],
+      [
+        "11015",
+        "handle11015"
+      ],
+      [
+        "11055",
+        "handle11055"
+      ],
+      [
+        "11056",
+        "handle11056"
+      ],
+      [
+        "11211",
+        "handle11211"
+      ],
+      [
+        "11212",
+        "handle11212"
+      ],
+      [
+        "11213",
+        "handle11213"
+      ],
+      [
+        "11030",
+        "handle11030"
+      ],
+      [
+        "11031",
+        "handle11031"
+      ],
+      [
+        "11032",
+        "handle11032"
+      ],
+      [
+        "11033",
+        "handle11033"
+      ],
+      [
+        "11034",
+        "handle11034"
+      ],
+      [
+        "11035",
+        "handle11035"
+      ],
+      [
+        "11036",
+        "handle11036"
+      ],
+      [
+        "11039",
+        "handle11039"
+      ],
+      [
+        "11037",
+        "handle11037"
+      ],
+      [
+        "11038",
+        "handle11038"
+      ],
+      [
+        "11048",
+        "handle11048"
+      ],
+      [
+        "11040",
+        "handle11040"
+      ],
+      [
+        "11060",
+        "handle11060"
+      ],
+      [
+        "11063",
+        "handle11063"
+      ],
+      [
+        "11021",
+        "handle11021"
+      ],
+      [
+        "11075",
+        "handle11075"
+      ],
+      [
+        "11087",
+        "handle11087"
+      ],
+      [
+        "11076",
+        "handle11076"
+      ],
+      [
+        "11096",
+        "handle11096"
+      ],
+      [
+        "11097",
+        "handle11097"
+      ],
+      [
+        "11098",
+        "handle11098"
+      ],
+      [
+        "11099",
+        "handle11099"
+      ],
+      [
+        "11090",
+        "handle11090"
+      ],
+      [
+        "11091",
+        "handle11091"
+      ],
+      [
+        "11092",
+        "handle11092"
+      ],
+      [
+        "11093",
+        "handle11093"
+      ],
+      [
+        "11094",
+        "handle11094"
+      ],
+      [
+        "11088",
+        "handle11088"
+      ],
+      [
+        "11089",
+        "handle11089"
+      ],
+      [
+        "11086",
+        "handle11086"
+      ],
+      [
+        "25220",
+        "handle25220"
+      ],
+      [
+        "25221",
+        "handle25221"
+      ],
+      [
+        "25223",
+        "handle25223"
+      ],
+      [
+        "25224",
+        "handle25224"
+      ],
+      [
+        "11019",
+        "handle11019"
+      ],
+      [
+        "11020",
+        "handle11020"
+      ],
+      [
+        "11402",
+        "handle11402"
+      ],
+      [
+        "11403",
+        "handle11403"
+      ],
+      [
+        "11404",
+        "handle11404"
+      ],
+      [
+        "11405",
+        "handle11405"
+      ],
+      [
+        "26400",
+        "handle26400"
+      ],
+      [
+        "26401",
+        "handle26401"
+      ],
+      [
+        "26402",
+        "handle26402"
+      ],
+      [
+        "26410",
+        "handle26410"
+      ],
+      [
+        "26411",
+        "handle26411"
+      ],
+      [
+        "26412",
+        "handle26412"
+      ],
+      [
+        "26413",
+        "handle26413"
+      ],
+      [
+        "26414",
+        "handle26414"
+      ],
+      [
+        "26420",
+        "handle26420"
+      ],
+      [
+        "26421",
+        "handle26421"
+      ],
+      [
+        "26422",
+        "handle26422"
+      ],
+      [
+        "26423",
+        "handle26423"
+      ],
+      [
+        "26424",
+        "handle26424"
+      ],
+      [
+        "26425",
+        "handle26425"
+      ],
+      [
+        "26426",
+        "handle26426"
+      ],
+      [
+        "26427",
+        "handle26427"
+      ],
+      [
+        "26428",
+        "handle26428"
+      ],
+      [
+        "26429",
+        "handle26429"
+      ],
+      [
+        "26430",
+        "handle26430"
+      ],
+      [
+        "26431",
+        "handle26431"
+      ],
+      [
+        "26432",
+        "handle26432"
+      ],
+      [
+        "11065",
+        "handle11065"
+      ],
+      [
+        "11066",
+        "handle11066"
+      ],
+      [
+        "11067",
+        "handle11067"
+      ],
+      [
+        "11068",
+        "handle11068"
+      ],
+      [
+        "11401",
+        "handle11401"
+      ]
+    ],
+    "layouts": []
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_tips_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_tips_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_break_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_break_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_skin_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_skin_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_skin_upgrade_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_skin_upgrade_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_upgrade_star_up_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_upgrade_star_up_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_library_info_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_library_info_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_skin_tips_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_skin_tips_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_resonate_extract_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_resonate_extract_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_draw_main_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_draw_main_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_talent_skill_level_up_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_talent_skill_level_up_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_reset_return_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_reset_return_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_resonate_select_exp_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_resonate_select_exp_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_main_info_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_main_info_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_upgrade_star_tips_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_upgrade_star_tips_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_upgrade_star_select_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_upgrade_star_select_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_skin_upgrade_window2.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_skin_upgrade_window2"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_skin_upgrade_preview_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_skin_upgrade_preview_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_resonate_put_down_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_resonate_put_down_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_library_main_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_library_main_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_reset_comfirm_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_reset_comfirm_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_reset_horcrux_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_reset_comfirm_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_reset_offer_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_reset_offer_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_talent_skill_learn_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_talent_skill_learn_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_upgrade_starorder_exhibition.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_exhibition_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_resonate_comfirm_lev_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_resonate_comfirm_lev_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_library_story_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_library_story_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_share_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_share_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_resonate_select_talent_skill_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_resonate_select_talent_skill_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_resonate_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_resonate_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_upgrade_star_exhibition_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_upgrade_star_exhibition_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_select_hero_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_select_hero_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_bag_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_bag_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_break_exhibition_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_exhibition_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_reset_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_reset_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_tips_attr_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_tips_attr_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_special_break_window.lua",
+    "protocols": [],
+    "layouts": [
+      "backpack/backpack_sell_equip"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_resonate_put_result_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_resonate_put_result_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_chips_break_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_reset_chip_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/hero_look_draw_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_look_draw_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/holyequipment_plan_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_holy_equip_plan_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/hero_holy_equip_cloth_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_holy_equip_cloth_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/holyequipment_choose_tips.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_holy_choose_plan_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/holyequipment_wear_tips.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_holy_wear_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/holyequipment_save_tips.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_holy_save_plan_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/holyequipment_refresh_att_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/holyequipment_refresh_att_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/holyequipment_total_attr_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/holyequipment_total_attr_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/holyequipment/hero_clothes_lustrat_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/hero_clothes_lustrat_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/form/form_filter_hero_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/form_filter_hero_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/form/form_go_fight_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/form_go_fight_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/form/form_hallows_select_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/form_hallows_select_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/form/formation_select_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/formation_select_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/horcrux/horcrux_activate_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/horcrux_activate_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/horcrux/horcrux_strengthen_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/horcrux_strengthen_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/horcrux/horcrux_tips.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/horcrux_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/skill/skill_unlock_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/skill_unlock"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/equip/equip_tips.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/equip_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/artifact/artifact_recast_cost_panel.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/artifact_recast_cost_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/artifact/artifact_role_title_tips_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/artifact_com_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/artifact/holy_eqm_chose_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/holy_eqm_chose_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/artifact/artifact_tips_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/artifact_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/artifact/artifact_chose_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/artifact_chose_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/artifact/artifact_secast_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/artifact_recast_panel"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/hero/view/artifact/artifact_com_tips_window.lua",
+    "protocols": [],
+    "layouts": [
+      "hero/artifact_com_tips"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/partnersummon/partnersummon_controller.lua",
+    "protocols": [
+      [
+        "23203",
+        "handle23203"
+      ],
+      [
+        "23204",
+        "handle23204"
+      ],
+      [
+        "11095",
+        "handle11095"
+      ],
+      [
+        "23212",
+        "handle23212"
+      ]
+    ],
+    "layouts": []
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/partnersummon/view/partnersummon_score_window.lua",
+    "protocols": [],
+    "layouts": [
+      "partnersummon/partnersummon_sore_window"
+    ]
+  },
+  {
+    "file": "/Users/mountainwalkeralliance/Documents/Codex/2026-10-11/ba/outputs/lua-restored-paths/0zWHhlnBORyiROK6lvI6VBn6vAbJRQqS/partnersummon/view/partnersummon_window.lua",
+    "protocols": [],
+    "layouts": [
+      "partnersummon/partnersummon_window"
+    ]
+  }
+]

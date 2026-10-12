@@ -1,0 +1,19 @@
+{
+  "apk_sha256": "4bb362cfa8b23f734984bd28cc0e62270e3ecd9490b47dfa7d45c0d4a9260be6",
+  "expected_sequences": {
+    "520001": [
+      "action1/action1"
+    ],
+    "520101": [
+      "action2/action1",
+      "action2/action2",
+      "action2/action3",
+      "action2/action4",
+      "action2/action5"
+    ],
+    "520301": [
+      "action9/action9"
+    ]
+  },
+  "status": "waiting_for_device_install"
+}

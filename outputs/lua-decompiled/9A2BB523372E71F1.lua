@@ -1,0 +1,1 @@
+-- Empty chunk verified by LuaJIT: the only original instruction is RET0.

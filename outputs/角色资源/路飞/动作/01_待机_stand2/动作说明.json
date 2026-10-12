@@ -1,0 +1,31 @@
+{
+  "action_file": "stand2",
+  "folder": "outputs/角色资源/路飞/动作/01_待机_stand2",
+  "animation_names_from_config": [
+    "stand2"
+  ],
+  "device_verified_animation_names": [
+    "stand2"
+  ],
+  "verification_note": "Device preview verified only the named loop, not complete skill timing.",
+  "assets": [
+    {
+      "file": "stand2.skel",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.skel",
+      "original_file": "outputs/apk-extracted/assets/HASH/9/99EE59A1C1C19694.skel",
+      "sha256": "d31499403f294d28e60833258033189cc002641bab70db352fe36a287cca8d15"
+    },
+    {
+      "file": "stand2.atlas",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.atlas",
+      "original_file": "outputs/apk-extracted/assets/HASH/8/88565BD1DCE7CDFA.atlas",
+      "sha256": "6f0d84f8a8b0861d959b734a095e30062dbdbf331ac7feec157c8f9b3c3203d4"
+    },
+    {
+      "file": "stand2.png",
+      "logical_path": "v9o8qm1Y40cbOAlh6LDp0kMDi5CzXlsO/H30104/stand2.png",
+      "original_file": "outputs/apk-extracted/assets/HASH/6/61A90643EAAD47CB.png",
+      "sha256": "2a735aad21fc11c4cfadcb79e4117a9ddd65fb17114a52d298d4167899c190a3"
+    }
+  ]
+}

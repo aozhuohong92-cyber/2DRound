@@ -1,0 +1,44 @@
+# Local tooling, environments and caches
+work/
+.venv/
+venv/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+
+# Editor/build caches
+NewProject/library/
+NewProject/temp/
+outputs/cocos-mcp-workbench/library/
+outputs/cocos-mcp-workbench/temp/
+
+# Extracted original package and build outputs
+outputs/apk-extracted/
+*.apk
+*.aab
+*.ipa
+*.idsig
+*.apks
+
+# Native libraries, executables and embedded runtimes
+*.so
+*.dylib
+*.dll
+*.exe
+*.jar
+*.metallib
+*.safetensors
+
+# Large generated archives and recordings
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.mp4
+*.mov
+*.avi
+
+# Logs are reproducible verification output
+*.log

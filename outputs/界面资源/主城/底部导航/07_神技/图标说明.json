@@ -1,0 +1,38 @@
+{
+  "slot": 7,
+  "name": "神技",
+  "node": "bottom_container/mainui_tab_7",
+  "position": {
+    "x": 670,
+    "y": 66
+  },
+  "source": "Original mainui_view.csb; positions retained unchanged.",
+  "shared_assets": "../共用原资源/",
+  "status": "真机外观已确认；不代表页面功能已实现",
+  "icon_frame": "txt_cn_mainui_2007.png",
+  "frame_metadata": {
+    "txt_cn_mainui_2007.png": {
+      "frame": "{{917,71},{100,101}}",
+      "offset": "{0,0}",
+      "rotated": true,
+      "sourceColorRect": "{{0,0},{100,101}}",
+      "sourceSize": "{100,101}"
+    },
+    "mainui_1022.png": {
+      "frame": "{{573,330},{76,43}}",
+      "offset": "{0,0}",
+      "rotated": false,
+      "sourceColorRect": "{{0,0},{76,43}}",
+      "sourceSize": "{76,43}"
+    },
+    "mainui_1023.png": {
+      "frame": "{{811,277},{76,43}}",
+      "offset": "{0,0}",
+      "rotated": false,
+      "sourceColorRect": "{{0,0},{76,43}}",
+      "sourceSize": "{76,43}"
+    }
+  },
+  "normal_frame": "mainui_1022.png",
+  "selected_frame": "mainui_1023.png"
+}

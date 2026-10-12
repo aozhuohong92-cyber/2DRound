@@ -1,0 +1,32 @@
+{
+  "apk_sha256": "57c691cd6f644420bcc31ecadfcac57f2de162b7ff4ea388f1e1240627e6a677",
+  "counts": {
+    ".arsc": 1,
+    ".xml": 69,
+    ".dex": 1,
+    ".png": 9933,
+    ".properties": 1,
+    ".MF": 1,
+    ".RSA": 1,
+    ".SF": 1,
+    ".so": 3,
+    ".json": 122,
+    ".atlas": 3603,
+    ".mp3": 428,
+    ".skel": 3603,
+    ".plist": 220,
+    ".luac": 2146,
+    ".csb": 1105,
+    ".jpg": 347,
+    ".ttf": 2,
+    ".db": 13,
+    ".fsh": 6,
+    ".xsdf": 2,
+    ".bmp": 2,
+    ".spine": 2,
+    ".ini": 1,
+    ".xsdb": 2,
+    ".xsxproj": 2,
+    ".mp4": 1
+  }
+}
