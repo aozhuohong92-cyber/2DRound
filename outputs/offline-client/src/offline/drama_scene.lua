@@ -1,10 +1,19 @@
 local R = require('offline.resources')
 local DR = require('offline.drama_resources')
-local Fixture = require('offline.drama_fixture')
+local DefaultFixture = require('offline.drama_fixture')
 local Preview = require('offline.drama_preview')
 local Challenge = require('offline.drama_challenge')
+local Reference = require('offline.drama_reference')
+local ReferenceView = require('offline.drama_reference_view')
+local Replay = require('offline.drama_replay')
+local Record = require('offline.drama_record')
+local BattleView = require('offline.drama_battle_view')
 
 local M = {}
+
+-- Set per attach(): the stage shown, and whether the reference-screenshot layout is on.
+local Fixture = DefaultFixture
+local reference_mode = false
 
 local function find_node(root, name)
     if not root then
@@ -62,9 +71,9 @@ end
 
 local function add_preview_banner(canvas, size, trace)
     local text = Preview.banner_text()
-    local label = cc.Label:createWithSystemFont(text, 'sans-serif', 22)
+    local label = cc.Label:createWithSystemFont(text, 'sans-serif', reference_mode and 18 or 22)
     label:setName('drama_preview_banner')
-    label:setPosition(size.width / 2, size.height - 96)
+    label:setPosition(size.width / 2, reference_mode and size.height - 30 or size.height - 96)
     canvas:addChild(label, 20)
     trace('DRAMA_PREVIEW_BANNER text=' .. text)
     return label
@@ -95,6 +104,7 @@ local function add_notice(canvas, size, trace)
 end
 
 local function add_unavailable_region(canvas, size, panel, trace)
+    if reference_mode then return end
     local strip = cc.LayerColor:create({r = 25, g = 39, b = 30, a = 190}, size.width - 64, 58)
     strip:setPosition(32, 180)
     canvas:addChild(strip, 6)
@@ -107,7 +117,8 @@ local function add_unavailable_region(canvas, size, panel, trace)
 end
 
 local function apply_preview_state(panel, trace)
-    for _, name in ipairs(Preview.hidden_nodes) do
+    local hidden = reference_mode and Preview.reference_hidden_nodes or Preview.hidden_nodes
+    for _, name in ipairs(hidden) do
         local node = find_node(panel, name)
         if node then
             node:setVisible(false)
@@ -118,12 +129,12 @@ local function apply_preview_state(panel, trace)
     local title = find_node(panel, 'title_pass')
     if title and title.setString then
         title:setString(Preview.title(Fixture))
-        title:setVisible(false)
+        title:setVisible(reference_mode)
         trace('DRAMA_PREVIEW_TITLE ' .. Preview.title(Fixture))
     end
 end
 
-local function add_button_list(canvas, size, bottom_height, trace, notice, session, refresh)
+local function add_button_list(canvas, size, bottom_height, trace, notice, session, refresh, begin_replay)
     local panel = R.node(DR.button_list)
     panel:setName('drama_button_list')
     panel:setAnchorPoint(0.5, 0)
@@ -161,6 +172,9 @@ local function add_button_list(canvas, size, bottom_height, trace, notice, sessi
         local request, status = session:request(Fixture.dun_id)
         trace('DRAMA_GATE ' .. status .. ' created=' .. tostring(request ~= nil))
         notice:show(Challenge.messages[status])
+        if request then
+            begin_replay()
+        end
         refresh()
     end
     if challenge and challenge.setTouchEnabled and challenge.addTouchEventListener then
@@ -216,17 +230,61 @@ end
 
 function M.attach(canvas, size, trace, options)
     options = options or {}
+    reference_mode = options.reference == true
+    Fixture = options.stage or DefaultFixture
     DR.load(trace)
     local world, geometry = add_background(canvas, size, trace)
     add_preview_banner(canvas, size, trace)
     local notice = add_notice(canvas, size, trace)
-    local session = Challenge.new(options.state_snapshot)
+    local session = Challenge.new(options.state_snapshot, {unlocked = Fixture.dun_id})
+    local record_path = options.record_path
+        or (cc.FileUtils:getInstance():getWritablePath() .. 'drama-replay-test')
+    local records = Record.new(record_path)
+    local replay = Replay.new(function(entry)
+        local ok, err = records:append(entry)
+        trace('DRAMA_REPLAY_RECORD ' .. entry.outcome .. ' run=' .. entry.run_id .. ' ok=' .. tostring(ok ~= nil and ok ~= false))
+        return ok and true or nil, err
+    end)
+    local view = BattleView.new(canvas, size, trace,
+        {base_y = reference_mode and (size.height - 1130 * 0.8) or nil})
+    local result_label = cc.Label:createWithSystemFont('', 'sans-serif', 21)
+    result_label:setName('drama_replay_result')
+    result_label:setPosition(size.width / 2, 440)
+    canvas:addChild(result_label, 7)
+    local refresh
+    local function conclude(record)
+        if not record then return end
+        session:cancel()
+        result_label:setString(Replay.summary(record))
+        trace('DRAMA_REPLAY_' .. record.outcome:upper() .. ' run=' .. record.run_id)
+        refresh()
+    end
+    local function begin_replay()
+        local run, why = replay:start(Fixture.dun_id)
+        if not run then
+            trace('DRAMA_REPLAY_REJECTED ' .. tostring(why))
+            return
+        end
+        result_label:setString('固定演出进行中 · 我方为测试角色路飞，敌方为占位')
+        trace('DRAMA_REPLAY_START run=' .. run)
+        local ok, err = view:play(function() conclude(replay:finish(run)) end,
+                                  function(e) conclude(replay:fail(run, e)) end)
+        if not ok then conclude(replay:fail(run, err)) end
+    end
+    local function stop_replay()
+        view:stop()
+        conclude(replay:cancel())
+    end
+    local debug = cc.Node:create()
+    debug:setName('drama_debug_controls')
+    debug:setVisible(not reference_mode)
+    canvas:addChild(debug, 7)
     local state_label = cc.Label:createWithSystemFont('', 'sans-serif', 21)
     state_label:setPosition(size.width / 2, 385)
-    canvas:addChild(state_label, 7)
-    local function refresh()
+    debug:addChild(state_label, 7)
+    refresh = function()
         local status = session:status(Fixture.dun_id)
-        local names = {empty='队伍为空', ready='可检查挑战入口', busy='入口已就绪', unavailable='存档不可用', level='等级不足'}
+        local names = {empty='队伍为空', ready='可检查挑战入口', busy=replay:playing() and '演出进行中' or '入口已就绪', unavailable='存档不可用', level='等级不足'}
         state_label:setString('首关已开放（独立预览） · ' .. (names[status] or status))
     end
     local function control(text, x, y, width, action)
@@ -234,11 +292,12 @@ function M.attach(canvas, size, trace, options)
         b:ignoreContentAdaptWithSize(false)
         b:setContentSize({width=width, height=48})
         b:setTitleText(text); b:setTitleFontSize(22); b:setPosition(x,y)
-        b:addClickEventListener(action); canvas:addChild(b,7)
+        b:addClickEventListener(action); debug:addChild(b,7)
         return b
     end
     local team_button
     team_button = control('使用测试队伍', size.width/2-150, 325, 260, function()
+        stop_replay()
         session:set_test_team(not session.test_team)
         team_button:setTitleText(session.test_team and '取消测试队伍' or '使用测试队伍')
         trace('DRAMA_TEST_TEAM ' .. tostring(session.test_team))
@@ -251,14 +310,33 @@ function M.attach(canvas, size, trace, options)
         notice:show(Challenge.messages[status])
     end)
     control('取消入口准备', size.width/2, 270, 260, function()
-        session:cancel(); refresh(); notice:show('已取消入口准备')
+        session:cancel(); stop_replay(); refresh(); notice:show('已取消入口准备')
     end)
+    if reference_mode then
+        local toggle = ccui.Button:create()
+        toggle:setName('drama_debug_toggle')
+        toggle:ignoreContentAdaptWithSize(false)
+        toggle:setContentSize({width = 84, height = 44})
+        toggle:setTitleText('调试'); toggle:setTitleFontSize(20)
+        toggle:setPosition(50, size.height * 0.52)
+        toggle:addClickEventListener(function() debug:setVisible(not debug:isVisible()) end)
+        canvas:addChild(toggle, 8)
+    end
     canvas:registerScriptHandler(function(event)
-        if event == 'exit' then session:close(); trace('DRAMA_GATE_CLOSED') end
+        if event == 'exit' then
+            view:stop()
+            replay:close()
+            view:destroy()
+            session:close()
+            trace('DRAMA_GATE_CLOSED')
+        end
     end)
     refresh()
-    local panel = add_button_list(canvas, size, options.bottom_height or 108, trace, notice, session, refresh)
+    local panel = add_button_list(canvas, size, options.bottom_height or 108, trace, notice, session, refresh, begin_replay)
     add_unavailable_region(canvas, size, panel, trace)
+    if reference_mode then
+        ReferenceView.attach(canvas, size, Reference, trace)
+    end
     M.world = world
     M.button_list = panel
     M.preview_notice = notice

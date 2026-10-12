@@ -4,7 +4,7 @@
 local M = {}
 
 M.banner_title = '离线预览'
-M.banner_detail = '演出、奖励与进度尚未开放'
+M.banner_detail = '固定演出 · 奖励与进度尚未开放'
 M.challenge_text = '挑战BOSS'
 M.challenge_message = '离线预览：挑战尚未开放'
 M.region_title = '悬赏与奖励'
@@ -26,6 +26,16 @@ M.hidden_nodes = {
     'guidesign_battle_quick_btn',
     'encounter_btn',
     'next_battle_time',
+}
+
+-- Reference-screenshot mode: the panel shows title, description, detail, quick-hang,
+-- WANTED board and the timer like the original; only the controls with no offline
+-- implementation or no recoverable data stay hidden (item list and portrait are
+-- drawn as labelled placeholders by drama_reference_view).
+M.reference_hidden_nodes = {
+    'image_boss',
+    'item_scrollview',
+    'encounter_btn',
 }
 
 function M.title(fixture)

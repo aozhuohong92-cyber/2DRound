@@ -58,6 +58,36 @@ function M.attach(canvas, size, trace, options)
     local top = node:getChildByName('top_container')
     local bottom = node:getChildByName('bottom_container')
     if top then top:setVisible(options.hide_top ~= true) end
+    if top and options.top_values then
+        -- Display-only overrides (reference screenshot values); the save is untouched.
+        local function find(root, name)
+            if root:getName() == name then return root end
+            for _, child in ipairs(root:getChildren()) do
+                local hit = find(child, name)
+                if hit then return hit end
+            end
+        end
+        local v = options.top_values
+        local function set(name, value)
+            local n = find(top, name)
+            if n and n.setString then
+                n:setString(tostring(value))
+                trace('TOP_VALUE ' .. name .. '=' .. tostring(value))
+            else
+                trace('TOP_VALUE_MISSING ' .. name)
+            end
+        end
+        set('name_label', v.name); set('lev_label', v.level); set('fight_label', v.power)
+        for i, value in ipairs(v.wealth or {}) do set('wealth_label_' .. i, value) end
+        -- Activity/red-bag/prompt rows belong to the city screen, not the drama screen.
+        for _, name in ipairs({'icon_container', 'icon_container_1', 'icon_container_2', 'icon_container_3',
+                'icon_container_4', 'icon_container_5', 'prompt_container', 'red_bag_container',
+                'red_bag_container_2', 'red_bag_container_3', 'time_collect_container',
+                'vote_mergeServer_container', 'effect_container'}) do
+            local n = find(top, name)
+            if n then n:setVisible(false) end
+        end
+    end
     if options.show_map == false then
         -- City-only expand controls must not float over the drama preview.
         local city_controls = node:getChildByName('hide_container')

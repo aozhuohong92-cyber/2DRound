@@ -1,6 +1,6 @@
 {
   "stage": 1,
-  "core_tests": 17,
+  "core_tests": 26,
   "skill_test_groups": 5,
   "encoding_roundtrips": 21,
   "resources": 74,
@@ -11,10 +11,15 @@
     "offline.class",
     "offline.codec",
     "offline.device_checks",
+    "offline.drama_battle_view",
     "offline.drama_catalog",
     "offline.drama_challenge",
     "offline.drama_fixture",
     "offline.drama_preview",
+    "offline.drama_record",
+    "offline.drama_reference",
+    "offline.drama_reference_view",
+    "offline.drama_replay",
     "offline.drama_resources",
     "offline.drama_scene",
     "offline.events",
@@ -28,7 +33,7 @@
     "offline.store"
   ],
   "syntax": "PASS",
-  "apk_sha256": "3b4c45a2f2c518ae01f3189e8d70b3bf4b7c40f063d1edd89e3a6c73197d6c13",
+  "apk_sha256": "5ab92fb8f453c7b318d186aab5cb15331946e548d2c1bc37bdafa6bd1ee4b9d0",
   "audio_uncompressed": 5,
   "device_tested": false,
   "limitations": [

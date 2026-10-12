@@ -72,7 +72,8 @@ openDramaScene = function()
         local MainCity = require('offline.main_city')
         local _, bottom = MainCity.attach(canvas, size, trace, {
             show_map = false,
-            hide_top = true,
+            hide_top = false,
+            top_values = require('offline.drama_reference').top,
             on_nav = function(index)
                 if index == 1 then openMainCity() end
             end,
@@ -80,9 +81,11 @@ openDramaScene = function()
         require('offline.drama_scene').attach(canvas, size, trace, {
             bottom_height = bottom and bottom:getContentSize().height or 108,
             state_snapshot = drama_state_snapshot,
+            reference = true,
+            stage = require('offline.drama_reference').stage,
         })
         cc.Director:getInstance():replaceScene(scene)
-        trace('SCENE DRAMA_PREVIEW dun=' .. require('offline.drama_fixture').dun_id)
+        trace('SCENE DRAMA_PREVIEW dun=' .. require('offline.drama_reference').stage.dun_id)
     end)
 end
 
