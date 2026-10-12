@@ -28,7 +28,7 @@
     "offline.store"
   ],
   "syntax": "PASS",
-  "apk_sha256": "b0fad61572d7d3ea7f6c57f300bbaf94affee8e582777c83c292bd8399955e44",
+  "apk_sha256": "3b4c45a2f2c518ae01f3189e8d70b3bf4b7c40f063d1edd89e3a6c73197d6c13",
   "audio_uncompressed": 5,
   "device_tested": false,
   "limitations": [

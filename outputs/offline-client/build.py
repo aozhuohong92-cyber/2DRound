@@ -10,7 +10,7 @@ from zipcheck import assert_audio_uncompressed, is_audio
 ROOT=Path(__file__).resolve().parents[2];PROJ=Path(__file__).resolve().parent;BUILD=ROOT/'work/offline-build'
 SDK=Path.home()/'Library/Android/sdk';BT=SDK/'build-tools/35.0.1'
 def run(*args):subprocess.run([str(a) for a in args],check=True)
-if check_env.run(write=True)!=0:
+if check_env.run(write=False)!=0:
  sys.exit('build aborted: dependencies missing, see outputs/offline-client/依赖恢复清单.md (APK build waits for dependencies)')
 key=BUILD/'offline-debug.jks'
 if not key.exists() and '--new-keystore' not in sys.argv:

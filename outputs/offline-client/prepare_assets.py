@@ -1,6 +1,6 @@
 """Resolve original asset dependencies without copying or changing source assets."""
 from pathlib import Path, PurePosixPath
-import hashlib, json, os, plistlib, re, sys
+import hashlib, json, os, plistlib, re, subprocess, sys
 PROJ = Path(__file__).resolve().parent
 ROOT = PROJ.parents[1]
 APK_EXTRACTED = Path(os.environ.get('OFFLINE_APK_EXTRACTED', ROOT / 'outputs/apk-extracted'))
@@ -54,14 +54,28 @@ def _sha256_file(p):
             h.update(chunk)
     return h.hexdigest()
 
+def _manifest_resources():
+    """Expected sha256/bytes per resource. The committed (HEAD) manifest wins over the working
+    copy, which every prepare() run rewrites with whatever it found."""
+    out = {}
+    try:
+        out.update(json.loads((PROJ / 'asset-manifest.json').read_text())['resources'])
+    except (OSError, ValueError, KeyError):
+        pass
+    try:
+        r = subprocess.run(['git', 'show', 'HEAD:outputs/offline-client/asset-manifest.json'],
+                           cwd=ROOT, capture_output=True, timeout=10)
+        if r.returncode == 0:
+            out.update(json.loads(r.stdout)['resources'])
+    except (OSError, subprocess.SubprocessError, ValueError, KeyError):
+        pass
+    return out
+
 def _expected_sha(name):
     global _expected
     if _expected is None:
-        try:
-            _expected = {k: v['sha256'] for k, v in json.loads((PROJ / 'asset-manifest.json').read_text())['resources'].items()}
-        except (OSError, ValueError, KeyError):
-            _expected = {}
-    return _expected.get(name)
+        _expected = {k: (v.get('sha256'), v.get('bytes')) for k, v in _manifest_resources().items()}
+    return (_expected.get(name) or (None, None))[0]
 
 def _repo_fallback(name):
     """Return a repo-archived file whose SHA256 equals the recorded one, else None.
@@ -71,10 +85,12 @@ def _repo_fallback(name):
     if not expected:
         return None
     if _repo_index is None:
+        # Only files whose size matches some expected resource can possibly match; hash just those.
+        sizes = {b for _, b in _expected.values() if b is not None}
         _repo_index = {}
         for root in REPO_ROOTS:
             for f in sorted(root.rglob('*')) if root.is_dir() else []:
-                if f.is_file():
+                if f.is_file() and (not sizes or f.stat().st_size in sizes):
                     _repo_index.setdefault(_sha256_file(f), f)
     hit = _repo_index.get(expected)
     if hit:

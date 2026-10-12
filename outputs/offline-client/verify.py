@@ -18,12 +18,14 @@ def find_luajit():
             except (OSError, subprocess.SubprocessError):
                 pass
     return None
-LUA = find_luajit()
-
 def verify(apk=False):
+    LUA = find_luajit()
     if LUA is None:
         sys.exit('luajit not found (work/tools/LuaJIT-2.1 or PATH). Run: python3 outputs/offline-client/check_env.py')
-    resources = prepare()
+    try:
+        resources = prepare()
+    except FileNotFoundError as e:
+        sys.exit(f'dependency missing: {e}\nRun: python3 outputs/offline-client/check_env.py (acceptance waits for dependencies)')
     source, modules = bundle(PROJ, resources)
     BUILD.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='stage1-', dir=BUILD) as temp:
@@ -80,7 +82,4 @@ def verify(apk=False):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(); parser.add_argument('--apk', action='store_true')
-    try:
-        verify(parser.parse_args().apk)
-    except FileNotFoundError as e:
-        sys.exit(f'dependency missing: {e}\nRun: python3 outputs/offline-client/check_env.py (acceptance waits for dependencies)')
+    verify(parser.parse_args().apk)
