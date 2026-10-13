@@ -52,14 +52,16 @@ local function add_debug_buttons(canvas, size)
     button(canvas, '图集调试', size.width - 95, size.height - 32, openAtlasViewer, 200)
 end
 
-local openMainCity, openDramaScene
+local openMainCity, openDramaScene, openHeroScene
 local drama_state_snapshot
 
 openMainCity = function()
     return route:go('main_city', function()
         local scene, canvas, size = newScene()
         local MainCity = require('offline.main_city')
-        MainCity.attach(canvas, size, trace, {on_drama = openDramaScene})
+        MainCity.attach(canvas, size, trace, {on_drama = openDramaScene, on_nav = function(index)
+            if index == 2 then openHeroScene() end
+        end})
         add_debug_buttons(canvas, size)
         cc.Director:getInstance():replaceScene(scene)
         trace('SCENE MAIN_CITY')
@@ -75,7 +77,7 @@ openDramaScene = function()
             hide_top = false,
             top_values = require('offline.drama_reference').top,
             on_nav = function(index)
-                if index == 1 then openMainCity() end
+                if index == 1 then openMainCity() elseif index == 2 then openHeroScene() end
             end,
         })
         require('offline.drama_scene').attach(canvas, size, trace, {
@@ -86,6 +88,32 @@ openDramaScene = function()
         })
         cc.Director:getInstance():replaceScene(scene)
         trace('SCENE DRAMA_PREVIEW dun=' .. require('offline.drama_reference').stage.dun_id)
+    end)
+end
+
+openHeroScene = function()
+    return route:go('hero_scene', function()
+        local scene, canvas, size = newScene()
+        local MainCity = require('offline.main_city')
+        MainCity.attach(canvas, size, trace, {
+            show_map = false,
+            hide_top = false,
+            top_values = require('offline.drama_reference').top,
+            on_nav = function(index)
+                if index == 1 then openMainCity() end
+            end,
+            on_drama = openDramaScene,
+        })
+        -- Show the scene even if the hero page fails, with the reason on screen.
+        local ok, err = xpcall(function()
+            require('offline.hero_scene').attach(canvas, size, trace, {state_snapshot = drama_state_snapshot})
+        end, debug.traceback)
+        if not ok then
+            trace('HERO_SCENE_ERROR ' .. tostring(err))
+            label(canvas, '英雄页加载失败：' .. tostring(err):match('^[^\n]*'), size.height * 0.55, 18)
+        end
+        cc.Director:getInstance():replaceScene(scene)
+        trace('SCENE HERO_LIBRARY ok=' .. tostring(ok))
     end)
 end
 
@@ -124,7 +152,9 @@ local ok, err = xpcall(function()
     trace('ASSETS_OK')
     local city_ok, city_err = pcall(function()
         route:go('main_city', function()
-            require('offline.main_city').attach(canvas, size, trace, {on_drama = openDramaScene})
+            require('offline.main_city').attach(canvas, size, trace, {on_drama = openDramaScene, on_nav = function(index)
+                if index == 2 then openHeroScene() end
+            end})
         end)
     end)
     if not city_ok then trace('MAINCITY_ERROR ' .. tostring(city_err)); label(canvas, '主城 CSB 加载失败，详见 probe.txt', size.height - 100, 20) end

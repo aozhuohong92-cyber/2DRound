@@ -276,4 +276,41 @@ test('reference layout keeps unimplemented controls hidden', function()
     assert(hidden.encounter_btn and hidden.item_scrollview and hidden.image_boss)
     assert(not hidden.title_pass and not hidden.guildsign_battle_boss_btn and not hidden.detail_btn)
 end)
+
+local HeroLib = require('offline.hero_library')
+test('hero library lists camp 1 in reference order with level caps', function()
+    local list = HeroLib.list(1)
+    assert(#list == 27, 'camp 1 should have 27 heroes, got ' .. #list)
+    local bids, caps = {}, {}
+    for i = 1, 4 do bids[i] = list[i].bid; caps[i] = list[i].lev_limit end
+    assert(table.concat(bids, ',') == '10101,10201,10202,10301')
+    assert(table.concat(caps, ',') == '40,50,50,60')
+    for i = 2, #list do assert(list[i - 1].star <= list[i].star, 'stars must not decrease') end
+    local total = 0
+    for _, camp in ipairs(HeroLib.camps) do total = total + HeroLib.count(camp) end
+    assert(total == 174 and HeroLib.count(0) == 174)
+end)
+test('hero library owned state comes from the save snapshot and a preview sample', function()
+    local save = State.initial()
+    assert(next(HeroLib.owned_from_snapshot(save)) == nil)
+    save.name = '船长'; save.stage = 'battle'
+    save.heroes['20510'] = {bid = 20510, level = 1, copies = 1}
+    local before = Codec.encode(save)
+    local owned = HeroLib.owned_from_snapshot(save)
+    assert(owned[20510] == true and Codec.encode(save) == before)
+    local sample = HeroLib.sample_owned(1)
+    local n = 0 for _ in pairs(sample) do n = n + 1 end
+    assert(n == 4 and sample[HeroLib.list(1)[5].bid] and sample[HeroLib.list(1)[9].bid])
+    local entries = HeroLib.entries(1, HeroLib.merge(owned, sample))
+    assert(#entries == 27 and HeroLib.owned_count(entries) == 4, 'only camp-1 owned heroes are lit')
+    assert(not entries[1].owned and entries[5].owned and entries[6].owned and not entries[7].owned)
+end)
+test('hero library text and art flags mirror the config', function()
+    assert(HeroLib.info(20510).title == '草帽小子' and HeroLib.has_art(20510))
+    assert(HeroLib.info(30202) and not HeroLib.has_art(30202), 'entries without draw data have no art')
+    assert(HeroLib.info(99999999) == nil)
+    local implemented = 0
+    for _, t in ipairs(HeroLib.tabs) do if t.implemented then implemented = implemented + 1 end end
+    assert(implemented == 1 and HeroLib.tabs[2].id == 'library')
+end)
 print('TOTAL '..#results..' PASS')
