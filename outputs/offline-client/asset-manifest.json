@@ -440,6 +440,14 @@
       "sha256": "11a3c8863e0d0c9699281cda0b20503e1780522b099f7022b132a383b909f539",
       "dependencies": []
     },
+    "resource/item/3.png": {
+      "source": "outputs/apk-extracted/assets/HASH/7/7A18FA19AEF80D27.png",
+      "archive": "assets/HASH/7/7A18FA19AEF80D27.png",
+      "bytes": 3538,
+      "sha256": "638decf5021d84a9212e34e9863fc3a89d42544dda15d7677f4e2a601f8f5653",
+      "dependencies": [],
+      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/item/3.png"
+    },
     "resource/actionwhitedaymonster/actionwhitedaymonster.plist": {
       "source": "outputs/apk-extracted/assets/HASH/8/8C10DA73F3C03F4C.plist",
       "archive": "assets/HASH/8/8C10DA73F3C03F4C.plist",
@@ -545,14 +553,6 @@
       "sha256": "9d691f241ff1eaef76d939aab6c05a9a65f5162d732c05780e5981f2ec0196f9",
       "dependencies": [],
       "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/item/2.png"
-    },
-    "resource/item/3.png": {
-      "source": "outputs/apk-extracted/assets/HASH/7/7A18FA19AEF80D27.png",
-      "archive": "assets/HASH/7/7A18FA19AEF80D27.png",
-      "bytes": 3538,
-      "sha256": "638decf5021d84a9212e34e9863fc3a89d42544dda15d7677f4e2a601f8f5653",
-      "dependencies": [],
-      "fallback_from": "assets/ui/主城/底部导航/共用原资源/resource/item/3.png"
     },
     "resource/item/41.png": {
       "source": "outputs/apk-extracted/assets/HASH/9/993B1BA140E723DD.png",
