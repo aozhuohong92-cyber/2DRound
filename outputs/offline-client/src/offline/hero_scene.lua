@@ -181,7 +181,7 @@ function M.attach(canvas, size, trace, options)
             rings[entry.id] = box(parent, 66, 66, x, y, {255, 214, 90}, 2)
             button(parent, 66, 66, x, y, function() select(entry.id) end)
         end
-        label(parent, '阵营图标/名称未取证', size.width / 2, YT(740), 14, {140, 110, 80}, 4)
+        label(parent, '阵营图标缺资源（名称取自信念配置）', size.width / 2, YT(740), 14, {140, 110, 80}, 4)
         return select
     end
 
@@ -196,7 +196,7 @@ function M.attach(canvas, size, trace, options)
         local camp = Lib.default_camp
         local render = make_grid(parent, 1700)
         local entries = {}
-        for _, cid in ipairs(Lib.camps) do entries[#entries + 1] = {id = cid, text = tostring(cid)} end
+        for _, cid in ipairs(Lib.camps) do entries[#entries + 1] = {id = cid, text = Lib.camp_short(cid)} end
         local select = make_filter(parent, entries, {215, 313, 410, 510, 605, 705}, function(id)
             camp = id
             reset_stats()
@@ -219,7 +219,7 @@ function M.attach(canvas, size, trace, options)
         label(parent, '+', X(195) + 80, YB(1645), 28, {255, 255, 255}, 7)
         button(parent, 40, 40, X(195) + 80, YB(1645), function() toast('「扩充英雄位」尚未还原') end, 8)
         local entries = {{id = 0, text = '全'}}
-        for _, cid in ipairs(Lib.camps) do entries[#entries + 1] = {id = cid, text = tostring(cid)} end
+        for _, cid in ipairs(Lib.camps) do entries[#entries + 1] = {id = cid, text = Lib.camp_short(cid)} end
         local total = #Lib.roster(snapshot, 0, roster_sample)
         counter:setString(Lib.capacity_text(total))
         local select = make_filter(parent, entries, {168, 265, 363, 460, 557, 654, 752}, function(id)
@@ -232,6 +232,135 @@ function M.attach(canvas, size, trace, options)
             trace(string.format('HERO_LIST_GRID camp=%d heroes=%d total=%d %s', id, #specs, total, stats_text()))
         end)
         select(0)
+    end
+
+    -- One centered line of "<div fontcolor=#rrggbb>" runs, drawn as adjacent labels.
+    local function rich_line(parent, text, cx, y, font, base_rgb)
+        local labels, total = {}, 0
+        for _, seg in ipairs(Lib.segments(text)) do
+            local l = cc.Label:createWithSystemFont(seg.text, 'sans-serif', font)
+            local rgb = base_rgb
+            if seg.color then
+                rgb = {tonumber(seg.color:sub(1, 2), 16) or 0, tonumber(seg.color:sub(3, 4), 16) or 0,
+                       tonumber(seg.color:sub(5, 6), 16) or 0}
+            end
+            color(l, rgb[1], rgb[2], rgb[3])
+            local w = l:getContentSize().width
+            labels[#labels + 1] = {node = l, width = w}
+            total = total + w
+            parent:addChild(l, 5)
+        end
+        local x = cx - total / 2
+        for _, item in ipairs(labels) do
+            item.node:setPosition(x + item.width / 2, y)
+            x = x + item.width
+        end
+    end
+
+    builders.ghost = function(parent)
+        -- Use the level shown in the top bar (reference value) so the page agrees with it;
+        -- a fresh offline save is level 1 and would lock every slot.
+        local level = require('offline.drama_reference').top.level
+        -- Sub tabs: 培养 (implemented as a static page), 觉醒 / 召唤 not restored.
+        for i, name in ipairs({'培养', '觉醒', '召唤'}) do
+            local x = X(200 + (i - 1) * 160)
+            box(parent, 112, 44, x, YT(680), i == 1 and {196, 150, 90} or {150, 120, 80}, 3)
+            label(parent, name, x, YT(680), 22, {255, 245, 220}, 4)
+            button(parent, 112, 44, x, YT(680), function()
+                if i ~= 1 then toast('「幽灵·' .. name .. '」尚未还原') end
+            end)
+        end
+        label(parent, '幽灵图鉴 >>', X(775), YT(685), 20, {40, 90, 190}, 4)
+        button(parent, 140, 40, X(775), YT(685), function() toast('「幽灵图鉴」尚未还原') end)
+
+        local top, bottom = YT(712), YB(1680)
+        local height = top - bottom
+        box(parent, 620, height, size.width / 2, (top + bottom) / 2, {112, 88, 52}, 3)
+        label(parent, '幽地背景 [缺资源]', size.width / 2, top - 18, 14, {190, 160, 110}, 4)
+        local function py(ref) return top - (ref - 712) / (1680 - 712) * height end
+        local rows = {880, 1190, 1490}
+        local cols = {295, 634}
+        for i, slot in ipairs(Lib.ghost_slots(level)) do
+            local r, c = math.floor((i - 1) / 2) + 1, (i - 1) % 2 + 1
+            local cx, cy = X(cols[c]), py(rows[r])
+            -- base plate + tombstone placeholder
+            box(parent, 150, 34, cx, cy - 42, {206, 196, 170}, 4)
+            label(parent, slot.name, cx, cy - 42, 20, {70, 50, 40}, 5)
+            box(parent, 64, 80, cx, cy + 14, slot.open and {150, 150, 150} or {110, 110, 110}, 4)
+            if slot.open then
+                label(parent, '可放入', cx, cy + 74, 18, {255, 245, 215}, 5)
+                label(parent, '+', cx, cy + 14, 56, {70, 200, 70}, 6)
+                box(parent, 12, 12, cx + 36, cy + 50, {210, 40, 40}, 6)
+            else
+                label(parent, '锁', cx, cy + 22, 22, {235, 235, 235}, 6)
+                if slot.lock ~= '' then label(parent, slot.lock, cx, cy - 6, 17, {255, 250, 235}, 6) end
+            end
+        end
+        box(parent, 58, 58, X(805), py(790), {70, 70, 70}, 4)
+        label(parent, '幽灵特权', X(805), py(790) - 42, 18, {255, 245, 215}, 5)
+        button(parent, 80, 90, X(805), py(790) - 14, function() toast('「幽灵特权」尚未还原') end, 6)
+        trace('HERO_GHOST_SLOTS level=' .. tostring(level))
+    end
+
+    builders.belief = function(parent)
+        local beliefs = Lib.beliefs()
+        -- Unlock progress counts only heroes in the save; the preview sample used to fill the
+        -- hero list must not look like real progress.
+        local owned_heroes = {}
+        for _, e in ipairs(Lib.roster(snapshot, 0)) do owned_heroes[#owned_heroes + 1] = e.hero end
+        local current = 1
+        local dynamic = cc.Node:create()
+        parent:addChild(dynamic, 4)
+        local select
+        local function render()
+            dynamic:removeAllChildren()
+            local b = beliefs[current]
+            local have, need = Lib.belief_progress(b, owned_heroes)
+            -- Emblem placeholder (chained lock art is not available).
+            box(dynamic, 250, 250, size.width / 2, YT(930), {205, 195, 170}, 3)
+            label(dynamic, '信念徽记 [缺资源]\n（未解锁）', size.width / 2, YT(930), 18, {120, 100, 80}, 4)
+            box(dynamic, 220, 40, size.width / 2, YT(1070), {128, 112, 100}, 4)
+            label(dynamic, b.name, size.width / 2, YT(1070), 22, {255, 255, 255}, 5)
+            box(dynamic, 86, 36, X(180), YB(1260), {222, 178, 110}, 3)
+            label(dynamic, '解锁', X(180), YB(1260), 20, {120, 80, 40}, 4)
+            local desc_y = YB(1345)
+            box(dynamic, 640, 60, size.width / 2, desc_y, {226, 200, 160}, 3)
+            label(dynamic, b.desc, X(115), desc_y + 6, 20, {60, 60, 60}, 4):setAnchorPoint(0, 0.5)
+            local lock_y = YB(1462)
+            box(dynamic, 640, 40, size.width / 2, lock_y, {226, 200, 160}, 3)
+            rich_line(dynamic, b.lock_desc, size.width / 2, lock_y, 20, {30, 50, 90})
+            local card_y = YB(1590)
+            box(dynamic, 66, 66, X(250), card_y, {88, 80, 110}, 3)
+            label(dynamic, '?', X(250), card_y + 4, 36, {235, 235, 235}, 4)
+            label(dynamic, string.rep('★', b.need_star), X(250), card_y - 26, 12, {255, 214, 60}, 5)
+            label(dynamic, string.format('%d/%d', have, need), X(250) + 18, card_y + 26, 16, {255, 255, 255}, 5)
+            box(dynamic, 170, 56, X(672), card_y, {214, 178, 96}, 3)
+            label(dynamic, '解锁', X(672), card_y, 24, {110, 70, 30}, 4)
+            button(dynamic, 170, 56, X(672), card_y, function()
+                toast(have >= need and '「信念解锁」尚未还原' or '材料不足：需要' .. b.need_star .. '星' .. b.camp_name .. '英雄')
+            end, 6)
+            trace(string.format('HERO_BELIEF %d %s have=%d/%d', b.id, b.name, have, need))
+        end
+        local entries = {}
+        for i, b in ipairs(beliefs) do entries[#entries + 1] = {id = i, text = Lib.camp_short(b.hero_camp)} end
+        select = make_filter(parent, entries, {215, 313, 410, 510, 605, 705}, function(id)
+            current = id
+            render()
+        end)
+        -- Arrows switch camps; the ? button shows the first line of the rules.
+        local function step(delta)
+            select(((current - 1 + delta) % #beliefs) + 1)
+        end
+        label(parent, '<<', X(125), YT(930), 36, {200, 170, 120}, 5)
+        button(parent, 70, 120, X(125), YT(930), function() step(-1) end, 6)
+        label(parent, '>>', X(828), YT(930), 36, {200, 170, 120}, 5)
+        button(parent, 70, 120, X(828), YT(930), function() step(1) end, 6)
+        box(parent, 46, 46, X(827), YT(782), {70, 55, 45}, 4)
+        label(parent, '?', X(827), YT(782), 28, {255, 255, 255}, 5)
+        button(parent, 56, 56, X(827), YT(782), function()
+            toast((Lib.belief_rule():match('^[^\n]*')) or '')
+        end, 6)
+        select(1)
     end
 
     -- Tabs.

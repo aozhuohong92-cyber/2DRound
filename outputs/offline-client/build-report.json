@@ -18,6 +18,7 @@
     "offline.drama_scene",
     "offline.events",
     "offline.hero_data",
+    "offline.hero_extra_data",
     "offline.hero_library",
     "offline.hero_scene",
     "offline.luffy_skills",

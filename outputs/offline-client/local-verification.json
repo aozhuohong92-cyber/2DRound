@@ -1,6 +1,6 @@
 {
   "stage": 1,
-  "core_tests": 31,
+  "core_tests": 34,
   "skill_test_groups": 5,
   "encoding_roundtrips": 21,
   "resources": 74,
@@ -24,6 +24,7 @@
     "offline.drama_scene",
     "offline.events",
     "offline.hero_data",
+    "offline.hero_extra_data",
     "offline.hero_library",
     "offline.hero_scene",
     "offline.luffy_skills",
@@ -36,7 +37,7 @@
     "offline.store"
   ],
   "syntax": "PASS",
-  "apk_sha256": "414731a2c0a6eabd410c8a7460745abaeb0ccf168d43c32b1c1ac8a609858599",
+  "apk_sha256": "458b7832de444b20e74a2a3c1f1f6854348beff8655af10d7ebe3321f26411c7",
   "hero_art_files": 251,
   "audio_uncompressed": 5,
   "device_tested": false,

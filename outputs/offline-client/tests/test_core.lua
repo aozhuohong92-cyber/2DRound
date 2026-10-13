@@ -311,7 +311,7 @@ test('hero library text and art flags mirror the config', function()
     assert(HeroLib.info(99999999) == nil)
     local implemented = 0
     for _, t in ipairs(HeroLib.tabs) do if t.implemented then implemented = implemented + 1 end end
-    assert(implemented == 2 and HeroLib.tabs[2].id == 'library')
+    assert(implemented == 4 and HeroLib.tabs[2].id == 'library')
 end)
 
 test('hero list shows owned heroes, team badge, camp filter and capacity', function()
@@ -350,5 +350,38 @@ test('hero list preview sample is deterministic and never overrides the save', f
     assert(flagged >= n - 1 and flagged <= n)
     for i = 2, #all do assert(all[i - 1].hero.star >= all[i].hero.star) end
     assert(HeroLib.tabs[1].id == 'hero' and HeroLib.tabs[1].implemented)
+end)
+
+test('rich text segments split highlighted runs', function()
+    local segs = HeroLib.segments('解锁该信念为我方<div fontcolor=#c03e0b>海贼英雄</div>提供属性加成')
+    assert(#segs == 3 and segs[1].text == '解锁该信念为我方' and not segs[1].color)
+    assert(segs[2].text == '海贼英雄' and segs[2].color == 'c03e0b' and segs[3].text == '提供属性加成')
+    assert(#HeroLib.segments('plain') == 1 and #HeroLib.segments('') == 0)
+end)
+test('belief entries and camp names come from the belief config', function()
+    local list = HeroLib.beliefs()
+    assert(#list == 6)
+    assert(list[1].name == '超新星之力' and list[1].camp_name == '海贼' and list[1].hero_camp == 1)
+    assert(list[1].need_star == 4 and list[1].need_num == 1)
+    assert(list[6].camp_name == '传奇' and list[6].hero_camp == 7 and list[6].need_star == 5)
+    assert(HeroLib.camp_names[2] == '草帽联盟' and HeroLib.camp_names[7] == '传奇' and HeroLib.camp_names[6] == nil)
+    assert(HeroLib.camp_short(1) == '海贼' and HeroLib.camp_short(2) == '草帽' and HeroLib.camp_short(4) == '海军')
+    assert(HeroLib.camp_short(1) ~= HeroLib.camp_short(4) and HeroLib.camp_short(99) == '99')
+    for _, camp in ipairs(HeroLib.camps) do assert(HeroLib.camp_names[camp], 'camp ' .. camp .. ' needs a name') end
+    assert(HeroLib.belief_rule():find('信念共有6种系别', 1, true))
+    local owned = {{camp = 1, star = 3}, {camp = 1, star = 4}, {camp = 2, star = 5}}
+    local have, need = HeroLib.belief_progress(list[1], owned)
+    assert(have == 1 and need == 1)
+    assert(select(1, HeroLib.belief_progress(list[3], owned)) == 0)
+    assert(select(1, HeroLib.belief_progress(list[1], nil)) == 0)
+end)
+test('ghost slots: only the account-level condition opens offline', function()
+    local slots = HeroLib.ghost_slots(124)
+    assert(#slots == 6 and slots[1].name == '第一幽地' and slots[1].open)
+    for i = 2, 6 do assert(not slots[i].open, 'slot ' .. i .. ' must stay locked') end
+    assert(slots[2].lock == '佩罗娜15级' and slots[3].lock == '3星橙幽灵' and slots[4].lock == '幽灵总评分')
+    assert(slots[5].privilege and slots[6].privilege and slots[5].lock == '特权激活')
+    assert(not HeroLib.ghost_slots(79)[1].open and HeroLib.ghost_slots(80)[1].open)
+    assert(not HeroLib.ghost_slots(nil)[1].open)
 end)
 print('TOTAL '..#results..' PASS')

@@ -2,18 +2,20 @@
 -- Engine-free so it can be unit-tested. Data comes from hero_data.lua
 -- (generated from partner_data.lua). Nothing here writes the save.
 local Data = require('offline.hero_data')
+local Extra = require('offline.hero_extra_data')
 local M = {}
 
 -- camp_type values present in data_partner_base; their display names are not recovered.
 M.camps = {1, 2, 3, 4, 5, 7}
 M.default_camp = 1
 
--- Tabs of the hero window (reference screenshot): hero list and library are implemented.
+-- Tabs of the hero window (reference screenshot): all four are implemented (ghost and belief
+-- pages are config-driven, with placeholder art).
 M.tabs = {
     {id = 'hero', name = '英雄', implemented = true},
     {id = 'library', name = '图鉴', implemented = true},
-    {id = 'ghost', name = '幽灵', implemented = false},
-    {id = 'belief', name = '信念', implemented = false},
+    {id = 'ghost', name = '幽灵', implemented = true},
+    {id = 'belief', name = '信念', implemented = true},
 }
 
 -- Original HeroLibraryMainWindow.updateHeroList sorts by {type, init_star, camp, sort_order}
@@ -154,6 +156,86 @@ end
 
 function M.capacity_text(count)
     return string.format('%d/%d', count, M.capacity)
+end
+
+-- ---------------------------------------------------------------------------
+-- Rich text: "<div fontcolor=#RRGGBB>x</div>" runs, as used by the original configs.
+-- ---------------------------------------------------------------------------
+function M.segments(text)
+    local out, pos = {}, 1
+    text = tostring(text or '')
+    while true do
+        local a, b, hex = text:find('<div fontcolor=#(%x+)>', pos)
+        if not a then break end
+        if a > pos then out[#out + 1] = {text = text:sub(pos, a - 1)} end
+        local c, d = text:find('</div>', b + 1, true)
+        local inner = text:sub(b + 1, (c or #text + 1) - 1)
+        out[#out + 1] = {text = inner, color = hex}
+        pos = (d or #text) + 1
+    end
+    if pos <= #text then out[#out + 1] = {text = text:sub(pos)} end
+    return out
+end
+
+-- ---------------------------------------------------------------------------
+-- Belief (信念, halidom): one entry per camp. Camp names come from the highlighted
+-- word of each entry's lock_desc ("...我方<海贼>英雄...").
+-- ---------------------------------------------------------------------------
+M.belief_count = 6    -- the screen shows six camp buttons; the config has a 7th duplicate
+
+function M.beliefs()
+    local out = {}
+    for i, row in ipairs(Extra.belief) do
+        if i <= M.belief_count then
+            local name
+            for _, seg in ipairs(M.segments(row.lock_desc)) do
+                if seg.color then name = (seg.text:gsub('英雄$', '')) end
+            end
+            out[#out + 1] = {id = row.id, camp = row.camp, hero_camp = row.need_camp, name = row.name,
+                             desc = row.desc, lock_desc = row.lock_desc, camp_name = name,
+                             need_star = row.need_star, need_num = row.need_num}
+        end
+    end
+    return out
+end
+
+-- hero camp_type -> camp name (derived from the belief config).
+M.camp_names = {}
+for _, b in ipairs(M.beliefs()) do
+    if b.camp_name then M.camp_names[b.hero_camp] = b.camp_name end
+end
+
+function M.camp_short(camp)
+    local name = M.camp_names[camp]
+    if not name then return tostring(camp) end
+    return name:sub(1, 6)   -- first two CJK characters (3 UTF-8 bytes each): 海贼 / 海军 differ
+end
+
+function M.belief_rule() return Extra.rule end
+
+-- Number of owned heroes that satisfy a belief's unlock requirement (camp + minimum star).
+function M.belief_progress(belief, owned_heroes)
+    local n = 0
+    for _, hero in ipairs(owned_heroes or {}) do
+        if hero.camp == belief.hero_camp and hero.star >= belief.need_star then n = n + 1 end
+    end
+    return math.min(n, belief.need_num), belief.need_num
+end
+
+-- ---------------------------------------------------------------------------
+-- Ghost (幽灵, elfin/sprite) hatch slots. Only the account-level condition can be evaluated
+-- offline; the rest depend on data (ghost tree level, ghosts, score, privilege) that is not
+-- modelled, so those slots stay locked.
+-- ---------------------------------------------------------------------------
+function M.ghost_slots(level)
+    local out = {}
+    for _, row in ipairs(Extra.ghost_slots) do
+        local open = row.cond == 'lev' and type(level) == 'number' and level >= row.value
+        out[#out + 1] = {sort = row.sort, name = row.name, lock = row.lock, tip = row.tip,
+                         cond = row.cond, value = row.value, cost = row.cost,
+                         open = open, privilege = row.cond == 'privilege'}
+    end
+    return out
 end
 
 return M
