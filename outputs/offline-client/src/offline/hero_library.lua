@@ -8,9 +8,9 @@ local M = {}
 M.camps = {1, 2, 3, 4, 5, 7}
 M.default_camp = 1
 
--- Tabs of the hero window (reference screenshot). Only the library is implemented.
+-- Tabs of the hero window (reference screenshot): hero list and library are implemented.
 M.tabs = {
-    {id = 'hero', name = '英雄', implemented = false},
+    {id = 'hero', name = '英雄', implemented = true},
     {id = 'library', name = '图鉴', implemented = true},
     {id = 'ghost', name = '幽灵', implemented = false},
     {id = 'belief', name = '信念', implemented = false},
@@ -91,6 +91,69 @@ function M.info(bid) return Data.library[bid] end
 function M.has_art(bid)
     local info = Data.library[bid]
     return info ~= nil and info.has_art == true
+end
+
+-- ---------------------------------------------------------------------------
+-- Hero list (英雄 tab): the heroes the player owns.
+-- ---------------------------------------------------------------------------
+
+-- Capacity text in the reference screenshot is "23/300"; the original reads it from the
+-- hero-bag config (HeroModel:getHeroMaxCount), which is not recovered here.
+M.capacity = 300
+M.sample_roster_size = 23
+
+-- Preview-only sample roster so the page is not empty with a fresh save: the 23 highest
+-- star heroes (ties by bid). Never written to the save, and not the screenshot account.
+function M.sample_roster()
+    local list = M.list(0)
+    table.sort(list, function(a, b)
+        if a.star ~= b.star then return a.star > b.star end
+        return a.bid < b.bid
+    end)
+    local out = {}
+    for i = 1, math.min(M.sample_roster_size, #list) do out[list[i].bid] = true end
+    return out
+end
+
+-- Owned heroes for the list. `snapshot` is a state snapshot (heroes keyed by string bid,
+-- team = {slot -> string bid}); `extra` is an optional bid set (preview sample).
+-- Order: star desc, level desc, bid asc (approximation of the reference; the original
+-- hero-bag sorter is not verified).
+function M.roster(snapshot, camp, extra)
+    local data, in_team = {}, {}
+    if type(snapshot) == 'table' then
+        for _, bid in pairs(type(snapshot.team) == 'table' and snapshot.team or {}) do
+            local n = tonumber(bid)
+            if n then in_team[n] = true end
+        end
+        for key, row in pairs(type(snapshot.heroes) == 'table' and snapshot.heroes or {}) do
+            local bid = tonumber(key)
+            if bid and Data.heroes[bid] then
+                data[bid] = {level = type(row) == 'table' and row.level or 1}
+            end
+        end
+    end
+    for bid in pairs(extra or {}) do
+        if Data.heroes[bid] and not data[bid] then data[bid] = {level = 1, sample = true} end
+    end
+    local out = {}
+    for bid, row in pairs(data) do
+        local hero = Data.heroes[bid]
+        if camp == nil or camp == 0 or hero.camp == camp then
+            out[#out + 1] = {hero = hero, level = row.level or 1, in_team = in_team[bid] == true,
+                             sample = row.sample == true}
+        end
+    end
+    table.sort(out, function(a, b)
+        if a.hero.star ~= b.hero.star then return a.hero.star > b.hero.star end
+        if a.level ~= b.level then return a.level > b.level end
+        return a.hero.bid < b.hero.bid
+    end)
+    return out
+end
+
+function M.capacity_text(count)
+    return string.format('%d/%d', count, M.capacity)
 end
 
 return M

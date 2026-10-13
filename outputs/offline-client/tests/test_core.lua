@@ -311,6 +311,44 @@ test('hero library text and art flags mirror the config', function()
     assert(HeroLib.info(99999999) == nil)
     local implemented = 0
     for _, t in ipairs(HeroLib.tabs) do if t.implemented then implemented = implemented + 1 end end
-    assert(implemented == 1 and HeroLib.tabs[2].id == 'library')
+    assert(implemented == 2 and HeroLib.tabs[2].id == 'library')
+end)
+
+test('hero list shows owned heroes, team badge, camp filter and capacity', function()
+    local save = State.initial()
+    assert(#HeroLib.roster(save, 0) == 0, 'empty save has no heroes')
+    save.name = '船长'; save.stage = 'battle'
+    save.heroes['20510'] = {bid = 20510, level = 3, copies = 1}
+    save.heroes['10101'] = {bid = 10101, level = 1, copies = 1}
+    save.team[1] = '20510'
+    State.validate(save)
+    local before = Codec.encode(save)
+    local roster = HeroLib.roster(save, 0)
+    assert(#roster == 2 and Codec.encode(save) == before)
+    assert(roster[1].hero.bid == 20510 and roster[1].in_team and roster[1].level == 3)
+    assert(roster[2].hero.bid == 10101 and not roster[2].in_team)
+    for i = 2, #roster do assert(roster[i - 1].hero.star >= roster[i].hero.star) end
+    assert(#HeroLib.roster(save, roster[1].hero.camp) >= 1)
+    assert(#HeroLib.roster(save, 99) == 0)
+    assert(HeroLib.capacity_text(#roster) == '2/300')
+end)
+test('hero list preview sample is deterministic and never overrides the save', function()
+    local sample = HeroLib.sample_roster()
+    local n = 0 for _ in pairs(sample) do n = n + 1 end
+    assert(n == HeroLib.sample_roster_size)
+    local save = State.initial()
+    save.name = '船长'; save.stage = 'battle'
+    save.heroes['20510'] = {bid = 20510, level = 7, copies = 1}
+    save.team[1] = '20510'
+    State.validate(save)
+    local all = HeroLib.roster(save, 0, sample)
+    local seen = {}
+    for _, e in ipairs(all) do seen[e.hero.bid] = e end
+    assert(seen[20510].level == 7 and not seen[20510].sample, 'saved level wins over sample')
+    local flagged = 0
+    for _, e in ipairs(all) do if e.sample then flagged = flagged + 1 end end
+    assert(flagged >= n - 1 and flagged <= n)
+    for i = 2, #all do assert(all[i - 1].hero.star >= all[i].hero.star) end
+    assert(HeroLib.tabs[1].id == 'hero' and HeroLib.tabs[1].implemented)
 end)
 print('TOTAL '..#results..' PASS')

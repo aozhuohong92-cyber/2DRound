@@ -1,6 +1,6 @@
 {
   "stage": 1,
-  "core_tests": 29,
+  "core_tests": 31,
   "skill_test_groups": 5,
   "encoding_roundtrips": 21,
   "resources": 74,
@@ -36,7 +36,7 @@
     "offline.store"
   ],
   "syntax": "PASS",
-  "apk_sha256": "1d354b1cd846e96bd305303492a223f0a83550607a52a28cd7615fb531bcde90",
+  "apk_sha256": "1c65f5fb6a67e6a207a450f47c9ef349c3f510864a48d4035f2bb55facc0faca",
   "hero_art_files": 251,
   "audio_uncompressed": 5,
   "device_tested": false,
