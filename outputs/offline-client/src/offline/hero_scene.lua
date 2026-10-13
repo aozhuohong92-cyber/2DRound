@@ -134,7 +134,8 @@ function M.attach(canvas, size, trace, options)
         end
         label(parent, tostring(spec.number), cx + 34, cy + 42, 20, text, 5)
         label(parent, string.rep('★', hero.star), cx, cy - 44, 14, lit and {255, 214, 60} or {140, 140, 140}, 5)
-        label(parent, tostring(hero.camp), cx - 40, cy + 42, 14, text, 5)
+        -- Top-left camp emblem: the original shows a camp icon; the icons are not in the
+        -- local resource set and the camp names are not recovered, so nothing is drawn yet.
         if spec.badge then
             box(parent, 30, 30, cx + 38, cy - 38, {190, 40, 40}, 6)
             label(parent, spec.badge, cx + 38, cy - 38, 18, {255, 255, 255}, 7)
