@@ -15,26 +15,45 @@ function M.attach(canvas, size, ref, trace, handlers)
     local function X(px) return px * S end
     local function YT(py) return size.height - py * S end
     local function YB(py) return (2000 - py) * S end
+    -- `group` sits under the original button panel (z=5); `overlay` sits above the
+    -- panel but below the bottom navigation (z=10), for text drawn on the panel.
     local group = cc.Node:create()
     group:setName('drama_reference_hud')
     canvas:addChild(group, 4)
+    local overlay = cc.Node:create()
+    overlay:setName('drama_reference_overlay')
+    canvas:addChild(overlay, 6)
+    local layer = group
     local placeholders = {}
 
-    local function label(text, x, y, font, color, z)
+    local function label(text, x, y, font, color, z, anchor)
+        -- Dark offset copy stands in for the original outline so text stays
+        -- readable over the forest background.
+        local shadow = cc.Label:createWithSystemFont(text, 'sans-serif', font or 20)
+        shadow:setPosition(x + 1.5, y - 1.5)
+        if anchor then shadow:setAnchorPoint(anchor, 0.5) end
+        try_color(shadow, 17, 17, 17)
+        layer:addChild(shadow, (z or 3) - 1)
         local l = cc.Label:createWithSystemFont(text, 'sans-serif', font or 20)
         l:setPosition(x, y)
+        if anchor then l:setAnchorPoint(anchor, 0.5) end
         if color then try_color(l, color[1], color[2], color[3]) end
-        group:addChild(l, z or 3)
+        layer:addChild(l, z or 3)
+        l.shadow = shadow
         return l
     end
     -- Labelled stand-in for a resource that is not in the local set.
-    local function chip(tag, x, y, w, h, z)
+    -- `silent` chips are too small for text; the tag is still recorded.
+    local function chip(tag, x, y, w, h, z, silent)
         local box = cc.LayerColor:create({r = 18, g = 26, b = 30, a = 150}, w, h)
         box:setPosition(x - w / 2, y - h / 2)
-        group:addChild(box, z or 2)
-        local l = cc.Label:createWithSystemFont(tag .. '\n[缺资源]', 'sans-serif', 16)
-        l:setPosition(x, y)
-        group:addChild(l, (z or 2) + 1)
+        layer:addChild(box, z or 2)
+        if not silent then
+            local font = w < 90 and 12 or 16
+            local l = cc.Label:createWithSystemFont(tag .. '\n[缺]', 'sans-serif', font)
+            l:setPosition(x, y)
+            layer:addChild(l, (z or 2) + 1)
+        end
         placeholders[#placeholders + 1] = tag
         return box
     end
@@ -43,8 +62,23 @@ function M.attach(canvas, size, ref, trace, handlers)
         if not fr then return nil end
         local s = cc.Sprite:createWithSpriteFrame(fr)
         s:setPosition(x, y)
-        group:addChild(s, z or 2)
+        layer:addChild(s, z or 2)
         return s
+    end
+    -- Item icon from resource/item/<icon>.png when it is packaged, else a labelled chip.
+    local function item_icon(icon, tag, x, y, box, z)
+        local path = 'resource/item/' .. tostring(icon) .. '.png'
+        if cc.FileUtils:getInstance():isFileExist(path) then
+            local ok, s = pcall(cc.Sprite.create, cc.Sprite, path)
+            if ok and s then
+                local cs = s:getContentSize()
+                s:setScale(box / math.max(cs.width, cs.height))
+                s:setPosition(x, y)
+                layer:addChild(s, z or 3)
+                return s
+            end
+        end
+        return chip(tag, x, y, box, box, z or 2)
     end
     -- Mirrors BattleDramaTopView:createSpecialIcon(): round bg + icon + caption.
     local function special_icon(icon_frame, caption, x, y, red_dot)
@@ -54,12 +88,12 @@ function M.attach(canvas, size, ref, trace, handlers)
         if red_dot then
             local dot = cc.LayerColor:create({r = 220, g = 40, b = 40, a = 255}, 12, 12)
             dot:setPosition(x + 22, y + 22)
-            group:addChild(dot, 5)
+            layer:addChild(dot, 5)
         end
     end
 
     -- Left: online-gift (diamond 5000 / 可领取).
-    chip('钻石礼包', X(100), YT(330), 76, 76, 2)
+    item_icon(ref.gift.item_id, '钻石礼包', X(100), YT(330), 76, 2)
     label(tostring(ref.gift.amount), X(100), YT(344), 18, {255, 255, 255}, 4)
     label(ref.gift.text, X(100), YT(392), 18, {120, 230, 90}, 4)
 
@@ -76,26 +110,32 @@ function M.attach(canvas, size, ref, trace, handlers)
     label(ref.stage.name, X(810), YT(373), 22, {255, 245, 220}, 4)
 
     -- Voyage (远航) node: its CSB is not available locally.
-    chip('远航节点', X(810), YT(455), 76, 76, 2)
+    chip('远航节点', X(810), YT(455), 76, 76, 2, true)
     label(ref.voyage.name, X(810), YT(458), 20, {255, 245, 220}, 4)
     label(tostring(ref.voyage.value), X(810), YT(516), 20, {255, 255, 255}, 4)
 
     -- Income per minute list + 挂机UP + chest/timer.
+    -- Anchored to the bottom like the original: spacing is measured from the panel top.
     for i, row in ipairs(ref.income) do
-        local y = YT(1045 + (i - 1) * 50)
-        chip('物品' .. row.item_id, X(735), y, 28, 28, 2)
+        local y = YB(1045 + (i - 1) * 50)
+        chip('物品' .. row.item_id, X(735), y, 26, 26, 2, true)
         label(row.text, X(815), y, 24, {255, 255, 255}, 4)
     end
-    chip(ref.hook_up, X(795), YT(1258), 150, 44, 2)
-    chip('宝箱 effect282', X(830), YT(1335), 110, 80, 2)
-    label(ref.chest_time, X(820), YT(1390), 20, {255, 255, 255}, 4)
+    chip(ref.hook_up, X(795), YB(1258), 150, 44, 2)
+    chip('宝箱 effect282', X(830), YB(1335), 110, 80, 2)
+    -- The timer overlaps the panel's top edge in the original, so draw it above the panel.
+    layer = overlay
+    label(ref.chest_time, X(820), YB(1390), 20, {255, 255, 255}, 4)
+    layer = group
 
     -- Bottom panel overlays (CSB provides frame, WANTED board and buttons).
-    label(ref.desc, X(50), YB(1520), 22, {120, 80, 40}, 6):setAnchorPoint(0, 0.5)
+    layer = overlay
+    label(ref.desc, X(50), YB(1520), 22, {120, 80, 40}, 6, 0)
     chip('BOSS 悬赏人像', X(660), YB(1640), 264, 310, 6)
     for i, item in ipairs(ref.rewards) do
         local x = X(125 + (i - 1) * 86)
-        chip(item.name .. '×' .. item.count, x, YB(1765), 64, 64, 6)
+        item_icon(item.icon, item.name, x, YB(1765), 60, 6)
+        label('×' .. item.count, x + 22, YB(1765) - 24, 16, {255, 255, 255}, 8)
     end
 
     if handlers.on_missing then handlers.on_missing(placeholders) end

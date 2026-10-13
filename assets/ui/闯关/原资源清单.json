@@ -75,5 +75,12 @@
     "original_file": "outputs/apk-extracted/assets/HASH/E/E9A66599D482D347.png",
     "sha256": "2de32ad31c5eb24ec358ba746104ee9f673cfc85fea88648f41ce912296740de",
     "bytes": 88450
+  },
+  {
+    "file": "06_底部面板/原资源/resource/item/3.png",
+    "logical_path": "resource/item/3.png",
+    "original_file": "assets/ui/主城/底部导航/共用原资源/resource/item/3.png",
+    "sha256": "638decf5021d84a9212e34e9863fc3a89d42544dda15d7677f4e2a601f8f5653",
+    "bytes": 3538
   }
 ]

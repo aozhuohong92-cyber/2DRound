@@ -8,7 +8,7 @@ local Skills = require('offline.luffy_skills')
 local M = {}
 
 M.skill_ids = {520001, 520101}
-M.placeholder_text = '敌方占位 · 海贼1号\n(H30012 资源未到位)'
+M.placeholder_text = '敌方占位\n(资源未到位)'
 
 -- Concatenated presentation steps for the fixed replay.
 function M.steps()
@@ -24,14 +24,15 @@ end
 function M.new(canvas, size, trace, options)
     local view = {}
     local base_y = options and options.base_y or size.height * 0.5
-    local ally_x, enemy_x = size.width * 0.28, size.width * 0.74
+    local ally_x = size.width * 0.28
+    local enemy_x = size.width * (options and options.enemy_ratio or 0.74)
     local actor, effects, destroyed, player = nil, {}, false, nil
 
-    local card = cc.LayerColor:create({r = 20, g = 30, b = 30, a = 175}, 230, 100)
-    card:setPosition(enemy_x - 115, base_y)
+    local card = cc.LayerColor:create({r = 20, g = 30, b = 30, a = 175}, 170, 84)
+    card:setPosition(enemy_x - 105, base_y)
     canvas:addChild(card, 6)
     local card_label = cc.Label:createWithSystemFont(M.placeholder_text, 'sans-serif', 20)
-    card_label:setPosition(115, 50)
+    card_label:setPosition(85, 42)
     card:addChild(card_label)
 
     local function defer(fn, delay)
@@ -105,6 +106,7 @@ function M.new(canvas, size, trace, options)
             for _, spec in ipairs(step.hit_effects) do visual(spec, true) end
         end,
         done = function()
+            pcall(set_actor, 'stand2', 'stand2', true)
             if view.on_done then view.on_done() end
         end,
         failed = function(err)
@@ -132,6 +134,13 @@ function M.new(canvas, size, trace, options)
         player:stop()
         clear_effects()
         if actor then actor:removeFromParent(); actor = nil end
+    end
+
+    -- Standing pose shown while no replay is running (reference screen).
+    function view:idle()
+        if destroyed or actor then return end
+        local ok, err = pcall(set_actor, 'stand2', 'stand2', true)
+        if not ok then trace('DRAMA_IDLE_ERROR ' .. tostring(err)) end
     end
 
     function view:destroy()

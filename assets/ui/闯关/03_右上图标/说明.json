@@ -55,7 +55,7 @@
     {
       "name": "在线礼包（钻石 5000 可领取）",
       "status": "占位",
-      "source": "online_gift_node；礼包底图未取证；钻石图标 resource/item/3.png 本机已有，尚未接入"
+      "source": "online_gift_node；礼包底图未取证；钻石图标 resource/item/3.png 已接入"
     }
   ],
   "notes": [

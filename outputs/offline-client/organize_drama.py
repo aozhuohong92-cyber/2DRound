@@ -128,7 +128,7 @@ def main():
         {'name': '小地图外圈/遮罩/旗标', 'status': APPROX, 'source': 'battledrama_1001 / 1010 / 1013'},
         {'name': '小地图底图', 'status': MISSING, 'source': 'resource/bigbg/battle_bg/10008/blayer/small_map.jpg'},
         {'name': '远航节点（远航 200）', 'status': MISSING, 'source': CSB + 'battledrama/battle_drama_qingbao_node.csb；进度环 battledrama_1021'},
-        {'name': '在线礼包（钻石 5000 可领取）', 'status': PLACEHOLDER, 'source': 'online_gift_node；礼包底图未取证；钻石图标 resource/item/3.png 本机已有，尚未接入'},
+        {'name': '在线礼包（钻石 5000 可领取）', 'status': PLACEHOLDER, 'source': 'online_gift_node；礼包底图未取证；钻石图标 resource/item/3.png 已接入'},
     ], ['图集帧矩形见 说明.json 的 frame 字段；帧在原包加密图集中，不能单独当 PNG 预览。',
         '布局为参考图 900×2000 ×0.8 的设计坐标，已本地构建、未做设备截图验证。'])
     copy_resource('resource/battledrama/battledrama.plist', f, copied)
@@ -160,13 +160,14 @@ def main():
         {'name': '标题 title_pass「伟大航路3」/ 描述《ONE PIECE》', 'status': APPROX, 'source': 'title_pass 节点；描述为代码内创建，覆盖显示'},
         {'name': '详情 / 快速挂机 / 奖励栏框 / WANTED 板', 'status': APPROX, 'source': 'CSB 内节点，P0 曾隐藏，参考模式重新显示，位置未设备验证'},
         {'name': '挑战BOSS 按钮', 'status': CONFIRMED, 'source': 'guildsign_battle_boss_btn；仅入口门控 + 固定回放'},
-        {'name': '奖励 4 格图标', 'status': MISSING, 'source': 'resource/item/{3,7,10001,29997}.png；仅 3.png（钻石）本机已有，其余 3 个缺'},
+        {'name': '奖励 4 格图标', 'status': MISSING, 'source': 'resource/item/{3,7,10001,29997}.png；3.png（钻石）已接入，其余 3 个缺'},
         {'name': 'BOSS 悬赏人像', 'status': MISSING, 'source': 'resource/headicon/b<head_icon>.jpg'},
         {'name': '「我要变强」encounter_btn', 'status': PLACEHOLDER, 'source': '参考图无此项，保持隐藏'},
     ], ['面板位置 panel:setPosition(width/2, -33)，层级 5，低于底栏 10。',
         '奖励 show_items 前 4 项：钻石、远航情报、突破卡、3星随机碎片。'])
     copy_resource(CSB + 'battle/battle_button_list.csb', f, copied)
     copy_resource('resource/battle/battle.plist', f, copied)
+    copy_resource('resource/item/3.png', f, copied)
 
     # 07 底栏
     section(7, '底栏', [

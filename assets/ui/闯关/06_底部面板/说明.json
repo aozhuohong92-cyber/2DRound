@@ -24,7 +24,7 @@
     {
       "name": "奖励 4 格图标",
       "status": "缺资源",
-      "source": "resource/item/{3,7,10001,29997}.png；仅 3.png（钻石）本机已有，其余 3 个缺"
+      "source": "resource/item/{3,7,10001,29997}.png；3.png（钻石）已接入，其余 3 个缺"
     },
     {
       "name": "BOSS 悬赏人像",

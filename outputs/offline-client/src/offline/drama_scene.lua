@@ -246,7 +246,8 @@ function M.attach(canvas, size, trace, options)
         return ok and true or nil, err
     end)
     local view = BattleView.new(canvas, size, trace,
-        {base_y = reference_mode and (size.height - 1130 * 0.8) or nil})
+        {base_y = reference_mode and ((2000 - 1180) * 0.8) or nil,
+         enemy_ratio = reference_mode and 0.6 or nil})
     local result_label = cc.Label:createWithSystemFont('', 'sans-serif', 21)
     result_label:setName('drama_replay_result')
     result_label:setPosition(size.width / 2, 440)
@@ -274,7 +275,9 @@ function M.attach(canvas, size, trace, options)
     local function stop_replay()
         view:stop()
         conclude(replay:cancel())
+        if reference_mode then view:idle() end
     end
+    if reference_mode then view:idle() end
     local debug = cc.Node:create()
     debug:setName('drama_debug_controls')
     debug:setVisible(not reference_mode)
