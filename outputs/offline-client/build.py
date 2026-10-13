@@ -6,6 +6,7 @@ if _jh:os.environ['JAVA_HOME']=str(_jh);os.environ['PATH']=str(_jh/'bin')+os.pat
 from pack_lua import encode
 from prepare_assets import prepare, source_path
 from bundle import bundle
+from hero_art import iter_hero_art
 from zipcheck import assert_audio_uncompressed, is_audio
 ROOT=Path(__file__).resolve().parents[2];PROJ=Path(__file__).resolve().parent;BUILD=ROOT/'work/offline-build'
 SDK=Path.home()/'Library/Android/sdk';BT=SDK/'build-tools/35.0.1'
@@ -38,6 +39,9 @@ with zipfile.ZipFile(BUILD/'base.apk') as base,zipfile.ZipFile(BUILD/'unsigned.a
    if p.is_file():
     arc='assets/'+str(p.relative_to(extra))
     if arc not in included:z.write(p,arc,compress_type=zipfile.ZIP_STORED if is_audio(arc) else zipfile.ZIP_DEFLATED)
+ # Hero portraits (WebP payloads under their original .png logical names).
+ for arc,p in iter_hero_art():
+  if arc not in included:z.write(p,arc,compress_type=zipfile.ZIP_STORED)
 run(BT/'zipalign','-f','4',BUILD/'unsigned.apk',BUILD/'aligned.apk')
 if not key.exists():
  print('WARNING: generating a NEW signing key; the installed org.local.onepiece.offline must be uninstalled before this APK can install.')

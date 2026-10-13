@@ -1,0 +1,1370 @@
+{
+  "note": "配置里有、但提供的素材中没有该精确路径的英雄；不代表原包没有其他编号。",
+  "missing_paths": [
+    {
+      "path": "resource/headicon/709830.png",
+      "id": 709830,
+      "name": "库赞"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_10513.png",
+      "id": 10513,
+      "name": "霍金斯"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_10514.png",
+      "id": 10514,
+      "name": "阿普"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_20513.png",
+      "id": 20513,
+      "name": "白星"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_20514.png",
+      "id": 20514,
+      "name": "大和"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_30513.png",
+      "id": 30513,
+      "name": "金鱼乙姬"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_30514.png",
+      "id": 30514,
+      "name": "光月时"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_30515.png",
+      "id": 30515,
+      "name": "蕾玖"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40401.png",
+      "id": 40401,
+      "name": "布鲁诺"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40402.png",
+      "id": 40402,
+      "name": "猫头鹰"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40403.png",
+      "id": 40403,
+      "name": "加布拉"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40404.png",
+      "id": 40404,
+      "name": "卡莉法"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40501.png",
+      "id": 40501,
+      "name": "路奇"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40502.png",
+      "id": 40502,
+      "name": "战桃丸"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40503.png",
+      "id": 40503,
+      "name": "黄猿"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40504.png",
+      "id": 40504,
+      "name": "卡普"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40505.png",
+      "id": 40505,
+      "name": "斯摩格"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40506.png",
+      "id": 40506,
+      "name": "青雉"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40507.png",
+      "id": 40507,
+      "name": "鹤"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40508.png",
+      "id": 40508,
+      "name": "战国"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40509.png",
+      "id": 40509,
+      "name": "麦哲伦"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40510.png",
+      "id": 40510,
+      "name": "赤犬"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40511.png",
+      "id": 40511,
+      "name": "藤虎"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40512.png",
+      "id": 40512,
+      "name": "泽法"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40513.png",
+      "id": 40513,
+      "name": "桃兔"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_40514.png",
+      "id": 40514,
+      "name": "茶豚"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50301.png",
+      "id": 50301,
+      "name": "蒙卡"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50401.png",
+      "id": 50401,
+      "name": "克洛"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50402.png",
+      "id": 50402,
+      "name": "阿龙"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50403.png",
+      "id": 50403,
+      "name": "克利克"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50404.png",
+      "id": 50404,
+      "name": "瓦尔波"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50501.png",
+      "id": 50501,
+      "name": "索隆(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50502.png",
+      "id": 50502,
+      "name": "冥王雷利"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50503.png",
+      "id": 50503,
+      "name": "巴杰斯"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50504.png",
+      "id": 50504,
+      "name": "香克斯"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50505.png",
+      "id": 50505,
+      "name": "黑胡子(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50506.png",
+      "id": 50506,
+      "name": "雨之希留"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50507.png",
+      "id": 50507,
+      "name": "艾斯（魂）"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50508.png",
+      "id": 50508,
+      "name": "白胡子"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50509.png",
+      "id": 50509,
+      "name": "路飞(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50510.png",
+      "id": 50510,
+      "name": "马尔科"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50511.png",
+      "id": 50511,
+      "name": "卡塔库栗"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50512.png",
+      "id": 50512,
+      "name": "凯多"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50513.png",
+      "id": 50513,
+      "name": "BIG·MOM"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50514.png",
+      "id": 50514,
+      "name": "光月御田"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50515.png",
+      "id": 50515,
+      "name": "巴雷特"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50516.png",
+      "id": 50516,
+      "name": "杰克"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_50517.png",
+      "id": 50517,
+      "name": "奎因"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70501.png",
+      "id": 70501,
+      "name": "索隆(和之国)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70502.png",
+      "id": 70502,
+      "name": "罗(和之国)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70503.png",
+      "id": 70503,
+      "name": "路飞(四挡)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70504.png",
+      "id": 70504,
+      "name": "路飞(尼卡形态)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70505.png",
+      "id": 70505,
+      "name": "凯多(神龙)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70506.png",
+      "id": 70506,
+      "name": "佛之战国"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70507.png",
+      "id": 70507,
+      "name": "金狮子·史基"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70508.png",
+      "id": 70508,
+      "name": "藤虎(三大将)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70509.png",
+      "id": 70509,
+      "name": "凯撒"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70510.png",
+      "id": 70510,
+      "name": "黑胡子(四皇)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70511.png",
+      "id": 70511,
+      "name": "山治(杰尔马)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70512.png",
+      "id": 70512,
+      "name": "圆月猫蝮蛇"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70513.png",
+      "id": 70513,
+      "name": "萨坦圣"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70514.png",
+      "id": 70514,
+      "name": "汉库克(七武海)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70515.png",
+      "id": 70515,
+      "name": "克力架"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70516.png",
+      "id": 70516,
+      "name": "夏洛特·斯慕吉"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70517.png",
+      "id": 70517,
+      "name": "哥尔·D·罗杰"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70518.png",
+      "id": 70518,
+      "name": "未来流行·鹰眼"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70519.png",
+      "id": 70519,
+      "name": "乌索普(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70520.png",
+      "id": 70520,
+      "name": "弗兰奇(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70521.png",
+      "id": 70521,
+      "name": "佩罗娜"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70522.png",
+      "id": 70522,
+      "name": "巴托洛米奥"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70523.png",
+      "id": 70523,
+      "name": "布鲁克(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70524.png",
+      "id": 70524,
+      "name": "艾斯(龙年)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70525.png",
+      "id": 70525,
+      "name": "乌塔(世界歌姬)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70527.png",
+      "id": 70527,
+      "name": "佩罗斯佩鲁"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70528.png",
+      "id": 70528,
+      "name": "文斯莫克·伽治"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70529.png",
+      "id": 70529,
+      "name": "文斯莫克·伊治"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70530.png",
+      "id": 70530,
+      "name": "炎灾·烬"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70531.png",
+      "id": 70531,
+      "name": "绿牛"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70532.png",
+      "id": 70532,
+      "name": "索隆(鬼岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70533.png",
+      "id": 70533,
+      "name": "路飞(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70534.png",
+      "id": 70534,
+      "name": "索隆(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70535.png",
+      "id": 70535,
+      "name": "娜美(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70536.png",
+      "id": 70536,
+      "name": "乌索普(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70537.png",
+      "id": 70537,
+      "name": "山治(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70538.png",
+      "id": 70538,
+      "name": "罗宾(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70539.png",
+      "id": 70539,
+      "name": "弗兰奇(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70540.png",
+      "id": 70540,
+      "name": "布鲁克(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70541.png",
+      "id": 70541,
+      "name": "日奈"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70542.png",
+      "id": 70542,
+      "name": "大和(赛博朋克)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70543.png",
+      "id": 70543,
+      "name": "夏洛特玲玲"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70544.png",
+      "id": 70544,
+      "name": "路飞(和之国)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70545.png",
+      "id": 70545,
+      "name": "尼治"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70546.png",
+      "id": 70546,
+      "name": "贝克曼"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70547.png",
+      "id": 70547,
+      "name": "白胡子(巅峰)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70548.png",
+      "id": 70548,
+      "name": "熊(机械)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70549.png",
+      "id": 70549,
+      "name": "娜美(宙斯)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_70550.png",
+      "id": 70550,
+      "name": "山治(鬼岛)"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_90527.png",
+      "id": 90527,
+      "name": "狼邢"
+    },
+    {
+      "path": "resource/bigbg/partnercard/partnercard_709830.png",
+      "id": 709830,
+      "name": "库赞"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10101.png",
+      "id": 10101,
+      "name": "海贼1号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10201.png",
+      "id": 10201,
+      "name": "海贼2号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10202.png",
+      "id": 10202,
+      "name": "海贼3号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10301.png",
+      "id": 10301,
+      "name": "海贼4号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10302.png",
+      "id": 10302,
+      "name": "海贼5号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10303.png",
+      "id": 10303,
+      "name": "海贼6号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10304.png",
+      "id": 10304,
+      "name": "汉尼拔"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10305.png",
+      "id": 10305,
+      "name": "海贼8号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10401.png",
+      "id": 10401,
+      "name": "修罗"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10402.png",
+      "id": 10402,
+      "name": "卡巴奇"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10403.png",
+      "id": 10403,
+      "name": "小八"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10404.png",
+      "id": 10404,
+      "name": "杰斯"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10405.png",
+      "id": 10405,
+      "name": "克罗马利蒙"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10501.png",
+      "id": 10501,
+      "name": "幽冥公主"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10502.png",
+      "id": 10502,
+      "name": "艾斯"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10503.png",
+      "id": 10503,
+      "name": "德雷克"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10504.png",
+      "id": 10504,
+      "name": "贝基"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10505.png",
+      "id": 10505,
+      "name": "基德"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10506.png",
+      "id": 10506,
+      "name": "大悟"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10507.png",
+      "id": 10507,
+      "name": "贝拉米"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10508.png",
+      "id": 10508,
+      "name": "小丑巴基"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10509.png",
+      "id": 10509,
+      "name": "冯克雷"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10510.png",
+      "id": 10510,
+      "name": "艾尼路"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10511.png",
+      "id": 10511,
+      "name": "罗"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10512.png",
+      "id": 10512,
+      "name": "萨博（路西）"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10513.png",
+      "id": 10513,
+      "name": "霍金斯"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_10514.png",
+      "id": 10514,
+      "name": "阿普"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20101.png",
+      "id": 20101,
+      "name": "平民"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20201.png",
+      "id": 20201,
+      "name": "海贼9号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20202.png",
+      "id": 20202,
+      "name": "海贼10号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20301.png",
+      "id": 20301,
+      "name": "海贼11号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20302.png",
+      "id": 20302,
+      "name": "女儿国战士"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20303.png",
+      "id": 20303,
+      "name": "海贼12号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20304.png",
+      "id": 20304,
+      "name": "鱼人1号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20305.png",
+      "id": 20305,
+      "name": "海贼13号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20401.png",
+      "id": 20401,
+      "name": "冰山"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20402.png",
+      "id": 20402,
+      "name": "娜美"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20403.png",
+      "id": 20403,
+      "name": "天空骑士"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20404.png",
+      "id": 20404,
+      "name": "巴里"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20405.png",
+      "id": 20405,
+      "name": "索隆"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20501.png",
+      "id": 20501,
+      "name": "弗兰奇"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20502.png",
+      "id": 20502,
+      "name": "乌索普"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20503.png",
+      "id": 20503,
+      "name": "薇薇"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20504.png",
+      "id": 20504,
+      "name": "布鲁克"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20505.png",
+      "id": 20505,
+      "name": "娜美(伟大航路)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20506.png",
+      "id": 20506,
+      "name": "韦伯"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20507.png",
+      "id": 20507,
+      "name": "乔巴"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20508.png",
+      "id": 20508,
+      "name": "索隆(伟大航路)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20509.png",
+      "id": 20509,
+      "name": "山治"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20510.png",
+      "id": 20510,
+      "name": "路飞"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20511.png",
+      "id": 20511,
+      "name": "甚平"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20512.png",
+      "id": 20512,
+      "name": "罗宾"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20513.png",
+      "id": 20513,
+      "name": "白星"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_20514.png",
+      "id": 20514,
+      "name": "大和"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30101.png",
+      "id": 30101,
+      "name": "强者海贼1号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30201.png",
+      "id": 30201,
+      "name": "海贼14号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30202.png",
+      "id": 30202,
+      "name": "海军2号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30301.png",
+      "id": 30301,
+      "name": "僵尸1号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30302.png",
+      "id": 30302,
+      "name": "Mr.9"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30303.png",
+      "id": 30303,
+      "name": "鱼人3号"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30304.png",
+      "id": 30304,
+      "name": "Mr.5"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30305.png",
+      "id": 30305,
+      "name": "玛格丽特"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30401.png",
+      "id": 30401,
+      "name": "Mr.3"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30402.png",
+      "id": 30402,
+      "name": "阿布萨罗姆"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30403.png",
+      "id": 30403,
+      "name": "Mr.1"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30404.png",
+      "id": 30404,
+      "name": "Mr.双手指"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30405.png",
+      "id": 30405,
+      "name": "Mr.情人节"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30501.png",
+      "id": 30501,
+      "name": "鳄鱼"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30502.png",
+      "id": 30502,
+      "name": "暴君熊"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30503.png",
+      "id": 30503,
+      "name": "伊万科夫"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30504.png",
+      "id": 30504,
+      "name": "闪电"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30505.png",
+      "id": 30505,
+      "name": "霍古巴克"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30506.png",
+      "id": 30506,
+      "name": "萨博（火拳）"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30507.png",
+      "id": 30507,
+      "name": "月光莫利亚"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30508.png",
+      "id": 30508,
+      "name": "龙马"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30509.png",
+      "id": 30509,
+      "name": "鹰眼"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30510.png",
+      "id": 30510,
+      "name": "多弗朗明哥"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30511.png",
+      "id": 30511,
+      "name": "汉库克"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30512.png",
+      "id": 30512,
+      "name": "黑胡子"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30513.png",
+      "id": 30513,
+      "name": "金鱼乙姬"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30514.png",
+      "id": 30514,
+      "name": "光月时"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_30515.png",
+      "id": 30515,
+      "name": "蕾玖"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40301.png",
+      "id": 40301,
+      "name": "达斯琪"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40401.png",
+      "id": 40401,
+      "name": "布鲁诺"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40402.png",
+      "id": 40402,
+      "name": "猫头鹰"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40403.png",
+      "id": 40403,
+      "name": "加布拉"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40404.png",
+      "id": 40404,
+      "name": "卡莉法"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40501.png",
+      "id": 40501,
+      "name": "路奇"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40502.png",
+      "id": 40502,
+      "name": "战桃丸"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40503.png",
+      "id": 40503,
+      "name": "黄猿"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40504.png",
+      "id": 40504,
+      "name": "卡普"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40505.png",
+      "id": 40505,
+      "name": "斯摩格"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40506.png",
+      "id": 40506,
+      "name": "青雉"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40507.png",
+      "id": 40507,
+      "name": "鹤"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40508.png",
+      "id": 40508,
+      "name": "战国"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40509.png",
+      "id": 40509,
+      "name": "麦哲伦"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40510.png",
+      "id": 40510,
+      "name": "赤犬"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40511.png",
+      "id": 40511,
+      "name": "藤虎"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40512.png",
+      "id": 40512,
+      "name": "泽法"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40513.png",
+      "id": 40513,
+      "name": "桃兔"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_40514.png",
+      "id": 40514,
+      "name": "茶豚"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50301.png",
+      "id": 50301,
+      "name": "蒙卡"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50401.png",
+      "id": 50401,
+      "name": "克洛"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50402.png",
+      "id": 50402,
+      "name": "阿龙"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50403.png",
+      "id": 50403,
+      "name": "克利克"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50404.png",
+      "id": 50404,
+      "name": "瓦尔波"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50501.png",
+      "id": 50501,
+      "name": "索隆(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50502.png",
+      "id": 50502,
+      "name": "冥王雷利"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50503.png",
+      "id": 50503,
+      "name": "巴杰斯"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50504.png",
+      "id": 50504,
+      "name": "香克斯"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50505.png",
+      "id": 50505,
+      "name": "黑胡子(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50506.png",
+      "id": 50506,
+      "name": "雨之希留"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50507.png",
+      "id": 50507,
+      "name": "艾斯（魂）"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50508.png",
+      "id": 50508,
+      "name": "白胡子"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50509.png",
+      "id": 50509,
+      "name": "路飞(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50510.png",
+      "id": 50510,
+      "name": "马尔科"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50511.png",
+      "id": 50511,
+      "name": "卡塔库栗"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50512.png",
+      "id": 50512,
+      "name": "凯多"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50513.png",
+      "id": 50513,
+      "name": "BIG·MOM"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50514.png",
+      "id": 50514,
+      "name": "光月御田"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50515.png",
+      "id": 50515,
+      "name": "巴雷特"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50516.png",
+      "id": 50516,
+      "name": "杰克"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_50517.png",
+      "id": 50517,
+      "name": "奎因"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70501.png",
+      "id": 70501,
+      "name": "索隆(和之国)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70502.png",
+      "id": 70502,
+      "name": "罗(和之国)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70503.png",
+      "id": 70503,
+      "name": "路飞(四挡)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70504.png",
+      "id": 70504,
+      "name": "路飞(尼卡形态)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70505.png",
+      "id": 70505,
+      "name": "凯多(神龙)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70506.png",
+      "id": 70506,
+      "name": "佛之战国"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70507.png",
+      "id": 70507,
+      "name": "金狮子·史基"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70508.png",
+      "id": 70508,
+      "name": "藤虎(三大将)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70509.png",
+      "id": 70509,
+      "name": "凯撒"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70510.png",
+      "id": 70510,
+      "name": "黑胡子(四皇)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70511.png",
+      "id": 70511,
+      "name": "山治(杰尔马)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70512.png",
+      "id": 70512,
+      "name": "圆月猫蝮蛇"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70513.png",
+      "id": 70513,
+      "name": "萨坦圣"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70514.png",
+      "id": 70514,
+      "name": "汉库克(七武海)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70515.png",
+      "id": 70515,
+      "name": "克力架"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70516.png",
+      "id": 70516,
+      "name": "夏洛特·斯慕吉"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70517.png",
+      "id": 70517,
+      "name": "哥尔·D·罗杰"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70518.png",
+      "id": 70518,
+      "name": "未来流行·鹰眼"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70519.png",
+      "id": 70519,
+      "name": "乌索普(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70520.png",
+      "id": 70520,
+      "name": "弗兰奇(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70521.png",
+      "id": 70521,
+      "name": "佩罗娜"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70522.png",
+      "id": 70522,
+      "name": "巴托洛米奥"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70523.png",
+      "id": 70523,
+      "name": "布鲁克(新世界)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70524.png",
+      "id": 70524,
+      "name": "艾斯(龙年)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70525.png",
+      "id": 70525,
+      "name": "乌塔(世界歌姬)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70527.png",
+      "id": 70527,
+      "name": "佩罗斯佩鲁"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70528.png",
+      "id": 70528,
+      "name": "文斯莫克·伽治"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70529.png",
+      "id": 70529,
+      "name": "文斯莫克·伊治"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70530.png",
+      "id": 70530,
+      "name": "炎灾·烬"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70531.png",
+      "id": 70531,
+      "name": "绿牛"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70532.png",
+      "id": 70532,
+      "name": "索隆(鬼岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70533.png",
+      "id": 70533,
+      "name": "路飞(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70534.png",
+      "id": 70534,
+      "name": "索隆(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70535.png",
+      "id": 70535,
+      "name": "娜美(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70536.png",
+      "id": 70536,
+      "name": "乌索普(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70537.png",
+      "id": 70537,
+      "name": "山治(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70538.png",
+      "id": 70538,
+      "name": "罗宾(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70539.png",
+      "id": 70539,
+      "name": "弗兰奇(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70540.png",
+      "id": 70540,
+      "name": "布鲁克(蛋头岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70541.png",
+      "id": 70541,
+      "name": "日奈"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70542.png",
+      "id": 70542,
+      "name": "大和(赛博朋克)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70543.png",
+      "id": 70543,
+      "name": "夏洛特玲玲"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70544.png",
+      "id": 70544,
+      "name": "路飞(和之国)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70545.png",
+      "id": 70545,
+      "name": "尼治"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70546.png",
+      "id": 70546,
+      "name": "贝克曼"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70547.png",
+      "id": 70547,
+      "name": "白胡子(巅峰)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70548.png",
+      "id": 70548,
+      "name": "熊(机械)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70549.png",
+      "id": 70549,
+      "name": "娜美(宙斯)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_70550.png",
+      "id": 70550,
+      "name": "山治(鬼岛)"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_90527.png",
+      "id": 90527,
+      "name": "狼邢"
+    },
+    {
+      "path": "resource/bigbg/partner/partner_709830.png",
+      "id": 709830,
+      "name": "库赞"
+    }
+  ]
+}

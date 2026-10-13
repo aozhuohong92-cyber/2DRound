@@ -5,6 +5,7 @@ from bundle import bundle
 from pack_lua import encode
 from prepare_assets import prepare, source_path
 from zipcheck import assert_audio_uncompressed
+from hero_art import iter_hero_art
 PROJ = Path(__file__).resolve().parent
 ROOT = PROJ.parents[1]
 BUILD = ROOT / 'work/offline-build'
@@ -60,6 +61,7 @@ def verify(apk=False):
                 csb_frames.update(s.decode() for s in refs if b'/' not in s)
         assert not csb_frames - frames, f'Missing CSB frames: {csb_frames - frames}'
         apk_hash = None
+        hero_art_count = None
         audio_checked = None
         if apk:
             path = PROJ / 'offline-client.apk'
@@ -68,12 +70,19 @@ def verify(apk=False):
                 for row in resources.values():
                     assert hashlib.sha256(z.read(row['archive'])).hexdigest() == row['sha256']
                 assert z.read('assets/HASH/D/D6D87D9149AFCAB5.luac') == encode(source)
+                art = list(iter_hero_art())
+                names = set(z.namelist())
+                for arc, local in art:
+                    assert arc in names, f'hero art missing from APK: {arc}'
+                    data = z.read(arc)
+                    assert data == local.read_bytes() and (data[:4] == b'RIFF' and data[8:12] == b'WEBP') or data[:8] == b'\x89PNG\r\n\x1a\n', arc
+                hero_art_count = len(art)
             # AssetManager.openFd (sound effects) needs stored, 4-byte aligned audio.
             audio_checked = assert_audio_uncompressed(path)
             apk_hash = hashlib.sha256(path.read_bytes()).hexdigest()
     report = {'stage': 1, 'core_tests': int(re.search(r'TOTAL (\d+) PASS', result.stdout).group(1)), 'skill_test_groups': 5, 'encoding_roundtrips': len(cases), 'resources': len(resources),
               'csb_frames_resolved': len(csb_frames), 'bundled_modules': modules, 'syntax': 'PASS',
-              'apk_sha256': apk_hash, 'audio_uncompressed': audio_checked, 'device_tested': False,
+              'apk_sha256': apk_hash, 'hero_art_files': hero_art_count, 'audio_uncompressed': audio_checked, 'device_tested': False,
               'limitations': ['Native Spine/CSB rendering and input require later device verification.',
                               'Offline fixture data does not reproduce original server rules.',
                               'Two-slot recovery may restore the preceding committed revision; no fsync guarantee.']}

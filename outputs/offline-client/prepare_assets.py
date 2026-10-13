@@ -41,6 +41,8 @@ STAGE3 = [
     'resource/bigbg/pattern/pattern_3.png',
     'resource/bigbg/battle_bg/10008/m_bg.jpg',
     'resource/bigbg/battle_bg/10008/map_bg.png',
+    # Item icon used by the reference drama screen (diamond); other item icons are not local.
+    'resource/item/3.png',
 ]
 SEEDS += STAGE3
 
