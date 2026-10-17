@@ -4,6 +4,7 @@
 -- card frames, camp icons) is not in the local resource set, so those parts are labelled
 -- placeholders; hero portraits come from the archived art (assets/ui/英雄).
 local Lib = require('offline.hero_library')
+local Detail = require('offline.hero_detail')
 local M = {}
 local S = 0.8
 
@@ -136,6 +137,7 @@ function M.attach(canvas, size, trace, options)
         label(parent, string.rep('★', hero.star), cx, cy - 44, 14, lit and {255, 214, 60} or {140, 140, 140}, 5)
         -- Top-left camp emblem: the original shows a camp icon; the icons are not in the
         -- local resource set and the camp names are not recovered, so nothing is drawn yet.
+        if spec.tap then button(parent, card_size, card_size, cx, cy, spec.tap, 9) end
         if spec.badge then
             box(parent, 30, 30, cx + 38, cy - 38, {190, 40, 40}, 6)
             label(parent, spec.badge, cx + 38, cy - 38, 18, {255, 255, 255}, 7)
@@ -191,6 +193,7 @@ function M.attach(canvas, size, trace, options)
     end
 
     local builders = {}
+    local shared = {library_camp = Lib.default_camp}
 
     builders.library = function(parent)
         local camp = Lib.default_camp
@@ -199,10 +202,13 @@ function M.attach(canvas, size, trace, options)
         for _, cid in ipairs(Lib.camps) do entries[#entries + 1] = {id = cid, text = Lib.camp_short(cid)} end
         local select = make_filter(parent, entries, {215, 313, 410, 510, 605, 705}, function(id)
             camp = id
+            shared.library_camp = id
             reset_stats()
             local specs, owned = {}, 0
             for _, e in ipairs(Lib.entries(camp, lit_set)) do
-                specs[#specs + 1] = {hero = e.hero, lit = e.owned, number = e.hero.lev_limit}
+                local bid = e.hero.bid
+                specs[#specs + 1] = {hero = e.hero, lit = e.owned, number = e.hero.lev_limit,
+                                     tap = function() shared.show_detail(bid) end}
                 if e.owned then owned = owned + 1 end
             end
             render(specs)
@@ -226,7 +232,8 @@ function M.attach(canvas, size, trace, options)
             reset_stats()
             local specs = {}
             for _, e in ipairs(Lib.roster(snapshot, id, roster_sample)) do
-                specs[#specs + 1] = {hero = e.hero, lit = true, number = e.level, badge = e.in_team and '战' or nil}
+                specs[#specs + 1] = {hero = e.hero, lit = true, number = e.level, badge = e.in_team and '战' or nil,
+                                     tap = function() toast('「' .. e.hero.name .. '」英雄详情尚未还原（图鉴页可查看资料）') end}
             end
             render(specs)
             trace(string.format('HERO_LIST_GRID camp=%d heroes=%d total=%d %s', id, #specs, total, stats_text()))
@@ -363,11 +370,120 @@ function M.attach(canvas, size, trace, options)
         select(1)
     end
 
+    -- Single-hero panel (pokedex mode) laid out from the reference screenshot.
+    local detail_layer
+    local function hide_detail()
+        if detail_layer then detail_layer:removeFromParent(); detail_layer = nil end
+    end
+    local function show_detail(bid)
+        hide_detail()
+        local info = Detail.info(bid)
+        if not info then toast('该英雄暂无图鉴数据'); return end
+        local layer = cc.Node:create()
+        layer:setName('hero_detail')
+        root:addChild(layer, 20)
+        detail_layer = layer
+        local cx = size.width / 2
+        box(layer, size.width, size.height, cx, size.height / 2, {38, 46, 58}, 0)
+        label(layer, '背景 [缺资源]', cx, YT(300), 16, {120, 130, 150}, 1)
+        -- Name plate with the star under it.
+        box(layer, 130, 130, X(455), YT(395), {120, 70, 50}, 2)
+        box(layer, 340, 52, X(455), YT(395), {64, 36, 30}, 3)
+        label(layer, info.name, X(455), YT(395), 28, {255, 255, 255}, 4)
+        label(layer, string.rep('★', info.star), X(455), YT(458), 20, {255, 214, 60}, 4)
+        local function round(x, y, text, tap)
+            box(layer, 52, 52, x, y, {110, 90, 70}, 3)
+            label(layer, text, x, y, 16, {255, 255, 255}, 4)
+            button(layer, 52, 52, x, y, tap, 6)
+        end
+        round(X(210), YT(505), '外观', function() toast('「外观」尚未还原') end)
+        round(X(690), YT(508), '语音', function() toast('「语音」尚未还原') end)
+        label(layer, '战斗力', X(395), YT(525), 24, {255, 190, 90}, 4)
+        label(layer, tostring(info.power), X(520), YT(525), 26, {255, 255, 255}, 4)
+        -- Hero figure: rendered panel portrait (resource/heroportrait/<bid>.png, 600x800 canvas
+        -- with the character's feet near the bottom). Falls back to a head icon on a
+        -- placeholder when the portrait is missing.
+        local figure = try_sprite('resource/heroportrait/' .. bid .. '.png')
+        if figure then
+            local cs = figure:getContentSize()
+            figure:setAnchorPoint(0.5, 0)
+            -- Feet sit just above the info panel (bottom group); the figure scales down on
+            -- shorter screens so it never reaches the power line.
+            local feet = YB(1275)
+            figure:setScale(math.min(0.5, (YT(560) - feet) / cs.height))
+            figure:setPosition(X(450), feet)
+            layer:addChild(figure, 3)
+        else
+            box(layer, 230, 330, X(455), YT(950), {70, 80, 98, 200}, 2)
+            local head = try_sprite('resource/headicon/' .. bid .. '.png')
+            if head then
+                local cs = head:getContentSize()
+                head:setScale(170 / math.max(cs.width, cs.height))
+                head:setPosition(X(455), YT(900))
+                layer:addChild(head, 3)
+            end
+            label(layer, info.model .. ' 立绘/Spine [缺资源]', X(455), YT(1090), 14, {180, 190, 210}, 4)
+        end
+        -- Neighbour arrows (library order of the current camp).
+        local list = Lib.list(shared.library_camp)
+        local prev_bid, next_bid = Detail.neighbor(list, bid, -1), Detail.neighbor(list, bid, 1)
+        local function arrow(x, text, target)
+            if not target then return end
+            label(layer, text, x, YT(1025), 44, {255, 255, 255}, 5)
+            button(layer, 70, 120, x, YT(1025), function() show_detail(target) end, 7)
+        end
+        arrow(X(40), '<', prev_bid)
+        arrow(X(860), '>', next_bid)
+        -- Info panel (bottom group).
+        box(layer, size.width, YB(1270) - YB(1750), cx, (YB(1270) + YB(1750)) / 2, {96, 78, 56, 235}, 2)
+        local function left(text, y, font, rgb)
+            return label(layer, text, X(38), y, font or 24, rgb or {235, 220, 190}, 4):setAnchorPoint(0, 0.5)
+        end
+        left('进阶:', YB(1320))
+        label(layer, string.rep('★', info.star), X(145), YB(1320), 26, {255, 214, 60}, 4)
+        left('升级:', YB(1380))
+        box(layer, 196, 44, X(235), YB(1380), {120, 105, 86}, 3)
+        label(layer, info.capped and '已达等级上限' or '升级', X(235), YB(1380), 22, {235, 225, 205}, 4)
+        left(string.format('等级: %d/%d', info.lev, info.lev_max), YB(1443))
+        label(layer, info.career_name .. info.intro, X(595), YB(1443), 24, {235, 220, 190}, 4)
+        local a = info.attrs
+        for i, item in ipairs({{'攻', a.atk}, {'血', a.hp}, {'防', a.def}, {'速', a.speed}}) do
+            local x = X(({60, 280, 500, 665})[i])
+            label(layer, item[1], x, YB(1510), 22, {255, 190, 90}, 4)
+            label(layer, tostring(item[2]), x + 70, YB(1510), 28, {245, 235, 215}, 4)
+        end
+        round(X(830), YB(1507), '?', function() toast('属性为该英雄在星级等级上限时的数值') end)
+        for i, skill in ipairs(info.skills) do
+            local x = X(450) + (i - 1 - (#info.skills - 1) / 2) * 110
+            -- Skill icon (resource/skillicon/<icon>.png); the default attack icon 20000 stands in
+            -- for ids the original package lacks, then a labelled placeholder.
+            local icon = try_sprite('resource/skillicon/' .. skill.icon .. '.png')
+                or try_sprite('resource/skillicon/20000.png')
+            if icon then
+                local cs = icon:getContentSize()
+                icon:setScale(88 / math.max(cs.width, cs.height))
+                icon:setPosition(x, YB(1620))
+                layer:addChild(icon, 3)
+            else
+                box(layer, 88, 88, x, YB(1620), {150, 90, 40}, 3)
+                label(layer, skill.name, x, YB(1620), 16, {255, 255, 255}, 4)
+            end
+            box(layer, 26, 26, x - 34, YB(1620) + 34, {70, 60, 50}, 5)
+            label(layer, tostring(skill.level), x - 34, YB(1620) + 34, 16, {255, 255, 255}, 6)
+        end
+        local back = left('返 回', YB(1690), 30, {255, 255, 255})
+        button(layer, 130, 70, X(70), YB(1690), hide_detail, 8)
+        trace(string.format('HERO_DETAIL %d %s power=%d atk=%d hp=%d skills=%d', bid, info.name, info.power,
+            a.atk, a.hp, #info.skills))
+    end
+    shared.show_detail = show_detail
+
     -- Tabs.
     local tab_x = {175, 322, 470, 618}
     local active
     local tab_normal, tab_selected = {}, {}
     local function show_tab(id)
+        hide_detail()
         active = id
         for tid, b in pairs(tab_selected) do b:setVisible(tid == id) end
         for tid, b in pairs(tab_normal) do b:setVisible(tid ~= id) end

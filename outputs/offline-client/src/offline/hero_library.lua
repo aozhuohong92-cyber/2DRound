@@ -42,6 +42,8 @@ end
 
 function M.count(camp) return #M.list(camp) end
 
+function M.hero(bid) return Data.heroes[bid] end
+
 -- Owned set from a state snapshot (State.initial().heroes is keyed by string bid).
 function M.owned_from_snapshot(snapshot)
     local owned = {}

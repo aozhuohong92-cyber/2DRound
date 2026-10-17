@@ -14,6 +14,7 @@ function M.attach(canvas, size, trace, options)
     -- Original city_data: 1350x1280; original renderMapPic offsets and layer order.
     if options.show_map ~= false then
         local map = cc.Node:create()
+        map:setName('city_map')
         local map_scale = math.max(size.width / 720, (size.height - 70) / 1280)
         map:setScale(map_scale)
         map:setPosition(size.width / 2 - 360 * map_scale - 505 * map_scale, 0)
@@ -26,6 +27,12 @@ function M.attach(canvas, size, trace, options)
             local dimensions = sprite:getContentSize()
             trace('CITY_LAYER ' .. file .. ' ' .. dimensions.width .. 'x' .. dimensions.height)
         end
+    end
+    -- Reference-screenshot overlay (building bubbles, activity row, side banner, bottom buttons).
+    -- Only on the city map screen; other screens hide the map and keep their own layouts.
+    if options.show_map ~= false and options.hud ~= false then
+        local ok, err = pcall(function() require('offline.city_hud').attach_buildings(canvas:getChildByName('city_map'), trace) end)
+        if not ok then trace('CITY_BUILDINGS_ERROR ' .. tostring(err)) end
     end
     -- Explicitly preload the atlas the CSB references, and prove key frames resolve.
     for _, plist in ipairs({'resource/mainui/mainui.plist', 'resource/common/common.plist'}) do
@@ -126,6 +133,10 @@ function M.attach(canvas, size, trace, options)
                 end)
             end
         end
+    end
+    if options.show_map ~= false and options.hud ~= false then
+        local ok, err = pcall(function() require('offline.city_hud').attach_hud(canvas, size, trace) end)
+        if not ok then trace('CITY_HUD_ERROR ' .. tostring(err)) end
     end
     M.node = node
     M.bottom_height = bottom and bottom:getContentSize().height or 0

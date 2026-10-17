@@ -52,15 +52,16 @@ local function add_debug_buttons(canvas, size)
     button(canvas, '图集调试', size.width - 95, size.height - 32, openAtlasViewer, 200)
 end
 
-local openMainCity, openDramaScene, openHeroScene
+local openMainCity, openDramaScene, openHeroScene, openExerciseScene
 local drama_state_snapshot
 
 openMainCity = function()
     return route:go('main_city', function()
         local scene, canvas, size = newScene()
         local MainCity = require('offline.main_city')
-        MainCity.attach(canvas, size, trace, {on_drama = openDramaScene, on_nav = function(index)
-            if index == 2 then openHeroScene() end
+        MainCity.attach(canvas, size, trace, {top_values = require('offline.drama_reference').top,
+            on_drama = openDramaScene, on_nav = function(index)
+            if index == 2 then openHeroScene() elseif index == 5 then openExerciseScene() end
         end})
         add_debug_buttons(canvas, size)
         cc.Director:getInstance():replaceScene(scene)
@@ -77,7 +78,8 @@ openDramaScene = function()
             hide_top = false,
             top_values = require('offline.drama_reference').top,
             on_nav = function(index)
-                if index == 1 then openMainCity() elseif index == 2 then openHeroScene() end
+                if index == 1 then openMainCity() elseif index == 2 then openHeroScene()
+                elseif index == 5 then openExerciseScene() end
             end,
         })
         require('offline.drama_scene').attach(canvas, size, trace, {
@@ -100,7 +102,7 @@ openHeroScene = function()
             hide_top = false,
             top_values = require('offline.drama_reference').top,
             on_nav = function(index)
-                if index == 1 then openMainCity() end
+                if index == 1 then openMainCity() elseif index == 5 then openExerciseScene() end
             end,
             on_drama = openDramaScene,
         })
@@ -114,6 +116,31 @@ openHeroScene = function()
         end
         cc.Director:getInstance():replaceScene(scene)
         trace('SCENE HERO_LIBRARY ok=' .. tostring(ok))
+    end)
+end
+
+openExerciseScene = function()
+    return route:go('exercise_scene', function()
+        local scene, canvas, size = newScene()
+        local MainCity = require('offline.main_city')
+        MainCity.attach(canvas, size, trace, {
+            show_map = false,
+            hide_top = false,
+            top_values = require('offline.drama_reference').top,
+            on_nav = function(index)
+                if index == 1 then openMainCity() elseif index == 2 then openHeroScene() end
+            end,
+            on_drama = openDramaScene,
+        })
+        local ok, err = xpcall(function()
+            require('offline.exercise_scene').attach(canvas, size, trace, {})
+        end, debug.traceback)
+        if not ok then
+            trace('EXERCISE_SCENE_ERROR ' .. tostring(err))
+            label(canvas, '历练页加载失败：' .. tostring(err):match('^[^\n]*'), size.height * 0.55, 18)
+        end
+        cc.Director:getInstance():replaceScene(scene)
+        trace('SCENE EXERCISE ok=' .. tostring(ok))
     end)
 end
 
@@ -152,8 +179,10 @@ local ok, err = xpcall(function()
     trace('ASSETS_OK')
     local city_ok, city_err = pcall(function()
         route:go('main_city', function()
-            require('offline.main_city').attach(canvas, size, trace, {on_drama = openDramaScene, on_nav = function(index)
-                if index == 2 then openHeroScene() end
+            require('offline.main_city').attach(canvas, size, trace, {
+                top_values = require('offline.drama_reference').top,
+                on_drama = openDramaScene, on_nav = function(index)
+                if index == 2 then openHeroScene() elseif index == 5 then openExerciseScene() end
             end})
         end)
     end)
