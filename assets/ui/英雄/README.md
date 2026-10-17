@@ -9,6 +9,8 @@
 | `头像/<编号>.webp 或 .png` | 英雄头像 | `resource/headicon/<编号>.png` | 英雄列表、阵容等小头像 |
 | `图鉴立绘/partnercard_<编号>.webp 或 .png` | 图鉴卡片立绘 | `resource/bigbg/partnercard/partnercard_<编号>.png` | 图鉴列表卡片 |
 | `预览/` | 全部图片的编号预览 | — | 人工核对 |
+| `技能图标/` | 按英雄分目录的技能图标（独立归档，见其 README） | `resource/skillicon/<图标编号>.png` | 英雄详情的技能图标 |
+| `面板人物/` | 英雄面板透明人物图（Spine 渲染，174 张） | `resource/heroportrait/<编号>.png`（项目自定） | 英雄详情的人物 |
 | `缺失清单.json` | 配置有但素材里没有的精确路径 | — | 待补 |
 
 ## 规则

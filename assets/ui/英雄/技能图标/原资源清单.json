@@ -1,0 +1,5210 @@
+[
+  {
+    "hero_folder": "10101_海贼1号",
+    "file": "10101_海贼1号/01_普通攻击_259001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10101_海贼1号",
+    "file": "10101_海贼1号/02_重型弹药_259101_图标25410.png",
+    "icon_id": 25410,
+    "sha256": "52c050b1d3fecf2805de661d4b42964eb08518543e3e755a4ac70a7d7ecc648c",
+    "bytes": 26005
+  },
+  {
+    "hero_folder": "10201_海贼2号",
+    "file": "10201_海贼2号/01_普通攻击_258001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10201_海贼2号",
+    "file": "10201_海贼2号/02_击打_258101_图标15150.png",
+    "icon_id": 15150,
+    "sha256": "29dcdfeb7592033d377a2263bfc2a6399f2079404627ec3669cbe22fd34daf97",
+    "bytes": 33366
+  },
+  {
+    "hero_folder": "10201_海贼2号",
+    "file": "10201_海贼2号/03_爆发_258201_图标20291.png",
+    "icon_id": 20291,
+    "sha256": "258d0c9078b8f5f7a756f8f373e83d22a908b75bd214ad352d1eea474ea93359",
+    "bytes": 29660
+  },
+  {
+    "hero_folder": "10202_海贼3号",
+    "file": "10202_海贼3号/01_普通攻击_260001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10202_海贼3号",
+    "file": "10202_海贼3号/02_冲击劈砍_260101_图标25510.png",
+    "icon_id": 25510,
+    "sha256": "a65a24dd1ddcec596a171ac21606a91b10a0951ea4e34bee38e42c4d61b9f134",
+    "bytes": 28914
+  },
+  {
+    "hero_folder": "10202_海贼3号",
+    "file": "10202_海贼3号/03_磨刀上阵_260201_图标25520.png",
+    "icon_id": 25520,
+    "sha256": "52a5e301cc2e2bd2ab0e140d38d2bff35a8fc488f9fe75ebad5352dc53e58602",
+    "bytes": 32943
+  },
+  {
+    "hero_folder": "10301_海贼4号",
+    "file": "10301_海贼4号/01_普通攻击_261001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10301_海贼4号",
+    "file": "10301_海贼4号/02_炮火轰击_261101_图标15110.png",
+    "icon_id": 15110,
+    "sha256": "dd0f2877805551953263a9673354abb3ff53c8af9ef87bdf68d32142f963b1b6",
+    "bytes": 28288
+  },
+  {
+    "hero_folder": "10301_海贼4号",
+    "file": "10301_海贼4号/03_暴力释放_261201_图标20491.png",
+    "icon_id": 20491,
+    "sha256": "a317e23c5076023386b92a46ff2f50530a22ede60f76d4e936eba96cc88eb435",
+    "bytes": 25164
+  },
+  {
+    "hero_folder": "10302_海贼5号",
+    "file": "10302_海贼5号/01_普通攻击_262001_图标30031.png",
+    "icon_id": 30031,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10302_海贼5号",
+    "file": "10302_海贼5号/02_长枪冲击_262101_图标20610.png",
+    "icon_id": 20610,
+    "sha256": "91d96614d14a57d203203320ff5c10e20f83544dca232ed4afcb1b3b2179aba8",
+    "bytes": 29126
+  },
+  {
+    "hero_folder": "10302_海贼5号",
+    "file": "10302_海贼5号/03_空岛体质_262201_图标20291.png",
+    "icon_id": 20291,
+    "sha256": "258d0c9078b8f5f7a756f8f373e83d22a908b75bd214ad352d1eea474ea93359",
+    "bytes": 29660
+  },
+  {
+    "hero_folder": "10302_海贼5号",
+    "file": "10302_海贼5号/04_空贝爆冲_262301_图标22520.png",
+    "icon_id": 22520,
+    "sha256": "aa354888d979456565a075b48d0ee25409c554dbfe3fb88511b94cefb847aae1",
+    "bytes": 31146
+  },
+  {
+    "hero_folder": "10303_海贼6号",
+    "file": "10303_海贼6号/01_普通攻击_264001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10303_海贼6号",
+    "file": "10303_海贼6号/02_鱼人空手道_264101_图标21810.png",
+    "icon_id": 21810,
+    "sha256": "86cb784d6a6e9ef0a7a28110ab01ea6b39d59d1414855bf60dc3ada1c880fb23",
+    "bytes": 31945
+  },
+  {
+    "hero_folder": "10303_海贼6号",
+    "file": "10303_海贼6号/03_水流护体_264201_图标22920.png",
+    "icon_id": 22920,
+    "sha256": "bbce81be249f9d1fd4ceb3fdb4ba7d1694254a38ce47097f6d5f87c5526b8734",
+    "bytes": 22342
+  },
+  {
+    "hero_folder": "10304_汉尼拔",
+    "file": "10304_汉尼拔/01_普通攻击_225001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10304_汉尼拔",
+    "file": "10304_汉尼拔/02_挥舞_225101_图标20291.png",
+    "icon_id": 20291,
+    "sha256": "258d0c9078b8f5f7a756f8f373e83d22a908b75bd214ad352d1eea474ea93359",
+    "bytes": 29660
+  },
+  {
+    "hero_folder": "10304_汉尼拔",
+    "file": "10304_汉尼拔/03_信念_225201_图标25130.png",
+    "icon_id": 25130,
+    "sha256": "5407a2395d47a2ea0f1af41a9a3d4bb1d66bc3158a7567e5d027ad0c0609d25d",
+    "bytes": 27694
+  },
+  {
+    "hero_folder": "10305_海贼8号",
+    "file": "10305_海贼8号/01_普通攻击_263001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10305_海贼8号",
+    "file": "10305_海贼8号/02_强力挥砍_263101_图标20710.png",
+    "icon_id": 20710,
+    "sha256": "586b5130c846ef6ffc8c2d9c9384cd646d5301416a9eb77e91db0168d01fca47",
+    "bytes": 31071
+  },
+  {
+    "hero_folder": "10305_海贼8号",
+    "file": "10305_海贼8号/03_战鬼_263201_图标24510.png",
+    "icon_id": 24510,
+    "sha256": "1ba4c1b017c798a1203a0b9735897b4a01310ba3ab8eabbdd0fed6f06258ac57",
+    "bytes": 30760
+  },
+  {
+    "hero_folder": "10305_海贼8号",
+    "file": "10305_海贼8号/04_连砍_263301_图标22110.png",
+    "icon_id": 22110,
+    "sha256": "917e8264ca1d7cc3b6dc1144f552b7a0d5c8d25db8e02e0352abaf6c1c2cb5d3",
+    "bytes": 28914
+  },
+  {
+    "hero_folder": "10401_修罗",
+    "file": "10401_修罗/01_普通攻击_200001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10401_修罗",
+    "file": "10401_修罗/02_火之枪_200101_图标20901.png",
+    "icon_id": 20901,
+    "sha256": "02218165a0e58b351bc0a4dfcfe345130d9b9a894d41eab54f215d34be8315e6",
+    "bytes": 30445
+  },
+  {
+    "hero_folder": "10401_修罗",
+    "file": "10401_修罗/03_战鬼_200201_图标20902.png",
+    "icon_id": 20902,
+    "sha256": "35a80b3f4b2795d88917d31b80c9312a4ba135e72e2c5ae852a94e233c461874",
+    "bytes": 32183
+  },
+  {
+    "hero_folder": "10401_修罗",
+    "file": "10401_修罗/04_天空护_200301_图标20903.png",
+    "icon_id": 20903,
+    "sha256": "a9df72f7460be5b12dd0347fd9a5225a0fb9b5676d2b957172a0367afdea4eb8",
+    "bytes": 29831
+  },
+  {
+    "hero_folder": "10402_卡巴奇",
+    "file": "10402_卡巴奇/01_普通攻击_246001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10402_卡巴奇",
+    "file": "10402_卡巴奇/02_水蒸气杀人_246101_图标21091.png",
+    "icon_id": 21091,
+    "sha256": "d9e915fd802ecf574ea2be1859bc42b39b33ce0d9dc4e1c57f47ba4eb1799308",
+    "bytes": 28133
+  },
+  {
+    "hero_folder": "10402_卡巴奇",
+    "file": "10402_卡巴奇/03_狗头军师_246201_图标21092.png",
+    "icon_id": 21092,
+    "sha256": "07d15f87d7a9ffa8044403f33dded9c5cae0c97fa1d1f17a554daf45ca6f3502",
+    "bytes": 30303
+  },
+  {
+    "hero_folder": "10402_卡巴奇",
+    "file": "10402_卡巴奇/04_小鼓舞_246301_图标21093.png",
+    "icon_id": 21093,
+    "sha256": "a0e21ad8dcdc962e02fa89b58f8e72c19b9f1b0dc84e65451e4ade316f9bde5e",
+    "bytes": 21061
+  },
+  {
+    "hero_folder": "10403_小八",
+    "file": "10403_小八/01_普通攻击_230001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10403_小八",
+    "file": "10403_小八/02_六刀圆舞曲_230101_图标21191.png",
+    "icon_id": 21191,
+    "sha256": "35a1ea0d587adf290c879ebca23b69c4f51c1b25c640d1d1a293416cbdbe4b46",
+    "bytes": 33174
+  },
+  {
+    "hero_folder": "10403_小八",
+    "file": "10403_小八/03_鱼人之质_230201_图标21192.png",
+    "icon_id": 21192,
+    "sha256": "6f598ff425d59fdbbb702af78118d42998f0ac59741581654d2c9747f5d44e96",
+    "bytes": 29158
+  },
+  {
+    "hero_folder": "10403_小八",
+    "file": "10403_小八/04_六刀回旋斩_230301_图标21193.png",
+    "icon_id": 21193,
+    "sha256": "aa87314a904a126ec340e6b5f3cc1c03dbe08ab755dbb0bfc3e8e1bbdb3c4621",
+    "bytes": 18463
+  },
+  {
+    "hero_folder": "10404_杰斯",
+    "file": "10404_杰斯/01_普通攻击_270001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10404_杰斯",
+    "file": "10404_杰斯/02_火箭_270101_图标21293.png",
+    "icon_id": 21293,
+    "sha256": "9a041100ece5e340db850ca8bf0c0cab0cf195da406ee409e4bf80210e56aed3",
+    "bytes": 30651
+  },
+  {
+    "hero_folder": "10404_杰斯",
+    "file": "10404_杰斯/03_合体_270201_图标21292.png",
+    "icon_id": 21292,
+    "sha256": "f7b6068713f4bcc35cda3714e64383f510ed66b9195a6effdae357275b2fa9eb",
+    "bytes": 34923
+  },
+  {
+    "hero_folder": "10404_杰斯",
+    "file": "10404_杰斯/04_掌控_270301_图标21291.png",
+    "icon_id": 21291,
+    "sha256": "9e3e80c7838d9af63ec8d52fd02b427818d9fe71aff1ebddd72e8d078bd2818b",
+    "bytes": 33272
+  },
+  {
+    "hero_folder": "10405_克罗马利蒙",
+    "file": "10405_克罗马利蒙/01_普通攻击_255001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10405_克罗马利蒙",
+    "file": "10405_克罗马利蒙/02_静电拳击_255101_图标21391.png",
+    "icon_id": 21391,
+    "sha256": "f98d5b2fa2332029f96d037d7c8fc3d272560474b1264cf0ac93ece864f0a706",
+    "bytes": 31259
+  },
+  {
+    "hero_folder": "10405_克罗马利蒙",
+    "file": "10405_克罗马利蒙/03_合体_255201_图标21392.png",
+    "icon_id": 21392,
+    "sha256": "80a4787331deeca82485699b284b494266dcf396f5beea1ab754890102a07f18",
+    "bytes": 35266
+  },
+  {
+    "hero_folder": "10405_克罗马利蒙",
+    "file": "10405_克罗马利蒙/04_静电恢复_255301_图标21393.png",
+    "icon_id": 21393,
+    "sha256": "36b1a1251a966cdfe026c176073eb01b349e5493c3e8c8a7f56d0f79ad653267",
+    "bytes": 23834
+  },
+  {
+    "hero_folder": "10501_幽冥公主",
+    "file": "10501_幽冥公主/01_普通攻击_216001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10501_幽冥公主",
+    "file": "10501_幽冥公主/02_情绪鼓舞_216303_图标21640.png",
+    "icon_id": 21640,
+    "sha256": "a81bc45a0463139f4a028ec22c4cbe2e79c9b45e88bca71204eeaf22346a5a31",
+    "bytes": 29872
+  },
+  {
+    "hero_folder": "10501_幽冥公主",
+    "file": "10501_幽冥公主/03_情绪少女_216203_图标21630.png",
+    "icon_id": 21630,
+    "sha256": "2593cc185b4967fb75825e586b826d26351af729a481f8d5d7d1aa4911802aae",
+    "bytes": 31130
+  },
+  {
+    "hero_folder": "10501_幽冥公主",
+    "file": "10501_幽冥公主/04_情绪治愈_216103_图标21610.png",
+    "icon_id": 21610,
+    "sha256": "512aa511f0460838b433b34e8b0cef9ff703ba8107fb007fe65ef7679d53ff8a",
+    "bytes": 31610
+  },
+  {
+    "hero_folder": "10501_幽冥公主",
+    "file": "10501_幽冥公主/05_情绪激励_216403_图标24610.png",
+    "icon_id": 24610,
+    "sha256": "d07029f55d6e2ac5fb60ff637e5bba94f23a38e9210bab4469566ca6690dd997",
+    "bytes": 31168
+  },
+  {
+    "hero_folder": "10502_艾斯",
+    "file": "10502_艾斯/01_普通攻击_151001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10502_艾斯",
+    "file": "10502_艾斯/02_炎戒·阳火_151104_图标25010.png",
+    "icon_id": 25010,
+    "sha256": "3eec2ce943804f81c11fbcc46fe9f0ef31ddabefaa7a73218fe4542d85d22b8b",
+    "bytes": 29906
+  },
+  {
+    "hero_folder": "10502_艾斯",
+    "file": "10502_艾斯/03_烧烧果实_151204_图标24330.png",
+    "icon_id": 24330,
+    "sha256": "c23a2763cbba448b35b795da38ad13aa9e3252fad7c7144df16232085cfbede4",
+    "bytes": 31690
+  },
+  {
+    "hero_folder": "10502_艾斯",
+    "file": "10502_艾斯/04_炎戒·神火_151304_图标24320.png",
+    "icon_id": 24320,
+    "sha256": "1ca8589358ad70bf8d2a558ea307a27702d2b736ba9f9586a6ebc899f0b82f89",
+    "bytes": 30908
+  },
+  {
+    "hero_folder": "10502_艾斯",
+    "file": "10502_艾斯/05_炙热领域_151404_图标15140.png",
+    "icon_id": 15140,
+    "sha256": "333d60618a2a560b66d32b25c74dccf813d608684e2d3ed5ae81e908757dc80d",
+    "bytes": 31666
+  },
+  {
+    "hero_folder": "10503_德雷克",
+    "file": "10503_德雷克/01_普通攻击_226001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10503_德雷克",
+    "file": "10503_德雷克/02_X·重锤_226104_图标22620.png",
+    "icon_id": 22620,
+    "sha256": "a65a24dd1ddcec596a171ac21606a91b10a0951ea4e34bee38e42c4d61b9f134",
+    "bytes": 28914
+  },
+  {
+    "hero_folder": "10503_德雷克",
+    "file": "10503_德雷克/03_古龙种_226204_图标24620.png",
+    "icon_id": 24620,
+    "sha256": "bc9f457d1b1b407ccebd2e059d7888adfe43dfd3566d1ba48c900a7e26f716ca",
+    "bytes": 26277
+  },
+  {
+    "hero_folder": "10503_德雷克",
+    "file": "10503_德雷克/04_X·剑术_226304_图标22610.png",
+    "icon_id": 22610,
+    "sha256": "cc3f94cef3618a01faf18ec9495746cc2b37d06485813e22a33bab14f4bbd778",
+    "bytes": 30561
+  },
+  {
+    "hero_folder": "10503_德雷克",
+    "file": "10503_德雷克/05_龙威_226404_图标25230.png",
+    "icon_id": 25230,
+    "sha256": "6234dc388f41108c861077618c3a62cdfabe77f1fcd65984f995f860d7beac0f",
+    "bytes": 31519
+  },
+  {
+    "hero_folder": "10504_贝基",
+    "file": "10504_贝基/01_普通攻击_509001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10504_贝基",
+    "file": "10504_贝基/02_全弹发射_509103_图标22360.png",
+    "icon_id": 22360,
+    "sha256": "23d660a6224872ff1c9c1f6b1978f6089546631d4d5bb9d68e4befbafe9dacf9",
+    "bytes": 32496
+  },
+  {
+    "hero_folder": "10504_贝基",
+    "file": "10504_贝基/03_坦克城堡_509203_图标22370.png",
+    "icon_id": 22370,
+    "sha256": "b5aaa6c8b6b1a3b5d4339671b6b8a4bc6c89f60253dbca7de736e55de5f5eae1",
+    "bytes": 32592
+  },
+  {
+    "hero_folder": "10504_贝基",
+    "file": "10504_贝基/04_城堡守护_509303_图标22380.png",
+    "icon_id": 22380,
+    "sha256": "4cac90c62b8de5175edb78cebc44f92ec90df5593356919f0941e207809d96c1",
+    "bytes": 28231
+  },
+  {
+    "hero_folder": "10504_贝基",
+    "file": "10504_贝基/05_城堡·沼泽_509403_图标20810.png",
+    "icon_id": 20810,
+    "sha256": "5aecb756216028e84257d392e8acccbcee746747a3946b3074ec043e58a9e16f",
+    "bytes": 26820
+  },
+  {
+    "hero_folder": "10505_基德",
+    "file": "10505_基德/01_普通攻击_220001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10505_基德",
+    "file": "10505_基德/02_机械巨臂_220104_图标22020.png",
+    "icon_id": 22020,
+    "sha256": "fbd1bc28936ab8ff562809c49824dcc0a04a200d2af2cf58d1bd389cd4efb47d",
+    "bytes": 30596
+  },
+  {
+    "hero_folder": "10505_基德",
+    "file": "10505_基德/03_机械掌控_220204_图标22010.png",
+    "icon_id": 22010,
+    "sha256": "d2584a12102e6716a5974ffc79e4c8c9fbdbf6e7a756e4666114a045c91013a3",
+    "bytes": 33525
+  },
+  {
+    "hero_folder": "10505_基德",
+    "file": "10505_基德/04_机械弹射_220304_图标22030.png",
+    "icon_id": 22030,
+    "sha256": "d69ab86e0634422d5519560957043926bd61cd6ebe120f98d6ec5429c7c4b1ae",
+    "bytes": 29952
+  },
+  {
+    "hero_folder": "10505_基德",
+    "file": "10505_基德/05_磁力掌控_220404_图标25210.png",
+    "icon_id": 25210,
+    "sha256": "dd2bd02ec6a051ff898868f5e1331f9d1957bd4f68daf295dd02f244129eb35e",
+    "bytes": 30662
+  },
+  {
+    "hero_folder": "10506_大悟",
+    "file": "10506_大悟/01_普通攻击_254001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10506_大悟",
+    "file": "10506_大悟/02_球龙_254103_图标21911.png",
+    "icon_id": 21911,
+    "sha256": "1ba4c1b017c798a1203a0b9735897b4a01310ba3ab8eabbdd0fed6f06258ac57",
+    "bytes": 30760
+  },
+  {
+    "hero_folder": "10506_大悟",
+    "file": "10506_大悟/03_惊奇云_254203_图标21912.png",
+    "icon_id": 21912,
+    "sha256": "ad3f8b9f4e3627258aeac58f6063d0c69654addbf1833eaa4a8c6544e793b6c6",
+    "bytes": 31520
+  },
+  {
+    "hero_folder": "10506_大悟",
+    "file": "10506_大悟/04_森之大悟_254303_图标21913.png",
+    "icon_id": 21913,
+    "sha256": "e7b151280d5862d7ecb7a85c477b3c7607320507d7b73c64c50577c6a6691a27",
+    "bytes": 28518
+  },
+  {
+    "hero_folder": "10507_贝拉米",
+    "file": "10507_贝拉米/01_普通攻击_243001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10507_贝拉米",
+    "file": "10507_贝拉米/02_弹簧跳人_243103_图标23020.png",
+    "icon_id": 23020,
+    "sha256": "aac0809f3c014f0379dd02f76e40fbbddb4f9568b4e4cf9531c917b344a7a3dd",
+    "bytes": 32005
+  },
+  {
+    "hero_folder": "10507_贝拉米",
+    "file": "10507_贝拉米/03_弹簧果实_243203_图标24520.png",
+    "icon_id": 24520,
+    "sha256": "b8048c4143f0848410774f5e7940395c2eafe7d2613008edbfae284e1ce3e47e",
+    "bytes": 30455
+  },
+  {
+    "hero_folder": "10507_贝拉米",
+    "file": "10507_贝拉米/04_猎狗_243303_图标24310.png",
+    "icon_id": 24310,
+    "sha256": "aa354888d979456565a075b48d0ee25409c554dbfe3fb88511b94cefb847aae1",
+    "bytes": 31146
+  },
+  {
+    "hero_folder": "10507_贝拉米",
+    "file": "10507_贝拉米/05_弹簧狙击_243403_图标25030.png",
+    "icon_id": 25030,
+    "sha256": "2608c6bc3d3272d0c20c46df1448f36bceb3de60bd9c22253da7fd92e650b9a1",
+    "bytes": 30446
+  },
+  {
+    "hero_folder": "10508_小丑巴基",
+    "file": "10508_小丑巴基/01_普通攻击_253001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10508_小丑巴基",
+    "file": "10508_小丑巴基/02_四分五裂炮_253103_图标21660.png",
+    "icon_id": 21660,
+    "sha256": "e8a27588733d68e188d3736fbcb3dc33aac8f11747e5e8f4ac5bca6df40dce9d",
+    "bytes": 32526
+  },
+  {
+    "hero_folder": "10508_小丑巴基",
+    "file": "10508_小丑巴基/03_四分五裂果实_253203_图标21650.png",
+    "icon_id": 21650,
+    "sha256": "9c08ce8db4420dd0e61cc3c709a96ce291694aa29c8be53d2ac14515b516f78c",
+    "bytes": 30333
+  },
+  {
+    "hero_folder": "10508_小丑巴基",
+    "file": "10508_小丑巴基/04_小丑飞刀_253303_图标15120.png",
+    "icon_id": 15120,
+    "sha256": "a65a24dd1ddcec596a171ac21606a91b10a0951ea4e34bee38e42c4d61b9f134",
+    "bytes": 28914
+  },
+  {
+    "hero_folder": "10509_冯克雷",
+    "file": "10509_冯克雷/01_普通攻击_240001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10509_冯克雷",
+    "file": "10509_冯克雷/02_人妖拳_240103_图标24010.png",
+    "icon_id": 24010,
+    "sha256": "5c2b931e554f7671143173baccace53f8e6c53870435d9136b1e86161c8be527",
+    "bytes": 34730
+  },
+  {
+    "hero_folder": "10509_冯克雷",
+    "file": "10509_冯克雷/03_人妖义气_240203_图标24810.png",
+    "icon_id": 24810,
+    "sha256": "a9c991efde367180c226dc931f5e9ce0e38f66b27f9315e8360f4630267a1097",
+    "bytes": 30844
+  },
+  {
+    "hero_folder": "10509_冯克雷",
+    "file": "10509_冯克雷/04_模仿伪装_240303_图标24040.png",
+    "icon_id": 24040,
+    "sha256": "5004d744a463da35424fae1ac74553a155f1e64077e20147cedded7f88a471e8",
+    "bytes": 29765
+  },
+  {
+    "hero_folder": "10510_艾尼路",
+    "file": "10510_艾尼路/01_普通攻击_513001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10510_艾尼路",
+    "file": "10510_艾尼路/02_神之制裁_513104_图标20240.png",
+    "icon_id": 20240,
+    "sha256": "d405c85d942235427fb0adc4481ca3d63a09c69f74ac3459bda924e6b3571a26",
+    "bytes": 30341
+  },
+  {
+    "hero_folder": "10510_艾尼路",
+    "file": "10510_艾尼路/03_神之艾尼路_513204_图标20210.png",
+    "icon_id": 20210,
+    "sha256": "586b5130c846ef6ffc8c2d9c9384cd646d5301416a9eb77e91db0168d01fca47",
+    "bytes": 31071
+  },
+  {
+    "hero_folder": "10510_艾尼路",
+    "file": "10510_艾尼路/04_雷冶金_513304_图标20230.png",
+    "icon_id": 20230,
+    "sha256": "0e95c48a8ce88b3986811d3b52136c3c9aa84b0f46c7de517ba91834b6c4d089",
+    "bytes": 32370
+  },
+  {
+    "hero_folder": "10510_艾尼路",
+    "file": "10510_艾尼路/05_心网_513404_图标20231.png",
+    "icon_id": 20231,
+    "sha256": "d20be56fadda7fe945fe200387af8a952a63909d50a542c4bd7546ed975b0b0d",
+    "bytes": 32081
+  },
+  {
+    "hero_folder": "10511_罗",
+    "file": "10511_罗/01_普通攻击_518001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10511_罗",
+    "file": "10511_罗/02_伽马手术刀_518103_图标22951.png",
+    "icon_id": 22951,
+    "sha256": "1e3ab2eb5cc6d27f9580bc22540932c44a31103ce7c6037e83b40805f76f319c",
+    "bytes": 26899
+  },
+  {
+    "hero_folder": "10511_罗",
+    "file": "10511_罗/03_ROOM_518203_图标22952.png",
+    "icon_id": 22952,
+    "sha256": "0057255d42b7c69c80f52c3e567e0830fbdac408418f7dcb112a0f1d80519b05",
+    "bytes": 30859
+  },
+  {
+    "hero_folder": "10511_罗",
+    "file": "10511_罗/04_移植_518303_图标22953.png",
+    "icon_id": 22953,
+    "sha256": "6a4b3d2c685bb366d20d6083c036535a25d344e3737901e0e8b5fe9134cada3e",
+    "bytes": 29692
+  },
+  {
+    "hero_folder": "10511_罗",
+    "file": "10511_罗/05_心脉休克_518403_图标22954.png",
+    "icon_id": 22954,
+    "sha256": "dc49723b3c2f0d445672d37f7cdd80ebdb86da0509ee484d4108619341b241f6",
+    "bytes": 19298
+  },
+  {
+    "hero_folder": "10512_萨博（路西）",
+    "file": "10512_萨博（路西）/01_普通攻击_526001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10512_萨博（路西）",
+    "file": "10512_萨博（路西）/02_龙之勾爪_526104_图标23601.png",
+    "icon_id": 23601,
+    "sha256": "86cb784d6a6e9ef0a7a28110ab01ea6b39d59d1414855bf60dc3ada1c880fb23",
+    "bytes": 31945
+  },
+  {
+    "hero_folder": "10512_萨博（路西）",
+    "file": "10512_萨博（路西）/03_革命军_526204_图标23602.png",
+    "icon_id": 23602,
+    "sha256": "be3c7b9162962e0d63e74074ed1630e5a5864091d113a0c1c84fa6a0416bf5ef",
+    "bytes": 33266
+  },
+  {
+    "hero_folder": "10512_萨博（路西）",
+    "file": "10512_萨博（路西）/04_水管打击_526304_图标23603.png",
+    "icon_id": 23603,
+    "sha256": "2b71c6932132b473192fd9fc245fb1374bac48f045a86f3da7af4c2c58369e50",
+    "bytes": 31114
+  },
+  {
+    "hero_folder": "10512_萨博（路西）",
+    "file": "10512_萨博（路西）/05_护弟狂魔_526404_图标23604.png",
+    "icon_id": 23604,
+    "sha256": "5d880f1e045837f4224537a3ef5da6d6a56607032561746f93611d30629dff40",
+    "bytes": 31784
+  },
+  {
+    "hero_folder": "10513_霍金斯",
+    "file": "10513_霍金斯/01_普通攻击_531001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10513_霍金斯",
+    "file": "10513_霍金斯/02_命运抽牌_531104_图标23711.png",
+    "icon_id": 23711,
+    "sha256": "276ec685297b4550d21da1271962a1565384251241ee9881105390c173f8f564",
+    "bytes": 30456
+  },
+  {
+    "hero_folder": "10513_霍金斯",
+    "file": "10513_霍金斯/03_稻草果实_531204_图标23712.png",
+    "icon_id": 23712,
+    "sha256": "3d172cf5de8b59a7700c0ee0541541e3e558724c4b3e9462e157491b39bf8e1d",
+    "bytes": 34355
+  },
+  {
+    "hero_folder": "10513_霍金斯",
+    "file": "10513_霍金斯/04_替死草人_531304_图标23713.png",
+    "icon_id": 23713,
+    "sha256": "2685109ca27dd732618155da70ae7740080ce27a89561dd9909e9c349d4c06a8",
+    "bytes": 33818
+  },
+  {
+    "hero_folder": "10513_霍金斯",
+    "file": "10513_霍金斯/05_诡诈占卜_531404_图标23714.png",
+    "icon_id": 23714,
+    "sha256": "602e6bc090adda87fce9ac87bb4e9d8cff11d9bfd48f8b284e036d4f0f6f66c2",
+    "bytes": 34365
+  },
+  {
+    "hero_folder": "10514_阿普",
+    "file": "10514_阿普/01_普通攻击_542001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "10514_阿普",
+    "file": "10514_阿普/02_刮盘·斩_542104_图标54210.png",
+    "icon_id": 54210,
+    "sha256": "731b1f47457370e2b238e58519d6a9744d81419ac5d87f42601d46155a7f32df",
+    "bytes": 18755
+  },
+  {
+    "hero_folder": "10514_阿普",
+    "file": "10514_阿普/03_音音果实_542204_图标54220.png",
+    "icon_id": 54220,
+    "sha256": "44fad9190f749cdb491c41bc5f0ac5da348e08431348de655e370cdd476f2112",
+    "bytes": 17901
+  },
+  {
+    "hero_folder": "10514_阿普",
+    "file": "10514_阿普/04_刮盘·爆_542304_图标54230.png",
+    "icon_id": 54230,
+    "sha256": "f456ba41c2551f600428690827090ed19faac49305195e084e84fee87e179f9a",
+    "bytes": 18802
+  },
+  {
+    "hero_folder": "10514_阿普",
+    "file": "10514_阿普/05_战斗音乐_542404_图标54240.png",
+    "icon_id": 54240,
+    "sha256": "b339c3b5d8b25aea04828475abfc4c6d39cada76a3adf2d8bd1a51d4ac5eaad3",
+    "bytes": 17492
+  },
+  {
+    "hero_folder": "20101_平民",
+    "file": "20101_平民/01_普通攻击_272001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20101_平民",
+    "file": "20101_平民/02_搏击_272101_图标72013.png",
+    "icon_id": 72013,
+    "sha256": "4de4f3762d97db6c79d0113ddfc6ffffbe49e28451660d7ed9b54700c0b06a86",
+    "bytes": 31564
+  },
+  {
+    "hero_folder": "20201_海贼9号",
+    "file": "20201_海贼9号/01_普通攻击_273001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20201_海贼9号",
+    "file": "20201_海贼9号/02_顺劈_273101_图标31191.png",
+    "icon_id": 31191,
+    "sha256": "62bde88c8afb3fb7b0f75331f17ca7bec39d16482cf7454e34cee2bf295391b3",
+    "bytes": 29024
+  },
+  {
+    "hero_folder": "20201_海贼9号",
+    "file": "20201_海贼9号/03_坚定_273201_图标15230.png",
+    "icon_id": 15230,
+    "sha256": "b7c49c789443fad508f99a9d0a341342b501904a0cdbe886ec9e91216d39505a",
+    "bytes": 30292
+  },
+  {
+    "hero_folder": "20202_海贼10号",
+    "file": "20202_海贼10号/01_普通攻击_274001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20202_海贼10号",
+    "file": "20202_海贼10号/02_大舞刀_274101_图标15020.png",
+    "icon_id": 15020,
+    "sha256": "49d0ba0ce9a7ae688412e0290e35df48ab3219aec6f0400a2f248bc68d43461a",
+    "bytes": 27058
+  },
+  {
+    "hero_folder": "20202_海贼10号",
+    "file": "20202_海贼10号/03_强韧_274201_图标22820.png",
+    "icon_id": 22820,
+    "sha256": "5f1080b457013661c49ab60ddc60d629afefd9aa14dc2f6afa163879c1fb8752",
+    "bytes": 27995
+  },
+  {
+    "hero_folder": "20301_海贼11号",
+    "file": "20301_海贼11号/01_普通攻击_275001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20301_海贼11号",
+    "file": "20301_海贼11号/02_大劈砍_275101_图标22340.png",
+    "icon_id": 22340,
+    "sha256": "9c08ce8db4420dd0e61cc3c709a96ce291694aa29c8be53d2ac14515b516f78c",
+    "bytes": 30333
+  },
+  {
+    "hero_folder": "20301_海贼11号",
+    "file": "20301_海贼11号/03_兽性_275201_图标22310.png",
+    "icon_id": 22310,
+    "sha256": "7ddfd37e6b648c751039ef7f66005a5d0eb1dc17e581e0765f1d684e0451b40c",
+    "bytes": 24061
+  },
+  {
+    "hero_folder": "20302_女儿国战士",
+    "file": "20302_女儿国战士/01_普通攻击_276001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20302_女儿国战士",
+    "file": "20302_女儿国战士/02_重击_276101_图标30591.png",
+    "icon_id": 30591,
+    "sha256": "7bb2c65bb7f52fa981e1ce4ea2f54054d3a0ade6821c654c360140775e82a5ff",
+    "bytes": 21983
+  },
+  {
+    "hero_folder": "20302_女儿国战士",
+    "file": "20302_女儿国战士/03_铁血_276201_图标21910.png",
+    "icon_id": 21910,
+    "sha256": "7a1a700775144a2404d74a51fbc01a3e31ac390d84f859c068eeb00eb7da7a35",
+    "bytes": 26942
+  },
+  {
+    "hero_folder": "20303_海贼12号",
+    "file": "20303_海贼12号/01_普通攻击_277001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20303_海贼12号",
+    "file": "20303_海贼12号/02_强击_277101_图标21940.png",
+    "icon_id": 21940,
+    "sha256": "ffe3a1bb510184865e1b8f59685b32e50aef45c1e036f6b777b2df0372437e6d",
+    "bytes": 23804
+  },
+  {
+    "hero_folder": "20303_海贼12号",
+    "file": "20303_海贼12号/03_铁血_277201_图标30691.png",
+    "icon_id": 30691,
+    "sha256": "9a7dfff129ad0ef2795d9da8a6ec44b749839ffa4d6edcece2c37f8685010026",
+    "bytes": 22868
+  },
+  {
+    "hero_folder": "20304_鱼人1号",
+    "file": "20304_鱼人1号/01_普通攻击_278001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20304_鱼人1号",
+    "file": "20304_鱼人1号/02_鱼人斩击_278101_图标22581.png",
+    "icon_id": 22581,
+    "sha256": "6dd3a36a900f006ed6942bb8c36ed9b2b25000b5273c8606eb82756460641a87",
+    "bytes": 28215
+  },
+  {
+    "hero_folder": "20304_鱼人1号",
+    "file": "20304_鱼人1号/03_鱼人之心_278201_图标22952.png",
+    "icon_id": 22952,
+    "sha256": "0057255d42b7c69c80f52c3e567e0830fbdac408418f7dcb112a0f1d80519b05",
+    "bytes": 30859
+  },
+  {
+    "hero_folder": "20305_海贼13号",
+    "file": "20305_海贼13号/01_普通攻击_279001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20305_海贼13号",
+    "file": "20305_海贼13号/02_挥刀斩_279101_图标21920.png",
+    "icon_id": 21920,
+    "sha256": "b544cb839655062fed1de70a7ea7956cfebe2b8aea9c494219e295728b8cd678",
+    "bytes": 31000
+  },
+  {
+    "hero_folder": "20305_海贼13号",
+    "file": "20305_海贼13号/03_技巧精通_279201_图标30891.png",
+    "icon_id": 30891,
+    "sha256": "8647abf0cca8ee7dad2cc4661740be5069e5a77ce4a8c3702dca543ffce0017d",
+    "bytes": 20745
+  },
+  {
+    "hero_folder": "20401_冰山",
+    "file": "20401_冰山/01_普通攻击_205001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20401_冰山",
+    "file": "20401_冰山/02_左轮射击_205101_图标20510.png",
+    "icon_id": 20510,
+    "sha256": "dd9f43f11519b56222cac1fbc1d44fb9a86dcf028626425dff88b29a773365dd",
+    "bytes": 29290
+  },
+  {
+    "hero_folder": "20401_冰山",
+    "file": "20401_冰山/03_决心_205201_图标20530.png",
+    "icon_id": 20530,
+    "sha256": "48842c93d415d43a4e2734bacccce5d7501a6e54c31366a1cfea8313c41f0cd8",
+    "bytes": 29893
+  },
+  {
+    "hero_folder": "20401_冰山",
+    "file": "20401_冰山/04_致残射击_205301_图标30991.png",
+    "icon_id": 30991,
+    "sha256": "a06a9b050063ebeaa0a749bf08e9b6306e8961ae19087009d8b61f798b5473fd",
+    "bytes": 28574
+  },
+  {
+    "hero_folder": "20402_娜美",
+    "file": "20402_娜美/01_普通攻击_210001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20402_娜美",
+    "file": "20402_娜美/02_大巴掌_210101_图标21220.png",
+    "icon_id": 21220,
+    "sha256": "a3dc296c6cb51876beb3718d5146a5536ce2a6101b47011a4807e89957ba4235",
+    "bytes": 33407
+  },
+  {
+    "hero_folder": "20402_娜美",
+    "file": "20402_娜美/03_小贼猫_210201_图标31091.png",
+    "icon_id": 31091,
+    "sha256": "c0f8fe91961d1911f849de6c2496f98b08a318b5b203adf6ce10fd423e1841b2",
+    "bytes": 23629
+  },
+  {
+    "hero_folder": "20402_娜美",
+    "file": "20402_娜美/04_绝望巴掌_210301_图标21010.png",
+    "icon_id": 21010,
+    "sha256": "0f3e2ad953120d40b0e76e45e78dfe362a40894f006279ce952519872e719d14",
+    "bytes": 32839
+  },
+  {
+    "hero_folder": "20403_天空骑士",
+    "file": "20403_天空骑士/01_普通攻击_284001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20403_天空骑士",
+    "file": "20403_天空骑士/02_神之裁决_284101_图标21240.png",
+    "icon_id": 21240,
+    "sha256": "31fd0b935a3452b627eb220d25a6126ddd0f0a4232d4be36cc092a51c38e0b87",
+    "bytes": 30850
+  },
+  {
+    "hero_folder": "20403_天空骑士",
+    "file": "20403_天空骑士/03_天空守护者_284201_图标20820.png",
+    "icon_id": 20820,
+    "sha256": "687608b206966b6247dbbd8850fb44b2bbbfb79932a3b4a9553173b3604fd48d",
+    "bytes": 33086
+  },
+  {
+    "hero_folder": "20403_天空骑士",
+    "file": "20403_天空骑士/04_坚韧_284301_图标31191.png",
+    "icon_id": 31191,
+    "sha256": "62bde88c8afb3fb7b0f75331f17ca7bec39d16482cf7454e34cee2bf295391b3",
+    "bytes": 29024
+  },
+  {
+    "hero_folder": "20404_巴里",
+    "file": "20404_巴里/01_普通攻击_280001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20404_巴里",
+    "file": "20404_巴里/02_天绳地网_280101_图标31291.png",
+    "icon_id": 31291,
+    "sha256": "85798230bd3970db52d5c36f7526597c6bd40cd18e6c1acfd6ac5543d1dc1116",
+    "bytes": 34975
+  },
+  {
+    "hero_folder": "20404_巴里",
+    "file": "20404_巴里/03_伙伴之心_280201_图标31292.png",
+    "icon_id": 31292,
+    "sha256": "1c373692beca0660d30c74bbbc9fb95d4415bf055741d1dc67f0709afc03099a",
+    "bytes": 31966
+  },
+  {
+    "hero_folder": "20404_巴里",
+    "file": "20404_巴里/04_缠绕_280301_图标31293.png",
+    "icon_id": 31293,
+    "sha256": "a083d33a877bde2c8e7d03b104bb3e3810d44dcd9158b97849929ff30abe97ce",
+    "bytes": 31823
+  },
+  {
+    "hero_folder": "20405_索隆",
+    "file": "20405_索隆/01_普通攻击_212001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20405_索隆",
+    "file": "20405_索隆/02_鬼斩_212101_图标31391.png",
+    "icon_id": 31391,
+    "sha256": "80d347bfb9a89502617cd0e2fbf205cc97ef55c03046e95d870c9b74feca4ec4",
+    "bytes": 27032
+  },
+  {
+    "hero_folder": "20405_索隆",
+    "file": "20405_索隆/03_集中_212201_图标24410.png",
+    "icon_id": 24410,
+    "sha256": "c581142a5e49f4cec6faed38aefc359d03b3f193c2bfdd4e29cba4b64397656e",
+    "bytes": 23847
+  },
+  {
+    "hero_folder": "20405_索隆",
+    "file": "20405_索隆/04_三百烦恼风_212301_图标21210.png",
+    "icon_id": 21210,
+    "sha256": "d5d45521aaf25f86cdc6f00fc797b68e3bdde98bb60c643190f2c487e0d41d66",
+    "bytes": 28662
+  },
+  {
+    "hero_folder": "20501_弗兰奇",
+    "file": "20501_弗兰奇/01_普通攻击_208001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20501_弗兰奇",
+    "file": "20501_弗兰奇/02_风来炮_208104_图标31491.png",
+    "icon_id": 31491,
+    "sha256": "885919bc1e8cdd01bde35fd0372c70e24404ed935cceca442a0f0c02ab235a7d",
+    "bytes": 27891
+  },
+  {
+    "hero_folder": "20501_弗兰奇",
+    "file": "20501_弗兰奇/03_变态！_208204_图标31492.png",
+    "icon_id": 31492,
+    "sha256": "86c7a2dcc49aeebd075f9c04a7375fc1864a0e9fcd44af09613ebf69037395ed",
+    "bytes": 33759
+  },
+  {
+    "hero_folder": "20501_弗兰奇",
+    "file": "20501_弗兰奇/04_可乐大炮_208304_图标31493.png",
+    "icon_id": 31493,
+    "sha256": "51d3461a471138b16cd54a10f8909ba4fb00f46d936abfa91effff07eef99c88",
+    "bytes": 32449
+  },
+  {
+    "hero_folder": "20501_弗兰奇",
+    "file": "20501_弗兰奇/05_硬汉之拳_208404_图标31494.png",
+    "icon_id": 31494,
+    "sha256": "0bf99c466836d380438e975e11abd124d46be92574bb9b6a6912b92efc9bbd87",
+    "bytes": 31704
+  },
+  {
+    "hero_folder": "20502_乌索普",
+    "file": "20502_乌索普/01_普通攻击_224001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20502_乌索普",
+    "file": "20502_乌索普/02_必杀·火鸟星_224104_图标22420.png",
+    "icon_id": 22420,
+    "sha256": "7596b841b7bd42d9afde677a2536f4f0e55be9b33adc5d0506432763bd5039ae",
+    "bytes": 31987
+  },
+  {
+    "hero_folder": "20502_乌索普",
+    "file": "20502_乌索普/03_虚张声势_224204_图标22440.png",
+    "icon_id": 22440,
+    "sha256": "dc5e0eef7192578f3c1551cc8bf659891b776b49d7cde1226c7369cac30f6c4c",
+    "bytes": 31876
+  },
+  {
+    "hero_folder": "20502_乌索普",
+    "file": "20502_乌索普/04_必杀·炎爆星_224304_图标31593.png",
+    "icon_id": 31593,
+    "sha256": "ffdd0c668f49859ddc2743184893a4d936815eb9ce7a75068948b960bfed3605",
+    "bytes": 21804
+  },
+  {
+    "hero_folder": "20502_乌索普",
+    "file": "20502_乌索普/05_必杀·加把火_224404_图标22430.png",
+    "icon_id": 22430,
+    "sha256": "a956c75fcfe73293f1ffd9d29a0917fd921746e8ba760d7a4a254e899b76c463",
+    "bytes": 24237
+  },
+  {
+    "hero_folder": "20503_薇薇",
+    "file": "20503_薇薇/01_普通攻击_209001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20503_薇薇",
+    "file": "20503_薇薇/02_孔雀连环锯_209103_图标20910.png",
+    "icon_id": 20910,
+    "sha256": "80338e9a2058f31cd38ea99b9d4b0d2e22cef7b442d668f30937ec9300556e49",
+    "bytes": 31460
+  },
+  {
+    "hero_folder": "20503_薇薇",
+    "file": "20503_薇薇/03_魅惑香水舞_209203_图标72031.png",
+    "icon_id": 72031,
+    "sha256": "3a7d653002c62fda2f4e472d7d713c48f8df1cfb5af92a608672e5bdc211470d",
+    "bytes": 29250
+  },
+  {
+    "hero_folder": "20503_薇薇",
+    "file": "20503_薇薇/04_逆流_209303_图标20920.png",
+    "icon_id": 20920,
+    "sha256": "548bb199ab02610b6e59a5495a8c1cb9cc13f7e5f2d499ed95dd333b9c6cee9a",
+    "bytes": 31983
+  },
+  {
+    "hero_folder": "20504_布鲁克",
+    "file": "20504_布鲁克/01_普通攻击_213001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20504_布鲁克",
+    "file": "20504_布鲁克/02_黄泉之息_213104_图标21310.png",
+    "icon_id": 21310,
+    "sha256": "35c1ec4c50267c3f100752a3c4f5dc41df7ebff24f9d9fd5f70af6e53e96106b",
+    "bytes": 32304
+  },
+  {
+    "hero_folder": "20504_布鲁克",
+    "file": "20504_布鲁克/03_黄泉果实_213204_图标31792.png",
+    "icon_id": 31792,
+    "sha256": "188fe6d82fecacda26aa2263ab5a8d06d30816dfd1b001a9995f1bdc48630c08",
+    "bytes": 31265
+  },
+  {
+    "hero_folder": "20504_布鲁克",
+    "file": "20504_布鲁克/04_复活_213304_图标21330.png",
+    "icon_id": 21330,
+    "sha256": "ca010a6c219b1ab42c3d6b1121b882137885ca563276bc1834856b6c1181445d",
+    "bytes": 30912
+  },
+  {
+    "hero_folder": "20504_布鲁克",
+    "file": "20504_布鲁克/05_鼻歌吹雪_213404_图标21320.png",
+    "icon_id": 21320,
+    "sha256": "bac719d56b081af379e9c379abc0b7d4598a54b2804aaea045686d87c6d2e86c",
+    "bytes": 28855
+  },
+  {
+    "hero_folder": "20505_娜美(伟大航路)",
+    "file": "20505_娜美(伟大航路)/01_普通攻击_244001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20505_娜美(伟大航路)",
+    "file": "20505_娜美(伟大航路)/02_雷云陷阱_244104_图标31891.png",
+    "icon_id": 31891,
+    "sha256": "11899bd72f6be3b29467ec8a671a041aa6cdf9e6bb1088071ae862bbfc89563a",
+    "bytes": 26004
+  },
+  {
+    "hero_folder": "20505_娜美(伟大航路)",
+    "file": "20505_娜美(伟大航路)/03_天气大师_244204_图标31892.png",
+    "icon_id": 31892,
+    "sha256": "3bc1858488708e84194e001280e0f865d938fc92ee6ba62bf38e74a135471fa1",
+    "bytes": 28284
+  },
+  {
+    "hero_folder": "20505_娜美(伟大航路)",
+    "file": "20505_娜美(伟大航路)/04_海市蜃楼_244304_图标31893.png",
+    "icon_id": 31893,
+    "sha256": "d420fb2ce5e1bfa2f37caff8fd7b779c14d5f2a21ab83171a971504e1073ab3a",
+    "bytes": 26779
+  },
+  {
+    "hero_folder": "20505_娜美(伟大航路)",
+    "file": "20505_娜美(伟大航路)/05_穷追猛打_244404_图标21020.png",
+    "icon_id": 21020,
+    "sha256": "fa445fe432e6a74c6669a0835c2a9a98d9963df40209c188a0659bf5a42109c0",
+    "bytes": 33269
+  },
+  {
+    "hero_folder": "20506_韦伯",
+    "file": "20506_韦伯/01_普通攻击_223001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20506_韦伯",
+    "file": "20506_韦伯/02_排击_223103_图标31991.png",
+    "icon_id": 31991,
+    "sha256": "c93af99f56d2c2f09b5f311e67b439239ced9a2969f655b55bf71772048c859a",
+    "bytes": 32654
+  },
+  {
+    "hero_folder": "20506_韦伯",
+    "file": "20506_韦伯/03_战鬼_223203_图标22320.png",
+    "icon_id": 22320,
+    "sha256": "45bcf8a1dbc0af9179de28399d622dbd60d8cd45e4aa47764a6cd7d6295a0705",
+    "bytes": 31629
+  },
+  {
+    "hero_folder": "20506_韦伯",
+    "file": "20506_韦伯/04_复仇之心_223303_图标22330.png",
+    "icon_id": 22330,
+    "sha256": "34eacfadd32dadf915f57e1e696e8d956e09384c556033f26d5ce9d095f79b4d",
+    "bytes": 31455
+  },
+  {
+    "hero_folder": "20507_乔巴",
+    "file": "20507_乔巴/01_普通攻击_507001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20507_乔巴",
+    "file": "20507_乔巴/02_乱打_507104_图标32091.png",
+    "icon_id": 32091,
+    "sha256": "c866bca81a164598db076622eb3340d0b17f1a8d7ca6a5702a244bc95405deac",
+    "bytes": 32674
+  },
+  {
+    "hero_folder": "20507_乔巴",
+    "file": "20507_乔巴/03_50贝里_507204_图标32092.png",
+    "icon_id": 32092,
+    "sha256": "00f37d55f8ba2b71826047f3a7dea7054aa2df47034eae01f63766705349be83",
+    "bytes": 30583
+  },
+  {
+    "hero_folder": "20507_乔巴",
+    "file": "20507_乔巴/04_我是医生！_507304_图标32093.png",
+    "icon_id": 32093,
+    "sha256": "f46fa9d725df0504eef14f5a3396ddfc977eb9c9ea38b2733632d7599aa072de",
+    "bytes": 27646
+  },
+  {
+    "hero_folder": "20507_乔巴",
+    "file": "20507_乔巴/05_不许打我伙伴！_507404_图标32094.png",
+    "icon_id": 32094,
+    "sha256": "e422829a916a5db5c2ee15c3e2761d79899d2cd4f6e12c46345fdb45ada2e73b",
+    "bytes": 25361
+  },
+  {
+    "hero_folder": "20508_索隆(伟大航路)",
+    "file": "20508_索隆(伟大航路)/01_普通攻击_506001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20508_索隆(伟大航路)",
+    "file": "20508_索隆(伟大航路)/02_三千世界_506103_图标32191.png",
+    "icon_id": 32191,
+    "sha256": "917e8264ca1d7cc3b6dc1144f552b7a0d5c8d25db8e02e0352abaf6c1c2cb5d3",
+    "bytes": 28914
+  },
+  {
+    "hero_folder": "20508_索隆(伟大航路)",
+    "file": "20508_索隆(伟大航路)/03_剑术天赋_506203_图标32192.png",
+    "icon_id": 32192,
+    "sha256": "62bde88c8afb3fb7b0f75331f17ca7bec39d16482cf7454e34cee2bf295391b3",
+    "bytes": 29024
+  },
+  {
+    "hero_folder": "20508_索隆(伟大航路)",
+    "file": "20508_索隆(伟大航路)/04_犀回_506303_图标32193.png",
+    "icon_id": 32193,
+    "sha256": "5df731511705048c5aadc4ce69cbd6f0443c71b100f9cd959da443e19e622fdb",
+    "bytes": 30041
+  },
+  {
+    "hero_folder": "20508_索隆(伟大航路)",
+    "file": "20508_索隆(伟大航路)/05_鹰波_506403_图标32194.png",
+    "icon_id": 32194,
+    "sha256": "340558ed96771639df134b1114425185a79a0e482dbbb16d25135466c312da81",
+    "bytes": 25535
+  },
+  {
+    "hero_folder": "20509_山治",
+    "file": "20509_山治/01_普通攻击_512001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20509_山治",
+    "file": "20509_山治/02_恶魔飞踢_512104_图标32291.png",
+    "icon_id": 32291,
+    "sha256": "f272c31f480c1cd123edfc15a7e49dde250ac9ee9bbaa522186c49d7b36bfbe9",
+    "bytes": 32600
+  },
+  {
+    "hero_folder": "20509_山治",
+    "file": "20509_山治/03_厨艺大师_512204_图标32292.png",
+    "icon_id": 32292,
+    "sha256": "432ef875ad91f53ae7158e430e09dba2b7e2229e9a406f689ed37a5239f0cf57",
+    "bytes": 31191
+  },
+  {
+    "hero_folder": "20509_山治",
+    "file": "20509_山治/04_恶魔风脚_512304_图标21350.png",
+    "icon_id": 21350,
+    "sha256": "7d382dccc835834101d5e73ca4a47a1a836b90a5ccb30de81c93165b62d2a4bb",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20509_山治",
+    "file": "20509_山治/05_燃烧月步_512404_图标21340.png",
+    "icon_id": 21340,
+    "sha256": "b0c395dd5368943b5d49f4106771302fbe01626fa2bff6aa82e711d8c2997728",
+    "bytes": 31226
+  },
+  {
+    "hero_folder": "20510_路飞",
+    "file": "20510_路飞/01_普通攻击_520001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20510_路飞",
+    "file": "20510_路飞/02_Jet.枪_520103_图标22971.png",
+    "icon_id": 22971,
+    "sha256": "5021f5cd766f6c9020f8a4396094ad5a5a92aecae137c67ff62026db61ee98ae",
+    "bytes": 33172
+  },
+  {
+    "hero_folder": "20510_路飞",
+    "file": "20510_路飞/03_橡胶果实_520203_图标22972.png",
+    "icon_id": 22972,
+    "sha256": "447389fa28856528f02ca0c51383f136be20f41f41502d6167d4bcb5520798e5",
+    "bytes": 28062
+  },
+  {
+    "hero_folder": "20510_路飞",
+    "file": "20510_路飞/04_二档_520303_图标22973.png",
+    "icon_id": 22973,
+    "sha256": "7e6bead84b02544c68364a12e02999f8caa0edf659bf51d01bda09fb1c3c9e15",
+    "bytes": 32318
+  },
+  {
+    "hero_folder": "20510_路飞",
+    "file": "20510_路飞/05_jet.鞭_520403_图标22974.png",
+    "icon_id": 22974,
+    "sha256": "b3a4882801619606aa0f63d045d39912b3b1ae259d589d9371f1bd756dcdf35d",
+    "bytes": 25334
+  },
+  {
+    "hero_folder": "20511_甚平",
+    "file": "20511_甚平/01_普通攻击_523001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20511_甚平",
+    "file": "20511_甚平/02_梅花皮_523104_图标23313.png",
+    "icon_id": 23313,
+    "sha256": "f741bddb844a5e65419a4ec20f775452820f812dc31c4cdbf941bb5f9fb5a6ae",
+    "bytes": 34278
+  },
+  {
+    "hero_folder": "20511_甚平",
+    "file": "20511_甚平/03_鱼人热血_523204_图标23312.png",
+    "icon_id": 23312,
+    "sha256": "2dc69b0156a884323a82f438571a158fa1e6b868971b450a26ef620a7dd0d0cd",
+    "bytes": 32300
+  },
+  {
+    "hero_folder": "20511_甚平",
+    "file": "20511_甚平/04_武赖贯_523304_图标23311.png",
+    "icon_id": 23311,
+    "sha256": "96bbb60fb436b189833dab5a3c6af7d5c1dee6b2d562751b3b4c31e3b2de7320",
+    "bytes": 35889
+  },
+  {
+    "hero_folder": "20511_甚平",
+    "file": "20511_甚平/05_援护_523404_图标23314.png",
+    "icon_id": 23314,
+    "sha256": "0839fec269b6c08a949f1e5eb1ce8f56b9f5933afc78cdd04863e78164207791",
+    "bytes": 33587
+  },
+  {
+    "hero_folder": "20512_罗宾",
+    "file": "20512_罗宾/01_普通攻击_528001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20512_罗宾",
+    "file": "20512_罗宾/02_万紫千红·花园_528104_图标23901.png",
+    "icon_id": 23901,
+    "sha256": "5b5683c5499c625276c2990819da9f4de7a51c0196aba987bc310d91afa26b6b",
+    "bytes": 32761
+  },
+  {
+    "hero_folder": "20512_罗宾",
+    "file": "20512_罗宾/03_幻之翼_528204_图标23902.png",
+    "icon_id": 23902,
+    "sha256": "f59ae69033c988e7ad94844c8cca028df0a19a5ace4b6f7228f3e44908e21507",
+    "bytes": 28174
+  },
+  {
+    "hero_folder": "20512_罗宾",
+    "file": "20512_罗宾/04_万紫千红·三轮华_528304_图标23903.png",
+    "icon_id": 23903,
+    "sha256": "ed6a2a4f575ad9428ac7864c91a28e3f3af5af78937c7e0c21992a68078368ad",
+    "bytes": 29612
+  },
+  {
+    "hero_folder": "20512_罗宾",
+    "file": "20512_罗宾/05_万紫千红·愈合手_528404_图标23904.png",
+    "icon_id": 23904,
+    "sha256": "9b634e3481f3224988905dc34ede7e67fd17fe9c1a02574f2e1fb051d9e958fe",
+    "bytes": 32153
+  },
+  {
+    "hero_folder": "20513_白星",
+    "file": "20513_白星/01_普通攻击_537001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20513_白星",
+    "file": "20513_白星/02_古代兵器_537104_图标53710.png",
+    "icon_id": 53710,
+    "sha256": "ec0a218cb81da614e575ba1698ddbe47ddc189a312372f757ed5a7866dfc3b60",
+    "bytes": 29172
+  },
+  {
+    "hero_folder": "20513_白星",
+    "file": "20513_白星/03_海王波塞冬_537204_图标53720.png",
+    "icon_id": 53720,
+    "sha256": "27721aa05218f02ce9d150ec093863e5516e84e1c787f409284990ca997718bd",
+    "bytes": 32024
+  },
+  {
+    "hero_folder": "20513_白星",
+    "file": "20513_白星/04_万物之声_537304_图标53730.png",
+    "icon_id": 53730,
+    "sha256": "7166371d7e8de3fcbb7f292d43e8d0f420e3571a640cf5985673cf7d6191e943",
+    "bytes": 33399
+  },
+  {
+    "hero_folder": "20513_白星",
+    "file": "20513_白星/05_惊吓_537404_图标53740.png",
+    "icon_id": 53740,
+    "sha256": "40983c58fcc64338b330bcc40379fb6b0d88cdb27093698280377989c8a15c2f",
+    "bytes": 32294
+  },
+  {
+    "hero_folder": "20514_大和",
+    "file": "20514_大和/01_普通攻击_540001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "20514_大和",
+    "file": "20514_大和/02_雷鸣八卦_540104_图标54010.png",
+    "icon_id": 54010,
+    "sha256": "c0fbd03ba8f4e3d20b8bb092130080fda01e526de9250588294f1566638875d2",
+    "bytes": 27650
+  },
+  {
+    "hero_folder": "20514_大和",
+    "file": "20514_大和/03_犬犬果实_540204_图标54020.png",
+    "icon_id": 54020,
+    "sha256": "3eb1749786616aa9bdc952adf143dee24e223460de64e1cce2b2cbdfa75874be",
+    "bytes": 29375
+  },
+  {
+    "hero_folder": "20514_大和",
+    "file": "20514_大和/04_鸣谪_540304_图标54030.png",
+    "icon_id": 54030,
+    "sha256": "37515e1e5e6c0d7f0acb3258ece3812bb228237e2b39d8b5b720d85a1509d881",
+    "bytes": 27853
+  },
+  {
+    "hero_folder": "20514_大和",
+    "file": "20514_大和/05_镜山_540404_图标54040.png",
+    "icon_id": 54040,
+    "sha256": "23f2f629e9dadd27162a770dbc6b8a5e673f73032e92f460c4aface6ec3b797c",
+    "bytes": 27662
+  },
+  {
+    "hero_folder": "30101_强者海贼1号",
+    "file": "30101_强者海贼1号/01_花瓣_265001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30101_强者海贼1号",
+    "file": "30101_强者海贼1号/02_正义打击_265101_图标24910.png",
+    "icon_id": 24910,
+    "sha256": "c74b33c9d25b361090105597fa2d8b84a1251dadb435bdf27a69ff9b11cd5944",
+    "bytes": 27209
+  },
+  {
+    "hero_folder": "30201_海贼14号",
+    "file": "30201_海贼14号/01_普通攻击_266001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30201_海贼14号",
+    "file": "30201_海贼14号/02_野蛮恢复_266101_图标21520.png",
+    "icon_id": 21520,
+    "sha256": "aa6aa853766cc854108734bac5f56824352d0baf37ed1a1479cdfc7611f1d72c",
+    "bytes": 25123
+  },
+  {
+    "hero_folder": "30201_海贼14号",
+    "file": "30201_海贼14号/03_野蛮决心_266201_图标21510.png",
+    "icon_id": 21510,
+    "sha256": "1f88a9ab4e80d94d16419173dd8dff8c7adbf54fb687ca4351883f179211f230",
+    "bytes": 28437
+  },
+  {
+    "hero_folder": "30202_海军2号",
+    "file": "30202_海军2号/01_普通攻击_267001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30202_海军2号",
+    "file": "30202_海军2号/02_正义连弹_267101_图标20420.png",
+    "icon_id": 20420,
+    "sha256": "dd0f2877805551953263a9673354abb3ff53c8af9ef87bdf68d32142f963b1b6",
+    "bytes": 28288
+  },
+  {
+    "hero_folder": "30202_海军2号",
+    "file": "30202_海军2号/03_天生射手_267201_图标40391.png",
+    "icon_id": 40391,
+    "sha256": "c8428071128ed6b69700e9221d98d6e64f949187b2cbac1206346a46068f2e17",
+    "bytes": 23863
+  },
+  {
+    "hero_folder": "30301_僵尸1号",
+    "file": "30301_僵尸1号/01_普通攻击_268001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30301_僵尸1号",
+    "file": "30301_僵尸1号/02_死者皮肤_268101_图标21540.png",
+    "icon_id": 21540,
+    "sha256": "3e5a329ead64b0deadb1eefda8a976e5a6d97ef6fe0a076b3bf1efddb1d711c1",
+    "bytes": 28832
+  },
+  {
+    "hero_folder": "30301_僵尸1号",
+    "file": "30301_僵尸1号/03_硬化_268201_图标21550.png",
+    "icon_id": 21550,
+    "sha256": "6f904b807e40398fe4646adae0bbb3d88cc9d90751329c486fa20849187d8311",
+    "bytes": 28900
+  },
+  {
+    "hero_folder": "30302_Mr.9",
+    "file": "30302_Mr.9/01_普通攻击_269001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30302_Mr.9",
+    "file": "30302_Mr.9/02_突袭_269101_图标20620.png",
+    "icon_id": 20620,
+    "sha256": "edc5b8b0ad63effff8e028f3ec4971e3a96e1ec68f0303d14ade3c99859f16ae",
+    "bytes": 29853
+  },
+  {
+    "hero_folder": "30302_Mr.9",
+    "file": "30302_Mr.9/03_海贼之心_269201_图标15310.png",
+    "icon_id": 15310,
+    "sha256": "298e8f8c4aa8259771ad67a42aa1d6c8d26ed35d6ea65ac09980b2ed4e21009f",
+    "bytes": 30364
+  },
+  {
+    "hero_folder": "30303_鱼人3号",
+    "file": "30303_鱼人3号/01_普通攻击_202001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30303_鱼人3号",
+    "file": "30303_鱼人3号/02_正义轰击_202101_图标15220.png",
+    "icon_id": 15220,
+    "sha256": "2347e6f3dcbf034cc60b46a3da237fd238219d954a517c21133d99a262584989",
+    "bytes": 26152
+  },
+  {
+    "hero_folder": "30303_鱼人3号",
+    "file": "30303_鱼人3号/03_正义之息_202201_图标40692.png",
+    "icon_id": 40692,
+    "sha256": "1f0de8693a04e8bec878d8b9b6f936df5f1e39403b16078a69bb83387c7b604c",
+    "bytes": 22541
+  },
+  {
+    "hero_folder": "30303_鱼人3号",
+    "file": "30303_鱼人3号/04_正义之盾_202301_图标25220.png",
+    "icon_id": 25220,
+    "sha256": "a24cae147461127f211b30a4d46926cc27811b44e28e7b9293f3f720271e4c05",
+    "bytes": 25480
+  },
+  {
+    "hero_folder": "30304_Mr.5",
+    "file": "30304_Mr.5/01_普通攻击_201001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30304_Mr.5",
+    "file": "30304_Mr.5/02_鼻空想炮_201101_图标20110.png",
+    "icon_id": 20110,
+    "sha256": "3cc8c967d41c51e9ac0bff1d7f809085e1a9a02647921b56379ac5bdb28fb07c",
+    "bytes": 31021
+  },
+  {
+    "hero_folder": "30304_Mr.5",
+    "file": "30304_Mr.5/03_硬化_201201_图标20120.png",
+    "icon_id": 20120,
+    "sha256": "dd0f2877805551953263a9673354abb3ff53c8af9ef87bdf68d32142f963b1b6",
+    "bytes": 28288
+  },
+  {
+    "hero_folder": "30305_玛格丽特",
+    "file": "30305_玛格丽特/01_普通攻击_221001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30305_玛格丽特",
+    "file": "30305_玛格丽特/02_女蛇之矢_221101_图标20720.png",
+    "icon_id": 20720,
+    "sha256": "12aafecf1f51af54abaa01803d0782a3822507c6c9736994c1bcee591dc3ed9a",
+    "bytes": 25416
+  },
+  {
+    "hero_folder": "30305_玛格丽特",
+    "file": "30305_玛格丽特/03_女儿国_221201_图标40892.png",
+    "icon_id": 40892,
+    "sha256": "00d68630ae679c40a019c30b4f4177c53c1845dd48b8d153fb156b54b206fa11",
+    "bytes": 29113
+  },
+  {
+    "hero_folder": "30401_Mr.3",
+    "file": "30401_Mr.3/01_普通攻击_271001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30401_Mr.3",
+    "file": "30401_Mr.3/02_特大号烛台_271101_图标70008.png",
+    "icon_id": 70008,
+    "sha256": "8ac97a513f52f5ea5a8ae51dea1a8ae55e42a651df927829c93b8f8468ec4e1b",
+    "bytes": 30521
+  },
+  {
+    "hero_folder": "30401_Mr.3",
+    "file": "30401_Mr.3/03_蜡烛冠军_271201_图标24720.png",
+    "icon_id": 24720,
+    "sha256": "128c9e8da556f4a1a43252d6d966c18a8066aec4ed91bfa4d9b946539e8b0e3d",
+    "bytes": 32638
+  },
+  {
+    "hero_folder": "30401_Mr.3",
+    "file": "30401_Mr.3/04_蜡烛壁_271301_图标22910.png",
+    "icon_id": 22910,
+    "sha256": "4ed9c47e2160fd109551c51b3d64aecce1766b6097bb8fd410efcfd961fd0a31",
+    "bytes": 31824
+  },
+  {
+    "hero_folder": "30402_阿布萨罗姆",
+    "file": "30402_阿布萨罗姆/01_普通攻击_157001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30402_阿布萨罗姆",
+    "file": "30402_阿布萨罗姆/02_迫击炮_157103_图标22220.png",
+    "icon_id": 22220,
+    "sha256": "9e3e80c7838d9af63ec8d52fd02b427818d9fe71aff1ebddd72e8d078bd2818b",
+    "bytes": 33272
+  },
+  {
+    "hero_folder": "30402_阿布萨罗姆",
+    "file": "30402_阿布萨罗姆/03_身体改造_157203_图标41092.png",
+    "icon_id": 41092,
+    "sha256": "01fbc5d9d26e97494f7c658f447ab871ffac2ec926a91c84121cc100e09519ef",
+    "bytes": 32508
+  },
+  {
+    "hero_folder": "30402_阿布萨罗姆",
+    "file": "30402_阿布萨罗姆/04_隐身果实_157303_图标41093.png",
+    "icon_id": 41093,
+    "sha256": "2e303519029a752634caa647d974a2a8fd894c192224f3c7f0c8590df5874518",
+    "bytes": 28052
+  },
+  {
+    "hero_folder": "30403_Mr.1",
+    "file": "30403_Mr.1/01_普通攻击_311001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30403_Mr.1",
+    "file": "30403_Mr.1/02_灭裂斩_311101_图标24910.png",
+    "icon_id": 24910,
+    "sha256": "c74b33c9d25b361090105597fa2d8b84a1251dadb435bdf27a69ff9b11cd5944",
+    "bytes": 27209
+  },
+  {
+    "hero_folder": "30403_Mr.1",
+    "file": "30403_Mr.1/03_钢铁之躯_311201_图标41192.png",
+    "icon_id": 41192,
+    "sha256": "abad1328cea52e345cb5cf6f5472e8282c91be5496bfc4cf4226b37a6437f6ef",
+    "bytes": 32422
+  },
+  {
+    "hero_folder": "30403_Mr.1",
+    "file": "30403_Mr.1/04_斩人_311301_图标20020.png",
+    "icon_id": 20020,
+    "sha256": "729ec27b4acfb1dd6e558b9c9446943e2de8f8a8ae8aec73d27216c3d4e13f83",
+    "bytes": 31394
+  },
+  {
+    "hero_folder": "30404_Mr.双手指",
+    "file": "30404_Mr.双手指/01_普通攻击_310001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30404_Mr.双手指",
+    "file": "30404_Mr.双手指/02_荆棘刺猬_310101_图标41291.png",
+    "icon_id": 41291,
+    "sha256": "50105b2b33f4b5aa98f9319974006fecca8a7b67a0dabe1df4d91e6434804936",
+    "bytes": 30753
+  },
+  {
+    "hero_folder": "30404_Mr.双手指",
+    "file": "30404_Mr.双手指/03_荆棘_310201_图标41292.png",
+    "icon_id": 41292,
+    "sha256": "62ffe18bc9778fedee40813e984b6c54689f353c8e15f91eb95eb54b924627b3",
+    "bytes": 29458
+  },
+  {
+    "hero_folder": "30404_Mr.双手指",
+    "file": "30404_Mr.双手指/04_双生荆棘_310301_图标41293.png",
+    "icon_id": 41293,
+    "sha256": "50d0ae2b75feb87d48be768f1a6cd395d2d2482c5f2c5ea866bfa448e6d0c5d6",
+    "bytes": 30224
+  },
+  {
+    "hero_folder": "30405_Mr.情人节",
+    "file": "30405_Mr.情人节/01_普通攻击_217001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30405_Mr.情人节",
+    "file": "30405_Mr.情人节/02_升华_217101_图标21710.png",
+    "icon_id": 21710,
+    "sha256": "d9e915fd802ecf574ea2be1859bc42b39b33ce0d9dc4e1c57f47ba4eb1799308",
+    "bytes": 28133
+  },
+  {
+    "hero_folder": "30405_Mr.情人节",
+    "file": "30405_Mr.情人节/03_好天气_217201_图标41392.png",
+    "icon_id": 41392,
+    "sha256": "ab242bef2ea2b2bac9d9fd3bbb2640ea5802a7a2d3c63d964371a3cd09441797",
+    "bytes": 32628
+  },
+  {
+    "hero_folder": "30405_Mr.情人节",
+    "file": "30405_Mr.情人节/04_压碎_217301_图标21720.png",
+    "icon_id": 21720,
+    "sha256": "5c1039d9342888dfc39657cfe0835b73a750894bc864b62d5188da1c236a20b7",
+    "bytes": 32520
+  },
+  {
+    "hero_folder": "30501_鳄鱼",
+    "file": "30501_鳄鱼/01_普通攻击_203001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30501_鳄鱼",
+    "file": "30501_鳄鱼/02_沙暴_203104_图标41491.png",
+    "icon_id": 41491,
+    "sha256": "85da315b3cf8896255a2bc7d9803a3e3b7296da7f75aa1cd0a9fddc1fc96d86d",
+    "bytes": 30174
+  },
+  {
+    "hero_folder": "30501_鳄鱼",
+    "file": "30501_鳄鱼/03_沙沙果实_203204_图标24020.png",
+    "icon_id": 24020,
+    "sha256": "05052554961006f15a9df55b0c5794d0b5c213fdd48b01882311edeb1065a0a0",
+    "bytes": 29244
+  },
+  {
+    "hero_folder": "30501_鳄鱼",
+    "file": "30501_鳄鱼/04_沙岚_203304_图标41493.png",
+    "icon_id": 41493,
+    "sha256": "e0de6b2980bc571aead7792f8edc57ee89a04da10057ebaa7251bdbafd3f6dde",
+    "bytes": 32249
+  },
+  {
+    "hero_folder": "30501_鳄鱼",
+    "file": "30501_鳄鱼/05_沙化_203404_图标24110.png",
+    "icon_id": 24110,
+    "sha256": "fbeee53c18b41bbd1f51dde7c11abb72fb5b39b4ee085d3caba92eee53a25689",
+    "bytes": 21523
+  },
+  {
+    "hero_folder": "30502_暴君熊",
+    "file": "30502_暴君熊/01_普通攻击_248001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30502_暴君熊",
+    "file": "30502_暴君熊/02_大守护者_248104_图标24130.png",
+    "icon_id": 24130,
+    "sha256": "0fd957fb84f9c8bfa53b94798a8486963b531bf9e0ee52463fa7bd53fb2b6845",
+    "bytes": 33359
+  },
+  {
+    "hero_folder": "30502_暴君熊",
+    "file": "30502_暴君熊/03_暴君_248204_图标24840.png",
+    "icon_id": 24840,
+    "sha256": "7b218986bf41fadd0b07f372be41447c571270a0bf33bc3587c2b0f674292400",
+    "bytes": 27960
+  },
+  {
+    "hero_folder": "30502_暴君熊",
+    "file": "30502_暴君熊/04_机械之躯_248304_图标24820.png",
+    "icon_id": 24820,
+    "sha256": "8b56dac33e414c81e86bd676fb8f79a7fdb188a8bcb4840feddebca42dcbcec9",
+    "bytes": 30974
+  },
+  {
+    "hero_folder": "30502_暴君熊",
+    "file": "30502_暴君熊/05_空气掌握_248404_图标24830.png",
+    "icon_id": 24830,
+    "sha256": "1e6bc8b56ae1e02216efc46f32536da8519dee2d4672b738a7e4bd569bd1ce92",
+    "bytes": 25684
+  },
+  {
+    "hero_folder": "30503_伊万科夫",
+    "file": "30503_伊万科夫/01_普通攻击_247001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30503_伊万科夫",
+    "file": "30503_伊万科夫/02_治愈荷尔蒙_247103_图标41691.png",
+    "icon_id": 41691,
+    "sha256": "729926dc74c9d4a102e3beb4ac66c3062812e38f90374ba00a4d9f3815f6cc23",
+    "bytes": 32720
+  },
+  {
+    "hero_folder": "30503_伊万科夫",
+    "file": "30503_伊万科夫/03_变性荷尔蒙_247203_图标41693.png",
+    "icon_id": 41693,
+    "sha256": "a91067cbb3fb63983196c99695027c48e2f359bfa8fe68082da8784db2a589ee",
+    "bytes": 31928
+  },
+  {
+    "hero_folder": "30503_伊万科夫",
+    "file": "30503_伊万科夫/04_亢奋荷尔蒙_247303_图标21510.png",
+    "icon_id": 21510,
+    "sha256": "1f88a9ab4e80d94d16419173dd8dff8c7adbf54fb687ca4351883f179211f230",
+    "bytes": 28437
+  },
+  {
+    "hero_folder": "30504_闪电",
+    "file": "30504_闪电/01_普通攻击_242001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30504_闪电",
+    "file": "30504_闪电/02_切割_242103_图标24250.png",
+    "icon_id": 24250,
+    "sha256": "dc935bbba7cac1d96443a9169eb85ced283e87fc40355c98fdcb732dbbc4a00f",
+    "bytes": 30444
+  },
+  {
+    "hero_folder": "30504_闪电",
+    "file": "30504_闪电/03_剪刀果实_242203_图标41792.png",
+    "icon_id": 41792,
+    "sha256": "8f4c1f4f8d270ea40a47b918f45275a7455eb48d66130bee5be599f1b851a01c",
+    "bytes": 30921
+  },
+  {
+    "hero_folder": "30504_闪电",
+    "file": "30504_闪电/04_双手剪_242303_图标24240.png",
+    "icon_id": 24240,
+    "sha256": "75828f6c915d18a985b4ee48ab4b6119fcd121e75238590473ea6b078c5bf7ce",
+    "bytes": 33681
+  },
+  {
+    "hero_folder": "30504_闪电",
+    "file": "30504_闪电/05_坏死剔除_242403_图标24220.png",
+    "icon_id": 24220,
+    "sha256": "4112e2c27cad75b040f1dcb3c09b85cb73cce213bd5ddecfceeb18c8bd568e57",
+    "bytes": 30841
+  },
+  {
+    "hero_folder": "30505_霍古巴克",
+    "file": "30505_霍古巴克/01_普通攻击_312001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30505_霍古巴克",
+    "file": "30505_霍古巴克/02_石化毒气_312103_图标22720.png",
+    "icon_id": 22720,
+    "sha256": "f48c3b094e70d12611a6f8cb6bcaffd3959ca2f7d3919a6c5d8ec9ec4dfc4ff1",
+    "bytes": 29810
+  },
+  {
+    "hero_folder": "30505_霍古巴克",
+    "file": "30505_霍古巴克/03_透支毒液_312203_图标41892.png",
+    "icon_id": 41892,
+    "sha256": "6296c7fbaaf6bd85bc16394a60d3598ef3a870427eb3ff840b60b9baee1f4133",
+    "bytes": 27833
+  },
+  {
+    "hero_folder": "30505_霍古巴克",
+    "file": "30505_霍古巴克/04_石化喷雾_312303_图标22710.png",
+    "icon_id": 22710,
+    "sha256": "99f8d764191a23cdb292376e75da13a14c37cc787b061053b5d01300d7730201",
+    "bytes": 29164
+  },
+  {
+    "hero_folder": "30506_萨博（火拳）",
+    "file": "30506_萨博（火拳）/01_普通攻击_150001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30506_萨博（火拳）",
+    "file": "30506_萨博（火拳）/02_火铳拳_150104_图标24930.png",
+    "icon_id": 24930,
+    "sha256": "7f9afe632beb01efced7806f095196d7f5ba58f77f58da4e229d9e911e8786d2",
+    "bytes": 32741
+  },
+  {
+    "hero_folder": "30506_萨博（火拳）",
+    "file": "30506_萨博（火拳）/03_燃烧继承_150204_图标24120.png",
+    "icon_id": 24120,
+    "sha256": "127cd4c17ef818eebe64c5e32ed1699acb05a52c73702843ac59f1feb7102284",
+    "bytes": 35129
+  },
+  {
+    "hero_folder": "30506_萨博（火拳）",
+    "file": "30506_萨博（火拳）/04_火焰龙王_150304_图标15010.png",
+    "icon_id": 15010,
+    "sha256": "0d6f81d660c7f653d73902222058eace565d1cef483ec1b65634ce8dddd3c4d8",
+    "bytes": 32901
+  },
+  {
+    "hero_folder": "30506_萨博（火拳）",
+    "file": "30506_萨博（火拳）/05_火焰刻印_150404_图标24920.png",
+    "icon_id": 24920,
+    "sha256": "c674ca8fa102b176590ac7d5feb15ab3cc27e8474bbd8205196e1a7d54dc3640",
+    "bytes": 24534
+  },
+  {
+    "hero_folder": "30507_月光莫利亚",
+    "file": "30507_月光莫利亚/01_普通攻击_504001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30507_月光莫利亚",
+    "file": "30507_月光莫利亚/02_影切_504104_图标21560.png",
+    "icon_id": 21560,
+    "sha256": "4491f4511f076098d3543dfac55c1d46bcfef9799127b3e6241b112bbf8604e8",
+    "bytes": 32507
+  },
+  {
+    "hero_folder": "30507_月光莫利亚",
+    "file": "30507_月光莫利亚/03_影影果实_504204_图标42092.png",
+    "icon_id": 42092,
+    "sha256": "5407a2395d47a2ea0f1af41a9a3d4bb1d66bc3158a7567e5d027ad0c0609d25d",
+    "bytes": 27694
+  },
+  {
+    "hero_folder": "30507_月光莫利亚",
+    "file": "30507_月光莫利亚/04_影子军团_504304_图标42093.png",
+    "icon_id": 42093,
+    "sha256": "f33f19cdad801ff2eb5ac9b8bc7ecb28edc9d43f241afefcc39eee29aaca72ce",
+    "bytes": 25733
+  },
+  {
+    "hero_folder": "30507_月光莫利亚",
+    "file": "30507_月光莫利亚/05_影子缠绕_504404_图标42094.png",
+    "icon_id": 42094,
+    "sha256": "6f904b807e40398fe4646adae0bbb3d88cc9d90751329c486fa20849187d8311",
+    "bytes": 28900
+  },
+  {
+    "hero_folder": "30508_龙马",
+    "file": "30508_龙马/01_普通攻击_503001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30508_龙马",
+    "file": "30508_龙马/02_鼻歌三丁·箭尾斩_503104_图标70018.png",
+    "icon_id": 70018,
+    "sha256": "2b96d18a550fbc34e860d3d0e17780f21d5c33a9fe035baab2ca18a3f9d89635",
+    "bytes": 31586
+  },
+  {
+    "hero_folder": "30508_龙马",
+    "file": "30508_龙马/03_拔刀术_503204_图标70017.png",
+    "icon_id": 70017,
+    "sha256": "5092d9bfd708e4ab81b8c46ca1dfc3fd4f8b56f8871c2c834407e75a019bf9c7",
+    "bytes": 32506
+  },
+  {
+    "hero_folder": "30508_龙马",
+    "file": "30508_龙马/04_鼻歌三丁·回风刺_503304_图标42193.png",
+    "icon_id": 42193,
+    "sha256": "2922a0edb47dd39727cafe8aade91891bb830abe304d7d96fbc4f330180a3685",
+    "bytes": 22817
+  },
+  {
+    "hero_folder": "30508_龙马",
+    "file": "30508_龙马/05_黑刀秋水_503404_图标70026.png",
+    "icon_id": 70026,
+    "sha256": "ff9de57a4992537133c7c8fda7855a5387dd42417d1e028c8ac3974324a85daa",
+    "bytes": 24648
+  },
+  {
+    "hero_folder": "30509_鹰眼",
+    "file": "30509_鹰眼/01_普通攻击_515001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30509_鹰眼",
+    "file": "30509_鹰眼/02_剑豪_515104_图标22931.png",
+    "icon_id": 22931,
+    "sha256": "dc79f8c298e48fd32d6e9ca89f1e580e525a767d25c8e7ca4e3efe2c73472fb3",
+    "bytes": 28005
+  },
+  {
+    "hero_folder": "30509_鹰眼",
+    "file": "30509_鹰眼/03_天下第一_515204_图标22932.png",
+    "icon_id": 22932,
+    "sha256": "d579e8164a3ab7409476683083371f6ad50af51fc366ccb854941afb1014bffa",
+    "bytes": 27907
+  },
+  {
+    "hero_folder": "30509_鹰眼",
+    "file": "30509_鹰眼/04_无上大快刀_515304_图标22933.png",
+    "icon_id": 22933,
+    "sha256": "2a88e43df6aa91af50445fc6a3dc522c07af464152ebd196f3722e2145b6c447",
+    "bytes": 26658
+  },
+  {
+    "hero_folder": "30509_鹰眼",
+    "file": "30509_鹰眼/05_黑切_515404_图标22934.png",
+    "icon_id": 22934,
+    "sha256": "9a4c621b44a56adf54c77526639391ad17f38df2afb76415fa938df74ee012cb",
+    "bytes": 29629
+  },
+  {
+    "hero_folder": "30510_多弗朗明哥",
+    "file": "30510_多弗朗明哥/01_普通攻击_517001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30510_多弗朗明哥",
+    "file": "30510_多弗朗明哥/02_海源白浪·羽击线_517104_图标22941.png",
+    "icon_id": 22941,
+    "sha256": "77a9822fcccfbbc68e71d7a062aeae89e5f1e7d94061d4a7b5485e840978fc77",
+    "bytes": 31127
+  },
+  {
+    "hero_folder": "30510_多弗朗明哥",
+    "file": "30510_多弗朗明哥/03_寄生线_517204_图标22942.png",
+    "icon_id": 22942,
+    "sha256": "250510b628e201b2c45d406204d91e133dbfa2003fa968fab55e0124a37422d4",
+    "bytes": 30076
+  },
+  {
+    "hero_folder": "30510_多弗朗明哥",
+    "file": "30510_多弗朗明哥/04_影骑线_517304_图标22943.png",
+    "icon_id": 22943,
+    "sha256": "4f6d37c792d5dfa8669d6006b2230501c92b06454c8c9640a5638904ae1d1b95",
+    "bytes": 32883
+  },
+  {
+    "hero_folder": "30510_多弗朗明哥",
+    "file": "30510_多弗朗明哥/05_足剃线_517404_图标22944.png",
+    "icon_id": 22944,
+    "sha256": "af5be96d0402aa8369a3f7afe934ab527da998e944dafc3c56f140d19743051a",
+    "bytes": 33018
+  },
+  {
+    "hero_folder": "30511_汉库克",
+    "file": "30511_汉库克/01_普通攻击_522001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30511_汉库克",
+    "file": "30511_汉库克/02_女王鼓舞_522104_图标22993.png",
+    "icon_id": 22993,
+    "sha256": "643d97310b4a7fd35d7ebf66541944307519b63784c99ea94e57cef59c54a11b",
+    "bytes": 30096
+  },
+  {
+    "hero_folder": "30511_汉库克",
+    "file": "30511_汉库克/03_甜甜果实_522204_图标22992.png",
+    "icon_id": 22992,
+    "sha256": "03b5e675228eb8955a2eec929063651afc68101cd4e3c9571d273e99f8e92fcf",
+    "bytes": 28890
+  },
+  {
+    "hero_folder": "30511_汉库克",
+    "file": "30511_汉库克/04_甜甜箭_522304_图标22991.png",
+    "icon_id": 22991,
+    "sha256": "d026b828c43a509f36deeacac054a3296cdf03fc7f22415958e12f2e446a4dd7",
+    "bytes": 29682
+  },
+  {
+    "hero_folder": "30511_汉库克",
+    "file": "30511_汉库克/05_甜蜜追击_522404_图标22994.png",
+    "icon_id": 22994,
+    "sha256": "a2b634f8e4a70f9fce8066fa7110cf7df5b45c81553c0c4cc9f7e4eb9827578e",
+    "bytes": 30493
+  },
+  {
+    "hero_folder": "30512_黑胡子",
+    "file": "30512_黑胡子/01_普通攻击_527001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30512_黑胡子",
+    "file": "30512_黑胡子/02_黑洞_527103_图标23801.png",
+    "icon_id": 23801,
+    "sha256": "a2d2896b0c98fb256e0b68e129239fd61ee643d075198d30f95c442f279f5e53",
+    "bytes": 33898
+  },
+  {
+    "hero_folder": "30512_黑胡子",
+    "file": "30512_黑胡子/03_暗暗果实_527203_图标23802.png",
+    "icon_id": 23802,
+    "sha256": "15e4f24cf1270561770e5b34aae1618161a1967c0e06e4e8a10b73f2fce72d6c",
+    "bytes": 32710
+  },
+  {
+    "hero_folder": "30512_黑胡子",
+    "file": "30512_黑胡子/04_黑暗领域_527303_图标23803.png",
+    "icon_id": 23803,
+    "sha256": "9c0e66294ff2ce3de5d9548e8528a6495e796fa59839dd09e286f2eccb1f9008",
+    "bytes": 27913
+  },
+  {
+    "hero_folder": "30512_黑胡子",
+    "file": "30512_黑胡子/05_暗水_527403_图标23804.png",
+    "icon_id": 23804,
+    "sha256": "8f08b50fa05102be91528233a9a9138c0be1b6d47834ad355689f05c7f4ed7ae",
+    "bytes": 26250
+  },
+  {
+    "hero_folder": "30513_金鱼乙姬",
+    "file": "30513_金鱼乙姬/01_普通攻击_532001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30513_金鱼乙姬",
+    "file": "30513_金鱼乙姬/02_共鸣演说_532104_图标53210.png",
+    "icon_id": 53210,
+    "sha256": "59ce81b6bab61dcc7f6e140f73d9d813c9cadd27db75126bbe5ba1d5bd6c7343",
+    "bytes": 26475
+  },
+  {
+    "hero_folder": "30513_金鱼乙姬",
+    "file": "30513_金鱼乙姬/03_金鱼王后_532204_图标53220.png",
+    "icon_id": 53220,
+    "sha256": "dd857fbcdf2fb322925bd77559e7c5b5e7295ed1dbe0abe74fd90a93a20e0361",
+    "bytes": 25327
+  },
+  {
+    "hero_folder": "30513_金鱼乙姬",
+    "file": "30513_金鱼乙姬/04_仁爱之心_532304_图标53230.png",
+    "icon_id": 53230,
+    "sha256": "787011812b2d75e02e9a382e5a2d9f35c52480a7bed4f11eaa0b5b593ca35bd2",
+    "bytes": 23531
+  },
+  {
+    "hero_folder": "30513_金鱼乙姬",
+    "file": "30513_金鱼乙姬/05_命运反抗_532404_图标53240.png",
+    "icon_id": 53240,
+    "sha256": "c733109d3c818ca29bcb3832b0644d9555b0c6cc2f774659249cb6007605af38",
+    "bytes": 24738
+  },
+  {
+    "hero_folder": "30514_光月时",
+    "file": "30514_光月时/01_普通攻击_544001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30514_光月时",
+    "file": "30514_光月时/02_时空异动_544104_图标54410.png",
+    "icon_id": 54410,
+    "sha256": "c9f5acc666812d3b4e1223c5db327b136c76ca465e6904733927d00b9a891240",
+    "bytes": 19242
+  },
+  {
+    "hero_folder": "30514_光月时",
+    "file": "30514_光月时/03_时时果实_544204_图标54420.png",
+    "icon_id": 54420,
+    "sha256": "546461c2705d46c7f1e05915178f660ad6ce9f3bcb2f42eeec1c3c3754a333d8",
+    "bytes": 18133
+  },
+  {
+    "hero_folder": "30514_光月时",
+    "file": "30514_光月时/04_伤害迁跃_544304_图标54430.png",
+    "icon_id": 54430,
+    "sha256": "31dd37d819cac65e15652a55fa789fcfa7e632272988a5e2f14c43e907c606d6",
+    "bytes": 18929
+  },
+  {
+    "hero_folder": "30514_光月时",
+    "file": "30514_光月时/05_治愈迁跃_544404_图标54440.png",
+    "icon_id": 54440,
+    "sha256": "98191c3c7f7f7c22e4073c3e5d5d75a51cc6bc29f6d90a6671b77fc629fd94be",
+    "bytes": 17392
+  },
+  {
+    "hero_folder": "30515_蕾玖",
+    "file": "30515_蕾玖/01_普通攻击_549001_图标54900.png",
+    "icon_id": 54900,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "30515_蕾玖",
+    "file": "30515_蕾玖/02_粉色毒雾_549104_图标54910.png",
+    "icon_id": 54910,
+    "sha256": "d8a9bf410c053486ed19e37a823a8fe9eee01ba028b1b819606ed68af11566cd",
+    "bytes": 27468
+  },
+  {
+    "hero_folder": "30515_蕾玖",
+    "file": "30515_蕾玖/03_外骨骼·毒蛾_549204_图标54920.png",
+    "icon_id": 54920,
+    "sha256": "2643b8c8241ed08f0ec8922242238a0e3dd07c598b2c1f53272ff2c09af913b3",
+    "bytes": 29664
+  },
+  {
+    "hero_folder": "30515_蕾玖",
+    "file": "30515_蕾玖/04_腐骨毒雾_549304_图标54930.png",
+    "icon_id": 54930,
+    "sha256": "b7bfca971841145b4ba0e0d2a0261a1df41b7eaab77f3a40d743686ca153cac0",
+    "bytes": 28735
+  },
+  {
+    "hero_folder": "30515_蕾玖",
+    "file": "30515_蕾玖/05_血统因子_549404_图标54940.png",
+    "icon_id": 54940,
+    "sha256": "47623e0b556158e336f574bcb8251561b9916594b5da49ad516afdfefc9df21d",
+    "bytes": 28346
+  },
+  {
+    "hero_folder": "40301_达斯琪",
+    "file": "40301_达斯琪/01_普通攻击_281001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40301_达斯琪",
+    "file": "40301_达斯琪/02_斩时雨_281101_图标50191.png",
+    "icon_id": 50191,
+    "sha256": "d87f8760dbe13d8e84c019f574892baf2d0da725c6a1f874ff97f3d4dc6fd994",
+    "bytes": 32910
+  },
+  {
+    "hero_folder": "40301_达斯琪",
+    "file": "40301_达斯琪/03_海军正义_281201_图标50192.png",
+    "icon_id": 50192,
+    "sha256": "42df9aeb88d73c04a0f1e8c34c0ffff6476c67defe2cb30b4838550452bfa650",
+    "bytes": 27097
+  },
+  {
+    "hero_folder": "40401_布鲁诺",
+    "file": "40401_布鲁诺/01_普通攻击_228001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40401_布鲁诺",
+    "file": "40401_布鲁诺/02_生命归还·缓_228101_图标50291.png",
+    "icon_id": 50291,
+    "sha256": "c93af99f56d2c2f09b5f311e67b439239ced9a2969f655b55bf71772048c859a",
+    "bytes": 32654
+  },
+  {
+    "hero_folder": "40401_布鲁诺",
+    "file": "40401_布鲁诺/03_铁块强化_228201_图标50292.png",
+    "icon_id": 50292,
+    "sha256": "c32f33afa3193f0763cc033b0a76fc0eb4c5aa21b5dfdd1e2faf5198adc55495",
+    "bytes": 29023
+  },
+  {
+    "hero_folder": "40401_布鲁诺",
+    "file": "40401_布鲁诺/04_大生命绽放_228301_图标50293.png",
+    "icon_id": 50293,
+    "sha256": "2ff9bcb7ec06fe4662e247c8b0c9bbb495ec945db30a1967bfc7b234ff02b415",
+    "bytes": 31649
+  },
+  {
+    "hero_folder": "40402_猫头鹰",
+    "file": "40402_猫头鹰/01_普通攻击_245001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40402_猫头鹰",
+    "file": "40402_猫头鹰/02_铁块冲击_245101_图标15030.png",
+    "icon_id": 15030,
+    "sha256": "e6ac4ff85d752a2a0abd160697ebcfb5d2e78a72581bc99bdb738ce190e81fd1",
+    "bytes": 26594
+  },
+  {
+    "hero_folder": "40402_猫头鹰",
+    "file": "40402_猫头鹰/03_铁块_245201_图标21430.png",
+    "icon_id": 21430,
+    "sha256": "5fb350c6660eeae5f1281c5d72fbcfd1f4540efcd68367deed632741a934ca00",
+    "bytes": 27317
+  },
+  {
+    "hero_folder": "40402_猫头鹰",
+    "file": "40402_猫头鹰/04_生命释放_245301_图标50393.png",
+    "icon_id": 50393,
+    "sha256": "a463e5c3d40b0e647890c225d3c9f9bdab0d2077a2d3aae75a42903628eaac81",
+    "bytes": 29522
+  },
+  {
+    "hero_folder": "40403_加布拉",
+    "file": "40403_加布拉/01_普通攻击_204001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40403_加布拉",
+    "file": "40403_加布拉/02_岚脚_204101_图标50491.png",
+    "icon_id": 50491,
+    "sha256": "c3afd227c8411149eeea944d6aa9c82a6e1e8a814d687072b34ff3763068f08d",
+    "bytes": 32081
+  },
+  {
+    "hero_folder": "40403_加布拉",
+    "file": "40403_加布拉/03_狼型_204201_图标50492.png",
+    "icon_id": 50492,
+    "sha256": "b25f566253cba164bfd4b01c7e3c273a43a9117fc9ac016a8b88ac468ad30a7f",
+    "bytes": 31248
+  },
+  {
+    "hero_folder": "40403_加布拉",
+    "file": "40403_加布拉/04_岚脚·十破_204301_图标20410.png",
+    "icon_id": 20410,
+    "sha256": "8c2e41d87902c8f08d87721d45b7bff48432947f16f8a231cb5b8ee601e242f9",
+    "bytes": 31911
+  },
+  {
+    "hero_folder": "40404_卡莉法",
+    "file": "40404_卡莉法/01_普通攻击_257001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40404_卡莉法",
+    "file": "40404_卡莉法/02_放松泡_257101_图标22830.png",
+    "icon_id": 22830,
+    "sha256": "68da1c9d49be825679fe07c98c66dcd3c30b1318f4ff0847a49786a6f2b8c3a5",
+    "bytes": 32035
+  },
+  {
+    "hero_folder": "40404_卡莉法",
+    "file": "40404_卡莉法/03_泡泡果实_257201_图标50592.png",
+    "icon_id": 50592,
+    "sha256": "288ceaf2ce5ae1fad3e7448d6f325de14bfd31030e6530efc7bb4ad10f8a9af9",
+    "bytes": 29169
+  },
+  {
+    "hero_folder": "40404_卡莉法",
+    "file": "40404_卡莉法/04_大津波_257301_图标50593.png",
+    "icon_id": 50593,
+    "sha256": "786835069f8b74e56cd82e68eb38268b4731a9baa4553f91eb6676ce5d28a649",
+    "bytes": 29698
+  },
+  {
+    "hero_folder": "40501_路奇",
+    "file": "40501_路奇/01_普通攻击_250001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40501_路奇",
+    "file": "40501_路奇/02_指枪_250103_图标25020.png",
+    "icon_id": 25020,
+    "sha256": "01bda1b2fbb901b070d1f6b66ab8a5287d3f2c4763661355c15874cee7c52658",
+    "bytes": 32520
+  },
+  {
+    "hero_folder": "40501_路奇",
+    "file": "40501_路奇/03_凯鸟_250203_图标20220.png",
+    "icon_id": 20220,
+    "sha256": "b41633e5e08e223b1e06a4a2d30d28b9abe0af0a8bc2a44331232e9f8f1bd48c",
+    "bytes": 27482
+  },
+  {
+    "hero_folder": "40501_路奇",
+    "file": "40501_路奇/04_六王枪_250303_图标50693.png",
+    "icon_id": 50693,
+    "sha256": "95e4adf990132a129a53e7778ae2ac05dc2c2a68871281acaf1f370e382c0ee7",
+    "bytes": 30748
+  },
+  {
+    "hero_folder": "40502_战桃丸",
+    "file": "40502_战桃丸/01_普通攻击_152001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40502_战桃丸",
+    "file": "40502_战桃丸/02_相扑手_152103_图标15040.png",
+    "icon_id": 15040,
+    "sha256": "29391770b9bb403410c6e83acfa3fe9e50442b69d7cd5b8def7a40caed30ff86",
+    "bytes": 31919
+  },
+  {
+    "hero_folder": "40502_战桃丸",
+    "file": "40502_战桃丸/03_武装硬化_152203_图标15070.png",
+    "icon_id": 15070,
+    "sha256": "8b77416868643684f40bcd5e0248bb5fad682b39f2a83a774c8461ff9440b16e",
+    "bytes": 31889
+  },
+  {
+    "hero_folder": "40502_战桃丸",
+    "file": "40502_战桃丸/04_旋风战斧_152303_图标15060.png",
+    "icon_id": 15060,
+    "sha256": "b544cb839655062fed1de70a7ea7956cfebe2b8aea9c494219e295728b8cd678",
+    "bytes": 31000
+  },
+  {
+    "hero_folder": "40502_战桃丸",
+    "file": "40502_战桃丸/05_横纲_152403_图标15050.png",
+    "icon_id": 15050,
+    "sha256": "f7d6cbbc3b737fdc83f7f64d8925b1ac03f8439a68f86ca79c021db74b31ff80",
+    "bytes": 29672
+  },
+  {
+    "hero_folder": "40503_黄猿",
+    "file": "40503_黄猿/01_普通攻击_256001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40503_黄猿",
+    "file": "40503_黄猿/02_八尺琼勾玉_256104_图标50891.png",
+    "icon_id": 50891,
+    "sha256": "6dd10325870416fe15afd641544042e11a3c0f08eacf8be3694d5defccc6fc3b",
+    "bytes": 25419
+  },
+  {
+    "hero_folder": "40503_黄猿",
+    "file": "40503_黄猿/03_闪闪果实_256204_图标50892.png",
+    "icon_id": 50892,
+    "sha256": "3f6fb1d3be8c80c519ed69a26295f9062c86111dd6c6c58ab9f6a9f8c2a15e21",
+    "bytes": 31076
+  },
+  {
+    "hero_folder": "40503_黄猿",
+    "file": "40503_黄猿/04_天丛云剑_256304_图标50893.png",
+    "icon_id": 50893,
+    "sha256": "c3221dd114c90ceef444e313251f35b487e1892338e277b67a1b535801e25fea",
+    "bytes": 30946
+  },
+  {
+    "hero_folder": "40503_黄猿",
+    "file": "40503_黄猿/05_八尺镜_256404_图标50894.png",
+    "icon_id": 50894,
+    "sha256": "6b559939024976506b1c7aa3ca31b61effe11351ef5aa1d65c2467a954064d5d",
+    "bytes": 30761
+  },
+  {
+    "hero_folder": "40504_卡普",
+    "file": "40504_卡普/01_普通攻击_510001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40504_卡普",
+    "file": "40504_卡普/02_特大铁球_510104_图标21670.png",
+    "icon_id": 21670,
+    "sha256": "5f0773ef98e3a4274b592950e6cac45577aa971cccd3b3defd19b2770d19c228",
+    "bytes": 30096
+  },
+  {
+    "hero_folder": "40504_卡普",
+    "file": "40504_卡普/03_坚韧身躯_510204_图标15230.png",
+    "icon_id": 15230,
+    "sha256": "b7c49c789443fad508f99a9d0a341342b501904a0cdbe886ec9e91216d39505a",
+    "bytes": 30292
+  },
+  {
+    "hero_folder": "40504_卡普",
+    "file": "40504_卡普/04_追击_510304_图标15240.png",
+    "icon_id": 15240,
+    "sha256": "34541e40c969ad1eaeb96e2b39ff991cb92f5e37e748c490845c4af706c04695",
+    "bytes": 33386
+  },
+  {
+    "hero_folder": "40504_卡普",
+    "file": "40504_卡普/05_以牙还牙_510404_图标21680.png",
+    "icon_id": 21680,
+    "sha256": "bc2f901383d54fb9ee76d4023d0a9fd51b3566e43478a27efb64f389956506da",
+    "bytes": 32381
+  },
+  {
+    "hero_folder": "40505_斯摩格",
+    "file": "40505_斯摩格/01_普通攻击_241001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40505_斯摩格",
+    "file": "40505_斯摩格/02_白色冲刺_241103_图标51091.png",
+    "icon_id": 51091,
+    "sha256": "e888de0f7f2ad9d11b3d84d2ed5b82f116fa9b4dfed241e65addb8d10761be63",
+    "bytes": 30416
+  },
+  {
+    "hero_folder": "40505_斯摩格",
+    "file": "40505_斯摩格/03_白·蔓_241203_图标51092.png",
+    "icon_id": 51092,
+    "sha256": "fc4e24aee352083b2903143f761f1511d52ecb2b1e30b0f599af2c3d0cfaf048",
+    "bytes": 27351
+  },
+  {
+    "hero_folder": "40505_斯摩格",
+    "file": "40505_斯摩格/04_十守_241403_图标51093.png",
+    "icon_id": 51093,
+    "sha256": "df82f01cf0c4906cd9362cee8fbf11f30979dbfd95d88a957bae7941027643d3",
+    "bytes": 26875
+  },
+  {
+    "hero_folder": "40506_青雉",
+    "file": "40506_青雉/01_普通攻击_249001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40506_青雉",
+    "file": "40506_青雉/02_两棘矛_249104_图标51191.png",
+    "icon_id": 51191,
+    "sha256": "9e4c2adad9f0101234771092ff99373e219658554f78878a7b8c78cbe2cd5364",
+    "bytes": 29280
+  },
+  {
+    "hero_folder": "40506_青雉",
+    "file": "40506_青雉/03_大将_249204_图标51192.png",
+    "icon_id": 51192,
+    "sha256": "cdc73fd34b3cb5eef41a6acd8966ae0d8441dc63ebc136bee094f862a31feb00",
+    "bytes": 24700
+  },
+  {
+    "hero_folder": "40506_青雉",
+    "file": "40506_青雉/04_鼓舞_249304_图标51193.png",
+    "icon_id": 51193,
+    "sha256": "7d609c77ca35e519a6d6fd5a1c3a22db6d4ee58ceae0c56dbce96d37ebab6982",
+    "bytes": 29453
+  },
+  {
+    "hero_folder": "40506_青雉",
+    "file": "40506_青雉/05_冰刀_249404_图标21930.png",
+    "icon_id": 21930,
+    "sha256": "a5be6ec71fe5b256b6345ec31964a26ea5faf582556a415112784de19cf9e0a2",
+    "bytes": 29775
+  },
+  {
+    "hero_folder": "40507_鹤",
+    "file": "40507_鹤/01_普通攻击_508001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40507_鹤",
+    "file": "40507_鹤/02_心灵壁垒_508104_图标51291.png",
+    "icon_id": 51291,
+    "sha256": "a9b3a248550407b3cc91e1e41a8577fad21af70f7ea39ef31d47cc9d7e0db0bc",
+    "bytes": 32284
+  },
+  {
+    "hero_folder": "40507_鹤",
+    "file": "40507_鹤/03_洗洗果实_508204_图标51292.png",
+    "icon_id": 51292,
+    "sha256": "80431580ff97064327a86ee4e0d86f0917738e8732859404bb22443ebb26da4c",
+    "bytes": 30918
+  },
+  {
+    "hero_folder": "40507_鹤",
+    "file": "40507_鹤/04_心灵洗涤_508304_图标51293.png",
+    "icon_id": 51293,
+    "sha256": "7325fcd973f5b237ebe582909781719fc4728391af77c831bb866e3ea3f9b8b6",
+    "bytes": 29527
+  },
+  {
+    "hero_folder": "40507_鹤",
+    "file": "40507_鹤/05_心灵强化_508404_图标51294.png",
+    "icon_id": 51294,
+    "sha256": "c17ced8b803576aee92ad1d1f9b89a618960bd0e1680a83e28db77b2a9ea28b4",
+    "bytes": 25112
+  },
+  {
+    "hero_folder": "40508_战国",
+    "file": "40508_战国/01_普通攻击_514001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40508_战国",
+    "file": "40508_战国/02_佛之战国_514104_图标22810.png",
+    "icon_id": 22810,
+    "sha256": "db9559210d2943ab7ad910a96545361a7b27752c6503276378e904835a24a34c",
+    "bytes": 35387
+  },
+  {
+    "hero_folder": "40508_战国",
+    "file": "40508_战国/03_最高指挥_514204_图标24160.png",
+    "icon_id": 24160,
+    "sha256": "ba314b2815a74793262233bc66c4716835de0ad30a310d59ea724c13f83e905c",
+    "bytes": 31405
+  },
+  {
+    "hero_folder": "40508_战国",
+    "file": "40508_战国/04_佛之守护_514304_图标24150.png",
+    "icon_id": 24150,
+    "sha256": "b4f77a7e51a5e067e9101110ebac97dcca16c02de5cb1fd9f6e463bf6da15a71",
+    "bytes": 34901
+  },
+  {
+    "hero_folder": "40508_战国",
+    "file": "40508_战国/05_正义_514404_图标51394.png",
+    "icon_id": 51394,
+    "sha256": "c15e66ae445dd337375f86d2ff851559a9b1680d3aaa8a3315b6bb09ce792f56",
+    "bytes": 33345
+  },
+  {
+    "hero_folder": "40509_麦哲伦",
+    "file": "40509_麦哲伦/01_普通攻击_519001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40509_麦哲伦",
+    "file": "40509_麦哲伦/02_毒龙_519104_图标22961.png",
+    "icon_id": 22961,
+    "sha256": "118caf205a3f048ed4cddd3b4623089816e2cbd2867e976a899aabfa024619cf",
+    "bytes": 37391
+  },
+  {
+    "hero_folder": "40509_麦哲伦",
+    "file": "40509_麦哲伦/03_毒·云_519204_图标22962.png",
+    "icon_id": 22962,
+    "sha256": "725f423ef0ad3cba35fded2007433681f7c1434a17012bc5e2295af2dc23cb1b",
+    "bytes": 33582
+  },
+  {
+    "hero_folder": "40509_麦哲伦",
+    "file": "40509_麦哲伦/04_毒龙舞_519304_图标22963.png",
+    "icon_id": 22963,
+    "sha256": "1f6fb182b5962f833a8e9d54415e88b8be0927f6aef8c45124847f4a6467f264",
+    "bytes": 31959
+  },
+  {
+    "hero_folder": "40509_麦哲伦",
+    "file": "40509_麦哲伦/05_毒河豚_519404_图标22964.png",
+    "icon_id": 22964,
+    "sha256": "feb6a6498a09538af3cc63518b72a914383f64587de634910f3852af621d11fb",
+    "bytes": 31933
+  },
+  {
+    "hero_folder": "40510_赤犬",
+    "file": "40510_赤犬/01_普通攻击_525001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40510_赤犬",
+    "file": "40510_赤犬/02_大喷火_525104_图标23501.png",
+    "icon_id": 23501,
+    "sha256": "72f7968acf6f5bc03adc2f9e303fe92324a029356685f012868d5fce615e8ea7",
+    "bytes": 31279
+  },
+  {
+    "hero_folder": "40510_赤犬",
+    "file": "40510_赤犬/03_熔岩之力_525204_图标23503.png",
+    "icon_id": 23503,
+    "sha256": "3a73604476c1cf47029ac7e39b59b39e43de1105e1c262743309b6617680a617",
+    "bytes": 31343
+  },
+  {
+    "hero_folder": "40510_赤犬",
+    "file": "40510_赤犬/04_冥狗_525304_图标23504.png",
+    "icon_id": 23504,
+    "sha256": "f133aa6c21cc768c44f1902efb4e69fe0a3ac4e63e64336a67e718ebe642a0e3",
+    "bytes": 28366
+  },
+  {
+    "hero_folder": "40510_赤犬",
+    "file": "40510_赤犬/05_犬啮红莲_525404_图标23502.png",
+    "icon_id": 23502,
+    "sha256": "851a8c6e31bb3ec49ec6613ea54891b05496720855b22a50de79d2fb07fe788f",
+    "bytes": 30146
+  },
+  {
+    "hero_folder": "40511_藤虎",
+    "file": "40511_藤虎/01_普通攻击_529001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40511_藤虎",
+    "file": "40511_藤虎/02_重力刀·陨击_529104_图标27501.png",
+    "icon_id": 27501,
+    "sha256": "983f5522757847ee2a164b1930385edd5b6e37bf8c6756892be8bac8e331e1d1",
+    "bytes": 32556
+  },
+  {
+    "hero_folder": "40511_藤虎",
+    "file": "40511_藤虎/03_重重果实_529204_图标27502.png",
+    "icon_id": 27502,
+    "sha256": "097107ee4af518fa560bd6196f2bc7d0f67c6f08ce757715b76a18ff5e58de8e",
+    "bytes": 31247
+  },
+  {
+    "hero_folder": "40511_藤虎",
+    "file": "40511_藤虎/04_重力刀·猛虎_529304_图标27503.png",
+    "icon_id": 27503,
+    "sha256": "2c7796214822e98de3f0ee8d0b5f97e7672db44996ccc081d9cc81b7f83f86ee",
+    "bytes": 30545
+  },
+  {
+    "hero_folder": "40511_藤虎",
+    "file": "40511_藤虎/05_盲人赌徒_529404_图标27504.png",
+    "icon_id": 27504,
+    "sha256": "804b551dbf5cf638b2ba0d92a6c0829aba6dc6d5d848ba70217d843886af3bc7",
+    "bytes": 27722
+  },
+  {
+    "hero_folder": "40512_泽法",
+    "file": "40512_泽法/01_普通攻击_535001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40512_泽法",
+    "file": "40512_泽法/02_灭世计划_535104_图标53510.png",
+    "icon_id": 53510,
+    "sha256": "8537ba776e882ad8598ef1adab1c881f779f375b42ebff9ca3054dbeef020829",
+    "bytes": 27635
+  },
+  {
+    "hero_folder": "40512_泽法",
+    "file": "40512_泽法/03_海军导师_535204_图标53520.png",
+    "icon_id": 53520,
+    "sha256": "be23895c44c552feda44c7315f3675e675548a5b7bbe445b0966cb8bd6497a9d",
+    "bytes": 28114
+  },
+  {
+    "hero_folder": "40512_泽法",
+    "file": "40512_泽法/04_极致武装色_535304_图标53530.png",
+    "icon_id": 53530,
+    "sha256": "ad7e4c653d6381ca9cdae51157d0a6f739470713370a70233dd8c8b8a51bf380",
+    "bytes": 27217
+  },
+  {
+    "hero_folder": "40512_泽法",
+    "file": "40512_泽法/05_灭世炮_535404_图标53540.png",
+    "icon_id": 53540,
+    "sha256": "ea8ea36796ffee0bdb168ed3d4f0cc03630f94d812b8c8ae463ed3de0f05b46b",
+    "bytes": 25708
+  },
+  {
+    "hero_folder": "40513_桃兔",
+    "file": "40513_桃兔/01_普通攻击_538001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40513_桃兔",
+    "file": "40513_桃兔/02_金毘罗_538104_图标53830.png",
+    "icon_id": 53830,
+    "sha256": "62e89cac955d1eefc3c3a3be55cc2d4088242d8fb07003a72eb9b7e4af78b8d7",
+    "bytes": 31048
+  },
+  {
+    "hero_folder": "40513_桃兔",
+    "file": "40513_桃兔/03_大将候补_538204_图标53820.png",
+    "icon_id": 53820,
+    "sha256": "5b962b6e96fadc75339992bd447c8eb3d3688cbc0e9700c59b050357561197fb",
+    "bytes": 31107
+  },
+  {
+    "hero_folder": "40513_桃兔",
+    "file": "40513_桃兔/04_半玉·花柳_538304_图标53810.png",
+    "icon_id": 53810,
+    "sha256": "016cefebf8944eae61a67ddc4fd6dbfd862f65c8105dd8f20557e56188638a3c",
+    "bytes": 30874
+  },
+  {
+    "hero_folder": "40513_桃兔",
+    "file": "40513_桃兔/05_芸者·浮世绘_538404_图标53840.png",
+    "icon_id": 53840,
+    "sha256": "0c821645907f4b1b7fbf20c6b10aca1978390f17a424084cb8405d9bf1ad85a3",
+    "bytes": 26140
+  },
+  {
+    "hero_folder": "40514_茶豚",
+    "file": "40514_茶豚/01_普通攻击_543001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "40514_茶豚",
+    "file": "40514_茶豚/02_手枪连射_543104_图标54310.png",
+    "icon_id": 54310,
+    "sha256": "5ee51b4b3189f235c89abaaaa90a4a00e5cc61e7ef00e3393239482e873475c0",
+    "bytes": 30693
+  },
+  {
+    "hero_folder": "40514_茶豚",
+    "file": "40514_茶豚/03_大将候补_543204_图标54320.png",
+    "icon_id": 54320,
+    "sha256": "bc607abe0f4411b28fa27bf034ee40667ff917c8afc3538dcc668411583be83b",
+    "bytes": 23214
+  },
+  {
+    "hero_folder": "40514_茶豚",
+    "file": "40514_茶豚/04_猪突猛进_543304_图标54330.png",
+    "icon_id": 54330,
+    "sha256": "c0d02167a107d1d554d47900ecadb3fe85bcecd86499ed71804056c5b011a798",
+    "bytes": 29923
+  },
+  {
+    "hero_folder": "40514_茶豚",
+    "file": "40514_茶豚/05_告白动力_543404_图标54340.png",
+    "icon_id": 54340,
+    "sha256": "17efe410c546a200a4ef6ba3296405276548048b0bde68ccaac86928afd3fc2f",
+    "bytes": 27418
+  },
+  {
+    "hero_folder": "50301_蒙卡",
+    "file": "50301_蒙卡/01_普通攻击_282001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50301_蒙卡",
+    "file": "50301_蒙卡/02_手斧_282101_图标20310.png",
+    "icon_id": 20310,
+    "sha256": "29dcdfeb7592033d377a2263bfc2a6399f2079404627ec3669cbe22fd34daf97",
+    "bytes": 33366
+  },
+  {
+    "hero_folder": "50301_蒙卡",
+    "file": "50301_蒙卡/03_强健_282201_图标20320.png",
+    "icon_id": 20320,
+    "sha256": "258d0c9078b8f5f7a756f8f373e83d22a908b75bd214ad352d1eea474ea93359",
+    "bytes": 29660
+  },
+  {
+    "hero_folder": "50401_克洛",
+    "file": "50401_克洛/01_普通攻击_283001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50401_克洛",
+    "file": "50401_克洛/02_猫爪_283101_图标22560.png",
+    "icon_id": 22560,
+    "sha256": "0307d3c0638ed77d25f93d106d19ee4165b0dd342cc71a834bd2d9b54e3fc687",
+    "bytes": 33011
+  },
+  {
+    "hero_folder": "50401_克洛",
+    "file": "50401_克洛/03_无声步_283201_图标60292.png",
+    "icon_id": 60292,
+    "sha256": "1f9a26f50f8127823ad051af2212198808ae3505672c42add5a4d0e0d7baf2dc",
+    "bytes": 29660
+  },
+  {
+    "hero_folder": "50401_克洛",
+    "file": "50401_克洛/04_潜伏_283301_图标22550.png",
+    "icon_id": 22550,
+    "sha256": "7d382dccc835834101d5e73ca4a47a1a836b90a5ccb30de81c93165b62d2a4bb",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50402_阿龙",
+    "file": "50402_阿龙/01_普通攻击_252001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50402_阿龙",
+    "file": "50402_阿龙/02_鲨鱼飞箭_252101_图标60391.png",
+    "icon_id": 60391,
+    "sha256": "4feaf35b61a5eb13a766400bd5d455409989bc3a834b57d4d1f46dcdaf49eb45",
+    "bytes": 33662
+  },
+  {
+    "hero_folder": "50402_阿龙",
+    "file": "50402_阿龙/03_鱼人体质_252201_图标60392.png",
+    "icon_id": 60392,
+    "sha256": "41200f30b19a543909f39fbc82e3d87918f3684cd3ddcdf556d88de16785439c",
+    "bytes": 32160
+  },
+  {
+    "hero_folder": "50402_阿龙",
+    "file": "50402_阿龙/04_残暴_252301_图标60393.png",
+    "icon_id": 60393,
+    "sha256": "9199b3dfbdd645855abe0f18e090d507d29cce3d42fbffd66208cdceb5635166",
+    "bytes": 31386
+  },
+  {
+    "hero_folder": "50403_克利克",
+    "file": "50403_克利克/01_重锤_285001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50403_克利克",
+    "file": "50403_克利克/02_大战枪_285101_图标20350.png",
+    "icon_id": 20350,
+    "sha256": "0f3e2ad953120d40b0e76e45e78dfe362a40894f006279ce952519872e719d14",
+    "bytes": 32839
+  },
+  {
+    "hero_folder": "50403_克利克",
+    "file": "50403_克利克/03_剑山斗篷_285201_图标20330.png",
+    "icon_id": 20330,
+    "sha256": "31841695d96d13f54b45e7780812d98f5046ce1277c7bbd0585b1c978e322acf",
+    "bytes": 33632
+  },
+  {
+    "hero_folder": "50403_克利克",
+    "file": "50403_克利克/04_绝对防御_285301_图标20340.png",
+    "icon_id": 20340,
+    "sha256": "5cd4f7b5da0dc5a316d8ebb534f5951058c002850bda8b023309b1dffc68b891",
+    "bytes": 31949
+  },
+  {
+    "hero_folder": "50404_瓦尔波",
+    "file": "50404_瓦尔波/01_暗影箭_286001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50404_瓦尔波",
+    "file": "50404_瓦尔波/02_吞吞食_286101_图标60591.png",
+    "icon_id": 60591,
+    "sha256": "d9e915fd802ecf574ea2be1859bc42b39b33ce0d9dc4e1c57f47ba4eb1799308",
+    "bytes": 28133
+  },
+  {
+    "hero_folder": "50404_瓦尔波",
+    "file": "50404_瓦尔波/03_饱腹感_286201_图标22530.png",
+    "icon_id": 22530,
+    "sha256": "bc112c54739863ffec3c4699ad774e9fecc2a59732889715d7fc5fd5619749bf",
+    "bytes": 29531
+  },
+  {
+    "hero_folder": "50404_瓦尔波",
+    "file": "50404_瓦尔波/04_吞吞工厂_286301_图标22570.png",
+    "icon_id": 22570,
+    "sha256": "dd797a2443eeb51f1deb60fb94deb402cc5b7781ee06c2f14105dc4406ae5aa9",
+    "bytes": 29911
+  },
+  {
+    "hero_folder": "50501_索隆(新世界)",
+    "file": "50501_索隆(新世界)/01_普通攻击_227001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50501_索隆(新世界)",
+    "file": "50501_索隆(新世界)/02_黑刀·大龙卷_227103_图标60691.png",
+    "icon_id": 60691,
+    "sha256": "f06064a69f0b9100547b8a7b331d4e52c18a41d0e90c47169aebf4569addd7df",
+    "bytes": 33002
+  },
+  {
+    "hero_folder": "50501_索隆(新世界)",
+    "file": "50501_索隆(新世界)/03_厄港鸟_227203_图标70000.png",
+    "icon_id": 70000,
+    "sha256": "95cd6e4a0a4ed1e43cf60eb2348bb5798c9c71a5c4fa47588f3d493109e714e4",
+    "bytes": 31404
+  },
+  {
+    "hero_folder": "50501_索隆(新世界)",
+    "file": "50501_索隆(新世界)/04_黑刀·大辰撼_227303_图标60693.png",
+    "icon_id": 60693,
+    "sha256": "a638870a9ab5f0cdab478fa700ea5e93d1fb8a48ecdd5194432a9b63ddfe3e31",
+    "bytes": 32953
+  },
+  {
+    "hero_folder": "50502_冥王雷利",
+    "file": "50502_冥王雷利/01_普通攻击_214001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50502_冥王雷利",
+    "file": "50502_冥王雷利/02_冥王_214104_图标60791.png",
+    "icon_id": 60791,
+    "sha256": "1e1e9a475aab1db06acff172b77a5ae66c1179d521be76d94cd4b69b8f22c2e6",
+    "bytes": 28805
+  },
+  {
+    "hero_folder": "50502_冥王雷利",
+    "file": "50502_冥王雷利/03_霸气专家_214204_图标21120.png",
+    "icon_id": 21120,
+    "sha256": "0b197c70ce894aac1872145d9059460a9e812818ac13f50de78c8979b0199be9",
+    "bytes": 31120
+  },
+  {
+    "hero_folder": "50502_冥王雷利",
+    "file": "50502_冥王雷利/04_超量打击_214304_图标60793.png",
+    "icon_id": 60793,
+    "sha256": "ddc219d3f630c31d7849bd59ad156c121d16295bbc7e293f4454f80671eaa4c7",
+    "bytes": 27336
+  },
+  {
+    "hero_folder": "50502_冥王雷利",
+    "file": "50502_冥王雷利/05_传奇皇副_214404_图标20360.png",
+    "icon_id": 20360,
+    "sha256": "49d0ba0ce9a7ae688412e0290e35df48ab3219aec6f0400a2f248bc68d43461a",
+    "bytes": 27058
+  },
+  {
+    "hero_folder": "50503_巴杰斯",
+    "file": "50503_巴杰斯/01_普通攻击_511001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50503_巴杰斯",
+    "file": "50503_巴杰斯/02_波动肘击_511104_图标60891.png",
+    "icon_id": 60891,
+    "sha256": "09b0bfc47a67af7589094a0f18840d8c0d22d92f0090863def719d9fc92f6ced",
+    "bytes": 29305
+  },
+  {
+    "hero_folder": "50503_巴杰斯",
+    "file": "50503_巴杰斯/03_大力士_511204_图标60892.png",
+    "icon_id": 60892,
+    "sha256": "bed4aff22530ea3825d92b78b14397615442b0cb2ae3191452b0f09db1b974ef",
+    "bytes": 31616
+  },
+  {
+    "hero_folder": "50503_巴杰斯",
+    "file": "50503_巴杰斯/04_碎裂冲击_511304_图标20370.png",
+    "icon_id": 20370,
+    "sha256": "654247fac25418102d86163e6e25b9b0daafb1df6531199556dd33c4542224b4",
+    "bytes": 30331
+  },
+  {
+    "hero_folder": "50503_巴杰斯",
+    "file": "50503_巴杰斯/05_钢铁之肘_511404_图标60894.png",
+    "icon_id": 60894,
+    "sha256": "f04dc5484ac53ddfad76323a819f6017209df2bb3678bf7f5888b4c75543be4e",
+    "bytes": 29425
+  },
+  {
+    "hero_folder": "50504_香克斯",
+    "file": "50504_香克斯/01_普通攻击_153001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50504_香克斯",
+    "file": "50504_香克斯/02_格里芬_153104_图标15340.png",
+    "icon_id": 15340,
+    "sha256": "e078302eb290755263cffc9f6de80d57f0a6031698df4bdb8b8bd6bb141405ec",
+    "bytes": 30682
+  },
+  {
+    "hero_folder": "50504_香克斯",
+    "file": "50504_香克斯/03_红发_153204_图标15330.png",
+    "icon_id": 15330,
+    "sha256": "15bdb79d80a815d01690b2cad97df796088d3dc7353fdb4034c0c9b4a30d2c5f",
+    "bytes": 30476
+  },
+  {
+    "hero_folder": "50504_香克斯",
+    "file": "50504_香克斯/04_格里芬·突刺_153304_图标15320.png",
+    "icon_id": 15320,
+    "sha256": "85b7fd4e5890bd52bbc4f1ae9e5d35c74b652f59076d9f808873235cd55f5e27",
+    "bytes": 32398
+  },
+  {
+    "hero_folder": "50504_香克斯",
+    "file": "50504_香克斯/05_四皇之慑_153404_图标24210.png",
+    "icon_id": 24210,
+    "sha256": "52a5e301cc2e2bd2ab0e140d38d2bff35a8fc488f9fe75ebad5352dc53e58602",
+    "bytes": 32943
+  },
+  {
+    "hero_folder": "50505_黑胡子(新世界)",
+    "file": "50505_黑胡子(新世界)/01_普通攻击_251001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50505_黑胡子(新世界)",
+    "file": "50505_黑胡子(新世界)/02_黑暗爆震_251104_图标24230.png",
+    "icon_id": 24230,
+    "sha256": "4d67732b906431034bbc19edeb35c2d0f598a2cb96e1f0599d6c40a51a26dcc2",
+    "bytes": 28562
+  },
+  {
+    "hero_folder": "50505_黑胡子(新世界)",
+    "file": "50505_黑胡子(新世界)/03_双重果实_251204_图标61092.png",
+    "icon_id": 61092,
+    "sha256": "d60daf116f561e7c8f3207d8ae405ffaa191202d0fb462c0481a2add552a322c",
+    "bytes": 30532
+  },
+  {
+    "hero_folder": "50505_黑胡子(新世界)",
+    "file": "50505_黑胡子(新世界)/04_黑洞解放_251304_图标25120.png",
+    "icon_id": 25120,
+    "sha256": "3e5a329ead64b0deadb1eefda8a976e5a6d97ef6fe0a076b3bf1efddb1d711c1",
+    "bytes": 28832
+  },
+  {
+    "hero_folder": "50505_黑胡子(新世界)",
+    "file": "50505_黑胡子(新世界)/05_暗穴道_251404_图标61094.png",
+    "icon_id": 61094,
+    "sha256": "976c455fea38b44ea456a7b04e1359ef5a20a48ed5511a106c647a3f40dac82b",
+    "bytes": 29638
+  },
+  {
+    "hero_folder": "50506_雨之希留",
+    "file": "50506_雨之希留/01_普通攻击_222001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50506_雨之希留",
+    "file": "50506_雨之希留/02_嗜杀·雷雨_222103_图标22210.png",
+    "icon_id": 22210,
+    "sha256": "4222942e89f81ca54c7f2206526f9fc85beb96d9e39c17eb319df171f18d2c27",
+    "bytes": 28151
+  },
+  {
+    "hero_folder": "50506_雨之希留",
+    "file": "50506_雨之希留/03_铁壁_222203_图标61192.png",
+    "icon_id": 61192,
+    "sha256": "ae20381ad8807317cf0e0bc2d75219c991ee6975a3fd351bf31e40842cdb2a80",
+    "bytes": 29328
+  },
+  {
+    "hero_folder": "50506_雨之希留",
+    "file": "50506_雨之希留/04_名刀·雷隐_222303_图标61193.png",
+    "icon_id": 61193,
+    "sha256": "a317e23c5076023386b92a46ff2f50530a22ede60f76d4e936eba96cc88eb435",
+    "bytes": 25164
+  },
+  {
+    "hero_folder": "50507_艾斯（魂）",
+    "file": "50507_艾斯（魂）/01_普通攻击_505001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50507_艾斯（魂）",
+    "file": "50507_艾斯（魂）/02_大火拳_505104_图标61291.png",
+    "icon_id": 61291,
+    "sha256": "3eec2ce943804f81c11fbcc46fe9f0ef31ddabefaa7a73218fe4542d85d22b8b",
+    "bytes": 29906
+  },
+  {
+    "hero_folder": "50507_艾斯（魂）",
+    "file": "50507_艾斯（魂）/03_烧烧果实_505204_图标61292.png",
+    "icon_id": 61292,
+    "sha256": "1ca8589358ad70bf8d2a558ea307a27702d2b736ba9f9586a6ebc899f0b82f89",
+    "bytes": 30908
+  },
+  {
+    "hero_folder": "50507_艾斯（魂）",
+    "file": "50507_艾斯（魂）/04_神火·不知火_505304_图标61293.png",
+    "icon_id": 61293,
+    "sha256": "c23a2763cbba448b35b795da38ad13aa9e3252fad7c7144df16232085cfbede4",
+    "bytes": 31690
+  },
+  {
+    "hero_folder": "50507_艾斯（魂）",
+    "file": "50507_艾斯（魂）/05_炎戒_505404_图标61294.png",
+    "icon_id": 61294,
+    "sha256": "333d60618a2a560b66d32b25c74dccf813d608684e2d3ed5ae81e908757dc80d",
+    "bytes": 31666
+  },
+  {
+    "hero_folder": "50508_白胡子",
+    "file": "50508_白胡子/01_普通攻击_516001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50508_白胡子",
+    "file": "50508_白胡子/02_丛云切_516104_图标22581.png",
+    "icon_id": 22581,
+    "sha256": "6dd3a36a900f006ed6942bb8c36ed9b2b25000b5273c8606eb82756460641a87",
+    "bytes": 28215
+  },
+  {
+    "hero_folder": "50508_白胡子",
+    "file": "50508_白胡子/03_最强之男_516204_图标22582.png",
+    "icon_id": 22582,
+    "sha256": "d1f4de8b5dd4de19eaaff5cbd7c8cbc3beb5da32cdf805fe32086a76e6463e22",
+    "bytes": 30541
+  },
+  {
+    "hero_folder": "50508_白胡子",
+    "file": "50508_白胡子/04_空裂_516304_图标22583.png",
+    "icon_id": 22583,
+    "sha256": "3d209fce835d91ca83252262badc4d25924fa15c89418472eb5355238b32729a",
+    "bytes": 32990
+  },
+  {
+    "hero_folder": "50508_白胡子",
+    "file": "50508_白胡子/05_果实觉醒_516404_图标22584.png",
+    "icon_id": 22584,
+    "sha256": "4de4f3762d97db6c79d0113ddfc6ffffbe49e28451660d7ed9b54700c0b06a86",
+    "bytes": 31564
+  },
+  {
+    "hero_folder": "50509_路飞(新世界)",
+    "file": "50509_路飞(新世界)/01_普通攻击_521001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50509_路飞(新世界)",
+    "file": "50509_路飞(新世界)/02_橡皮灰熊枪_521104_图标22981.png",
+    "icon_id": 22981,
+    "sha256": "27406b2dc7326f42c55127c9878d1c94b4aa5c60b5f7be8c8a931f7d47d42b82",
+    "bytes": 33818
+  },
+  {
+    "hero_folder": "50509_路飞(新世界)",
+    "file": "50509_路飞(新世界)/03_橡胶巨人_521204_图标22982.png",
+    "icon_id": 22982,
+    "sha256": "c21bc3388fff372a73c3d90294da4fcf6d7a1a47bc1d232f8216da8f18f0ac69",
+    "bytes": 33093
+  },
+  {
+    "hero_folder": "50509_路飞(新世界)",
+    "file": "50509_路飞(新世界)/04_四档形态_521304_图标22983.png",
+    "icon_id": 22983,
+    "sha256": "11785e9a55e8cb4bb4241a5dfea7a8dae118f4896c15993a6322646645dac13e",
+    "bytes": 24919
+  },
+  {
+    "hero_folder": "50509_路飞(新世界)",
+    "file": "50509_路飞(新世界)/05_橡胶印章_521404_图标22984.png",
+    "icon_id": 22984,
+    "sha256": "e2fb30ac6fc834870dfe0e1505b18fc5235b1d2e8b3304795582d1bc27487293",
+    "bytes": 33152
+  },
+  {
+    "hero_folder": "50510_马尔科",
+    "file": "50510_马尔科/01_普通攻击_524001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50510_马尔科",
+    "file": "50510_马尔科/02_幻兽连击_524104_图标23401.png",
+    "icon_id": 23401,
+    "sha256": "871cb021f1c25d06c8a657c5b1520ec47b4a321c05944a72e3352e32e1ca3323",
+    "bytes": 34409
+  },
+  {
+    "hero_folder": "50510_马尔科",
+    "file": "50510_马尔科/03_凤凰印_524204_图标23402.png",
+    "icon_id": 23402,
+    "sha256": "b637fa1b955ef876ebcd9575b58f5e3b5e707a735aa88ccb50564679d869bfb1",
+    "bytes": 33194
+  },
+  {
+    "hero_folder": "50510_马尔科",
+    "file": "50510_马尔科/04_青炎_524304_图标23403.png",
+    "icon_id": 23403,
+    "sha256": "5dc557785ee9507dd4b5b60282573d58b491b015076185a36c69710f4275af0a",
+    "bytes": 35302
+  },
+  {
+    "hero_folder": "50510_马尔科",
+    "file": "50510_马尔科/05_再生之炎_524404_图标23404.png",
+    "icon_id": 23404,
+    "sha256": "6b573d8b8bb19fee91d96e65734ef084aabf7778cfad5c381ec1f1b951f019f8",
+    "bytes": 34072
+  },
+  {
+    "hero_folder": "50511_卡塔库栗",
+    "file": "50511_卡塔库栗/01_普通攻击_533001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50511_卡塔库栗",
+    "file": "50511_卡塔库栗/02_无双年糕刃弹_533104_图标53310.png",
+    "icon_id": 53310,
+    "sha256": "09a7acfb581856c49c0165c6c1b65f7b8d2ff584fee4bc609402d61b34dfc623",
+    "bytes": 32038
+  },
+  {
+    "hero_folder": "50511_卡塔库栗",
+    "file": "50511_卡塔库栗/03_糯糯果实_533204_图标53320.png",
+    "icon_id": 53320,
+    "sha256": "7178b0f116aaf55d704b9cf3b4e6137c12bc44260f4838da0db3dea0cf6dc51f",
+    "bytes": 33295
+  },
+  {
+    "hero_folder": "50511_卡塔库栗",
+    "file": "50511_卡塔库栗/04_斩·切·年糕_533304_图标53330.png",
+    "icon_id": 53330,
+    "sha256": "f4222e261316f3c7220aaf6d8aa7fcf82201a35746a37c656e6d1032e98d9692",
+    "bytes": 32071
+  },
+  {
+    "hero_folder": "50511_卡塔库栗",
+    "file": "50511_卡塔库栗/05_极致见闻色_533404_图标53340.png",
+    "icon_id": 53340,
+    "sha256": "a600b3bed8edbd2908d955f159fd071c4da5c6cef0c089e141dd4d178d957f63",
+    "bytes": 26263
+  },
+  {
+    "hero_folder": "50512_凯多",
+    "file": "50512_凯多/01_普通攻击_534001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50512_凯多",
+    "file": "50512_凯多/02_降三世·引奈落_534104_图标53410.png",
+    "icon_id": 53410,
+    "sha256": "055d2fd5a42a27efbc8f3795206871d6b97c179c6e5f538648e4ee4ca50dd20e",
+    "bytes": 34609
+  },
+  {
+    "hero_folder": "50512_凯多",
+    "file": "50512_凯多/03_鱼鱼果实·幻兽种_534204_图标53420.png",
+    "icon_id": 53420,
+    "sha256": "76e55ff7d73ddbe9835383a2c4f147e9a291a0fb6841615198b0ab10406f94b1",
+    "bytes": 36273
+  },
+  {
+    "hero_folder": "50512_凯多",
+    "file": "50512_凯多/04_雷鸣八卦_534304_图标53430.png",
+    "icon_id": 53430,
+    "sha256": "3955931a8a4d1f7f74047838d75c89de0273aa89813b07e9797f2e50a9011445",
+    "bytes": 34644
+  },
+  {
+    "hero_folder": "50512_凯多",
+    "file": "50512_凯多/05_最强生物_534404_图标53440.png",
+    "icon_id": 53440,
+    "sha256": "82c821608e786382d5e116543568aa748976b0c722e90add7fca36e64edd1b02",
+    "bytes": 35625
+  },
+  {
+    "hero_folder": "50513_BIG·MOM",
+    "file": "50513_BIG·MOM/01_普通攻击_536001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50513_BIG·MOM",
+    "file": "50513_BIG·MOM/02_灵魂咒文_536104_图标53610.png",
+    "icon_id": 53610,
+    "sha256": "2eb08fd6a1c08e4bec8f4eb482540a3f4db08f46c7769a29c5ac57fbf12831c2",
+    "bytes": 24182
+  },
+  {
+    "hero_folder": "50513_BIG·MOM",
+    "file": "50513_BIG·MOM/03_魂魂果实_536204_图标53620.png",
+    "icon_id": 53620,
+    "sha256": "b3265beb54c09883210da2a202560c9ec56c0b7c2f1648d48bc3c5cd17bd55f4",
+    "bytes": 23903
+  },
+  {
+    "hero_folder": "50513_BIG·MOM",
+    "file": "50513_BIG·MOM/04_威国_536304_图标53630.png",
+    "icon_id": 53630,
+    "sha256": "1f8427f818952644f5be619799fa4b740e5987ce1d88b1755193831345310a40",
+    "bytes": 24986
+  },
+  {
+    "hero_folder": "50513_BIG·MOM",
+    "file": "50513_BIG·MOM/05_思食症_536404_图标53640.png",
+    "icon_id": 53640,
+    "sha256": "3db7f7399c3883cf979fa937427504c63b9c6954aaddbeb849b1b43815c381c0",
+    "bytes": 22897
+  },
+  {
+    "hero_folder": "50514_光月御田",
+    "file": "50514_光月御田/01_普通攻击_539001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50514_光月御田",
+    "file": "50514_光月御田/02_桃源白泷_539104_图标53910.png",
+    "icon_id": 53910,
+    "sha256": "faadc5b057d5bf843acaae4508a7ebb15d3284426edc4528d948a71c2c194b52",
+    "bytes": 27533
+  },
+  {
+    "hero_folder": "50514_光月御田",
+    "file": "50514_光月御田/03_流樱_539204_图标53920.png",
+    "icon_id": 53920,
+    "sha256": "916545baec9da4db9fad85081359efad84c7051804ebff1c88061181b98c52fd",
+    "bytes": 27638
+  },
+  {
+    "hero_folder": "50514_光月御田",
+    "file": "50514_光月御田/04_桃源十拳_539304_图标53930.png",
+    "icon_id": 53930,
+    "sha256": "0373147cb6f5dcedf8932fee0f9d0970e18f6fcc6a3933dfc3411ba255d84228",
+    "bytes": 27984
+  },
+  {
+    "hero_folder": "50514_光月御田",
+    "file": "50514_光月御田/05_御田二刀流_539404_图标53940.png",
+    "icon_id": 53940,
+    "sha256": "739375c28716cab4729e717d7234ce21d65ee0461990557c3ae1c98ac2b35da5",
+    "bytes": 27407
+  },
+  {
+    "hero_folder": "50515_巴雷特",
+    "file": "50515_巴雷特/01_普通攻击_546001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50515_巴雷特",
+    "file": "50515_巴雷特/02_魔鬼之手_546104_图标54610.png",
+    "icon_id": 54610,
+    "sha256": "ef9f1a52ae02a6b236d2e3800c9ec4b6630117ce8fbe5c9dc391976d7147fb1c",
+    "bytes": 32674
+  },
+  {
+    "hero_folder": "50515_巴雷特",
+    "file": "50515_巴雷特/03_合体果实_546204_图标54620.png",
+    "icon_id": 54620,
+    "sha256": "478168b45ecc8e94790e976b9075c7bdb9cd23a53d788858798045e7d03f145d",
+    "bytes": 32798
+  },
+  {
+    "hero_folder": "50515_巴雷特",
+    "file": "50515_巴雷特/04_魔鬼形态_546304_图标54630.png",
+    "icon_id": 54630,
+    "sha256": "6ad745dd3e1f1790a47ee42979c2b8e15d275f785cefd86058117771f5be9bac",
+    "bytes": 30450
+  },
+  {
+    "hero_folder": "50515_巴雷特",
+    "file": "50515_巴雷特/05_战争机器_546404_图标54640.png",
+    "icon_id": 54640,
+    "sha256": "1b279ddd9a0df1dc55dd560eb8e689bb7df3279dbcf19e9373d1d712fd76e1ba",
+    "bytes": 28808
+  },
+  {
+    "hero_folder": "50516_杰克",
+    "file": "50516_杰克/01_普通攻击_548001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50516_杰克",
+    "file": "50516_杰克/02_旱灾_548104_图标54810.png",
+    "icon_id": 54810,
+    "sha256": "03e1cf485c30954b7b6756c43989ccf5d29a8f94e11441897121745ab3bb1679",
+    "bytes": 31397
+  },
+  {
+    "hero_folder": "50516_杰克",
+    "file": "50516_杰克/03_象象果实_548204_图标54820.png",
+    "icon_id": 54820,
+    "sha256": "aaa94f0e55b6c3f7b801567292995009f3d8747585e30b00e95c786f7ecb8777",
+    "bytes": 29134
+  },
+  {
+    "hero_folder": "50516_杰克",
+    "file": "50516_杰克/04_猛犸斩击_548304_图标54830.png",
+    "icon_id": 54830,
+    "sha256": "e93ea44134fb65606ca522d6095cc061ace315503868569107acd2b4a2020ca8",
+    "bytes": 31895
+  },
+  {
+    "hero_folder": "50516_杰克",
+    "file": "50516_杰克/05_jack逆袭_548404_图标54840.png",
+    "icon_id": 54840,
+    "sha256": "c9fe8c0e24abc8daf37aa0262d3be9062e784c381d7f18abe9f58d8d43202e70",
+    "bytes": 29942
+  },
+  {
+    "hero_folder": "50517_奎因",
+    "file": "50517_奎因/01_普通攻击_550001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "50517_奎因",
+    "file": "50517_奎因/02_疫灾_550104_图标55010.png",
+    "icon_id": 55010,
+    "sha256": "33e680df17268f4e0bdbe4630b4071bd3aad87b165116bac6b02542fc8243a8a",
+    "bytes": 30874
+  },
+  {
+    "hero_folder": "50517_奎因",
+    "file": "50517_奎因/03_龙龙果实·腕龙_550204_图标55020.png",
+    "icon_id": 55020,
+    "sha256": "1db7d1235b269b6009b55c459cb3aee148b68b549ff9dd1a8442fc7598e458b5",
+    "bytes": 32105
+  },
+  {
+    "hero_folder": "50517_奎因",
+    "file": "50517_奎因/04_瘟疫弹_550304_图标55030.png",
+    "icon_id": 55030,
+    "sha256": "0304507e415763f6d1de69070e1b200eaab527d3847b5cfdcf88eb87d228acaf",
+    "bytes": 30533
+  },
+  {
+    "hero_folder": "50517_奎因",
+    "file": "50517_奎因/05_心网_550404_图标55040.png",
+    "icon_id": 55040,
+    "sha256": "1233502581760f9689a802fe2db20572b548fdb390fdd713f9d024f87458ebf0",
+    "bytes": 29156
+  },
+  {
+    "hero_folder": "70501_索隆(和之国)",
+    "file": "70501_索隆(和之国)/01_普通攻击_541001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70501_索隆(和之国)",
+    "file": "70501_索隆(和之国)/02_阿修罗·炼狱鬼斩_541104_图标54110.png",
+    "icon_id": 54110,
+    "sha256": "f2c30b6bf455d15102b09d50d0cccfa0a12bb602cb39c1cfb66bc2a129269821",
+    "bytes": 29425
+  },
+  {
+    "hero_folder": "70501_索隆(和之国)",
+    "file": "70501_索隆(和之国)/03_响彻天堂_541204_图标54120.png",
+    "icon_id": 54120,
+    "sha256": "32ff60a1a05dcb254caaedeac200b04cfac835b6dad94b0fa15e67a312e9642f",
+    "bytes": 29082
+  },
+  {
+    "hero_folder": "70501_索隆(和之国)",
+    "file": "70501_索隆(和之国)/04_阿修罗·亡者戏_541304_图标54130.png",
+    "icon_id": 54130,
+    "sha256": "aa23d69fd18b73f4517504eac8cbc71a61dbca1c6b30d9d6f4e8718ac1cf9861",
+    "bytes": 32035
+  },
+  {
+    "hero_folder": "70501_索隆(和之国)",
+    "file": "70501_索隆(和之国)/05_阿修罗·极_541404_图标54140.png",
+    "icon_id": 54140,
+    "sha256": "170103719d2586845c42fa2d7656daafb46f4070b2df82070d0208e48a66b139",
+    "bytes": 28732
+  },
+  {
+    "hero_folder": "70502_罗(和之国)",
+    "file": "70502_罗(和之国)/01_普通攻击_545001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70502_罗(和之国)",
+    "file": "70502_罗(和之国)/02_冲击波动_545104_图标54510.png",
+    "icon_id": 54510,
+    "sha256": "130c633d3dd63f900ca9cdf5c49ab87e67c016f1caf11fbab21cef54225e6e96",
+    "bytes": 28779
+  },
+  {
+    "hero_folder": "70502_罗(和之国)",
+    "file": "70502_罗(和之国)/03_手术果实觉醒_545204_图标54520.png",
+    "icon_id": 54520,
+    "sha256": "b0b94763b39281da510df09fb10c54b12a6c9c1d8c55b05d77fe47d11564494d",
+    "bytes": 26208
+  },
+  {
+    "hero_folder": "70502_罗(和之国)",
+    "file": "70502_罗(和之国)/04_穿刺波动_545304_图标54530.png",
+    "icon_id": 54530,
+    "sha256": "9cb84b1cecc9d1623bcd545054144d2f65f2966c3c22174009352030882e6127",
+    "bytes": 30493
+  },
+  {
+    "hero_folder": "70502_罗(和之国)",
+    "file": "70502_罗(和之国)/05_生命手术_545404_图标54540.png",
+    "icon_id": 54540,
+    "sha256": "b38a805886793b9b736c4dcc608c06b74b24696b169f718bc7949e44229aaead",
+    "bytes": 29940
+  },
+  {
+    "hero_folder": "70503_路飞(四挡)",
+    "file": "70503_路飞(四挡)/01_普通攻击_547001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70503_路飞(四挡)",
+    "file": "70503_路飞(四挡)/02_业火手枪_547104_图标70310.png",
+    "icon_id": 70310,
+    "sha256": "4357fe586815d96266f60cb82823a0e87187c1d236ae6ec5b8921693326c6cf8",
+    "bytes": 22210
+  },
+  {
+    "hero_folder": "70503_路飞(四挡)",
+    "file": "70503_路飞(四挡)/03_四挡形态_547204_图标70320.png",
+    "icon_id": 70320,
+    "sha256": "f81f3c25a34aac8b16d93ac26bd5b61d7222bb0ce86acb9f9a62cde8a8a3830f",
+    "bytes": 19462
+  },
+  {
+    "hero_folder": "70503_路飞(四挡)",
+    "file": "70503_路飞(四挡)/04_大王猿枪_547304_图标70330.png",
+    "icon_id": 70330,
+    "sha256": "69572cabaaa2e9a7718ab1895cde322270d69fd05f252664a3c5d7d24cac101b",
+    "bytes": 20507
+  },
+  {
+    "hero_folder": "70503_路飞(四挡)",
+    "file": "70503_路飞(四挡)/05_橡胶巨人Jet炮弹_547404_图标70340.png",
+    "icon_id": 70340,
+    "sha256": "80370070169b4fa0abf2a458c97276225a158723b6aa58081caba9f4928f6974",
+    "bytes": 17742
+  },
+  {
+    "hero_folder": "70504_路飞(尼卡形态)",
+    "file": "70504_路飞(尼卡形态)/01_普通攻击_551001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70504_路飞(尼卡形态)",
+    "file": "70504_路飞(尼卡形态)/02_闪电雷枪_551104_图标70410.png",
+    "icon_id": 70410,
+    "sha256": "0037a0120aa2d5529ac7eeaea72613c7af5c7860ec531a728cc1698869f304c7",
+    "bytes": 23781
+  },
+  {
+    "hero_folder": "70504_路飞(尼卡形态)",
+    "file": "70504_路飞(尼卡形态)/03_橡胶果实_551204_图标70420.png",
+    "icon_id": 70420,
+    "sha256": "653723f95b8562305e181a7a257cb44cec3216ee2d4256002e9c2e31da542d47",
+    "bytes": 21531
+  },
+  {
+    "hero_folder": "70504_路飞(尼卡形态)",
+    "file": "70504_路飞(尼卡形态)/04_雷霆万钧_551304_图标70430.png",
+    "icon_id": 70430,
+    "sha256": "2408e0910d2289d42d9d4e99033705338c7bf6f1c47ad340862f2471634f534e",
+    "bytes": 19541
+  },
+  {
+    "hero_folder": "70504_路飞(尼卡形态)",
+    "file": "70504_路飞(尼卡形态)/05_果实觉醒_551404_图标70440.png",
+    "icon_id": 70440,
+    "sha256": "e85fdd69f631e40f1857cf7332dfe65b7edf384b6b050c530b2bdaa9c4f6218b",
+    "bytes": 29572
+  },
+  {
+    "hero_folder": "70505_凯多(神龙)",
+    "file": "70505_凯多(神龙)/01_普通攻击_552001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70505_凯多(神龙)",
+    "file": "70505_凯多(神龙)/02_雷鸣八卦_552104_图标55210.png",
+    "icon_id": 55210,
+    "sha256": "82e104598d4ffc8d92c2b28eefd4cb12f079d5f36e2ce3d1f4a2c500fd0e3632",
+    "bytes": 28803
+  },
+  {
+    "hero_folder": "70505_凯多(神龙)",
+    "file": "70505_凯多(神龙)/03_百兽凯多_552204_图标55220.png",
+    "icon_id": 55220,
+    "sha256": "9951efb90ebc6a87021319af7f849293b91fd8613fe1d394463dbc65e7430662",
+    "bytes": 28126
+  },
+  {
+    "hero_folder": "70505_凯多(神龙)",
+    "file": "70505_凯多(神龙)/04_龙云_552304_图标55230.png",
+    "icon_id": 55230,
+    "sha256": "4b0e9f4da4ca88a288ed8e32871859bcd86245dc9d878379c3c9be4979a17baf",
+    "bytes": 27305
+  },
+  {
+    "hero_folder": "70505_凯多(神龙)",
+    "file": "70505_凯多(神龙)/05_最强生物_552404_图标55240.png",
+    "icon_id": 55240,
+    "sha256": "cf9493981f49959f27091ebd1610cf9a4e46117652cf5ad822b7bd505126f937",
+    "bytes": 29095
+  },
+  {
+    "hero_folder": "70506_佛之战国",
+    "file": "70506_佛之战国/01_普通攻击_553001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70506_佛之战国",
+    "file": "70506_佛之战国/02_佛之战国_553104_图标22810.png",
+    "icon_id": 22810,
+    "sha256": "db9559210d2943ab7ad910a96545361a7b27752c6503276378e904835a24a34c",
+    "bytes": 35387
+  },
+  {
+    "hero_folder": "70506_佛之战国",
+    "file": "70506_佛之战国/03_最高指挥_553204_图标24160.png",
+    "icon_id": 24160,
+    "sha256": "ba314b2815a74793262233bc66c4716835de0ad30a310d59ea724c13f83e905c",
+    "bytes": 31405
+  },
+  {
+    "hero_folder": "70506_佛之战国",
+    "file": "70506_佛之战国/04_佛之守护_553304_图标24150.png",
+    "icon_id": 24150,
+    "sha256": "b4f77a7e51a5e067e9101110ebac97dcca16c02de5cb1fd9f6e463bf6da15a71",
+    "bytes": 34901
+  },
+  {
+    "hero_folder": "70506_佛之战国",
+    "file": "70506_佛之战国/05_大佛形态_553404_图标51394.png",
+    "icon_id": 51394,
+    "sha256": "c15e66ae445dd337375f86d2ff851559a9b1680d3aaa8a3315b6bb09ce792f56",
+    "bytes": 33345
+  },
+  {
+    "hero_folder": "70507_金狮子·史基",
+    "file": "70507_金狮子·史基/01_普通攻击_554001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70507_金狮子·史基",
+    "file": "70507_金狮子·史基/02_狮子斩·刃劈_554104_图标70710.png",
+    "icon_id": 70710,
+    "sha256": "d515d7e81181919ff2fc1b9c17eb0aff49386bfc8fbea6c2d350702b43efaf38",
+    "bytes": 24503
+  },
+  {
+    "hero_folder": "70507_金狮子·史基",
+    "file": "70507_金狮子·史基/03_飘飘果实_554204_图标70720.png",
+    "icon_id": 70720,
+    "sha256": "35bf2cdaab2212c8b9c2941d3324e2227c072d9d80adcc1bb77fc6e7ef8f0042",
+    "bytes": 20936
+  },
+  {
+    "hero_folder": "70507_金狮子·史基",
+    "file": "70507_金狮子·史基/04_狮子威·御地卷_554304_图标70730.png",
+    "icon_id": 70730,
+    "sha256": "09eb773f40b02d7786ccf8ed3aae1e6465b473110415e00b4fb2984bc765542b",
+    "bytes": 27444
+  },
+  {
+    "hero_folder": "70507_金狮子·史基",
+    "file": "70507_金狮子·史基/05_传奇大海贼_554404_图标70740.png",
+    "icon_id": 70740,
+    "sha256": "3399274ae76ab42113715236135f7094218efad057f4f4e3381694c4096db880",
+    "bytes": 27118
+  },
+  {
+    "hero_folder": "70508_藤虎(三大将)",
+    "file": "70508_藤虎(三大将)/01_普通攻击_555001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70508_藤虎(三大将)",
+    "file": "70508_藤虎(三大将)/02_重力刀·猛虎_555104_图标55510.png",
+    "icon_id": 55510,
+    "sha256": "babe348c2715dffc04f3ee62687eea79082f1352406272069e05fe597a733c8f",
+    "bytes": 23792
+  },
+  {
+    "hero_folder": "70508_藤虎(三大将)",
+    "file": "70508_藤虎(三大将)/03_见闻色霸气_555204_图标55520.png",
+    "icon_id": 55520,
+    "sha256": "aa019d00570d395d96bed4f6a637b6148b05ac48bd5db69048dd5055b866162b",
+    "bytes": 23776
+  },
+  {
+    "hero_folder": "70508_藤虎(三大将)",
+    "file": "70508_藤虎(三大将)/04_地狱旅_555304_图标55530.png",
+    "icon_id": 55530,
+    "sha256": "6459d01333360690d2e9fdf06d762a565ea2400c7d782d65ff75971b2b362742",
+    "bytes": 24911
+  },
+  {
+    "hero_folder": "70508_藤虎(三大将)",
+    "file": "70508_藤虎(三大将)/05_武装色霸气_555404_图标55540.png",
+    "icon_id": 55540,
+    "sha256": "fe18619df8990c4e11cf5a736d1b1d3dbc7b3d888645e03aa4ee4143602b7d01",
+    "bytes": 23401
+  },
+  {
+    "hero_folder": "70509_凯撒",
+    "file": "70509_凯撒/01_普通攻击_557001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70509_凯撒",
+    "file": "70509_凯撒/02_致幻毒剂_557104_图标55710.png",
+    "icon_id": 55710,
+    "sha256": "fc90b5cef22ed139bc10cadd491ed45d829808ceed5dd3460487d5a7929f0955",
+    "bytes": 19613
+  },
+  {
+    "hero_folder": "70509_凯撒",
+    "file": "70509_凯撒/03_自然系·瓦斯果实_557204_图标55720.png",
+    "icon_id": 55720,
+    "sha256": "671ed94131404e7672badc1eea1f2597dbb0100ee94da0c0f35316bb99ac8f10",
+    "bytes": 20058
+  },
+  {
+    "hero_folder": "70509_凯撒",
+    "file": "70509_凯撒/04_KORO_557304_图标55730.png",
+    "icon_id": 55730,
+    "sha256": "b3265beb54c09883210da2a202560c9ec56c0b7c2f1648d48bc3c5cd17bd55f4",
+    "bytes": 23903
+  },
+  {
+    "hero_folder": "70509_凯撒",
+    "file": "70509_凯撒/05_肌肉松弛剂_557404_图标55740.png",
+    "icon_id": 55740,
+    "sha256": "be23895c44c552feda44c7315f3675e675548a5b7bbe445b0966cb8bd6497a9d",
+    "bytes": 28114
+  },
+  {
+    "hero_folder": "70510_黑胡子(四皇)",
+    "file": "70510_黑胡子(四皇)/01_默认攻击_732001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70510_黑胡子(四皇)",
+    "file": "70510_黑胡子(四皇)/02_解放_732104_图标73210.png",
+    "icon_id": 73210,
+    "sha256": "4d67732b906431034bbc19edeb35c2d0f598a2cb96e1f0599d6c40a51a26dcc2",
+    "bytes": 28562
+  },
+  {
+    "hero_folder": "70510_黑胡子(四皇)",
+    "file": "70510_黑胡子(四皇)/03_双果实能力者_732204_图标73220.png",
+    "icon_id": 73220,
+    "sha256": "d60daf116f561e7c8f3207d8ae405ffaa191202d0fb462c0481a2add552a322c",
+    "bytes": 30532
+  },
+  {
+    "hero_folder": "70510_黑胡子(四皇)",
+    "file": "70510_黑胡子(四皇)/04_暗穴道_732304_图标73230.png",
+    "icon_id": 73230,
+    "sha256": "3e5a329ead64b0deadb1eefda8a976e5a6d97ef6fe0a076b3bf1efddb1d711c1",
+    "bytes": 28832
+  },
+  {
+    "hero_folder": "70510_黑胡子(四皇)",
+    "file": "70510_黑胡子(四皇)/05_能量倾斜_732404_图标73240.png",
+    "icon_id": 73240,
+    "sha256": "976c455fea38b44ea456a7b04e1359ef5a20a48ed5511a106c647a3f40dac82b",
+    "bytes": 29638
+  },
+  {
+    "hero_folder": "70511_山治(杰尔马)",
+    "file": "70511_山治(杰尔马)/01_普通攻击_556001_图标405181.png",
+    "icon_id": 405181,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70511_山治(杰尔马)",
+    "file": "70511_山治(杰尔马)/02_外骨骼护盾_556104_图标55610.png",
+    "icon_id": 55610,
+    "sha256": "a083d33a877bde2c8e7d03b104bb3e3810d44dcd9158b97849929ff30abe97ce",
+    "bytes": 31823
+  },
+  {
+    "hero_folder": "70511_山治(杰尔马)",
+    "file": "70511_山治(杰尔马)/03_武装色霸气_556204_图标55620.png",
+    "icon_id": 55620,
+    "sha256": "5f7c415d162da6d74cd56aed46ba61e7481e701e5913f6c45a87b8ea3076d1b5",
+    "bytes": 27188
+  },
+  {
+    "hero_folder": "70511_山治(杰尔马)",
+    "file": "70511_山治(杰尔马)/04_魔神风脚·牛肉爆裂_556304_图标55630.png",
+    "icon_id": 55630,
+    "sha256": "0e88d41f2408a31a21cb602acf82bf10dc28b742d396016d2c1ea966dc1149d3",
+    "bytes": 24755
+  },
+  {
+    "hero_folder": "70511_山治(杰尔马)",
+    "file": "70511_山治(杰尔马)/05_骑士道精神_556404_图标55640.png",
+    "icon_id": 55640,
+    "sha256": "c842574c1f1eb1c5a6a1dc17a7b4ceaaea290b5364cd79f231fa7756f53a2bee",
+    "bytes": 19482
+  },
+  {
+    "hero_folder": "70512_圆月猫蝮蛇",
+    "file": "70512_圆月猫蝮蛇/01_普通攻击_558001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70512_圆月猫蝮蛇",
+    "file": "70512_圆月猫蝮蛇/02_圆月·闪电突袭_558104_图标55810.png",
+    "icon_id": 55810,
+    "sha256": "3c0227dcfb8d3851495e2f775461772a538f78c30cd40f6372590abbba48b2a0",
+    "bytes": 35911
+  },
+  {
+    "hero_folder": "70512_圆月猫蝮蛇",
+    "file": "70512_圆月猫蝮蛇/03_月之狮子_558204_图标55820.png",
+    "icon_id": 55820,
+    "sha256": "f3b808ada8b8023c22add61e719de73edd032396bdd8ab261a9826345de11b87",
+    "bytes": 34305
+  },
+  {
+    "hero_folder": "70512_圆月猫蝮蛇",
+    "file": "70512_圆月猫蝮蛇/04_圆月·闪电重击_558304_图标55830.png",
+    "icon_id": 55830,
+    "sha256": "0767c780192ea14d0d10fce5f9ce56bd4532273e23cb89cf9d31c0123774f6bd",
+    "bytes": 32112
+  },
+  {
+    "hero_folder": "70512_圆月猫蝮蛇",
+    "file": "70512_圆月猫蝮蛇/05_月之狮子·觉醒_558404_图标55840.png",
+    "icon_id": 55840,
+    "sha256": "cdbae74a38a6fdf67130347afdd1f14a83acf42feede1c00d4246db9e4fde2e1",
+    "bytes": 31722
+  },
+  {
+    "hero_folder": "70513_萨坦圣",
+    "file": "70513_萨坦圣/01_普通攻击_705001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70513_萨坦圣",
+    "file": "70513_萨坦圣/02_土星·霸气震慑_705104_图标70510.png",
+    "icon_id": 70510,
+    "sha256": "69c5b6a6bd2b9a800a38878a157b3b4abad3abfb407b7257233e39f044165ebb",
+    "bytes": 23608
+  },
+  {
+    "hero_folder": "70513_萨坦圣",
+    "file": "70513_萨坦圣/03_土星·恶魔降临_705204_图标70520.png",
+    "icon_id": 70520,
+    "sha256": "cd9a370d8d3eed975bd3d76cd78aead0b60b56f4c8d7511de551631dd7eac25c",
+    "bytes": 15436
+  },
+  {
+    "hero_folder": "70513_萨坦圣",
+    "file": "70513_萨坦圣/04_土星·霸气天罚_705304_图标70530.png",
+    "icon_id": 70530,
+    "sha256": "236c28ebe15c36378be0bc4d9d5c69b3f49e9dd2dcda83a12ed212cddadb8a5e",
+    "bytes": 21126
+  },
+  {
+    "hero_folder": "70513_萨坦圣",
+    "file": "70513_萨坦圣/05_五老星·科学武神_705404_图标70540.png",
+    "icon_id": 70540,
+    "sha256": "02ba9da60da2869d0cb4ea086fa7939896ddec2dfe4af5876330e70b724a213a",
+    "bytes": 20498
+  },
+  {
+    "hero_folder": "70514_汉库克(七武海)",
+    "file": "70514_汉库克(七武海)/01_普通攻击_754001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70514_汉库克(七武海)",
+    "file": "70514_汉库克(七武海)/02_虏之矢_754104_图标75410.png",
+    "icon_id": 75410,
+    "sha256": "d2020424f7a84f4517f0e58d20504bea1a8d440192661d7006d9e5e89bbf7387",
+    "bytes": 29154
+  },
+  {
+    "hero_folder": "70514_汉库克(七武海)",
+    "file": "70514_汉库克(七武海)/03_国色天香_754204_图标75420.png",
+    "icon_id": 75420,
+    "sha256": "91555b8bd487ff2a64017af186a52c584bde1723ff4d388c168e3c9bb8226842",
+    "bytes": 29747
+  },
+  {
+    "hero_folder": "70514_汉库克(七武海)",
+    "file": "70514_汉库克(七武海)/04_甜甜甘风_754304_图标75430.png",
+    "icon_id": 75430,
+    "sha256": "dd0b98a09e4efbcc5dd72ab98606b4be99199680a6db3eda7249a852271bdf77",
+    "bytes": 28084
+  },
+  {
+    "hero_folder": "70514_汉库克(七武海)",
+    "file": "70514_汉库克(七武海)/05_女帝权柄_754404_图标75440.png",
+    "icon_id": 75440,
+    "sha256": "2cd59fd97fe64176364027dfe4cfcc9386dc7225e488e27d7a779e8a66324809",
+    "bytes": 30344
+  },
+  {
+    "hero_folder": "70515_克力架",
+    "file": "70515_克力架/01_普通攻击_755001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70515_克力架",
+    "file": "70515_克力架/02_饼干士兵_755104_图标75510.png",
+    "icon_id": 75510,
+    "sha256": "1e664e6341db496f0af9d24a120c9f3135b5dec09849421f6b67dd3a29080ef2",
+    "bytes": 36226
+  },
+  {
+    "hero_folder": "70515_克力架",
+    "file": "70515_克力架/03_饼干能力_755204_图标75520.png",
+    "icon_id": 75520,
+    "sha256": "3a00a81d1e484b4053f5207a7403efd772f82c799798585fdc786c38a917ac32",
+    "bytes": 32533
+  },
+  {
+    "hero_folder": "70515_克力架",
+    "file": "70515_克力架/04_饼干防御_755304_图标75530.png",
+    "icon_id": 75530,
+    "sha256": "550b5e62c92c9911bee14d680e15cf9a58fbfcef118cb7fd98fdef2232eb3ea9",
+    "bytes": 35458
+  },
+  {
+    "hero_folder": "70515_克力架",
+    "file": "70515_克力架/05_饼干骑士_755404_图标75540.png",
+    "icon_id": 75540,
+    "sha256": "c3478a167cdd0097053054840f9b97667c51c2cc6de53eb5af492769b6281a0b",
+    "bytes": 35542
+  },
+  {
+    "hero_folder": "70516_夏洛特·斯慕吉",
+    "file": "70516_夏洛特·斯慕吉/01_默认攻击_756001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70516_夏洛特·斯慕吉",
+    "file": "70516_夏洛特·斯慕吉/02_榨榨·水龙卷_756104_图标75610.png",
+    "icon_id": 75610,
+    "sha256": "062515a48a62faf68abc12597f14ca80b0e76f0c8891c386dbb2b8947068d40e",
+    "bytes": 34004
+  },
+  {
+    "hero_folder": "70516_夏洛特·斯慕吉",
+    "file": "70516_夏洛特·斯慕吉/03_榨榨果实_756204_图标75620.png",
+    "icon_id": 75620,
+    "sha256": "234fd1beda92666a9ba2d8f89d4219d5295ec2a752fb829c3c364e5846624bff",
+    "bytes": 29621
+  },
+  {
+    "hero_folder": "70516_夏洛特·斯慕吉",
+    "file": "70516_夏洛特·斯慕吉/04_榨榨·波纹斩_756304_图标75630.png",
+    "icon_id": 75630,
+    "sha256": "eb884dd98b5ae423fa313c3e0e232441350547a009b2bdb8e43723778c4058b4",
+    "bytes": 32104
+  },
+  {
+    "hero_folder": "70516_夏洛特·斯慕吉",
+    "file": "70516_夏洛特·斯慕吉/05_甜点将星_756404_图标75640.png",
+    "icon_id": 75640,
+    "sha256": "2d47927f80f37295beb1d22497008fadfb37e91516bbbec95e19d88be58029a1",
+    "bytes": 33378
+  },
+  {
+    "hero_folder": "70517_哥尔·D·罗杰",
+    "file": "70517_哥尔·D·罗杰/01_普通攻击_757001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70517_哥尔·D·罗杰",
+    "file": "70517_哥尔·D·罗杰/02_霸王色·斩击_757104_图标75710.png",
+    "icon_id": 75710,
+    "sha256": "c2c17296a0c0979ff268673f7f7061719e2a25e3758b5c9799773cc075f386c0",
+    "bytes": 25808
+  },
+  {
+    "hero_folder": "70517_哥尔·D·罗杰",
+    "file": "70517_哥尔·D·罗杰/03_见闻色霸气_757204_图标75720.png",
+    "icon_id": 75720,
+    "sha256": "e0eeb3b9efa0687612f5da95ba2e1196b8a488f98958c1bbc8699633acf2c959",
+    "bytes": 25713
+  },
+  {
+    "hero_folder": "70517_哥尔·D·罗杰",
+    "file": "70517_哥尔·D·罗杰/04_神避_757304_图标75730.png",
+    "icon_id": 75730,
+    "sha256": "59d72f3a4c5b6c84667a9edf770a3853b08de787c2d76ec989d2dd267e58d19d",
+    "bytes": 27929
+  },
+  {
+    "hero_folder": "70517_哥尔·D·罗杰",
+    "file": "70517_哥尔·D·罗杰/05_海贼王_757404_图标75740.png",
+    "icon_id": 75740,
+    "sha256": "9eaa5f8e6758784e5325454e4ec1b7ca7000535c2e7f0d7c7939a67c9ce81cb1",
+    "bytes": 20518
+  },
+  {
+    "hero_folder": "70518_未来流行·鹰眼",
+    "file": "70518_未来流行·鹰眼/01_普通攻击_758001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70518_未来流行·鹰眼",
+    "file": "70518_未来流行·鹰眼/02_黑刀夜·下劈_758104_图标75810.png",
+    "icon_id": 75810,
+    "sha256": "43a80f85ed68c7eea7bcbed946f14d22fc4d90a45591937db74b0d3dd9da3fd2",
+    "bytes": 22499
+  },
+  {
+    "hero_folder": "70518_未来流行·鹰眼",
+    "file": "70518_未来流行·鹰眼/03_黑刀·夜_758204_图标75820.png",
+    "icon_id": 75820,
+    "sha256": "9b2bcba92191cf7173e296f46b073f1e54fb3ee5e948a5f088f4b8207bc9ce59",
+    "bytes": 24304
+  },
+  {
+    "hero_folder": "70518_未来流行·鹰眼",
+    "file": "70518_未来流行·鹰眼/04_最强一击_758304_图标75830.png",
+    "icon_id": 75830,
+    "sha256": "7eb0d238778c1f5fa658842735766a9b7bbf0ace8dfd18a5f1f6bf7d014b1d07",
+    "bytes": 20086
+  },
+  {
+    "hero_folder": "70518_未来流行·鹰眼",
+    "file": "70518_未来流行·鹰眼/05_最强剑豪_758404_图标75840.png",
+    "icon_id": 75840,
+    "sha256": "507041eb3798a3f241dd8b32f5aef50efd9945127e1bcdc04dce6d152e1cf312",
+    "bytes": 22661
+  },
+  {
+    "hero_folder": "70519_乌索普(新世界)",
+    "file": "70519_乌索普(新世界)/01_普通攻击_759001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70519_乌索普(新世界)",
+    "file": "70519_乌索普(新世界)/02_必杀绿星·恶魔_759104_图标75910.png",
+    "icon_id": 75910,
+    "sha256": "a194596ab8ce83c80421eb4b7bc6584ee1c43090b178f22617417edc905c3968",
+    "bytes": 32147
+  },
+  {
+    "hero_folder": "70519_乌索普(新世界)",
+    "file": "70519_乌索普(新世界)/03_狙击王_759204_图标75920.png",
+    "icon_id": 75920,
+    "sha256": "8f656214773b16598f49f2399f3a58c699d8d1b1d7e4aca6b4102a4bd9a52036",
+    "bytes": 30451
+  },
+  {
+    "hero_folder": "70519_乌索普(新世界)",
+    "file": "70519_乌索普(新世界)/04_必杀绿星·焰火花_759304_图标75930.png",
+    "icon_id": 75930,
+    "sha256": "9b56eb95d44b079e98f107ef1f446897f9c0a474dd8861b2634a365eb1872034",
+    "bytes": 35214
+  },
+  {
+    "hero_folder": "70519_乌索普(新世界)",
+    "file": "70519_乌索普(新世界)/05_大吃一惊_759404_图标75940.png",
+    "icon_id": 75940,
+    "sha256": "b9b2d53bf20822f004906e012fb72511ddc45b893f74fcb8ab696d771ff8cc21",
+    "bytes": 33794
+  },
+  {
+    "hero_folder": "70520_弗兰奇(新世界)",
+    "file": "70520_弗兰奇(新世界)/01_普通攻击_760001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70520_弗兰奇(新世界)",
+    "file": "70520_弗兰奇(新世界)/02_终极铁锤_760104_图标760010.png",
+    "icon_id": 760010,
+    "sha256": "23db94f8e3f06906a921f8619387c8a038e8a10d9e370718c599e9af3a024465",
+    "bytes": 33868
+  },
+  {
+    "hero_folder": "70520_弗兰奇(新世界)",
+    "file": "70520_弗兰奇(新世界)/03_弗兰奇弗兰奇_760204_图标760020.png",
+    "icon_id": 760020,
+    "sha256": "a9eba5986af16b498ac7c6479a67f1210464899e27e222489eef84669963fdb2",
+    "bytes": 31337
+  },
+  {
+    "hero_folder": "70520_弗兰奇(新世界)",
+    "file": "70520_弗兰奇(新世界)/04_弗兰奇游离激光束_760304_图标760030.png",
+    "icon_id": 760030,
+    "sha256": "71b8b489e4203ef459f01d9c2621555c8b0982653017987b48833a7daccd0d58",
+    "bytes": 29635
+  },
+  {
+    "hero_folder": "70520_弗兰奇(新世界)",
+    "file": "70520_弗兰奇(新世界)/05_supre_760404_图标760040.png",
+    "icon_id": 760040,
+    "sha256": "feaa8eb6598c98ef103e4507331d20f5521dd017d6b969949b475e6399d027d0",
+    "bytes": 33154
+  },
+  {
+    "hero_folder": "70521_佩罗娜",
+    "file": "70521_佩罗娜/01_普通攻击_761001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70521_佩罗娜",
+    "file": "70521_佩罗娜/02_治愈幽灵_761104_图标761010.png",
+    "icon_id": 761010,
+    "sha256": "1ec40bef7c42a2c05e5e8df5bd057f62419a928d329cf8a6e55c00fbf0f5a989",
+    "bytes": 34295
+  },
+  {
+    "hero_folder": "70521_佩罗娜",
+    "file": "70521_佩罗娜/03_幽灵公主_761204_图标761020.png",
+    "icon_id": 761020,
+    "sha256": "6ec691e414cf29fc2f0740945d9f273797abe3dd744602a2b650c94bcdfaf288",
+    "bytes": 29521
+  },
+  {
+    "hero_folder": "70521_佩罗娜",
+    "file": "70521_佩罗娜/04_消极幽灵_761304_图标761030.png",
+    "icon_id": 761030,
+    "sha256": "5fdd9755d38572d3eef5bf5bd137df1e5771a2b68b740528ecba62c307f6f68f",
+    "bytes": 31770
+  },
+  {
+    "hero_folder": "70521_佩罗娜",
+    "file": "70521_佩罗娜/05_灵灵果实_761404_图标761040.png",
+    "icon_id": 761040,
+    "sha256": "e758bbbc1769efea631f182f74105d2b79816af44c816f5dd5f8183254ffd79b",
+    "bytes": 33157
+  },
+  {
+    "hero_folder": "70522_巴托洛米奥",
+    "file": "70522_巴托洛米奥/01_普通攻击_762001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70522_巴托洛米奥",
+    "file": "70522_巴托洛米奥/02_屏障冲击_762104_图标762010.png",
+    "icon_id": 762010,
+    "sha256": "1cc0941e26d80803a2cff94f46e52c8a0e58461909df678fb81c562d4354ad16",
+    "bytes": 32169
+  },
+  {
+    "hero_folder": "70522_巴托洛米奥",
+    "file": "70522_巴托洛米奥/03_屏障果实_762204_图标762020.png",
+    "icon_id": 762020,
+    "sha256": "5b938a0803c3da6993fd90bff0d20c0854ea9f769bbb0a4233113ea0e4adcbfd",
+    "bytes": 30746
+  },
+  {
+    "hero_folder": "70522_巴托洛米奥",
+    "file": "70522_巴托洛米奥/04_觉·屏障冲击_762304_图标762030.png",
+    "icon_id": 762030,
+    "sha256": "c3171ac8b76a3de1eb7138fb435b62c3d770be488a86be077ef690b3f435f868",
+    "bytes": 27740
+  },
+  {
+    "hero_folder": "70522_巴托洛米奥",
+    "file": "70522_巴托洛米奥/05_人体肉盾·巴托_762404_图标762040.png",
+    "icon_id": 762040,
+    "sha256": "50e65b98f7398e278b62a515faa6da50624ac34ac018932ded0340904bdeaf17",
+    "bytes": 31781
+  },
+  {
+    "hero_folder": "70523_布鲁克(新世界)",
+    "file": "70523_布鲁克(新世界)/01_普通攻击_763001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70523_布鲁克(新世界)",
+    "file": "70523_布鲁克(新世界)/02_鼻歌·吹雪斩_763104_图标763010.png",
+    "icon_id": 763010,
+    "sha256": "15eaf5e327cf98cc78f2c1d36f270b458c0bc188b9927bd9f6a4875b416866ec",
+    "bytes": 31330
+  },
+  {
+    "hero_folder": "70523_布鲁克(新世界)",
+    "file": "70523_布鲁克(新世界)/03_幻想曲_763204_图标763020.png",
+    "icon_id": 763020,
+    "sha256": "48896c0a1b4272b47a23308b6af275fa22438b39c6747afb62d771c459c88fd2",
+    "bytes": 31646
+  },
+  {
+    "hero_folder": "70523_布鲁克(新世界)",
+    "file": "70523_布鲁克(新世界)/04_魂丧剑·直刺_763304_图标763030.png",
+    "icon_id": 763030,
+    "sha256": "335e80e8dc5b641d5ce41fb34658cbc6921329109aa64575ef01205361738626",
+    "bytes": 29787
+  },
+  {
+    "hero_folder": "70523_布鲁克(新世界)",
+    "file": "70523_布鲁克(新世界)/05_灵魂之王_763404_图标763040.png",
+    "icon_id": 763040,
+    "sha256": "127ac6d929ebc99baebea0c8e30eeb54c0cf2f87c21005f8750accb75586a5be",
+    "bytes": 30785
+  },
+  {
+    "hero_folder": "70524_艾斯(龙年)",
+    "file": "70524_艾斯(龙年)/01_普通攻击_764001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70524_艾斯(龙年)",
+    "file": "70524_艾斯(龙年)/02_火拳_764104_图标764010.png",
+    "icon_id": 764010,
+    "sha256": "9b56eb95d44b079e98f107ef1f446897f9c0a474dd8861b2634a365eb1872034",
+    "bytes": 35214
+  },
+  {
+    "hero_folder": "70524_艾斯(龙年)",
+    "file": "70524_艾斯(龙年)/03_烧烧果实_764204_图标764020.png",
+    "icon_id": 764020,
+    "sha256": "37ec7930904c3a389b6a554309f25be760d7450110625588497d2f82efdb3d0c",
+    "bytes": 32319
+  },
+  {
+    "hero_folder": "70524_艾斯(龙年)",
+    "file": "70524_艾斯(龙年)/04_大炎戒·炎帝_764304_图标764030.png",
+    "icon_id": 764030,
+    "sha256": "7cece4e20253f7682f9bad692faccc5f2f72c5cb82f12ae7732c00b9b20d466f",
+    "bytes": 34791
+  },
+  {
+    "hero_folder": "70524_艾斯(龙年)",
+    "file": "70524_艾斯(龙年)/05_炎帝_764404_图标764040.png",
+    "icon_id": 764040,
+    "sha256": "e23f9e0c5ed40efe5eec41c9f32427d1b721aa6b3aa2f7e9464a0d27d6afac20",
+    "bytes": 36756
+  },
+  {
+    "hero_folder": "70525_乌塔(世界歌姬)",
+    "file": "70525_乌塔(世界歌姬)/01_普通攻击_765001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70525_乌塔(世界歌姬)",
+    "file": "70525_乌塔(世界歌姬)/02_寂寞音符_765104_图标765010.png",
+    "icon_id": 765010,
+    "sha256": "578222f89fbc6a0438de2dc677b58eae1d73ae42ba4f878dbe05bf3e8ba0bc68",
+    "bytes": 17356
+  },
+  {
+    "hero_folder": "70525_乌塔(世界歌姬)",
+    "file": "70525_乌塔(世界歌姬)/03_方徨曲谱_765204_图标765020.png",
+    "icon_id": 765020,
+    "sha256": "1398531ec124838880e38a713cc0e7ca50a40bf12fb6edf736ebdd3fbfc41f75",
+    "bytes": 24921
+  },
+  {
+    "hero_folder": "70525_乌塔(世界歌姬)",
+    "file": "70525_乌塔(世界歌姬)/04_超现实的旋律_765304_图标765030.png",
+    "icon_id": 765030,
+    "sha256": "162c3a1b1b585b49389dc2b65ced90c95c853bf320ca7f401c1fe9cc68f71490",
+    "bytes": 28345
+  },
+  {
+    "hero_folder": "70525_乌塔(世界歌姬)",
+    "file": "70525_乌塔(世界歌姬)/05_歌歌果实_765404_图标765040.png",
+    "icon_id": 765040,
+    "sha256": "bbf3c12277ad428f2ace541ebe9f81559596cf2420c59b3991d16de6ea693827",
+    "bytes": 18258
+  },
+  {
+    "hero_folder": "70527_佩罗斯佩鲁",
+    "file": "70527_佩罗斯佩鲁/01_普通攻击_767001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70527_佩罗斯佩鲁",
+    "file": "70527_佩罗斯佩鲁/02_糖果粘液_767104_图标214101.png",
+    "icon_id": 214101,
+    "sha256": "9c8b1962f213a78a3d23dfedde0faf7bce170772db36b0982ca4beac7dda2068",
+    "bytes": 7628
+  },
+  {
+    "hero_folder": "70527_佩罗斯佩鲁",
+    "file": "70527_佩罗斯佩鲁/03_分发糖果_767204_图标203221.png",
+    "icon_id": 203221,
+    "sha256": "c6dd8a62d780095c9db34f1d0af10cb33ab1ae71988f64523bfa11e4f1e71107",
+    "bytes": 9011
+  },
+  {
+    "hero_folder": "70527_佩罗斯佩鲁",
+    "file": "70527_佩罗斯佩鲁/04_糖果潮汐_767304_图标206101.png",
+    "icon_id": 206101,
+    "sha256": "cab60a5a7536feb333608cf4de74a02c3ab8b9f5f2e92872213e17f82903746c",
+    "bytes": 9312
+  },
+  {
+    "hero_folder": "70527_佩罗斯佩鲁",
+    "file": "70527_佩罗斯佩鲁/05_糖果人_767404_图标225501.png",
+    "icon_id": 225501,
+    "sha256": "b9e40192a92bb4562380ceb700f05e343bb44cbee977cecec01ab3e7b70bc6c5",
+    "bytes": 8110
+  },
+  {
+    "hero_folder": "70528_文斯莫克·伽治",
+    "file": "70528_文斯莫克·伽治/01_普通攻击_768001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70528_文斯莫克·伽治",
+    "file": "70528_文斯莫克·伽治/02_电磁突刺_768104_图标768101.png",
+    "icon_id": 768101,
+    "sha256": "7c09f799438fbd793243eba11cfe8fe5fc8a5b056b3aa7822f9d62b7963c226c",
+    "bytes": 9979
+  },
+  {
+    "hero_folder": "70528_文斯莫克·伽治",
+    "file": "70528_文斯莫克·伽治/03_统帅援护_768204_图标768201.png",
+    "icon_id": 768201,
+    "sha256": "c6b8f512b05ded2a5caf553b8492ad00b468542fab83c06790d3d6382a15b3b1",
+    "bytes": 9523
+  },
+  {
+    "hero_folder": "70528_文斯莫克·伽治",
+    "file": "70528_文斯莫克·伽治/04_电磁碎击_768304_图标768301.png",
+    "icon_id": 768301,
+    "sha256": "cce7df70b088e7562da354c7be4b8b5c57aa67af89837dfac3504647525722c2",
+    "bytes": 9929
+  },
+  {
+    "hero_folder": "70528_文斯莫克·伽治",
+    "file": "70528_文斯莫克·伽治/05_血统因子_768404_图标768401.png",
+    "icon_id": 768401,
+    "sha256": "771758f69f59c4cd185b80b10ed6d80be4aeb1e5609f9ab7bc85f380fd104633",
+    "bytes": 10330
+  },
+  {
+    "hero_folder": "70529_文斯莫克·伊治",
+    "file": "70529_文斯莫克·伊治/01_普通攻击_772001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70529_文斯莫克·伊治",
+    "file": "70529_文斯莫克·伊治/02_火花·光拳_772104_图标772101.png",
+    "icon_id": 772101,
+    "sha256": "9b5baa61de8a5cdfea9a86e4c71f97bf336ab85c05da16f6bcc5168db5c2c4c6",
+    "bytes": 9133
+  },
+  {
+    "hero_folder": "70529_文斯莫克·伊治",
+    "file": "70529_文斯莫克·伊治/03_火花红_772204_图标772201.png",
+    "icon_id": 772201,
+    "sha256": "004df5768a4c7e83fea15c018d012693b5572a1c3ac9bf8d598d532b2a669de3",
+    "bytes": 7778
+  },
+  {
+    "hero_folder": "70529_文斯莫克·伊治",
+    "file": "70529_文斯莫克·伊治/04_火花·双重·回旋_772304_图标772301.png",
+    "icon_id": 772301,
+    "sha256": "57316cb1e38062830c2a92a437668703ee63ca1ddc68d4dbd7496dc7599e067e",
+    "bytes": 9236
+  },
+  {
+    "hero_folder": "70529_文斯莫克·伊治",
+    "file": "70529_文斯莫克·伊治/05_不灭之火_772404_图标772401.png",
+    "icon_id": 772401,
+    "sha256": "acf839306484b723486356ef4681884afed762951bc33a1db9c3c6327985bb3b",
+    "bytes": 9169
+  },
+  {
+    "hero_folder": "70530_炎灾·烬",
+    "file": "70530_炎灾·烬/01_普通攻击_770001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70530_炎灾·烬",
+    "file": "70530_炎灾·烬/02_火龙皇_770104_图标770010.png",
+    "icon_id": 770010,
+    "sha256": "507b26525089bf2c18031b5f70487afbeb1614639d6d2d1dd3c904bc89b79362",
+    "bytes": 10605
+  },
+  {
+    "hero_folder": "70530_炎灾·烬",
+    "file": "70530_炎灾·烬/03_炎灾_770204_图标770020.png",
+    "icon_id": 770020,
+    "sha256": "884aab0641613c28f447de18d58852cb04e7784d8ab33473c60f20a4e590ecfc",
+    "bytes": 10168
+  },
+  {
+    "hero_folder": "70530_炎灾·烬",
+    "file": "70530_炎灾·烬/04_御守·火龙皇_770304_图标770030.png",
+    "icon_id": 770030,
+    "sha256": "40b894efcdefebc11c55e2faa7c1644395bb3a57e5c4bf63ea7c3cc2cf8e4ceb",
+    "bytes": 10543
+  },
+  {
+    "hero_folder": "70530_炎灾·烬",
+    "file": "70530_炎灾·烬/05_露娜利亚族_770404_图标770040.png",
+    "icon_id": 770040,
+    "sha256": "318c8857412025ecf7d4993f33407556e2d4697ff1532d2a24e37b56d4550f26",
+    "bytes": 10388
+  },
+  {
+    "hero_folder": "70531_绿牛",
+    "file": "70531_绿牛/01_普通攻击_769001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70531_绿牛",
+    "file": "70531_绿牛/02_禁憎森森_769104_图标769101.png",
+    "icon_id": 769101,
+    "sha256": "ca2c0ca247729c5723ff6422c4e95922cef6f3557e22b43b8e23e918977264e6",
+    "bytes": 25762
+  },
+  {
+    "hero_folder": "70531_绿牛",
+    "file": "70531_绿牛/03_新晋大将_769204_图标769201.png",
+    "icon_id": 769201,
+    "sha256": "21499e20236040932322550895240c999d103084f050b41ab74fe8f3ae92afbb",
+    "bytes": 25773
+  },
+  {
+    "hero_folder": "70531_绿牛",
+    "file": "70531_绿牛/04_新生之芽_769304_图标769301.png",
+    "icon_id": 769301,
+    "sha256": "6f6eb7b91a404737e68cb32215f4133420a23be7d13eb98eb31f93eb9b5ec0e6",
+    "bytes": 22878
+  },
+  {
+    "hero_folder": "70531_绿牛",
+    "file": "70531_绿牛/05_森森果实_769404_图标769401.png",
+    "icon_id": 769401,
+    "sha256": "40462a9993d62fe5c5d7c4595a1c6c708b4088cd54d6c2bd87094ee8a16d9e78",
+    "bytes": 22256
+  },
+  {
+    "hero_folder": "70532_索隆(鬼岛)",
+    "file": "70532_索隆(鬼岛)/01_普通攻击_773001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70532_索隆(鬼岛)",
+    "file": "70532_索隆(鬼岛)/02_死·狮子歌歌_773104_图标773101.png",
+    "icon_id": 773101,
+    "sha256": "f1d65f73dc3d0a2b13d4d4c1379fd5c0d1fe86b6cc9515db4d69400f00866202",
+    "bytes": 27015
+  },
+  {
+    "hero_folder": "70532_索隆(鬼岛)",
+    "file": "70532_索隆(鬼岛)/03_阿修罗_773204_图标773201.png",
+    "icon_id": 773201,
+    "sha256": "33ebce227c497d0812fc9031db0f98c8fcfed634843a84d4b63730b89beb0a4d",
+    "bytes": 27040
+  },
+  {
+    "hero_folder": "70532_索隆(鬼岛)",
+    "file": "70532_索隆(鬼岛)/04_千八百烦恼凤_773304_图标773301.png",
+    "icon_id": 773301,
+    "sha256": "8f8ff9a4ca0f5f301afb278389d7eb7bc8ca69b4098e2281502444a6d924a50e",
+    "bytes": 20989
+  },
+  {
+    "hero_folder": "70532_索隆(鬼岛)",
+    "file": "70532_索隆(鬼岛)/05_阿修罗拔剑·亡者戏_773404_图标773401.png",
+    "icon_id": 773401,
+    "sha256": "89ce3e388e3d75e30b8b1297ddd15b004bab6433760d6e4d1df89ba26fe47c5a",
+    "bytes": 27706
+  },
+  {
+    "hero_folder": "70541_日奈",
+    "file": "70541_日奈/01_普通攻击_774001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70541_日奈",
+    "file": "70541_日奈/02_黑色镣铐_774104_图标774101.png",
+    "icon_id": 774101,
+    "sha256": "778cf1b9c193c3c65abd7871a561ba5e206a4b799383c8e91ee5e3c11e6a01f4",
+    "bytes": 26504
+  },
+  {
+    "hero_folder": "70541_日奈",
+    "file": "70541_日奈/03_黑槛战阵_774204_图标774201.png",
+    "icon_id": 774201,
+    "sha256": "b993b9bb1d45ed35255a9f71a5713486c7621b0b41b29d04e3f74bdb33e3f29a",
+    "bytes": 23460
+  },
+  {
+    "hero_folder": "70541_日奈",
+    "file": "70541_日奈/04_袷羽槛_774304_图标774301.png",
+    "icon_id": 774301,
+    "sha256": "d2162f40bcff2cab0ae3842a26c59a20f2667babcbef3d6c1f600e417df938d5",
+    "bytes": 27774
+  },
+  {
+    "hero_folder": "70541_日奈",
+    "file": "70541_日奈/05_黑戟之印_774404_图标774401.png",
+    "icon_id": 774401,
+    "sha256": "9fd7f496380deaade196be7910c7cab077cc18336249b137459d382413dbe2d9",
+    "bytes": 27214
+  },
+  {
+    "hero_folder": "70542_大和(赛博朋克)",
+    "file": "70542_大和(赛博朋克)/01_普通攻击_775001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70542_大和(赛博朋克)",
+    "file": "70542_大和(赛博朋克)/02_冰牙_775104_图标775101.png",
+    "icon_id": 775101,
+    "sha256": "1425a2400b3a19b3895ce1f82b4001d005af5beb19c7302efc4bf1096f49da0b",
+    "bytes": 26781
+  },
+  {
+    "hero_folder": "70542_大和(赛博朋克)",
+    "file": "70542_大和(赛博朋克)/03_白蛇驱_775204_图标775201.png",
+    "icon_id": 775201,
+    "sha256": "7cb85ef978363be63c99b570cc563163cecc5213a394fbda5a9e730f47010d1b",
+    "bytes": 27998
+  },
+  {
+    "hero_folder": "70542_大和(赛博朋克)",
+    "file": "70542_大和(赛博朋克)/04_雷鸣八卦_775304_图标775301.png",
+    "icon_id": 775301,
+    "sha256": "4c5cc646aea84772cd00870d7c1f7ee1d1dd682ed14670fefee5e419b6ea0a85",
+    "bytes": 28345
+  },
+  {
+    "hero_folder": "70542_大和(赛博朋克)",
+    "file": "70542_大和(赛博朋克)/05_犬犬果实_775404_图标775401.png",
+    "icon_id": 775401,
+    "sha256": "b68314ff9df449668b8e2eba0474ef0ab58492b5cded802ac894687ebc7a686c",
+    "bytes": 28676
+  },
+  {
+    "hero_folder": "70543_夏洛特玲玲",
+    "file": "70543_夏洛特玲玲/01_普通攻击_776001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70543_夏洛特玲玲",
+    "file": "70543_夏洛特玲玲/02_威国_776104_图标776101.png",
+    "icon_id": 776101,
+    "sha256": "98046d43a59388cc64aa541c2d6a4724f5489e4aabd1a12875b168b7e763d12c",
+    "bytes": 25840
+  },
+  {
+    "hero_folder": "70543_夏洛特玲玲",
+    "file": "70543_夏洛特玲玲/03_灵魂果实_776204_图标776201.png",
+    "icon_id": 776201,
+    "sha256": "ba0cbab973b30af3818429afa6e8ed1289a39e76c8f3a238ded73484e509a8f9",
+    "bytes": 25350
+  },
+  {
+    "hero_folder": "70543_夏洛特玲玲",
+    "file": "70543_夏洛特玲玲/04_威国&霸海_776304_图标776301.png",
+    "icon_id": 776301,
+    "sha256": "e2f098120e4085e2ce779b3787be5fa0564eeb755d8851ee0e57622c686723dc",
+    "bytes": 25469
+  },
+  {
+    "hero_folder": "70543_夏洛特玲玲",
+    "file": "70543_夏洛特玲玲/05_四皇_776404_图标776401.png",
+    "icon_id": 776401,
+    "sha256": "1b5ea1d983a21c619a3526e5c88a7c96b1aa38867e472069787585e2084b932d",
+    "bytes": 25760
+  },
+  {
+    "hero_folder": "70544_路飞(和之国)",
+    "file": "70544_路飞(和之国)/01_普通攻击_777001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70544_路飞(和之国)",
+    "file": "70544_路飞(和之国)/02_橡胶·火拳铳_777104_图标777101.png",
+    "icon_id": 777101,
+    "sha256": "024f8c711ee09ea6b94e0c503ba921dfdbfabf58aa22bb69f453fba3ebf2f4a4",
+    "bytes": 22215
+  },
+  {
+    "hero_folder": "70544_路飞(和之国)",
+    "file": "70544_路飞(和之国)/03_武装色霸气_777204_图标777201.png",
+    "icon_id": 777201,
+    "sha256": "b789fc6cfa31195cbe264b11fc4e470991784e704d8ad48711b281ee03205c7a",
+    "bytes": 20494
+  },
+  {
+    "hero_folder": "70544_路飞(和之国)",
+    "file": "70544_路飞(和之国)/04_橡胶·象枪_777304_图标777301.png",
+    "icon_id": 777301,
+    "sha256": "b0674b15e13688eda71276c884ee3539dc207b8ad86a2973b2486a8e1e6f0020",
+    "bytes": 22903
+  },
+  {
+    "hero_folder": "70544_路飞(和之国)",
+    "file": "70544_路飞(和之国)/05_流樱_777404_图标777401.png",
+    "icon_id": 777401,
+    "sha256": "d789111509d8a89ff6434c7818e7bf6b54571f39bce71d5eb96e7fc82cfda591",
+    "bytes": 23303
+  },
+  {
+    "hero_folder": "70545_尼治",
+    "file": "70545_尼治/01_普通攻击_778001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70545_尼治",
+    "file": "70545_尼治/02_火花蓝·电击拳_778104_图标778101.png",
+    "icon_id": 778101,
+    "sha256": "535855df364c23604e7e56bc4acd820cd9bdf670415ed3367f503058aacb28f1",
+    "bytes": 27860
+  },
+  {
+    "hero_folder": "70545_尼治",
+    "file": "70545_尼治/03_火花蓝·隐身_778204_图标778201.png",
+    "icon_id": 778201,
+    "sha256": "60485b63ff01c6622bb2c1407059a299ceda2a7d5b729008e53c5162e0cad040",
+    "bytes": 28533
+  },
+  {
+    "hero_folder": "70545_尼治",
+    "file": "70545_尼治/04_起电·针刺_778304_图标778301.png",
+    "icon_id": 778301,
+    "sha256": "0e7182e5abdfc35010be01cd5af882f8e86866b568655c2d285d9348cdb985db",
+    "bytes": 26636
+  },
+  {
+    "hero_folder": "70545_尼治",
+    "file": "70545_尼治/05_高速移动_778404_图标778401.png",
+    "icon_id": 778401,
+    "sha256": "124fab9d90fc5d2afbf9e80a3347485055b15ff0d64d12ca76d343be34dbae01",
+    "bytes": 26206
+  },
+  {
+    "hero_folder": "70546_贝克曼",
+    "file": "70546_贝克曼/01_普通攻击_779001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70546_贝克曼",
+    "file": "70546_贝克曼/02_枪斗乱打_779104_图标779101.png",
+    "icon_id": 779101,
+    "sha256": "9e2da9bb93282f20f7acbdb104435c390bae6304486602177d7d062085a9b04f",
+    "bytes": 21140
+  },
+  {
+    "hero_folder": "70546_贝克曼",
+    "file": "70546_贝克曼/03_沉着冷静_779204_图标779201.png",
+    "icon_id": 779201,
+    "sha256": "c88477bad573bb2dc654d26e9182f96e1711e51d1f88e16e76eea0afb604e253",
+    "bytes": 22080
+  },
+  {
+    "hero_folder": "70546_贝克曼",
+    "file": "70546_贝克曼/04_威慑射击_779304_图标779301.png",
+    "icon_id": 779301,
+    "sha256": "1f273e8794c44cbcb45f34e77cf7127fcbc609737622bb76f2dc43a131c3f9b3",
+    "bytes": 22022
+  },
+  {
+    "hero_folder": "70546_贝克曼",
+    "file": "70546_贝克曼/05_红发大副_779404_图标779401.png",
+    "icon_id": 779401,
+    "sha256": "c2faf37f04d9cce4bf701d5b89506401f733451a0dd8cf33e1b9270e0a6dc60f",
+    "bytes": 23200
+  },
+  {
+    "hero_folder": "70547_白胡子(巅峰)",
+    "file": "70547_白胡子(巅峰)/01_普通攻击_780001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70547_白胡子(巅峰)",
+    "file": "70547_白胡子(巅峰)/02_一骑当千_780104_图标780101.png",
+    "icon_id": 780101,
+    "sha256": "939844c85e86314ccd212ead651ec58ebf6a5bb1bd38057f00125ba91236a786",
+    "bytes": 17726
+  },
+  {
+    "hero_folder": "70547_白胡子(巅峰)",
+    "file": "70547_白胡子(巅峰)/03_时代的顶点_780204_图标780201.png",
+    "icon_id": 780201,
+    "sha256": "eed0776b0a42cb57809415823fb01b0e9b3d4b4cbc4b0f8cb86748ca6eceaf32",
+    "bytes": 18905
+  },
+  {
+    "hero_folder": "70547_白胡子(巅峰)",
+    "file": "70547_白胡子(巅峰)/04_空破无双斩_780304_图标780301.png",
+    "icon_id": 780301,
+    "sha256": "95b76844085a4be775f98409e19fe8417c7947b267a5c0e07675ce25b4fd290f",
+    "bytes": 18345
+  },
+  {
+    "hero_folder": "70547_白胡子(巅峰)",
+    "file": "70547_白胡子(巅峰)/05_传奇海贼_780404_图标780401.png",
+    "icon_id": 780401,
+    "sha256": "aaa9de1531613642424a709e16213fb2714122760d39dde7f011af2065281d20",
+    "bytes": 20066
+  },
+  {
+    "hero_folder": "70548_熊(机械)",
+    "file": "70548_熊(机械)/01_普通攻击_781001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70548_熊(机械)",
+    "file": "70548_熊(机械)/02_熊之冲击_781104_图标781101.png",
+    "icon_id": 781101,
+    "sha256": "4adf7caea4998af8be8101db9c8f21d91a2ff1af2d4c8783f63b49ad508d601d",
+    "bytes": 16283
+  },
+  {
+    "hero_folder": "70548_熊(机械)",
+    "file": "70548_熊(机械)/03_和平主义者_781204_图标781201.png",
+    "icon_id": 781201,
+    "sha256": "333aabacaab6a133f98e97a160ba2d194715dfe01a0559fb72c9bff5d3fe61bc",
+    "bytes": 21499
+  },
+  {
+    "hero_folder": "70548_熊(机械)",
+    "file": "70548_熊(机械)/04_阴愈伤弹_781304_图标781301.png",
+    "icon_id": 781301,
+    "sha256": "2b2a4a4450edded7d83869a9e96c9fe16f71461024ba49408f16d1d737b2dd67",
+    "bytes": 18434
+  },
+  {
+    "hero_folder": "70548_熊(机械)",
+    "file": "70548_熊(机械)/05_肉球果实_781404_图标781401.png",
+    "icon_id": 781401,
+    "sha256": "2b7accfc7163988b01d7946f2e9edf7e905749d7a21b8f20fe2dbe511b1fb087",
+    "bytes": 20277
+  },
+  {
+    "hero_folder": "70549_娜美(宙斯)",
+    "file": "70549_娜美(宙斯)/01_普通攻击_782001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70549_娜美(宙斯)",
+    "file": "70549_娜美(宙斯)/02_热带低气压_782104_图标782101.png",
+    "icon_id": 782101,
+    "sha256": "573986f9675bb8c9ec0942972ae2380875cc8c1badba19429353685264df34b7",
+    "bytes": 18170
+  },
+  {
+    "hero_folder": "70549_娜美(宙斯)",
+    "file": "70549_娜美(宙斯)/03_气象知识_782204_图标782201.png",
+    "icon_id": 782201,
+    "sha256": "9f42800ec307407c4a37be4d82083f2c8e0f9fad5f2a91c775dfaf0684ac9b00",
+    "bytes": 18999
+  },
+  {
+    "hero_folder": "70549_娜美(宙斯)",
+    "file": "70549_娜美(宙斯)/04_宙斯雷霆_782304_图标782301.png",
+    "icon_id": 782301,
+    "sha256": "8d8c293205148a524f524d6f6f7d35239b8371c8b1ec4c7ddd9e653c9fd8340e",
+    "bytes": 20298
+  },
+  {
+    "hero_folder": "70549_娜美(宙斯)",
+    "file": "70549_娜美(宙斯)/05_草帽航海士_782404_图标782401.png",
+    "icon_id": 782401,
+    "sha256": "847d5e45fd59801f5899aa78d1b43ecfd1961396cbdb59cf95c0f76bffff288c",
+    "bytes": 19263
+  },
+  {
+    "hero_folder": "70550_山治(鬼岛)",
+    "file": "70550_山治(鬼岛)/01_普通攻击_783001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "70550_山治(鬼岛)",
+    "file": "70550_山治(鬼岛)/02_绞肉_783104_图标783101.png",
+    "icon_id": 783101,
+    "sha256": "674723a563fd5679e7aa445328c2be0b67217f77e70b0be9609abe81cbbbdf79",
+    "bytes": 18614
+  },
+  {
+    "hero_folder": "70550_山治(鬼岛)",
+    "file": "70550_山治(鬼岛)/03_基因改造_783204_图标783201.png",
+    "icon_id": 783201,
+    "sha256": "4a9637c1c5d2fb6bbd3d3ad265bf90532d3ea94d817d0592f0de8ff93c995439",
+    "bytes": 17414
+  },
+  {
+    "hero_folder": "70550_山治(鬼岛)",
+    "file": "70550_山治(鬼岛)/04_恶魔风脚_783304_图标783301.png",
+    "icon_id": 783301,
+    "sha256": "0ada648b48cf9cb89b098cbb2a585b95ed1770250ca7151f863d7624f537b617",
+    "bytes": 17969
+  },
+  {
+    "hero_folder": "70550_山治(鬼岛)",
+    "file": "70550_山治(鬼岛)/05_黑足_783404_图标783401.png",
+    "icon_id": 783401,
+    "sha256": "00392ef4b11ec495ad0c9b637f75227b7e92c97d7de9401dd66511fd9229d230",
+    "bytes": 20371
+  },
+  {
+    "hero_folder": "709830_库赞",
+    "file": "709830_库赞/01_普通攻击_891001_图标20000.png",
+    "icon_id": 20000,
+    "sha256": "faed524a6d5ba3e6350230cb5d33687d1807c3ff6e051f0aa9cf8337feadc4dc",
+    "bytes": 26069
+  },
+  {
+    "hero_folder": "709830_库赞",
+    "file": "709830_库赞/02_冰块“暴雉嘴”_891104_图标89101.png",
+    "icon_id": 89101,
+    "sha256": "11a8471950de8cb93a2f2e3044713f1ca2d28082538fb359be76576d8c79a8e8",
+    "bytes": 8678
+  },
+  {
+    "hero_folder": "709830_库赞",
+    "file": "709830_库赞/03_冻冻果实_891204_图标89102.png",
+    "icon_id": 89102,
+    "sha256": "ba77d294a1018ed552e285ee4599fb750d471649c23f72fb5b01d2b3ed24ade6",
+    "bytes": 9883
+  },
+  {
+    "hero_folder": "709830_库赞",
+    "file": "709830_库赞/04_冰河时代_891304_图标89103.png",
+    "icon_id": 89103,
+    "sha256": "cdebe0c35a0467e5cab56d1fd0a86a17e10a8b28cc9a451a1b262607633bc6cb",
+    "bytes": 10277
+  },
+  {
+    "hero_folder": "709830_库赞",
+    "file": "709830_库赞/05_冰冻时刻_891404_图标89104.png",
+    "icon_id": 89104,
+    "sha256": "d28bd293a6a3b635b0ecd0e774b10927c2c0042246df70661a13e454ff85446e",
+    "bytes": 9072
+  },
+  {
+    "hero_folder": "90527_狼邢",
+    "file": "90527_狼邢/01_普攻_771001_图标77101.png",
+    "icon_id": 77101,
+    "sha256": "872ebeca9f562fec845477c9f9d7166e80d4a904eff3462828a95c2ca255ba84",
+    "bytes": 17593
+  },
+  {
+    "hero_folder": "90527_狼邢",
+    "file": "90527_狼邢/02_裂空斩击_771104_图标77101.png",
+    "icon_id": 77101,
+    "sha256": "872ebeca9f562fec845477c9f9d7166e80d4a904eff3462828a95c2ca255ba84",
+    "bytes": 17593
+  },
+  {
+    "hero_folder": "90527_狼邢",
+    "file": "90527_狼邢/03_狼神之力_771204_图标77102.png",
+    "icon_id": 77102,
+    "sha256": "20f428ae9135889932dc2c729552431c96ba98f1a242ec221a1b591bb0fbd680",
+    "bytes": 19009
+  },
+  {
+    "hero_folder": "90527_狼邢",
+    "file": "90527_狼邢/04_狼神·破空斩_771304_图标77103.png",
+    "icon_id": 77103,
+    "sha256": "818836ccfffda827a36dd78f19858338163f92e806377b3e6eba3ea4f6b709ec",
+    "bytes": 19541
+  },
+  {
+    "hero_folder": "90527_狼邢",
+    "file": "90527_狼邢/05_狼神_771404_图标77104.png",
+    "icon_id": 77104,
+    "sha256": "c70f268e2dc3868ebd2dcc93f29426dc1a752dd1204c540f270cdf7380899021",
+    "bytes": 19814
+  }
+]

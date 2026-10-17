@@ -1,0 +1,3482 @@
+[
+  {
+    "hero_id": 10101,
+    "hero_name": "海贼1号",
+    "file": "10101_海贼1号.png",
+    "spine_res": "H30012",
+    "requested_spine_res": "H30012",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      33,
+      469,
+      770
+    ],
+    "sha256": "623d3afe7405c81558f615578b486931ae38f6fca4a0c22103793ee39a1dfe07",
+    "bytes": 248228
+  },
+  {
+    "hero_id": 10201,
+    "hero_name": "海贼2号",
+    "file": "10201_海贼2号.png",
+    "spine_res": "H30018",
+    "requested_spine_res": "H30018",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      42,
+      505,
+      770
+    ],
+    "sha256": "a36cc2b2224f95c0e499d0f62c93f5a1825edded0d5121048c998322ec620ec5",
+    "bytes": 220865
+  },
+  {
+    "hero_id": 10202,
+    "hero_name": "海贼3号",
+    "file": "10202_海贼3号.png",
+    "spine_res": "H30030",
+    "requested_spine_res": "H30030",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      34,
+      432,
+      769
+    ],
+    "sha256": "775578270a7d4cbd2cc67b156119058e6e88c5222ad26143a7cae6686bafeff1",
+    "bytes": 235029
+  },
+  {
+    "hero_id": 10301,
+    "hero_name": "海贼4号",
+    "file": "10301_海贼4号.png",
+    "spine_res": "H30001",
+    "requested_spine_res": "H30001",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      33,
+      469,
+      770
+    ],
+    "sha256": "623d3afe7405c81558f615578b486931ae38f6fca4a0c22103793ee39a1dfe07",
+    "bytes": 248228
+  },
+  {
+    "hero_id": 10302,
+    "hero_name": "海贼5号",
+    "file": "10302_海贼5号.png",
+    "spine_res": "H30029",
+    "requested_spine_res": "H30029",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      91,
+      34,
+      484,
+      770
+    ],
+    "sha256": "1e34c409fb4ca6f25caa27d1868c83772ead6ab9fa26f44ae111345194aed748",
+    "bytes": 262797
+  },
+  {
+    "hero_id": 10303,
+    "hero_name": "海贼6号",
+    "file": "10303_海贼6号.png",
+    "spine_res": "H30055",
+    "requested_spine_res": "H30055",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      41,
+      86,
+      559,
+      769
+    ],
+    "sha256": "39c72ded3b5a136935ff711ecb75c6b88dfa99fe678abe3b4329bf2e22f372e1",
+    "bytes": 237311
+  },
+  {
+    "hero_id": 10304,
+    "hero_name": "汉尼拔",
+    "file": "10304_汉尼拔.png",
+    "spine_res": "H30057",
+    "requested_spine_res": "H30057",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      35,
+      30,
+      281,
+      770
+    ],
+    "sha256": "874887b9362617fccc512b5899ebe4ac9b2005f27117b1eafb99253a5b12ae91",
+    "bytes": 210018
+  },
+  {
+    "hero_id": 10305,
+    "hero_name": "海贼8号",
+    "file": "10305_海贼8号.png",
+    "spine_res": "H30067",
+    "requested_spine_res": "H30067",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      34,
+      432,
+      769
+    ],
+    "sha256": "8f012fdd1d57850a4554f2d248cd31cdd070da530b63e5ac0fd864d481ca7ac6",
+    "bytes": 241785
+  },
+  {
+    "hero_id": 10401,
+    "hero_name": "修罗",
+    "file": "10401_修罗.png",
+    "spine_res": "H30009",
+    "requested_spine_res": "H30009",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      86,
+      570,
+      755
+    ],
+    "sha256": "78d16ed0f6bce4dcefc5084f534d9d775872c111f19024238024c596dd3418e8",
+    "bytes": 272695
+  },
+  {
+    "hero_id": 10402,
+    "hero_name": "卡巴奇",
+    "file": "10402_卡巴奇.png",
+    "spine_res": "H30070",
+    "requested_spine_res": "H30070",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      206,
+      570,
+      766
+    ],
+    "sha256": "77e845398fc6f57c63594ca75fc6fe8adc121a8c99a56b7629268240546b5027",
+    "bytes": 221174
+  },
+  {
+    "hero_id": 10403,
+    "hero_name": "小八",
+    "file": "10403_小八.png",
+    "spine_res": "H30039",
+    "requested_spine_res": "H30039",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      59,
+      57,
+      540,
+      766
+    ],
+    "sha256": "8caf057a603cab29b8e43d07df16aed771b0b4442fa31fd519fd25d5e8e21a09",
+    "bytes": 376449
+  },
+  {
+    "hero_id": 10404,
+    "hero_name": "杰斯",
+    "file": "10404_杰斯.png",
+    "spine_res": "H30084",
+    "requested_spine_res": "H30084",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      34,
+      30,
+      402,
+      763
+    ],
+    "sha256": "f621f5311810c89bb7a9e76d5ec8b26334330d42080351d497564f8d854e1dc1",
+    "bytes": 272266
+  },
+  {
+    "hero_id": 10405,
+    "hero_name": "克罗马利蒙",
+    "file": "10405_克罗马利蒙.png",
+    "spine_res": "H30005",
+    "requested_spine_res": "H30005",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      403,
+      751
+    ],
+    "sha256": "795770624724837c94ddc27e118b8a5fdebb2e2b687ba871b71a582b256b1a74",
+    "bytes": 252646
+  },
+  {
+    "hero_id": 10501,
+    "hero_name": "幽冥公主",
+    "file": "10501_幽冥公主.png",
+    "spine_res": "H32015",
+    "requested_spine_res": "H32015",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      354,
+      765
+    ],
+    "sha256": "1a97f682542c983943b34416bb9edb3ca475c301362c874097101cd567931a45",
+    "bytes": 253943
+  },
+  {
+    "hero_id": 10502,
+    "hero_name": "艾斯",
+    "file": "10502_艾斯.png",
+    "spine_res": "H32072",
+    "requested_spine_res": "H32072",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      352,
+      762
+    ],
+    "sha256": "2bc907b17dbb9fbafd5f5f4819863d139cc0eff01250d93845dfc72eeef6b50d",
+    "bytes": 261536
+  },
+  {
+    "hero_id": 10503,
+    "hero_name": "德雷克",
+    "file": "10503_德雷克.png",
+    "spine_res": "H32021",
+    "requested_spine_res": "H32021",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      106,
+      30,
+      489,
+      767
+    ],
+    "sha256": "56b1b8396ae63afde93d0a97bb617d817384eb91d2e8abcdb6c3f804b25d67fc",
+    "bytes": 162537
+  },
+  {
+    "hero_id": 10504,
+    "hero_name": "贝基",
+    "file": "10504_贝基.png",
+    "spine_res": "H32080",
+    "requested_spine_res": "H32080",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      145,
+      567,
+      769
+    ],
+    "sha256": "ba379a7b4d6ee24c6bf0749c55bf06ae776ea3bfc1d6ed2638e1cccda3792e87",
+    "bytes": 234563
+  },
+  {
+    "hero_id": 10505,
+    "hero_name": "基德",
+    "file": "10505_基德.png",
+    "spine_res": "H32065",
+    "requested_spine_res": "H32065",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      475,
+      747
+    ],
+    "sha256": "bc53642031d1946220996f2f06272b7ebe1eefbcd4b1f5c93c012f9e40af72ba",
+    "bytes": 310845
+  },
+  {
+    "hero_id": 10506,
+    "hero_name": "大悟",
+    "file": "10506_大悟.png",
+    "spine_res": "H31071",
+    "requested_spine_res": "H31071",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      75,
+      570,
+      766
+    ],
+    "sha256": "26143abd9a044387842eb9f0f4e2b5615dbfa43be29038131117be7cc707e6f1",
+    "bytes": 282667
+  },
+  {
+    "hero_id": 10507,
+    "hero_name": "贝拉米",
+    "file": "10507_贝拉米.png",
+    "spine_res": "H32079",
+    "requested_spine_res": "H32079",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      37,
+      30,
+      378,
+      763
+    ],
+    "sha256": "c56273d5d9779e225289c485992edaff18d5abc749690c2826e5ea0c9ebc3eda",
+    "bytes": 209715
+  },
+  {
+    "hero_id": 10508,
+    "hero_name": "小丑巴基",
+    "file": "10508_小丑巴基.png",
+    "spine_res": "H31083",
+    "requested_spine_res": "H31083",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      194,
+      569,
+      764
+    ],
+    "sha256": "c363dcc8a26e9d0ab049ea12fd4cfc7aa3f2c166cf18244c33f3a8f492ee11e2",
+    "bytes": 312409
+  },
+  {
+    "hero_id": 10509,
+    "hero_name": "冯克雷",
+    "file": "10509_冯克雷.png",
+    "spine_res": "H31053",
+    "requested_spine_res": "H31053",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      440,
+      758
+    ],
+    "sha256": "3a8d1b665b5d4d26fba85b112b0538b69aaa08e39c3d62fd034d5ac8bca75794",
+    "bytes": 340714
+  },
+  {
+    "hero_id": 10510,
+    "hero_name": "艾尼路",
+    "file": "10510_艾尼路.png",
+    "spine_res": "H32097",
+    "requested_spine_res": "H32097",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      128,
+      570,
+      765
+    ],
+    "sha256": "241380901cdb94576ed38cff484ca3d2d058c4e56fd61166694a052c9899ff62",
+    "bytes": 275542
+  },
+  {
+    "hero_id": 10511,
+    "hero_name": "罗",
+    "file": "10511_罗.png",
+    "spine_res": "H32102",
+    "requested_spine_res": "H32102",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      530,
+      767
+    ],
+    "sha256": "986870bae14bb508e0eb3482da672a0de228c7334a8ae6e5c8d6708ecbe613b7",
+    "bytes": 228226
+  },
+  {
+    "hero_id": 10512,
+    "hero_name": "萨博（路西）",
+    "file": "10512_萨博（路西）.png",
+    "spine_res": "H32110",
+    "requested_spine_res": "H32110",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      526,
+      756
+    ],
+    "sha256": "73306f751ff0dff3bac5b1c534e611a4e1b9c668bbf6d9a1d20f26677573f05b",
+    "bytes": 294382
+  },
+  {
+    "hero_id": 10513,
+    "hero_name": "霍金斯",
+    "file": "10513_霍金斯.png",
+    "spine_res": "H30114",
+    "requested_spine_res": "H30114",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      153,
+      569,
+      769
+    ],
+    "sha256": "188374e3c483d370fb0a634c9b53cba1c032f19aaaf11ddcc5b9a345ebd36e59",
+    "bytes": 195337
+  },
+  {
+    "hero_id": 10514,
+    "hero_name": "阿普",
+    "file": "10514_阿普.png",
+    "spine_res": "h_apu",
+    "requested_spine_res": "h_apu",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      502,
+      770
+    ],
+    "sha256": "4125b201cc5db806c6530c88c1f6eaee4281e55498aa37fc1f01e9d3e51f1037",
+    "bytes": 291684
+  },
+  {
+    "hero_id": 20101,
+    "hero_name": "平民",
+    "file": "20101_平民.png",
+    "spine_res": "H30022",
+    "requested_spine_res": "H30022",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      42,
+      505,
+      770
+    ],
+    "sha256": "a36cc2b2224f95c0e499d0f62c93f5a1825edded0d5121048c998322ec620ec5",
+    "bytes": 220865
+  },
+  {
+    "hero_id": 20201,
+    "hero_name": "海贼9号",
+    "file": "20201_海贼9号.png",
+    "spine_res": "H30066",
+    "requested_spine_res": "H30066",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      34,
+      432,
+      769
+    ],
+    "sha256": "8f012fdd1d57850a4554f2d248cd31cdd070da530b63e5ac0fd864d481ca7ac6",
+    "bytes": 241785
+  },
+  {
+    "hero_id": 20202,
+    "hero_name": "海贼10号",
+    "file": "20202_海贼10号.png",
+    "spine_res": "H30088",
+    "requested_spine_res": "H30088",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      42,
+      505,
+      770
+    ],
+    "sha256": "a36cc2b2224f95c0e499d0f62c93f5a1825edded0d5121048c998322ec620ec5",
+    "bytes": 220865
+  },
+  {
+    "hero_id": 20301,
+    "hero_name": "海贼11号",
+    "file": "20301_海贼11号.png",
+    "spine_res": "H30006",
+    "requested_spine_res": "H30006",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      34,
+      432,
+      769
+    ],
+    "sha256": "844d9a2868093dce886f3770a5b5ff52c2b09288d664c033d4771eae8a53296e",
+    "bytes": 236563
+  },
+  {
+    "hero_id": 20302,
+    "hero_name": "女儿国战士",
+    "file": "20302_女儿国战士.png",
+    "spine_res": "H30007",
+    "requested_spine_res": "H30007",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      32,
+      514,
+      769
+    ],
+    "sha256": "cfbc515887d4681e84c26384c0e5a7512d25d8b08a8c8f2707518016bc7006ea",
+    "bytes": 254641
+  },
+  {
+    "hero_id": 20303,
+    "hero_name": "海贼12号",
+    "file": "20303_海贼12号.png",
+    "spine_res": "H30014",
+    "requested_spine_res": "H30014",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      33,
+      469,
+      770
+    ],
+    "sha256": "623d3afe7405c81558f615578b486931ae38f6fca4a0c22103793ee39a1dfe07",
+    "bytes": 248228
+  },
+  {
+    "hero_id": 20304,
+    "hero_name": "鱼人1号",
+    "file": "20304_鱼人1号.png",
+    "spine_res": "H30028",
+    "requested_spine_res": "H30028",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      41,
+      86,
+      559,
+      769
+    ],
+    "sha256": "39c72ded3b5a136935ff711ecb75c6b88dfa99fe678abe3b4329bf2e22f372e1",
+    "bytes": 237311
+  },
+  {
+    "hero_id": 20305,
+    "hero_name": "海贼13号",
+    "file": "20305_海贼13号.png",
+    "spine_res": "H30049",
+    "requested_spine_res": "H30049",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      34,
+      432,
+      769
+    ],
+    "sha256": "775578270a7d4cbd2cc67b156119058e6e88c5222ad26143a7cae6686bafeff1",
+    "bytes": 235029
+  },
+  {
+    "hero_id": 20401,
+    "hero_name": "冰山",
+    "file": "20401_冰山.png",
+    "spine_res": "H30020",
+    "requested_spine_res": "H30020",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      36,
+      30,
+      301,
+      764
+    ],
+    "sha256": "35929eee5e565147c7e60d9be2545c3fdbcc55caddf899a149b2f37f0989858b",
+    "bytes": 160685
+  },
+  {
+    "hero_id": 20402,
+    "hero_name": "娜美",
+    "file": "20402_娜美.png",
+    "spine_res": "H30069",
+    "requested_spine_res": "H30069",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      245,
+      755
+    ],
+    "sha256": "66eb0ef6556ff559f9f617502b219be9061400dfc8e2488f1352cabba173c20e",
+    "bytes": 161522
+  },
+  {
+    "hero_id": 20403,
+    "hero_name": "天空骑士",
+    "file": "20403_天空骑士.png",
+    "spine_res": "H30082",
+    "requested_spine_res": "H30082",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      37,
+      31,
+      355,
+      767
+    ],
+    "sha256": "27fc9101fc6dcfaf6e641c8c7fbd52aeba17be87b5e1dcee98627163a7270730",
+    "bytes": 182495
+  },
+  {
+    "hero_id": 20404,
+    "hero_name": "巴里",
+    "file": "20404_巴里.png",
+    "spine_res": "H30087",
+    "requested_spine_res": "H30087",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      333,
+      768
+    ],
+    "sha256": "f6482471816c719c3e3eaa5154756fdc7b0aa2120fd9c6f1138911656d702e29",
+    "bytes": 219854
+  },
+  {
+    "hero_id": 20405,
+    "hero_name": "索隆",
+    "file": "20405_索隆.png",
+    "spine_res": "H30045",
+    "requested_spine_res": "H30045",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      424,
+      744
+    ],
+    "sha256": "81aa038f9055268a6d89047100a74e528ad435001a71608fad3abf0094d67fe0",
+    "bytes": 205535
+  },
+  {
+    "hero_id": 20501,
+    "hero_name": "弗兰奇",
+    "file": "20501_弗兰奇.png",
+    "spine_res": "H32062",
+    "requested_spine_res": "H32062",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      32,
+      30,
+      440,
+      758
+    ],
+    "sha256": "ba79f05ef01d202b7fdb82e76dc965473114c97539bf8d3f2a115acc234b553b",
+    "bytes": 273940
+  },
+  {
+    "hero_id": 20502,
+    "hero_name": "乌索普",
+    "file": "20502_乌索普.png",
+    "spine_res": "H32061",
+    "requested_spine_res": "H32061",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      42,
+      30,
+      378,
+      751
+    ],
+    "sha256": "0aefb1ebd82232c0120bc6fc10306208f7bcd62a87b0d8e3f35023d3c2891eff",
+    "bytes": 219774
+  },
+  {
+    "hero_id": 20503,
+    "hero_name": "薇薇",
+    "file": "20503_薇薇.png",
+    "spine_res": "H31050",
+    "requested_spine_res": "H31050",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      333,
+      764
+    ],
+    "sha256": "dec6ee16e044d282e63d13e01027da766237d597b0be00d4a42ec9b664b01bcb",
+    "bytes": 208364
+  },
+  {
+    "hero_id": 20504,
+    "hero_name": "布鲁克",
+    "file": "20504_布鲁克.png",
+    "spine_res": "H32019",
+    "requested_spine_res": "H32019",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      313,
+      768
+    ],
+    "sha256": "97f1740954dc7f1a8a9d592c8a1e6c725223b75ca94215ee3b3783ac18f0a6cc",
+    "bytes": 158864
+  },
+  {
+    "hero_id": 20505,
+    "hero_name": "娜美(伟大航路)",
+    "file": "20505_娜美(伟大航路).png",
+    "spine_res": "H32078",
+    "requested_spine_res": "H32078",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      30,
+      414,
+      769
+    ],
+    "sha256": "6701376a8bbafb8b65dbd98ed5ab32708fcd449b67bb5385ae0f54d110ce94dd",
+    "bytes": 188766
+  },
+  {
+    "hero_id": 20506,
+    "hero_name": "韦伯",
+    "file": "20506_韦伯.png",
+    "spine_res": "H31060",
+    "requested_spine_res": "H31060",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      432,
+      768
+    ],
+    "sha256": "eda30a0727f7d306e777d45d7ad2cb536a7b8b69f90c152a0e794accc1bac8ba",
+    "bytes": 250784
+  },
+  {
+    "hero_id": 20507,
+    "hero_name": "乔巴",
+    "file": "20507_乔巴.png",
+    "spine_res": "H32092",
+    "requested_spine_res": "H32092",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      37,
+      490,
+      762
+    ],
+    "sha256": "20031c4b5efc589629faaac4b146bb2b5f047bd851f0d89f49adb7cb24271141",
+    "bytes": 301448
+  },
+  {
+    "hero_id": 20508,
+    "hero_name": "索隆(伟大航路)",
+    "file": "20508_索隆(伟大航路).png",
+    "spine_res": "H32093",
+    "requested_spine_res": "H32093",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      516,
+      752
+    ],
+    "sha256": "23d2186c0c0b5f85d26089f6b134b638c696a2c4d1f30e75f251195426649929",
+    "bytes": 251029
+  },
+  {
+    "hero_id": 20509,
+    "hero_name": "山治",
+    "file": "20509_山治.png",
+    "spine_res": "H32096",
+    "requested_spine_res": "H32096",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      30,
+      271,
+      764
+    ],
+    "sha256": "801d08f3de182d39451682cb408416e85cd13f8f11357f69b5befa28f0d9353c",
+    "bytes": 132260
+  },
+  {
+    "hero_id": 20510,
+    "hero_name": "路飞",
+    "file": "20510_路飞.png",
+    "spine_res": "H32104",
+    "requested_spine_res": "H32104",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      347,
+      767
+    ],
+    "sha256": "9b1bc62bd222a67a3903b974e4cc2e1ba4c0f29aa5defa0c96e610fb5b8e5241",
+    "bytes": 191141
+  },
+  {
+    "hero_id": 20511,
+    "hero_name": "甚平",
+    "file": "20511_甚平.png",
+    "spine_res": "H31107",
+    "requested_spine_res": "H32107",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      43,
+      60,
+      557,
+      753
+    ],
+    "sha256": "d9716214172c448148efedf04cd06052b21f4ce2b7ac2027e86f9aeca0547807",
+    "bytes": 356921
+  },
+  {
+    "hero_id": 20512,
+    "hero_name": "罗宾",
+    "file": "20512_罗宾.png",
+    "spine_res": "H32112",
+    "requested_spine_res": "H32112",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      339,
+      763
+    ],
+    "sha256": "34632e67f9773ed14e222a543141dfa09523b3726cd53e84c687e0b1803a8a56",
+    "bytes": 243865
+  },
+  {
+    "hero_id": 20513,
+    "hero_name": "白星",
+    "file": "20513_白星.png",
+    "spine_res": "H30122",
+    "requested_spine_res": "H30122",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      39,
+      570,
+      770
+    ],
+    "sha256": "3ab8d336e1cb827f384b3e019d941add482d97e185f8113a312f62eef926fa46",
+    "bytes": 542063
+  },
+  {
+    "hero_id": 20514,
+    "hero_name": "大和",
+    "file": "20514_大和.png",
+    "spine_res": "h_dahe",
+    "requested_spine_res": "h_dahe",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      386,
+      770
+    ],
+    "sha256": "a0f864537b7271cdf6fa2720388a37cf17d5791ddcae4d555c5cbe47457cdfc0",
+    "bytes": 303823
+  },
+  {
+    "hero_id": 30101,
+    "hero_name": "强者海贼1号",
+    "file": "30101_强者海贼1号.png",
+    "spine_res": "H30086",
+    "requested_spine_res": "H30086",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      34,
+      432,
+      769
+    ],
+    "sha256": "775578270a7d4cbd2cc67b156119058e6e88c5222ad26143a7cae6686bafeff1",
+    "bytes": 235029
+  },
+  {
+    "hero_id": 30201,
+    "hero_name": "海贼14号",
+    "file": "30201_海贼14号.png",
+    "spine_res": "H30068",
+    "requested_spine_res": "H30068",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      45,
+      34,
+      432,
+      769
+    ],
+    "sha256": "8f012fdd1d57850a4554f2d248cd31cdd070da530b63e5ac0fd864d481ca7ac6",
+    "bytes": 241785
+  },
+  {
+    "hero_id": 30202,
+    "hero_name": "海军2号",
+    "file": "30202_海军2号.png",
+    "spine_res": "H30025",
+    "requested_spine_res": "H30025",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      31,
+      510,
+      770
+    ],
+    "sha256": "d3292b4bc76e919a3932297a8ffdd41fa432fc1350614779081dd6152822112c",
+    "bytes": 191362
+  },
+  {
+    "hero_id": 30301,
+    "hero_name": "僵尸1号",
+    "file": "30301_僵尸1号.png",
+    "spine_res": "H30008",
+    "requested_spine_res": "H30008",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      153,
+      570,
+      770
+    ],
+    "sha256": "2e2dafa767503f13fa192181ee1014de0c1edc2d85767242d402471a9bd9e255",
+    "bytes": 236326
+  },
+  {
+    "hero_id": 30302,
+    "hero_name": "Mr.9",
+    "file": "30302_Mr.9.png",
+    "spine_res": "H30032",
+    "requested_spine_res": "H30032",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      385,
+      762
+    ],
+    "sha256": "2c21d975b1d6488f0fb9da886e7f0c2f53a79e5d5b812962b2f4eb4ba55aa430",
+    "bytes": 200992
+  },
+  {
+    "hero_id": 30303,
+    "hero_name": "鱼人3号",
+    "file": "30303_鱼人3号.png",
+    "spine_res": "H30034",
+    "requested_spine_res": "H30034",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      41,
+      86,
+      559,
+      769
+    ],
+    "sha256": "39c72ded3b5a136935ff711ecb75c6b88dfa99fe678abe3b4329bf2e22f372e1",
+    "bytes": 237311
+  },
+  {
+    "hero_id": 30304,
+    "hero_name": "Mr.5",
+    "file": "30304_Mr.5.png",
+    "spine_res": "H30037",
+    "requested_spine_res": "H30037",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      31,
+      300,
+      763
+    ],
+    "sha256": "d6f262137f198893f851aad8a024f0c413def7a6f83c2c61c175f7ffe6c98038",
+    "bytes": 196471
+  },
+  {
+    "hero_id": 30305,
+    "hero_name": "玛格丽特",
+    "file": "30305_玛格丽特.png",
+    "spine_res": "H30047",
+    "requested_spine_res": "H30047",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      31,
+      356,
+      770
+    ],
+    "sha256": "8d02c45523fb2a3353a5ba2dcff449732b20d76de45a726a0fc602a7f9822ae3",
+    "bytes": 217048
+  },
+  {
+    "hero_id": 30401,
+    "hero_name": "Mr.3",
+    "file": "30401_Mr.3.png",
+    "spine_res": "H30042",
+    "requested_spine_res": "H30042",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      250,
+      770
+    ],
+    "sha256": "3a1ed3293a1be240dcea0ccada45d7a20fdb3b5176b11ecabfda7cb5a1ebbeda",
+    "bytes": 154222
+  },
+  {
+    "hero_id": 30402,
+    "hero_name": "阿布萨罗姆",
+    "file": "30402_阿布萨罗姆.png",
+    "spine_res": "H30036",
+    "requested_spine_res": "H30036",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      30,
+      433,
+      763
+    ],
+    "sha256": "f19ded80a3b783a88a6737560280d268acda6eb4271645855d5c39f01b745d21",
+    "bytes": 259282
+  },
+  {
+    "hero_id": 30403,
+    "hero_name": "Mr.1",
+    "file": "30403_Mr.1.png",
+    "spine_res": "H30004",
+    "requested_spine_res": "H30004",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      432,
+      760
+    ],
+    "sha256": "db9e52ef441f0c95c3210b700e95aca6400808f066d76da72ef5456f34bfb257",
+    "bytes": 262415
+  },
+  {
+    "hero_id": 30404,
+    "hero_name": "Mr.双手指",
+    "file": "30404_Mr.双手指.png",
+    "spine_res": "H30016",
+    "requested_spine_res": "H30016",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      303,
+      765
+    ],
+    "sha256": "7e3377582ba10dd4281fb638a1329dfcf4c9d64ad17d6b144a6b81375245e0ee",
+    "bytes": 198249
+  },
+  {
+    "hero_id": 30405,
+    "hero_name": "Mr.情人节",
+    "file": "30405_Mr.情人节.png",
+    "spine_res": "H30017",
+    "requested_spine_res": "H30017",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      365,
+      756
+    ],
+    "sha256": "dad4cb557da54ba8effc35ef54955da6bbec7a97c87de0cae39cfc73e96c3b42",
+    "bytes": 228749
+  },
+  {
+    "hero_id": 30501,
+    "hero_name": "鳄鱼",
+    "file": "30501_鳄鱼.png",
+    "spine_res": "H32064",
+    "requested_spine_res": "H32064",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      524,
+      761
+    ],
+    "sha256": "f15d1fa716feb99b033e56b56aa7d986d05d924c91d13f14b98ded401adc2789",
+    "bytes": 262256
+  },
+  {
+    "hero_id": 30502,
+    "hero_name": "暴君熊",
+    "file": "30502_暴君熊.png",
+    "spine_res": "H32056",
+    "requested_spine_res": "H32056",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      44,
+      30,
+      475,
+      756
+    ],
+    "sha256": "2fe5bf26977fc587784fc6a01a86e8eba01e9098831a38530dcc9600037eb010",
+    "bytes": 194193
+  },
+  {
+    "hero_id": 30503,
+    "hero_name": "伊万科夫",
+    "file": "30503_伊万科夫.png",
+    "spine_res": "H31051",
+    "requested_spine_res": "H31051",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      32,
+      35,
+      413,
+      770
+    ],
+    "sha256": "0d609396703d422e7ca6647bd219b3bf20c0452baf62fdbe9fc61e13cb86820b",
+    "bytes": 335514
+  },
+  {
+    "hero_id": 30504,
+    "hero_name": "闪电",
+    "file": "30504_闪电.png",
+    "spine_res": "H32010",
+    "requested_spine_res": "H32010",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      30,
+      465,
+      770
+    ],
+    "sha256": "a4d0844476d960be7f4be9cb8e5413a2a22e1cddedc4f029f40513f93e47622a",
+    "bytes": 271531
+  },
+  {
+    "hero_id": 30505,
+    "hero_name": "霍古巴克",
+    "file": "30505_霍古巴克.png",
+    "spine_res": "H31085",
+    "requested_spine_res": "H31085",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      35,
+      30,
+      545,
+      767
+    ],
+    "sha256": "a03af9331721b5501fe5499abb5f83374a7981ecd11b132577c44f0f4adb87b8",
+    "bytes": 354650
+  },
+  {
+    "hero_id": 30506,
+    "hero_name": "萨博（火拳）",
+    "file": "30506_萨博（火拳）.png",
+    "spine_res": "H32058",
+    "requested_spine_res": "H32058",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      32,
+      31,
+      408,
+      763
+    ],
+    "sha256": "d4dae28cd7895e6bd91907aabd1ea83f6c33f0b2a2401495bd1ce41d66c686e5",
+    "bytes": 206114
+  },
+  {
+    "hero_id": 30507,
+    "hero_name": "月光莫利亚",
+    "file": "30507_月光莫利亚.png",
+    "spine_res": "H32094",
+    "requested_spine_res": "H32094",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      552,
+      770
+    ],
+    "sha256": "d62aa6f050e09d53e0a3fb786d03e853ff8f3423d82762e433c698814d2b994b",
+    "bytes": 278836
+  },
+  {
+    "hero_id": 30508,
+    "hero_name": "龙马",
+    "file": "30508_龙马.png",
+    "spine_res": "H32095",
+    "requested_spine_res": "H32095",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      36,
+      31,
+      433,
+      764
+    ],
+    "sha256": "0d9d603b81a8ffffed40154de71e7fc63d2014fec494670bbbbaf03ee1314da8",
+    "bytes": 301748
+  },
+  {
+    "hero_id": 30509,
+    "hero_name": "鹰眼",
+    "file": "30509_鹰眼.png",
+    "spine_res": "H32099",
+    "requested_spine_res": "H32099",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      144,
+      570,
+      765
+    ],
+    "sha256": "b954a2066d4e65e745388ba890ba9e9929215b44afa83674c3d4c46ee45c24fc",
+    "bytes": 191412
+  },
+  {
+    "hero_id": 30510,
+    "hero_name": "多弗朗明哥",
+    "file": "30510_多弗朗明哥.png",
+    "spine_res": "H32101",
+    "requested_spine_res": "H32101",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      178,
+      569,
+      768
+    ],
+    "sha256": "7fc14d43e1f599d7b9df967be43783f50483c88c4d23759008d11a412e14e0d3",
+    "bytes": 337416
+  },
+  {
+    "hero_id": 30511,
+    "hero_name": "汉库克",
+    "file": "30511_汉库克.png",
+    "spine_res": "H32106",
+    "requested_spine_res": "H32106",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      387,
+      770
+    ],
+    "sha256": "65432382b0cfa5898a6e3d9e379a0a3267488f5418db42a6dad67bedd41ab316",
+    "bytes": 295521
+  },
+  {
+    "hero_id": 30512,
+    "hero_name": "黑胡子",
+    "file": "30512_黑胡子.png",
+    "spine_res": "H32111",
+    "requested_spine_res": "H32111",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      528,
+      770
+    ],
+    "sha256": "f6d2fe5c2e6917238299602e5423a8f70056f26d2c5eabeb37b62c2dcbe9a788",
+    "bytes": 346506
+  },
+  {
+    "hero_id": 30513,
+    "hero_name": "金鱼乙姬",
+    "file": "30513_金鱼乙姬.png",
+    "spine_res": "H30117",
+    "requested_spine_res": "H30117",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      36,
+      30,
+      429,
+      770
+    ],
+    "sha256": "8dde9902acef84365ad8a62bebf7b693727d35d9aef057c6292787e7e28ad2b7",
+    "bytes": 301272
+  },
+  {
+    "hero_id": 30514,
+    "hero_name": "光月时",
+    "file": "30514_光月时.png",
+    "spine_res": "h_guangyueshi",
+    "requested_spine_res": "h_guangyueshi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      374,
+      770
+    ],
+    "sha256": "04a1fc4c6ac10de5f75f4081db426f63d288e2d4d4427772d84888351cbf6b5c",
+    "bytes": 218544
+  },
+  {
+    "hero_id": 30515,
+    "hero_name": "蕾玖",
+    "file": "30515_蕾玖.png",
+    "spine_res": "H30125",
+    "requested_spine_res": "H30125",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      31,
+      410,
+      764
+    ],
+    "sha256": "7402b9c4b5027fbe54b35b005f59ed95ae00a8f4cdfb253172fdd8c6c12eae68",
+    "bytes": 270656
+  },
+  {
+    "hero_id": 40301,
+    "hero_name": "达斯琪",
+    "file": "40301_达斯琪.png",
+    "spine_res": "H30089",
+    "requested_spine_res": "H30089",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      51,
+      30,
+      363,
+      768
+    ],
+    "sha256": "992511610e02314f54275be425ae543748351aba43d3d23bb0d2f70f51121cfd",
+    "bytes": 176322
+  },
+  {
+    "hero_id": 40401,
+    "hero_name": "布鲁诺",
+    "file": "40401_布鲁诺.png",
+    "spine_res": "H30048",
+    "requested_spine_res": "H30048",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      402,
+      766
+    ],
+    "sha256": "cad2151720c185d29e62faaf85b26cbf78a55475c37c4333f11ae4e3144144f4",
+    "bytes": 129566
+  },
+  {
+    "hero_id": 40402,
+    "hero_name": "猫头鹰",
+    "file": "40402_猫头鹰.png",
+    "spine_res": "H30027",
+    "requested_spine_res": "H30027",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      119,
+      570,
+      770
+    ],
+    "sha256": "3e51f43123b6933d26e487b492fb57c8b0efbc4ae7bfdbd1b9160910931b1eb4",
+    "bytes": 223828
+  },
+  {
+    "hero_id": 40403,
+    "hero_name": "加布拉",
+    "file": "40403_加布拉.png",
+    "spine_res": "H30003",
+    "requested_spine_res": "H30003",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      31,
+      340,
+      762
+    ],
+    "sha256": "4838744c4e0a3204b66666542f53e0de1b4490ac75439ed871092c759fc650af",
+    "bytes": 142068
+  },
+  {
+    "hero_id": 40404,
+    "hero_name": "卡莉法",
+    "file": "40404_卡莉法.png",
+    "spine_res": "H30076",
+    "requested_spine_res": "H30076",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      30,
+      274,
+      770
+    ],
+    "sha256": "5dd0e0fa77e72941973123c847678c1f96322154c4ac0e6cf93a1218c8650377",
+    "bytes": 179898
+  },
+  {
+    "hero_id": 40501,
+    "hero_name": "路奇",
+    "file": "40501_路奇.png",
+    "spine_res": "H31075",
+    "requested_spine_res": "H31075",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      301,
+      768
+    ],
+    "sha256": "3731bbaef5ff75ae0e243b48494eee34330b2d65b5c359429c9272dccb98657b",
+    "bytes": 126101
+  },
+  {
+    "hero_id": 40502,
+    "hero_name": "战桃丸",
+    "file": "40502_战桃丸.png",
+    "spine_res": "H32031",
+    "requested_spine_res": "H32031",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      497,
+      762
+    ],
+    "sha256": "92450fc3bfca467cedb163c31db4b02038614c9b1b0f55ea2705a1eb46c7ab1c",
+    "bytes": 265024
+  },
+  {
+    "hero_id": 40503,
+    "hero_name": "黄猿",
+    "file": "40503_黄猿.png",
+    "spine_res": "H32074",
+    "requested_spine_res": "H32074",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      439,
+      763
+    ],
+    "sha256": "5fe60831c78ea96a5f82dc108a41dcffa119477326c93f947b1bcdb269c684b9",
+    "bytes": 328104
+  },
+  {
+    "hero_id": 40504,
+    "hero_name": "卡普",
+    "file": "40504_卡普.png",
+    "spine_res": "H32077",
+    "requested_spine_res": "H32077",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      478,
+      766
+    ],
+    "sha256": "30e232a5b829848ddec57c69f4a4a5e22ee01ba0a747c3d9869aaf6116ffd149",
+    "bytes": 298179
+  },
+  {
+    "hero_id": 40505,
+    "hero_name": "斯摩格",
+    "file": "40505_斯摩格.png",
+    "spine_res": "H31052",
+    "requested_spine_res": "H31052",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      43,
+      30,
+      418,
+      750
+    ],
+    "sha256": "92f40ffbe3340c70abd1f8b61a8b1714ed932a53a9a866eee9dfb60ef1a2d56c",
+    "bytes": 195670
+  },
+  {
+    "hero_id": 40506,
+    "hero_name": "青雉",
+    "file": "40506_青雉.png",
+    "spine_res": "H32026",
+    "requested_spine_res": "H32026",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      518,
+      766
+    ],
+    "sha256": "b0ca1dffbce3657802cf0a415d002913edd2e03974ec762ace96edae33283105",
+    "bytes": 278663
+  },
+  {
+    "hero_id": 40507,
+    "hero_name": "鹤",
+    "file": "40507_鹤.png",
+    "spine_res": "H32090",
+    "requested_spine_res": "H32090",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      37,
+      85,
+      567,
+      768
+    ],
+    "sha256": "a3fb507baab435c79a36ec5665d945f637b5ef86898495b26a117e111e9e4334",
+    "bytes": 239558
+  },
+  {
+    "hero_id": 40508,
+    "hero_name": "战国",
+    "file": "40508_战国.png",
+    "spine_res": "H32098",
+    "requested_spine_res": "H32098",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      482,
+      762
+    ],
+    "sha256": "38b74af2dcabd256245317755c60f046ea502bcd3cca756c396e97e90c5263a2",
+    "bytes": 277287
+  },
+  {
+    "hero_id": 40509,
+    "hero_name": "麦哲伦",
+    "file": "40509_麦哲伦.png",
+    "spine_res": "H32103",
+    "requested_spine_res": "H32103",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      32,
+      30,
+      469,
+      768
+    ],
+    "sha256": "e396d690cb09ca6e65d16a2366beaa5184b51874452a89c07144b30021e2a1d8",
+    "bytes": 241144
+  },
+  {
+    "hero_id": 40510,
+    "hero_name": "赤犬",
+    "file": "40510_赤犬.png",
+    "spine_res": "H32109",
+    "requested_spine_res": "H32109",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      547,
+      770
+    ],
+    "sha256": "6481a4a904b495978a7d4a855b7ba939e5039f107d3e03ab92d72a7cbafdb5a3",
+    "bytes": 303589
+  },
+  {
+    "hero_id": 40511,
+    "hero_name": "藤虎",
+    "file": "40511_藤虎.png",
+    "spine_res": "H30113",
+    "requested_spine_res": "H30113",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      462,
+      770
+    ],
+    "sha256": "bbd409e684aba65e23a47eb7cd55b18c91b41ea75cb5d4f71c160befb469e47e",
+    "bytes": 339977
+  },
+  {
+    "hero_id": 40512,
+    "hero_name": "泽法",
+    "file": "40512_泽法.png",
+    "spine_res": "H30120",
+    "requested_spine_res": "H30120",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      44,
+      568,
+      769
+    ],
+    "sha256": "33d41e16d9f0f5fe6dcc40fb473d055d3eabb9fb5bdbe2a6f7af5ee67d4cd1c6",
+    "bytes": 358299
+  },
+  {
+    "hero_id": 40513,
+    "hero_name": "桃兔",
+    "file": "40513_桃兔.png",
+    "spine_res": "H_taotu",
+    "requested_spine_res": "H_taotu",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      31,
+      566,
+      770
+    ],
+    "sha256": "6832ee57e1413a58fa80fab89d4b281b8c17866625038d0b6fa29117d6b6e9d7",
+    "bytes": 207672
+  },
+  {
+    "hero_id": 40514,
+    "hero_name": "茶豚",
+    "file": "40514_茶豚.png",
+    "spine_res": "H_chatun",
+    "requested_spine_res": "H_chatun",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      35,
+      477,
+      770
+    ],
+    "sha256": "4699ca238174a2260b99ecc8a813c69b910787807245b8d6c800f8c82e2541d8",
+    "bytes": 306994
+  },
+  {
+    "hero_id": 50301,
+    "hero_name": "蒙卡",
+    "file": "50301_蒙卡.png",
+    "spine_res": "H30011",
+    "requested_spine_res": "H30011",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      362,
+      756
+    ],
+    "sha256": "e78d0824b8ae9b16719b257a222cfae7bdec7f1e677526e655e2051829f0e18d",
+    "bytes": 220373
+  },
+  {
+    "hero_id": 50401,
+    "hero_name": "克洛",
+    "file": "50401_克洛.png",
+    "spine_res": "H30081",
+    "requested_spine_res": "H30081",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      40,
+      30,
+      289,
+      752
+    ],
+    "sha256": "ebd4460b93c152ca86f78906db72c610a60fc307e2d8a0fad067262116d4a5e0",
+    "bytes": 150443
+  },
+  {
+    "hero_id": 50402,
+    "hero_name": "阿龙",
+    "file": "50402_阿龙.png",
+    "spine_res": "H30002",
+    "requested_spine_res": "H30002",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      37,
+      32,
+      375,
+      760
+    ],
+    "sha256": "b990906b6fc5494650152fe1c62cccbde83e2b9fb45a8595973631f4d953674c",
+    "bytes": 246717
+  },
+  {
+    "hero_id": 50403,
+    "hero_name": "克利克",
+    "file": "50403_克利克.png",
+    "spine_res": "H30073",
+    "requested_spine_res": "H30073",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      35,
+      30,
+      546,
+      768
+    ],
+    "sha256": "c6eb91f676065e1cafd712ad0ffe078604e5f4d182b77e91f1bf3c4be7664e56",
+    "bytes": 306344
+  },
+  {
+    "hero_id": 50404,
+    "hero_name": "瓦尔波",
+    "file": "50404_瓦尔波.png",
+    "spine_res": "H30013",
+    "requested_spine_res": "H30013",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      195,
+      569,
+      767
+    ],
+    "sha256": "0f7ad358441ca52bcc82c03062545bca55d3c75734ca309bd0bfdb10a1288a49",
+    "bytes": 353403
+  },
+  {
+    "hero_id": 50501,
+    "hero_name": "索隆(新世界)",
+    "file": "50501_索隆(新世界).png",
+    "spine_res": "H30041",
+    "requested_spine_res": "H30041",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      504,
+      770
+    ],
+    "sha256": "457b678a57324d78a1b0d3c725e3662daed3e845694eeef294eec8e62b841261",
+    "bytes": 234213
+  },
+  {
+    "hero_id": 50502,
+    "hero_name": "冥王雷利",
+    "file": "50502_冥王雷利.png",
+    "spine_res": "H32040",
+    "requested_spine_res": "H32040",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      408,
+      766
+    ],
+    "sha256": "264421f2ab4b8cbc98e897df77bd43ebe9806e109dc05982a05f26dd9477d4a0",
+    "bytes": 253836
+  },
+  {
+    "hero_id": 50503,
+    "hero_name": "巴杰斯",
+    "file": "50503_巴杰斯.png",
+    "spine_res": "H32046",
+    "requested_spine_res": "H32046",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      180,
+      570,
+      767
+    ],
+    "sha256": "fa7a360ca08324d6e2b3d2172fb19b708357eefca56a584931ad0f889b7a8ff1",
+    "bytes": 288924
+  },
+  {
+    "hero_id": 50504,
+    "hero_name": "香克斯",
+    "file": "50504_香克斯.png",
+    "spine_res": "H32059",
+    "requested_spine_res": "H32059",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      455,
+      768
+    ],
+    "sha256": "273b8c6f1c8246c3921b57d137d31f8321485f211c7e4da850311a324703500b",
+    "bytes": 246991
+  },
+  {
+    "hero_id": 50505,
+    "hero_name": "黑胡子(新世界)",
+    "file": "50505_黑胡子(新世界).png",
+    "spine_res": "H32054",
+    "requested_spine_res": "H32054",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      151,
+      570,
+      766
+    ],
+    "sha256": "fd454f5c7036745392cb52ca46a9ffadcf049ec878e0ba9d4b4467a5a702c347",
+    "bytes": 334166
+  },
+  {
+    "hero_id": 50506,
+    "hero_name": "雨之希留",
+    "file": "50506_雨之希留.png",
+    "spine_res": "H31063",
+    "requested_spine_res": "H31063",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      76,
+      570,
+      770
+    ],
+    "sha256": "539a74dcee5c721aac682c0afc36115d4479daf8aefd2e7ff637decc5d5acfeb",
+    "bytes": 273344
+  },
+  {
+    "hero_id": 50507,
+    "hero_name": "艾斯（魂）",
+    "file": "50507_艾斯（魂）.png",
+    "spine_res": "H32091",
+    "requested_spine_res": "H32091",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      442,
+      765
+    ],
+    "sha256": "010c2d98563db5a43e090bfb1cdb42e825d0cdd921611c74abacef2569521dae",
+    "bytes": 319695
+  },
+  {
+    "hero_id": 50508,
+    "hero_name": "白胡子",
+    "file": "50508_白胡子.png",
+    "spine_res": "H32100",
+    "requested_spine_res": "H32100",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      373,
+      768
+    ],
+    "sha256": "decf5176c0b02e68d4b5bc1e43c981d543c5fd92582e3ff00c8076c50d1ecd2f",
+    "bytes": 221171
+  },
+  {
+    "hero_id": 50509,
+    "hero_name": "路飞(新世界)",
+    "file": "50509_路飞(新世界).png",
+    "spine_res": "H32105",
+    "requested_spine_res": "H32105",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      37,
+      30,
+      348,
+      764
+    ],
+    "sha256": "854e7e8c7dc345443623669189836dd599fea44daba28e761b896a573ed98a4e",
+    "bytes": 227421
+  },
+  {
+    "hero_id": 50510,
+    "hero_name": "马尔科",
+    "file": "50510_马尔科.png",
+    "spine_res": "H32108",
+    "requested_spine_res": "H32108",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      31,
+      396,
+      764
+    ],
+    "sha256": "6e77e40ff6d4835d9940e9bc88de3f97fbc8115c86296f847924b6bd67d87ddc",
+    "bytes": 238839
+  },
+  {
+    "hero_id": 50511,
+    "hero_name": "卡塔库栗",
+    "file": "50511_卡塔库栗.png",
+    "spine_res": "H30118",
+    "requested_spine_res": "H30118",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      471,
+      770
+    ],
+    "sha256": "b8b5dc84205a22b71c2197e3799d070b73d8b102d32bdddbf73a42d3031f0377",
+    "bytes": 278585
+  },
+  {
+    "hero_id": 50512,
+    "hero_name": "凯多",
+    "file": "50512_凯多.png",
+    "spine_res": "H30119",
+    "requested_spine_res": "H30119",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      164,
+      570,
+      770
+    ],
+    "sha256": "1c5f69077f520ed877a6006c1406d9c8ed3ef1b62e1599866594ad2b2674dfd0",
+    "bytes": 336364
+  },
+  {
+    "hero_id": 50513,
+    "hero_name": "BIG·MOM",
+    "file": "50513_BIG·MOM.png",
+    "spine_res": "H30121",
+    "requested_spine_res": "H30121",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      131,
+      570,
+      770
+    ],
+    "sha256": "5271b5e0b65450a3db2c06b762a123e65a440e88900e88062dce4773eb706664",
+    "bytes": 427434
+  },
+  {
+    "hero_id": 50514,
+    "hero_name": "光月御田",
+    "file": "50514_光月御田.png",
+    "spine_res": "h_yutian",
+    "requested_spine_res": "h_yutian",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      40,
+      50,
+      560,
+      765
+    ],
+    "sha256": "11edaf533c86f7c079526f6b66c9df958deb99b9c71f05a8910e34778e2e1e38",
+    "bytes": 346069
+  },
+  {
+    "hero_id": 50515,
+    "hero_name": "巴雷特",
+    "file": "50515_巴雷特.png",
+    "spine_res": "H30123",
+    "requested_spine_res": "H30123",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      31,
+      545,
+      770
+    ],
+    "sha256": "2fe66059cff04234bec66581f2d2a585a426228db6b8f60adbb3c8099ef98558",
+    "bytes": 321609
+  },
+  {
+    "hero_id": 50516,
+    "hero_name": "杰克",
+    "file": "50516_杰克.png",
+    "spine_res": "H30124",
+    "requested_spine_res": "H30124",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      36,
+      228,
+      552,
+      770
+    ],
+    "sha256": "5302879276ab59fc0ed71cbb6f97f1753ea6a4974c75353879f5c95576043329",
+    "bytes": 324002
+  },
+  {
+    "hero_id": 50517,
+    "hero_name": "奎因",
+    "file": "50517_奎因.png",
+    "spine_res": "H30126",
+    "requested_spine_res": "H30126",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      178,
+      570,
+      768
+    ],
+    "sha256": "d80bc487b8118bbfee2b90182971b1ef96afa4cf5cb706c264661cbe9165d38c",
+    "bytes": 267810
+  },
+  {
+    "hero_id": 70501,
+    "hero_name": "索隆(和之国)",
+    "file": "70501_索隆(和之国).png",
+    "spine_res": "h_suolonghezhiguo",
+    "requested_spine_res": "h_suolonghezhiguo",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      565,
+      771
+    ],
+    "sha256": "659ce8fefca06f8f79e876595c11b0563185855e6cc074c1b3cac64bedfc66a9",
+    "bytes": 310439
+  },
+  {
+    "hero_id": 70502,
+    "hero_name": "罗(和之国)",
+    "file": "70502_罗(和之国).png",
+    "spine_res": "h_hezhiguoluo",
+    "requested_spine_res": "h_hezhiguoluo",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      66,
+      570,
+      770
+    ],
+    "sha256": "9a498f43bf1feca5402005f09bcd84eb88034f7f6e2e03756dc79fe3b2d308f0",
+    "bytes": 482014
+  },
+  {
+    "hero_id": 70503,
+    "hero_name": "路飞(四挡)",
+    "file": "70503_路飞(四挡).png",
+    "spine_res": "h_lufeisidang",
+    "requested_spine_res": "h_lufeisidang",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      47,
+      540,
+      762
+    ],
+    "sha256": "de539c6fd9be191fedf5297a2c5708de7aed2589cfac10ec6f1d2ec85c82c6c6",
+    "bytes": 354494
+  },
+  {
+    "hero_id": 70504,
+    "hero_name": "路飞(尼卡形态)",
+    "file": "70504_路飞(尼卡形态).png",
+    "spine_res": "h_lufeinika",
+    "requested_spine_res": "h_lufeinika",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      144,
+      268,
+      389,
+      681
+    ],
+    "sha256": "ef5b7d13832586810badcf98b2cca301bc429a472a17415a7110d486d7f8b408",
+    "bytes": 108402
+  },
+  {
+    "hero_id": 70505,
+    "hero_name": "凯多(神龙)",
+    "file": "70505_凯多(神龙).png",
+    "spine_res": "h_kaiduoshenlong",
+    "requested_spine_res": "h_kaiduoshenlong",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      36,
+      78,
+      567,
+      769
+    ],
+    "sha256": "d3f545c3f90eefc0745367df5a674700c01e809744a6cdb151946da564ef395a",
+    "bytes": 301567
+  },
+  {
+    "hero_id": 70506,
+    "hero_name": "佛之战国",
+    "file": "70506_佛之战国.png",
+    "spine_res": "h_fozhizhanguo",
+    "requested_spine_res": "h_fozhizhanguo",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      341,
+      570,
+      770
+    ],
+    "sha256": "1342f7c8e3de0266e645946f572e46a5d775cb4dd38352d92b339985944f8c54",
+    "bytes": 308953
+  },
+  {
+    "hero_id": 70507,
+    "hero_name": "金狮子·史基",
+    "file": "70507_金狮子·史基.png",
+    "spine_res": "h_jinshizi",
+    "requested_spine_res": "h_jinshizi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      496,
+      764
+    ],
+    "sha256": "edea74ec206e42fb4a38b2e95b5dc0ee11d6d90cb4fe51ee186b1b1194150765",
+    "bytes": 421490
+  },
+  {
+    "hero_id": 70508,
+    "hero_name": "藤虎(三大将)",
+    "file": "70508_藤虎(三大将).png",
+    "spine_res": "h_tenghu",
+    "requested_spine_res": "h_tenghu",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      49,
+      33,
+      299,
+      434
+    ],
+    "sha256": "2da51fb7503e39b2522cc3e48f58afc0995b1986f7e62acba4b49d3eab803518",
+    "bytes": 124225
+  },
+  {
+    "hero_id": 70509,
+    "hero_name": "凯撒",
+    "file": "70509_凯撒.png",
+    "spine_res": "h_kaisa",
+    "requested_spine_res": "h_kaisa",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      172,
+      247,
+      444,
+      601
+    ],
+    "sha256": "8c41f27bd096e4cbffc2c870582778ee8e1780f5bb849de243aa2655ad5bf446",
+    "bytes": 134642
+  },
+  {
+    "hero_id": 70510,
+    "hero_name": "黑胡子(四皇)",
+    "file": "70510_黑胡子(四皇).png",
+    "spine_res": "h_heihuzi",
+    "requested_spine_res": "h_heihuzi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      139,
+      570,
+      766
+    ],
+    "sha256": "1e32b5fff551f2902c98bf00f0d542d1381946d708f55678eaf484f226b51079",
+    "bytes": 349104
+  },
+  {
+    "hero_id": 70511,
+    "hero_name": "山治(杰尔马)",
+    "file": "70511_山治(杰尔马).png",
+    "spine_res": "h_shanzhiwaiguge",
+    "requested_spine_res": "h_shanzhiwaiguge",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      511,
+      766
+    ],
+    "sha256": "6375a0acd95a9ef481b4fe885d27e116dd75c1c9ea2231aa7fe5801165355ef6",
+    "bytes": 198204
+  },
+  {
+    "hero_id": 70512,
+    "hero_name": "圆月猫蝮蛇",
+    "file": "70512_圆月猫蝮蛇.png",
+    "spine_res": "h_maofushe",
+    "requested_spine_res": "h_maofushe",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      159,
+      568,
+      767
+    ],
+    "sha256": "0850d0573c4ca12b160b4fef611f8cff1e008c8797d1be265d5c5baad45cd47e",
+    "bytes": 351274
+  },
+  {
+    "hero_id": 70513,
+    "hero_name": "萨坦圣",
+    "file": "70513_萨坦圣.png",
+    "spine_res": "h_satan",
+    "requested_spine_res": "h_satan",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      36,
+      178,
+      559,
+      770
+    ],
+    "sha256": "1aa82e55b31f3749064beb53790b28a00bb074781cb84580969cf1c960ffbd6a",
+    "bytes": 262195
+  },
+  {
+    "hero_id": 70514,
+    "hero_name": "汉库克(七武海)",
+    "file": "70514_汉库克(七武海).png",
+    "spine_res": "h_hankuke",
+    "requested_spine_res": "h_hankuke",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      480,
+      770
+    ],
+    "sha256": "178edc7598c7f918c85f86a24014dc884f83f718025a7ffa40b873f756c3d632",
+    "bytes": 288437
+  },
+  {
+    "hero_id": 70515,
+    "hero_name": "克力架",
+    "file": "70515_克力架.png",
+    "spine_res": "h_kelijia",
+    "requested_spine_res": "h_kelijia",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      131,
+      569,
+      770
+    ],
+    "sha256": "994df15de766e4b04adbb1f5d98cb87f23ec1dabcc67e3798313045c04948dbd",
+    "bytes": 235597
+  },
+  {
+    "hero_id": 70516,
+    "hero_name": "夏洛特·斯慕吉",
+    "file": "70516_夏洛特·斯慕吉.png",
+    "spine_res": "h_xltsmj",
+    "requested_spine_res": "h_xltsmj",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      162,
+      570,
+      770
+    ],
+    "sha256": "5151ea0dda73e97b54edcf1bc8b788736aaf613c0ffa6b217fe54c93c42c5f2b",
+    "bytes": 235414
+  },
+  {
+    "hero_id": 70517,
+    "hero_name": "哥尔·D·罗杰",
+    "file": "70517_哥尔·D·罗杰.png",
+    "spine_res": "h_luojie",
+    "requested_spine_res": "h_luojie",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      161,
+      235,
+      326,
+      392
+    ],
+    "sha256": "2bbe159722fca52df4a6d050cc2d26b6734c1358e51b2485e2453b80fa4b55c0",
+    "bytes": 39887
+  },
+  {
+    "hero_id": 70518,
+    "hero_name": "未来流行·鹰眼",
+    "file": "70518_未来流行·鹰眼.png",
+    "spine_res": "h_yingyan",
+    "requested_spine_res": "h_yingyan",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      35,
+      30,
+      414,
+      770
+    ],
+    "sha256": "f9727393e47fafa37e0306cad2ca477af33b1982af6a27f712623ff0a8a9dfa9",
+    "bytes": 253768
+  },
+  {
+    "hero_id": 70519,
+    "hero_name": "乌索普(新世界)",
+    "file": "70519_乌索普(新世界).png",
+    "spine_res": "h_wusuopu",
+    "requested_spine_res": "h_wusuopu",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      38,
+      30,
+      450,
+      766
+    ],
+    "sha256": "3d09d4a47b05744f99ffec0b517edd3fdbf7d64caf1ec60f5b2d163bb22a8ca9",
+    "bytes": 282444
+  },
+  {
+    "hero_id": 70520,
+    "hero_name": "弗兰奇(新世界)",
+    "file": "70520_弗兰奇(新世界).png",
+    "spine_res": "h_fulanqi",
+    "requested_spine_res": "h_fulanqi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      50,
+      324,
+      562,
+      770
+    ],
+    "sha256": "2a0447a69873fcea8e22b32d3771592b6480961a52b654a002b662bfe4473be2",
+    "bytes": 215325
+  },
+  {
+    "hero_id": 70521,
+    "hero_name": "佩罗娜",
+    "file": "70521_佩罗娜.png",
+    "spine_res": "h_peiluona",
+    "requested_spine_res": "h_peiluona",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      380,
+      770
+    ],
+    "sha256": "cd2b422ffbacde3a2eb89a0770690631697703b3c2dbc34bf98fef0f233fd84d",
+    "bytes": 274978
+  },
+  {
+    "hero_id": 70522,
+    "hero_name": "巴托洛米奥",
+    "file": "70522_巴托洛米奥.png",
+    "spine_res": "h_batuo",
+    "requested_spine_res": "h_batuo",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      322,
+      770
+    ],
+    "sha256": "fdfa1db2b823b3fdf022a8e35cce93f08a1a98816f2adb9c64b9cc600ea82a82",
+    "bytes": 265720
+  },
+  {
+    "hero_id": 70523,
+    "hero_name": "布鲁克(新世界)",
+    "file": "70523_布鲁克(新世界).png",
+    "spine_res": "h_buluke",
+    "requested_spine_res": "h_buluke",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      189,
+      568,
+      767
+    ],
+    "sha256": "47de5cef247de0cbc776eef9c90c897447ddd91a98ca4a73341c2fbe79108829",
+    "bytes": 208221
+  },
+  {
+    "hero_id": 70524,
+    "hero_name": "艾斯(龙年)",
+    "file": "70524_艾斯(龙年).png",
+    "spine_res": "h_aisilong",
+    "requested_spine_res": "h_aisilong",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      31,
+      334,
+      770
+    ],
+    "sha256": "59436ae567f40d87b26987d06baf3cbe90a4b921bc2141bd944b0b995547bc18",
+    "bytes": 254821
+  },
+  {
+    "hero_id": 70525,
+    "hero_name": "乌塔(世界歌姬)",
+    "file": "70525_乌塔(世界歌姬).png",
+    "spine_res": "h_wuta",
+    "requested_spine_res": "h_wuta",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      299,
+      768
+    ],
+    "sha256": "5fa7d767c75d951cd4d10908b90848ddf09dd43c99e9729d5b7264c449406989",
+    "bytes": 192716
+  },
+  {
+    "hero_id": 70527,
+    "hero_name": "佩罗斯佩鲁",
+    "file": "70527_佩罗斯佩鲁.png",
+    "spine_res": "h_peiluosi",
+    "requested_spine_res": "h_peiluosi",
+    "source_type": "static_panel_fallback",
+    "canvas": [
+      720,
+      420
+    ],
+    "alpha_bbox": [
+      1,
+      4,
+      720,
+      420
+    ],
+    "sha256": "4b58f71b8bc9d841d54c084703964897bac32a976d22a0bdcb8007e156ab327a",
+    "bytes": 176375
+  },
+  {
+    "hero_id": 70528,
+    "hero_name": "文斯莫克·伽治",
+    "file": "70528_文斯莫克·伽治.png",
+    "spine_res": "h_jiazhi",
+    "requested_spine_res": "h_jiazhi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      118,
+      568,
+      766
+    ],
+    "sha256": "a1672d237daedac9adea9bf6f51ad0b7a9b3e2987edecbeea5852fcda47aed0b",
+    "bytes": 232665
+  },
+  {
+    "hero_id": 70529,
+    "hero_name": "文斯莫克·伊治",
+    "file": "70529_文斯莫克·伊治.png",
+    "spine_res": "h_yizhi",
+    "requested_spine_res": "h_yizhi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      131,
+      569,
+      770
+    ],
+    "sha256": "759ba317e3aa0f2cb28092b138f8f6fee8fe846080efb757e487ebe531e488d2",
+    "bytes": 212596
+  },
+  {
+    "hero_id": 70530,
+    "hero_name": "炎灾·烬",
+    "file": "70530_炎灾·烬.png",
+    "spine_res": "h_jin",
+    "requested_spine_res": "h_jin",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      67,
+      569,
+      770
+    ],
+    "sha256": "0bbe825a188f0159866e7336fea029ea914852f3517ef22a8dac6a90a5b15e27",
+    "bytes": 233774
+  },
+  {
+    "hero_id": 70531,
+    "hero_name": "绿牛",
+    "file": "70531_绿牛.png",
+    "spine_res": "h_lvniu",
+    "requested_spine_res": "h_lvniu",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      85,
+      570,
+      770
+    ],
+    "sha256": "cf18476705022f1d6e27913eb36f8e8a876e46af04efdd8635728bc3c19aa863",
+    "bytes": 252243
+  },
+  {
+    "hero_id": 70532,
+    "hero_name": "索隆(鬼岛)",
+    "file": "70532_索隆(鬼岛).png",
+    "spine_res": "h_suolong",
+    "requested_spine_res": "h_suolong",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      315,
+      569,
+      770
+    ],
+    "sha256": "0dda3fc7b352dd7de323e809754896f7fc762a809142d4c807b1370fb1f3f752",
+    "bytes": 152705
+  },
+  {
+    "hero_id": 70533,
+    "hero_name": "路飞(蛋头岛)",
+    "file": "70533_路飞(蛋头岛).png",
+    "spine_res": "h_lufeidt",
+    "requested_spine_res": "h_lufeidt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      32,
+      30,
+      436,
+      770
+    ],
+    "sha256": "d82443fb49ec1947c90e168c7adb7bfb3171cd19ac04aa20ee0ddc564dc5990d",
+    "bytes": 263333
+  },
+  {
+    "hero_id": 70534,
+    "hero_name": "索隆(蛋头岛)",
+    "file": "70534_索隆(蛋头岛).png",
+    "spine_res": "h_suolongdt",
+    "requested_spine_res": "h_suolongdt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      332,
+      770
+    ],
+    "sha256": "6600b91ec429215a1b141c03e6be4b90386f066ed91ed824e80944fdcb88b6a3",
+    "bytes": 228711
+  },
+  {
+    "hero_id": 70535,
+    "hero_name": "娜美(蛋头岛)",
+    "file": "70535_娜美(蛋头岛).png",
+    "spine_res": "h_nameidt",
+    "requested_spine_res": "h_nameidt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      31,
+      347,
+      770
+    ],
+    "sha256": "eeb147a46c6dbf9b41a122b1cf101cd06302224aa635cbb483a2ef819efd514c",
+    "bytes": 204079
+  },
+  {
+    "hero_id": 70536,
+    "hero_name": "乌索普(蛋头岛)",
+    "file": "70536_乌索普(蛋头岛).png",
+    "spine_res": "h_wusuopudt",
+    "requested_spine_res": "h_wusuopudt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      529,
+      770
+    ],
+    "sha256": "ea0fc28833ee105e89e8cc938659d04e260d1e4f55dde38bd9ac2a8f3bd1e50c",
+    "bytes": 256439
+  },
+  {
+    "hero_id": 70537,
+    "hero_name": "山治(蛋头岛)",
+    "file": "70537_山治(蛋头岛).png",
+    "spine_res": "h_shanzhidt",
+    "requested_spine_res": "h_shanzhidt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      321,
+      770
+    ],
+    "sha256": "02124a34e57874e1cab32ba57a5bb17f88ab8ba4f4c465974c4d73052e0f15c2",
+    "bytes": 232052
+  },
+  {
+    "hero_id": 70538,
+    "hero_name": "罗宾(蛋头岛)",
+    "file": "70538_罗宾(蛋头岛).png",
+    "spine_res": "h_luobindt",
+    "requested_spine_res": "h_luobindt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      236,
+      30,
+      519,
+      769
+    ],
+    "sha256": "b3f69c3b45815209bba687e49def646f39c8aa109bf0e5eb2093ef05e7435d84",
+    "bytes": 194420
+  },
+  {
+    "hero_id": 70539,
+    "hero_name": "弗兰奇(蛋头岛)",
+    "file": "70539_弗兰奇(蛋头岛).png",
+    "spine_res": "h_fulanqidt",
+    "requested_spine_res": "h_fulanqidt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      197,
+      570,
+      769
+    ],
+    "sha256": "b5c40094e54a747be30b88ca40829e1293228ea0fce72206b0ef415e829d6cb9",
+    "bytes": 330974
+  },
+  {
+    "hero_id": 70540,
+    "hero_name": "布鲁克(蛋头岛)",
+    "file": "70540_布鲁克(蛋头岛).png",
+    "spine_res": "h_bulukedt",
+    "requested_spine_res": "h_bulukedt",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      398,
+      770
+    ],
+    "sha256": "300a866334df3c96a268f4763007494e6a077bf91735f318c5fa8609f08f4864",
+    "bytes": 183510
+  },
+  {
+    "hero_id": 70541,
+    "hero_name": "日奈",
+    "file": "70541_日奈.png",
+    "spine_res": "h_rinai",
+    "requested_spine_res": "h_rinai",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      33,
+      94,
+      570,
+      769
+    ],
+    "sha256": "c45956334f0e2332de4a5c29ac2ed74531677d04675766052b3327b253680967",
+    "bytes": 263744
+  },
+  {
+    "hero_id": 70542,
+    "hero_name": "大和(赛博朋克)",
+    "file": "70542_大和(赛博朋克).png",
+    "spine_res": "h_dahegj",
+    "requested_spine_res": "h_dahegj",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      31,
+      482,
+      770
+    ],
+    "sha256": "041f4fed351a5518cf5aa31508ba8965c9761393781d94a77e04d82127f08de0",
+    "bytes": 376719
+  },
+  {
+    "hero_id": 70543,
+    "hero_name": "夏洛特玲玲",
+    "file": "70543_夏洛特玲玲.png",
+    "spine_res": "h_lingling",
+    "requested_spine_res": "h_lingling",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      67,
+      30,
+      485,
+      770
+    ],
+    "sha256": "a70bba827c039f587c4baff09dc36351e2d3df296bc6036b90ebec672f8e2984",
+    "bytes": 259568
+  },
+  {
+    "hero_id": 70544,
+    "hero_name": "路飞(和之国)",
+    "file": "70544_路飞(和之国).png",
+    "spine_res": "h_lufeihzg",
+    "requested_spine_res": "h_lufeihzg",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      348,
+      770
+    ],
+    "sha256": "bd9a6a2f1374eeedfcb22bd4d2af2dbac212071c23087eab3a015288f6463a04",
+    "bytes": 214659
+  },
+  {
+    "hero_id": 70545,
+    "hero_name": "尼治",
+    "file": "70545_尼治.png",
+    "spine_res": "h_nizhi",
+    "requested_spine_res": "h_nizhi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      460,
+      770
+    ],
+    "sha256": "e9666c23548b6a62ad7045c5bc7416ed63a9178e355f3fb627131d0f7279fbf8",
+    "bytes": 210892
+  },
+  {
+    "hero_id": 70546,
+    "hero_name": "贝克曼",
+    "file": "70546_贝克曼.png",
+    "spine_res": "h_beikeman",
+    "requested_spine_res": "h_beikeman",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      62,
+      107,
+      501,
+      770
+    ],
+    "sha256": "0217cb1383ee2116f890abea306e744f6a165dfed0122c7765f073d1722bce33",
+    "bytes": 154383
+  },
+  {
+    "hero_id": 70547,
+    "hero_name": "白胡子(巅峰)",
+    "file": "70547_白胡子(巅峰).png",
+    "spine_res": "h_baihuzi",
+    "requested_spine_res": "h_baihuzi",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      524,
+      770
+    ],
+    "sha256": "f0e37d8306a3eefd8989072150eb2ed25ef28b20d8246039a65d8233678cb698",
+    "bytes": 197009
+  },
+  {
+    "hero_id": 70548,
+    "hero_name": "熊(机械)",
+    "file": "70548_熊(机械).png",
+    "spine_res": "h_xiong",
+    "requested_spine_res": "h_xiong",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      30,
+      538,
+      770
+    ],
+    "sha256": "a026060faeb686da9a0eea0029284971ead6f3f9836602d0463be568137a4f75",
+    "bytes": 199537
+  },
+  {
+    "hero_id": 70549,
+    "hero_name": "娜美(宙斯)",
+    "file": "70549_娜美(宙斯).png",
+    "spine_res": "h_nameizs",
+    "requested_spine_res": "h_nameizs",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      179,
+      570,
+      770
+    ],
+    "sha256": "797a57b38a9b67412aac991c4a6fd286f1178832350ff14dcc5accb19ba2663f",
+    "bytes": 99692
+  },
+  {
+    "hero_id": 70550,
+    "hero_name": "山治(鬼岛)",
+    "file": "70550_山治(鬼岛).png",
+    "spine_res": "h_shanzhigd",
+    "requested_spine_res": "h_shanzhigd",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      31,
+      30,
+      265,
+      770
+    ],
+    "sha256": "e75eb65d6b6b70de63bef8873a47e6fefc39acb0b28a825864eabb5bc67d049c",
+    "bytes": 141477
+  },
+  {
+    "hero_id": 90527,
+    "hero_name": "狼邢",
+    "file": "90527_狼邢.png",
+    "spine_res": "h_langxing",
+    "requested_spine_res": "h_langxing",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      87,
+      570,
+      770
+    ],
+    "sha256": "8187aa7935c49e19f1f1eb43453493a3279d9471acc39ad4725dae7b7e616242",
+    "bytes": 389517
+  },
+  {
+    "hero_id": 709830,
+    "hero_name": "库赞",
+    "file": "709830_库赞.png",
+    "spine_res": "h_kuzan",
+    "requested_spine_res": "h_kuzan",
+    "source_type": "spine_show_render",
+    "canvas": [
+      600,
+      800
+    ],
+    "alpha_bbox": [
+      30,
+      29,
+      324,
+      770
+    ],
+    "sha256": "3ebd53bd33034667c821e7873a33979eecefeb066ff4b2f9e45b17892b6c8c97",
+    "bytes": 188289
+  }
+]

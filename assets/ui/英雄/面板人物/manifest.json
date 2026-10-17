@@ -1,0 +1,4240 @@
+{
+  "generated_at": "2026-10-17T13:20:44.096749+00:00",
+  "source_project": "/Users/mountainwalkeralliance/Documents/code/海贼王",
+  "method": "partner highest-star res_id -> Spine 3.4 show.skel/show.atlas/show.png -> software-rendered RGBA PNG at t=1.0s",
+  "counts": {
+    "hero_configs": 174,
+    "spine_renders": 173,
+    "static_fallbacks": 1,
+    "model_res_fallbacks": 1,
+    "zip_heroes": 174
+  },
+  "fallbacks": [
+    {
+      "hero_id": 20511,
+      "hero_name": "甚平",
+      "bustid": 10099,
+      "draw_res": "haimudaer",
+      "star": 20,
+      "spine_res": "H31107",
+      "requested_spine_res": "H32107",
+      "res_fallback": "highest_shipped_star_model",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31107.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        43,
+        60,
+        557,
+        753
+      ],
+      "original": "原图/20511_甚平.png",
+      "cropped": "透明裁切/20511_甚平.png"
+    },
+    {
+      "hero_id": 70527,
+      "hero_name": "佩罗斯佩鲁",
+      "bustid": 10626,
+      "draw_res": "peideluo",
+      "star": 25,
+      "spine_res": "h_peiluosi",
+      "requested_spine_res": "h_peiluosi",
+      "res_fallback": "",
+      "source_type": "static_panel_fallback",
+      "source": "outputs/hero-panel-portraits/英雄面板人物/原图/70527_佩罗斯佩鲁_10626.png",
+      "size": [
+        720,
+        420
+      ],
+      "alpha_bbox": [
+        1,
+        4,
+        720,
+        420
+      ],
+      "original": "原图/70527_佩罗斯佩鲁.png",
+      "cropped": "透明裁切/70527_佩罗斯佩鲁.png"
+    }
+  ],
+  "heroes": [
+    {
+      "hero_id": 10101,
+      "hero_name": "海贼1号",
+      "bustid": 10060,
+      "draw_res": "",
+      "star": 1,
+      "spine_res": "H30012",
+      "requested_spine_res": "H30012",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30012.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        33,
+        469,
+        770
+      ],
+      "original": "原图/10101_海贼1号.png",
+      "cropped": "透明裁切/10101_海贼1号.png"
+    },
+    {
+      "hero_id": 10201,
+      "hero_name": "海贼2号",
+      "bustid": 10046,
+      "draw_res": "",
+      "star": 2,
+      "spine_res": "H30018",
+      "requested_spine_res": "H30018",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30018.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        42,
+        505,
+        770
+      ],
+      "original": "原图/10201_海贼2号.png",
+      "cropped": "透明裁切/10201_海贼2号.png"
+    },
+    {
+      "hero_id": 10202,
+      "hero_name": "海贼3号",
+      "bustid": 10064,
+      "draw_res": "",
+      "star": 2,
+      "spine_res": "H30030",
+      "requested_spine_res": "H30030",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30030.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        34,
+        432,
+        769
+      ],
+      "original": "原图/10202_海贼3号.png",
+      "cropped": "透明裁切/10202_海贼3号.png"
+    },
+    {
+      "hero_id": 10301,
+      "hero_name": "海贼4号",
+      "bustid": 10061,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30001",
+      "requested_spine_res": "H30001",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30001.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        33,
+        469,
+        770
+      ],
+      "original": "原图/10301_海贼4号.png",
+      "cropped": "透明裁切/10301_海贼4号.png"
+    },
+    {
+      "hero_id": 10302,
+      "hero_name": "海贼5号",
+      "bustid": 10063,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30029",
+      "requested_spine_res": "H30029",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30029.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        91,
+        34,
+        484,
+        770
+      ],
+      "original": "原图/10302_海贼5号.png",
+      "cropped": "透明裁切/10302_海贼5号.png"
+    },
+    {
+      "hero_id": 10303,
+      "hero_name": "海贼6号",
+      "bustid": 10017,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30055",
+      "requested_spine_res": "H30055",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30055.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        41,
+        86,
+        559,
+        769
+      ],
+      "original": "原图/10303_海贼6号.png",
+      "cropped": "透明裁切/10303_海贼6号.png"
+    },
+    {
+      "hero_id": 10304,
+      "hero_name": "汉尼拔",
+      "bustid": 10042,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30057",
+      "requested_spine_res": "H30057",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30057.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        35,
+        30,
+        281,
+        770
+      ],
+      "original": "原图/10304_汉尼拔.png",
+      "cropped": "透明裁切/10304_汉尼拔.png"
+    },
+    {
+      "hero_id": 10305,
+      "hero_name": "海贼8号",
+      "bustid": 10002,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30067",
+      "requested_spine_res": "H30067",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30067.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        34,
+        432,
+        769
+      ],
+      "original": "原图/10305_海贼8号.png",
+      "cropped": "透明裁切/10305_海贼8号.png"
+    },
+    {
+      "hero_id": 10401,
+      "hero_name": "修罗",
+      "bustid": 10043,
+      "draw_res": "yase",
+      "star": 5,
+      "spine_res": "H30009",
+      "requested_spine_res": "H30009",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30009.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        86,
+        570,
+        755
+      ],
+      "original": "原图/10401_修罗.png",
+      "cropped": "透明裁切/10401_修罗.png"
+    },
+    {
+      "hero_id": 10402,
+      "hero_name": "卡巴奇",
+      "bustid": 10015,
+      "draw_res": "shuqinhaiyao",
+      "star": 5,
+      "spine_res": "H30070",
+      "requested_spine_res": "H30070",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30070.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        206,
+        570,
+        766
+      ],
+      "original": "原图/10402_卡巴奇.png",
+      "cropped": "透明裁切/10402_卡巴奇.png"
+    },
+    {
+      "hero_id": 10403,
+      "hero_name": "小八",
+      "bustid": 10014,
+      "draw_res": "shuiyuansu",
+      "star": 5,
+      "spine_res": "H30039",
+      "requested_spine_res": "H30039",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30039.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        59,
+        57,
+        540,
+        766
+      ],
+      "original": "原图/10403_小八.png",
+      "cropped": "透明裁切/10403_小八.png"
+    },
+    {
+      "hero_id": 10404,
+      "hero_name": "杰斯",
+      "bustid": 10054,
+      "draw_res": "bingjingmofashi",
+      "star": 5,
+      "spine_res": "H30084",
+      "requested_spine_res": "H30084",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30084.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        34,
+        30,
+        402,
+        763
+      ],
+      "original": "原图/10404_杰斯.png",
+      "cropped": "透明裁切/10404_杰斯.png"
+    },
+    {
+      "hero_id": 10405,
+      "hero_name": "克罗马利蒙",
+      "bustid": 10052,
+      "draw_res": "najiashinv",
+      "star": 5,
+      "spine_res": "H30005",
+      "requested_spine_res": "H30005",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30005.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        403,
+        751
+      ],
+      "original": "原图/10405_克罗马利蒙.png",
+      "cropped": "透明裁切/10405_克罗马利蒙.png"
+    },
+    {
+      "hero_id": 10501,
+      "hero_name": "幽冥公主",
+      "bustid": 10018,
+      "draw_res": "najiagongzhu",
+      "star": 20,
+      "spine_res": "H32015",
+      "requested_spine_res": "H32015",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32015.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        354,
+        765
+      ],
+      "original": "原图/10501_幽冥公主.png",
+      "cropped": "透明裁切/10501_幽冥公主.png"
+    },
+    {
+      "hero_id": 10502,
+      "hero_name": "艾斯",
+      "bustid": 10036,
+      "draw_res": "bingxuenvwang",
+      "star": 20,
+      "spine_res": "H32072",
+      "requested_spine_res": "H32072",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32072.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        352,
+        762
+      ],
+      "original": "原图/10502_艾斯.png",
+      "cropped": "透明裁切/10502_艾斯.png"
+    },
+    {
+      "hero_id": 10503,
+      "hero_name": "德雷克",
+      "bustid": 10037,
+      "draw_res": "bingshuangjulong",
+      "star": 20,
+      "spine_res": "H32021",
+      "requested_spine_res": "H32021",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32021.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        106,
+        30,
+        489,
+        767
+      ],
+      "original": "原图/10503_德雷克.png",
+      "cropped": "透明裁切/10503_德雷克.png"
+    },
+    {
+      "hero_id": 10504,
+      "hero_name": "贝基",
+      "bustid": 10083,
+      "draw_res": "taitan",
+      "star": 20,
+      "spine_res": "H32080",
+      "requested_spine_res": "H32080",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32080.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        145,
+        567,
+        769
+      ],
+      "original": "原图/10504_贝基.png",
+      "cropped": "透明裁切/10504_贝基.png"
+    },
+    {
+      "hero_id": 10505,
+      "hero_name": "基德",
+      "bustid": 10035,
+      "draw_res": "bosaidong",
+      "star": 20,
+      "spine_res": "H32065",
+      "requested_spine_res": "H32065",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32065.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        475,
+        747
+      ],
+      "original": "原图/10505_基德.png",
+      "cropped": "透明裁切/10505_基德.png"
+    },
+    {
+      "hero_id": 10506,
+      "hero_name": "大悟",
+      "bustid": 10045,
+      "draw_res": "paixisi",
+      "star": 9,
+      "spine_res": "H31071",
+      "requested_spine_res": "H31071",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31071.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        75,
+        570,
+        766
+      ],
+      "original": "原图/10506_大悟.png",
+      "cropped": "透明裁切/10506_大悟.png"
+    },
+    {
+      "hero_id": 10507,
+      "hero_name": "贝拉米",
+      "bustid": 10030,
+      "draw_res": "shaonianmeilin",
+      "star": 20,
+      "spine_res": "H32079",
+      "requested_spine_res": "H32079",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32079.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        37,
+        30,
+        378,
+        763
+      ],
+      "original": "原图/10507_贝拉米.png",
+      "cropped": "透明裁切/10507_贝拉米.png"
+    },
+    {
+      "hero_id": 10508,
+      "hero_name": "小丑巴基",
+      "bustid": 10072,
+      "draw_res": "hainingfu",
+      "star": 9,
+      "spine_res": "H31083",
+      "requested_spine_res": "H31083",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31083.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        194,
+        569,
+        764
+      ],
+      "original": "原图/10508_小丑巴基.png",
+      "cropped": "透明裁切/10508_小丑巴基.png"
+    },
+    {
+      "hero_id": 10509,
+      "hero_name": "冯克雷",
+      "bustid": 10040,
+      "draw_res": "aruisi",
+      "star": 9,
+      "spine_res": "H31053",
+      "requested_spine_res": "H31053",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31053.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        440,
+        758
+      ],
+      "original": "原图/10509_冯克雷.png",
+      "cropped": "透明裁切/10509_冯克雷.png"
+    },
+    {
+      "hero_id": 10510,
+      "hero_name": "艾尼路",
+      "bustid": 10089,
+      "draw_res": "yemengjiade",
+      "star": 20,
+      "spine_res": "H32097",
+      "requested_spine_res": "H32097",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32097.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        128,
+        570,
+        765
+      ],
+      "original": "原图/10510_艾尼路.png",
+      "cropped": "透明裁切/10510_艾尼路.png"
+    },
+    {
+      "hero_id": 10511,
+      "hero_name": "罗",
+      "bustid": 10094,
+      "draw_res": "jiushen",
+      "star": 20,
+      "spine_res": "H32102",
+      "requested_spine_res": "H32102",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32102.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        530,
+        767
+      ],
+      "original": "原图/10511_罗.png",
+      "cropped": "透明裁切/10511_罗.png"
+    },
+    {
+      "hero_id": 10512,
+      "hero_name": "萨博（路西）",
+      "bustid": 10102,
+      "draw_res": "liweitan",
+      "star": 15,
+      "spine_res": "H32110",
+      "requested_spine_res": "H32110",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32110.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        526,
+        756
+      ],
+      "original": "原图/10512_萨博（路西）.png",
+      "cropped": "透明裁切/10512_萨博（路西）.png"
+    },
+    {
+      "hero_id": 10513,
+      "hero_name": "霍金斯",
+      "bustid": 10107,
+      "draw_res": "huojinsi",
+      "star": 20,
+      "spine_res": "H30114",
+      "requested_spine_res": "H30114",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30114.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        153,
+        569,
+        769
+      ],
+      "original": "原图/10513_霍金斯.png",
+      "cropped": "透明裁切/10513_霍金斯.png"
+    },
+    {
+      "hero_id": 10514,
+      "hero_name": "阿普",
+      "bustid": 10108,
+      "draw_res": "apu",
+      "star": 20,
+      "spine_res": "h_apu",
+      "requested_spine_res": "h_apu",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_apu.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        502,
+        770
+      ],
+      "original": "原图/10514_阿普.png",
+      "cropped": "透明裁切/10514_阿普.png"
+    },
+    {
+      "hero_id": 20101,
+      "hero_name": "平民",
+      "bustid": 10058,
+      "draw_res": "",
+      "star": 1,
+      "spine_res": "H30022",
+      "requested_spine_res": "H30022",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30022.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        42,
+        505,
+        770
+      ],
+      "original": "原图/20101_平民.png",
+      "cropped": "透明裁切/20101_平民.png"
+    },
+    {
+      "hero_id": 20201,
+      "hero_name": "海贼9号",
+      "bustid": 10013,
+      "draw_res": "",
+      "star": 2,
+      "spine_res": "H30066",
+      "requested_spine_res": "H30066",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30066.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        34,
+        432,
+        769
+      ],
+      "original": "原图/20201_海贼9号.png",
+      "cropped": "透明裁切/20201_海贼9号.png"
+    },
+    {
+      "hero_id": 20202,
+      "hero_name": "海贼10号",
+      "bustid": 10051,
+      "draw_res": "",
+      "star": 2,
+      "spine_res": "H30088",
+      "requested_spine_res": "H30088",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30088.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        42,
+        505,
+        770
+      ],
+      "original": "原图/20202_海贼10号.png",
+      "cropped": "透明裁切/20202_海贼10号.png"
+    },
+    {
+      "hero_id": 20301,
+      "hero_name": "海贼11号",
+      "bustid": 10047,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30006",
+      "requested_spine_res": "H30006",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30006.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        34,
+        432,
+        769
+      ],
+      "original": "原图/20301_海贼11号.png",
+      "cropped": "透明裁切/20301_海贼11号.png"
+    },
+    {
+      "hero_id": 20302,
+      "hero_name": "女儿国战士",
+      "bustid": 10049,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30007",
+      "requested_spine_res": "H30007",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30007.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        32,
+        514,
+        769
+      ],
+      "original": "原图/20302_女儿国战士.png",
+      "cropped": "透明裁切/20302_女儿国战士.png"
+    },
+    {
+      "hero_id": 20303,
+      "hero_name": "海贼12号",
+      "bustid": 10056,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30014",
+      "requested_spine_res": "H30014",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30014.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        33,
+        469,
+        770
+      ],
+      "original": "原图/20303_海贼12号.png",
+      "cropped": "透明裁切/20303_海贼12号.png"
+    },
+    {
+      "hero_id": 20304,
+      "hero_name": "鱼人1号",
+      "bustid": 10065,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30028",
+      "requested_spine_res": "H30028",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30028.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        41,
+        86,
+        559,
+        769
+      ],
+      "original": "原图/20304_鱼人1号.png",
+      "cropped": "透明裁切/20304_鱼人1号.png"
+    },
+    {
+      "hero_id": 20305,
+      "hero_name": "海贼13号",
+      "bustid": 10087,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30049",
+      "requested_spine_res": "H30049",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30049.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        34,
+        432,
+        769
+      ],
+      "original": "原图/20305_海贼13号.png",
+      "cropped": "透明裁切/20305_海贼13号.png"
+    },
+    {
+      "hero_id": 20401,
+      "hero_name": "冰山",
+      "bustid": 10005,
+      "draw_res": "huoqiangaike",
+      "star": 5,
+      "spine_res": "H30020",
+      "requested_spine_res": "H30020",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30020.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        36,
+        30,
+        301,
+        764
+      ],
+      "original": "原图/20401_冰山.png",
+      "cropped": "透明裁切/20401_冰山.png"
+    },
+    {
+      "hero_id": 20402,
+      "hero_name": "娜美",
+      "bustid": 10023,
+      "draw_res": "kaiselin",
+      "star": 5,
+      "spine_res": "H30069",
+      "requested_spine_res": "H30069",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30069.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        245,
+        755
+      ],
+      "original": "原图/20402_娜美.png",
+      "cropped": "透明裁切/20402_娜美.png"
+    },
+    {
+      "hero_id": 20403,
+      "hero_name": "天空骑士",
+      "bustid": 10048,
+      "draw_res": "ajiamennong",
+      "star": 5,
+      "spine_res": "H30082",
+      "requested_spine_res": "H30082",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30082.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        37,
+        31,
+        355,
+        767
+      ],
+      "original": "原图/20403_天空骑士.png",
+      "cropped": "透明裁切/20403_天空骑士.png"
+    },
+    {
+      "hero_id": 20404,
+      "hero_name": "巴里",
+      "bustid": 10074,
+      "draw_res": "leinuomanchui",
+      "star": 5,
+      "spine_res": "H30087",
+      "requested_spine_res": "H30087",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30087.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        333,
+        768
+      ],
+      "original": "原图/20404_巴里.png",
+      "cropped": "透明裁切/20404_巴里.png"
+    },
+    {
+      "hero_id": 20405,
+      "hero_name": "索隆",
+      "bustid": 10007,
+      "draw_res": "yinv",
+      "star": 5,
+      "spine_res": "H30045",
+      "requested_spine_res": "H30045",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30045.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        424,
+        744
+      ],
+      "original": "原图/20405_索隆.png",
+      "cropped": "透明裁切/20405_索隆.png"
+    },
+    {
+      "hero_id": 20501,
+      "hero_name": "弗兰奇",
+      "bustid": 10034,
+      "draw_res": "chitianshi",
+      "star": 20,
+      "spine_res": "H32062",
+      "requested_spine_res": "H32062",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32062.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        32,
+        30,
+        440,
+        758
+      ],
+      "original": "原图/20501_弗兰奇.png",
+      "cropped": "透明裁切/20501_弗兰奇.png"
+    },
+    {
+      "hero_id": 20502,
+      "hero_name": "乌索普",
+      "bustid": 10008,
+      "draw_res": "yanmozhiwang",
+      "star": 20,
+      "spine_res": "H32061",
+      "requested_spine_res": "H32061",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32061.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        42,
+        30,
+        378,
+        751
+      ],
+      "original": "原图/20502_乌索普.png",
+      "cropped": "透明裁切/20502_乌索普.png"
+    },
+    {
+      "hero_id": 20503,
+      "hero_name": "薇薇",
+      "bustid": 10025,
+      "draw_res": "jianhaokazan",
+      "star": 9,
+      "spine_res": "H31050",
+      "requested_spine_res": "H31050",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31050.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        333,
+        764
+      ],
+      "original": "原图/20503_薇薇.png",
+      "cropped": "透明裁切/20503_薇薇.png"
+    },
+    {
+      "hero_id": 20504,
+      "hero_name": "布鲁克",
+      "bustid": 10032,
+      "draw_res": "feinikesi",
+      "star": 20,
+      "spine_res": "H32019",
+      "requested_spine_res": "H32019",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32019.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        313,
+        768
+      ],
+      "original": "原图/20504_布鲁克.png",
+      "cropped": "透明裁切/20504_布鲁克.png"
+    },
+    {
+      "hero_id": 20505,
+      "hero_name": "娜美(伟大航路)",
+      "bustid": 10041,
+      "draw_res": "aboluo",
+      "star": 20,
+      "spine_res": "H32078",
+      "requested_spine_res": "H32078",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32078.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        30,
+        414,
+        769
+      ],
+      "original": "原图/20505_娜美(伟大航路).png",
+      "cropped": "透明裁切/20505_娜美(伟大航路).png"
+    },
+    {
+      "hero_id": 20506,
+      "hero_name": "韦伯",
+      "bustid": 10011,
+      "draw_res": "xixuebojue",
+      "star": 9,
+      "spine_res": "H31060",
+      "requested_spine_res": "H31060",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31060.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        432,
+        768
+      ],
+      "original": "原图/20506_韦伯.png",
+      "cropped": "透明裁切/20506_韦伯.png"
+    },
+    {
+      "hero_id": 20507,
+      "hero_name": "乔巴",
+      "bustid": 10078,
+      "draw_res": "puluomixiusi",
+      "star": 20,
+      "spine_res": "H32092",
+      "requested_spine_res": "H32092",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32092.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        37,
+        490,
+        762
+      ],
+      "original": "原图/20507_乔巴.png",
+      "cropped": "透明裁切/20507_乔巴.png"
+    },
+    {
+      "hero_id": 20508,
+      "hero_name": "索隆(伟大航路)",
+      "bustid": 10084,
+      "draw_res": "waerjili",
+      "star": 20,
+      "spine_res": "H32093",
+      "requested_spine_res": "H32093",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32093.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        516,
+        752
+      ],
+      "original": "原图/20508_索隆(伟大航路).png",
+      "cropped": "透明裁切/20508_索隆(伟大航路).png"
+    },
+    {
+      "hero_id": 20509,
+      "hero_name": "山治",
+      "bustid": 10088,
+      "draw_res": "luoji",
+      "star": 20,
+      "spine_res": "H32096",
+      "requested_spine_res": "H32096",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32096.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        30,
+        271,
+        764
+      ],
+      "original": "原图/20509_山治.png",
+      "cropped": "透明裁切/20509_山治.png"
+    },
+    {
+      "hero_id": 20510,
+      "hero_name": "路飞",
+      "bustid": 10096,
+      "draw_res": "nezha",
+      "star": 20,
+      "spine_res": "H32104",
+      "requested_spine_res": "H32104",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32104.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        347,
+        767
+      ],
+      "original": "原图/20510_路飞.png",
+      "cropped": "透明裁切/20510_路飞.png"
+    },
+    {
+      "hero_id": 20511,
+      "hero_name": "甚平",
+      "bustid": 10099,
+      "draw_res": "haimudaer",
+      "star": 20,
+      "spine_res": "H31107",
+      "requested_spine_res": "H32107",
+      "res_fallback": "highest_shipped_star_model",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31107.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        43,
+        60,
+        557,
+        753
+      ],
+      "original": "原图/20511_甚平.png",
+      "cropped": "透明裁切/20511_甚平.png"
+    },
+    {
+      "hero_id": 20512,
+      "hero_name": "罗宾",
+      "bustid": 10104,
+      "draw_res": "aqili",
+      "star": 20,
+      "spine_res": "H32112",
+      "requested_spine_res": "H32112",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32112.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        339,
+        763
+      ],
+      "original": "原图/20512_罗宾.png",
+      "cropped": "透明裁切/20512_罗宾.png"
+    },
+    {
+      "hero_id": 20513,
+      "hero_name": "白星",
+      "bustid": 10201,
+      "draw_res": "baixing",
+      "star": 20,
+      "spine_res": "H30122",
+      "requested_spine_res": "H30122",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30122.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        39,
+        570,
+        770
+      ],
+      "original": "原图/20513_白星.png",
+      "cropped": "透明裁切/20513_白星.png"
+    },
+    {
+      "hero_id": 20514,
+      "hero_name": "大和",
+      "bustid": 10202,
+      "draw_res": "dahe",
+      "star": 20,
+      "spine_res": "h_dahe",
+      "requested_spine_res": "h_dahe",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_dahe.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        386,
+        770
+      ],
+      "original": "原图/20514_大和.png",
+      "cropped": "透明裁切/20514_大和.png"
+    },
+    {
+      "hero_id": 30101,
+      "hero_name": "强者海贼1号",
+      "bustid": 10055,
+      "draw_res": "",
+      "star": 1,
+      "spine_res": "H30086",
+      "requested_spine_res": "H30086",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30086.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        34,
+        432,
+        769
+      ],
+      "original": "原图/30101_强者海贼1号.png",
+      "cropped": "透明裁切/30101_强者海贼1号.png"
+    },
+    {
+      "hero_id": 30201,
+      "hero_name": "海贼14号",
+      "bustid": 10026,
+      "draw_res": "",
+      "star": 2,
+      "spine_res": "H30068",
+      "requested_spine_res": "H30068",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30068.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        45,
+        34,
+        432,
+        769
+      ],
+      "original": "原图/30201_海贼14号.png",
+      "cropped": "透明裁切/30201_海贼14号.png"
+    },
+    {
+      "hero_id": 30202,
+      "hero_name": "海军2号",
+      "bustid": 10057,
+      "draw_res": "",
+      "star": 2,
+      "spine_res": "H30025",
+      "requested_spine_res": "H30025",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30025.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        31,
+        510,
+        770
+      ],
+      "original": "原图/30202_海军2号.png",
+      "cropped": "透明裁切/30202_海军2号.png"
+    },
+    {
+      "hero_id": 30301,
+      "hero_name": "僵尸1号",
+      "bustid": 10062,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30008",
+      "requested_spine_res": "H30008",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30008.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        153,
+        570,
+        770
+      ],
+      "original": "原图/30301_僵尸1号.png",
+      "cropped": "透明裁切/30301_僵尸1号.png"
+    },
+    {
+      "hero_id": 30302,
+      "hero_name": "Mr.9",
+      "bustid": 10053,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30032",
+      "requested_spine_res": "H30032",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30032.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        385,
+        762
+      ],
+      "original": "原图/30302_Mr.9.png",
+      "cropped": "透明裁切/30302_Mr.9.png"
+    },
+    {
+      "hero_id": 30303,
+      "hero_name": "鱼人3号",
+      "bustid": 10016,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30034",
+      "requested_spine_res": "H30034",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30034.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        41,
+        86,
+        559,
+        769
+      ],
+      "original": "原图/30303_鱼人3号.png",
+      "cropped": "透明裁切/30303_鱼人3号.png"
+    },
+    {
+      "hero_id": 30304,
+      "hero_name": "Mr.5",
+      "bustid": 10009,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30037",
+      "requested_spine_res": "H30037",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30037.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        31,
+        300,
+        763
+      ],
+      "original": "原图/30304_Mr.5.png",
+      "cropped": "透明裁切/30304_Mr.5.png"
+    },
+    {
+      "hero_id": 30305,
+      "hero_name": "玛格丽特",
+      "bustid": 10004,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30047",
+      "requested_spine_res": "H30047",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30047.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        31,
+        356,
+        770
+      ],
+      "original": "原图/30305_玛格丽特.png",
+      "cropped": "透明裁切/30305_玛格丽特.png"
+    },
+    {
+      "hero_id": 30401,
+      "hero_name": "Mr.3",
+      "bustid": 10006,
+      "draw_res": "yinyoushiren",
+      "star": 5,
+      "spine_res": "H30042",
+      "requested_spine_res": "H30042",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30042.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        250,
+        770
+      ],
+      "original": "原图/30401_Mr.3.png",
+      "cropped": "透明裁切/30401_Mr.3.png"
+    },
+    {
+      "hero_id": 30402,
+      "hero_name": "阿布萨罗姆",
+      "bustid": 10012,
+      "draw_res": "wanglingshougezhe",
+      "star": 9,
+      "spine_res": "H30036",
+      "requested_spine_res": "H30036",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30036.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        30,
+        433,
+        763
+      ],
+      "original": "原图/30402_阿布萨罗姆.png",
+      "cropped": "透明裁切/30402_阿布萨罗姆.png"
+    },
+    {
+      "hero_id": 30403,
+      "hero_name": "Mr.1",
+      "bustid": 10022,
+      "draw_res": "shengchuitier",
+      "star": 5,
+      "spine_res": "H30004",
+      "requested_spine_res": "H30004",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30004.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        432,
+        760
+      ],
+      "original": "原图/30403_Mr.1.png",
+      "cropped": "透明裁切/30403_Mr.1.png"
+    },
+    {
+      "hero_id": 30404,
+      "hero_name": "Mr.双手指",
+      "bustid": 10070,
+      "draw_res": "gandaofu",
+      "star": 5,
+      "spine_res": "H30016",
+      "requested_spine_res": "H30016",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30016.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        303,
+        765
+      ],
+      "original": "原图/30404_Mr.双手指.png",
+      "cropped": "透明裁切/30404_Mr.双手指.png"
+    },
+    {
+      "hero_id": 30405,
+      "hero_name": "Mr.情人节",
+      "bustid": 10033,
+      "draw_res": "deluyi",
+      "star": 5,
+      "spine_res": "H30017",
+      "requested_spine_res": "H30017",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30017.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        365,
+        756
+      ],
+      "original": "原图/30405_Mr.情人节.png",
+      "cropped": "透明裁切/30405_Mr.情人节.png"
+    },
+    {
+      "hero_id": 30501,
+      "hero_name": "鳄鱼",
+      "bustid": 10039,
+      "draw_res": "aoding",
+      "star": 20,
+      "spine_res": "H32064",
+      "requested_spine_res": "H32064",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32064.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        524,
+        761
+      ],
+      "original": "原图/30501_鳄鱼.png",
+      "cropped": "透明裁切/30501_鳄鱼.png"
+    },
+    {
+      "hero_id": 30502,
+      "hero_name": "暴君熊",
+      "bustid": 10086,
+      "draw_res": "yingcha",
+      "star": 20,
+      "spine_res": "H32056",
+      "requested_spine_res": "H32056",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32056.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        44,
+        30,
+        475,
+        756
+      ],
+      "original": "原图/30502_暴君熊.png",
+      "cropped": "透明裁切/30502_暴君熊.png"
+    },
+    {
+      "hero_id": 30503,
+      "hero_name": "伊万科夫",
+      "bustid": 10024,
+      "draw_res": "kailancuier",
+      "star": 9,
+      "spine_res": "H31051",
+      "requested_spine_res": "H31051",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31051.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        32,
+        35,
+        413,
+        770
+      ],
+      "original": "原图/30503_伊万科夫.png",
+      "cropped": "透明裁切/30503_伊万科夫.png"
+    },
+    {
+      "hero_id": 30504,
+      "hero_name": "闪电",
+      "bustid": 10019,
+      "draw_res": "meimonvwang",
+      "star": 20,
+      "spine_res": "H32010",
+      "requested_spine_res": "H32010",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32010.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        30,
+        465,
+        770
+      ],
+      "original": "原图/30504_闪电.png",
+      "cropped": "透明裁切/30504_闪电.png"
+    },
+    {
+      "hero_id": 30505,
+      "hero_name": "霍古巴克",
+      "bustid": 10059,
+      "draw_res": "meidusha",
+      "star": 9,
+      "spine_res": "H31085",
+      "requested_spine_res": "H31085",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31085.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        35,
+        30,
+        545,
+        767
+      ],
+      "original": "原图/30505_霍古巴克.png",
+      "cropped": "透明裁切/30505_霍古巴克.png"
+    },
+    {
+      "hero_id": 30506,
+      "hero_name": "萨博（火拳）",
+      "bustid": 10010,
+      "draw_res": "yadianna",
+      "star": 20,
+      "spine_res": "H32058",
+      "requested_spine_res": "H32058",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32058.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        32,
+        31,
+        408,
+        763
+      ],
+      "original": "原图/30506_萨博（火拳）.png",
+      "cropped": "透明裁切/30506_萨博（火拳）.png"
+    },
+    {
+      "hero_id": 30507,
+      "hero_name": "月光莫利亚",
+      "bustid": 10076,
+      "draw_res": "pan",
+      "star": 20,
+      "spine_res": "H32094",
+      "requested_spine_res": "H32094",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32094.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        552,
+        770
+      ],
+      "original": "原图/30507_月光莫利亚.png",
+      "cropped": "透明裁切/30507_月光莫利亚.png"
+    },
+    {
+      "hero_id": 30508,
+      "hero_name": "龙马",
+      "bustid": 10081,
+      "draw_res": "sifenkesi",
+      "star": 20,
+      "spine_res": "H32095",
+      "requested_spine_res": "H32095",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32095.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        36,
+        31,
+        433,
+        764
+      ],
+      "original": "原图/30508_龙马.png",
+      "cropped": "透明裁切/30508_龙马.png"
+    },
+    {
+      "hero_id": 30509,
+      "hero_name": "鹰眼",
+      "bustid": 10091,
+      "draw_res": "fennier",
+      "star": 20,
+      "spine_res": "H32099",
+      "requested_spine_res": "H32099",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32099.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        144,
+        570,
+        765
+      ],
+      "original": "原图/30509_鹰眼.png",
+      "cropped": "透明裁切/30509_鹰眼.png"
+    },
+    {
+      "hero_id": 30510,
+      "hero_name": "多弗朗明哥",
+      "bustid": 10093,
+      "draw_res": "latatuosike",
+      "star": 20,
+      "spine_res": "H32101",
+      "requested_spine_res": "H32101",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32101.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        178,
+        569,
+        768
+      ],
+      "original": "原图/30510_多弗朗明哥.png",
+      "cropped": "透明裁切/30510_多弗朗明哥.png"
+    },
+    {
+      "hero_id": 30511,
+      "hero_name": "汉库克",
+      "bustid": 10098,
+      "draw_res": "xinxiya",
+      "star": 20,
+      "spine_res": "H32106",
+      "requested_spine_res": "H32106",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32106.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        387,
+        770
+      ],
+      "original": "原图/30511_汉库克.png",
+      "cropped": "透明裁切/30511_汉库克.png"
+    },
+    {
+      "hero_id": 30512,
+      "hero_name": "黑胡子",
+      "bustid": 10103,
+      "draw_res": "saishate",
+      "star": 20,
+      "spine_res": "H32111",
+      "requested_spine_res": "H32111",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32111.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        528,
+        770
+      ],
+      "original": "原图/30512_黑胡子.png",
+      "cropped": "透明裁切/30512_黑胡子.png"
+    },
+    {
+      "hero_id": 30513,
+      "hero_name": "金鱼乙姬",
+      "bustid": 10301,
+      "draw_res": "jinyuyiji",
+      "star": 20,
+      "spine_res": "H30117",
+      "requested_spine_res": "H30117",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30117.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        36,
+        30,
+        429,
+        770
+      ],
+      "original": "原图/30513_金鱼乙姬.png",
+      "cropped": "透明裁切/30513_金鱼乙姬.png"
+    },
+    {
+      "hero_id": 30514,
+      "hero_name": "光月时",
+      "bustid": 10302,
+      "draw_res": "guangyueshi",
+      "star": 20,
+      "spine_res": "h_guangyueshi",
+      "requested_spine_res": "h_guangyueshi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_guangyueshi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        374,
+        770
+      ],
+      "original": "原图/30514_光月时.png",
+      "cropped": "透明裁切/30514_光月时.png"
+    },
+    {
+      "hero_id": 30515,
+      "hero_name": "蕾玖",
+      "bustid": 10303,
+      "draw_res": "leijiu",
+      "star": 20,
+      "spine_res": "H30125",
+      "requested_spine_res": "H30125",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30125.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        31,
+        410,
+        764
+      ],
+      "original": "原图/30515_蕾玖.png",
+      "cropped": "透明裁切/30515_蕾玖.png"
+    },
+    {
+      "hero_id": 40301,
+      "hero_name": "达斯琪",
+      "bustid": 10071,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30089",
+      "requested_spine_res": "H30089",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30089.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        51,
+        30,
+        363,
+        768
+      ],
+      "original": "原图/40301_达斯琪.png",
+      "cropped": "透明裁切/40301_达斯琪.png"
+    },
+    {
+      "hero_id": 40401,
+      "hero_name": "布鲁诺",
+      "bustid": 10029,
+      "draw_res": "guangmingmushi",
+      "star": 5,
+      "spine_res": "H30048",
+      "requested_spine_res": "H30048",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30048.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        402,
+        766
+      ],
+      "original": "原图/40401_布鲁诺.png",
+      "cropped": "透明裁切/40401_布鲁诺.png"
+    },
+    {
+      "hero_id": 40402,
+      "hero_name": "猫头鹰",
+      "bustid": 10003,
+      "draw_res": "yuezhijisi",
+      "star": 5,
+      "spine_res": "H30027",
+      "requested_spine_res": "H30027",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30027.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        119,
+        570,
+        770
+      ],
+      "original": "原图/40402_猫头鹰.png",
+      "cropped": "透明裁切/40402_猫头鹰.png"
+    },
+    {
+      "hero_id": 40403,
+      "hero_name": "加布拉",
+      "bustid": 10000,
+      "draw_res": "jinglingwangzi",
+      "star": 5,
+      "spine_res": "H30003",
+      "requested_spine_res": "H30003",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30003.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        31,
+        340,
+        762
+      ],
+      "original": "原图/40403_加布拉.png",
+      "cropped": "透明裁切/40403_加布拉.png"
+    },
+    {
+      "hero_id": 40404,
+      "hero_name": "卡莉法",
+      "bustid": 10079,
+      "draw_res": "qiubite",
+      "star": 5,
+      "spine_res": "H30076",
+      "requested_spine_res": "H30076",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30076.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        30,
+        274,
+        770
+      ],
+      "original": "原图/40404_卡莉法.png",
+      "cropped": "透明裁切/40404_卡莉法.png"
+    },
+    {
+      "hero_id": 40501,
+      "hero_name": "路奇",
+      "bustid": 10038,
+      "draw_res": "yixisi",
+      "star": 9,
+      "spine_res": "H31075",
+      "requested_spine_res": "H31075",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31075.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        301,
+        768
+      ],
+      "original": "原图/40501_路奇.png",
+      "cropped": "透明裁切/40501_路奇.png"
+    },
+    {
+      "hero_id": 40502,
+      "hero_name": "战桃丸",
+      "bustid": 10001,
+      "draw_res": "zhousi",
+      "star": 20,
+      "spine_res": "H32031",
+      "requested_spine_res": "H32031",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32031.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        497,
+        762
+      ],
+      "original": "原图/40502_战桃丸.png",
+      "cropped": "透明裁切/40502_战桃丸.png"
+    },
+    {
+      "hero_id": 40503,
+      "hero_name": "黄猿",
+      "bustid": 10027,
+      "draw_res": "hela",
+      "star": 20,
+      "spine_res": "H32074",
+      "requested_spine_res": "H32074",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32074.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        439,
+        763
+      ],
+      "original": "原图/40503_黄猿.png",
+      "cropped": "透明裁切/40503_黄猿.png"
+    },
+    {
+      "hero_id": 40504,
+      "hero_name": "卡普",
+      "bustid": 10075,
+      "draw_res": "leishen",
+      "star": 20,
+      "spine_res": "H32077",
+      "requested_spine_res": "H32077",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32077.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        478,
+        766
+      ],
+      "original": "原图/40504_卡普.png",
+      "cropped": "透明裁切/40504_卡普.png"
+    },
+    {
+      "hero_id": 40505,
+      "hero_name": "斯摩格",
+      "bustid": 10031,
+      "draw_res": "gaiya",
+      "star": 9,
+      "spine_res": "H31052",
+      "requested_spine_res": "H31052",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31052.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        43,
+        30,
+        418,
+        750
+      ],
+      "original": "原图/40505_斯摩格.png",
+      "cropped": "透明裁切/40505_斯摩格.png"
+    },
+    {
+      "hero_id": 40506,
+      "hero_name": "青雉",
+      "bustid": 10068,
+      "draw_res": "aileiliya",
+      "star": 20,
+      "spine_res": "H32026",
+      "requested_spine_res": "H32026",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32026.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        518,
+        766
+      ],
+      "original": "原图/40506_青雉.png",
+      "cropped": "透明裁切/40506_青雉.png"
+    },
+    {
+      "hero_id": 40507,
+      "hero_name": "鹤",
+      "bustid": 10080,
+      "draw_res": "shenlingdajisi",
+      "star": 20,
+      "spine_res": "H32090",
+      "requested_spine_res": "H32090",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32090.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        37,
+        85,
+        567,
+        768
+      ],
+      "original": "原图/40507_鹤.png",
+      "cropped": "透明裁切/40507_鹤.png"
+    },
+    {
+      "hero_id": 40508,
+      "hero_name": "战国",
+      "bustid": 10090,
+      "draw_res": "lafeier",
+      "star": 20,
+      "spine_res": "H32098",
+      "requested_spine_res": "H32098",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32098.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        482,
+        762
+      ],
+      "original": "原图/40508_战国.png",
+      "cropped": "透明裁切/40508_战国.png"
+    },
+    {
+      "hero_id": 40509,
+      "hero_name": "麦哲伦",
+      "bustid": 10095,
+      "draw_res": "weinasi",
+      "star": 20,
+      "spine_res": "H32103",
+      "requested_spine_res": "H32103",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32103.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        32,
+        30,
+        469,
+        768
+      ],
+      "original": "原图/40509_麦哲伦.png",
+      "cropped": "透明裁切/40509_麦哲伦.png"
+    },
+    {
+      "hero_id": 40510,
+      "hero_name": "赤犬",
+      "bustid": 10101,
+      "draw_res": "jiabailie",
+      "star": 20,
+      "spine_res": "H32109",
+      "requested_spine_res": "H32109",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32109.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        547,
+        770
+      ],
+      "original": "原图/40510_赤犬.png",
+      "cropped": "透明裁切/40510_赤犬.png"
+    },
+    {
+      "hero_id": 40511,
+      "hero_name": "藤虎",
+      "bustid": 10105,
+      "draw_res": "tenghu",
+      "star": 20,
+      "spine_res": "H30113",
+      "requested_spine_res": "H30113",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30113.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        462,
+        770
+      ],
+      "original": "原图/40511_藤虎.png",
+      "cropped": "透明裁切/40511_藤虎.png"
+    },
+    {
+      "hero_id": 40512,
+      "hero_name": "泽法",
+      "bustid": 10401,
+      "draw_res": "zefa",
+      "star": 20,
+      "spine_res": "H30120",
+      "requested_spine_res": "H30120",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30120.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        44,
+        568,
+        769
+      ],
+      "original": "原图/40512_泽法.png",
+      "cropped": "透明裁切/40512_泽法.png"
+    },
+    {
+      "hero_id": 40513,
+      "hero_name": "桃兔",
+      "bustid": 10402,
+      "draw_res": "taotu",
+      "star": 20,
+      "spine_res": "H_taotu",
+      "requested_spine_res": "H_taotu",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H_taotu.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        31,
+        566,
+        770
+      ],
+      "original": "原图/40513_桃兔.png",
+      "cropped": "透明裁切/40513_桃兔.png"
+    },
+    {
+      "hero_id": 40514,
+      "hero_name": "茶豚",
+      "bustid": 10403,
+      "draw_res": "chatun",
+      "star": 20,
+      "spine_res": "H_chatun",
+      "requested_spine_res": "H_chatun",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H_chatun.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        35,
+        477,
+        770
+      ],
+      "original": "原图/40514_茶豚.png",
+      "cropped": "透明裁切/40514_茶豚.png"
+    },
+    {
+      "hero_id": 50301,
+      "hero_name": "蒙卡",
+      "bustid": 10073,
+      "draw_res": "",
+      "star": 3,
+      "spine_res": "H30011",
+      "requested_spine_res": "H30011",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30011.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        362,
+        756
+      ],
+      "original": "原图/50301_蒙卡.png",
+      "cropped": "透明裁切/50301_蒙卡.png"
+    },
+    {
+      "hero_id": 50401,
+      "hero_name": "克洛",
+      "bustid": 10077,
+      "draw_res": "duzhounvwu",
+      "star": 5,
+      "spine_res": "H30081",
+      "requested_spine_res": "H30081",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30081.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        40,
+        30,
+        289,
+        752
+      ],
+      "original": "原图/50401_克洛.png",
+      "cropped": "透明裁切/50401_克洛.png"
+    },
+    {
+      "hero_id": 50402,
+      "hero_name": "阿龙",
+      "bustid": 10082,
+      "draw_res": "siwangqishi",
+      "star": 5,
+      "spine_res": "H30002",
+      "requested_spine_res": "H30002",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30002.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        37,
+        32,
+        375,
+        760
+      ],
+      "original": "原图/50402_阿龙.png",
+      "cropped": "透明裁切/50402_阿龙.png"
+    },
+    {
+      "hero_id": 50403,
+      "hero_name": "克利克",
+      "bustid": 10066,
+      "draw_res": "akaliusi",
+      "star": 5,
+      "spine_res": "H30073",
+      "requested_spine_res": "H30073",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30073.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        35,
+        30,
+        546,
+        768
+      ],
+      "original": "原图/50403_克利克.png",
+      "cropped": "透明裁切/50403_克利克.png"
+    },
+    {
+      "hero_id": 50404,
+      "hero_name": "瓦尔波",
+      "bustid": 10050,
+      "draw_res": "heijinglingmiyan",
+      "star": 5,
+      "spine_res": "H30013",
+      "requested_spine_res": "H30013",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30013.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        195,
+        569,
+        767
+      ],
+      "original": "原图/50404_瓦尔波.png",
+      "cropped": "透明裁切/50404_瓦尔波.png"
+    },
+    {
+      "hero_id": 50501,
+      "hero_name": "索隆(新世界)",
+      "bustid": 10020,
+      "draw_res": "shenvmosha",
+      "star": 20,
+      "spine_res": "H30041",
+      "requested_spine_res": "H30041",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30041.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        504,
+        770
+      ],
+      "original": "原图/50501_索隆(新世界).png",
+      "cropped": "透明裁切/50501_索隆(新世界).png"
+    },
+    {
+      "hero_id": 50502,
+      "hero_name": "冥王雷利",
+      "bustid": 10028,
+      "draw_res": "hadisi",
+      "star": 20,
+      "spine_res": "H32040",
+      "requested_spine_res": "H32040",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32040.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        408,
+        766
+      ],
+      "original": "原图/50502_冥王雷利.png",
+      "cropped": "透明裁切/50502_冥王雷利.png"
+    },
+    {
+      "hero_id": 50503,
+      "hero_name": "巴杰斯",
+      "bustid": 10085,
+      "draw_res": "yabadun",
+      "star": 20,
+      "spine_res": "H32046",
+      "requested_spine_res": "H32046",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32046.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        180,
+        570,
+        767
+      ],
+      "original": "原图/50503_巴杰斯.png",
+      "cropped": "透明裁切/50503_巴杰斯.png"
+    },
+    {
+      "hero_id": 50504,
+      "hero_name": "香克斯",
+      "bustid": 10044,
+      "draw_res": "heianzhizhu",
+      "star": 20,
+      "spine_res": "H32059",
+      "requested_spine_res": "H32059",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32059.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        455,
+        768
+      ],
+      "original": "原图/50504_香克斯.png",
+      "cropped": "透明裁切/50504_香克斯.png"
+    },
+    {
+      "hero_id": 50505,
+      "hero_name": "黑胡子(新世界)",
+      "bustid": 10067,
+      "draw_res": "anubisi",
+      "star": 20,
+      "spine_res": "H32054",
+      "requested_spine_res": "H32054",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32054.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        151,
+        570,
+        766
+      ],
+      "original": "原图/50505_黑胡子(新世界).png",
+      "cropped": "透明裁切/50505_黑胡子(新世界).png"
+    },
+    {
+      "hero_id": 50506,
+      "hero_name": "雨之希留",
+      "bustid": 10021,
+      "draw_res": "luxifa",
+      "star": 9,
+      "spine_res": "H31063",
+      "requested_spine_res": "H31063",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H31063.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        76,
+        570,
+        770
+      ],
+      "original": "原图/50506_雨之希留.png",
+      "cropped": "透明裁切/50506_雨之希留.png"
+    },
+    {
+      "hero_id": 50507,
+      "hero_name": "艾斯（魂）",
+      "bustid": 10069,
+      "draw_res": "panduola",
+      "star": 20,
+      "spine_res": "H32091",
+      "requested_spine_res": "H32091",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32091.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        442,
+        765
+      ],
+      "original": "原图/50507_艾斯（魂）.png",
+      "cropped": "透明裁切/50507_艾斯（魂）.png"
+    },
+    {
+      "hero_id": 50508,
+      "hero_name": "白胡子",
+      "bustid": 10092,
+      "draw_res": "haila",
+      "star": 20,
+      "spine_res": "H32100",
+      "requested_spine_res": "H32100",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32100.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        373,
+        768
+      ],
+      "original": "原图/50508_白胡子.png",
+      "cropped": "透明裁切/50508_白胡子.png"
+    },
+    {
+      "hero_id": 50509,
+      "hero_name": "路飞(新世界)",
+      "bustid": 10097,
+      "draw_res": "nidehuoge",
+      "star": 20,
+      "spine_res": "H32105",
+      "requested_spine_res": "H32105",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32105.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        37,
+        30,
+        348,
+        764
+      ],
+      "original": "原图/50509_路飞(新世界).png",
+      "cropped": "透明裁切/50509_路飞(新世界).png"
+    },
+    {
+      "hero_id": 50510,
+      "hero_name": "马尔科",
+      "bustid": 10100,
+      "draw_res": "ameng",
+      "star": 20,
+      "spine_res": "H32108",
+      "requested_spine_res": "H32108",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H32108.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        31,
+        396,
+        764
+      ],
+      "original": "原图/50510_马尔科.png",
+      "cropped": "透明裁切/50510_马尔科.png"
+    },
+    {
+      "hero_id": 50511,
+      "hero_name": "卡塔库栗",
+      "bustid": 10106,
+      "draw_res": "katakuli",
+      "star": 20,
+      "spine_res": "H30118",
+      "requested_spine_res": "H30118",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30118.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        471,
+        770
+      ],
+      "original": "原图/50511_卡塔库栗.png",
+      "cropped": "透明裁切/50511_卡塔库栗.png"
+    },
+    {
+      "hero_id": 50512,
+      "hero_name": "凯多",
+      "bustid": 10501,
+      "draw_res": "kaiduo",
+      "star": 20,
+      "spine_res": "H30119",
+      "requested_spine_res": "H30119",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30119.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        164,
+        570,
+        770
+      ],
+      "original": "原图/50512_凯多.png",
+      "cropped": "透明裁切/50512_凯多.png"
+    },
+    {
+      "hero_id": 50513,
+      "hero_name": "BIG·MOM",
+      "bustid": 10502,
+      "draw_res": "dama",
+      "star": 20,
+      "spine_res": "H30121",
+      "requested_spine_res": "H30121",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30121.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        131,
+        570,
+        770
+      ],
+      "original": "原图/50513_BIG·MOM.png",
+      "cropped": "透明裁切/50513_BIG·MOM.png"
+    },
+    {
+      "hero_id": 50514,
+      "hero_name": "光月御田",
+      "bustid": 10503,
+      "draw_res": "guangyuyutian",
+      "star": 20,
+      "spine_res": "h_yutian",
+      "requested_spine_res": "h_yutian",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_yutian.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        40,
+        50,
+        560,
+        765
+      ],
+      "original": "原图/50514_光月御田.png",
+      "cropped": "透明裁切/50514_光月御田.png"
+    },
+    {
+      "hero_id": 50515,
+      "hero_name": "巴雷特",
+      "bustid": 10504,
+      "draw_res": "baleite",
+      "star": 20,
+      "spine_res": "H30123",
+      "requested_spine_res": "H30123",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30123.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        31,
+        545,
+        770
+      ],
+      "original": "原图/50515_巴雷特.png",
+      "cropped": "透明裁切/50515_巴雷特.png"
+    },
+    {
+      "hero_id": 50516,
+      "hero_name": "杰克",
+      "bustid": 10505,
+      "draw_res": "jieke",
+      "star": 20,
+      "spine_res": "H30124",
+      "requested_spine_res": "H30124",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30124.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        36,
+        228,
+        552,
+        770
+      ],
+      "original": "原图/50516_杰克.png",
+      "cropped": "透明裁切/50516_杰克.png"
+    },
+    {
+      "hero_id": 50517,
+      "hero_name": "奎因",
+      "bustid": 10506,
+      "draw_res": "kuiyin",
+      "star": 20,
+      "spine_res": "H30126",
+      "requested_spine_res": "H30126",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/H30126.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        178,
+        570,
+        768
+      ],
+      "original": "原图/50517_奎因.png",
+      "cropped": "透明裁切/50517_奎因.png"
+    },
+    {
+      "hero_id": 70501,
+      "hero_name": "索隆(和之国)",
+      "bustid": 10601,
+      "draw_res": "suolonghezhiguo",
+      "star": 25,
+      "spine_res": "h_suolonghezhiguo",
+      "requested_spine_res": "h_suolonghezhiguo",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_suolonghezhiguo.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        565,
+        771
+      ],
+      "original": "原图/70501_索隆(和之国).png",
+      "cropped": "透明裁切/70501_索隆(和之国).png"
+    },
+    {
+      "hero_id": 70502,
+      "hero_name": "罗(和之国)",
+      "bustid": 10602,
+      "draw_res": "luohezhiguo",
+      "star": 25,
+      "spine_res": "h_hezhiguoluo",
+      "requested_spine_res": "h_hezhiguoluo",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_hezhiguoluo.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        66,
+        570,
+        770
+      ],
+      "original": "原图/70502_罗(和之国).png",
+      "cropped": "透明裁切/70502_罗(和之国).png"
+    },
+    {
+      "hero_id": 70503,
+      "hero_name": "路飞(四挡)",
+      "bustid": 10603,
+      "draw_res": "lufeisidang",
+      "star": 25,
+      "spine_res": "h_lufeisidang",
+      "requested_spine_res": "h_lufeisidang",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_lufeisidang.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        47,
+        540,
+        762
+      ],
+      "original": "原图/70503_路飞(四挡).png",
+      "cropped": "透明裁切/70503_路飞(四挡).png"
+    },
+    {
+      "hero_id": 70504,
+      "hero_name": "路飞(尼卡形态)",
+      "bustid": 10604,
+      "draw_res": "nikalufei",
+      "star": 25,
+      "spine_res": "h_lufeinika",
+      "requested_spine_res": "h_lufeinika",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_lufeinika.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        144,
+        268,
+        389,
+        681
+      ],
+      "original": "原图/70504_路飞(尼卡形态).png",
+      "cropped": "透明裁切/70504_路飞(尼卡形态).png"
+    },
+    {
+      "hero_id": 70505,
+      "hero_name": "凯多(神龙)",
+      "bustid": 10605,
+      "draw_res": "kaiduoshenlong",
+      "star": 25,
+      "spine_res": "h_kaiduoshenlong",
+      "requested_spine_res": "h_kaiduoshenlong",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_kaiduoshenlong.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        36,
+        78,
+        567,
+        769
+      ],
+      "original": "原图/70505_凯多(神龙).png",
+      "cropped": "透明裁切/70505_凯多(神龙).png"
+    },
+    {
+      "hero_id": 70506,
+      "hero_name": "佛之战国",
+      "bustid": 10606,
+      "draw_res": "kaiduoshenlong",
+      "star": 25,
+      "spine_res": "h_fozhizhanguo",
+      "requested_spine_res": "h_fozhizhanguo",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_fozhizhanguo.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        341,
+        570,
+        770
+      ],
+      "original": "原图/70506_佛之战国.png",
+      "cropped": "透明裁切/70506_佛之战国.png"
+    },
+    {
+      "hero_id": 70507,
+      "hero_name": "金狮子·史基",
+      "bustid": 10607,
+      "draw_res": "jinshizi",
+      "star": 25,
+      "spine_res": "h_jinshizi",
+      "requested_spine_res": "h_jinshizi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_jinshizi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        496,
+        764
+      ],
+      "original": "原图/70507_金狮子·史基.png",
+      "cropped": "透明裁切/70507_金狮子·史基.png"
+    },
+    {
+      "hero_id": 70508,
+      "hero_name": "藤虎(三大将)",
+      "bustid": 10608,
+      "draw_res": "kaiduoshenlong",
+      "star": 25,
+      "spine_res": "h_tenghu",
+      "requested_spine_res": "h_tenghu",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_tenghu.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        49,
+        33,
+        299,
+        434
+      ],
+      "original": "原图/70508_藤虎(三大将).png",
+      "cropped": "透明裁切/70508_藤虎(三大将).png"
+    },
+    {
+      "hero_id": 70509,
+      "hero_name": "凯撒",
+      "bustid": 10609,
+      "draw_res": "kaiduoshenlong",
+      "star": 25,
+      "spine_res": "h_kaisa",
+      "requested_spine_res": "h_kaisa",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_kaisa.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        172,
+        247,
+        444,
+        601
+      ],
+      "original": "原图/70509_凯撒.png",
+      "cropped": "透明裁切/70509_凯撒.png"
+    },
+    {
+      "hero_id": 70510,
+      "hero_name": "黑胡子(四皇)",
+      "bustid": 10610,
+      "draw_res": "kaiduoshenlong",
+      "star": 25,
+      "spine_res": "h_heihuzi",
+      "requested_spine_res": "h_heihuzi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_heihuzi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        139,
+        570,
+        766
+      ],
+      "original": "原图/70510_黑胡子(四皇).png",
+      "cropped": "透明裁切/70510_黑胡子(四皇).png"
+    },
+    {
+      "hero_id": 70511,
+      "hero_name": "山治(杰尔马)",
+      "bustid": 106111,
+      "draw_res": "kaiduoshenlong",
+      "star": 25,
+      "spine_res": "h_shanzhiwaiguge",
+      "requested_spine_res": "h_shanzhiwaiguge",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_shanzhiwaiguge.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        511,
+        766
+      ],
+      "original": "原图/70511_山治(杰尔马).png",
+      "cropped": "透明裁切/70511_山治(杰尔马).png"
+    },
+    {
+      "hero_id": 70512,
+      "hero_name": "圆月猫蝮蛇",
+      "bustid": 10611,
+      "draw_res": "maofushe",
+      "star": 25,
+      "spine_res": "h_maofushe",
+      "requested_spine_res": "h_maofushe",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_maofushe.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        159,
+        568,
+        767
+      ],
+      "original": "原图/70512_圆月猫蝮蛇.png",
+      "cropped": "透明裁切/70512_圆月猫蝮蛇.png"
+    },
+    {
+      "hero_id": 70513,
+      "hero_name": "萨坦圣",
+      "bustid": 10612,
+      "draw_res": "satan",
+      "star": 25,
+      "spine_res": "h_satan",
+      "requested_spine_res": "h_satan",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_satan.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        36,
+        178,
+        559,
+        770
+      ],
+      "original": "原图/70513_萨坦圣.png",
+      "cropped": "透明裁切/70513_萨坦圣.png"
+    },
+    {
+      "hero_id": 70514,
+      "hero_name": "汉库克(七武海)",
+      "bustid": 10613,
+      "draw_res": "hankuke",
+      "star": 25,
+      "spine_res": "h_hankuke",
+      "requested_spine_res": "h_hankuke",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_hankuke.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        480,
+        770
+      ],
+      "original": "原图/70514_汉库克(七武海).png",
+      "cropped": "透明裁切/70514_汉库克(七武海).png"
+    },
+    {
+      "hero_id": 70515,
+      "hero_name": "克力架",
+      "bustid": 10614,
+      "draw_res": "kelijia",
+      "star": 25,
+      "spine_res": "h_kelijia",
+      "requested_spine_res": "h_kelijia",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_kelijia.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        131,
+        569,
+        770
+      ],
+      "original": "原图/70515_克力架.png",
+      "cropped": "透明裁切/70515_克力架.png"
+    },
+    {
+      "hero_id": 70516,
+      "hero_name": "夏洛特·斯慕吉",
+      "bustid": 10615,
+      "draw_res": "simuji",
+      "star": 25,
+      "spine_res": "h_xltsmj",
+      "requested_spine_res": "h_xltsmj",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_xltsmj.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        162,
+        570,
+        770
+      ],
+      "original": "原图/70516_夏洛特·斯慕吉.png",
+      "cropped": "透明裁切/70516_夏洛特·斯慕吉.png"
+    },
+    {
+      "hero_id": 70517,
+      "hero_name": "哥尔·D·罗杰",
+      "bustid": 10616,
+      "draw_res": "luojie",
+      "star": 25,
+      "spine_res": "h_luojie",
+      "requested_spine_res": "h_luojie",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_luojie.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        161,
+        235,
+        326,
+        392
+      ],
+      "original": "原图/70517_哥尔·D·罗杰.png",
+      "cropped": "透明裁切/70517_哥尔·D·罗杰.png"
+    },
+    {
+      "hero_id": 70518,
+      "hero_name": "未来流行·鹰眼",
+      "bustid": 10617,
+      "draw_res": "yingyan",
+      "star": 25,
+      "spine_res": "h_yingyan",
+      "requested_spine_res": "h_yingyan",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_yingyan.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        35,
+        30,
+        414,
+        770
+      ],
+      "original": "原图/70518_未来流行·鹰眼.png",
+      "cropped": "透明裁切/70518_未来流行·鹰眼.png"
+    },
+    {
+      "hero_id": 70519,
+      "hero_name": "乌索普(新世界)",
+      "bustid": 10618,
+      "draw_res": "susuopu",
+      "star": 25,
+      "spine_res": "h_wusuopu",
+      "requested_spine_res": "h_wusuopu",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_wusuopu.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        38,
+        30,
+        450,
+        766
+      ],
+      "original": "原图/70519_乌索普(新世界).png",
+      "cropped": "透明裁切/70519_乌索普(新世界).png"
+    },
+    {
+      "hero_id": 70520,
+      "hero_name": "弗兰奇(新世界)",
+      "bustid": 10619,
+      "draw_res": "fulanqi",
+      "star": 25,
+      "spine_res": "h_fulanqi",
+      "requested_spine_res": "h_fulanqi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_fulanqi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        50,
+        324,
+        562,
+        770
+      ],
+      "original": "原图/70520_弗兰奇(新世界).png",
+      "cropped": "透明裁切/70520_弗兰奇(新世界).png"
+    },
+    {
+      "hero_id": 70521,
+      "hero_name": "佩罗娜",
+      "bustid": 10620,
+      "draw_res": "peiluona",
+      "star": 25,
+      "spine_res": "h_peiluona",
+      "requested_spine_res": "h_peiluona",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_peiluona.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        380,
+        770
+      ],
+      "original": "原图/70521_佩罗娜.png",
+      "cropped": "透明裁切/70521_佩罗娜.png"
+    },
+    {
+      "hero_id": 70522,
+      "hero_name": "巴托洛米奥",
+      "bustid": 10621,
+      "draw_res": "batuo",
+      "star": 25,
+      "spine_res": "h_batuo",
+      "requested_spine_res": "h_batuo",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_batuo.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        322,
+        770
+      ],
+      "original": "原图/70522_巴托洛米奥.png",
+      "cropped": "透明裁切/70522_巴托洛米奥.png"
+    },
+    {
+      "hero_id": 70523,
+      "hero_name": "布鲁克(新世界)",
+      "bustid": 10622,
+      "draw_res": "buluke",
+      "star": 25,
+      "spine_res": "h_buluke",
+      "requested_spine_res": "h_buluke",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_buluke.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        189,
+        568,
+        767
+      ],
+      "original": "原图/70523_布鲁克(新世界).png",
+      "cropped": "透明裁切/70523_布鲁克(新世界).png"
+    },
+    {
+      "hero_id": 70524,
+      "hero_name": "艾斯(龙年)",
+      "bustid": 10623,
+      "draw_res": "aisi",
+      "star": 25,
+      "spine_res": "h_aisilong",
+      "requested_spine_res": "h_aisilong",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_aisilong.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        31,
+        334,
+        770
+      ],
+      "original": "原图/70524_艾斯(龙年).png",
+      "cropped": "透明裁切/70524_艾斯(龙年).png"
+    },
+    {
+      "hero_id": 70525,
+      "hero_name": "乌塔(世界歌姬)",
+      "bustid": 10624,
+      "draw_res": "wuta",
+      "star": 25,
+      "spine_res": "h_wuta",
+      "requested_spine_res": "h_wuta",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_wuta.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        299,
+        768
+      ],
+      "original": "原图/70525_乌塔(世界歌姬).png",
+      "cropped": "透明裁切/70525_乌塔(世界歌姬).png"
+    },
+    {
+      "hero_id": 70527,
+      "hero_name": "佩罗斯佩鲁",
+      "bustid": 10626,
+      "draw_res": "peideluo",
+      "star": 25,
+      "spine_res": "h_peiluosi",
+      "requested_spine_res": "h_peiluosi",
+      "res_fallback": "",
+      "source_type": "static_panel_fallback",
+      "source": "outputs/hero-panel-portraits/英雄面板人物/原图/70527_佩罗斯佩鲁_10626.png",
+      "size": [
+        720,
+        420
+      ],
+      "alpha_bbox": [
+        1,
+        4,
+        720,
+        420
+      ],
+      "original": "原图/70527_佩罗斯佩鲁.png",
+      "cropped": "透明裁切/70527_佩罗斯佩鲁.png"
+    },
+    {
+      "hero_id": 70528,
+      "hero_name": "文斯莫克·伽治",
+      "bustid": 10627,
+      "draw_res": "jiazhi",
+      "star": 25,
+      "spine_res": "h_jiazhi",
+      "requested_spine_res": "h_jiazhi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_jiazhi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        118,
+        568,
+        766
+      ],
+      "original": "原图/70528_文斯莫克·伽治.png",
+      "cropped": "透明裁切/70528_文斯莫克·伽治.png"
+    },
+    {
+      "hero_id": 70529,
+      "hero_name": "文斯莫克·伊治",
+      "bustid": 10628,
+      "draw_res": "yizhi",
+      "star": 25,
+      "spine_res": "h_yizhi",
+      "requested_spine_res": "h_yizhi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_yizhi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        131,
+        569,
+        770
+      ],
+      "original": "原图/70529_文斯莫克·伊治.png",
+      "cropped": "透明裁切/70529_文斯莫克·伊治.png"
+    },
+    {
+      "hero_id": 70530,
+      "hero_name": "炎灾·烬",
+      "bustid": 10629,
+      "draw_res": "jin",
+      "star": 25,
+      "spine_res": "h_jin",
+      "requested_spine_res": "h_jin",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_jin.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        67,
+        569,
+        770
+      ],
+      "original": "原图/70530_炎灾·烬.png",
+      "cropped": "透明裁切/70530_炎灾·烬.png"
+    },
+    {
+      "hero_id": 70531,
+      "hero_name": "绿牛",
+      "bustid": 10631,
+      "draw_res": "lvniu",
+      "star": 25,
+      "spine_res": "h_lvniu",
+      "requested_spine_res": "h_lvniu",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_lvniu.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        85,
+        570,
+        770
+      ],
+      "original": "原图/70531_绿牛.png",
+      "cropped": "透明裁切/70531_绿牛.png"
+    },
+    {
+      "hero_id": 70532,
+      "hero_name": "索隆(鬼岛)",
+      "bustid": 10632,
+      "draw_res": "suolongguidao",
+      "star": 25,
+      "spine_res": "h_suolong",
+      "requested_spine_res": "h_suolong",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_suolong.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        315,
+        569,
+        770
+      ],
+      "original": "原图/70532_索隆(鬼岛).png",
+      "cropped": "透明裁切/70532_索隆(鬼岛).png"
+    },
+    {
+      "hero_id": 70533,
+      "hero_name": "路飞(蛋头岛)",
+      "bustid": 10633,
+      "draw_res": "lufeidt",
+      "star": 25,
+      "spine_res": "h_lufeidt",
+      "requested_spine_res": "h_lufeidt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_lufeidt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        32,
+        30,
+        436,
+        770
+      ],
+      "original": "原图/70533_路飞(蛋头岛).png",
+      "cropped": "透明裁切/70533_路飞(蛋头岛).png"
+    },
+    {
+      "hero_id": 70534,
+      "hero_name": "索隆(蛋头岛)",
+      "bustid": 10634,
+      "draw_res": "sulongdt",
+      "star": 25,
+      "spine_res": "h_suolongdt",
+      "requested_spine_res": "h_suolongdt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_suolongdt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        332,
+        770
+      ],
+      "original": "原图/70534_索隆(蛋头岛).png",
+      "cropped": "透明裁切/70534_索隆(蛋头岛).png"
+    },
+    {
+      "hero_id": 70535,
+      "hero_name": "娜美(蛋头岛)",
+      "bustid": 10635,
+      "draw_res": "nameidt",
+      "star": 25,
+      "spine_res": "h_nameidt",
+      "requested_spine_res": "h_nameidt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_nameidt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        31,
+        347,
+        770
+      ],
+      "original": "原图/70535_娜美(蛋头岛).png",
+      "cropped": "透明裁切/70535_娜美(蛋头岛).png"
+    },
+    {
+      "hero_id": 70536,
+      "hero_name": "乌索普(蛋头岛)",
+      "bustid": 10636,
+      "draw_res": "wusuopudt",
+      "star": 25,
+      "spine_res": "h_wusuopudt",
+      "requested_spine_res": "h_wusuopudt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_wusuopudt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        529,
+        770
+      ],
+      "original": "原图/70536_乌索普(蛋头岛).png",
+      "cropped": "透明裁切/70536_乌索普(蛋头岛).png"
+    },
+    {
+      "hero_id": 70537,
+      "hero_name": "山治(蛋头岛)",
+      "bustid": 10637,
+      "draw_res": "shanzhidt",
+      "star": 25,
+      "spine_res": "h_shanzhidt",
+      "requested_spine_res": "h_shanzhidt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_shanzhidt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        321,
+        770
+      ],
+      "original": "原图/70537_山治(蛋头岛).png",
+      "cropped": "透明裁切/70537_山治(蛋头岛).png"
+    },
+    {
+      "hero_id": 70538,
+      "hero_name": "罗宾(蛋头岛)",
+      "bustid": 10638,
+      "draw_res": "luobindt",
+      "star": 25,
+      "spine_res": "h_luobindt",
+      "requested_spine_res": "h_luobindt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_luobindt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        236,
+        30,
+        519,
+        769
+      ],
+      "original": "原图/70538_罗宾(蛋头岛).png",
+      "cropped": "透明裁切/70538_罗宾(蛋头岛).png"
+    },
+    {
+      "hero_id": 70539,
+      "hero_name": "弗兰奇(蛋头岛)",
+      "bustid": 10639,
+      "draw_res": "fulanqidt",
+      "star": 25,
+      "spine_res": "h_fulanqidt",
+      "requested_spine_res": "h_fulanqidt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_fulanqidt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        197,
+        570,
+        769
+      ],
+      "original": "原图/70539_弗兰奇(蛋头岛).png",
+      "cropped": "透明裁切/70539_弗兰奇(蛋头岛).png"
+    },
+    {
+      "hero_id": 70540,
+      "hero_name": "布鲁克(蛋头岛)",
+      "bustid": 10640,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_bulukedt",
+      "requested_spine_res": "h_bulukedt",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_bulukedt.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        398,
+        770
+      ],
+      "original": "原图/70540_布鲁克(蛋头岛).png",
+      "cropped": "透明裁切/70540_布鲁克(蛋头岛).png"
+    },
+    {
+      "hero_id": 70541,
+      "hero_name": "日奈",
+      "bustid": 10641,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_rinai",
+      "requested_spine_res": "h_rinai",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_rinai.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        33,
+        94,
+        570,
+        769
+      ],
+      "original": "原图/70541_日奈.png",
+      "cropped": "透明裁切/70541_日奈.png"
+    },
+    {
+      "hero_id": 70542,
+      "hero_name": "大和(赛博朋克)",
+      "bustid": 10642,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_dahegj",
+      "requested_spine_res": "h_dahegj",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_dahegj.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        31,
+        482,
+        770
+      ],
+      "original": "原图/70542_大和(赛博朋克).png",
+      "cropped": "透明裁切/70542_大和(赛博朋克).png"
+    },
+    {
+      "hero_id": 70543,
+      "hero_name": "夏洛特玲玲",
+      "bustid": 10643,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_lingling",
+      "requested_spine_res": "h_lingling",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_lingling.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        67,
+        30,
+        485,
+        770
+      ],
+      "original": "原图/70543_夏洛特玲玲.png",
+      "cropped": "透明裁切/70543_夏洛特玲玲.png"
+    },
+    {
+      "hero_id": 70544,
+      "hero_name": "路飞(和之国)",
+      "bustid": 10644,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_lufeihzg",
+      "requested_spine_res": "h_lufeihzg",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_lufeihzg.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        348,
+        770
+      ],
+      "original": "原图/70544_路飞(和之国).png",
+      "cropped": "透明裁切/70544_路飞(和之国).png"
+    },
+    {
+      "hero_id": 70545,
+      "hero_name": "尼治",
+      "bustid": 10645,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_nizhi",
+      "requested_spine_res": "h_nizhi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_nizhi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        460,
+        770
+      ],
+      "original": "原图/70545_尼治.png",
+      "cropped": "透明裁切/70545_尼治.png"
+    },
+    {
+      "hero_id": 70546,
+      "hero_name": "贝克曼",
+      "bustid": 10646,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_beikeman",
+      "requested_spine_res": "h_beikeman",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_beikeman.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        62,
+        107,
+        501,
+        770
+      ],
+      "original": "原图/70546_贝克曼.png",
+      "cropped": "透明裁切/70546_贝克曼.png"
+    },
+    {
+      "hero_id": 70547,
+      "hero_name": "白胡子(巅峰)",
+      "bustid": 10647,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_baihuzi",
+      "requested_spine_res": "h_baihuzi",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_baihuzi.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        524,
+        770
+      ],
+      "original": "原图/70547_白胡子(巅峰).png",
+      "cropped": "透明裁切/70547_白胡子(巅峰).png"
+    },
+    {
+      "hero_id": 70548,
+      "hero_name": "熊(机械)",
+      "bustid": 10648,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_xiong",
+      "requested_spine_res": "h_xiong",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_xiong.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        30,
+        538,
+        770
+      ],
+      "original": "原图/70548_熊(机械).png",
+      "cropped": "透明裁切/70548_熊(机械).png"
+    },
+    {
+      "hero_id": 70549,
+      "hero_name": "娜美(宙斯)",
+      "bustid": 10648,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_nameizs",
+      "requested_spine_res": "h_nameizs",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_nameizs.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        179,
+        570,
+        770
+      ],
+      "original": "原图/70549_娜美(宙斯).png",
+      "cropped": "透明裁切/70549_娜美(宙斯).png"
+    },
+    {
+      "hero_id": 70550,
+      "hero_name": "山治(鬼岛)",
+      "bustid": 10648,
+      "draw_res": "bulukedt",
+      "star": 25,
+      "spine_res": "h_shanzhigd",
+      "requested_spine_res": "h_shanzhigd",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_shanzhigd.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        31,
+        30,
+        265,
+        770
+      ],
+      "original": "原图/70550_山治(鬼岛).png",
+      "cropped": "透明裁切/70550_山治(鬼岛).png"
+    },
+    {
+      "hero_id": 90527,
+      "hero_name": "狼邢",
+      "bustid": 10630,
+      "draw_res": "langxing",
+      "star": 25,
+      "spine_res": "h_langxing",
+      "requested_spine_res": "h_langxing",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_langxing.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        87,
+        570,
+        770
+      ],
+      "original": "原图/90527_狼邢.png",
+      "cropped": "透明裁切/90527_狼邢.png"
+    },
+    {
+      "hero_id": 709830,
+      "hero_name": "库赞",
+      "bustid": 10625,
+      "draw_res": "kuzan",
+      "star": 25,
+      "spine_res": "h_kuzan",
+      "requested_spine_res": "h_kuzan",
+      "res_fallback": "",
+      "source_type": "spine_show_render",
+      "source": "outputs/hero-panel-portraits/spine-all-renders/h_kuzan.png",
+      "size": [
+        600,
+        800
+      ],
+      "alpha_bbox": [
+        30,
+        29,
+        324,
+        770
+      ],
+      "original": "原图/709830_库赞.png",
+      "cropped": "透明裁切/709830_库赞.png"
+    }
+  ]
+}
